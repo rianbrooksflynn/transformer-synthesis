@@ -16,6 +16,10 @@ num_heads = 5
 key_dim = 20
 embed_dim = num_heads * key_dim
 
+layernorm_data = np.random.randn(batch_size, *layernorm_in_shape)
+mha_q_data = np.random.randn(batch_size, seq_len, embed_dim)
+mha_kv_data = np.random.randn(batch_size, seq_len, embed_dim)
+
 
 def keras_layernorm():
     model = tf.keras.models.Sequential()
@@ -27,6 +31,8 @@ def keras_layernorm():
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir)
     hls_model.compile()
 
+    hls_model.predict(layernorm_data)
+
 
 def pytorch_layernorm():
     model = torch.nn.Sequential(torch.nn.LayerNorm(layernorm_in_shape[-1]))
@@ -36,6 +42,8 @@ def pytorch_layernorm():
     output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_Vivado')
     hls_model = hls4ml.converters.convert_from_pytorch_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir)
     hls_model.compile()
+
+    hls_model.predict(layernorm_data)
 
 
 def keras_mha():
@@ -49,6 +57,8 @@ def keras_mha():
     output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado')
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir)
     hls_model.compile()
+
+    hls_model.predict([mha_q_data, mha_kv_data])
 
 
 def pytorch_mha():
@@ -75,6 +85,8 @@ def pytorch_mha():
     output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_mha_Vivado')
     hls_model = hls4ml.converters.convert_from_pytorch_model(model, backend='Vivado', hls_config=config, io_type='io_parallel', output_dir=output_dir)
     hls_model.compile()
+
+    hls_model.predict([mha_q_data, mha_kv_data, mha_kv_data])
 
 
 if __name__ == "__main__":
