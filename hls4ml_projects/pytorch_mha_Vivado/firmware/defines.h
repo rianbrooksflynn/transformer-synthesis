@@ -8,14 +8,14 @@
 #include <cstdio>
 
 // hls-fpga-machine-learning insert numbers
-#define N_INPUT_1_1 100
-#define N_INPUT_2_1 100
-#define N_INPUT_1_2 100
-#define N_INPUT_2_2 100
-#define N_INPUT_1_3 100
-#define N_INPUT_2_3 100
-#define feature_out_4 100
-#define seq_out_4 100
+#define N_INPUT_1_1 10
+#define N_INPUT_2_1 10
+#define N_INPUT_1_2 10
+#define N_INPUT_2_2 10
+#define N_INPUT_1_3 10
+#define N_INPUT_2_3 10
+#define feature_out_4 10
+#define seq_out_4 10
 
 
 // hls-fpga-machine-learning insert layer-precision

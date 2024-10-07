@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
       input_t input_1[N_INPUT_1_1*N_INPUT_2_1];
       nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1>(in, input_1);
       input2_t input_2[N_INPUT_1_2*N_INPUT_2_2];
-      nnet::copy_data<float, input2_t, 10000, N_INPUT_1_2*N_INPUT_2_2>(in, input_2);
+      nnet::copy_data<float, input2_t, 100, N_INPUT_1_2*N_INPUT_2_2>(in, input_2);
       result_t layer3_out[seq_out_3*feature_out_3];
 
             // hls-fpga-machine-learning insert top-level-function

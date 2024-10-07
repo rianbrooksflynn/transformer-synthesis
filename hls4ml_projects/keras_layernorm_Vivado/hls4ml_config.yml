@@ -24,10 +24,10 @@ IOType: io_parallel
 InputData: /home/rian/A3D3/transformer-synthesis/layernorm_data.dat
 KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/keras_model.keras'
 OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado
-OutputPredictions: null
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/keras_layernorm_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: CD132dB8
+Stamp: 64A1fd6b
 Version: 1.0.0
 WriterConfig:
   Namespace: null

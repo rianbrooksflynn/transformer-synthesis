@@ -18,7 +18,7 @@
 // layer_normalization
 struct config2 : nnet::layernorm_config {
     static const unsigned n_in = N_INPUT_1_1*N_INPUT_2_1;
-    static const unsigned seq_len = 100;
+    static const unsigned seq_len = 10;
     static const unsigned table_size = 1024;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;

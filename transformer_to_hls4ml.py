@@ -1,6 +1,9 @@
 from pathlib import Path
 from shutil import copyfile
 
+import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 import torch
 import tensorflow as tf
 import numpy as np
@@ -9,49 +12,41 @@ import hls4ml
 
 file_path = Path(__file__).parent
 
-layernorm_in_shape = (100, 100)
+batch_size = 10
 
-batch_size = 100
-seq_len = 100
-num_heads = 5
-key_dim = 20
+layernorm_in_shape = (10, 10)
+
+seq_len = 10
+num_heads = 2
+key_dim = 5
 embed_dim = num_heads * key_dim
 
 layernorm_data = np.random.randn(batch_size, *layernorm_in_shape)
 layernorm_data_file = str(file_path / 'layernorm_data.dat')
+
 mha_q_data = np.random.randn(batch_size, seq_len, embed_dim)
 mha_kv_data = np.random.randn(batch_size, seq_len, embed_dim)
 keras_mha_data_file = str(file_path / 'keras_mha_data.dat')
 pytorch_mha_data_file = str(file_path / 'pytorch_mha_data.dat')
 
-
-def save_layernorm_data():
-    data = layernorm_data.reshape(layernorm_data.shape[0], -1)
-    with open(layernorm_data_file, 'w') as f:
+def save_data(data, file_path):
+    data = data.reshape(data.shape[0], -1)
+    with open(file_path, 'a') as f:
         for i in range(data.shape[0]):
             for j in range(data.shape[1]):
                 f.write(str(data[i][j]) + " ")
             f.write("\n")
 
 
+def save_layernorm_data():
+    save_data(layernorm_data, layernorm_data_file)
+
+
 def save_mha_data():
-    q_data = mha_q_data.reshape(mha_q_data.shape[0], -1)
-    kv_data = mha_kv_data.reshape(mha_kv_data.shape[0], -1)
-    with open(keras_mha_data_file, 'w') as f:
-        for i in range(q_data.shape[0]):
-            for j in range(q_data.shape[1]):
-                f.write(str(q_data[i][j]) + " ")
-            f.write("\n")
-        for i in range(kv_data.shape[0]):
-            for j in range(kv_data.shape[1]):
-                f.write(str(kv_data[i][j]) + " ")
-            f.write("\n")
+    save_data(mha_q_data, keras_mha_data_file)
+    save_data(mha_kv_data, keras_mha_data_file)
     copyfile(keras_mha_data_file, pytorch_mha_data_file)
-    with open(pytorch_mha_data_file, 'a') as f:
-        for i in range(kv_data.shape[0]):
-            for j in range(kv_data.shape[1]):
-                f.write(str(kv_data[i][j]) + " ")
-            f.write("\n")
+    save_data(mha_kv_data, pytorch_mha_data_file)
 
 
 def keras_layernorm():
@@ -59,9 +54,13 @@ def keras_layernorm():
     model.add(tf.keras.layers.LayerNormalization(input_shape=layernorm_in_shape))
     model.compile()
 
+    predictions = model.predict(layernorm_data)
+    out_file = str(file_path / 'keras_layernorm_predictions.dat')
+    save_data(predictions, out_file)
+
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
     output_dir = str(file_path / 'hls4ml_projects' / 'keras_layernorm_Vivado')
-    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file)
+    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
 
@@ -69,9 +68,13 @@ def pytorch_layernorm():
     model = torch.nn.Sequential(torch.nn.LayerNorm(layernorm_in_shape[-1]))
     model.eval()
 
+    predictions = model(torch.Tensor(layernorm_data)).detach().numpy()
+    out_file = str(file_path / 'pytorch_layernorm_predictions.dat')
+    save_data(predictions, out_file)
+
     config = hls4ml.utils.config_from_pytorch_model(model, layernorm_in_shape, granularity='name', backend='Vivado')
     output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_Vivado')
-    hls_model = hls4ml.converters.convert_from_pytorch_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file)
+    hls_model = hls4ml.converters.convert_from_pytorch_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
 
@@ -82,9 +85,13 @@ def keras_mha():
     model = tf.keras.Model(inputs=[query_input, key_value_input], outputs=mha_layer)
     model.compile()
 
+    predictions = model.predict([mha_q_data, mha_kv_data])
+    out_file = str(file_path / 'keras_mha_predictions.dat')
+    save_data(predictions, out_file)
+
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
     output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado')
-    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file)
+    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
     hls_model.compile()
 
 
@@ -101,6 +108,10 @@ def pytorch_mha():
     model = MultiHeadAttentionModel()
     model.eval()
 
+    predictions = model(torch.Tensor(mha_q_data), torch.Tensor(mha_kv_data), torch.Tensor(mha_kv_data)).detach().numpy()
+    out_file = str(file_path / 'pytorch_mha_predictions.dat')
+    save_data(predictions, out_file)
+
     config = hls4ml.utils.config_from_pytorch_model(
         model,
         [(seq_len, embed_dim), (seq_len, embed_dim), (seq_len, embed_dim)],
@@ -110,10 +121,8 @@ def pytorch_mha():
         transpose_outputs=False,
     )
     output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_mha_Vivado')
-    hls_model = hls4ml.converters.convert_from_pytorch_model(model, backend='Vivado', hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=pytorch_mha_data_file)
+    hls_model = hls4ml.converters.convert_from_pytorch_model(model, backend='Vivado', hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=pytorch_mha_data_file, output_data_tb=out_file)
     hls_model.compile()
-
-    hls_model.predict([mha_q_data, mha_kv_data, mha_kv_data])
 
 
 if __name__ == "__main__":

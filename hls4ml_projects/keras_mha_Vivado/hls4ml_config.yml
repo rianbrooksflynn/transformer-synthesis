@@ -36,10 +36,10 @@ IOType: io_parallel
 InputData: /home/rian/A3D3/transformer-synthesis/keras_mha_data.dat
 KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/keras_model.keras'
 OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado
-OutputPredictions: null
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/keras_mha_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: EfD1f0FD
+Stamp: 72Ba04F5
 Version: 1.0.0
 WriterConfig:
   Namespace: null

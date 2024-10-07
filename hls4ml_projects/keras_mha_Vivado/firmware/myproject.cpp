@@ -20,14 +20,14 @@ void myproject(
 #ifndef __SYNTHESIS__
     static bool loaded_weights = false;
     if (!loaded_weights) {
-        nnet::load_weights_from_txt<multi_head_attention_attention_output_weight_t, 10000>(attention_output_weight3, "attention_output_weight3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_attention_output_bias_t, 100>(attention_output_bias3, "attention_output_bias3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_key_weight_t, 10000>(key_weight3, "key_weight3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_key_bias_t, 100>(key_bias3, "key_bias3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_query_weight_t, 10000>(query_weight3, "query_weight3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_query_bias_t, 100>(query_bias3, "query_bias3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_value_weight_t, 10000>(value_weight3, "value_weight3.txt");
-        nnet::load_weights_from_txt<multi_head_attention_value_bias_t, 100>(value_bias3, "value_bias3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_attention_output_weight_t, 100>(attention_output_weight3, "attention_output_weight3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_attention_output_bias_t, 10>(attention_output_bias3, "attention_output_bias3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_key_weight_t, 100>(key_weight3, "key_weight3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_key_bias_t, 10>(key_bias3, "key_bias3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_query_weight_t, 100>(query_weight3, "query_weight3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_query_bias_t, 10>(query_bias3, "query_bias3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_value_weight_t, 100>(value_weight3, "value_weight3.txt");
+        nnet::load_weights_from_txt<multi_head_attention_value_bias_t, 10>(value_bias3, "value_bias3.txt");
         loaded_weights = true;    }
 #endif
     // ****************************************

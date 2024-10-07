@@ -19,8 +19,8 @@ void myproject(
 #ifndef __SYNTHESIS__
     static bool loaded_weights = false;
     if (!loaded_weights) {
-        nnet::load_weights_from_txt<layer_normalization_scale_t, 100>(s2, "s2.txt");
-        nnet::load_weights_from_txt<layer_normalization_bias_t, 100>(b2, "b2.txt");
+        nnet::load_weights_from_txt<layer_normalization_scale_t, 10>(s2, "s2.txt");
+        nnet::load_weights_from_txt<layer_normalization_bias_t, 10>(b2, "b2.txt");
         loaded_weights = true;    }
 #endif
     // ****************************************
