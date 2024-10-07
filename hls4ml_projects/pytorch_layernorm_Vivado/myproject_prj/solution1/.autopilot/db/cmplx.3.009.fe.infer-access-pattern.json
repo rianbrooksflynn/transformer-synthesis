@@ -1,0 +1,72 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4 3 1",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 305,
+    "name": "myproject",
+    "total_instructions": 4819
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "2 2 2 2 2 2 2 2 2 2",
+    "file": "nnet_layernorm.h",
+    "fileloc": 127,
+    "instructions": 431,
+    "loads": {
+      "L": 200
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 200
+    },
+    "total_instructions": 4111
+  },
+  "2": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 76,
+    "instructions": 368,
+    "loads": {
+      "G": 2,
+      "L": 10
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 368
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 201,
+    "loads": {
+      "L": 100
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 100
+    },
+    "total_instructions": 201
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 202,
+    "loads": {
+      "L": 1
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 100
+    },
+    "total_instructions": 202
+  }
+}

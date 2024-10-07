@@ -1,0 +1,81 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /opt/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'rflynn' on host 'olivb-20.cern.ch' (Linux_x86_64 version 5.14.0-427.22.1.el9_4.x86_64) on Mon Oct 07 10:34:10 CEST 2024
+INFO: [HLS 200-10] On os "AlmaLinux release 9.3 (Shamrock Pampas Cat)"
+INFO: [HLS 200-10] In directory '/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vivado'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'build_prj.tcl'
+INFO: [HLS 200-1510] Running: open_project myproject_prj 
+INFO: [HLS 200-10] Opening project '/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vivado/myproject_prj'.
+INFO: [HLS 200-1510] Running: set_top myproject 
+INFO: [HLS 200-1510] Running: add_files firmware/myproject.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb firmware/weights 
+INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb_data 
+INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 
+INFO: [HLS 200-10] Opening solution '/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vivado/myproject_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=80
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1464] Running solution command: config_compile -complex-mul-dsp=0
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1464] Running solution command: config_schedule -enable_dsp_full_reg=0
+INFO: [HLS 200-1510] Running: config_array_partition -maximum_size 4096 
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: set_part xcvu13p-flga2577-2-e 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
+INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 12.5% default 
+***** C SIMULATION *****
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+0.0889336 -0.0607501 -0.198992 -0.0599935 0.0465835 -0.0822725 0.00535625 -0.116085 -0.204135 -0.138318 -0.388884 -0.0978308 0.468627 -0.596543 0.0614106 -0.374767 -0.0458074 -0.117116 -0.3718 -0.131815 -0.436577 -0.262863 0.0393556 -0.329059 -0.0807446 -0.254323 -0.0310478 -0.0328459 -0.139799 -0.29252 0.100088 -0.050489 -0.040695 -0.192139 0.0597641 -0.0811953 0.0596289 -0.254486 -0.280239 -0.162191 -0.146037 -0.0767651 0.158631 -0.343494 0.0220798 -0.203507 0.019759 -0.200429 -0.27991 -0.196402 0.169703 -0.0194395 -0.15989 -0.0621531 0.0759012 -0.0544287 0.0159001 -0.148847 -0.241206 -0.0892185 0.00693431 -0.0756596 -0.176676 -0.0161504 0.00491212 -0.0760847 -0.0119443 -0.093752 -0.127228 -0.158313 -0.277711 -0.0770541 0.308515 -0.474995 0.0375261 -0.287138 -0.0106895 -0.121418 -0.352191 -0.155742 -0.0548053 0.0208136 0.168332 -0.327554 0.101786 -0.194971 0.0402155 -0.103531 -0.34677 -0.0936677 -0.0699337 -0.145028 -0.210657 -0.11581 -0.0506069 -0.0889818 -0.0129641 -0.015749 -0.180745 -0.178349 
+Quantized predictions
+-0.0703125 0.400391 0.40918 -0.430664 0.19043 0.208984 0.0673828 0.301758 -0.0732422 0.264648 -0.0361328 -0.158203 -0.130859 0.146484 -0.108398 -0.103516 0.0224609 -0.230469 0.226563 0.00390625 -0.0400391 0.166992 0.196289 -0.270508 0.120117 -0.0205078 0.237305 -0.0078125 0.141602 0.302734 0.00585938 0.15625 0.143555 -0.264648 0.182617 0.0605469 0.243164 0.0205078 0.0947266 0.317383 -0.03125 -0.114258 -0.078125 0.118164 -0.112305 -0.134766 0.0439453 -0.347656 0.264648 0.177734 -0.0322266 0.135742 0.175781 -0.317383 0.186523 0.0957031 0.182617 0.00683594 0.121094 0.233398 -0.0693359 0.185547 0.214844 -0.227539 0.0908203 0.12207 0.0292969 0.0839844 0.0449219 0.145508 -0.03125 -0.0273438 -0.00195313 -0.0478516 -0.0224609 -0.0498047 0.0996094 -0.015625 0.145508 0.0664063 -0.0410156 0.294922 0.316406 -0.396484 0.186523 0.0429688 0.25 0.227539 0.0439453 0.285156 -0.0585938 -0.0322266 0.0351563 -0.0761719 -0.00488281 -0.00292969 0.0332031 -0.0830078 0.166016 0.0517578 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 10
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 10.41 seconds. CPU system time: 0.99 seconds. Elapsed time: 11.92 seconds; current allocated memory: 0.000 MB.
+***** C SIMULATION COMPLETED IN 0h0m11s *****
+***** C/RTL SYNTHESIS *****
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.15 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 283.133 MB.
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2.1 seconds. CPU system time: 0.49 seconds. Elapsed time: 3.34 seconds; current allocated memory: 0.293 MB.
+ 
+    while executing
+"source build_prj.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 15.41 seconds. Total CPU system time: 2.07 seconds. Total elapsed time: 19.22 seconds; peak allocated memory: 283.426 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Oct  7 10:34:28 2024...

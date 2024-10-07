@@ -1,0 +1,137 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "10 9 6",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 24,
+    "name": "myproject",
+    "total_instructions": 4473
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 70,
+    "instructions": 4,
+    "name": "product",
+    "total_instructions": 149
+  },
+  "10": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 29,
+    "loads": {
+      "L": 1
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 29
+  },
+  "2": {
+    "basicblocks": 14,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 49,
+    "instructions": 45,
+    "loads": {
+      "L": 3
+    },
+    "name": "lookup_invert_sqr<config2>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 258
+  },
+  "3": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 32,
+    "instructions": 42,
+    "loads": {
+      "L": 2
+    },
+    "name": "init_invert_sqr_table<config2, 1024>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 827
+  },
+  "4": {
+    "basicblocks": 21,
+    "calls": "3 1 1 2",
+    "file": "nnet_layernorm.h",
+    "fileloc": 76,
+    "instructions": 245,
+    "loads": {
+      "L": 9
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 4328
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "b2.h",
+    "fileloc": 12,
+    "instructions": 11,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 3861
+  },
+  "6": {
+    "basicblocks": 19,
+    "calls": "4",
+    "file": "nnet_layernorm.h",
+    "fileloc": 127,
+    "instructions": 63,
+    "loads": {
+      "L": 2
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 4391
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "8 5",
+    "file": "myproject.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 3,
+    "name": "",
+    "total_instructions": 7725
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "s2.h",
+    "fileloc": 12,
+    "instructions": 11,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 3861
+  },
+  "9": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 29,
+    "loads": {
+      "L": 1
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 29
+  }
+}

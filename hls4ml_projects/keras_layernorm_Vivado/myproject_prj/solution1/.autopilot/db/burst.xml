@@ -1,0 +1,4 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="CouldNotAnalyzeBoundsPatternMissed" src_info="firmware/nnet_utils/nnet_layernorm.h:63:22" msg_id="214-252" msg_severity="INFO" msg_body="Could not analyze the loop bounds" resolution="214-252" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:63:22" LoopName="VITIS_LOOP_63_1" ParentFunc="void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)"/>
+</VitisHLS:BurstInfo>
+
