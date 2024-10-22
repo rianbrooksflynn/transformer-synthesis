@@ -1,0 +1,247 @@
+Found 1 solution(s) in hls4ml_projects/keras_layernorm_Vivado//myproject_prj.
+Reports for solution "solution1":
+
+C SIMULATION RESULT:
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+0.116042 -1.53124 1.38035 1.15643 -0.741249 1.47139 -0.585203 -1.06559 0.19311 -0.394034 -0.0760299 0.0813093 1.07078 0.169702 1.26342 -0.684786 1.19545 -0.656176 -0.161124 -2.20254 
+Quantized predictions
+0.0365429 -1.45579 1.18165 0.979013 -0.740231 1.77539 -0.584001 -1.13475 0.30896 -0.364771 -1.04654 -0.761426 1.03175 -0.601833 1.37962 -0.180905 1.67551 -0.152586 0.336663 -1.67893 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
+
+SYNTHESIS REPORT:
+================================================================
+== Vitis HLS Report for 'myproject'
+================================================================
+* Date:           Tue Oct 22 17:11:21 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  4.280 ns|     0.62 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |                                                                            |                                                                 |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |                                  Instance                                  |                              Module                             |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|        4|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |       16|     48|     1688|     4468|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       50|     -|
+|Register             |        -|      -|      647|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |       16|     48|     2335|     4522|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        1|      1|       ~0|        1|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |       ~0|     ~0|       ~0|       ~0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |                                  Instance                                  |                              Module                             | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |Total                                                                       |                                                                 |       16|  48| 1688|  4468|    0|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state1                  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_on_subcall_done  |        or|   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |Total                            |          |   0|  0|   4|           2|           2|
+    +---------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |                   Name                  | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                                |  14|          3|    1|          3|
+    |layer_normalization_input_ap_vld_in_sig  |   9|          2|    1|          2|
+    |layer_normalization_input_ap_vld_preg    |   9|          2|    1|          2|
+    |layer_normalization_input_blk_n          |   9|          2|    1|          2|
+    |layer_normalization_input_in_sig         |   9|          2|  320|        640|
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |Total                                    |  50|         11|  324|        649|
+    +-----------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |                                           Name                                          |  FF | LUT| Bits| Const Bits|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |ap_CS_fsm                                                                                |    2|   0|    2|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg  |    1|   0|    1|          0|
+    |in_val_10_reg_715                                                                        |   16|   0|   16|          0|
+    |in_val_11_reg_720                                                                        |   16|   0|   16|          0|
+    |in_val_12_reg_725                                                                        |   16|   0|   16|          0|
+    |in_val_13_reg_730                                                                        |   16|   0|   16|          0|
+    |in_val_14_reg_735                                                                        |   16|   0|   16|          0|
+    |in_val_15_reg_740                                                                        |   16|   0|   16|          0|
+    |in_val_16_reg_745                                                                        |   16|   0|   16|          0|
+    |in_val_17_reg_750                                                                        |   16|   0|   16|          0|
+    |in_val_18_reg_755                                                                        |   16|   0|   16|          0|
+    |in_val_19_reg_665                                                                        |   16|   0|   16|          0|
+    |in_val_1_reg_670                                                                         |   16|   0|   16|          0|
+    |in_val_2_reg_675                                                                         |   16|   0|   16|          0|
+    |in_val_3_reg_680                                                                         |   16|   0|   16|          0|
+    |in_val_4_reg_685                                                                         |   16|   0|   16|          0|
+    |in_val_5_reg_690                                                                         |   16|   0|   16|          0|
+    |in_val_6_reg_695                                                                         |   16|   0|   16|          0|
+    |in_val_7_reg_700                                                                         |   16|   0|   16|          0|
+    |in_val_8_reg_705                                                                         |   16|   0|   16|          0|
+    |in_val_9_reg_710                                                                         |   16|   0|   16|          0|
+    |in_val_reg_660                                                                           |   16|   0|   16|          0|
+    |layer_normalization_input_ap_vld_preg                                                    |    1|   0|    1|          0|
+    |layer_normalization_input_preg                                                           |  320|   0|  320|          0|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |Total                                                                                    |  647|   0|  647|          0|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------------+-----+-----+------------+---------------------------+--------------+
+|             RTL Ports            | Dir | Bits|  Protocol  |       Source Object       |    C Type    |
++----------------------------------+-----+-----+------------+---------------------------+--------------+
+|ap_clk                            |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_rst                            |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_start                          |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_done                           |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_idle                           |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_ready                          |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|layer_normalization_input         |   in|  320|      ap_vld|  layer_normalization_input|       pointer|
+|layer_normalization_input_ap_vld  |   in|    1|      ap_vld|  layer_normalization_input|       pointer|
+|layer2_out_0                      |  out|   33|      ap_vld|               layer2_out_0|       pointer|
+|layer2_out_0_ap_vld               |  out|    1|      ap_vld|               layer2_out_0|       pointer|
+|layer2_out_1                      |  out|   33|      ap_vld|               layer2_out_1|       pointer|
+|layer2_out_1_ap_vld               |  out|    1|      ap_vld|               layer2_out_1|       pointer|
+|layer2_out_2                      |  out|   33|      ap_vld|               layer2_out_2|       pointer|
+|layer2_out_2_ap_vld               |  out|    1|      ap_vld|               layer2_out_2|       pointer|
+|layer2_out_3                      |  out|   33|      ap_vld|               layer2_out_3|       pointer|
+|layer2_out_3_ap_vld               |  out|    1|      ap_vld|               layer2_out_3|       pointer|
+|layer2_out_4                      |  out|   33|      ap_vld|               layer2_out_4|       pointer|
+|layer2_out_4_ap_vld               |  out|    1|      ap_vld|               layer2_out_4|       pointer|
+|layer2_out_5                      |  out|   33|      ap_vld|               layer2_out_5|       pointer|
+|layer2_out_5_ap_vld               |  out|    1|      ap_vld|               layer2_out_5|       pointer|
+|layer2_out_6                      |  out|   33|      ap_vld|               layer2_out_6|       pointer|
+|layer2_out_6_ap_vld               |  out|    1|      ap_vld|               layer2_out_6|       pointer|
+|layer2_out_7                      |  out|   33|      ap_vld|               layer2_out_7|       pointer|
+|layer2_out_7_ap_vld               |  out|    1|      ap_vld|               layer2_out_7|       pointer|
+|layer2_out_8                      |  out|   33|      ap_vld|               layer2_out_8|       pointer|
+|layer2_out_8_ap_vld               |  out|    1|      ap_vld|               layer2_out_8|       pointer|
+|layer2_out_9                      |  out|   33|      ap_vld|               layer2_out_9|       pointer|
+|layer2_out_9_ap_vld               |  out|    1|      ap_vld|               layer2_out_9|       pointer|
+|layer2_out_10                     |  out|   33|      ap_vld|              layer2_out_10|       pointer|
+|layer2_out_10_ap_vld              |  out|    1|      ap_vld|              layer2_out_10|       pointer|
+|layer2_out_11                     |  out|   33|      ap_vld|              layer2_out_11|       pointer|
+|layer2_out_11_ap_vld              |  out|    1|      ap_vld|              layer2_out_11|       pointer|
+|layer2_out_12                     |  out|   33|      ap_vld|              layer2_out_12|       pointer|
+|layer2_out_12_ap_vld              |  out|    1|      ap_vld|              layer2_out_12|       pointer|
+|layer2_out_13                     |  out|   33|      ap_vld|              layer2_out_13|       pointer|
+|layer2_out_13_ap_vld              |  out|    1|      ap_vld|              layer2_out_13|       pointer|
+|layer2_out_14                     |  out|   33|      ap_vld|              layer2_out_14|       pointer|
+|layer2_out_14_ap_vld              |  out|    1|      ap_vld|              layer2_out_14|       pointer|
+|layer2_out_15                     |  out|   33|      ap_vld|              layer2_out_15|       pointer|
+|layer2_out_15_ap_vld              |  out|    1|      ap_vld|              layer2_out_15|       pointer|
+|layer2_out_16                     |  out|   33|      ap_vld|              layer2_out_16|       pointer|
+|layer2_out_16_ap_vld              |  out|    1|      ap_vld|              layer2_out_16|       pointer|
+|layer2_out_17                     |  out|   33|      ap_vld|              layer2_out_17|       pointer|
+|layer2_out_17_ap_vld              |  out|    1|      ap_vld|              layer2_out_17|       pointer|
+|layer2_out_18                     |  out|   33|      ap_vld|              layer2_out_18|       pointer|
+|layer2_out_18_ap_vld              |  out|    1|      ap_vld|              layer2_out_18|       pointer|
+|layer2_out_19                     |  out|   33|      ap_vld|              layer2_out_19|       pointer|
+|layer2_out_19_ap_vld              |  out|    1|      ap_vld|              layer2_out_19|       pointer|
++----------------------------------+-----+-----+------------+---------------------------+--------------+
+
+CO-SIMULATION RESULT:
+Report time       : Tue Oct 22 05:12:03 PM CEST 2024.
+Solution          : solution1.
+Simulation tool   : xsim.
+
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |
++   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +
+|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
+|   Verilog|      Pass|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+
