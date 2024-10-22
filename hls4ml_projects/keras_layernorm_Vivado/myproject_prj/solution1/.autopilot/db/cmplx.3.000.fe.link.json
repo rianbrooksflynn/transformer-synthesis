@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "1",
+    "calls": "4",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 6,
@@ -9,21 +9,36 @@
     "total_instructions": 4397
   },
   "1": {
-    "basicblocks": 19,
-    "calls": "4",
+    "basicblocks": 7,
+    "calls": "",
     "file": "nnet_layernorm.h",
-    "fileloc": 127,
-    "instructions": 63,
+    "fileloc": 32,
+    "instructions": 42,
     "loads": {
       "L": 2
     },
-    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "name": "init_invert_sqr_table<config2, 1024>",
     "stores": {
       "L": 2
     },
-    "total_instructions": 4391
+    "total_instructions": 827
   },
   "2": {
+    "basicblocks": 21,
+    "calls": "1 6 6 3",
+    "file": "nnet_layernorm.h",
+    "fileloc": 76,
+    "instructions": 245,
+    "loads": {
+      "L": 9
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 4328
+  },
+  "3": {
     "basicblocks": 14,
     "calls": "",
     "file": "nnet_layernorm.h",
@@ -38,49 +53,31 @@
     },
     "total_instructions": 258
   },
-  "3": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "s2.h",
-    "fileloc": 12,
-    "instructions": 11,
-    "name": "__cxx_global_var_init.1",
-    "total_instructions": 3861
-  },
   "4": {
-    "basicblocks": 21,
-    "calls": "8 7 7 2",
+    "basicblocks": 19,
+    "calls": "2",
     "file": "nnet_layernorm.h",
-    "fileloc": 76,
-    "instructions": 245,
+    "fileloc": 127,
+    "instructions": 63,
     "loads": {
-      "L": 9
+      "L": 2
     },
-    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
-      "L": 9
+      "L": 2
     },
-    "total_instructions": 4328
+    "total_instructions": 4391
   },
   "5": {
     "basicblocks": 1,
-    "calls": "",
-    "file": "b2.h",
-    "fileloc": 12,
-    "instructions": 11,
-    "name": "__cxx_global_var_init.2",
-    "total_instructions": 3861
-  },
-  "6": {
-    "basicblocks": 1,
-    "calls": "3 5",
+    "calls": "7 8",
     "file": "myproject.pp.0.cpp",
     "fileloc": 0,
     "instructions": 3,
     "name": "",
-    "total_instructions": 7725
+    "total_instructions": 3865
   },
-  "7": {
+  "6": {
     "basicblocks": 1,
     "calls": "",
     "file": "nnet_mult.h",
@@ -89,19 +86,22 @@
     "name": "product",
     "total_instructions": 149
   },
-  "8": {
-    "basicblocks": 7,
+  "7": {
+    "basicblocks": 1,
     "calls": "",
-    "file": "nnet_layernorm.h",
-    "fileloc": 32,
-    "instructions": 42,
-    "loads": {
-      "L": 2
-    },
-    "name": "init_invert_sqr_table<config2, 1024>",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 827
+    "file": "s2.h",
+    "fileloc": 12,
+    "instructions": 6,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 1931
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "b2.h",
+    "fileloc": 12,
+    "instructions": 6,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 1931
   }
 }

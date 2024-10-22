@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "10 9 6",
+    "calls": "10 9 5",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 24,
@@ -9,13 +9,19 @@
     "total_instructions": 4473
   },
   "1": {
-    "basicblocks": 1,
+    "basicblocks": 14,
     "calls": "",
-    "file": "nnet_mult.h",
-    "fileloc": 70,
-    "instructions": 4,
-    "name": "product",
-    "total_instructions": 149
+    "file": "nnet_layernorm.h",
+    "fileloc": 49,
+    "instructions": 45,
+    "loads": {
+      "L": 3
+    },
+    "name": "lookup_invert_sqr<config2>",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 258
   },
   "10": {
     "basicblocks": 13,
@@ -33,21 +39,6 @@
     "total_instructions": 29
   },
   "2": {
-    "basicblocks": 14,
-    "calls": "",
-    "file": "nnet_layernorm.h",
-    "fileloc": 49,
-    "instructions": 45,
-    "loads": {
-      "L": 3
-    },
-    "name": "lookup_invert_sqr<config2>",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 258
-  },
-  "3": {
     "basicblocks": 7,
     "calls": "",
     "file": "nnet_layernorm.h",
@@ -62,9 +53,9 @@
     },
     "total_instructions": 827
   },
-  "4": {
+  "3": {
     "basicblocks": 21,
-    "calls": "3 1 1 2",
+    "calls": "2 7 7 1",
     "file": "nnet_layernorm.h",
     "fileloc": 76,
     "instructions": 245,
@@ -77,18 +68,18 @@
     },
     "total_instructions": 4328
   },
-  "5": {
+  "4": {
     "basicblocks": 1,
     "calls": "",
     "file": "b2.h",
     "fileloc": 12,
-    "instructions": 11,
+    "instructions": 6,
     "name": "__cxx_global_var_init.2",
-    "total_instructions": 3861
+    "total_instructions": 1931
   },
-  "6": {
+  "5": {
     "basicblocks": 19,
-    "calls": "4",
+    "calls": "3",
     "file": "nnet_layernorm.h",
     "fileloc": 127,
     "instructions": 63,
@@ -101,23 +92,32 @@
     },
     "total_instructions": 4391
   },
-  "7": {
+  "6": {
     "basicblocks": 1,
-    "calls": "8 5",
+    "calls": "8 4",
     "file": "myproject.pp.0.cpp",
     "fileloc": 0,
     "instructions": 3,
     "name": "",
-    "total_instructions": 7725
+    "total_instructions": 3865
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 70,
+    "instructions": 4,
+    "name": "product",
+    "total_instructions": 149
   },
   "8": {
     "basicblocks": 1,
     "calls": "",
     "file": "s2.h",
     "fileloc": 12,
-    "instructions": 11,
+    "instructions": 6,
     "name": "__cxx_global_var_init.1",
-    "total_instructions": 3861
+    "total_instructions": 1931
   },
   "9": {
     "basicblocks": 13,

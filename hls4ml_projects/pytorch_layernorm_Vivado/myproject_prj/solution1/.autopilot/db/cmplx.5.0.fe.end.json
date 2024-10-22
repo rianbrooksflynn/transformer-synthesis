@@ -1,10 +1,19 @@
 {
+    "0": {
+        "name": "myproject",
+        "file": "myproject.cpp",
+        "fileloc": "7",
+        "instructions": "132",
+        "total_instructions": "653",
+        "calls": "3 2 1 1 1 1",
+        "basicblocks": "1"
+    },
     "1": {
         "name": "layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>",
         "file": "firmware\/nnet_utils\/nnet_layernorm.h",
         "fileloc": "83",
-        "instructions": "169",
-        "total_instructions": "169",
+        "instructions": "109",
+        "total_instructions": "109",
         "calls": "",
         "basicblocks": "6",
         "loads": {
@@ -18,21 +27,12 @@
             "L": "1"
         }
     },
-    "0": {
-        "name": "myproject",
-        "file": "myproject.cpp",
-        "fileloc": "7",
-        "instructions": "609",
-        "total_instructions": "3015",
-        "calls": "3 2 4",
-        "basicblocks": "1"
-    },
     "2": {
         "name": "transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>",
         "file": "firmware\/nnet_utils\/nnet_array.h",
         "fileloc": "21",
-        "instructions": "202",
-        "total_instructions": "202",
+        "instructions": "42",
+        "total_instructions": "42",
         "calls": "",
         "basicblocks": "1"
     },
@@ -40,18 +40,9 @@
         "name": "transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>",
         "file": "firmware\/nnet_utils\/nnet_array.h",
         "fileloc": "21",
-        "instructions": "203",
-        "total_instructions": "203",
+        "instructions": "43",
+        "total_instructions": "43",
         "calls": "",
-        "basicblocks": "1"
-    },
-    "4": {
-        "name": "layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>",
-        "file": "firmware\/nnet_utils\/nnet_layernorm.h",
-        "fileloc": "131",
-        "instructions": "311",
-        "total_instructions": "2001",
-        "calls": "1 1 1 1 1 1 1 1 1 1",
         "basicblocks": "1"
     }
 }
