@@ -27,7 +27,7 @@ OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm
 OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_layernorm_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 3DDEABBE
+Stamp: 9c84DD9f
 Version: 1.0.0
 WriterConfig:
   Namespace: null

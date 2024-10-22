@@ -58,9 +58,9 @@ void lookup_invert_sqr(typename CONFIG_T::mean_t x, typename CONFIG_T::table_t &
     }
 
     #pragma HLS PIPELINE
-    #pragma HLS UNROLL factor=4
 LAYERNORM_LOOKUP:
     for (int i = 0; i < CONFIG_T::table_size - 1; i++) {
+        #pragma HLS UNROLL factor=4
         if (x <= table_in[i+1] && x >= table_in[i]) {
             res = table_out[i];
             return;
