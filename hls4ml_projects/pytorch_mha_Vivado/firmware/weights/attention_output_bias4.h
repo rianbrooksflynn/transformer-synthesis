@@ -1,15 +1,15 @@
-//Numpy array shape [10]
+//Numpy array shape [20]
 //Min 0.000000000000
 //Max 0.000000000000
-//Number of zeros 10
+//Number of zeros 20
 
 #ifndef ATTENTION_OUTPUT_BIAS4_H_
 #define ATTENTION_OUTPUT_BIAS4_H_
 
 #ifndef __SYNTHESIS__
-mha_attention_output_bias_t attention_output_bias4[10];
+mha_attention_output_bias_t attention_output_bias4[20];
 #else
-mha_attention_output_bias_t attention_output_bias4[10] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+mha_attention_output_bias_t attention_output_bias4[20] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 
 #endif
 

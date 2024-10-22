@@ -21,14 +21,14 @@ void myproject(
 #ifndef __SYNTHESIS__
     static bool loaded_weights = false;
     if (!loaded_weights) {
-        nnet::load_weights_from_txt<mha_attention_output_weight_t, 100>(attention_output_weight4, "attention_output_weight4.txt");
-        nnet::load_weights_from_txt<mha_attention_output_bias_t, 10>(attention_output_bias4, "attention_output_bias4.txt");
-        nnet::load_weights_from_txt<mha_key_weight_t, 100>(key_weight4, "key_weight4.txt");
-        nnet::load_weights_from_txt<mha_key_bias_t, 10>(key_bias4, "key_bias4.txt");
-        nnet::load_weights_from_txt<mha_query_weight_t, 100>(query_weight4, "query_weight4.txt");
-        nnet::load_weights_from_txt<mha_query_bias_t, 10>(query_bias4, "query_bias4.txt");
-        nnet::load_weights_from_txt<mha_value_weight_t, 100>(value_weight4, "value_weight4.txt");
-        nnet::load_weights_from_txt<mha_value_bias_t, 10>(value_bias4, "value_bias4.txt");
+        nnet::load_weights_from_txt<mha_attention_output_weight_t, 400>(attention_output_weight4, "attention_output_weight4.txt");
+        nnet::load_weights_from_txt<mha_attention_output_bias_t, 20>(attention_output_bias4, "attention_output_bias4.txt");
+        nnet::load_weights_from_txt<mha_key_weight_t, 400>(key_weight4, "key_weight4.txt");
+        nnet::load_weights_from_txt<mha_key_bias_t, 20>(key_bias4, "key_bias4.txt");
+        nnet::load_weights_from_txt<mha_query_weight_t, 400>(query_weight4, "query_weight4.txt");
+        nnet::load_weights_from_txt<mha_query_bias_t, 20>(query_bias4, "query_bias4.txt");
+        nnet::load_weights_from_txt<mha_value_weight_t, 400>(value_weight4, "value_weight4.txt");
+        nnet::load_weights_from_txt<mha_value_bias_t, 20>(value_bias4, "value_bias4.txt");
         loaded_weights = true;    }
 #endif
     // ****************************************

@@ -1,15 +1,15 @@
-//Numpy array shape [2, 5]
+//Numpy array shape [10, 2]
 //Min 0.000000000000
 //Max 0.000000000000
-//Number of zeros 10
+//Number of zeros 20
 
 #ifndef VALUE_BIAS3_H_
 #define VALUE_BIAS3_H_
 
 #ifndef __SYNTHESIS__
-multi_head_attention_value_bias_t value_bias3[10];
+multi_head_attention_value_bias_t value_bias3[20];
 #else
-multi_head_attention_value_bias_t value_bias3[10] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+multi_head_attention_value_bias_t value_bias3[20] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 
 #endif
 

@@ -14,11 +14,11 @@ file_path = Path(__file__).parent
 
 batch_size = 10
 
-layernorm_in_shape = (10, 10)
+layernorm_in_shape = (4, 5)
 
-seq_len = 10
-num_heads = 2
-key_dim = 5
+seq_len = 500
+num_heads = 10
+key_dim = 2
 embed_dim = num_heads * key_dim
 
 layernorm_data = np.random.randn(batch_size, *layernorm_in_shape)

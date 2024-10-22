@@ -20,23 +20,23 @@
 // transpose_input_for_input_1
 struct config3 : nnet::transpose_config {
     static const unsigned depth = 1;
-    static const unsigned height = 10;
-    static const unsigned width = 10;
+    static const unsigned height = 4;
+    static const unsigned width = 5;
     static constexpr unsigned perm[3] = {0,2,1};
 };
 
 // pre_transpose_for__0
 struct config4 : nnet::transpose_config {
     static const unsigned depth = 1;
-    static const unsigned height = 10;
-    static const unsigned width = 10;
+    static const unsigned height = 5;
+    static const unsigned width = 4;
     static constexpr unsigned perm[3] = {0,2,1};
 };
 
 // _0
 struct config2 : nnet::layernorm_config {
     static const unsigned n_in = OUT_HEIGHT_4*OUT_WIDTH_4;
-    static const unsigned seq_len = 10;
+    static const unsigned seq_len = 4;
     static const unsigned table_size = 1024;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;

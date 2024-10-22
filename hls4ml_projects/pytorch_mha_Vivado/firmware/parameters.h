@@ -23,13 +23,13 @@
 // hls-fpga-machine-learning insert layer-config
 // mha
 struct config4_1 : nnet::dense_config {
-    static const unsigned n_in = 10;
-    static const unsigned n_out = 5;
+    static const unsigned n_in = 20;
+    static const unsigned n_out = 2;
     static const unsigned seq_len = 1;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
-    static const unsigned n_nonzeros = 100;
+    static const unsigned n_nonzeros = 400;
     static const bool store_weights_in_bram = false;
     typedef mha_accum_t accum_t;
     typedef mha_attention_output_bias_t bias_t;
@@ -40,13 +40,13 @@ struct config4_1 : nnet::dense_config {
 };
 
 struct config4_2 : nnet::dense_config {
-    static const unsigned n_in = 10;
-    static const unsigned n_out = 10;
+    static const unsigned n_in = 20;
+    static const unsigned n_out = 20;
     static const unsigned seq_len = 1;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
-    static const unsigned n_nonzeros = 100;
+    static const unsigned n_nonzeros = 400;
     static const bool store_weights_in_bram = false;
     typedef mha_accum_t accum_t;
     typedef mha_attention_output_bias_t bias_t;
@@ -57,7 +57,7 @@ struct config4_2 : nnet::dense_config {
 };
 
 struct softmax_config4 : nnet::activ_config {
-    static const unsigned n_in = 10;
+    static const unsigned n_in = 500;
     static const unsigned table_size = 2048;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;
@@ -77,11 +77,11 @@ struct config4 : nnet::multiheadattention_config {
     typedef config4_2 config_mult2;
     typedef softmax_config4 softmax_config1;
 
-    static const unsigned num_heads = 2;
-    static const unsigned head_dim_key = 5;
-    static const unsigned head_dim_value = 5;
-    static const unsigned feature_dim = 10;
-    static const unsigned seq_len = 10;
+    static const unsigned num_heads = 10;
+    static const unsigned head_dim_key = 2;
+    static const unsigned head_dim_value = 2;
+    static const unsigned feature_dim = 20;
+    static const unsigned seq_len = 500;
 
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;
