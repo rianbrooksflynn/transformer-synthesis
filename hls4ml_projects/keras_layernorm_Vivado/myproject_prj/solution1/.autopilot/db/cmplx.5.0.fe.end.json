@@ -1,30 +1,23 @@
 {
-    "1": {
-        "name": "layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>",
-        "file": "firmware\/nnet_utils\/nnet_layernorm.h",
-        "fileloc": "83",
-        "instructions": "116",
-        "total_instructions": "116",
-        "calls": "",
-        "basicblocks": "6",
-        "loads": {
-            "G": "2",
-            "L": "2"
-        },
-        "stores": {
-            "L": "4"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
     "0": {
         "name": "myproject",
         "file": "myproject.cpp",
         "fileloc": "7",
         "instructions": "110",
-        "total_instructions": "574",
+        "total_instructions": "9314",
         "calls": "1 1 1 1",
         "basicblocks": "1"
+    },
+    "1": {
+        "name": "layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>",
+        "file": "firmware\/nnet_utils\/nnet_layernorm.h",
+        "fileloc": "82",
+        "instructions": "2301",
+        "total_instructions": "2301",
+        "calls": "",
+        "basicblocks": "741",
+        "loads": {
+            "G": "1"
+        }
     }
 }

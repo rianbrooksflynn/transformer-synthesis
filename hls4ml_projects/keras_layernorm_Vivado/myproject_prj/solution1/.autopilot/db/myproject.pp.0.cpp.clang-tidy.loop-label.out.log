@@ -821,8 +821,3 @@
     ^~~
     VITIS_LOOP_40_1: 
 /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72396:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72419:5: warning: Added loop label VITIS_LOOP_63_1:   [xilinx-label-all-loops]
-    while (high - low > 1) {
-    ^~~~~
-    VITIS_LOOP_63_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72419:5: note: FIX-IT applied suggested code changes

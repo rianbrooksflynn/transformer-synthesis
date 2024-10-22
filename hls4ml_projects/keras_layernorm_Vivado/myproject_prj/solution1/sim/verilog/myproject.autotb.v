@@ -82,9 +82,9 @@
 `define AUTOTB_TVOUT_layer2_out_19_out_wrapc  "../tv/rtldatafile/rtl.myproject.autotvout_layer2_out_19.dat"
 module `AUTOTB_TOP;
 
-parameter AUTOTB_TRANSACTION_NUM = 30;
+parameter AUTOTB_TRANSACTION_NUM = 60;
 parameter PROGRESS_TIMEOUT = 10000000;
-parameter LATENCY_ESTIMATION = -1;
+parameter LATENCY_ESTIMATION = 4;
 parameter LENGTH_layer2_out_0 = 1;
 parameter LENGTH_layer2_out_1 = 1;
 parameter LENGTH_layer2_out_10 = 1;
@@ -140,8 +140,8 @@ wire ap_start;
 wire ap_done;
 wire ap_idle;
 wire ap_ready;
-wire [319 : 0] layer_normalization_input;
 wire  layer_normalization_input_ap_vld;
+wire [319 : 0] layer_normalization_input;
 wire [32 : 0] layer2_out_0;
 wire  layer2_out_0_ap_vld;
 wire [32 : 0] layer2_out_1;
@@ -204,8 +204,8 @@ wire ap_rst_n;
     .ap_done(ap_done),
     .ap_idle(ap_idle),
     .ap_ready(ap_ready),
-    .layer_normalization_input(layer_normalization_input),
     .layer_normalization_input_ap_vld(layer_normalization_input_ap_vld),
+    .layer_normalization_input(layer_normalization_input),
     .layer2_out_0(layer2_out_0),
     .layer2_out_0_ap_vld(layer2_out_0_ap_vld),
     .layer2_out_1(layer2_out_1),
@@ -1772,6 +1772,13 @@ initial begin : simulation_progress
                     progress_timeout = progress_timeout - 1;
                 end
             end
+        end
+        // non-dataflow design && latency is predictable && no AXI master/slave interface
+        get_intra_progress(intra_progress);
+        if (intra_progress > 1000) begin
+            $display("// RTL Simulation : transaction %0d run-time latency is greater than %0f time(s) of the prediction @ \"%0t\"", start_cnt, intra_progress, $time);
+            $display("////////////////////////////////////////////////////////////////////////////////////");
+            $finish;
         end
     end
     print_progress();

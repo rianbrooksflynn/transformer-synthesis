@@ -1,48 +1,18 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "4 1 2",
+    "calls": "2 5 3",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 16,
     "name": "myproject",
-    "total_instructions": 4599
+    "total_instructions": 53687
   },
   "1": {
-    "basicblocks": 9,
-    "calls": "",
-    "file": "nnet_array.h",
-    "fileloc": 16,
-    "instructions": 87,
-    "loads": {
-      "L": 20
-    },
-    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
-    "stores": {
-      "L": 20
-    },
-    "total_instructions": 87
-  },
-  "2": {
-    "basicblocks": 12,
-    "calls": "3 3 3 3",
-    "file": "nnet_layernorm.h",
-    "fileloc": 127,
-    "instructions": 186,
-    "loads": {
-      "L": 40
-    },
-    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
-    "stores": {
-      "L": 40
-    },
-    "total_instructions": 4410
-  },
-  "3": {
     "basicblocks": 455,
-    "calls": "5",
+    "calls": "4",
     "file": "nnet_layernorm.h",
-    "fileloc": 76,
+    "fileloc": 75,
     "instructions": 978,
     "loads": {
       "L": 46
@@ -51,9 +21,9 @@
     "stores": {
       "L": 15
     },
-    "total_instructions": 1056
+    "total_instructions": 13328
   },
-  "4": {
+  "2": {
     "basicblocks": 8,
     "calls": "",
     "file": "nnet_array.h",
@@ -68,20 +38,50 @@
     },
     "total_instructions": 86
   },
-  "5": {
-    "basicblocks": 25,
+  "3": {
+    "basicblocks": 12,
+    "calls": "1 1 1 1",
+    "file": "nnet_layernorm.h",
+    "fileloc": 130,
+    "instructions": 186,
+    "loads": {
+      "L": 40
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 40
+    },
+    "total_instructions": 53498
+  },
+  "4": {
+    "basicblocks": 10251,
     "calls": "",
     "file": "nnet_layernorm.h",
     "fileloc": 49,
-    "instructions": 78,
+    "instructions": 12350,
     "loads": {
-      "G": 2,
-      "L": 9
+      "G": 1,
+      "L": 12
     },
     "name": "lookup_invert_sqr<config2>",
     "stores": {
-      "L": 3
+      "L": 4
     },
-    "total_instructions": 78
+    "total_instructions": 12350
+  },
+  "5": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 87,
+    "loads": {
+      "L": 20
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 87
   }
 }

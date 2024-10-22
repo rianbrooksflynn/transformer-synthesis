@@ -1,19 +1,19 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "2 4 1",
+    "calls": "2 4 6",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 66,
     "name": "myproject",
-    "total_instructions": 1051
+    "total_instructions": 12331
   },
   "1": {
     "basicblocks": 1,
-    "calls": "3 3 3 3",
+    "calls": "5 5 5 5",
     "file": "nnet_layernorm.h",
-    "fileloc": 127,
-    "instructions": 95,
+    "fileloc": 130,
+    "instructions": 115,
     "loads": {
       "L": 40
     },
@@ -21,7 +21,7 @@
     "stores": {
       "L": 40
     },
-    "total_instructions": 883
+    "total_instructions": 12183
   },
   "2": {
     "basicblocks": 1,
@@ -39,20 +39,20 @@
     "total_instructions": 61
   },
   "3": {
-    "basicblocks": 6,
+    "basicblocks": 964,
     "calls": "",
     "file": "nnet_layernorm.h",
-    "fileloc": 76,
-    "instructions": 197,
+    "fileloc": 49,
+    "instructions": 2843,
     "loads": {
-      "G": 2,
-      "L": 5
+      "G": 1,
+      "L": 1
     },
-    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "name": "lookup_invert_sqr<config2>",
     "stores": {
-      "L": 5
+      "L": 4
     },
-    "total_instructions": 197
+    "total_instructions": 2843
   },
   "4": {
     "basicblocks": 1,
@@ -71,10 +71,25 @@
   },
   "5": {
     "basicblocks": 1,
-    "calls": "3 3 3 3",
+    "calls": "3",
     "file": "nnet_layernorm.h",
-    "fileloc": 127,
-    "instructions": 115,
+    "fileloc": 75,
+    "instructions": 174,
+    "loads": {
+      "L": 6
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 3017
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "5 5 5 5",
+    "file": "nnet_layernorm.h",
+    "fileloc": 130,
+    "instructions": 95,
     "loads": {
       "L": 40
     },
@@ -82,6 +97,6 @@
     "stores": {
       "L": 40
     },
-    "total_instructions": 903
+    "total_instructions": 12163
   }
 }

@@ -45,8 +45,8 @@ add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_0_ap_vld -into $ret
 add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_0 -into $return_group -radix hex
 set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
 set return_group [add_wave_group return(wire) -into $cinputgroup]
-add_wave /apatb_myproject_top/AESL_inst_myproject/input_1_ap_vld -into $return_group -color #ffff00 -radix hex
 add_wave /apatb_myproject_top/AESL_inst_myproject/input_1 -into $return_group -radix hex
+add_wave /apatb_myproject_top/AESL_inst_myproject/input_1_ap_vld -into $return_group -color #ffff00 -radix hex
 set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
 add_wave /apatb_myproject_top/AESL_inst_myproject/ap_start -into $blocksiggroup
 add_wave /apatb_myproject_top/AESL_inst_myproject/ap_done -into $blocksiggroup
@@ -128,8 +128,8 @@ add_wave /apatb_myproject_top/layer2_out_0_ap_vld -into $tb_return_group -color 
 add_wave /apatb_myproject_top/layer2_out_0 -into $tb_return_group -radix hex
 set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
 set tb_return_group [add_wave_group return(wire) -into $tbcinputgroup]
-add_wave /apatb_myproject_top/input_1_ap_vld -into $tb_return_group -color #ffff00 -radix hex
 add_wave /apatb_myproject_top/input_1 -into $tb_return_group -radix hex
+add_wave /apatb_myproject_top/input_1_ap_vld -into $tb_return_group -color #ffff00 -radix hex
 save_wave_config myproject.wcfg
 run all
 quit
