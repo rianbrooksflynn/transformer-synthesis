@@ -16,21 +16,23 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>no</PipelineType>
+<PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>4.254</EstimatedClockPeriod>
+<EstimatedClockPeriod>4.279</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<Interval-min>undef</Interval-min>
-<Interval-max>undef</Interval-max>
+<Best-caseLatency>5</Best-caseLatency>
+<Average-caseLatency>5</Average-caseLatency>
+<Worst-caseLatency>5</Worst-caseLatency>
+<Best-caseRealTimeLatency>25.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>25.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>25.000 ns</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>1</PipelineInitiationInterval>
+<PipelineDepth>6</PipelineDepth>
+<Interval-min>1</Interval-min>
+<Interval-max>1</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
@@ -41,10 +43,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>16</BRAM_18K>
+<BRAM_18K>8</BRAM_18K>
 <DSP>68</DSP>
-<FF>2007</FF>
-<LUT>3998</LUT>
+<FF>4807</FF>
+<LUT>128528</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -124,18 +126,6 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>input_1</name>
-<Object>input_1</Object>
-<Type>pointer</Type>
-<Scope></Scope>
-<IOProtocol>ap_vld</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>320</Bits>
-<Attribute>data</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
 <name>input_1_ap_vld</name>
 <Object>input_1</Object>
 <Type>pointer</Type>
@@ -145,6 +135,18 @@
 <Dir>in</Dir>
 <Bits>1</Bits>
 <Attribute>control</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>input_1</name>
+<Object>input_1</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>ap_vld</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>320</Bits>
+<Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>

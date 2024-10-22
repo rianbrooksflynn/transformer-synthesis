@@ -25,9 +25,9 @@ INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 15.52 seconds. CPU system time: 1.24 seconds. Elapsed time: 17.35 seconds; current allocated memory: 0.219 MB.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 15.69 seconds. CPU system time: 1.25 seconds. Elapsed time: 17.45 seconds; current allocated memory: 0.203 MB.
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.12 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.14 seconds; current allocated memory: 254.363 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 254.344 MB.
 INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
 WARNING: [HLS 207-5292] unused parameter 'keep' (firmware/nnet_utils/nnet_helpers.h:285:99)
 WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_code_gen.h:11:36)
@@ -36,68 +36,67 @@ WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_c
 WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_code_gen.h:21:24)
 WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_code_gen.h:22:24)
 WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_code_gen.h:23:32)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 44.13 seconds. CPU system time: 2.2 seconds. Elapsed time: 47.5 seconds; current allocated memory: 262.793 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 41.78 seconds. CPU system time: 2.15 seconds. Elapsed time: 44.97 seconds; current allocated memory: 262.746 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 4,473 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 4,599 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,241 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,219 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,151 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,051 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,051 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,051 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,091 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,035 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 986 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 986 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 986 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 986 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,007 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,023 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:118:11)
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:111:12)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_141_1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:141:20)
-INFO: [HLS 214-291] Loop 'load' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:144:9)
-INFO: [HLS 214-291] Loop 'store' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:150:9)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_121_3' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:121:23)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_113_2' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:113:23)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_108_1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:108:23)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_63_1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:63:22)
+INFO: [HLS 200-1995] There were 4,553 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 53,687 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,197 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,087 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,447 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,371 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,311 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,254 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,231 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,239 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:120:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:112:12)
+INFO: [HLS 214-291] Loop 'LAYERNORM_SEQ_LOOP' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:145:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_LOAD' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:148:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_STORE' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:154:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_RESULT' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:124:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_VAR' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:115:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_SUM' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:109:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_LOOKUP' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:62:5)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_19_1' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_array.h:19:19)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_20_2' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_array.h:20:26)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_141_1' (firmware/nnet_utils/nnet_layernorm.h:141:20) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 4 (firmware/nnet_utils/nnet_layernorm.h:129:0)
-WARNING: [HLS 214-189] Pipeline directive for loop 'VITIS_LOOP_141_1' (firmware/nnet_utils/nnet_layernorm.h:141:20) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' has been removed because the loop is unrolled completely (firmware/nnet_utils/nnet_layernorm.h:129:0)
-INFO: [HLS 214-186] Unrolling loop 'store' (firmware/nnet_utils/nnet_layernorm.h:150:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:129:0)
-INFO: [HLS 214-186] Unrolling loop 'load' (firmware/nnet_utils/nnet_layernorm.h:144:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:129:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_121_3' (firmware/nnet_utils/nnet_layernorm.h:121:23) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:78:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_113_2' (firmware/nnet_utils/nnet_layernorm.h:113:23) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:78:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_108_1' (firmware/nnet_utils/nnet_layernorm.h:108:23) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:78:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:145:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 4 (firmware/nnet_utils/nnet_layernorm.h:132:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:145:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' has been removed because the loop is unrolled completely (firmware/nnet_utils/nnet_layernorm.h:132:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:154:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:132:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:148:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:132:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:124:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:77:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:115:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:77:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:109:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:77:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOOKUP' (firmware/nnet_utils/nnet_layernorm.h:62:5) in function 'nnet::lookup_invert_sqr<config2>' completely with a factor of 1023 (firmware/nnet_utils/nnet_layernorm.h:51:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_19_1' (firmware/nnet_utils/nnet_array.h:19:19) in function 'nnet::transpose_2d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config4>' completely with a factor of 5 (firmware/nnet_utils/nnet_array.h:16:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_20_2' (firmware/nnet_utils/nnet_array.h:20:26) in function 'nnet::transpose_2d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config4>' completely with a factor of 4 (firmware/nnet_utils/nnet_array.h:16:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_19_1' (firmware/nnet_utils/nnet_array.h:19:19) in function 'nnet::transpose_2d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 4 (firmware/nnet_utils/nnet_array.h:16:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_20_2' (firmware/nnet_utils/nnet_array.h:20:26) in function 'nnet::transpose_2d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>' completely with a factor of 5 (firmware/nnet_utils/nnet_array.h:16:0)
-INFO: [HLS 214-178] Inlining function 'void nnet::lookup_invert_sqr<config2>(config2::mean_t, config2::table_t&, config2::table_t*, config2::table_t*)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:78:0)
 INFO: [HLS 214-248] Applying array_partition to 'b2': Complete partitioning on dimension 1. (firmware/weights/b2.h:12:0)
 INFO: [HLS 214-248] Applying array_partition to 's2': Complete partitioning on dimension 1. (firmware/weights/s2.h:12:0)
-INFO: [HLS 214-248] Applying array_partition to 'in_val': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:131:12)
-INFO: [HLS 214-248] Applying array_partition to 'outval': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:132:11)
+INFO: [HLS 214-248] Applying array_partition to 'in_val': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:134:12)
+INFO: [HLS 214-248] Applying array_partition to 'outval': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:135:11)
 INFO: [HLS 214-248] Applying array_partition to 'layer3_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:32:11)
 INFO: [HLS 214-248] Applying array_partition to 'layer4_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:36:14)
 INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:10:0)
 INFO: [HLS 214-248] Applying array_reshape to 'input_1': Complete reshaping on dimension 1. (firmware/myproject.cpp:10:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.37 seconds. CPU system time: 0.62 seconds. Elapsed time: 8.96 seconds; current allocated memory: 263.801 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 263.801 MB.
+INFO: [HLS 214-364] Automatically inlining function 'void nnet::lookup_invert_sqr<config2>(config2::mean_t, config2::table_t&, config2::table_t*, config2::table_t*)' to improve effectiveness of pipeline pragma in function 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:121:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 471.13 seconds. CPU system time: 0.7 seconds. Elapsed time: 474.32 seconds; current allocated memory: 263.488 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 263.488 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 265.738 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.6 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.77 seconds; current allocated memory: 332.332 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:40) automatically.
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 267.234 MB.
-INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:52:1).
-WARNING: [HLS 200-932] Cannot unroll loop 'VITIS_LOOP_63_1' (firmware/nnet_utils/nnet_layernorm.h:63) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely: variable loop bound.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.94 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.96 seconds; current allocated memory: 332.332 MB.
 INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:40) automatically.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:52:1)...8 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 291.574 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 316.203 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:52:25)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 10.62 seconds. CPU system time: 0.04 seconds. Elapsed time: 10.72 seconds; current allocated memory: 361.582 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 7.46 seconds. CPU system time: 0.03 seconds. Elapsed time: 7.54 seconds; current allocated memory: 395.469 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'myproject' ...
 WARNING: [SYN 201-103] Legalizing function name 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>' to 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
@@ -110,13 +109,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.14 seconds; current allocated memory: 316.203 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.32 seconds; current allocated memory: 395.469 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 316.203 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 395.469 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -124,63 +123,62 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 316.203 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 395.469 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 316.203 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 395.469 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>': contains subloop(s) that are not unrolled.
-WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>': contains subloop(s) that are not unrolled.
+INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 316.527 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 13.97 seconds. CPU system time: 0.19 seconds. Elapsed time: 14.21 seconds; current allocated memory: 590.867 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 316.527 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 73.14 seconds. CPU system time: 0.09 seconds. Elapsed time: 73.49 seconds; current allocated memory: 590.867 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-WARNING: [SCHED 204-67] Unable to satisfy pipeline directive for function 'myproject': contains subfunction 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' which is not pipelined.
-WARNING: [SCHED 204-67] Unable to satisfy pipeline directive for function 'myproject': contains subfunction 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' which is not pipelined.
+INFO: [SCHED 204-61] Pipelining function 'myproject'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'myproject'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 316.852 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.96 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.04 seconds; current allocated memory: 590.867 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 316.852 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 590.867 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 317.730 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 590.867 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 319.809 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 590.867 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_index_table_ROM_AUTO_1R' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_index_table_RObkb' due to the length limit 80
-INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_table_ROM_AUTO_1R' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabcud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_table_ROM_AUTO_1R' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabbkb' due to the length limit 80
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' pipeline 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Generating core module 'mul_19s_12ns_31_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_19s_19s_32_1_1': 5 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_29ns_19s_39_1_1': 5 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'.
-INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_index_table_RObkb' using auto ROMs.
-INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabcud' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 321.773 MB.
+INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabbkb' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 55.29 seconds. CPU system time: 0.53 seconds. Elapsed time: 56.07 seconds; current allocated memory: 1.252 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -206,15 +204,15 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_17' t
 INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_18' to 'ap_vld'.
 INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_19' to 'ap_vld'.
 INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 325.648 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.25 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.28 seconds; current allocated memory: 329.551 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.13 seconds. CPU system time: 0.05 seconds. Elapsed time: 1.18 seconds; current allocated memory: 334.195 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.17 seconds. CPU system time: 0.19 seconds. Elapsed time: 3.41 seconds; current allocated memory: 1.273 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.48 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.55 seconds; current allocated memory: 1.276 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.81 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.86 seconds; current allocated memory: 1.286 GB.
 INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
 INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
-INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
-INFO: [HLS 200-789] **** Estimated Fmax: 235.08 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 51.29 seconds. CPU system time: 3.05 seconds. Elapsed time: 59.73 seconds; current allocated memory: 80.602 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 233.67 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 682.15 seconds. CPU system time: 4.23 seconds. Elapsed time: 690.86 seconds; current allocated memory: 1.038 GB.
 INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x -DRTL_SIM 
 INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
 INFO: [HLS 200-1510] Running: cosim_design -trace_level all -setup 
@@ -224,7 +222,7 @@ INFO: [COSIM 212-302] Starting C TB testing ...
 INFO: [COSIM 212-333] Generating C post check test bench ...
 INFO: [COSIM 212-12] Generating RTL test bench ...
 INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
-INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 36.68 seconds. CPU system time: 2.84 seconds. Elapsed time: 40.12 seconds; current allocated memory: 13.109 MB.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 36.85 seconds. CPU system time: 3.53 seconds. Elapsed time: 40.88 seconds; current allocated memory: 11.867 MB.
 INFO: [COSIM 212-302] Starting C TB testing ...  
 INFO: [COSIM 212-323] Starting verilog simulation...
 INFO: [COSIM 212-15] Starting XSIM ...

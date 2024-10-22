@@ -16,8 +16,8 @@ port (
     ap_done : OUT STD_LOGIC;
     ap_idle : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
-    layer_normalization_input : IN STD_LOGIC_VECTOR (319 downto 0);
     layer_normalization_input_ap_vld : IN STD_LOGIC;
+    layer_normalization_input : IN STD_LOGIC_VECTOR (319 downto 0);
     layer2_out_0 : OUT STD_LOGIC_VECTOR (32 downto 0);
     layer2_out_0_ap_vld : OUT STD_LOGIC;
     layer2_out_1 : OUT STD_LOGIC_VECTOR (32 downto 0);
@@ -64,16 +64,14 @@ end;
 architecture behav of myproject is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "myproject_myproject,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcvu13p-flga2577-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.279857,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=16,HLS_SYN_DSP=0,HLS_SYN_FF=2335,HLS_SYN_LUT=4522,HLS_VERSION=2023_2}";
+    "myproject_myproject,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcvu13p-flga2577-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=pipeline,HLS_SYN_CLOCK=4.279857,HLS_SYN_LAT=4,HLS_SYN_TPT=1,HLS_SYN_MEM=8,HLS_SYN_DSP=0,HLS_SYN_FF=5570,HLS_SYN_LUT=184636,HLS_VERSION=2023_2}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
-    constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (1 downto 0) := "01";
-    constant ap_ST_fsm_state2 : STD_LOGIC_VECTOR (1 downto 0) := "10";
+    constant ap_ST_fsm_pp0_stage0 : STD_LOGIC_VECTOR (0 downto 0) := "1";
     constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     constant ap_const_boolean_1 : BOOLEAN := true;
-    constant ap_const_lv320_lc_1 : STD_LOGIC_VECTOR (319 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_boolean_0 : BOOLEAN := false;
-    constant ap_const_lv32_1 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000001";
+    constant ap_const_lv320_lc_1 : STD_LOGIC_VECTOR (319 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_lv32_10 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010000";
     constant ap_const_lv32_1F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000011111";
     constant ap_const_lv32_20 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000100000";
@@ -113,88 +111,99 @@ architecture behav of myproject is
     constant ap_const_lv32_130 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100110000";
     constant ap_const_lv32_13F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100111111";
 
-    signal ap_CS_fsm : STD_LOGIC_VECTOR (1 downto 0) := "01";
+    signal ap_CS_fsm : STD_LOGIC_VECTOR (0 downto 0) := "1";
     attribute fsm_encoding : string;
     attribute fsm_encoding of ap_CS_fsm : signal is "none";
-    signal ap_CS_fsm_state1 : STD_LOGIC;
-    attribute fsm_encoding of ap_CS_fsm_state1 : signal is "none";
+    signal ap_CS_fsm_pp0_stage0 : STD_LOGIC;
+    attribute fsm_encoding of ap_CS_fsm_pp0_stage0 : signal is "none";
+    signal ap_enable_reg_pp0_iter0 : STD_LOGIC;
+    signal ap_enable_reg_pp0_iter1 : STD_LOGIC := '0';
+    signal ap_enable_reg_pp0_iter2 : STD_LOGIC := '0';
+    signal ap_enable_reg_pp0_iter3 : STD_LOGIC := '0';
+    signal ap_enable_reg_pp0_iter4 : STD_LOGIC := '0';
+    signal ap_idle_pp0 : STD_LOGIC;
+    signal layer_normalization_input_ap_vld_in_sig : STD_LOGIC;
+    signal ap_block_state1_pp0_stage0_iter0 : BOOLEAN;
+    signal ap_block_pp0_stage0_subdone : BOOLEAN;
     signal layer_normalization_input_preg : STD_LOGIC_VECTOR (319 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     signal layer_normalization_input_in_sig : STD_LOGIC_VECTOR (319 downto 0);
     signal layer_normalization_input_ap_vld_preg : STD_LOGIC := '0';
-    signal layer_normalization_input_ap_vld_in_sig : STD_LOGIC;
     signal layer_normalization_input_blk_n : STD_LOGIC;
-    signal in_val_fu_346_p1 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_reg_660 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_19_reg_665 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_1_reg_670 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_2_reg_675 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_3_reg_680 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_4_reg_685 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_5_reg_690 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_6_reg_695 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_7_reg_700 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_8_reg_705 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_9_reg_710 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_10_reg_715 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_11_reg_720 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_12_reg_725 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_13_reg_730 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_14_reg_735 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_15_reg_740 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_16_reg_745 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_17_reg_750 : STD_LOGIC_VECTOR (15 downto 0);
-    signal in_val_18_reg_755 : STD_LOGIC_VECTOR (15 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_idle : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_idle : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_idle : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_idle : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready : STD_LOGIC;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg : STD_LOGIC := '0';
-    signal ap_block_state1_ignore_call65 : BOOLEAN;
-    signal ap_CS_fsm_state2 : STD_LOGIC;
-    attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg : STD_LOGIC := '0';
-    signal ap_block_state1_ignore_call71 : BOOLEAN;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg : STD_LOGIC := '0';
-    signal ap_block_state1_ignore_call77 : BOOLEAN;
-    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg : STD_LOGIC := '0';
-    signal ap_block_state1_ignore_call83 : BOOLEAN;
-    signal ap_block_state1 : BOOLEAN;
-    signal ap_block_state2_on_subcall_done : BOOLEAN;
-    signal ap_NS_fsm : STD_LOGIC_VECTOR (1 downto 0);
-    signal ap_ST_fsm_state1_blk : STD_LOGIC;
-    signal ap_ST_fsm_state2_blk : STD_LOGIC;
+    signal ap_block_pp0_stage0 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ce : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_0_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_1_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_2_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_3_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_4_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal ap_block_state1_pp0_stage0_iter0_ignore_call65 : BOOLEAN;
+    signal ap_block_pp0_stage0_11001_ignoreCallOp27 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ce : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_0_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_1_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_2_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_3_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_4_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal ap_block_state1_pp0_stage0_iter0_ignore_call71 : BOOLEAN;
+    signal ap_block_pp0_stage0_11001_ignoreCallOp28 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ce : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_0_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_1_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_2_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_3_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_4_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal ap_block_state1_pp0_stage0_iter0_ignore_call77 : BOOLEAN;
+    signal ap_block_pp0_stage0_11001_ignoreCallOp29 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ce : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_0_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_1_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_2_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_3_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_4_val : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal ap_block_state1_pp0_stage0_iter0_ignore_call83 : BOOLEAN;
+    signal ap_block_pp0_stage0_11001_ignoreCallOp30 : BOOLEAN;
+    signal ap_block_pp0_stage0_11001 : BOOLEAN;
+    signal ap_block_pp0_stage0_01001 : BOOLEAN;
+    signal ap_NS_fsm : STD_LOGIC_VECTOR (0 downto 0);
+    signal ap_idle_pp0_0to3 : STD_LOGIC;
+    signal ap_reset_idle_pp0 : STD_LOGIC;
+    signal ap_enable_pp0 : STD_LOGIC;
     signal ap_ce_reg : STD_LOGIC;
 
     component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s IS
@@ -205,6 +214,7 @@ architecture behav of myproject is
         ap_done : OUT STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
+        ap_ce : IN STD_LOGIC;
         data_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
         data_1_val : IN STD_LOGIC_VECTOR (15 downto 0);
         data_2_val : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -220,81 +230,85 @@ architecture behav of myproject is
 
 
 begin
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start,
-        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done,
-        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_idle,
-        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready,
-        data_0_val => in_val_reg_660,
-        data_1_val => in_val_19_reg_665,
-        data_2_val => in_val_1_reg_670,
-        data_3_val => in_val_2_reg_675,
-        data_4_val => in_val_3_reg_680,
-        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0,
-        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1,
-        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2,
-        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3,
-        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4);
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ready,
+        ap_ce => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ce,
+        data_0_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_0_val,
+        data_1_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_1_val,
+        data_2_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_2_val,
+        data_3_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_3_val,
+        data_4_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_4_val,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_4);
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start,
-        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done,
-        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_idle,
-        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready,
-        data_0_val => in_val_4_reg_685,
-        data_1_val => in_val_5_reg_690,
-        data_2_val => in_val_6_reg_695,
-        data_3_val => in_val_7_reg_700,
-        data_4_val => in_val_8_reg_705,
-        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0,
-        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1,
-        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2,
-        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3,
-        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4);
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ready,
+        ap_ce => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ce,
+        data_0_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_0_val,
+        data_1_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_1_val,
+        data_2_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_2_val,
+        data_3_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_3_val,
+        data_4_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_4_val,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_4);
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start,
-        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done,
-        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_idle,
-        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready,
-        data_0_val => in_val_9_reg_710,
-        data_1_val => in_val_10_reg_715,
-        data_2_val => in_val_11_reg_720,
-        data_3_val => in_val_12_reg_725,
-        data_4_val => in_val_13_reg_730,
-        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0,
-        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1,
-        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2,
-        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3,
-        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4);
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ready,
+        ap_ce => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ce,
+        data_0_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_0_val,
+        data_1_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_1_val,
+        data_2_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_2_val,
+        data_3_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_3_val,
+        data_4_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_4_val,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_4);
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start,
-        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done,
-        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_idle,
-        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready,
-        data_0_val => in_val_14_reg_735,
-        data_1_val => in_val_15_reg_740,
-        data_2_val => in_val_16_reg_745,
-        data_3_val => in_val_17_reg_750,
-        data_4_val => in_val_18_reg_755,
-        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0,
-        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1,
-        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2,
-        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3,
-        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4);
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ready,
+        ap_ce => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ce,
+        data_0_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_0_val,
+        data_1_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_1_val,
+        data_2_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_2_val,
+        data_3_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_3_val,
+        data_4_val => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_4_val,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_4);
 
 
 
@@ -304,7 +318,7 @@ begin
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                ap_CS_fsm <= ap_ST_fsm_state1;
+                ap_CS_fsm <= ap_ST_fsm_pp0_stage0;
             else
                 ap_CS_fsm <= ap_NS_fsm;
             end if;
@@ -312,64 +326,56 @@ begin
     end process;
 
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg_assign_proc : process(ap_clk)
+    ap_enable_reg_pp0_iter1_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_0;
+                ap_enable_reg_pp0_iter1 <= ap_const_logic_0;
             else
-                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call65))) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready = ap_const_logic_1)) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_0;
+                if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+                    ap_enable_reg_pp0_iter1 <= ap_start;
                 end if; 
             end if;
         end if;
     end process;
 
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg_assign_proc : process(ap_clk)
+    ap_enable_reg_pp0_iter2_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_0;
+                ap_enable_reg_pp0_iter2 <= ap_const_logic_0;
             else
-                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call71))) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready = ap_const_logic_1)) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_0;
+                if ((ap_const_boolean_0 = ap_block_pp0_stage0_subdone)) then 
+                    ap_enable_reg_pp0_iter2 <= ap_enable_reg_pp0_iter1;
                 end if; 
             end if;
         end if;
     end process;
 
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg_assign_proc : process(ap_clk)
+    ap_enable_reg_pp0_iter3_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_0;
+                ap_enable_reg_pp0_iter3 <= ap_const_logic_0;
             else
-                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call77))) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready = ap_const_logic_1)) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_0;
+                if ((ap_const_boolean_0 = ap_block_pp0_stage0_subdone)) then 
+                    ap_enable_reg_pp0_iter3 <= ap_enable_reg_pp0_iter2;
                 end if; 
             end if;
         end if;
     end process;
 
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg_assign_proc : process(ap_clk)
+    ap_enable_reg_pp0_iter4_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_0;
+                ap_enable_reg_pp0_iter4 <= ap_const_logic_0;
             else
-                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call83))) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready = ap_const_logic_1)) then 
-                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_0;
+                if ((ap_const_boolean_0 = ap_block_pp0_stage0_subdone)) then 
+                    ap_enable_reg_pp0_iter4 <= ap_enable_reg_pp0_iter3;
                 end if; 
             end if;
         end if;
@@ -382,9 +388,9 @@ begin
             if (ap_rst = '1') then
                 layer_normalization_input_ap_vld_preg <= ap_const_logic_0;
             else
-                if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+                if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
                     layer_normalization_input_ap_vld_preg <= ap_const_logic_0;
-                elsif ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
+                elsif ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
                     layer_normalization_input_ap_vld_preg <= layer_normalization_input_ap_vld;
                 end if; 
             end if;
@@ -398,132 +404,113 @@ begin
             if (ap_rst = '1') then
                 layer_normalization_input_preg <= ap_const_lv320_lc_1;
             else
-                if ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
+                if ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
                     layer_normalization_input_preg <= layer_normalization_input;
                 end if; 
             end if;
         end if;
     end process;
 
-    process (ap_clk)
-    begin
-        if (ap_clk'event and ap_clk = '1') then
-            if ((ap_const_logic_1 = ap_CS_fsm_state1)) then
-                in_val_10_reg_715 <= layer_normalization_input_in_sig(191 downto 176);
-                in_val_11_reg_720 <= layer_normalization_input_in_sig(207 downto 192);
-                in_val_12_reg_725 <= layer_normalization_input_in_sig(223 downto 208);
-                in_val_13_reg_730 <= layer_normalization_input_in_sig(239 downto 224);
-                in_val_14_reg_735 <= layer_normalization_input_in_sig(255 downto 240);
-                in_val_15_reg_740 <= layer_normalization_input_in_sig(271 downto 256);
-                in_val_16_reg_745 <= layer_normalization_input_in_sig(287 downto 272);
-                in_val_17_reg_750 <= layer_normalization_input_in_sig(303 downto 288);
-                in_val_18_reg_755 <= layer_normalization_input_in_sig(319 downto 304);
-                in_val_19_reg_665 <= layer_normalization_input_in_sig(31 downto 16);
-                in_val_1_reg_670 <= layer_normalization_input_in_sig(47 downto 32);
-                in_val_2_reg_675 <= layer_normalization_input_in_sig(63 downto 48);
-                in_val_3_reg_680 <= layer_normalization_input_in_sig(79 downto 64);
-                in_val_4_reg_685 <= layer_normalization_input_in_sig(95 downto 80);
-                in_val_5_reg_690 <= layer_normalization_input_in_sig(111 downto 96);
-                in_val_6_reg_695 <= layer_normalization_input_in_sig(127 downto 112);
-                in_val_7_reg_700 <= layer_normalization_input_in_sig(143 downto 128);
-                in_val_8_reg_705 <= layer_normalization_input_in_sig(159 downto 144);
-                in_val_9_reg_710 <= layer_normalization_input_in_sig(175 downto 160);
-                in_val_reg_660 <= in_val_fu_346_p1;
-            end if;
-        end if;
-    end process;
 
-    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, ap_CS_fsm_state2, ap_block_state1, ap_block_state2_on_subcall_done)
+    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_block_pp0_stage0_subdone, ap_reset_idle_pp0)
     begin
         case ap_CS_fsm is
-            when ap_ST_fsm_state1 => 
-                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1))) then
-                    ap_NS_fsm <= ap_ST_fsm_state2;
-                else
-                    ap_NS_fsm <= ap_ST_fsm_state1;
-                end if;
-            when ap_ST_fsm_state2 => 
-                if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then
-                    ap_NS_fsm <= ap_ST_fsm_state1;
-                else
-                    ap_NS_fsm <= ap_ST_fsm_state2;
-                end if;
+            when ap_ST_fsm_pp0_stage0 => 
+                ap_NS_fsm <= ap_ST_fsm_pp0_stage0;
             when others =>  
-                ap_NS_fsm <= "XX";
+                ap_NS_fsm <= "X";
         end case;
     end process;
-    ap_CS_fsm_state1 <= ap_CS_fsm(0);
-    ap_CS_fsm_state2 <= ap_CS_fsm(1);
+    ap_CS_fsm_pp0_stage0 <= ap_CS_fsm(0);
+        ap_block_pp0_stage0 <= not((ap_const_boolean_1 = ap_const_boolean_1));
 
-    ap_ST_fsm_state1_blk_assign_proc : process(ap_block_state1)
+    ap_block_pp0_stage0_01001_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0)
     begin
-        if ((ap_const_boolean_1 = ap_block_state1)) then 
-            ap_ST_fsm_state1_blk <= ap_const_logic_1;
-        else 
-            ap_ST_fsm_state1_blk <= ap_const_logic_0;
-        end if; 
+                ap_block_pp0_stage0_01001 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0));
     end process;
 
 
-    ap_ST_fsm_state2_blk_assign_proc : process(ap_block_state2_on_subcall_done)
+    ap_block_pp0_stage0_11001_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0)
     begin
-        if ((ap_const_boolean_1 = ap_block_state2_on_subcall_done)) then 
-            ap_ST_fsm_state2_blk <= ap_const_logic_1;
-        else 
-            ap_ST_fsm_state2_blk <= ap_const_logic_0;
-        end if; 
+                ap_block_pp0_stage0_11001 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0));
     end process;
 
 
-    ap_block_state1_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_pp0_stage0_11001_ignoreCallOp27_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0_ignore_call65)
     begin
-                ap_block_state1 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_pp0_stage0_11001_ignoreCallOp27 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0_ignore_call65));
     end process;
 
 
-    ap_block_state1_ignore_call65_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_pp0_stage0_11001_ignoreCallOp28_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0_ignore_call71)
     begin
-                ap_block_state1_ignore_call65 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_pp0_stage0_11001_ignoreCallOp28 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0_ignore_call71));
     end process;
 
 
-    ap_block_state1_ignore_call71_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_pp0_stage0_11001_ignoreCallOp29_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0_ignore_call77)
     begin
-                ap_block_state1_ignore_call71 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_pp0_stage0_11001_ignoreCallOp29 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0_ignore_call77));
     end process;
 
 
-    ap_block_state1_ignore_call77_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_pp0_stage0_11001_ignoreCallOp30_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0_ignore_call83)
     begin
-                ap_block_state1_ignore_call77 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_pp0_stage0_11001_ignoreCallOp30 <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0_ignore_call83));
     end process;
 
 
-    ap_block_state1_ignore_call83_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_pp0_stage0_subdone_assign_proc : process(ap_start, ap_block_state1_pp0_stage0_iter0)
     begin
-                ap_block_state1_ignore_call83 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_pp0_stage0_subdone <= ((ap_start = ap_const_logic_1) and (ap_const_boolean_1 = ap_block_state1_pp0_stage0_iter0));
     end process;
 
 
-    ap_block_state2_on_subcall_done_assign_proc : process(grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done)
+    ap_block_state1_pp0_stage0_iter0_assign_proc : process(layer_normalization_input_ap_vld_in_sig)
     begin
-                ap_block_state2_on_subcall_done <= ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done = ap_const_logic_0));
+                ap_block_state1_pp0_stage0_iter0 <= (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0);
     end process;
 
 
-    ap_done_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    ap_block_state1_pp0_stage0_iter0_ignore_call65_assign_proc : process(layer_normalization_input_ap_vld_in_sig)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+                ap_block_state1_pp0_stage0_iter0_ignore_call65 <= (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0);
+    end process;
+
+
+    ap_block_state1_pp0_stage0_iter0_ignore_call71_assign_proc : process(layer_normalization_input_ap_vld_in_sig)
+    begin
+                ap_block_state1_pp0_stage0_iter0_ignore_call71 <= (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0);
+    end process;
+
+
+    ap_block_state1_pp0_stage0_iter0_ignore_call77_assign_proc : process(layer_normalization_input_ap_vld_in_sig)
+    begin
+                ap_block_state1_pp0_stage0_iter0_ignore_call77 <= (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0);
+    end process;
+
+
+    ap_block_state1_pp0_stage0_iter0_ignore_call83_assign_proc : process(layer_normalization_input_ap_vld_in_sig)
+    begin
+                ap_block_state1_pp0_stage0_iter0_ignore_call83 <= (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0);
+    end process;
+
+
+    ap_done_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_subdone)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             ap_done <= ap_const_logic_1;
         else 
             ap_done <= ap_const_logic_0;
         end if; 
     end process;
 
+    ap_enable_pp0 <= (ap_idle_pp0 xor ap_const_logic_1);
+    ap_enable_reg_pp0_iter0 <= ap_start;
 
-    ap_idle_assign_proc : process(ap_start, ap_CS_fsm_state1)
+    ap_idle_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_idle_pp0)
     begin
-        if (((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_0) and (ap_idle_pp0 = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
             ap_idle <= ap_const_logic_1;
         else 
             ap_idle <= ap_const_logic_0;
@@ -531,136 +518,261 @@ begin
     end process;
 
 
-    ap_ready_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    ap_idle_pp0_assign_proc : process(ap_enable_reg_pp0_iter0, ap_enable_reg_pp0_iter1, ap_enable_reg_pp0_iter2, ap_enable_reg_pp0_iter3, ap_enable_reg_pp0_iter4)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_enable_reg_pp0_iter4 = ap_const_logic_0) and (ap_enable_reg_pp0_iter3 = ap_const_logic_0) and (ap_enable_reg_pp0_iter2 = ap_const_logic_0) and (ap_enable_reg_pp0_iter1 = ap_const_logic_0) and (ap_enable_reg_pp0_iter0 = ap_const_logic_0))) then 
+            ap_idle_pp0 <= ap_const_logic_1;
+        else 
+            ap_idle_pp0 <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    ap_idle_pp0_0to3_assign_proc : process(ap_enable_reg_pp0_iter0, ap_enable_reg_pp0_iter1, ap_enable_reg_pp0_iter2, ap_enable_reg_pp0_iter3)
+    begin
+        if (((ap_enable_reg_pp0_iter3 = ap_const_logic_0) and (ap_enable_reg_pp0_iter2 = ap_const_logic_0) and (ap_enable_reg_pp0_iter1 = ap_const_logic_0) and (ap_enable_reg_pp0_iter0 = ap_const_logic_0))) then 
+            ap_idle_pp0_0to3 <= ap_const_logic_1;
+        else 
+            ap_idle_pp0_0to3 <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    ap_ready_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_subdone)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
             ap_ready <= ap_const_logic_1;
         else 
             ap_ready <= ap_const_logic_0;
         end if; 
     end process;
 
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg;
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg;
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg;
-    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg;
-    in_val_fu_346_p1 <= layer_normalization_input_in_sig(16 - 1 downto 0);
-    layer2_out_0 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0;
 
-    layer2_out_0_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    ap_reset_idle_pp0_assign_proc : process(ap_start, ap_idle_pp0_0to3)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_start = ap_const_logic_0) and (ap_idle_pp0_0to3 = ap_const_logic_1))) then 
+            ap_reset_idle_pp0 <= ap_const_logic_1;
+        else 
+            ap_reset_idle_pp0 <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_11001_ignoreCallOp27)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001_ignoreCallOp27) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ce <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_ce <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_start_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_start <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_start <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_0_val <= layer_normalization_input_in_sig(16 - 1 downto 0);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_1_val <= layer_normalization_input_in_sig(31 downto 16);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_2_val <= layer_normalization_input_in_sig(47 downto 32);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_3_val <= layer_normalization_input_in_sig(63 downto 48);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_data_4_val <= layer_normalization_input_in_sig(79 downto 64);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_11001_ignoreCallOp28)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001_ignoreCallOp28) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ce <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_ce <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_start_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_start <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_start <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_0_val <= layer_normalization_input_in_sig(95 downto 80);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_1_val <= layer_normalization_input_in_sig(111 downto 96);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_2_val <= layer_normalization_input_in_sig(127 downto 112);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_3_val <= layer_normalization_input_in_sig(143 downto 128);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_data_4_val <= layer_normalization_input_in_sig(159 downto 144);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_11001_ignoreCallOp29)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001_ignoreCallOp29) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ce <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_ce <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_start_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_start <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_start <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_0_val <= layer_normalization_input_in_sig(175 downto 160);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_1_val <= layer_normalization_input_in_sig(191 downto 176);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_2_val <= layer_normalization_input_in_sig(207 downto 192);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_3_val <= layer_normalization_input_in_sig(223 downto 208);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_data_4_val <= layer_normalization_input_in_sig(239 downto 224);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0_11001_ignoreCallOp30)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001_ignoreCallOp30) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ce <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_ce <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_start_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, ap_block_pp0_stage0)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_start <= ap_const_logic_1;
+        else 
+            grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_start <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_0_val <= layer_normalization_input_in_sig(255 downto 240);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_1_val <= layer_normalization_input_in_sig(271 downto 256);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_2_val <= layer_normalization_input_in_sig(287 downto 272);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_3_val <= layer_normalization_input_in_sig(303 downto 288);
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_data_4_val <= layer_normalization_input_in_sig(319 downto 304);
+    layer2_out_0 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_0;
+
+    layer2_out_0_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
+    begin
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_0_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_0_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_1 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1;
-    layer2_out_10 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0;
+    layer2_out_1 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_1;
+    layer2_out_10 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_0;
 
-    layer2_out_10_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_10_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_10_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_10_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_11 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1;
+    layer2_out_11 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_1;
 
-    layer2_out_11_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_11_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_11_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_11_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_12 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2;
+    layer2_out_12 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_2;
 
-    layer2_out_12_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_12_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_12_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_12_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_13 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3;
+    layer2_out_13 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_3;
 
-    layer2_out_13_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_13_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_13_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_13_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_14 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4;
+    layer2_out_14 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_ap_return_4;
 
-    layer2_out_14_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_14_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_14_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_14_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_15 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0;
+    layer2_out_15 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_0;
 
-    layer2_out_15_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_15_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_15_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_15_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_16 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1;
+    layer2_out_16 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_1;
 
-    layer2_out_16_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_16_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_16_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_16_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_17 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2;
+    layer2_out_17 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_2;
 
-    layer2_out_17_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_17_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_17_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_17_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_18 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3;
+    layer2_out_18 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_3;
 
-    layer2_out_18_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_18_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_18_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_18_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_19 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4;
+    layer2_out_19 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_ap_return_4;
 
-    layer2_out_19_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_19_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_19_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_19_ap_vld <= ap_const_logic_0;
@@ -668,97 +780,97 @@ begin
     end process;
 
 
-    layer2_out_1_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_1_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_1_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_1_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_2 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2;
+    layer2_out_2 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_2;
 
-    layer2_out_2_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_2_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_2_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_2_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_3 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3;
+    layer2_out_3 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_3;
 
-    layer2_out_3_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_3_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_3_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_3_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_4 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4;
+    layer2_out_4 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_ap_return_4;
 
-    layer2_out_4_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_4_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_4_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_4_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_5 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0;
+    layer2_out_5 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_0;
 
-    layer2_out_5_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_5_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_5_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_5_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_6 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1;
+    layer2_out_6 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_1;
 
-    layer2_out_6_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_6_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_6_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_6_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_7 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2;
+    layer2_out_7 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_2;
 
-    layer2_out_7_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_7_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_7_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_7_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_8 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3;
+    layer2_out_8 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_3;
 
-    layer2_out_8_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_8_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_8_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_8_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_9 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4;
+    layer2_out_9 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_ap_return_4;
 
-    layer2_out_9_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    layer2_out_9_ap_vld_assign_proc : process(ap_enable_reg_pp0_iter4, ap_block_pp0_stage0_11001)
     begin
-        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0_11001) and (ap_enable_reg_pp0_iter4 = ap_const_logic_1))) then 
             layer2_out_9_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_9_ap_vld <= ap_const_logic_0;
@@ -776,9 +888,9 @@ begin
     end process;
 
 
-    layer_normalization_input_blk_n_assign_proc : process(ap_start, ap_CS_fsm_state1, layer_normalization_input_ap_vld)
+    layer_normalization_input_blk_n_assign_proc : process(ap_start, ap_CS_fsm_pp0_stage0, layer_normalization_input_ap_vld, ap_block_pp0_stage0)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_const_boolean_0 = ap_block_pp0_stage0) and (ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
             layer_normalization_input_blk_n <= layer_normalization_input_ap_vld;
         else 
             layer_normalization_input_blk_n <= ap_const_logic_1;
@@ -786,7 +898,7 @@ begin
     end process;
 
 
-    layer_normalization_input_in_sig_assign_proc : process(layer_normalization_input, layer_normalization_input_preg, layer_normalization_input_ap_vld)
+    layer_normalization_input_in_sig_assign_proc : process(layer_normalization_input_ap_vld, layer_normalization_input, layer_normalization_input_preg)
     begin
         if ((layer_normalization_input_ap_vld = ap_const_logic_1)) then 
             layer_normalization_input_in_sig <= layer_normalization_input;

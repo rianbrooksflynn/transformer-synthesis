@@ -109324,19 +109324,18 @@ void lookup_invert_sqr(typename CONFIG_T::mean_t x, typename CONFIG_T::table_t &
         return;
     }
 
-
-    int low = 0;
-    int high = CONFIG_T::table_size - 1;
-    while (high - low > 1) {
-        int mid = (low + high) / 2;
-        if (x > table_in[mid]) {
-            low = mid;
-        } else {
-            high = mid;
+#pragma HLS PIPELINE
+LAYERNORM_LOOKUP:
+    for (int i = 0; i < CONFIG_T::table_size - 1; i++) {
+#pragma HLS UNROLL factor=4
+        if (x <= table_in[i+1] && x >= table_in[i]) {
+            res = table_out[i];
+            return;
         }
     }
 
-    res = table_out[low];
+    res = table_out[CONFIG_T::table_size - 1];
+    return;
 }
 
 template <class data_T, class res_T, typename CONFIG_T>

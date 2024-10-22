@@ -1518,57 +1518,12 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_63_1:  '
-    FileOffset:      63
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2931475
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_63_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_108_1:  '
-    FileOffset:      108
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2933055
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_108_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_113_2:  '
-    FileOffset:      113
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2933288
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_113_2: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_121_3:  '
-    FileOffset:      121
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2933697
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_121_3: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_141_1:  '
-    FileOffset:      141
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2934496
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_141_1: '
-  - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_73_1:  '
     FileOffset:      73
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2936608
+        Offset:          2936744
         Length:          0
         ReplacementText: 'VITIS_LOOP_73_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1577,7 +1532,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2936748
+        Offset:          2936884
         Length:          0
         ReplacementText: 'VITIS_LOOP_80_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1586,7 +1541,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2937013
+        Offset:          2937149
         Length:          0
         ReplacementText: 'VITIS_LOOP_89_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1595,7 +1550,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2937207
+        Offset:          2937343
         Length:          0
         ReplacementText: 'VITIS_LOOP_98_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1604,7 +1559,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2937300
+        Offset:          2937436
         Length:          0
         ReplacementText: 'VITIS_LOOP_102_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1613,7 +1568,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2937626
+        Offset:          2937762
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1622,7 +1577,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2937736
+        Offset:          2937872
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1631,7 +1586,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2938702
+        Offset:          2938838
         Length:          0
         ReplacementText: 'VITIS_LOOP_141_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1640,7 +1595,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2938788
+        Offset:          2938924
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1649,7 +1604,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2939464
+        Offset:          2939600
         Length:          0
         ReplacementText: 'VITIS_LOOP_164_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1658,7 +1613,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2940396
+        Offset:          2940532
         Length:          0
         ReplacementText: 'VITIS_LOOP_187_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1667,7 +1622,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2940534
+        Offset:          2940670
         Length:          0
         ReplacementText: 'VITIS_LOOP_190_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1676,7 +1631,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2940684
+        Offset:          2940820
         Length:          0
         ReplacementText: 'VITIS_LOOP_195_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1685,7 +1640,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2940808
+        Offset:          2940944
         Length:          0
         ReplacementText: 'VITIS_LOOP_199_4: '
 ...

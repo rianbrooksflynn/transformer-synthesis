@@ -9,28 +9,28 @@
       "T": 1
     },
     "name": "myproject",
-    "total_instructions": 882
+    "total_instructions": 13094
   },
   "1": {
-    "basicblocks": 6,
+    "basicblocks": 1027,
     "calls": "",
     "file": "nnet_layernorm.h",
-    "fileloc": 76,
-    "instructions": 197,
+    "fileloc": 75,
+    "instructions": 3250,
     "loads": {
-      "G": 2
+      "G": 1
     },
     "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
       "L": 5
     },
-    "total_instructions": 197
+    "total_instructions": 3250
   },
   "2": {
     "basicblocks": 1,
     "calls": "1 1 1 1",
     "file": "nnet_layernorm.h",
-    "fileloc": 131,
+    "fileloc": 130,
     "instructions": 70,
     "loads": {
       "L": 20
@@ -39,6 +39,6 @@
     "stores": {
       "L": 20
     },
-    "total_instructions": 858
+    "total_instructions": 13070
   }
 }

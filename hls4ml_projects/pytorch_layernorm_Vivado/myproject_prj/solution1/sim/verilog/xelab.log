@@ -5,14 +5,12 @@ Running: /opt/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.ap
 Multi-threading is on. Using 46 slave threads.
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/glbl.v" into library work
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabcud.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabcud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabbkb
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_29ns_19s_39_1_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_mul_29ns_19s_39_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_index_table_RObkb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_index_table_RObkb
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
@@ -37,14 +35,12 @@ Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
 Compiling module xil_defaultlib.myproject_transpose_2d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_transpose_2d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
-Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_mul_29ns_19s_39_1_1(NU...
 Compiling module xil_defaultlib.myproject_mul_19s_12ns_31_1_1(NU...
 Compiling module xil_defaultlib.myproject_mul_19s_19s_32_1_1(NUM...
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
 Compiling module xil_defaultlib.myproject
 Compiling module xil_defaultlib.nodf_module_intf
-Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=7)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_myproject_top
 Compiling module work.glbl

@@ -21,4 +21,4 @@ set depth_list {
   {layer2_out_9 1}
   {layer_normalization_input 1}
 }
-set trans_num 30
+set trans_num 60

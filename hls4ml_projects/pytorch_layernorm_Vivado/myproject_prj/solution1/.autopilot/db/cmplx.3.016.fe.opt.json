@@ -10,7 +10,7 @@
       "T": 1
     },
     "name": "myproject",
-    "total_instructions": 1023
+    "total_instructions": 12239
   },
   "1": {
     "basicblocks": 1,
@@ -25,25 +25,25 @@
     "total_instructions": 22
   },
   "2": {
-    "basicblocks": 6,
+    "basicblocks": 961,
     "calls": "",
     "file": "nnet_layernorm.h",
-    "fileloc": 76,
-    "instructions": 195,
+    "fileloc": 75,
+    "instructions": 2999,
     "loads": {
-      "G": 2
+      "G": 1
     },
     "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
       "L": 5
     },
-    "total_instructions": 195
+    "total_instructions": 2999
   },
   "3": {
     "basicblocks": 1,
     "calls": "2 2 2 2",
     "file": "nnet_layernorm.h",
-    "fileloc": 127,
+    "fileloc": 130,
     "instructions": 50,
     "loads": {
       "L": 20
@@ -52,7 +52,7 @@
     "stores": {
       "L": 20
     },
-    "total_instructions": 830
+    "total_instructions": 12046
   },
   "4": {
     "basicblocks": 1,

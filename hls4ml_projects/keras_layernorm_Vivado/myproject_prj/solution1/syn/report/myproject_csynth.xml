@@ -16,35 +16,37 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>no</PipelineType>
+<PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
 <EstimatedClockPeriod>4.280</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<Interval-min>undef</Interval-min>
-<Interval-max>undef</Interval-max>
+<Best-caseLatency>4</Best-caseLatency>
+<Average-caseLatency>4</Average-caseLatency>
+<Worst-caseLatency>4</Worst-caseLatency>
+<Best-caseRealTimeLatency>20.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>20.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>20.000 ns</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>1</PipelineInitiationInterval>
+<PipelineDepth>5</PipelineDepth>
+<Interval-min>1</Interval-min>
+<Interval-max>1</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:151~firmware/myproject.cpp:32</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:150~firmware/myproject.cpp:32</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>16</BRAM_18K>
+<BRAM_18K>8</BRAM_18K>
 <DSP>48</DSP>
-<FF>2335</FF>
-<LUT>4522</LUT>
+<FF>5570</FF>
+<LUT>184636</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -124,18 +126,6 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>layer_normalization_input</name>
-<Object>layer_normalization_input</Object>
-<Type>pointer</Type>
-<Scope></Scope>
-<IOProtocol>ap_vld</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>320</Bits>
-<Attribute>data</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
 <name>layer_normalization_input_ap_vld</name>
 <Object>layer_normalization_input</Object>
 <Type>pointer</Type>
@@ -145,6 +135,18 @@
 <Dir>in</Dir>
 <Bits>1</Bits>
 <Attribute>control</Attribute>
+<CType>int</CType>
+</RtlPorts>
+<RtlPorts>
+<name>layer_normalization_input</name>
+<Object>layer_normalization_input</Object>
+<Type>pointer</Type>
+<Scope></Scope>
+<IOProtocol>ap_vld</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>320</Bits>
+<Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>

@@ -1472,13 +1472,4 @@ Diagnostics:
         Offset:          2928827
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_63_1:  '
-    FileOffset:      63
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2929622
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_63_1: '
 ...
