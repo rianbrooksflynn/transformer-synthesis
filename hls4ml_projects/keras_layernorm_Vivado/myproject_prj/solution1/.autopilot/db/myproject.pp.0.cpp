@@ -33021,8 +33021,8 @@ typedef ap_fixed<19,6> layer_normalization_mean_t;
 
 
 __attribute__((sdx_kernel("myproject", 0))) void myproject(
-    input_t layer_normalization_input[10*10],
-    result_t layer2_out[10*10]
+    input_t layer_normalization_input[4*5],
+    result_t layer2_out[4*5]
 );
 # 4 "firmware/myproject.cpp" 2
 # 1 "firmware/parameters.h" 1
@@ -72516,19 +72516,19 @@ void layernormalize(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in],
 
 # 1 "firmware/weights/s2.h" 1
 # 12 "firmware/weights/s2.h"
-layer_normalization_scale_t s2[10] = {1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000};
+layer_normalization_scale_t s2[5] = {1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000};
 # 14 "firmware/parameters.h" 2
 # 1 "firmware/weights/b2.h" 1
 # 12 "firmware/weights/b2.h"
-layer_normalization_bias_t b2[10] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+layer_normalization_bias_t b2[5] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 15 "firmware/parameters.h" 2
 
 
 
 
 struct config2 : nnet::layernorm_config {
-    static const unsigned n_in = 10*10;
-    static const unsigned seq_len = 10;
+    static const unsigned n_in = 4*5;
+    static const unsigned seq_len = 4;
     static const unsigned table_size = 1024;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;
@@ -72546,8 +72546,8 @@ struct config2 : nnet::layernorm_config {
 
 
 __attribute__((sdx_kernel("myproject", 0))) void myproject(
-    input_t layer_normalization_input[10*10],
-    result_t layer2_out[10*10]
+    input_t layer_normalization_input[4*5],
+    result_t layer2_out[4*5]
 ) {
 #line 183 "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/build_prj.tcl"
 #pragma HLSDIRECTIVE TOP name=myproject

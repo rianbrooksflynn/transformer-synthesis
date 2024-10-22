@@ -33023,8 +33023,8 @@ typedef ap_fixed<19,6> _0_mean_t;
 
 
 __attribute__((sdx_kernel("myproject", 0))) void myproject(
-    input_t input_1[10*10],
-    result_t layer2_out[10*10]
+    input_t input_1[4*5],
+    result_t layer2_out[4*5]
 );
 # 4 "firmware/myproject.cpp" 2
 # 1 "firmware/parameters.h" 1
@@ -72778,11 +72778,11 @@ void transpose_2d(hls::stream<data_T> &data, hls::stream<res_T> &res) {
 
 # 1 "firmware/weights/s2.h" 1
 # 12 "firmware/weights/s2.h"
-_0_scale_t s2[10] = {1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000};
+_0_scale_t s2[5] = {1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000, 1.0000000000};
 # 16 "firmware/parameters.h" 2
 # 1 "firmware/weights/b2.h" 1
 # 12 "firmware/weights/b2.h"
-_0_bias_t b2[10] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+_0_bias_t b2[5] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 17 "firmware/parameters.h" 2
 
 
@@ -72790,23 +72790,23 @@ _0_bias_t b2[10] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.00
 
 struct config3 : nnet::transpose_config {
     static const unsigned depth = 1;
-    static const unsigned height = 10;
-    static const unsigned width = 10;
+    static const unsigned height = 4;
+    static const unsigned width = 5;
     static constexpr unsigned perm[3] = {0,2,1};
 };
 
 
 struct config4 : nnet::transpose_config {
     static const unsigned depth = 1;
-    static const unsigned height = 10;
-    static const unsigned width = 10;
+    static const unsigned height = 5;
+    static const unsigned width = 4;
     static constexpr unsigned perm[3] = {0,2,1};
 };
 
 
 struct config2 : nnet::layernorm_config {
-    static const unsigned n_in = 10*10;
-    static const unsigned seq_len = 10;
+    static const unsigned n_in = 4*5;
+    static const unsigned seq_len = 4;
     static const unsigned table_size = 1024;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;
@@ -72824,8 +72824,8 @@ struct config2 : nnet::layernorm_config {
 
 
 __attribute__((sdx_kernel("myproject", 0))) void myproject(
-    input_t input_1[10*10],
-    result_t layer2_out[10*10]
+    input_t input_1[4*5],
+    result_t layer2_out[4*5]
 ) {
 #line 183 "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/build_prj.tcl"
 #pragma HLSDIRECTIVE TOP name=myproject
@@ -72838,11 +72838,11 @@ __attribute__((sdx_kernel("myproject", 0))) void myproject(
 #pragma HLS INTERFACE ap_vld port=input_1,layer2_out
 #pragma HLS PIPELINE
 # 32 "firmware/myproject.cpp"
- layer3_t layer3_out[10*10];
+ layer3_t layer3_out[5*4];
 #pragma HLS ARRAY_PARTITION variable=layer3_out complete dim=0
  nnet::transpose_2d<input_t, layer3_t, config3>(input_1, layer3_out);
 
-    layer4_t layer4_out[10*10];
+    layer4_t layer4_out[4*5];
 #pragma HLS ARRAY_PARTITION variable=layer4_out complete dim=0
  nnet::transpose_2d<layer3_t, layer4_t, config4>(layer3_out, layer4_out);
 

@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1 opened at Mon Oct 07 10:32:49 CEST 2024
+INFO-FLOW: Workspace /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1 opened at Tue Oct 22 17:16:27 CEST 2024
 Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Command     open_solution done; 0.14 sec.
@@ -17,7 +17,7 @@ DBG:HLSDevice: Trying to load device library: /opt/Xilinx/Vitis_HLS/2023.2/lib/l
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /opt/Xilinx/Vivado/2023.2/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
-Command       create_platform done; 1.99 sec.
+Command       create_platform done; 1.89 sec.
 Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
 Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
 Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
@@ -34,7 +34,7 @@ Command       ap_source done; 0.13 sec.
 Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
 INFO: [XFORM 203-1161] The maximum of name length is set to 80.
-Command     set_part done; 2.14 sec.
+Command     set_part done; 2.04 sec.
 Execute     config_schedule -enable_dsp_full_reg=false 
 INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
 Execute     create_clock -period 5 -name default 
@@ -54,196 +54,17 @@ Execute       send_msg_by_id INFO @200-2036@%s debug
 INFO: [HLS 200-2036] Building debug C Simulation binaries
 Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
 Execute       source run_sim.tcl 
-Command       ap_source done; 0.93 sec.
-INFO: [SIM 211-1] CSim done with 0 errors.
+Command       ap_source done; error code: 1; 0.18 sec.
+ERROR: [SIM 211-100] CSim failed with errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-Command     csim_design done; 13.5 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 12 seconds. CPU system time: 1 seconds. Elapsed time: 13.5 seconds; current allocated memory: 0.234 MB.
-Execute     csynth_design 
-INFO: [HLS 200-1510] Running: csynth_design 
-INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
-Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 254.320 MB.
-Execute         set_directive_top myproject -name=myproject 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/try/try.tcl 
-INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
-INFO-FLOW: Compiling one TU...
-INFO-FLOW: Handling firmware/myproject.cpp as C++
-Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info 
-INFO-FLOW: Running: GCC PP 39
-INFO-FLOW: Source preprocessing
-INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang firmware/myproject.cpp -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/all.directive.json -E -std=c++0x -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=5 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.err.log
-INFO-FLOW: Done: GCC PP 39 time: 0.8 seconds per iteration
-INFO-FLOW: Source syntax check for synthesis
-INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.err.log
-INFO-FLOW: Error in clang_39_open_source : 
-INFO-FLOW: Caught error in elaborate:  
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
     while executing
-"ap_compile_CCPP $srcf $skip_transform CFLAGS $skip_cdt $objdir $is_xip"
-    (procedure "AP::ap_compile_one_tu_39" line 53)
-    invoked from within
-"AP::ap_compile_one_tu_39 $srcfile $skip_transform $dbgInfo $skip_cdt "$cflags""
-    ("foreach" body line 10)
-    invoked from within
-"foreach fentry $dut_files {
-        #puts "file: $fentry"
-        set fatt [lindex $fentry 1]
-        array set opt $fatt
-        set srcfile $opt(nam..."
-    (procedure "AP::compile_dut_files_39" line 18)
-    invoked from within
-"AP::compile_dut_files_39 $dut_files $dbgInfo $skip_cdt $skip_transform"
-    (procedure "AP::compile" line 105)
-    invoked from within
-"AP::compile 1 $skip_cdt $skip_transform"
-    (procedure "ap_internal_elaborate" line 83)
-    invoked from within
-"ap_internal_elaborate "
-Command       elaborate done; error code: 2; 3.13 sec.
-INFO-FLOW: Caught error in csynth_design:  
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
     while executing
-"ap_internal_csynth_design "
-Command     csynth_design done; error code: 2; 3.26 sec.
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2.05 seconds. CPU system time: 0.44 seconds. Elapsed time: 3.26 seconds; current allocated memory: 1.137 MB.
-Command   ap_source done; error code: 1; 19.07 sec.
-Execute   cleanup_all 
-INFO-FLOW: Workspace /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1 opened at Mon Oct 07 10:33:40 CEST 2024
-Execute       ap_set_clock -name default -period 5 -default=false 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
-Execute       ap_set_clock -name default -uncertainty 0.625 -unit % 
-INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
-Execute       set_part xcvu13p-flga2577-2-e 
-Execute         create_platform xcvu13p-flga2577-2-e -board  
-DBG:HLSDevice: Trying to load device library: /opt/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_hlsvwrap.so
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /opt/Xilinx/Vivado/2023.2/data/parts/arch.xml
-DBG:HLSDevice: init success
-INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
-Command         create_platform done; 1.93 sec.
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
-Command         ap_source done; 0.13 sec.
-Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info 
-Execute         config_compile -quiet -complex-mul-dsp=0 
-Command       set_part done; 2.09 sec.
-Execute       send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute       send_msg_by_id INFO @200-1464@%s config_compile -name_max_length=80 
-INFO: [HLS 200-1464] Running solution command: config_compile -name_max_length=80
-Execute       config_compile -name_max_length=80 
-INFO: [XFORM 203-1161] The maximum of name length is set to 80.
-Execute       send_msg_by_id INFO @200-1464@%s config_schedule -enable_dsp_full_reg=0 
-INFO: [HLS 200-1464] Running solution command: config_schedule -enable_dsp_full_reg=0
-Execute       config_schedule -enable_dsp_full_reg=0 
-Command     open_solution done; 2.24 sec.
-Execute     config_array_partition -maximum_size 4096 
-INFO: [HLS 200-1510] Running: config_array_partition -maximum_size 4096 
-INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
-ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
-Command     config_array_partition done; error code: 1; 
-Execute     config_compile -name_max_length 80 
-INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
-INFO: [XFORM 203-1161] The maximum of name length is set to 80.
-Execute     set_part xcvu13p-flga2577-2-e 
-INFO: [HLS 200-1510] Running: set_part xcvu13p-flga2577-2-e 
-Execute       create_platform xcvu13p-flga2577-2-e -board  
-Command       create_platform done; 0.11 sec.
-Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
-Command       ap_source done; 0.12 sec.
-Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-INFO: [XFORM 203-1161] The maximum of name length is set to 80.
-Command     set_part done; 0.26 sec.
-Execute     config_schedule -enable_dsp_full_reg=false 
-INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
-Execute     create_clock -period 5 -name default 
-INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
-Execute     set_clock_uncertainty 12.5% default 
-INFO: [HLS 200-1510] Running: set_clock_uncertainty 12.5% default 
-Execute     csim_design 
-INFO: [HLS 200-1510] Running: csim_design 
-INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
-INFO: [SIM 211-2] *************** CSIM start ***************
-INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
-Execute       source csim/.lst_opt.tcl 
-Execute       send_msg_by_id INFO @200-2036@%s debug 
-INFO: [HLS 200-2036] Building debug C Simulation binaries
-Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
-Execute       source run_sim.tcl 
-Command       ap_source done; 0.95 sec.
-INFO: [SIM 211-1] CSim done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
-Command     csim_design done; 1.23 sec.
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1.09 seconds. CPU system time: 0.11 seconds. Elapsed time: 1.23 seconds; current allocated memory: 0.000 MB.
-Execute     csynth_design 
-INFO: [HLS 200-1510] Running: csynth_design 
-INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
-Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.12 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.14 seconds; current allocated memory: 282.988 MB.
-Execute         set_directive_top myproject -name=myproject 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
-Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
-Execute           source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/try/try.tcl 
-INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
-INFO-FLOW: Compiling one TU...
-INFO-FLOW: Handling firmware/myproject.cpp as C++
-Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info 
-INFO-FLOW: Running: GCC PP 39
-INFO-FLOW: Source preprocessing
-INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang firmware/myproject.cpp -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/all.directive.json -E -std=c++0x -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=5 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.err.log
-INFO-FLOW: Done: GCC PP 39 time: 0.9 seconds per iteration
-INFO-FLOW: Source syntax check for synthesis
-INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.err.log
-INFO-FLOW: Error in clang_39_open_source : 
-INFO-FLOW: Caught error in elaborate:  
-    while executing
-"ap_compile_CCPP $srcf $skip_transform CFLAGS $skip_cdt $objdir $is_xip"
-    (procedure "AP::ap_compile_one_tu_39" line 53)
-    invoked from within
-"AP::ap_compile_one_tu_39 $srcfile $skip_transform $dbgInfo $skip_cdt "$cflags""
-    ("foreach" body line 10)
-    invoked from within
-"foreach fentry $dut_files {
-        #puts "file: $fentry"
-        set fatt [lindex $fentry 1]
-        array set opt $fatt
-        set srcfile $opt(nam..."
-    (procedure "AP::compile_dut_files_39" line 18)
-    invoked from within
-"AP::compile_dut_files_39 $dut_files $dbgInfo $skip_cdt $skip_transform"
-    (procedure "AP::compile" line 105)
-    invoked from within
-"AP::compile 1 $skip_cdt $skip_transform"
-    (procedure "ap_internal_elaborate" line 83)
-    invoked from within
-"ap_internal_elaborate "
-Command       elaborate done; error code: 2; 3.12 sec.
-INFO-FLOW: Caught error in csynth_design:  
-    while executing
-"ap_internal_csynth_design "
-Command     csynth_design done; error code: 2; 3.25 sec.
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0.48 seconds. Elapsed time: 3.25 seconds; current allocated memory: 0.488 MB.
-Command   ap_source done; error code: 1; 7.01 sec.
+"ap_internal_csim_design "
+Command     csim_design done; error code: 2; 12.77 sec.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 11.24 seconds. CPU system time: 0.97 seconds. Elapsed time: 12.77 seconds; current allocated memory: 0.219 MB.
+Command   ap_source done; error code: 1; 14.99 sec.
 Execute   cleanup_all 

@@ -16,7 +16,7 @@ port (
     ap_done : OUT STD_LOGIC;
     ap_idle : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
-    layer_normalization_input : IN STD_LOGIC_VECTOR (1599 downto 0);
+    layer_normalization_input : IN STD_LOGIC_VECTOR (319 downto 0);
     layer_normalization_input_ap_vld : IN STD_LOGIC;
     layer2_out_0 : OUT STD_LOGIC_VECTOR (32 downto 0);
     layer2_out_0_ap_vld : OUT STD_LOGIC;
@@ -57,309 +57,147 @@ port (
     layer2_out_18 : OUT STD_LOGIC_VECTOR (32 downto 0);
     layer2_out_18_ap_vld : OUT STD_LOGIC;
     layer2_out_19 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_19_ap_vld : OUT STD_LOGIC;
-    layer2_out_20 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_20_ap_vld : OUT STD_LOGIC;
-    layer2_out_21 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_21_ap_vld : OUT STD_LOGIC;
-    layer2_out_22 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_22_ap_vld : OUT STD_LOGIC;
-    layer2_out_23 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_23_ap_vld : OUT STD_LOGIC;
-    layer2_out_24 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_24_ap_vld : OUT STD_LOGIC;
-    layer2_out_25 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_25_ap_vld : OUT STD_LOGIC;
-    layer2_out_26 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_26_ap_vld : OUT STD_LOGIC;
-    layer2_out_27 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_27_ap_vld : OUT STD_LOGIC;
-    layer2_out_28 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_28_ap_vld : OUT STD_LOGIC;
-    layer2_out_29 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_29_ap_vld : OUT STD_LOGIC;
-    layer2_out_30 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_30_ap_vld : OUT STD_LOGIC;
-    layer2_out_31 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_31_ap_vld : OUT STD_LOGIC;
-    layer2_out_32 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_32_ap_vld : OUT STD_LOGIC;
-    layer2_out_33 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_33_ap_vld : OUT STD_LOGIC;
-    layer2_out_34 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_34_ap_vld : OUT STD_LOGIC;
-    layer2_out_35 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_35_ap_vld : OUT STD_LOGIC;
-    layer2_out_36 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_36_ap_vld : OUT STD_LOGIC;
-    layer2_out_37 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_37_ap_vld : OUT STD_LOGIC;
-    layer2_out_38 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_38_ap_vld : OUT STD_LOGIC;
-    layer2_out_39 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_39_ap_vld : OUT STD_LOGIC;
-    layer2_out_40 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_40_ap_vld : OUT STD_LOGIC;
-    layer2_out_41 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_41_ap_vld : OUT STD_LOGIC;
-    layer2_out_42 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_42_ap_vld : OUT STD_LOGIC;
-    layer2_out_43 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_43_ap_vld : OUT STD_LOGIC;
-    layer2_out_44 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_44_ap_vld : OUT STD_LOGIC;
-    layer2_out_45 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_45_ap_vld : OUT STD_LOGIC;
-    layer2_out_46 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_46_ap_vld : OUT STD_LOGIC;
-    layer2_out_47 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_47_ap_vld : OUT STD_LOGIC;
-    layer2_out_48 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_48_ap_vld : OUT STD_LOGIC;
-    layer2_out_49 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_49_ap_vld : OUT STD_LOGIC;
-    layer2_out_50 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_50_ap_vld : OUT STD_LOGIC;
-    layer2_out_51 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_51_ap_vld : OUT STD_LOGIC;
-    layer2_out_52 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_52_ap_vld : OUT STD_LOGIC;
-    layer2_out_53 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_53_ap_vld : OUT STD_LOGIC;
-    layer2_out_54 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_54_ap_vld : OUT STD_LOGIC;
-    layer2_out_55 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_55_ap_vld : OUT STD_LOGIC;
-    layer2_out_56 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_56_ap_vld : OUT STD_LOGIC;
-    layer2_out_57 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_57_ap_vld : OUT STD_LOGIC;
-    layer2_out_58 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_58_ap_vld : OUT STD_LOGIC;
-    layer2_out_59 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_59_ap_vld : OUT STD_LOGIC;
-    layer2_out_60 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_60_ap_vld : OUT STD_LOGIC;
-    layer2_out_61 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_61_ap_vld : OUT STD_LOGIC;
-    layer2_out_62 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_62_ap_vld : OUT STD_LOGIC;
-    layer2_out_63 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_63_ap_vld : OUT STD_LOGIC;
-    layer2_out_64 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_64_ap_vld : OUT STD_LOGIC;
-    layer2_out_65 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_65_ap_vld : OUT STD_LOGIC;
-    layer2_out_66 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_66_ap_vld : OUT STD_LOGIC;
-    layer2_out_67 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_67_ap_vld : OUT STD_LOGIC;
-    layer2_out_68 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_68_ap_vld : OUT STD_LOGIC;
-    layer2_out_69 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_69_ap_vld : OUT STD_LOGIC;
-    layer2_out_70 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_70_ap_vld : OUT STD_LOGIC;
-    layer2_out_71 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_71_ap_vld : OUT STD_LOGIC;
-    layer2_out_72 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_72_ap_vld : OUT STD_LOGIC;
-    layer2_out_73 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_73_ap_vld : OUT STD_LOGIC;
-    layer2_out_74 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_74_ap_vld : OUT STD_LOGIC;
-    layer2_out_75 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_75_ap_vld : OUT STD_LOGIC;
-    layer2_out_76 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_76_ap_vld : OUT STD_LOGIC;
-    layer2_out_77 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_77_ap_vld : OUT STD_LOGIC;
-    layer2_out_78 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_78_ap_vld : OUT STD_LOGIC;
-    layer2_out_79 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_79_ap_vld : OUT STD_LOGIC;
-    layer2_out_80 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_80_ap_vld : OUT STD_LOGIC;
-    layer2_out_81 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_81_ap_vld : OUT STD_LOGIC;
-    layer2_out_82 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_82_ap_vld : OUT STD_LOGIC;
-    layer2_out_83 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_83_ap_vld : OUT STD_LOGIC;
-    layer2_out_84 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_84_ap_vld : OUT STD_LOGIC;
-    layer2_out_85 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_85_ap_vld : OUT STD_LOGIC;
-    layer2_out_86 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_86_ap_vld : OUT STD_LOGIC;
-    layer2_out_87 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_87_ap_vld : OUT STD_LOGIC;
-    layer2_out_88 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_88_ap_vld : OUT STD_LOGIC;
-    layer2_out_89 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_89_ap_vld : OUT STD_LOGIC;
-    layer2_out_90 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_90_ap_vld : OUT STD_LOGIC;
-    layer2_out_91 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_91_ap_vld : OUT STD_LOGIC;
-    layer2_out_92 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_92_ap_vld : OUT STD_LOGIC;
-    layer2_out_93 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_93_ap_vld : OUT STD_LOGIC;
-    layer2_out_94 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_94_ap_vld : OUT STD_LOGIC;
-    layer2_out_95 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_95_ap_vld : OUT STD_LOGIC;
-    layer2_out_96 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_96_ap_vld : OUT STD_LOGIC;
-    layer2_out_97 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_97_ap_vld : OUT STD_LOGIC;
-    layer2_out_98 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_98_ap_vld : OUT STD_LOGIC;
-    layer2_out_99 : OUT STD_LOGIC_VECTOR (32 downto 0);
-    layer2_out_99_ap_vld : OUT STD_LOGIC );
+    layer2_out_19_ap_vld : OUT STD_LOGIC );
 end;
 
 
 architecture behav of myproject is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "myproject_myproject,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcvu13p-flga2577-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.371125,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=0,HLS_SYN_FF=13986,HLS_SYN_LUT=18858,HLS_VERSION=2023_2}";
+    "myproject_myproject,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcvu13p-flga2577-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.279857,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=16,HLS_SYN_DSP=0,HLS_SYN_FF=2335,HLS_SYN_LUT=4522,HLS_VERSION=2023_2}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (1 downto 0) := "01";
     constant ap_ST_fsm_state2 : STD_LOGIC_VECTOR (1 downto 0) := "10";
     constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     constant ap_const_boolean_1 : BOOLEAN := true;
-    constant ap_const_lv1600_lc_1 : STD_LOGIC_VECTOR (1599 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+    constant ap_const_lv320_lc_1 : STD_LOGIC_VECTOR (319 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     constant ap_const_boolean_0 : BOOLEAN := false;
     constant ap_const_lv32_1 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000001";
+    constant ap_const_lv32_10 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010000";
+    constant ap_const_lv32_1F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000011111";
+    constant ap_const_lv32_20 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000100000";
+    constant ap_const_lv32_2F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000101111";
+    constant ap_const_lv32_30 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000110000";
+    constant ap_const_lv32_3F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000111111";
+    constant ap_const_lv32_40 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001000000";
+    constant ap_const_lv32_4F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001001111";
+    constant ap_const_lv32_50 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001010000";
+    constant ap_const_lv32_5F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001011111";
+    constant ap_const_lv32_60 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001100000";
+    constant ap_const_lv32_6F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001101111";
+    constant ap_const_lv32_70 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001110000";
+    constant ap_const_lv32_7F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001111111";
+    constant ap_const_lv32_80 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010000000";
+    constant ap_const_lv32_8F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010001111";
+    constant ap_const_lv32_90 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010010000";
+    constant ap_const_lv32_9F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010011111";
+    constant ap_const_lv32_A0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010100000";
+    constant ap_const_lv32_AF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010101111";
+    constant ap_const_lv32_B0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010110000";
+    constant ap_const_lv32_BF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000010111111";
+    constant ap_const_lv32_C0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011000000";
+    constant ap_const_lv32_CF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011001111";
+    constant ap_const_lv32_D0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011010000";
+    constant ap_const_lv32_DF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011011111";
+    constant ap_const_lv32_E0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011100000";
+    constant ap_const_lv32_EF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011101111";
+    constant ap_const_lv32_F0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011110000";
+    constant ap_const_lv32_FF : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000011111111";
+    constant ap_const_lv32_100 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100000000";
+    constant ap_const_lv32_10F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100001111";
+    constant ap_const_lv32_110 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100010000";
+    constant ap_const_lv32_11F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100011111";
+    constant ap_const_lv32_120 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100100000";
+    constant ap_const_lv32_12F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100101111";
+    constant ap_const_lv32_130 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100110000";
+    constant ap_const_lv32_13F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100111111";
 
     signal ap_CS_fsm : STD_LOGIC_VECTOR (1 downto 0) := "01";
     attribute fsm_encoding : string;
     attribute fsm_encoding of ap_CS_fsm : signal is "none";
     signal ap_CS_fsm_state1 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state1 : signal is "none";
-    signal layer_normalization_input_preg : STD_LOGIC_VECTOR (1599 downto 0) := "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
-    signal layer_normalization_input_in_sig : STD_LOGIC_VECTOR (1599 downto 0);
+    signal layer_normalization_input_preg : STD_LOGIC_VECTOR (319 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+    signal layer_normalization_input_in_sig : STD_LOGIC_VECTOR (319 downto 0);
     signal layer_normalization_input_ap_vld_preg : STD_LOGIC := '0';
     signal layer_normalization_input_ap_vld_in_sig : STD_LOGIC;
     signal layer_normalization_input_blk_n : STD_LOGIC;
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start : STD_LOGIC;
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done : STD_LOGIC;
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_idle : STD_LOGIC;
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_ready : STD_LOGIC;
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_5 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_6 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_7 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_8 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_9 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_10 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_11 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_12 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_13 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_14 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_15 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_16 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_17 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_18 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_19 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_20 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_21 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_22 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_23 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_24 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_25 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_26 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_27 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_28 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_29 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_30 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_31 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_32 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_33 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_34 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_35 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_36 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_37 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_38 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_39 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_40 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_41 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_42 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_43 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_44 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_45 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_46 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_47 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_48 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_49 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_50 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_51 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_52 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_53 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_54 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_55 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_56 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_57 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_58 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_59 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_60 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_61 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_62 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_63 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_64 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_65 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_66 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_67 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_68 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_69 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_70 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_71 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_72 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_73 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_74 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_75 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_76 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_77 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_78 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_79 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_80 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_81 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_82 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_83 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_84 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_85 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_86 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_87 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_88 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_89 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_90 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_91 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_92 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_93 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_94 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_95 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_96 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_97 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_98 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_99 : STD_LOGIC_VECTOR (32 downto 0);
-    signal grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg : STD_LOGIC := '0';
-    signal ap_block_state1_ignore_call205 : BOOLEAN;
+    signal in_val_fu_346_p1 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_reg_660 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_19_reg_665 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_1_reg_670 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_2_reg_675 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_3_reg_680 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_4_reg_685 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_5_reg_690 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_6_reg_695 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_7_reg_700 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_8_reg_705 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_9_reg_710 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_10_reg_715 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_11_reg_720 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_12_reg_725 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_13_reg_730 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_14_reg_735 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_15_reg_740 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_16_reg_745 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_17_reg_750 : STD_LOGIC_VECTOR (15 downto 0);
+    signal in_val_18_reg_755 : STD_LOGIC_VECTOR (15 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_idle : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready : STD_LOGIC;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4 : STD_LOGIC_VECTOR (32 downto 0);
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg : STD_LOGIC := '0';
+    signal ap_block_state1_ignore_call65 : BOOLEAN;
     signal ap_CS_fsm_state2 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg : STD_LOGIC := '0';
+    signal ap_block_state1_ignore_call71 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg : STD_LOGIC := '0';
+    signal ap_block_state1_ignore_call77 : BOOLEAN;
+    signal grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg : STD_LOGIC := '0';
+    signal ap_block_state1_ignore_call83 : BOOLEAN;
     signal ap_block_state1 : BOOLEAN;
+    signal ap_block_state2_on_subcall_done : BOOLEAN;
     signal ap_NS_fsm : STD_LOGIC_VECTOR (1 downto 0);
     signal ap_ST_fsm_state1_blk : STD_LOGIC;
     signal ap_ST_fsm_state2_blk : STD_LOGIC;
     signal ap_ce_reg : STD_LOGIC;
 
-    component myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s IS
+    component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -367,221 +205,96 @@ architecture behav of myproject is
         ap_done : OUT STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        data_val : IN STD_LOGIC_VECTOR (1599 downto 0);
+        data_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
+        data_1_val : IN STD_LOGIC_VECTOR (15 downto 0);
+        data_2_val : IN STD_LOGIC_VECTOR (15 downto 0);
+        data_3_val : IN STD_LOGIC_VECTOR (15 downto 0);
+        data_4_val : IN STD_LOGIC_VECTOR (15 downto 0);
         ap_return_0 : OUT STD_LOGIC_VECTOR (32 downto 0);
         ap_return_1 : OUT STD_LOGIC_VECTOR (32 downto 0);
         ap_return_2 : OUT STD_LOGIC_VECTOR (32 downto 0);
         ap_return_3 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_4 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_5 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_6 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_7 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_8 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_9 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_10 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_11 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_12 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_13 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_14 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_15 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_16 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_17 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_18 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_19 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_20 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_21 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_22 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_23 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_24 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_25 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_26 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_27 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_28 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_29 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_30 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_31 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_32 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_33 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_34 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_35 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_36 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_37 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_38 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_39 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_40 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_41 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_42 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_43 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_44 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_45 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_46 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_47 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_48 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_49 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_50 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_51 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_52 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_53 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_54 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_55 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_56 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_57 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_58 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_59 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_60 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_61 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_62 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_63 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_64 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_65 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_66 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_67 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_68 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_69 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_70 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_71 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_72 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_73 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_74 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_75 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_76 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_77 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_78 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_79 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_80 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_81 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_82 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_83 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_84 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_85 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_86 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_87 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_88 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_89 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_90 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_91 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_92 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_93 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_94 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_95 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_96 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_97 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_98 : OUT STD_LOGIC_VECTOR (32 downto 0);
-        ap_return_99 : OUT STD_LOGIC_VECTOR (32 downto 0) );
+        ap_return_4 : OUT STD_LOGIC_VECTOR (32 downto 0) );
     end component;
 
 
 
 begin
-    grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936 : component myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start,
-        ap_done => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done,
-        ap_idle => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_idle,
-        ap_ready => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_ready,
-        data_val => layer_normalization_input_in_sig,
-        ap_return_0 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_0,
-        ap_return_1 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_1,
-        ap_return_2 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_2,
-        ap_return_3 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_3,
-        ap_return_4 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_4,
-        ap_return_5 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_5,
-        ap_return_6 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_6,
-        ap_return_7 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_7,
-        ap_return_8 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_8,
-        ap_return_9 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_9,
-        ap_return_10 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_10,
-        ap_return_11 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_11,
-        ap_return_12 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_12,
-        ap_return_13 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_13,
-        ap_return_14 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_14,
-        ap_return_15 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_15,
-        ap_return_16 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_16,
-        ap_return_17 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_17,
-        ap_return_18 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_18,
-        ap_return_19 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_19,
-        ap_return_20 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_20,
-        ap_return_21 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_21,
-        ap_return_22 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_22,
-        ap_return_23 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_23,
-        ap_return_24 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_24,
-        ap_return_25 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_25,
-        ap_return_26 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_26,
-        ap_return_27 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_27,
-        ap_return_28 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_28,
-        ap_return_29 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_29,
-        ap_return_30 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_30,
-        ap_return_31 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_31,
-        ap_return_32 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_32,
-        ap_return_33 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_33,
-        ap_return_34 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_34,
-        ap_return_35 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_35,
-        ap_return_36 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_36,
-        ap_return_37 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_37,
-        ap_return_38 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_38,
-        ap_return_39 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_39,
-        ap_return_40 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_40,
-        ap_return_41 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_41,
-        ap_return_42 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_42,
-        ap_return_43 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_43,
-        ap_return_44 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_44,
-        ap_return_45 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_45,
-        ap_return_46 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_46,
-        ap_return_47 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_47,
-        ap_return_48 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_48,
-        ap_return_49 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_49,
-        ap_return_50 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_50,
-        ap_return_51 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_51,
-        ap_return_52 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_52,
-        ap_return_53 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_53,
-        ap_return_54 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_54,
-        ap_return_55 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_55,
-        ap_return_56 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_56,
-        ap_return_57 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_57,
-        ap_return_58 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_58,
-        ap_return_59 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_59,
-        ap_return_60 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_60,
-        ap_return_61 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_61,
-        ap_return_62 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_62,
-        ap_return_63 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_63,
-        ap_return_64 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_64,
-        ap_return_65 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_65,
-        ap_return_66 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_66,
-        ap_return_67 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_67,
-        ap_return_68 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_68,
-        ap_return_69 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_69,
-        ap_return_70 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_70,
-        ap_return_71 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_71,
-        ap_return_72 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_72,
-        ap_return_73 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_73,
-        ap_return_74 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_74,
-        ap_return_75 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_75,
-        ap_return_76 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_76,
-        ap_return_77 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_77,
-        ap_return_78 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_78,
-        ap_return_79 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_79,
-        ap_return_80 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_80,
-        ap_return_81 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_81,
-        ap_return_82 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_82,
-        ap_return_83 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_83,
-        ap_return_84 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_84,
-        ap_return_85 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_85,
-        ap_return_86 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_86,
-        ap_return_87 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_87,
-        ap_return_88 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_88,
-        ap_return_89 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_89,
-        ap_return_90 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_90,
-        ap_return_91 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_91,
-        ap_return_92 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_92,
-        ap_return_93 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_93,
-        ap_return_94 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_94,
-        ap_return_95 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_95,
-        ap_return_96 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_96,
-        ap_return_97 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_97,
-        ap_return_98 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_98,
-        ap_return_99 => grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_99);
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready,
+        data_0_val => in_val_reg_660,
+        data_1_val => in_val_19_reg_665,
+        data_2_val => in_val_1_reg_670,
+        data_3_val => in_val_2_reg_675,
+        data_4_val => in_val_3_reg_680,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready,
+        data_0_val => in_val_4_reg_685,
+        data_1_val => in_val_5_reg_690,
+        data_2_val => in_val_6_reg_695,
+        data_3_val => in_val_7_reg_700,
+        data_4_val => in_val_8_reg_705,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready,
+        data_0_val => in_val_9_reg_710,
+        data_1_val => in_val_10_reg_715,
+        data_2_val => in_val_11_reg_720,
+        data_3_val => in_val_12_reg_725,
+        data_4_val => in_val_13_reg_730,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4);
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333 : component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start,
+        ap_done => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done,
+        ap_idle => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_idle,
+        ap_ready => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready,
+        data_0_val => in_val_14_reg_735,
+        data_1_val => in_val_15_reg_740,
+        data_2_val => in_val_16_reg_745,
+        data_3_val => in_val_17_reg_750,
+        data_4_val => in_val_18_reg_755,
+        ap_return_0 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0,
+        ap_return_1 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1,
+        ap_return_2 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2,
+        ap_return_3 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3,
+        ap_return_4 => grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4);
 
 
 
@@ -599,16 +312,64 @@ begin
     end process;
 
 
-    grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg_assign_proc : process(ap_clk)
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg <= ap_const_logic_0;
+                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_0;
             else
-                if (((ap_const_boolean_0 = ap_block_state1_ignore_call205) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-                    grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_ready = ap_const_logic_1)) then 
-                    grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg <= ap_const_logic_0;
+                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call65))) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_ready = ap_const_logic_1)) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg <= ap_const_logic_0;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_0;
+            else
+                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call71))) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_ready = ap_const_logic_1)) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg <= ap_const_logic_0;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_0;
+            else
+                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call77))) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_ready = ap_const_logic_1)) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg <= ap_const_logic_0;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_0;
+            else
+                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1_ignore_call83))) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_ready = ap_const_logic_1)) then 
+                    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg <= ap_const_logic_0;
                 end if; 
             end if;
         end if;
@@ -621,7 +382,7 @@ begin
             if (ap_rst = '1') then
                 layer_normalization_input_ap_vld_preg <= ap_const_logic_0;
             else
-                if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+                if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
                     layer_normalization_input_ap_vld_preg <= ap_const_logic_0;
                 elsif ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
                     layer_normalization_input_ap_vld_preg <= layer_normalization_input_ap_vld;
@@ -635,7 +396,7 @@ begin
     begin
         if (ap_clk'event and ap_clk =  '1') then
             if (ap_rst = '1') then
-                layer_normalization_input_preg <= ap_const_lv1600_lc_1;
+                layer_normalization_input_preg <= ap_const_lv320_lc_1;
             else
                 if ((not(((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1))) and (layer_normalization_input_ap_vld = ap_const_logic_1))) then 
                     layer_normalization_input_preg <= layer_normalization_input;
@@ -644,18 +405,45 @@ begin
         end if;
     end process;
 
+    process (ap_clk)
+    begin
+        if (ap_clk'event and ap_clk = '1') then
+            if ((ap_const_logic_1 = ap_CS_fsm_state1)) then
+                in_val_10_reg_715 <= layer_normalization_input_in_sig(191 downto 176);
+                in_val_11_reg_720 <= layer_normalization_input_in_sig(207 downto 192);
+                in_val_12_reg_725 <= layer_normalization_input_in_sig(223 downto 208);
+                in_val_13_reg_730 <= layer_normalization_input_in_sig(239 downto 224);
+                in_val_14_reg_735 <= layer_normalization_input_in_sig(255 downto 240);
+                in_val_15_reg_740 <= layer_normalization_input_in_sig(271 downto 256);
+                in_val_16_reg_745 <= layer_normalization_input_in_sig(287 downto 272);
+                in_val_17_reg_750 <= layer_normalization_input_in_sig(303 downto 288);
+                in_val_18_reg_755 <= layer_normalization_input_in_sig(319 downto 304);
+                in_val_19_reg_665 <= layer_normalization_input_in_sig(31 downto 16);
+                in_val_1_reg_670 <= layer_normalization_input_in_sig(47 downto 32);
+                in_val_2_reg_675 <= layer_normalization_input_in_sig(63 downto 48);
+                in_val_3_reg_680 <= layer_normalization_input_in_sig(79 downto 64);
+                in_val_4_reg_685 <= layer_normalization_input_in_sig(95 downto 80);
+                in_val_5_reg_690 <= layer_normalization_input_in_sig(111 downto 96);
+                in_val_6_reg_695 <= layer_normalization_input_in_sig(127 downto 112);
+                in_val_7_reg_700 <= layer_normalization_input_in_sig(143 downto 128);
+                in_val_8_reg_705 <= layer_normalization_input_in_sig(159 downto 144);
+                in_val_9_reg_710 <= layer_normalization_input_in_sig(175 downto 160);
+                in_val_reg_660 <= in_val_fu_346_p1;
+            end if;
+        end if;
+    end process;
 
-    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2, ap_block_state1)
+    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, ap_CS_fsm_state2, ap_block_state1, ap_block_state2_on_subcall_done)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
-                if (((ap_const_boolean_0 = ap_block_state1) and (ap_const_logic_1 = ap_CS_fsm_state1))) then
+                if (((ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_boolean_0 = ap_block_state1))) then
                     ap_NS_fsm <= ap_ST_fsm_state2;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state1;
                 end if;
             when ap_ST_fsm_state2 => 
-                if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then
+                if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then
                     ap_NS_fsm <= ap_ST_fsm_state1;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state2;
@@ -677,9 +465,9 @@ begin
     end process;
 
 
-    ap_ST_fsm_state2_blk_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done)
+    ap_ST_fsm_state2_blk_assign_proc : process(ap_block_state2_on_subcall_done)
     begin
-        if ((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_0)) then 
+        if ((ap_const_boolean_1 = ap_block_state2_on_subcall_done)) then 
             ap_ST_fsm_state2_blk <= ap_const_logic_1;
         else 
             ap_ST_fsm_state2_blk <= ap_const_logic_0;
@@ -693,15 +481,39 @@ begin
     end process;
 
 
-    ap_block_state1_ignore_call205_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    ap_block_state1_ignore_call65_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
     begin
-                ap_block_state1_ignore_call205 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+                ap_block_state1_ignore_call65 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
     end process;
 
 
-    ap_done_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    ap_block_state1_ignore_call71_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+                ap_block_state1_ignore_call71 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+    end process;
+
+
+    ap_block_state1_ignore_call77_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    begin
+                ap_block_state1_ignore_call77 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+    end process;
+
+
+    ap_block_state1_ignore_call83_assign_proc : process(ap_start, layer_normalization_input_ap_vld_in_sig)
+    begin
+                ap_block_state1_ignore_call83 <= ((ap_start = ap_const_logic_0) or (layer_normalization_input_ap_vld_in_sig = ap_const_logic_0));
+    end process;
+
+
+    ap_block_state2_on_subcall_done_assign_proc : process(grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done, grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done)
+    begin
+                ap_block_state2_on_subcall_done <= ((grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_done = ap_const_logic_0) or (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_done = ap_const_logic_0));
+    end process;
+
+
+    ap_done_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
+    begin
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             ap_done <= ap_const_logic_1;
         else 
             ap_done <= ap_const_logic_0;
@@ -719,132 +531,136 @@ begin
     end process;
 
 
-    ap_ready_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    ap_ready_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             ap_ready <= ap_const_logic_1;
         else 
             ap_ready <= ap_const_logic_0;
         end if; 
     end process;
 
-    grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg;
-    layer2_out_0 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_0;
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg;
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg;
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg;
+    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg;
+    in_val_fu_346_p1 <= layer_normalization_input_in_sig(16 - 1 downto 0);
+    layer2_out_0 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_0;
 
-    layer2_out_0_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_0_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_0_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_0_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_1 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_1;
-    layer2_out_10 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_10;
+    layer2_out_1 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_1;
+    layer2_out_10 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_0;
 
-    layer2_out_10_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_10_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_10_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_10_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_11 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_11;
+    layer2_out_11 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_1;
 
-    layer2_out_11_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_11_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_11_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_11_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_12 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_12;
+    layer2_out_12 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_2;
 
-    layer2_out_12_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_12_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_12_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_12_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_13 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_13;
+    layer2_out_13 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_3;
 
-    layer2_out_13_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_13_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_13_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_13_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_14 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_14;
+    layer2_out_14 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_return_4;
 
-    layer2_out_14_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_14_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_14_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_14_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_15 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_15;
+    layer2_out_15 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_0;
 
-    layer2_out_15_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_15_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_15_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_15_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_16 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_16;
+    layer2_out_16 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_1;
 
-    layer2_out_16_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_16_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_16_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_16_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_17 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_17;
+    layer2_out_17 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_2;
 
-    layer2_out_17_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_17_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_17_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_17_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_18 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_18;
+    layer2_out_18 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_3;
 
-    layer2_out_18_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_18_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_18_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_18_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_19 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_19;
+    layer2_out_19 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_return_4;
 
-    layer2_out_19_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_19_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_19_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_19_ap_vld <= ap_const_logic_0;
@@ -852,977 +668,97 @@ begin
     end process;
 
 
-    layer2_out_1_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_1_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_1_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_1_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_2 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_2;
-    layer2_out_20 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_20;
+    layer2_out_2 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_2;
 
-    layer2_out_20_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_2_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_20_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_20_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_21 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_21;
-
-    layer2_out_21_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_21_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_21_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_22 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_22;
-
-    layer2_out_22_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_22_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_22_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_23 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_23;
-
-    layer2_out_23_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_23_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_23_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_24 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_24;
-
-    layer2_out_24_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_24_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_24_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_25 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_25;
-
-    layer2_out_25_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_25_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_25_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_26 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_26;
-
-    layer2_out_26_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_26_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_26_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_27 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_27;
-
-    layer2_out_27_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_27_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_27_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_28 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_28;
-
-    layer2_out_28_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_28_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_28_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_29 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_29;
-
-    layer2_out_29_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_29_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_29_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_2_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_2_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_2_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_3 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_3;
-    layer2_out_30 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_30;
+    layer2_out_3 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_3;
 
-    layer2_out_30_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_3_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_30_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_30_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_31 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_31;
-
-    layer2_out_31_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_31_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_31_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_32 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_32;
-
-    layer2_out_32_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_32_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_32_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_33 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_33;
-
-    layer2_out_33_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_33_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_33_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_34 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_34;
-
-    layer2_out_34_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_34_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_34_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_35 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_35;
-
-    layer2_out_35_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_35_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_35_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_36 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_36;
-
-    layer2_out_36_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_36_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_36_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_37 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_37;
-
-    layer2_out_37_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_37_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_37_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_38 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_38;
-
-    layer2_out_38_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_38_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_38_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_39 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_39;
-
-    layer2_out_39_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_39_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_39_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_3_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_3_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_3_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_4 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_4;
-    layer2_out_40 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_40;
+    layer2_out_4 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_return_4;
 
-    layer2_out_40_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_4_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_40_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_40_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_41 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_41;
-
-    layer2_out_41_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_41_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_41_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_42 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_42;
-
-    layer2_out_42_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_42_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_42_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_43 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_43;
-
-    layer2_out_43_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_43_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_43_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_44 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_44;
-
-    layer2_out_44_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_44_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_44_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_45 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_45;
-
-    layer2_out_45_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_45_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_45_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_46 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_46;
-
-    layer2_out_46_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_46_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_46_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_47 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_47;
-
-    layer2_out_47_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_47_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_47_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_48 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_48;
-
-    layer2_out_48_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_48_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_48_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_49 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_49;
-
-    layer2_out_49_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_49_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_49_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_4_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_4_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_4_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_5 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_5;
-    layer2_out_50 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_50;
+    layer2_out_5 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_0;
 
-    layer2_out_50_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_5_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_50_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_50_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_51 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_51;
-
-    layer2_out_51_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_51_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_51_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_52 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_52;
-
-    layer2_out_52_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_52_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_52_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_53 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_53;
-
-    layer2_out_53_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_53_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_53_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_54 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_54;
-
-    layer2_out_54_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_54_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_54_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_55 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_55;
-
-    layer2_out_55_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_55_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_55_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_56 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_56;
-
-    layer2_out_56_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_56_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_56_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_57 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_57;
-
-    layer2_out_57_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_57_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_57_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_58 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_58;
-
-    layer2_out_58_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_58_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_58_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_59 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_59;
-
-    layer2_out_59_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_59_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_59_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_5_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_5_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_5_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_6 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_6;
-    layer2_out_60 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_60;
+    layer2_out_6 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_1;
 
-    layer2_out_60_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_6_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_60_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_60_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_61 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_61;
-
-    layer2_out_61_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_61_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_61_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_62 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_62;
-
-    layer2_out_62_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_62_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_62_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_63 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_63;
-
-    layer2_out_63_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_63_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_63_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_64 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_64;
-
-    layer2_out_64_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_64_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_64_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_65 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_65;
-
-    layer2_out_65_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_65_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_65_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_66 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_66;
-
-    layer2_out_66_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_66_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_66_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_67 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_67;
-
-    layer2_out_67_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_67_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_67_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_68 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_68;
-
-    layer2_out_68_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_68_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_68_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_69 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_69;
-
-    layer2_out_69_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_69_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_69_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_6_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_6_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_6_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_7 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_7;
-    layer2_out_70 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_70;
+    layer2_out_7 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_2;
 
-    layer2_out_70_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_7_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_70_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_70_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_71 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_71;
-
-    layer2_out_71_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_71_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_71_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_72 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_72;
-
-    layer2_out_72_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_72_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_72_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_73 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_73;
-
-    layer2_out_73_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_73_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_73_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_74 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_74;
-
-    layer2_out_74_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_74_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_74_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_75 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_75;
-
-    layer2_out_75_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_75_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_75_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_76 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_76;
-
-    layer2_out_76_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_76_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_76_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_77 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_77;
-
-    layer2_out_77_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_77_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_77_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_78 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_78;
-
-    layer2_out_78_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_78_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_78_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_79 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_79;
-
-    layer2_out_79_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_79_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_79_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_7_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_7_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_7_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_8 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_8;
-    layer2_out_80 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_80;
+    layer2_out_8 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_3;
 
-    layer2_out_80_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_8_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_80_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_80_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_81 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_81;
-
-    layer2_out_81_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_81_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_81_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_82 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_82;
-
-    layer2_out_82_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_82_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_82_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_83 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_83;
-
-    layer2_out_83_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_83_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_83_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_84 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_84;
-
-    layer2_out_84_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_84_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_84_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_85 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_85;
-
-    layer2_out_85_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_85_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_85_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_86 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_86;
-
-    layer2_out_86_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_86_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_86_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_87 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_87;
-
-    layer2_out_87_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_87_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_87_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_88 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_88;
-
-    layer2_out_88_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_88_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_88_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_89 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_89;
-
-    layer2_out_89_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_89_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_89_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_8_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_8_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_8_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    layer2_out_9 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_9;
-    layer2_out_90 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_90;
+    layer2_out_9 <= grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_return_4;
 
-    layer2_out_90_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
+    layer2_out_9_ap_vld_assign_proc : process(ap_CS_fsm_state2, ap_block_state2_on_subcall_done)
     begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_90_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_90_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_91 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_91;
-
-    layer2_out_91_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_91_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_91_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_92 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_92;
-
-    layer2_out_92_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_92_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_92_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_93 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_93;
-
-    layer2_out_93_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_93_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_93_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_94 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_94;
-
-    layer2_out_94_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_94_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_94_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_95 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_95;
-
-    layer2_out_95_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_95_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_95_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_96 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_96;
-
-    layer2_out_96_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_96_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_96_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_97 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_97;
-
-    layer2_out_97_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_97_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_97_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_98 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_98;
-
-    layer2_out_98_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_98_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_98_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    layer2_out_99 <= grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_return_99;
-
-    layer2_out_99_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
-            layer2_out_99_ap_vld <= ap_const_logic_1;
-        else 
-            layer2_out_99_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    layer2_out_9_ap_vld_assign_proc : process(grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done, ap_CS_fsm_state2)
-    begin
-        if (((grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state2))) then 
+        if (((ap_const_logic_1 = ap_CS_fsm_state2) and (ap_const_boolean_0 = ap_block_state2_on_subcall_done))) then 
             layer2_out_9_ap_vld <= ap_const_logic_1;
         else 
             layer2_out_9_ap_vld <= ap_const_logic_0;

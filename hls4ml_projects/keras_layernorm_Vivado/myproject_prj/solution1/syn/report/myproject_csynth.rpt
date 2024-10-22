@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'myproject'
 ================================================================
-* Date:           Mon Oct  7 10:04:04 2024
+* Date:           Tue Oct 22 17:11:21 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  4.371 ns|     0.62 ns|
+    |ap_clk  |  5.00 ns|  4.280 ns|     0.62 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -34,12 +34,15 @@
 
     + Detail: 
         * Instance: 
-        +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
-        |                                                                              |                                                                   |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
-        |                                   Instance                                   |                               Module                              |   min   |   max   |    min   |    max   | min | max |   Type  |
-        +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
-        |grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936  |layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
-        +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |                                                                            |                                                                 |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |                                  Instance                                  |                              Module                             |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+        +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+---------+----------+----------+-----+-----+---------+
 
         * Loop: 
         N/A
@@ -54,33 +57,36 @@
 |         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
 +---------------------+---------+-------+---------+---------+------+
 |DSP                  |        -|      -|        -|        -|     -|
-|Expression           |        -|      -|        0|        2|     -|
+|Expression           |        -|      -|        0|        4|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
-|Instance             |       40|    220|    12382|    18806|     -|
+|Instance             |       16|     48|     1688|     4468|     -|
 |Memory               |        -|      -|        -|        -|     -|
 |Multiplexer          |        -|      -|        -|       50|     -|
-|Register             |        -|      -|     1604|        -|     -|
+|Register             |        -|      -|      647|        -|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |       40|    220|    13986|    18858|     0|
+|Total                |       16|     48|     2335|     4522|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization SLR (%)  |        2|      7|        1|        4|     0|
+|Utilization SLR (%)  |        1|      1|       ~0|        1|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available            |     5376|  12288|  3456000|  1728000|  1280|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization (%)      |       ~0|      1|       ~0|        1|     0|
+|Utilization (%)      |       ~0|     ~0|       ~0|       ~0|     0|
 +---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
     * Instance: 
-    +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+-----+-------+-------+-----+
-    |                                   Instance                                   |                               Module                              | BRAM_18K| DSP |   FF  |  LUT  | URAM|
-    +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+-----+-------+-------+-----+
-    |grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936  |layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |       40|  220|  12382|  18806|    0|
-    +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+-----+-------+-------+-----+
-    |Total                                                                         |                                                                   |       40|  220|  12382|  18806|    0|
-    +------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+-----+-------+-------+-----+
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |                                  Instance                                  |                              Module                             | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333  |layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |        4|  12|  422|  1117|    0|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
+    |Total                                                                       |                                                                 |       16|  48| 1688|  4468|    0|
+    +----------------------------------------------------------------------------+-----------------------------------------------------------------+---------+----+-----+------+-----+
 
     * DSP: 
     N/A
@@ -92,38 +98,62 @@
     N/A
 
     * Expression: 
-    +-----------------+----------+----+---+----+------------+------------+
-    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
-    +-----------------+----------+----+---+----+------------+------------+
-    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
-    +-----------------+----------+----+---+----+------------+------------+
-    |Total            |          |   0|  0|   2|           1|           1|
-    +-----------------+----------+----+---+----+------------+------------+
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state1                  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_on_subcall_done  |        or|   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |Total                            |          |   0|  0|   4|           2|           2|
+    +---------------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
-    +-----------------------------------------+----+-----------+------+-----------+
-    |                   Name                  | LUT| Input Size| Bits | Total Bits|
-    +-----------------------------------------+----+-----------+------+-----------+
-    |ap_NS_fsm                                |  14|          3|     1|          3|
-    |layer_normalization_input_ap_vld_in_sig  |   9|          2|     1|          2|
-    |layer_normalization_input_ap_vld_preg    |   9|          2|     1|          2|
-    |layer_normalization_input_blk_n          |   9|          2|     1|          2|
-    |layer_normalization_input_in_sig         |   9|          2|  1600|       3200|
-    +-----------------------------------------+----+-----------+------+-----------+
-    |Total                                    |  50|         11|  1604|       3209|
-    +-----------------------------------------+----+-----------+------+-----------+
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |                   Name                  | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                                |  14|          3|    1|          3|
+    |layer_normalization_input_ap_vld_in_sig  |   9|          2|    1|          2|
+    |layer_normalization_input_ap_vld_preg    |   9|          2|    1|          2|
+    |layer_normalization_input_blk_n          |   9|          2|    1|          2|
+    |layer_normalization_input_in_sig         |   9|          2|  320|        640|
+    +-----------------------------------------+----+-----------+-----+-----------+
+    |Total                                    |  50|         11|  324|        649|
+    +-----------------------------------------+----+-----------+-----+-----------+
 
     * Register: 
-    +-------------------------------------------------------------------------------------------+------+----+------+-----------+
-    |                                            Name                                           |  FF  | LUT| Bits | Const Bits|
-    +-------------------------------------------------------------------------------------------+------+----+------+-----------+
-    |ap_CS_fsm                                                                                  |     2|   0|     2|          0|
-    |grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_936_ap_start_reg  |     1|   0|     1|          0|
-    |layer_normalization_input_ap_vld_preg                                                      |     1|   0|     1|          0|
-    |layer_normalization_input_preg                                                             |  1600|   0|  1600|          0|
-    +-------------------------------------------------------------------------------------------+------+----+------+-----------+
-    |Total                                                                                      |  1604|   0|  1604|          0|
-    +-------------------------------------------------------------------------------------------+------+----+------+-----------+
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |                                           Name                                          |  FF | LUT| Bits| Const Bits|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |ap_CS_fsm                                                                                |    2|   0|    2|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320_ap_start_reg  |    1|   0|    1|          0|
+    |grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333_ap_start_reg  |    1|   0|    1|          0|
+    |in_val_10_reg_715                                                                        |   16|   0|   16|          0|
+    |in_val_11_reg_720                                                                        |   16|   0|   16|          0|
+    |in_val_12_reg_725                                                                        |   16|   0|   16|          0|
+    |in_val_13_reg_730                                                                        |   16|   0|   16|          0|
+    |in_val_14_reg_735                                                                        |   16|   0|   16|          0|
+    |in_val_15_reg_740                                                                        |   16|   0|   16|          0|
+    |in_val_16_reg_745                                                                        |   16|   0|   16|          0|
+    |in_val_17_reg_750                                                                        |   16|   0|   16|          0|
+    |in_val_18_reg_755                                                                        |   16|   0|   16|          0|
+    |in_val_19_reg_665                                                                        |   16|   0|   16|          0|
+    |in_val_1_reg_670                                                                         |   16|   0|   16|          0|
+    |in_val_2_reg_675                                                                         |   16|   0|   16|          0|
+    |in_val_3_reg_680                                                                         |   16|   0|   16|          0|
+    |in_val_4_reg_685                                                                         |   16|   0|   16|          0|
+    |in_val_5_reg_690                                                                         |   16|   0|   16|          0|
+    |in_val_6_reg_695                                                                         |   16|   0|   16|          0|
+    |in_val_7_reg_700                                                                         |   16|   0|   16|          0|
+    |in_val_8_reg_705                                                                         |   16|   0|   16|          0|
+    |in_val_9_reg_710                                                                         |   16|   0|   16|          0|
+    |in_val_reg_660                                                                           |   16|   0|   16|          0|
+    |layer_normalization_input_ap_vld_preg                                                    |    1|   0|    1|          0|
+    |layer_normalization_input_preg                                                           |  320|   0|  320|          0|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
+    |Total                                                                                    |  647|   0|  647|          0|
+    +-----------------------------------------------------------------------------------------+-----+----+-----+-----------+
 
 
 
@@ -131,216 +161,56 @@
 == Interface
 ================================================================
 * Summary: 
-+----------------------------------+-----+------+------------+---------------------------+--------------+
-|             RTL Ports            | Dir | Bits |  Protocol  |       Source Object       |    C Type    |
-+----------------------------------+-----+------+------------+---------------------------+--------------+
-|ap_clk                            |   in|     1|  ap_ctrl_hs|                  myproject|  return value|
-|ap_rst                            |   in|     1|  ap_ctrl_hs|                  myproject|  return value|
-|ap_start                          |   in|     1|  ap_ctrl_hs|                  myproject|  return value|
-|ap_done                           |  out|     1|  ap_ctrl_hs|                  myproject|  return value|
-|ap_idle                           |  out|     1|  ap_ctrl_hs|                  myproject|  return value|
-|ap_ready                          |  out|     1|  ap_ctrl_hs|                  myproject|  return value|
-|layer_normalization_input         |   in|  1600|      ap_vld|  layer_normalization_input|       pointer|
-|layer_normalization_input_ap_vld  |   in|     1|      ap_vld|  layer_normalization_input|       pointer|
-|layer2_out_0                      |  out|    33|      ap_vld|               layer2_out_0|       pointer|
-|layer2_out_0_ap_vld               |  out|     1|      ap_vld|               layer2_out_0|       pointer|
-|layer2_out_1                      |  out|    33|      ap_vld|               layer2_out_1|       pointer|
-|layer2_out_1_ap_vld               |  out|     1|      ap_vld|               layer2_out_1|       pointer|
-|layer2_out_2                      |  out|    33|      ap_vld|               layer2_out_2|       pointer|
-|layer2_out_2_ap_vld               |  out|     1|      ap_vld|               layer2_out_2|       pointer|
-|layer2_out_3                      |  out|    33|      ap_vld|               layer2_out_3|       pointer|
-|layer2_out_3_ap_vld               |  out|     1|      ap_vld|               layer2_out_3|       pointer|
-|layer2_out_4                      |  out|    33|      ap_vld|               layer2_out_4|       pointer|
-|layer2_out_4_ap_vld               |  out|     1|      ap_vld|               layer2_out_4|       pointer|
-|layer2_out_5                      |  out|    33|      ap_vld|               layer2_out_5|       pointer|
-|layer2_out_5_ap_vld               |  out|     1|      ap_vld|               layer2_out_5|       pointer|
-|layer2_out_6                      |  out|    33|      ap_vld|               layer2_out_6|       pointer|
-|layer2_out_6_ap_vld               |  out|     1|      ap_vld|               layer2_out_6|       pointer|
-|layer2_out_7                      |  out|    33|      ap_vld|               layer2_out_7|       pointer|
-|layer2_out_7_ap_vld               |  out|     1|      ap_vld|               layer2_out_7|       pointer|
-|layer2_out_8                      |  out|    33|      ap_vld|               layer2_out_8|       pointer|
-|layer2_out_8_ap_vld               |  out|     1|      ap_vld|               layer2_out_8|       pointer|
-|layer2_out_9                      |  out|    33|      ap_vld|               layer2_out_9|       pointer|
-|layer2_out_9_ap_vld               |  out|     1|      ap_vld|               layer2_out_9|       pointer|
-|layer2_out_10                     |  out|    33|      ap_vld|              layer2_out_10|       pointer|
-|layer2_out_10_ap_vld              |  out|     1|      ap_vld|              layer2_out_10|       pointer|
-|layer2_out_11                     |  out|    33|      ap_vld|              layer2_out_11|       pointer|
-|layer2_out_11_ap_vld              |  out|     1|      ap_vld|              layer2_out_11|       pointer|
-|layer2_out_12                     |  out|    33|      ap_vld|              layer2_out_12|       pointer|
-|layer2_out_12_ap_vld              |  out|     1|      ap_vld|              layer2_out_12|       pointer|
-|layer2_out_13                     |  out|    33|      ap_vld|              layer2_out_13|       pointer|
-|layer2_out_13_ap_vld              |  out|     1|      ap_vld|              layer2_out_13|       pointer|
-|layer2_out_14                     |  out|    33|      ap_vld|              layer2_out_14|       pointer|
-|layer2_out_14_ap_vld              |  out|     1|      ap_vld|              layer2_out_14|       pointer|
-|layer2_out_15                     |  out|    33|      ap_vld|              layer2_out_15|       pointer|
-|layer2_out_15_ap_vld              |  out|     1|      ap_vld|              layer2_out_15|       pointer|
-|layer2_out_16                     |  out|    33|      ap_vld|              layer2_out_16|       pointer|
-|layer2_out_16_ap_vld              |  out|     1|      ap_vld|              layer2_out_16|       pointer|
-|layer2_out_17                     |  out|    33|      ap_vld|              layer2_out_17|       pointer|
-|layer2_out_17_ap_vld              |  out|     1|      ap_vld|              layer2_out_17|       pointer|
-|layer2_out_18                     |  out|    33|      ap_vld|              layer2_out_18|       pointer|
-|layer2_out_18_ap_vld              |  out|     1|      ap_vld|              layer2_out_18|       pointer|
-|layer2_out_19                     |  out|    33|      ap_vld|              layer2_out_19|       pointer|
-|layer2_out_19_ap_vld              |  out|     1|      ap_vld|              layer2_out_19|       pointer|
-|layer2_out_20                     |  out|    33|      ap_vld|              layer2_out_20|       pointer|
-|layer2_out_20_ap_vld              |  out|     1|      ap_vld|              layer2_out_20|       pointer|
-|layer2_out_21                     |  out|    33|      ap_vld|              layer2_out_21|       pointer|
-|layer2_out_21_ap_vld              |  out|     1|      ap_vld|              layer2_out_21|       pointer|
-|layer2_out_22                     |  out|    33|      ap_vld|              layer2_out_22|       pointer|
-|layer2_out_22_ap_vld              |  out|     1|      ap_vld|              layer2_out_22|       pointer|
-|layer2_out_23                     |  out|    33|      ap_vld|              layer2_out_23|       pointer|
-|layer2_out_23_ap_vld              |  out|     1|      ap_vld|              layer2_out_23|       pointer|
-|layer2_out_24                     |  out|    33|      ap_vld|              layer2_out_24|       pointer|
-|layer2_out_24_ap_vld              |  out|     1|      ap_vld|              layer2_out_24|       pointer|
-|layer2_out_25                     |  out|    33|      ap_vld|              layer2_out_25|       pointer|
-|layer2_out_25_ap_vld              |  out|     1|      ap_vld|              layer2_out_25|       pointer|
-|layer2_out_26                     |  out|    33|      ap_vld|              layer2_out_26|       pointer|
-|layer2_out_26_ap_vld              |  out|     1|      ap_vld|              layer2_out_26|       pointer|
-|layer2_out_27                     |  out|    33|      ap_vld|              layer2_out_27|       pointer|
-|layer2_out_27_ap_vld              |  out|     1|      ap_vld|              layer2_out_27|       pointer|
-|layer2_out_28                     |  out|    33|      ap_vld|              layer2_out_28|       pointer|
-|layer2_out_28_ap_vld              |  out|     1|      ap_vld|              layer2_out_28|       pointer|
-|layer2_out_29                     |  out|    33|      ap_vld|              layer2_out_29|       pointer|
-|layer2_out_29_ap_vld              |  out|     1|      ap_vld|              layer2_out_29|       pointer|
-|layer2_out_30                     |  out|    33|      ap_vld|              layer2_out_30|       pointer|
-|layer2_out_30_ap_vld              |  out|     1|      ap_vld|              layer2_out_30|       pointer|
-|layer2_out_31                     |  out|    33|      ap_vld|              layer2_out_31|       pointer|
-|layer2_out_31_ap_vld              |  out|     1|      ap_vld|              layer2_out_31|       pointer|
-|layer2_out_32                     |  out|    33|      ap_vld|              layer2_out_32|       pointer|
-|layer2_out_32_ap_vld              |  out|     1|      ap_vld|              layer2_out_32|       pointer|
-|layer2_out_33                     |  out|    33|      ap_vld|              layer2_out_33|       pointer|
-|layer2_out_33_ap_vld              |  out|     1|      ap_vld|              layer2_out_33|       pointer|
-|layer2_out_34                     |  out|    33|      ap_vld|              layer2_out_34|       pointer|
-|layer2_out_34_ap_vld              |  out|     1|      ap_vld|              layer2_out_34|       pointer|
-|layer2_out_35                     |  out|    33|      ap_vld|              layer2_out_35|       pointer|
-|layer2_out_35_ap_vld              |  out|     1|      ap_vld|              layer2_out_35|       pointer|
-|layer2_out_36                     |  out|    33|      ap_vld|              layer2_out_36|       pointer|
-|layer2_out_36_ap_vld              |  out|     1|      ap_vld|              layer2_out_36|       pointer|
-|layer2_out_37                     |  out|    33|      ap_vld|              layer2_out_37|       pointer|
-|layer2_out_37_ap_vld              |  out|     1|      ap_vld|              layer2_out_37|       pointer|
-|layer2_out_38                     |  out|    33|      ap_vld|              layer2_out_38|       pointer|
-|layer2_out_38_ap_vld              |  out|     1|      ap_vld|              layer2_out_38|       pointer|
-|layer2_out_39                     |  out|    33|      ap_vld|              layer2_out_39|       pointer|
-|layer2_out_39_ap_vld              |  out|     1|      ap_vld|              layer2_out_39|       pointer|
-|layer2_out_40                     |  out|    33|      ap_vld|              layer2_out_40|       pointer|
-|layer2_out_40_ap_vld              |  out|     1|      ap_vld|              layer2_out_40|       pointer|
-|layer2_out_41                     |  out|    33|      ap_vld|              layer2_out_41|       pointer|
-|layer2_out_41_ap_vld              |  out|     1|      ap_vld|              layer2_out_41|       pointer|
-|layer2_out_42                     |  out|    33|      ap_vld|              layer2_out_42|       pointer|
-|layer2_out_42_ap_vld              |  out|     1|      ap_vld|              layer2_out_42|       pointer|
-|layer2_out_43                     |  out|    33|      ap_vld|              layer2_out_43|       pointer|
-|layer2_out_43_ap_vld              |  out|     1|      ap_vld|              layer2_out_43|       pointer|
-|layer2_out_44                     |  out|    33|      ap_vld|              layer2_out_44|       pointer|
-|layer2_out_44_ap_vld              |  out|     1|      ap_vld|              layer2_out_44|       pointer|
-|layer2_out_45                     |  out|    33|      ap_vld|              layer2_out_45|       pointer|
-|layer2_out_45_ap_vld              |  out|     1|      ap_vld|              layer2_out_45|       pointer|
-|layer2_out_46                     |  out|    33|      ap_vld|              layer2_out_46|       pointer|
-|layer2_out_46_ap_vld              |  out|     1|      ap_vld|              layer2_out_46|       pointer|
-|layer2_out_47                     |  out|    33|      ap_vld|              layer2_out_47|       pointer|
-|layer2_out_47_ap_vld              |  out|     1|      ap_vld|              layer2_out_47|       pointer|
-|layer2_out_48                     |  out|    33|      ap_vld|              layer2_out_48|       pointer|
-|layer2_out_48_ap_vld              |  out|     1|      ap_vld|              layer2_out_48|       pointer|
-|layer2_out_49                     |  out|    33|      ap_vld|              layer2_out_49|       pointer|
-|layer2_out_49_ap_vld              |  out|     1|      ap_vld|              layer2_out_49|       pointer|
-|layer2_out_50                     |  out|    33|      ap_vld|              layer2_out_50|       pointer|
-|layer2_out_50_ap_vld              |  out|     1|      ap_vld|              layer2_out_50|       pointer|
-|layer2_out_51                     |  out|    33|      ap_vld|              layer2_out_51|       pointer|
-|layer2_out_51_ap_vld              |  out|     1|      ap_vld|              layer2_out_51|       pointer|
-|layer2_out_52                     |  out|    33|      ap_vld|              layer2_out_52|       pointer|
-|layer2_out_52_ap_vld              |  out|     1|      ap_vld|              layer2_out_52|       pointer|
-|layer2_out_53                     |  out|    33|      ap_vld|              layer2_out_53|       pointer|
-|layer2_out_53_ap_vld              |  out|     1|      ap_vld|              layer2_out_53|       pointer|
-|layer2_out_54                     |  out|    33|      ap_vld|              layer2_out_54|       pointer|
-|layer2_out_54_ap_vld              |  out|     1|      ap_vld|              layer2_out_54|       pointer|
-|layer2_out_55                     |  out|    33|      ap_vld|              layer2_out_55|       pointer|
-|layer2_out_55_ap_vld              |  out|     1|      ap_vld|              layer2_out_55|       pointer|
-|layer2_out_56                     |  out|    33|      ap_vld|              layer2_out_56|       pointer|
-|layer2_out_56_ap_vld              |  out|     1|      ap_vld|              layer2_out_56|       pointer|
-|layer2_out_57                     |  out|    33|      ap_vld|              layer2_out_57|       pointer|
-|layer2_out_57_ap_vld              |  out|     1|      ap_vld|              layer2_out_57|       pointer|
-|layer2_out_58                     |  out|    33|      ap_vld|              layer2_out_58|       pointer|
-|layer2_out_58_ap_vld              |  out|     1|      ap_vld|              layer2_out_58|       pointer|
-|layer2_out_59                     |  out|    33|      ap_vld|              layer2_out_59|       pointer|
-|layer2_out_59_ap_vld              |  out|     1|      ap_vld|              layer2_out_59|       pointer|
-|layer2_out_60                     |  out|    33|      ap_vld|              layer2_out_60|       pointer|
-|layer2_out_60_ap_vld              |  out|     1|      ap_vld|              layer2_out_60|       pointer|
-|layer2_out_61                     |  out|    33|      ap_vld|              layer2_out_61|       pointer|
-|layer2_out_61_ap_vld              |  out|     1|      ap_vld|              layer2_out_61|       pointer|
-|layer2_out_62                     |  out|    33|      ap_vld|              layer2_out_62|       pointer|
-|layer2_out_62_ap_vld              |  out|     1|      ap_vld|              layer2_out_62|       pointer|
-|layer2_out_63                     |  out|    33|      ap_vld|              layer2_out_63|       pointer|
-|layer2_out_63_ap_vld              |  out|     1|      ap_vld|              layer2_out_63|       pointer|
-|layer2_out_64                     |  out|    33|      ap_vld|              layer2_out_64|       pointer|
-|layer2_out_64_ap_vld              |  out|     1|      ap_vld|              layer2_out_64|       pointer|
-|layer2_out_65                     |  out|    33|      ap_vld|              layer2_out_65|       pointer|
-|layer2_out_65_ap_vld              |  out|     1|      ap_vld|              layer2_out_65|       pointer|
-|layer2_out_66                     |  out|    33|      ap_vld|              layer2_out_66|       pointer|
-|layer2_out_66_ap_vld              |  out|     1|      ap_vld|              layer2_out_66|       pointer|
-|layer2_out_67                     |  out|    33|      ap_vld|              layer2_out_67|       pointer|
-|layer2_out_67_ap_vld              |  out|     1|      ap_vld|              layer2_out_67|       pointer|
-|layer2_out_68                     |  out|    33|      ap_vld|              layer2_out_68|       pointer|
-|layer2_out_68_ap_vld              |  out|     1|      ap_vld|              layer2_out_68|       pointer|
-|layer2_out_69                     |  out|    33|      ap_vld|              layer2_out_69|       pointer|
-|layer2_out_69_ap_vld              |  out|     1|      ap_vld|              layer2_out_69|       pointer|
-|layer2_out_70                     |  out|    33|      ap_vld|              layer2_out_70|       pointer|
-|layer2_out_70_ap_vld              |  out|     1|      ap_vld|              layer2_out_70|       pointer|
-|layer2_out_71                     |  out|    33|      ap_vld|              layer2_out_71|       pointer|
-|layer2_out_71_ap_vld              |  out|     1|      ap_vld|              layer2_out_71|       pointer|
-|layer2_out_72                     |  out|    33|      ap_vld|              layer2_out_72|       pointer|
-|layer2_out_72_ap_vld              |  out|     1|      ap_vld|              layer2_out_72|       pointer|
-|layer2_out_73                     |  out|    33|      ap_vld|              layer2_out_73|       pointer|
-|layer2_out_73_ap_vld              |  out|     1|      ap_vld|              layer2_out_73|       pointer|
-|layer2_out_74                     |  out|    33|      ap_vld|              layer2_out_74|       pointer|
-|layer2_out_74_ap_vld              |  out|     1|      ap_vld|              layer2_out_74|       pointer|
-|layer2_out_75                     |  out|    33|      ap_vld|              layer2_out_75|       pointer|
-|layer2_out_75_ap_vld              |  out|     1|      ap_vld|              layer2_out_75|       pointer|
-|layer2_out_76                     |  out|    33|      ap_vld|              layer2_out_76|       pointer|
-|layer2_out_76_ap_vld              |  out|     1|      ap_vld|              layer2_out_76|       pointer|
-|layer2_out_77                     |  out|    33|      ap_vld|              layer2_out_77|       pointer|
-|layer2_out_77_ap_vld              |  out|     1|      ap_vld|              layer2_out_77|       pointer|
-|layer2_out_78                     |  out|    33|      ap_vld|              layer2_out_78|       pointer|
-|layer2_out_78_ap_vld              |  out|     1|      ap_vld|              layer2_out_78|       pointer|
-|layer2_out_79                     |  out|    33|      ap_vld|              layer2_out_79|       pointer|
-|layer2_out_79_ap_vld              |  out|     1|      ap_vld|              layer2_out_79|       pointer|
-|layer2_out_80                     |  out|    33|      ap_vld|              layer2_out_80|       pointer|
-|layer2_out_80_ap_vld              |  out|     1|      ap_vld|              layer2_out_80|       pointer|
-|layer2_out_81                     |  out|    33|      ap_vld|              layer2_out_81|       pointer|
-|layer2_out_81_ap_vld              |  out|     1|      ap_vld|              layer2_out_81|       pointer|
-|layer2_out_82                     |  out|    33|      ap_vld|              layer2_out_82|       pointer|
-|layer2_out_82_ap_vld              |  out|     1|      ap_vld|              layer2_out_82|       pointer|
-|layer2_out_83                     |  out|    33|      ap_vld|              layer2_out_83|       pointer|
-|layer2_out_83_ap_vld              |  out|     1|      ap_vld|              layer2_out_83|       pointer|
-|layer2_out_84                     |  out|    33|      ap_vld|              layer2_out_84|       pointer|
-|layer2_out_84_ap_vld              |  out|     1|      ap_vld|              layer2_out_84|       pointer|
-|layer2_out_85                     |  out|    33|      ap_vld|              layer2_out_85|       pointer|
-|layer2_out_85_ap_vld              |  out|     1|      ap_vld|              layer2_out_85|       pointer|
-|layer2_out_86                     |  out|    33|      ap_vld|              layer2_out_86|       pointer|
-|layer2_out_86_ap_vld              |  out|     1|      ap_vld|              layer2_out_86|       pointer|
-|layer2_out_87                     |  out|    33|      ap_vld|              layer2_out_87|       pointer|
-|layer2_out_87_ap_vld              |  out|     1|      ap_vld|              layer2_out_87|       pointer|
-|layer2_out_88                     |  out|    33|      ap_vld|              layer2_out_88|       pointer|
-|layer2_out_88_ap_vld              |  out|     1|      ap_vld|              layer2_out_88|       pointer|
-|layer2_out_89                     |  out|    33|      ap_vld|              layer2_out_89|       pointer|
-|layer2_out_89_ap_vld              |  out|     1|      ap_vld|              layer2_out_89|       pointer|
-|layer2_out_90                     |  out|    33|      ap_vld|              layer2_out_90|       pointer|
-|layer2_out_90_ap_vld              |  out|     1|      ap_vld|              layer2_out_90|       pointer|
-|layer2_out_91                     |  out|    33|      ap_vld|              layer2_out_91|       pointer|
-|layer2_out_91_ap_vld              |  out|     1|      ap_vld|              layer2_out_91|       pointer|
-|layer2_out_92                     |  out|    33|      ap_vld|              layer2_out_92|       pointer|
-|layer2_out_92_ap_vld              |  out|     1|      ap_vld|              layer2_out_92|       pointer|
-|layer2_out_93                     |  out|    33|      ap_vld|              layer2_out_93|       pointer|
-|layer2_out_93_ap_vld              |  out|     1|      ap_vld|              layer2_out_93|       pointer|
-|layer2_out_94                     |  out|    33|      ap_vld|              layer2_out_94|       pointer|
-|layer2_out_94_ap_vld              |  out|     1|      ap_vld|              layer2_out_94|       pointer|
-|layer2_out_95                     |  out|    33|      ap_vld|              layer2_out_95|       pointer|
-|layer2_out_95_ap_vld              |  out|     1|      ap_vld|              layer2_out_95|       pointer|
-|layer2_out_96                     |  out|    33|      ap_vld|              layer2_out_96|       pointer|
-|layer2_out_96_ap_vld              |  out|     1|      ap_vld|              layer2_out_96|       pointer|
-|layer2_out_97                     |  out|    33|      ap_vld|              layer2_out_97|       pointer|
-|layer2_out_97_ap_vld              |  out|     1|      ap_vld|              layer2_out_97|       pointer|
-|layer2_out_98                     |  out|    33|      ap_vld|              layer2_out_98|       pointer|
-|layer2_out_98_ap_vld              |  out|     1|      ap_vld|              layer2_out_98|       pointer|
-|layer2_out_99                     |  out|    33|      ap_vld|              layer2_out_99|       pointer|
-|layer2_out_99_ap_vld              |  out|     1|      ap_vld|              layer2_out_99|       pointer|
-+----------------------------------+-----+------+------------+---------------------------+--------------+
++----------------------------------+-----+-----+------------+---------------------------+--------------+
+|             RTL Ports            | Dir | Bits|  Protocol  |       Source Object       |    C Type    |
++----------------------------------+-----+-----+------------+---------------------------+--------------+
+|ap_clk                            |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_rst                            |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_start                          |   in|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_done                           |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_idle                           |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|ap_ready                          |  out|    1|  ap_ctrl_hs|                  myproject|  return value|
+|layer_normalization_input         |   in|  320|      ap_vld|  layer_normalization_input|       pointer|
+|layer_normalization_input_ap_vld  |   in|    1|      ap_vld|  layer_normalization_input|       pointer|
+|layer2_out_0                      |  out|   33|      ap_vld|               layer2_out_0|       pointer|
+|layer2_out_0_ap_vld               |  out|    1|      ap_vld|               layer2_out_0|       pointer|
+|layer2_out_1                      |  out|   33|      ap_vld|               layer2_out_1|       pointer|
+|layer2_out_1_ap_vld               |  out|    1|      ap_vld|               layer2_out_1|       pointer|
+|layer2_out_2                      |  out|   33|      ap_vld|               layer2_out_2|       pointer|
+|layer2_out_2_ap_vld               |  out|    1|      ap_vld|               layer2_out_2|       pointer|
+|layer2_out_3                      |  out|   33|      ap_vld|               layer2_out_3|       pointer|
+|layer2_out_3_ap_vld               |  out|    1|      ap_vld|               layer2_out_3|       pointer|
+|layer2_out_4                      |  out|   33|      ap_vld|               layer2_out_4|       pointer|
+|layer2_out_4_ap_vld               |  out|    1|      ap_vld|               layer2_out_4|       pointer|
+|layer2_out_5                      |  out|   33|      ap_vld|               layer2_out_5|       pointer|
+|layer2_out_5_ap_vld               |  out|    1|      ap_vld|               layer2_out_5|       pointer|
+|layer2_out_6                      |  out|   33|      ap_vld|               layer2_out_6|       pointer|
+|layer2_out_6_ap_vld               |  out|    1|      ap_vld|               layer2_out_6|       pointer|
+|layer2_out_7                      |  out|   33|      ap_vld|               layer2_out_7|       pointer|
+|layer2_out_7_ap_vld               |  out|    1|      ap_vld|               layer2_out_7|       pointer|
+|layer2_out_8                      |  out|   33|      ap_vld|               layer2_out_8|       pointer|
+|layer2_out_8_ap_vld               |  out|    1|      ap_vld|               layer2_out_8|       pointer|
+|layer2_out_9                      |  out|   33|      ap_vld|               layer2_out_9|       pointer|
+|layer2_out_9_ap_vld               |  out|    1|      ap_vld|               layer2_out_9|       pointer|
+|layer2_out_10                     |  out|   33|      ap_vld|              layer2_out_10|       pointer|
+|layer2_out_10_ap_vld              |  out|    1|      ap_vld|              layer2_out_10|       pointer|
+|layer2_out_11                     |  out|   33|      ap_vld|              layer2_out_11|       pointer|
+|layer2_out_11_ap_vld              |  out|    1|      ap_vld|              layer2_out_11|       pointer|
+|layer2_out_12                     |  out|   33|      ap_vld|              layer2_out_12|       pointer|
+|layer2_out_12_ap_vld              |  out|    1|      ap_vld|              layer2_out_12|       pointer|
+|layer2_out_13                     |  out|   33|      ap_vld|              layer2_out_13|       pointer|
+|layer2_out_13_ap_vld              |  out|    1|      ap_vld|              layer2_out_13|       pointer|
+|layer2_out_14                     |  out|   33|      ap_vld|              layer2_out_14|       pointer|
+|layer2_out_14_ap_vld              |  out|    1|      ap_vld|              layer2_out_14|       pointer|
+|layer2_out_15                     |  out|   33|      ap_vld|              layer2_out_15|       pointer|
+|layer2_out_15_ap_vld              |  out|    1|      ap_vld|              layer2_out_15|       pointer|
+|layer2_out_16                     |  out|   33|      ap_vld|              layer2_out_16|       pointer|
+|layer2_out_16_ap_vld              |  out|    1|      ap_vld|              layer2_out_16|       pointer|
+|layer2_out_17                     |  out|   33|      ap_vld|              layer2_out_17|       pointer|
+|layer2_out_17_ap_vld              |  out|    1|      ap_vld|              layer2_out_17|       pointer|
+|layer2_out_18                     |  out|   33|      ap_vld|              layer2_out_18|       pointer|
+|layer2_out_18_ap_vld              |  out|    1|      ap_vld|              layer2_out_18|       pointer|
+|layer2_out_19                     |  out|   33|      ap_vld|              layer2_out_19|       pointer|
+|layer2_out_19_ap_vld              |  out|    1|      ap_vld|              layer2_out_19|       pointer|
++----------------------------------+-----+-----+------------+---------------------------+--------------+
 

@@ -4,41 +4,41 @@
     "calls": "1",
     "file": "myproject.cpp",
     "fileloc": 7,
-    "instructions": 207,
+    "instructions": 47,
     "loads": {
       "T": 1
     },
     "name": "myproject",
-    "total_instructions": 4178
+    "total_instructions": 917
   },
   "1": {
     "basicblocks": 1,
-    "calls": "2 2 2 2 2 2 2 2 2 2",
+    "calls": "2 2 2 2",
     "file": "nnet_layernorm.h",
     "fileloc": 127,
-    "instructions": 321,
+    "instructions": 70,
     "loads": {
-      "L": 100
+      "L": 20
     },
     "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
-      "L": 100
+      "L": 20
     },
-    "total_instructions": 3971
+    "total_instructions": 870
   },
   "2": {
     "basicblocks": 6,
     "calls": "",
     "file": "nnet_layernorm.h",
     "fileloc": 76,
-    "instructions": 365,
+    "instructions": 200,
     "loads": {
       "G": 2
     },
     "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
-      "L": 10
+      "L": 5
     },
-    "total_instructions": 365
+    "total_instructions": 200
   }
 }

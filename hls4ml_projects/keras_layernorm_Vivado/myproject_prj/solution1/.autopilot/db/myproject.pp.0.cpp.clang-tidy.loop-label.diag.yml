@@ -70,7 +70,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2335389
+        Offset:          2335385
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -79,7 +79,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2335776
+        Offset:          2335772
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -88,7 +88,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336111
+        Offset:          2336107
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -97,7 +97,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336334
+        Offset:          2336330
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -106,7 +106,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336429
+        Offset:          2336425
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -115,7 +115,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336793
+        Offset:          2336789
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -124,7 +124,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336875
+        Offset:          2336871
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -133,7 +133,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337218
+        Offset:          2337214
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -142,7 +142,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337671
+        Offset:          2337667
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -151,7 +151,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337716
+        Offset:          2337712
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -160,7 +160,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2338125
+        Offset:          2338121
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -169,7 +169,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2338338
+        Offset:          2338334
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -178,7 +178,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356130
+        Offset:          2356126
         Length:          0
         ReplacementText: 'VITIS_LOOP_22_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -187,7 +187,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356224
+        Offset:          2356220
         Length:          0
         ReplacementText: 'VITIS_LOOP_24_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -196,7 +196,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356480
+        Offset:          2356476
         Length:          0
         ReplacementText: 'VITIS_LOOP_31_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -205,7 +205,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356574
+        Offset:          2356570
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_4: '
   - DiagnosticName:  clang-diagnostic-error
@@ -344,7 +344,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2418206
+        Offset:          2418202
         Length:          0
         ReplacementText: 'VITIS_LOOP_61_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -353,7 +353,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2419022
+        Offset:          2419018
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -362,7 +362,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2421671
+        Offset:          2421667
         Length:          0
         ReplacementText: 'VITIS_LOOP_289_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -371,7 +371,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2424396
+        Offset:          2424392
         Length:          0
         ReplacementText: 'VITIS_LOOP_449_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -380,7 +380,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2427557
+        Offset:          2427553
         Length:          0
         ReplacementText: 'VITIS_LOOP_629_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -389,7 +389,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2427638
+        Offset:          2427634
         Length:          0
         ReplacementText: 'VITIS_LOOP_633_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -398,7 +398,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2429947
+        Offset:          2429943
         Length:          0
         ReplacementText: 'VITIS_LOOP_743_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -407,7 +407,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2431443
+        Offset:          2431439
         Length:          0
         ReplacementText: 'VITIS_LOOP_840_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -416,7 +416,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2431673
+        Offset:          2431669
         Length:          0
         ReplacementText: 'VITIS_LOOP_859_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -425,7 +425,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2437859
+        Offset:          2437855
         Length:          0
         ReplacementText: 'VITIS_LOOP_1173_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -434,7 +434,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2439462
+        Offset:          2439458
         Length:          0
         ReplacementText: 'VITIS_LOOP_1256_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -443,7 +443,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447315
+        Offset:          2447311
         Length:          0
         ReplacementText: 'VITIS_LOOP_68_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -452,7 +452,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447465
+        Offset:          2447461
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -461,7 +461,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447562
+        Offset:          2447558
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -470,7 +470,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449424
+        Offset:          2449420
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -479,7 +479,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449574
+        Offset:          2449570
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -488,7 +488,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449671
+        Offset:          2449667
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -497,7 +497,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2450052
+        Offset:          2450048
         Length:          0
         ReplacementText: 'VITIS_LOOP_170_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -506,7 +506,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2450283
+        Offset:          2450279
         Length:          0
         ReplacementText: 'VITIS_LOOP_178_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -515,7 +515,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453730
+        Offset:          2453726
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -524,7 +524,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453882
+        Offset:          2453878
         Length:          0
         ReplacementText: 'VITIS_LOOP_249_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -533,7 +533,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453982
+        Offset:          2453978
         Length:          0
         ReplacementText: 'VITIS_LOOP_253_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -542,7 +542,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2454364
+        Offset:          2454360
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -551,7 +551,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2454602
+        Offset:          2454598
         Length:          0
         ReplacementText: 'VITIS_LOOP_276_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -560,7 +560,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470157
+        Offset:          2470153
         Length:          0
         ReplacementText: 'VITIS_LOOP_505_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -569,7 +569,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470309
+        Offset:          2470305
         Length:          0
         ReplacementText: 'VITIS_LOOP_511_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -578,7 +578,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470408
+        Offset:          2470404
         Length:          0
         ReplacementText: 'VITIS_LOOP_515_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -587,7 +587,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470585
+        Offset:          2470581
         Length:          0
         ReplacementText: 'VITIS_LOOP_525_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -596,7 +596,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470683
+        Offset:          2470679
         Length:          0
         ReplacementText: 'VITIS_LOOP_529_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -605,7 +605,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470968
+        Offset:          2470964
         Length:          0
         ReplacementText: 'VITIS_LOOP_539_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -614,7 +614,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2471223
+        Offset:          2471219
         Length:          0
         ReplacementText: 'VITIS_LOOP_547_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -623,7 +623,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503462
+        Offset:          2503458
         Length:          0
         ReplacementText: 'VITIS_LOOP_908_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -632,7 +632,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503614
+        Offset:          2503610
         Length:          0
         ReplacementText: 'VITIS_LOOP_914_22: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -641,7 +641,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503714
+        Offset:          2503710
         Length:          0
         ReplacementText: 'VITIS_LOOP_918_23: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -650,7 +650,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506390
+        Offset:          2506386
         Length:          0
         ReplacementText: 'VITIS_LOOP_1034_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -659,7 +659,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506540
+        Offset:          2506536
         Length:          0
         ReplacementText: 'VITIS_LOOP_1040_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -668,7 +668,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506638
+        Offset:          2506634
         Length:          0
         ReplacementText: 'VITIS_LOOP_1044_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -677,7 +677,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510108
+        Offset:          2510104
         Length:          0
         ReplacementText: 'VITIS_LOOP_1131_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -686,7 +686,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510259
+        Offset:          2510255
         Length:          0
         ReplacementText: 'VITIS_LOOP_1137_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -695,7 +695,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510358
+        Offset:          2510354
         Length:          0
         ReplacementText: 'VITIS_LOOP_1141_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -704,7 +704,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510838
+        Offset:          2510834
         Length:          0
         ReplacementText: 'VITIS_LOOP_1160_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -713,7 +713,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2511080
+        Offset:          2511076
         Length:          0
         ReplacementText: 'VITIS_LOOP_1167_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -722,7 +722,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516652
+        Offset:          2516648
         Length:          0
         ReplacementText: 'VITIS_LOOP_1283_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -731,7 +731,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516804
+        Offset:          2516800
         Length:          0
         ReplacementText: 'VITIS_LOOP_1289_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -740,7 +740,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516903
+        Offset:          2516899
         Length:          0
         ReplacementText: 'VITIS_LOOP_1293_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -749,7 +749,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2517412
+        Offset:          2517408
         Length:          0
         ReplacementText: 'VITIS_LOOP_1313_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -758,7 +758,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2517661
+        Offset:          2517657
         Length:          0
         ReplacementText: 'VITIS_LOOP_1320_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -767,7 +767,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535018
+        Offset:          2535014
         Length:          0
         ReplacementText: 'VITIS_LOOP_1582_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -776,7 +776,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535170
+        Offset:          2535166
         Length:          0
         ReplacementText: 'VITIS_LOOP_1588_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -785,7 +785,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535270
+        Offset:          2535266
         Length:          0
         ReplacementText: 'VITIS_LOOP_1592_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -794,7 +794,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535744
+        Offset:          2535740
         Length:          0
         ReplacementText: 'VITIS_LOOP_1616_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -803,7 +803,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2536011
+        Offset:          2536007
         Length:          0
         ReplacementText: 'VITIS_LOOP_1623_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -812,7 +812,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574582
+        Offset:          2574578
         Length:          0
         ReplacementText: 'VITIS_LOOP_2053_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -821,7 +821,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574734
+        Offset:          2574730
         Length:          0
         ReplacementText: 'VITIS_LOOP_2059_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -830,7 +830,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574834
+        Offset:          2574830
         Length:          0
         ReplacementText: 'VITIS_LOOP_2063_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -839,7 +839,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577454
+        Offset:          2577450
         Length:          0
         ReplacementText: 'VITIS_LOOP_2193_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -848,7 +848,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577617
+        Offset:          2577613
         Length:          0
         ReplacementText: 'VITIS_LOOP_2200_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -857,7 +857,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577709
+        Offset:          2577705
         Length:          0
         ReplacementText: 'VITIS_LOOP_2204_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -866,7 +866,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579318
+        Offset:          2579314
         Length:          0
         ReplacementText: 'VITIS_LOOP_2251_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -875,7 +875,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579480
+        Offset:          2579476
         Length:          0
         ReplacementText: 'VITIS_LOOP_2258_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -884,7 +884,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579572
+        Offset:          2579568
         Length:          0
         ReplacementText: 'VITIS_LOOP_2262_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -893,7 +893,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579945
+        Offset:          2579941
         Length:          0
         ReplacementText: 'VITIS_LOOP_2280_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -902,7 +902,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582411
+        Offset:          2582407
         Length:          0
         ReplacementText: 'VITIS_LOOP_2335_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -911,7 +911,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582578
+        Offset:          2582574
         Length:          0
         ReplacementText: 'VITIS_LOOP_2342_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -920,7 +920,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582671
+        Offset:          2582667
         Length:          0
         ReplacementText: 'VITIS_LOOP_2346_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -929,7 +929,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2583052
+        Offset:          2583048
         Length:          0
         ReplacementText: 'VITIS_LOOP_2364_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -938,7 +938,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588493
+        Offset:          2588489
         Length:          0
         ReplacementText: 'VITIS_LOOP_2453_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -947,7 +947,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588661
+        Offset:          2588657
         Length:          0
         ReplacementText: 'VITIS_LOOP_2460_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -956,7 +956,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588755
+        Offset:          2588751
         Length:          0
         ReplacementText: 'VITIS_LOOP_2464_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -965,7 +965,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588926
+        Offset:          2588922
         Length:          0
         ReplacementText: 'VITIS_LOOP_2474_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -974,7 +974,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589017
+        Offset:          2589013
         Length:          0
         ReplacementText: 'VITIS_LOOP_2478_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -983,7 +983,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589299
+        Offset:          2589295
         Length:          0
         ReplacementText: 'VITIS_LOOP_2489_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -992,7 +992,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589486
+        Offset:          2589482
         Length:          0
         ReplacementText: 'VITIS_LOOP_2497_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1001,7 +1001,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2623956
+        Offset:          2623952
         Length:          0
         ReplacementText: 'VITIS_LOOP_2822_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1010,7 +1010,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2624124
+        Offset:          2624120
         Length:          0
         ReplacementText: 'VITIS_LOOP_2829_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1019,7 +1019,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2624218
+        Offset:          2624214
         Length:          0
         ReplacementText: 'VITIS_LOOP_2833_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1028,7 +1028,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626020
+        Offset:          2626016
         Length:          0
         ReplacementText: 'VITIS_LOOP_2921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1037,7 +1037,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626128
+        Offset:          2626124
         Length:          0
         ReplacementText: 'VITIS_LOOP_2928_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1046,7 +1046,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626199
+        Offset:          2626195
         Length:          0
         ReplacementText: 'VITIS_LOOP_2932_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1055,7 +1055,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626487
+        Offset:          2626483
         Length:          0
         ReplacementText: 'VITIS_LOOP_2947_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1064,7 +1064,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627701
+        Offset:          2627697
         Length:          0
         ReplacementText: 'VITIS_LOOP_2979_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1073,7 +1073,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627812
+        Offset:          2627808
         Length:          0
         ReplacementText: 'VITIS_LOOP_2986_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1082,7 +1082,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627885
+        Offset:          2627881
         Length:          0
         ReplacementText: 'VITIS_LOOP_2990_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1091,7 +1091,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2628180
+        Offset:          2628176
         Length:          0
         ReplacementText: 'VITIS_LOOP_3005_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1100,7 +1100,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631513
+        Offset:          2631509
         Length:          0
         ReplacementText: 'VITIS_LOOP_3055_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1109,7 +1109,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631624
+        Offset:          2631620
         Length:          0
         ReplacementText: 'VITIS_LOOP_3062_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1118,7 +1118,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631697
+        Offset:          2631693
         Length:          0
         ReplacementText: 'VITIS_LOOP_3066_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1127,7 +1127,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631993
+        Offset:          2631989
         Length:          0
         ReplacementText: 'VITIS_LOOP_3081_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1136,7 +1136,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651305
+        Offset:          2651301
         Length:          0
         ReplacementText: 'VITIS_LOOP_3218_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1145,7 +1145,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651419
+        Offset:          2651415
         Length:          0
         ReplacementText: 'VITIS_LOOP_3225_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1154,7 +1154,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651494
+        Offset:          2651490
         Length:          0
         ReplacementText: 'VITIS_LOOP_3229_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1163,7 +1163,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651781
+        Offset:          2651777
         Length:          0
         ReplacementText: 'VITIS_LOOP_3244_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1172,7 +1172,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677391
+        Offset:          2677387
         Length:          0
         ReplacementText: 'VITIS_LOOP_3404_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1181,7 +1181,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677505
+        Offset:          2677501
         Length:          0
         ReplacementText: 'VITIS_LOOP_3411_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1190,7 +1190,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677582
+        Offset:          2677578
         Length:          0
         ReplacementText: 'VITIS_LOOP_3415_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1199,7 +1199,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2711657
+        Offset:          2711653
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1208,7 +1208,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2720046
+        Offset:          2720042
         Length:          0
         ReplacementText: 'VITIS_LOOP_921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1217,7 +1217,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2739021
+        Offset:          2739017
         Length:          0
         ReplacementText: 'VITIS_LOOP_1345_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1226,7 +1226,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2753885
+        Offset:          2753881
         Length:          0
         ReplacementText: 'VITIS_LOOP_240_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1235,7 +1235,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2754406
+        Offset:          2754402
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1244,7 +1244,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2770335
+        Offset:          2770331
         Length:          0
         ReplacementText: 'VITIS_LOOP_48_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1253,7 +1253,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2771487
+        Offset:          2771483
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1262,7 +1262,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2771796
+        Offset:          2771792
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1271,7 +1271,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2772306
+        Offset:          2772302
         Length:          0
         ReplacementText: 'VITIS_LOOP_153_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1280,7 +1280,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774224
+        Offset:          2774220
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1289,7 +1289,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774589
+        Offset:          2774585
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1298,7 +1298,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774897
+        Offset:          2774893
         Length:          0
         ReplacementText: 'VITIS_LOOP_315_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1307,7 +1307,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2776727
+        Offset:          2776723
         Length:          0
         ReplacementText: 'VITIS_LOOP_433_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1316,7 +1316,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2777052
+        Offset:          2777048
         Length:          0
         ReplacementText: 'VITIS_LOOP_447_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1325,7 +1325,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2779713
+        Offset:          2779709
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1334,7 +1334,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2782611
+        Offset:          2782607
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1343,7 +1343,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2783900
+        Offset:          2783896
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1352,7 +1352,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2794826
+        Offset:          2794822
         Length:          0
         ReplacementText: 'VITIS_LOOP_16_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1361,7 +1361,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795001
+        Offset:          2794997
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1370,7 +1370,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795162
+        Offset:          2795158
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1379,7 +1379,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795324
+        Offset:          2795320
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1388,7 +1388,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795498
+        Offset:          2795494
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1397,7 +1397,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795673
+        Offset:          2795669
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1406,7 +1406,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795834
+        Offset:          2795830
         Length:          0
         ReplacementText: 'VITIS_LOOP_82_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1415,7 +1415,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795996
+        Offset:          2795992
         Length:          0
         ReplacementText: 'VITIS_LOOP_93_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1424,7 +1424,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_mad_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2866846
+        Offset:          2866842
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1433,7 +1433,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cbrt_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2868595
+        Offset:          2868591
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1442,7 +1442,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2873116
+        Offset:          2873112
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1451,7 +1451,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2873849
+        Offset:          2873845
         Length:          0
         ReplacementText: 'VITIS_LOOP_81_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1460,7 +1460,7 @@ Diagnostics:
     FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2875536
+        Offset:          2875532
         Length:          0
         ReplacementText: 'VITIS_LOOP_169_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1469,7 +1469,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2928831
+        Offset:          2928827
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1478,7 +1478,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2929626
+        Offset:          2929622
         Length:          0
         ReplacementText: 'VITIS_LOOP_63_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1487,7 +1487,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2931206
+        Offset:          2931202
         Length:          0
         ReplacementText: 'VITIS_LOOP_108_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1496,7 +1496,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2931439
+        Offset:          2931435
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1505,7 +1505,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2931848
+        Offset:          2931844
         Length:          0
         ReplacementText: 'VITIS_LOOP_121_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1514,7 +1514,7 @@ Diagnostics:
     FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
       - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2932647
+        Offset:          2932643
         Length:          0
         ReplacementText: 'VITIS_LOOP_141_1: '
 ...

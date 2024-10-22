@@ -13,18 +13,13 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set C_modelName {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>}
-set C_modelType { int 160 }
+set C_modelType { int 80 }
 set C_modelArgList {
 	{ data_0_val int 16 regular  }
 	{ data_1_val int 16 regular  }
 	{ data_2_val int 16 regular  }
 	{ data_3_val int 16 regular  }
 	{ data_4_val int 16 regular  }
-	{ data_5_val int 16 regular  }
-	{ data_6_val int 16 regular  }
-	{ data_7_val int 16 regular  }
-	{ data_8_val int 16 regular  }
-	{ data_9_val int 16 regular  }
 }
 set hasAXIMCache 0
 set AXIMCacheInstList { }
@@ -34,14 +29,9 @@ set C_modelArgMapList {[
  	{ "Name" : "data_2_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "data_3_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "data_4_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "data_5_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "data_6_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "data_7_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "data_8_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "data_9_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 160} ]}
+ 	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 80} ]}
 # RTL Port declarations: 
-set portNum 26
+set portNum 16
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -54,21 +44,11 @@ set portList {
 	{ data_2_val sc_in sc_lv 16 signal 2 } 
 	{ data_3_val sc_in sc_lv 16 signal 3 } 
 	{ data_4_val sc_in sc_lv 16 signal 4 } 
-	{ data_5_val sc_in sc_lv 16 signal 5 } 
-	{ data_6_val sc_in sc_lv 16 signal 6 } 
-	{ data_7_val sc_in sc_lv 16 signal 7 } 
-	{ data_8_val sc_in sc_lv 16 signal 8 } 
-	{ data_9_val sc_in sc_lv 16 signal 9 } 
 	{ ap_return_0 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_1 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_2 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_3 sc_out sc_lv 16 signal -1 } 
 	{ ap_return_4 sc_out sc_lv 16 signal -1 } 
-	{ ap_return_5 sc_out sc_lv 16 signal -1 } 
-	{ ap_return_6 sc_out sc_lv 16 signal -1 } 
-	{ ap_return_7 sc_out sc_lv 16 signal -1 } 
-	{ ap_return_8 sc_out sc_lv 16 signal -1 } 
-	{ ap_return_9 sc_out sc_lv 16 signal -1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -82,24 +62,14 @@ set NewPortList {[
  	{ "name": "data_2_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_2_val", "role": "default" }} , 
  	{ "name": "data_3_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_3_val", "role": "default" }} , 
  	{ "name": "data_4_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_4_val", "role": "default" }} , 
- 	{ "name": "data_5_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_5_val", "role": "default" }} , 
- 	{ "name": "data_6_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_6_val", "role": "default" }} , 
- 	{ "name": "data_7_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_7_val", "role": "default" }} , 
- 	{ "name": "data_8_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_8_val", "role": "default" }} , 
- 	{ "name": "data_9_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "data_9_val", "role": "default" }} , 
  	{ "name": "ap_return_0", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_0", "role": "default" }} , 
  	{ "name": "ap_return_1", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_1", "role": "default" }} , 
  	{ "name": "ap_return_2", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_2", "role": "default" }} , 
  	{ "name": "ap_return_3", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_3", "role": "default" }} , 
- 	{ "name": "ap_return_4", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_4", "role": "default" }} , 
- 	{ "name": "ap_return_5", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_5", "role": "default" }} , 
- 	{ "name": "ap_return_6", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_6", "role": "default" }} , 
- 	{ "name": "ap_return_7", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_7", "role": "default" }} , 
- 	{ "name": "ap_return_8", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_8", "role": "default" }} , 
- 	{ "name": "ap_return_9", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_9", "role": "default" }}  ]}
+ 	{ "name": "ap_return_4", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return_4", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
 		"CDFG" : "layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -119,11 +89,6 @@ set RtlHierarchyInfo {[
 			{"Name" : "data_2_val", "Type" : "None", "Direction" : "I"},
 			{"Name" : "data_3_val", "Type" : "None", "Direction" : "I"},
 			{"Name" : "data_4_val", "Type" : "None", "Direction" : "I"},
-			{"Name" : "data_5_val", "Type" : "None", "Direction" : "I"},
-			{"Name" : "data_6_val", "Type" : "None", "Direction" : "I"},
-			{"Name" : "data_7_val", "Type" : "None", "Direction" : "I"},
-			{"Name" : "data_8_val", "Type" : "None", "Direction" : "I"},
-			{"Name" : "data_9_val", "Type" : "None", "Direction" : "I"},
 			{"Name" : "index_table", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "invert_sqr_table", "Type" : "Memory", "Direction" : "I"}],
 		"Loop" : [
@@ -131,28 +96,18 @@ set RtlHierarchyInfo {[
 				"LoopDec" : {"FSMBitwidth" : "7", "FirstState" : "ap_ST_fsm_state4", "LastState" : ["ap_ST_fsm_state5"], "QuitState" : ["ap_ST_fsm_state5"], "PreState" : ["ap_ST_fsm_state3"], "PostState" : ["ap_ST_fsm_state6"], "OneDepthLoop" : "0", "OneStateBlock": ""}}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.index_table_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.invert_sqr_table_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U102", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U103", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U104", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U105", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U106", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U107", "Parent" : "0"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U108", "Parent" : "0"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U109", "Parent" : "0"},
-	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U110", "Parent" : "0"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U111", "Parent" : "0"},
-	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_11ns_30_1_1_U112", "Parent" : "0"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U113", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U114", "Parent" : "0"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U115", "Parent" : "0"},
-	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U116", "Parent" : "0"},
-	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U117", "Parent" : "0"},
-	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U118", "Parent" : "0"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U119", "Parent" : "0"},
-	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U120", "Parent" : "0"},
-	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U121", "Parent" : "0"},
-	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U122", "Parent" : "0"},
-	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_11ns_30_1_1_U123", "Parent" : "0"}]}
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U22", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U23", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U24", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U25", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_29ns_19s_39_1_1_U26", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_12ns_31_1_1_U27", "Parent" : "0"},
+	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U28", "Parent" : "0"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U29", "Parent" : "0"},
+	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U30", "Parent" : "0"},
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U31", "Parent" : "0"},
+	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_19s_32_1_1_U32", "Parent" : "0"},
+	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_19s_12ns_31_1_1_U33", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -162,11 +117,6 @@ set ArgLastReadFirstWriteLatency {
 		data_2_val {Type I LastRead 0 FirstWrite -1}
 		data_3_val {Type I LastRead 0 FirstWrite -1}
 		data_4_val {Type I LastRead 0 FirstWrite -1}
-		data_5_val {Type I LastRead 0 FirstWrite -1}
-		data_6_val {Type I LastRead 0 FirstWrite -1}
-		data_7_val {Type I LastRead 0 FirstWrite -1}
-		data_8_val {Type I LastRead 0 FirstWrite -1}
-		data_9_val {Type I LastRead 0 FirstWrite -1}
 		index_table {Type I LastRead -1 FirstWrite -1}
 		invert_sqr_table {Type I LastRead -1 FirstWrite -1}}}
 
@@ -186,9 +136,4 @@ set Spec2ImplPortList {
 	data_2_val { ap_none {  { data_2_val in_data 0 16 } } }
 	data_3_val { ap_none {  { data_3_val in_data 0 16 } } }
 	data_4_val { ap_none {  { data_4_val in_data 0 16 } } }
-	data_5_val { ap_none {  { data_5_val in_data 0 16 } } }
-	data_6_val { ap_none {  { data_6_val in_data 0 16 } } }
-	data_7_val { ap_none {  { data_7_val in_data 0 16 } } }
-	data_8_val { ap_none {  { data_8_val in_data 0 16 } } }
-	data_9_val { ap_none {  { data_9_val in_data 0 16 } } }
 }

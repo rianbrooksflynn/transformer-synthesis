@@ -1,44 +1,74 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "1 5 4",
+    "calls": "4 1 2",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 16,
     "name": "myproject",
-    "total_instructions": 21244
+    "total_instructions": 4599
   },
   "1": {
-    "basicblocks": 14,
+    "basicblocks": 9,
     "calls": "",
     "file": "nnet_array.h",
     "fileloc": 16,
-    "instructions": 412,
+    "instructions": 87,
     "loads": {
-      "L": 100
+      "L": 20
     },
-    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
     "stores": {
-      "L": 100
+      "L": 20
     },
-    "total_instructions": 412
+    "total_instructions": 87
   },
   "2": {
-    "basicblocks": 855,
-    "calls": "3",
+    "basicblocks": 12,
+    "calls": "3 3 3 3",
+    "file": "nnet_layernorm.h",
+    "fileloc": 127,
+    "instructions": 186,
+    "loads": {
+      "L": 40
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 40
+    },
+    "total_instructions": 4410
+  },
+  "3": {
+    "basicblocks": 455,
+    "calls": "5",
     "file": "nnet_layernorm.h",
     "fileloc": 76,
-    "instructions": 1878,
+    "instructions": 978,
     "loads": {
-      "L": 91
+      "L": 46
     },
     "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
     "stores": {
-      "L": 25
+      "L": 15
     },
-    "total_instructions": 1956
+    "total_instructions": 1056
   },
-  "3": {
+  "4": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "nnet_array.h",
+    "fileloc": 16,
+    "instructions": 86,
+    "loads": {
+      "L": 20
+    },
+    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 20
+    },
+    "total_instructions": 86
+  },
+  "5": {
     "basicblocks": 25,
     "calls": "",
     "file": "nnet_layernorm.h",
@@ -53,35 +83,5 @@
       "L": 3
     },
     "total_instructions": 78
-  },
-  "4": {
-    "basicblocks": 24,
-    "calls": "2 2 2 2 2 2 2 2 2 2",
-    "file": "nnet_layernorm.h",
-    "fileloc": 127,
-    "instructions": 844,
-    "loads": {
-      "L": 200
-    },
-    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config2>",
-    "stores": {
-      "L": 200
-    },
-    "total_instructions": 20404
-  },
-  "5": {
-    "basicblocks": 14,
-    "calls": "",
-    "file": "nnet_array.h",
-    "fileloc": 16,
-    "instructions": 412,
-    "loads": {
-      "L": 100
-    },
-    "name": "transpose_2d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
-    "stores": {
-      "L": 100
-    },
-    "total_instructions": 412
   }
 }
