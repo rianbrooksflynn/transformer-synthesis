@@ -826,23 +826,3 @@
     ^~~~~
     VITIS_LOOP_63_1: 
 /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72419:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72464:5: warning: Added loop label VITIS_LOOP_108_1:   [xilinx-label-all-loops]
-    for (int i = 0; i < dim; ++i) {
-    ^~~
-    VITIS_LOOP_108_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72464:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72469:5: warning: Added loop label VITIS_LOOP_113_2:   [xilinx-label-all-loops]
-    for (int i = 0; i < dim; ++i) {
-    ^~~
-    VITIS_LOOP_113_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72469:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72477:5: warning: Added loop label VITIS_LOOP_121_3:   [xilinx-label-all-loops]
-    for (int i = 0; i < dim; ++i) {
-    ^~~
-    VITIS_LOOP_121_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72477:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72497:2: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
- for (int j = 0; j < CONFIG_T::seq_len; ++j) {
- ^~~
- VITIS_LOOP_141_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72497:2: note: FIX-IT applied suggested code changes

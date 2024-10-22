@@ -82,7 +82,7 @@
 `define AUTOTB_TVOUT_layer2_out_19_out_wrapc  "../tv/rtldatafile/rtl.myproject.autotvout_layer2_out_19.dat"
 module `AUTOTB_TOP;
 
-parameter AUTOTB_TRANSACTION_NUM = 20;
+parameter AUTOTB_TRANSACTION_NUM = 30;
 parameter PROGRESS_TIMEOUT = 10000000;
 parameter LATENCY_ESTIMATION = -1;
 parameter LENGTH_layer2_out_0 = 1;

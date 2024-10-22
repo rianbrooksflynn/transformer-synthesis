@@ -32,7 +32,7 @@
         <SummaryOfViolations>
             <IssueType>-</IssueType>
             <ViolationType>-</ViolationType>
-            <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:146~firmware/myproject.cpp:32</SourceLocation>
+            <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:151~firmware/myproject.cpp:32</SourceLocation>
         </SummaryOfViolations>
     </PerformanceEstimates>
     <AreaEstimates>
@@ -632,28 +632,28 @@
                     <ModuleName>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>294</ID>
-                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln114_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln114_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln114_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln114_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln114_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
+                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln117_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln117_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln117_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln117_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln117_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
                 </Instance>
                 <Instance>
                     <InstName>grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307</InstName>
                     <ModuleName>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>307</ID>
-                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln114_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln114_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln114_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln114_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln114_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
+                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln117_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln117_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln117_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln117_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln117_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
                 </Instance>
                 <Instance>
                     <InstName>grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320</InstName>
                     <ModuleName>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>320</ID>
-                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln114_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln114_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln114_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln114_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln114_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
+                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln117_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln117_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln117_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln117_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln117_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
                 </Instance>
                 <Instance>
                     <InstName>grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333</InstName>
                     <ModuleName>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>333</ID>
-                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln114_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln114_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln114_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln114_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln114_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
+                    <BindInstances>mul_19s_12ns_31_1_1_U1 sub_ln117_fu_244_p2 mul_19s_19s_32_1_1_U2 sub_ln117_1_fu_250_p2 mul_19s_19s_32_1_1_U3 sub_ln117_2_fu_256_p2 mul_19s_19s_32_1_1_U4 sub_ln117_3_fu_262_p2 mul_19s_19s_32_1_1_U5 sub_ln117_4_fu_268_p2 mul_19s_19s_32_1_1_U6 mul_19s_12ns_31_1_1_U7 x_fu_416_p2 add_ln64_fu_470_p2 sub_ln64_fu_484_p2 sub_ln64_1_fu_504_p2 sub_ln63_fu_554_p2 mul_25ns_19s_44_1_1_U8 mul_25ns_19s_44_1_1_U9 mul_25ns_19s_44_1_1_U10 mul_25ns_19s_44_1_1_U11 mul_25ns_19s_44_1_1_U12 index_table_U invert_sqr_table_U</BindInstances>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -697,13 +697,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:109</SourceLocation>
+                    <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:111</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_63_1>
                             <Name>VITIS_LOOP_63_1</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:64~firmware/nnet_utils/nnet_layernorm.h:119</SourceLocation>
+                            <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:64~firmware/nnet_utils/nnet_layernorm.h:122</SourceLocation>
                         </VITIS_LOOP_63_1>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -729,27 +729,27 @@
             </AreaEstimates>
             <BindNodes>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_12ns_31_1_1_U1" SOURCE="firmware/nnet_utils/nnet_mult.h:73" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln73"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln114_fu_244_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:114" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln114"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:115" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln115"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln114_1_fu_250_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:114" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln114_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U3" SOURCE="firmware/nnet_utils/nnet_layernorm.h:115" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln115_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln114_2_fu_256_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:114" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln114_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U4" SOURCE="firmware/nnet_utils/nnet_layernorm.h:115" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln115_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln114_3_fu_262_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:114" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln114_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U5" SOURCE="firmware/nnet_utils/nnet_layernorm.h:115" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln115_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln114_4_fu_268_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:114" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln114_4"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U6" SOURCE="firmware/nnet_utils/nnet_layernorm.h:115" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln115_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln117_fu_244_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:117" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln117"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:118" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln118"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln117_1_fu_250_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:117" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln117_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U3" SOURCE="firmware/nnet_utils/nnet_layernorm.h:118" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln118_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln117_2_fu_256_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:117" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln117_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U4" SOURCE="firmware/nnet_utils/nnet_layernorm.h:118" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln118_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln117_3_fu_262_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:117" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln117_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U5" SOURCE="firmware/nnet_utils/nnet_layernorm.h:118" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln118_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln117_4_fu_268_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:117" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln117_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_19s_32_1_1_U6" SOURCE="firmware/nnet_utils/nnet_layernorm.h:118" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln118_4"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_19s_12ns_31_1_1_U7" SOURCE="firmware/nnet_utils/nnet_mult.h:73" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln73_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="x_fu_416_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:119" STORAGESUBTYPE="" URAM="0" VARIABLE="x"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="x_fu_416_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="x"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_63_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln64_fu_470_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln64"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_63_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln64_fu_484_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln64"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_63_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln64_1_fu_504_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln64_1"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_63_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln63_fu_554_p2" SOURCE="firmware/nnet_utils/nnet_layernorm.h:63" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln63"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U8" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln122"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U9" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln122_1"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U10" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln122_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U11" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln122_3"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U12" SOURCE="firmware/nnet_utils/nnet_layernorm.h:122" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln122_4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U8" SOURCE="firmware/nnet_utils/nnet_layernorm.h:126" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln126"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U9" SOURCE="firmware/nnet_utils/nnet_layernorm.h:126" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln126_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U10" SOURCE="firmware/nnet_utils/nnet_layernorm.h:126" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln126_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U11" SOURCE="firmware/nnet_utils/nnet_layernorm.h:126" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln126_3"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_25ns_19s_44_1_1_U12" SOURCE="firmware/nnet_utils/nnet_layernorm.h:126" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln126_4"/>
                 <BindNode BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="index_table_U" SOURCE="" STORAGESIZE="21 1024 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="index_table"/>
                 <BindNode BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" DISPNAME="bind_storage rom_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_1p" PRAGMA="" RTLNAME="invert_sqr_table_U" SOURCE="" STORAGESIZE="25 1024 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_1p" URAM="0" VARIABLE="invert_sqr_table"/>
             </BindNodes>
@@ -776,7 +776,7 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:146~firmware/myproject.cpp:32</SourceLocation>
+                    <SourceLocation>firmware/nnet_utils/nnet_layernorm.h:151~firmware/myproject.cpp:32</SourceLocation>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1277,14 +1277,14 @@
         <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:80" status="valid" parentFunction="layernorm_1d" variable="data" isDirective="0" options="variable=data complete"/>
         <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:81" status="valid" parentFunction="layernorm_1d" variable="res" isDirective="0" options="variable=res complete"/>
         <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:105" status="valid" parentFunction="layernorm_1d" variable="data_diff" isDirective="0" options="variable=data_diff complete"/>
-        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_layernorm.h:134" status="valid" parentFunction="layernormalize" variable="scale,bias" isDirective="0" options="variable=scale,bias"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:136" status="valid" parentFunction="layernormalize" variable="scale" isDirective="0" options="variable=scale complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:137" status="valid" parentFunction="layernormalize" variable="bias" isDirective="0" options="variable=bias complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:138" status="valid" parentFunction="layernormalize" variable="in_val" isDirective="0" options="variable=in_val complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:139" status="valid" parentFunction="layernormalize" variable="outval" isDirective="0" options="variable=outval complete"/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_layernorm.h:142" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_layernorm.h:145" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_layernorm.h:151" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
+        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_layernorm.h:138" status="valid" parentFunction="layernormalize" variable="scale,bias" isDirective="0" options="variable=scale,bias"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:140" status="valid" parentFunction="layernormalize" variable="scale" isDirective="0" options="variable=scale complete"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:141" status="valid" parentFunction="layernormalize" variable="bias" isDirective="0" options="variable=bias complete"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:142" status="valid" parentFunction="layernormalize" variable="in_val" isDirective="0" options="variable=in_val complete"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_layernorm.h:143" status="valid" parentFunction="layernormalize" variable="outval" isDirective="0" options="variable=outval complete"/>
+        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_layernorm.h:147" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_layernorm.h:150" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_layernorm.h:156" status="valid" parentFunction="layernormalize" variable="" isDirective="0" options=""/>
         <Pragma type="inline" location="firmware/nnet_utils/nnet_mult.h:25" status="valid" parentFunction="product" variable="" isDirective="0" options=""/>
         <Pragma type="inline" location="firmware/nnet_utils/nnet_mult.h:34" status="valid" parentFunction="product" variable="" isDirective="0" options=""/>
         <Pragma type="inline" location="firmware/nnet_utils/nnet_mult.h:46" status="valid" parentFunction="product" variable="" isDirective="0" options=""/>

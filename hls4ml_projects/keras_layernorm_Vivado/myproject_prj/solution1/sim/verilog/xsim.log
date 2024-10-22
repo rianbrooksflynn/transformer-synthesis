@@ -3,13 +3,13 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Oct 22 17:12:16 2024
-# Process ID: 3435902
+# Start of session at: Tue Oct 22 18:35:19 2024
+# Process ID: 3443310
 # Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog
 # Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
 # Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.log
 # Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.jou
-# Running On: olivb-20.cern.ch, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 22, Host memory: 66857 MB
+# Running On: olivb-20.cern.ch, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 20, Host memory: 66857 MB
 #-----------------------------------------------------------
 source xsim.dir/myproject/xsim_script.tcl
 # xsim {myproject} -view {{myproject_dataflow_ana.wcfg}} -tclbatch {myproject.tcl} -protoinst {myproject.protoinst}
@@ -160,28 +160,38 @@ source myproject.tcl
 //
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
-// RTL Simulation : 0 / 20 [n/a] @ "113000"
-// RTL Simulation : 1 / 20 [n/a] @ "243000"
-// RTL Simulation : 2 / 20 [n/a] @ "368000"
-// RTL Simulation : 3 / 20 [n/a] @ "493000"
-// RTL Simulation : 4 / 20 [n/a] @ "618000"
-// RTL Simulation : 5 / 20 [n/a] @ "743000"
-// RTL Simulation : 6 / 20 [n/a] @ "868000"
-// RTL Simulation : 7 / 20 [n/a] @ "993000"
-// RTL Simulation : 8 / 20 [n/a] @ "1118000"
-// RTL Simulation : 9 / 20 [n/a] @ "1243000"
-// RTL Simulation : 10 / 20 [n/a] @ "1368000"
-// RTL Simulation : 11 / 20 [n/a] @ "1493000"
-// RTL Simulation : 12 / 20 [n/a] @ "1618000"
-// RTL Simulation : 13 / 20 [n/a] @ "1743000"
-// RTL Simulation : 14 / 20 [n/a] @ "1868000"
-// RTL Simulation : 15 / 20 [n/a] @ "1993000"
-// RTL Simulation : 16 / 20 [n/a] @ "2118000"
-// RTL Simulation : 17 / 20 [n/a] @ "2243000"
-// RTL Simulation : 18 / 20 [n/a] @ "2368000"
-// RTL Simulation : 19 / 20 [n/a] @ "2493000"
-// RTL Simulation : 20 / 20 [n/a] @ "2618000"
+// RTL Simulation : 0 / 30 [n/a] @ "113000"
+// RTL Simulation : 1 / 30 [n/a] @ "243000"
+// RTL Simulation : 2 / 30 [n/a] @ "368000"
+// RTL Simulation : 3 / 30 [n/a] @ "493000"
+// RTL Simulation : 4 / 30 [n/a] @ "618000"
+// RTL Simulation : 5 / 30 [n/a] @ "743000"
+// RTL Simulation : 6 / 30 [n/a] @ "868000"
+// RTL Simulation : 7 / 30 [n/a] @ "993000"
+// RTL Simulation : 8 / 30 [n/a] @ "1118000"
+// RTL Simulation : 9 / 30 [n/a] @ "1243000"
+// RTL Simulation : 10 / 30 [n/a] @ "1368000"
+// RTL Simulation : 11 / 30 [n/a] @ "1493000"
+// RTL Simulation : 12 / 30 [n/a] @ "1618000"
+// RTL Simulation : 13 / 30 [n/a] @ "1743000"
+// RTL Simulation : 14 / 30 [n/a] @ "1868000"
+// RTL Simulation : 15 / 30 [n/a] @ "1993000"
+// RTL Simulation : 16 / 30 [n/a] @ "2118000"
+// RTL Simulation : 17 / 30 [n/a] @ "2243000"
+// RTL Simulation : 18 / 30 [n/a] @ "2368000"
+// RTL Simulation : 19 / 30 [n/a] @ "2493000"
+// RTL Simulation : 20 / 30 [n/a] @ "2618000"
+// RTL Simulation : 21 / 30 [n/a] @ "2743000"
+// RTL Simulation : 22 / 30 [n/a] @ "2868000"
+// RTL Simulation : 23 / 30 [n/a] @ "2993000"
+// RTL Simulation : 24 / 30 [n/a] @ "3118000"
+// RTL Simulation : 25 / 30 [n/a] @ "3243000"
+// RTL Simulation : 26 / 30 [n/a] @ "3368000"
+// RTL Simulation : 27 / 30 [n/a] @ "3493000"
+// RTL Simulation : 28 / 30 [n/a] @ "3618000"
+// RTL Simulation : 29 / 30 [n/a] @ "3743000"
+// RTL Simulation : 30 / 30 [n/a] @ "3868000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 2647500 ps : File "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 1450
+$finish called at time : 3897500 ps : File "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 1450
 ## quit
-INFO: [Common 17-206] Exiting xsim at Tue Oct 22 17:12:24 2024...
+INFO: [Common 17-206] Exiting xsim at Tue Oct 22 18:35:26 2024...

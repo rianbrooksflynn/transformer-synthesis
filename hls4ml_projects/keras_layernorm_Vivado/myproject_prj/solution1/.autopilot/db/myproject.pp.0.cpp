@@ -72461,12 +72461,15 @@ void layernorm_1d(data_T data[CONFIG_T::n_in / CONFIG_T::seq_len], res_T res[CON
 #pragma HLS ARRAY_PARTITION variable=data_diff complete
 
  const typename CONFIG_T::mean_t k_inv = 1.0 / dim;
-    VITIS_LOOP_108_1: for (int i = 0; i < dim; ++i) {
+
+LAYERNORM_1D_SUM:
+    for (int i = 0; i < dim; ++i) {
         sum_cache += static_cast<typename CONFIG_T::mean_t>(data[i]);
     }
     mean = CONFIG_T::template product<typename CONFIG_T::mean_t, typename CONFIG_T::mean_t>::product(sum_cache, k_inv);
 
-    VITIS_LOOP_113_2: for (int i = 0; i < dim; ++i) {
+LAYERNORM_1D_VAR:
+    for (int i = 0; i < dim; ++i) {
         data_diff[i] = static_cast<typename CONFIG_T::mean_t>(data[i]) - mean;
         diff = data_diff[i] * data_diff[i];
         sum_cache2 += diff;
@@ -72474,7 +72477,8 @@ void layernorm_1d(data_T data[CONFIG_T::n_in / CONFIG_T::seq_len], res_T res[CON
     var = CONFIG_T::template product<typename CONFIG_T::mean_t, typename CONFIG_T::mean_t>::product(sum_cache2, k_inv);
     lookup_invert_sqr<CONFIG_T>(var + var_epsilon, deno_inver, index_table, invert_sqr_table);
 
-    VITIS_LOOP_121_3: for (int i = 0; i < dim; ++i) {
+LAYERNORM_1D_RESULT:
+    for (int i = 0; i < dim; ++i) {
         res[i] = data_diff[i] * deno_inver * scale[i] + bias[i];
     }
 }
@@ -72494,15 +72498,16 @@ void layernormalize(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in],
 #pragma HLS ARRAY_PARTITION variable=in_val complete
 #pragma HLS ARRAY_PARTITION variable=outval complete
 
- VITIS_LOOP_141_1: for (int j = 0; j < CONFIG_T::seq_len; ++j) {
+LAYERNORM_SEQ_LOOP:
+    for (int j = 0; j < CONFIG_T::seq_len; ++j) {
 #pragma HLS PIPELINE
- load:
+ LAYERNORM_LOAD:
         for (int i = 0; i < dim; ++i) {
 #pragma HLS UNROLL
  in_val[i] = data[j * dim + i];
         }
         layernorm_1d<data_T, res_T, CONFIG_T>(in_val, outval, scale, bias);
-    store:
+    LAYERNORM_STORE:
         for (int i = 0; i < dim; ++i) {
 #pragma HLS UNROLL
  res[j * dim + i] = outval[i];

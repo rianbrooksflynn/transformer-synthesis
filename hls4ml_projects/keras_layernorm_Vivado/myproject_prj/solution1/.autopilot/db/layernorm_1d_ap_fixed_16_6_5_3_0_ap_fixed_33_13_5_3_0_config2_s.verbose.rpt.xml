@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'" level="0">
-<item name = "Date">Tue Oct 22 17:11:21 2024
+<item name = "Date">Tue Oct 22 18:34:24 2024
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -94,21 +94,21 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln109_1_fu_196_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln109_2_fu_202_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln109_3_fu_208_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln109_fu_214_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln116_1_fu_369_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln116_2_fu_375_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln116_3_fu_381_p2">+, 0, 0, 19, 19, 19</column>
-<column name="add_ln116_fu_387_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln111_1_fu_196_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln111_2_fu_202_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln111_3_fu_208_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln111_fu_214_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln119_1_fu_369_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln119_2_fu_375_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln119_3_fu_381_p2">+, 0, 0, 19, 19, 19</column>
+<column name="add_ln119_fu_387_p2">+, 0, 0, 19, 19, 19</column>
 <column name="add_ln64_fu_470_p2">+, 0, 0, 39, 32, 32</column>
 <column name="x_fu_416_p2">+, 0, 0, 26, 19, 4</column>
-<column name="sub_ln114_1_fu_250_p2">-, 0, 0, 26, 19, 19</column>
-<column name="sub_ln114_2_fu_256_p2">-, 0, 0, 26, 19, 19</column>
-<column name="sub_ln114_3_fu_262_p2">-, 0, 0, 26, 19, 19</column>
-<column name="sub_ln114_4_fu_268_p2">-, 0, 0, 26, 19, 19</column>
-<column name="sub_ln114_fu_244_p2">-, 0, 0, 26, 19, 19</column>
+<column name="sub_ln117_1_fu_250_p2">-, 0, 0, 26, 19, 19</column>
+<column name="sub_ln117_2_fu_256_p2">-, 0, 0, 26, 19, 19</column>
+<column name="sub_ln117_3_fu_262_p2">-, 0, 0, 26, 19, 19</column>
+<column name="sub_ln117_4_fu_268_p2">-, 0, 0, 26, 19, 19</column>
+<column name="sub_ln117_fu_244_p2">-, 0, 0, 26, 19, 19</column>
 <column name="sub_ln63_fu_554_p2">-, 0, 0, 39, 32, 32</column>
 <column name="sub_ln64_1_fu_504_p2">-, 0, 0, 39, 1, 32</column>
 <column name="sub_ln64_fu_484_p2">-, 0, 0, 39, 1, 32</column>
@@ -137,7 +137,7 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="add_ln116_reg_770">19, 0, 19, 0</column>
+<column name="add_ln119_reg_770">19, 0, 19, 0</column>
 <column name="ap_CS_fsm">6, 0, 6, 0</column>
 <column name="ap_return_0_preg">33, 0, 33, 0</column>
 <column name="ap_return_1_preg">33, 0, 33, 0</column>
@@ -151,11 +151,11 @@
 <column name="icmp_ln55_reg_779">1, 0, 1, 0</column>
 <column name="low_fu_76">32, 0, 32, 0</column>
 <column name="mid_reg_808">32, 0, 32, 0</column>
-<column name="sub_ln114_1_reg_746">19, 0, 19, 0</column>
-<column name="sub_ln114_2_reg_752">19, 0, 19, 0</column>
-<column name="sub_ln114_3_reg_758">19, 0, 19, 0</column>
-<column name="sub_ln114_4_reg_764">19, 0, 19, 0</column>
-<column name="sub_ln114_reg_740">19, 0, 19, 0</column>
+<column name="sub_ln117_1_reg_746">19, 0, 19, 0</column>
+<column name="sub_ln117_2_reg_752">19, 0, 19, 0</column>
+<column name="sub_ln117_3_reg_758">19, 0, 19, 0</column>
+<column name="sub_ln117_4_reg_764">19, 0, 19, 0</column>
+<column name="sub_ln117_reg_740">19, 0, 19, 0</column>
 </table>
 </item>
 </section>

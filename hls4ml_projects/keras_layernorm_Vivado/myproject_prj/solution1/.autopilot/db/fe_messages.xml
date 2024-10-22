@@ -785,28 +785,28 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:105:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernorm_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=data_diff complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:134:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:138:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=scale,bias" ARG_PragmaType="function_instantiate" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:136:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:140:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=scale complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:137:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:141:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=bias complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:138:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:142:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_val complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:139:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:143:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=outval complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:142:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:147:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:145:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:150:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:151:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:156:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="layernormalize" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/build_prj.tcl:183:9" msg_body="HLS pragma dump">
@@ -824,53 +824,53 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:16:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:118:11" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)'">
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:121:11" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)'">
         <args Callee="nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 70 Column 0" Caller="void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_layernorm.h Line 78 Column 0"/>
     </msg>
-    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:111:12" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)'">
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:113:12" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)'">
         <args Callee="nnet::product::mult&lt;ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 70 Column 0" Caller="void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_layernorm.h Line 78 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:141:20" msg_body="Loop 'VITIS_LOOP_141_1' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_141_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:146:5" msg_body="Loop 'LAYERNORM_SEQ_LOOP' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_SEQ_LOOP"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:144:9" msg_body="Loop 'load' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="load"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:149:9" msg_body="Loop 'LAYERNORM_LOAD' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_LOAD"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:150:9" msg_body="Loop 'store' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="store"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:155:9" msg_body="Loop 'LAYERNORM_STORE' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_STORE"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:121:23" msg_body="Loop 'VITIS_LOOP_121_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_121_3"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:125:5" msg_body="Loop 'LAYERNORM_1D_RESULT' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_1D_RESULT"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:113:23" msg_body="Loop 'VITIS_LOOP_113_2' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_113_2"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:116:5" msg_body="Loop 'LAYERNORM_1D_VAR' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_1D_VAR"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:108:23" msg_body="Loop 'VITIS_LOOP_108_1' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_108_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:110:5" msg_body="Loop 'LAYERNORM_1D_SUM' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="LAYERNORM_1D_SUM"/>
     </msg>
     <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:63:22" msg_body="Loop 'VITIS_LOOP_63_1' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="VITIS_LOOP_63_1"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:129:0" msg_body="Unrolling loop 'VITIS_LOOP_141_1' (firmware/nnet_utils/nnet_layernorm.h:141:20) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 4">
-        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:141:20" LoopName="VITIS_LOOP_141_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:133:0" msg_body="Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:146:5) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:146:5" LoopName="LAYERNORM_SEQ_LOOP"/>
     </msg>
-    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:129:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_141_1' (firmware/nnet_utils/nnet_layernorm.h:141:20) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' has been removed because the loop is unrolled completely">
-        <args LoopLoc="firmware/nnet_utils/nnet_layernorm.h:141:20" LoopName="VITIS_LOOP_141_1"/>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_layernorm.h:133:0" msg_body="Pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:146:5) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_layernorm.h:146:5" LoopName="LAYERNORM_SEQ_LOOP"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:129:0" msg_body="Unrolling loop 'store' (firmware/nnet_utils/nnet_layernorm.h:150:9) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
-        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:150:9" LoopName="store"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:133:0" msg_body="Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:155:9) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
+        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:155:9" LoopName="LAYERNORM_STORE"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:129:0" msg_body="Unrolling loop 'load' (firmware/nnet_utils/nnet_layernorm.h:144:9) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
-        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:144:9" LoopName="load"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:133:0" msg_body="Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:149:9) in function 'nnet::layernormalize&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
+        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:149:9" LoopName="LAYERNORM_LOAD"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'VITIS_LOOP_121_3' (firmware/nnet_utils/nnet_layernorm.h:121:23) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
-        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:121:23" LoopName="VITIS_LOOP_121_3"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:125:5) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
+        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:125:5" LoopName="LAYERNORM_1D_RESULT"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'VITIS_LOOP_113_2' (firmware/nnet_utils/nnet_layernorm.h:113:23) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
-        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:113:23" LoopName="VITIS_LOOP_113_2"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:116:5) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
+        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:116:5" LoopName="LAYERNORM_1D_VAR"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'VITIS_LOOP_108_1' (firmware/nnet_utils/nnet_layernorm.h:108:23) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
-        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:108:23" LoopName="VITIS_LOOP_108_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:110:5) in function 'nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;' completely with a factor of 5">
+        <args Factor="5" LoopLoc="firmware/nnet_utils/nnet_layernorm.h:110:5" LoopName="LAYERNORM_1D_SUM"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:78:0" msg_body="Inlining function 'void nnet::lookup_invert_sqr&lt;config2&gt;(config2::mean_t, config2::table_t&amp;, config2::table_t*, config2::table_t*)' into 'void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)'">
         <args Callee="void nnet::lookup_invert_sqr&lt;config2&gt;(config2::mean_t, config2::table_t&amp;, config2::table_t*, config2::table_t*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_layernorm.h Line 51 Column 0" Caller="void nnet::layernorm_1d&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::scale_t*, config2::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_layernorm.h Line 78 Column 0"/>
@@ -881,10 +881,10 @@
     <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/weights/s2.h:12:0" msg_body="Applying array_partition to 's2': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="s2"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:131:12" msg_body="Applying array_partition to 'in_val': Complete partitioning on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:135:12" msg_body="Applying array_partition to 'in_val': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="in_val"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:132:11" msg_body="Applying array_partition to 'outval': Complete partitioning on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_layernorm.h:136:11" msg_body="Applying array_partition to 'outval': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="outval"/>
     </msg>
     <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/myproject.cpp:10:0" msg_body="Applying array_partition to 'layer2_out': Complete partitioning on dimension 1.">
