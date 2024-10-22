@@ -33,11 +33,11 @@
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
                 <row id="0" col0="myproject" col1="myproject.cpp:7" col2="4397" col3="1005" col4="931" col5="882" col6="917">
-                    <row id="4" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:127" col2="4391" col3="999" col4="908" col5="858" col6="870">
-                        <row id="2" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:76" col2="4328" col3="860" col3_disp=" 860 (4 calls)" col4="812" col4_disp="812 (4 calls)" col5="788" col5_disp="788 (4 calls)" col6="800" col6_disp="800 (4 calls)">
-                            <row id="1" col0="init_invert_sqr_table&lt;config2, 1024&gt;" col1="nnet_layernorm.h:32" col2="827" col3="" col4="" col5="" col6=""/>
-                            <row id="5" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
-                            <row id="3" col0="lookup_invert_sqr&lt;config2&gt;" col1="nnet_layernorm.h:49" col2="258" col3="" col4="" col5="" col6=""/>
+                    <row id="1" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:131" col2="4391" col3="999" col4="908" col5="858" col6="870">
+                        <row id="4" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:76" col2="4328" col3="860" col3_disp=" 860 (4 calls)" col4="812" col4_disp="812 (4 calls)" col5="788" col5_disp="788 (4 calls)" col6="800" col6_disp="800 (4 calls)">
+                            <row id="6" col0="init_invert_sqr_table&lt;config2, 1024&gt;" col1="nnet_layernorm.h:32" col2="827" col3="" col4="" col5="" col6=""/>
+                            <row id="2" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="7" col0="lookup_invert_sqr&lt;config2&gt;" col1="nnet_layernorm.h:49" col2="258" col3="" col4="" col5="" col6=""/>
                         </row>
                     </row>
                 </row>

@@ -21,15 +21,15 @@
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<54, true>::operator-() const" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<11, false>::RType<12, true>::minus operator-<11, false, 12, true>(ap_int_base<11, false> const&, ap_int_base<12, true> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>::ap_fixed(double)" off="0" region="0" recursive="0"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="142" pragmaType="pipeline" parentfunction="layernormalize" off="0" ii="-1" rewind="0" style=""/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="145" pragmaType="unroll" parentfunction="layernormalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="151" pragmaType="unroll" parentfunction="layernormalize" factor="-1" skip_exit_check="0"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="134" pragmaType="function_instantiate" parentfunction="layernormalize" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="134" pragmaType="function_instantiate" parentfunction="layernormalize" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="136" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="137" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="138" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="in_val"/>
-<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="139" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="outval"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="147" pragmaType="pipeline" parentfunction="layernormalize" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="150" pragmaType="unroll" parentfunction="layernormalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="156" pragmaType="unroll" parentfunction="layernormalize" factor="-1" skip_exit_check="0"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="138" pragmaType="function_instantiate" parentfunction="layernormalize" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="138" pragmaType="function_instantiate" parentfunction="layernormalize" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="140" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="scale"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="141" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="bias"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="142" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="in_val"/>
+<pragma file="firmware/nnet_utils/nnet_layernorm.h" line="143" pragmaType="array_partition" parentfunction="layernormalize" dim="1" factor="0" mode="complete" dynamic="0" variable="outval"/>
 <pragma file="firmware/nnet_utils/nnet_layernorm.h" line="79" pragmaType="pipeline" parentfunction="layernorm_1d" off="0" ii="1" style=""/>
 <pragma file="firmware/nnet_utils/nnet_layernorm.h" line="80" pragmaType="array_partition" parentfunction="layernorm_1d" dim="1" factor="0" mode="complete" dynamic="0" variable="data"/>
 <pragma file="firmware/nnet_utils/nnet_layernorm.h" line="81" pragmaType="array_partition" parentfunction="layernorm_1d" dim="1" factor="0" mode="complete" dynamic="0" variable="res"/>
@@ -106,11 +106,11 @@
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::RType<54, true>::minus operator-<1, false, 54, true>(ap_int_base<1, false> const&, ap_int_base<54, true> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator+=<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<12, true>& ap_int_base<12, true>::operator=<13, true>(ap_int_base<13, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<66, 23, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<66, 23, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<66, 23, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<66, 23, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<65, 22, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<65, 22, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<12, true>& ap_int_base<12, true>::operator=<13, true>(ap_int_base<13, true> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<20, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<20, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<20, 7, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>& ap_fixed_base<19, 6, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<38, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<38, 12, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
-<pragma file="" line="0" pragmaType="inline" parentfunction="report" off="0" region="0" recursive="0"/>
 </pragmas>

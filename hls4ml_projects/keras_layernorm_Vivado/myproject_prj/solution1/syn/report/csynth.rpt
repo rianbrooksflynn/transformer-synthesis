@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'myproject'
 ================================================================
 + General Information: 
-    * Date:           Tue Oct 22 17:11:21 2024
+    * Date:           Tue Oct 22 18:34:24 2024
     * Version:        2023.2 (Build 4023990 on Oct 11 2023)
     * Project:        myproject_prj
     * Solution:       solution1 (Vivado IP Flow Target)
@@ -146,96 +146,96 @@
 | + myproject                                                                                                                                     | 48  |        |             |     |        |         |
 |  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_294) | 12  |        |             |     |        |         |
 |    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
-|    sub_ln114_fu_244_p2                                                                                                                          |     |        | sub_ln114   | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln115   | mul | auto   | 0       |
-|    sub_ln114_1_fu_250_p2                                                                                                                        |     |        | sub_ln114_1 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln115_1 | mul | auto   | 0       |
-|    sub_ln114_2_fu_256_p2                                                                                                                        |     |        | sub_ln114_2 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln115_2 | mul | auto   | 0       |
-|    sub_ln114_3_fu_262_p2                                                                                                                        |     |        | sub_ln114_3 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln115_3 | mul | auto   | 0       |
-|    sub_ln114_4_fu_268_p2                                                                                                                        |     |        | sub_ln114_4 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln115_4 | mul | auto   | 0       |
+|    sub_ln117_fu_244_p2                                                                                                                          |     |        | sub_ln117   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln118   | mul | auto   | 0       |
+|    sub_ln117_1_fu_250_p2                                                                                                                        |     |        | sub_ln117_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln118_1 | mul | auto   | 0       |
+|    sub_ln117_2_fu_256_p2                                                                                                                        |     |        | sub_ln117_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln118_2 | mul | auto   | 0       |
+|    sub_ln117_3_fu_262_p2                                                                                                                        |     |        | sub_ln117_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln118_3 | mul | auto   | 0       |
+|    sub_ln117_4_fu_268_p2                                                                                                                        |     |        | sub_ln117_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln118_4 | mul | auto   | 0       |
 |    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
 |    x_fu_416_p2                                                                                                                                  |     |        | x           | add | fabric | 0       |
 |    add_ln64_fu_470_p2                                                                                                                           |     |        | add_ln64    | add | fabric | 0       |
 |    sub_ln64_fu_484_p2                                                                                                                           |     |        | sub_ln64    | sub | fabric | 0       |
 |    sub_ln64_1_fu_504_p2                                                                                                                         |     |        | sub_ln64_1  | sub | fabric | 0       |
 |    sub_ln63_fu_554_p2                                                                                                                           |     |        | sub_ln63    | sub | fabric | 0       |
-|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln122   | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln122_1 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln122_2 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln122_3 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln122_4 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln126   | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln126_1 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln126_2 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln126_3 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln126_4 | mul | auto   | 0       |
 |  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_307) | 12  |        |             |     |        |         |
 |    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
-|    sub_ln114_fu_244_p2                                                                                                                          |     |        | sub_ln114   | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln115   | mul | auto   | 0       |
-|    sub_ln114_1_fu_250_p2                                                                                                                        |     |        | sub_ln114_1 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln115_1 | mul | auto   | 0       |
-|    sub_ln114_2_fu_256_p2                                                                                                                        |     |        | sub_ln114_2 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln115_2 | mul | auto   | 0       |
-|    sub_ln114_3_fu_262_p2                                                                                                                        |     |        | sub_ln114_3 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln115_3 | mul | auto   | 0       |
-|    sub_ln114_4_fu_268_p2                                                                                                                        |     |        | sub_ln114_4 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln115_4 | mul | auto   | 0       |
+|    sub_ln117_fu_244_p2                                                                                                                          |     |        | sub_ln117   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln118   | mul | auto   | 0       |
+|    sub_ln117_1_fu_250_p2                                                                                                                        |     |        | sub_ln117_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln118_1 | mul | auto   | 0       |
+|    sub_ln117_2_fu_256_p2                                                                                                                        |     |        | sub_ln117_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln118_2 | mul | auto   | 0       |
+|    sub_ln117_3_fu_262_p2                                                                                                                        |     |        | sub_ln117_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln118_3 | mul | auto   | 0       |
+|    sub_ln117_4_fu_268_p2                                                                                                                        |     |        | sub_ln117_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln118_4 | mul | auto   | 0       |
 |    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
 |    x_fu_416_p2                                                                                                                                  |     |        | x           | add | fabric | 0       |
 |    add_ln64_fu_470_p2                                                                                                                           |     |        | add_ln64    | add | fabric | 0       |
 |    sub_ln64_fu_484_p2                                                                                                                           |     |        | sub_ln64    | sub | fabric | 0       |
 |    sub_ln64_1_fu_504_p2                                                                                                                         |     |        | sub_ln64_1  | sub | fabric | 0       |
 |    sub_ln63_fu_554_p2                                                                                                                           |     |        | sub_ln63    | sub | fabric | 0       |
-|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln122   | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln122_1 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln122_2 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln122_3 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln122_4 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln126   | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln126_1 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln126_2 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln126_3 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln126_4 | mul | auto   | 0       |
 |  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_320) | 12  |        |             |     |        |         |
 |    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
-|    sub_ln114_fu_244_p2                                                                                                                          |     |        | sub_ln114   | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln115   | mul | auto   | 0       |
-|    sub_ln114_1_fu_250_p2                                                                                                                        |     |        | sub_ln114_1 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln115_1 | mul | auto   | 0       |
-|    sub_ln114_2_fu_256_p2                                                                                                                        |     |        | sub_ln114_2 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln115_2 | mul | auto   | 0       |
-|    sub_ln114_3_fu_262_p2                                                                                                                        |     |        | sub_ln114_3 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln115_3 | mul | auto   | 0       |
-|    sub_ln114_4_fu_268_p2                                                                                                                        |     |        | sub_ln114_4 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln115_4 | mul | auto   | 0       |
+|    sub_ln117_fu_244_p2                                                                                                                          |     |        | sub_ln117   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln118   | mul | auto   | 0       |
+|    sub_ln117_1_fu_250_p2                                                                                                                        |     |        | sub_ln117_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln118_1 | mul | auto   | 0       |
+|    sub_ln117_2_fu_256_p2                                                                                                                        |     |        | sub_ln117_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln118_2 | mul | auto   | 0       |
+|    sub_ln117_3_fu_262_p2                                                                                                                        |     |        | sub_ln117_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln118_3 | mul | auto   | 0       |
+|    sub_ln117_4_fu_268_p2                                                                                                                        |     |        | sub_ln117_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln118_4 | mul | auto   | 0       |
 |    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
 |    x_fu_416_p2                                                                                                                                  |     |        | x           | add | fabric | 0       |
 |    add_ln64_fu_470_p2                                                                                                                           |     |        | add_ln64    | add | fabric | 0       |
 |    sub_ln64_fu_484_p2                                                                                                                           |     |        | sub_ln64    | sub | fabric | 0       |
 |    sub_ln64_1_fu_504_p2                                                                                                                         |     |        | sub_ln64_1  | sub | fabric | 0       |
 |    sub_ln63_fu_554_p2                                                                                                                           |     |        | sub_ln63    | sub | fabric | 0       |
-|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln122   | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln122_1 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln122_2 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln122_3 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln122_4 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln126   | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln126_1 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln126_2 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln126_3 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln126_4 | mul | auto   | 0       |
 |  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_333) | 12  |        |             |     |        |         |
 |    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
-|    sub_ln114_fu_244_p2                                                                                                                          |     |        | sub_ln114   | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln115   | mul | auto   | 0       |
-|    sub_ln114_1_fu_250_p2                                                                                                                        |     |        | sub_ln114_1 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln115_1 | mul | auto   | 0       |
-|    sub_ln114_2_fu_256_p2                                                                                                                        |     |        | sub_ln114_2 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln115_2 | mul | auto   | 0       |
-|    sub_ln114_3_fu_262_p2                                                                                                                        |     |        | sub_ln114_3 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln115_3 | mul | auto   | 0       |
-|    sub_ln114_4_fu_268_p2                                                                                                                        |     |        | sub_ln114_4 | sub | fabric | 0       |
-|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln115_4 | mul | auto   | 0       |
+|    sub_ln117_fu_244_p2                                                                                                                          |     |        | sub_ln117   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln118   | mul | auto   | 0       |
+|    sub_ln117_1_fu_250_p2                                                                                                                        |     |        | sub_ln117_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln118_1 | mul | auto   | 0       |
+|    sub_ln117_2_fu_256_p2                                                                                                                        |     |        | sub_ln117_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln118_2 | mul | auto   | 0       |
+|    sub_ln117_3_fu_262_p2                                                                                                                        |     |        | sub_ln117_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln118_3 | mul | auto   | 0       |
+|    sub_ln117_4_fu_268_p2                                                                                                                        |     |        | sub_ln117_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln118_4 | mul | auto   | 0       |
 |    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
 |    x_fu_416_p2                                                                                                                                  |     |        | x           | add | fabric | 0       |
 |    add_ln64_fu_470_p2                                                                                                                           |     |        | add_ln64    | add | fabric | 0       |
 |    sub_ln64_fu_484_p2                                                                                                                           |     |        | sub_ln64    | sub | fabric | 0       |
 |    sub_ln64_1_fu_504_p2                                                                                                                         |     |        | sub_ln64_1  | sub | fabric | 0       |
 |    sub_ln63_fu_554_p2                                                                                                                           |     |        | sub_ln63    | sub | fabric | 0       |
-|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln122   | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln122_1 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln122_2 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln122_3 | mul | auto   | 0       |
-|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln122_4 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U8                                                                                                                       | 1   |        | mul_ln126   | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U9                                                                                                                       | 1   |        | mul_ln126_1 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U10                                                                                                                      | 1   |        | mul_ln126_2 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U11                                                                                                                      | 1   |        | mul_ln126_3 | mul | auto   | 0       |
+|    mul_25ns_19s_44_1_1_U12                                                                                                                      | 1   |        | mul_ln126_4 | mul | auto   | 0       |
 +-------------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+-------------+-----+--------+---------+
 
 
@@ -320,14 +320,14 @@
 | array_partition      | variable=data complete                                   | firmware/nnet_utils/nnet_layernorm.h:80 in layernorm_1d, data                                 |
 | array_partition      | variable=res complete                                    | firmware/nnet_utils/nnet_layernorm.h:81 in layernorm_1d, res                                  |
 | array_partition      | variable=data_diff complete                              | firmware/nnet_utils/nnet_layernorm.h:105 in layernorm_1d, data_diff                           |
-| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:134 in layernormalize, scale,bias                        |
-| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:136 in layernormalize, scale                             |
-| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:137 in layernormalize, bias                              |
-| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:138 in layernormalize, in_val                            |
-| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:139 in layernormalize, outval                            |
-| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:142 in layernormalize                                    |
-| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:145 in layernormalize                                    |
-| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:151 in layernormalize                                    |
+| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:138 in layernormalize, scale,bias                        |
+| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:140 in layernormalize, scale                             |
+| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:141 in layernormalize, bias                              |
+| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:142 in layernormalize, in_val                            |
+| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:143 in layernormalize, outval                            |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:147 in layernormalize                                    |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:150 in layernormalize                                    |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:156 in layernormalize                                    |
 | inline               |                                                          | firmware/nnet_utils/nnet_mult.h:25 in product                                                 |
 | inline               |                                                          | firmware/nnet_utils/nnet_mult.h:34 in product                                                 |
 | inline               |                                                          | firmware/nnet_utils/nnet_mult.h:46 in product                                                 |

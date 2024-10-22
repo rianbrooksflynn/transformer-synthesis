@@ -46,13 +46,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:109</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:111</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_63_1>
 <Name>VITIS_LOOP_63_1</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:64~firmware/nnet_utils/nnet_layernorm.h:119</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:64~firmware/nnet_utils/nnet_layernorm.h:122</SourceLocation>
 </VITIS_LOOP_63_1>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

@@ -37,7 +37,7 @@
 | Function                             | Location             | Compile/Link   | Unroll/Inline  | Array/Struct  | Performance   | HW Transforms |
 +--------------------------------------+----------------------+----------------+----------------+---------------+---------------+---------------+
 | + myproject                          | myproject.cpp:7      | 4,397          | 1,005          | 931           | 882           | 917           |
-|  + layernormalize<ap_fixed<16, ...   | nnet_layernorm.h:127 | 4,391          |  999           | 908           | 858           | 870           |
+|  + layernormalize<ap_fixed<16, ...   | nnet_layernorm.h:131 | 4,391          |  999           | 908           | 858           | 870           |
 |   + layernorm_1d<ap_fixed<16, 6,...  | nnet_layernorm.h:76  | 4,328          |  860 (4 calls) | 812 (4 calls) | 788 (4 calls) | 800 (4 calls) |
 |      init_invert_sqr_table<config... | nnet_layernorm.h:32  |  827           |                |               |               |               |
 |      product                         | nnet_mult.h:70       |  298 (2 calls) |                |               |               |               |
