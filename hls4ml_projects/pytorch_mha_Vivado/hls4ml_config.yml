@@ -36,7 +36,7 @@ HLSConfig:
     Strategy: Latency
     TransposeOutputs: false
 IOType: io_parallel
-InputData: /home/rian/A3D3/transformer-synthesis/pytorch_mha_data.dat
+InputData: /home/rian/A3D3/transformer-synthesis/data/pytorch_mha_data.dat
 InputShape:
 - !!python/tuple
   - 10
@@ -48,7 +48,7 @@ InputShape:
   - 10
   - 10
 OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_mha_Vivado
-OutputPredictions: /home/rian/A3D3/transformer-synthesis/pytorch_mha_predictions.dat
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/pytorch_mha_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
 PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
@@ -133,15 +133,15 @@ PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
                           gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                           AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                           aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                          Z2UKcQFYCQAAADI0OTI5MDM2OHECWAMAAABjcHVxA0tkTnRxBFEugAJdcQBYCQAAADI0OTI5MDM2
-                          OHEBYS5kAAAAAAAAAFhJJLwtyIg9HMAjvsEhgL3/2we6a/eEvgWe/D1+lDg8T/YfPblb5z0tgSU+
-                          xlsKvoEhQj5S0zM+idqBPUfrE77omKA+zdcavpFJfz6YJHU+N/hPPjbXh773QDY++3P8PXi6Sj18
-                          gzO9uvpPPjIIi77K0JE++R9dvbP65j2hwEQ+Fl+Hu7wgIjw4m5i+aFcUvkcNjL5abfQ9+CeMvhk8
-                          nD53epA+r7ZSvTyzszupFOw9rweIPhRPoTyKSZo+kXuUvTUFDDwKxI29yFY6vgtVkr6hxS2+iWMm
-                          vmbjOT5uLtU9v1IWPrd7hT4AQYq8bd6EPhWT4b2a5UE+c9ZsPsf2lD6NIIQ99wpnvbyXVz63Yws+
-                          ZcEOPmp7Fb6lx5K+v7D0PenI372plZQ+lMI8PuKm9z0vVjg+R962vXaBmD66EOw9sPhtveI0d75J
-                          D+w9iXKePUWPh76wsoO+osx0vWDVOb543aa8/fidvjXaUT4m5Ca+hPYCvtnMbb7xzy6+6DgSPqpL
-                          fj4O9Hm+0vdEve0nuL0=
+                          Z2UKcQFYCQAAADI1Mjg1MjMzNnECWAMAAABjcHVxA0tkTnRxBFEugAJdcQBYCQAAADI1Mjg1MjMz
+                          NnEBYS5kAAAAAAAAAGRhn74JDQa7SqYjPtJQVb171wY+kcAgPnjZaD5h0n4+myh7vsxu3j2EPTm7
+                          glxAPtS6Zz3SWAk+ONqrvbamYD6z9IG+VT5CviWOBL6TugS+R7VoPWy/Lz08z7K8s8qBvj9JET4B
+                          +TC8xP/hO6bBCj5ffjQ9YtmgvtbJ5b1KQhe9LSuVPjv4Bj27pqE9WXHuvRK7fb4Q4qS9UgmPvguT
+                          Bb6NRjs+q/MyPogaTz5+ota91jF1viQUGb5J1GE8pripvfon4L1I7Xi+5AreO+Egl74vJtE8yFah
+                          vuGLT74OMAy6sMoivucfjb4Np0A+meSQvqCoP74bGmc9CsI6vjVUlr4r9Gg9JOiEPgv0j77kLoS+
+                          lVaePjbXlD5tozq+bJ7dvB7xYL2GwV2+rEQpvqQXHr6//WI+NlYEPmOnfT662SW+0HKCPpwzoT4u
+                          0x++hLG9PJsheT0U2Rw+cawhvak3k75z84a+zt6TPl8DEzzl0M+94uGnvcF8LrzdnZK+et5QPXec
+                          pj30ND8+KeNRPtrnpDw=
                       - 0
                       - !!python/tuple
                         - 10
@@ -163,8 +163,8 @@ PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
                           gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                           AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                           aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                          Z2UKcQFYCQAAADI0ODQyMjc2OHECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI0ODQyMjc2
-                          OHEBYS4KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+                          Z2UKcQFYCQAAADI1Mjk5NTkzNnECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI1Mjk5NTkz
+                          NnEBYS4KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
                       - 0
                       - !!python/tuple
                         - 10
@@ -193,29 +193,29 @@ PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
                     gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                     AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                     aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                    Z2UKcQFYCQAAADI0NzY2NDU2MHECWAMAAABjcHVxA00sAU50cQRRLoACXXEAWAkAAAAyNDc2NjQ1
-                    NjBxAWEuLAEAAAAAAAA+MS49Hi3GPto6kb4hl+O9ON9EPmLaPb5DtcU+8P+1PljpD76JAVI+rp+C
-                    vj5l0r0vy7I+voS7viI/i70YRxY+kOKIPF/X+r1CmOY9A7fHPTOtLj4BSJO9mZLCvjIaDr78mJA+
-                    GkaWPl1MWb49Bz49fM4lPmgDYr5NX8Q9AVJzPrsJhL5o/Js+U3+kvmLQcD63Lqy+eDZtvhAMBr4e
-                    QbO9bdgQPTm0Bj3tw5c+sYwavgNGa74lbgk+RF2nvG6Wmr5QLSE+TXS8PdXSmT5HaIm8TfUAPnjl
-                    fL7wche+6iJ6vnFsdz6Bukg+f1CSvPIorr4IQLg+o4TGPTSboD5qxQe96YSCPof+oT7XnRS+LbEe
-                    vuVKpj6icly+KvCvPq5qeD2VKsq9aTUYPTGUjT61Uus8XQGXPhwwJ75DIA+9R/VLvjVPvL4/Cnm9
-                    eFFyPoJvhb6wg/89/dvtPULOaz4FjKg+84mbvGPbnbz3Q5a+8nO9vn+ghz0gpZg+N9S3Pqc2vT6O
-                    eto9KlV/Ptmhr77jcxY+qnKhvWukGD61bu88zTGivv8QsL6I4oA+JuuEPkvwnr5l9jK+IxOFPrSl
-                    E72tjaa7PXuKPmJq9z0rPxO8I4SDvbkpZ760no2+uHGEPT2ker7z1Cm9sIVRPpyhwL0E5gy+fmSE
-                    vu3ZhL0tZqc9skudPrzcsjxTEhu+qJWwvahNqD7GkiS+NJTePOcpHD03O5e8Qj+mPrk5C77Lio+9
-                    3V+tvi91573OZIC+/aW3PriBMrzTvYq901lFPoFrEb11jYy+FJXCvTg7u77WoOk8BLkavrDGXj4M
-                    mWc+rR6nPjoBAD6cf2U9MaeTvuhLD75Cpp++A6KXvtC5gL0mHQ4+FP9RPibDWryYr3g+QrgHPmns
-                    EL65nqg93PSvvnrrrz7+5aO9hrQUPvJLIb6RQxc+geKpvIvFdD71fpa+g7gePpRDjL4xGZc+1ymU
-                    PsoeirxWQLe+fMm8PqHDq75C0hY+EJqfvSmvvD7pxm49W4Epvvi5Fz4J49a92XJvPrHlkDyzIx2+
-                    +Xf/PVl23D0OaGo+h6dgPnJrgj5mVZi+3W1nPt+1KT59/EU+gI2zPnn/Yb6Daou8De+IvuBe4z2p
-                    Slo+K4lNvkfen72yLsS+JEMfPlCWv75+kTu9QxQ+vVLhpb5Rf6S+hHETvHvzU76T4ps+HF7DvuUe
-                    eT5DnPq8KrVcvjSAcz7FOzw+64K7vpNPrT54P2Y+PWJUPomiNj6hGC++1dUrPXi0b71LWqm++Txr
-                    vSiZKD20XHC9FyuivmBrFb2aOw4+wE+3vtJotz5vA5Y+tYiqPZf0mL20NIc+BpGXvlQluT67K6e+
-                    1KiGvlBTkj632/E9hgwBvtmJBr7F0oC+HQBTvi0jv75gkmw9EsbDPm6Cpj7i+bk+IeMOPniSjj5k
-                    8aM8XtZRPsoV0Lyu1zw+/Geqvjho2LyAtds9sNFEvmFbvj7p+zK9ZcMWPl2oiD7jGFi+NB0Yvgmh
-                    lD548m6+VlXoPbRGLD5YnaK+ZpCSPtktDb59bKa+QepvvinKZz5zzgC+IF5MvljVx71Zxbo+NyPU
-                    vRJonbxAf0a+SIgWvf13jT4=
+                    Z2UKcQFYCQAAADI1MjQzNzE4NHECWAMAAABjcHVxA00sAU50cQRRLoACXXEAWAkAAAAyNTI0Mzcx
+                    ODRxAWEuLAEAAAAAAAAqA6y+9lSWPqyBBL2wgL0+BUpMvjJetT3D2Im9s2QZPtNWTr4S/a2+mxJn
+                    vvwvpr70ZJw+BMunvQunvD4wG7O+H6aMPjOPWr4kSZm9rY6yPvUCLj4bXyq+KsYwPp1PpzwLFsA+
+                    HYljviCl9b3mkrw+HdaHvXjiRj4enVe+2b8TPQXNrr7ZcYy94uWJPjHWtb7Kvny9WErovednRr6n
+                    xo49I96EPk5Hlz74/x6+l4R9vt6y+T0nm3s+oEiAPtMDmD7ZQpw+sOGzvo+QYz5ZpkQ+P70Wvous
+                    aT4D+3A9e22aPVYKoT1HbAu+3ZCTPezcnr5XtKW+Xg8YPjvXb75yLLY+MJfEPrBB8LwJ8r++x7o5
+                    vaRJhL7BNYs+83ayvu1qEj0GynG+VJwUvjRfvr1kCPU7XAIqvpo5R74q0q68F2ycvjSfr75HGaG+
+                    6wegvqOgCL5RGDu+XTeovmHtvr6Vfas+PT0gPsEDEL0awjG9C2GRPgnExL6ou0M+pcFXPj78Bb78
+                    KMA+pkPIvDUotT5KPJ4+brKuvsjlKL5Moo2+TWtzvm1lBb6gUKM+8RVSPlQSaj4tmA6+C/GIPjzz
+                    J760KbE8yL05PR/sFj7qToM+3t8Pvn8GG75S7SI+oigFPsVIVr7tn4w+fUaQvUVTnj5dD8U+EhUQ
+                    vkJRqL6z9JA+45k9vqDdbb64e4++F3KWvoaapb38H247tbCWvqnIlr4qcEI+XaMxvgBRKz6SD1O+
+                    WTqHvXxmvT4jr50+9fc2Pvuxsr5dMOY9qgQuPjUwlz4YHpO+JG96PsS7Sb03GpM+xjRqPtnQWr3G
+                    xYU+svwjPhXYdr7E5x8+ibTivfTLq7zpqtg9eeuZvm3flT65YsA9Od88vo9GTL5LbqK+bc+mPtqY
+                    sD3Bh64986Nhvguxtb4MQyA+7/A9Ptt7Qr4pLkE+qxutvjn/qj5aSrc+7kFcvt70m71AJJM9Nd6K
+                    vvgIx7sjgFu+zPnEPhidqj6HnXy7YXvEPn4lGL4V9q08nj+yPp2xkL49vJc+NCW/vuIRdj1qaxu+
+                    ukS8vicNSz3pCQ++OM8Tvmrfsr4pYR2+jKfCvdF5Nb4vsZk+9y2Ovp6Sl76zzsq9ODajPvR2nD0R
+                    3i++MPFxvgr+lj5AgTu+k8mIPsiwUz6O7oU+jddOPqCi3T2QOSe+ulCyvZaiwr7M2a8+jkmxvHX3
+                    nD743a4+y5v4PUByt72g4a6+K2Ccvg1/JT0i+N88YU8MPo4Yej4jQcC+UX+XPl3iWD00YXu9N+ST
+                    PtZFsz52GKu+vAeAPty23L1K/rk9mhgGvtlZir6JhRy+sZqaPk22yr3THTM+tdiWvveRtD4UOJS+
+                    c9x4PhwDwj4hoAa+Gk64vkaMhD73fN68xl3FvvV0Vr4gWyS9z5v2vUO9mj05TG4+RKB3vVm1D76R
+                    BhE+IHSSvSs8cz49nKQ+ihwevqT3gTvww7Q+sL6UPJloBT5E/he9bHmLu8pvPz6khyo+4aRMPbHC
+                    Xj574bg+2qyuPnt4hD5E0Jy+4pekvnKKgT5A8Jy9C/snvntoLr38RbI+JOEkvi6HCj5YClG+IV+h
+                    Pq3u/r05qSO+dFtnPbfoLD0=
                 - 0
                 - !!python/tuple
                   - 30
@@ -243,8 +243,8 @@ PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
                     gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                     AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                     aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                    Z2UKcQFYCQAAADI0ODUwNzYxNnECWAMAAABjcHVxA0seTnRxBFEugAJdcQBYCQAAADI0ODUwNzYx
-                    NnEBYS4eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    Z2UKcQFYCQAAADI1MTk1MjcwNHECWAMAAABjcHVxA0seTnRxBFEugAJdcQBYCQAAADI1MTk1Mjcw
+                    NHEBYS4eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                     AAAAAAAAAAAAAAAAAAAAAAAAAA==
                 - 0
@@ -282,7 +282,7 @@ PytorchModel: !!python/object:__main__.MultiHeadAttentionModel
   _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
   - []
   training: false
-Stamp: 8aBdB8fB
+Stamp: Df5A84Cb
 Version: 1.0.0
 WriterConfig:
   Namespace: null

@@ -4,7 +4,7 @@ from contextlib import redirect_stdout
 
 import hls4ml
 
-file_path = Path(__file__).parent
+file_path = Path(__file__).parent / 'reports'
 
 
 def print_report(report_dir, save_path):

@@ -22,12 +22,12 @@ key_dim = 5
 embed_dim = num_heads * key_dim
 
 layernorm_data = np.random.randn(batch_size, *layernorm_in_shape)
-layernorm_data_file = str(file_path / 'layernorm_data.dat')
+layernorm_data_file = str(file_path / 'data' / 'layernorm_data.dat')
 
 mha_q_data = np.random.randn(batch_size, seq_len, embed_dim)
 mha_kv_data = np.random.randn(batch_size, seq_len, embed_dim)
-keras_mha_data_file = str(file_path / 'keras_mha_data.dat')
-pytorch_mha_data_file = str(file_path / 'pytorch_mha_data.dat')
+keras_mha_data_file = str(file_path / 'data' / 'keras_mha_data.dat')
+pytorch_mha_data_file = str(file_path / 'data' / 'pytorch_mha_data.dat')
 
 def save_data(data, file_path):
     data = data.reshape(data.shape[0], -1)
@@ -55,7 +55,7 @@ def keras_layernorm():
     model.compile()
 
     predictions = model.predict(layernorm_data)
-    out_file = str(file_path / 'keras_layernorm_predictions.dat')
+    out_file = str(file_path / 'data' / 'keras_layernorm_predictions.dat')
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
@@ -69,7 +69,7 @@ def pytorch_layernorm():
     model.eval()
 
     predictions = model(torch.Tensor(layernorm_data)).detach().numpy()
-    out_file = str(file_path / 'pytorch_layernorm_predictions.dat')
+    out_file = str(file_path / 'data' / 'pytorch_layernorm_predictions.dat')
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_pytorch_model(model, layernorm_in_shape, granularity='name', backend='Vivado')
@@ -86,7 +86,7 @@ def keras_mha():
     model.compile()
 
     predictions = model.predict([mha_q_data, mha_kv_data])
-    out_file = str(file_path / 'keras_mha_predictions.dat')
+    out_file = str(file_path / 'data' / 'keras_mha_predictions.dat')
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
@@ -109,7 +109,7 @@ def pytorch_mha():
     model.eval()
 
     predictions = model(torch.Tensor(mha_q_data), torch.Tensor(mha_kv_data), torch.Tensor(mha_kv_data)).detach().numpy()
-    out_file = str(file_path / 'pytorch_mha_predictions.dat')
+    out_file = str(file_path / 'data' / 'pytorch_mha_predictions.dat')
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_pytorch_model(

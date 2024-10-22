@@ -20,12 +20,12 @@ HLSConfig:
     Strategy: Latency
     TransposeOutputs: true
 IOType: io_parallel
-InputData: /home/rian/A3D3/transformer-synthesis/layernorm_data.dat
+InputData: /home/rian/A3D3/transformer-synthesis/data/layernorm_data.dat
 InputShape: !!python/tuple
 - 10
 - 10
 OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado
-OutputPredictions: /home/rian/A3D3/transformer-synthesis/pytorch_layernorm_predictions.dat
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/pytorch_layernorm_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
 PytorchModel: !!python/object:torch.nn.modules.container.Sequential
@@ -86,7 +86,7 @@ PytorchModel: !!python/object:torch.nn.modules.container.Sequential
                     gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                     AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                     aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                    Z2UKcQFYCQAAADI0MzcyNzYzMnECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI0MzcyNzYz
+                    Z2UKcQFYCQAAADI0ODA5MDU5MnECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI0ODA5MDU5
                     MnEBYS4KAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8=
                 - 0
                 - !!python/tuple
@@ -107,7 +107,7 @@ PytorchModel: !!python/object:torch.nn.modules.container.Sequential
                     gAKKCmz8nEb5IGqoUBkugAJN6QMugAJ9cQAoWBAAAABwcm90b2NvbF92ZXJzaW9ucQFN6QNYDQAA
                     AGxpdHRsZV9lbmRpYW5xAohYCgAAAHR5cGVfc2l6ZXNxA31xBChYBQAAAHNob3J0cQVLAlgDAAAA
                     aW50cQZLBFgEAAAAbG9uZ3EHSwR1dS6AAihYBwAAAHN0b3JhZ2VxAGN0b3JjaApGbG9hdFN0b3Jh
-                    Z2UKcQFYCQAAADI0NTcyMDc1MnECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI0NTcyMDc1
+                    Z2UKcQFYCQAAADI0ODA4NDU5MnECWAMAAABjcHVxA0sKTnRxBFEugAJdcQBYCQAAADI0ODA4NDU5
                     MnEBYS4KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
                 - 0
                 - !!python/tuple
@@ -137,7 +137,7 @@ PytorchModel: !!python/object:torch.nn.modules.container.Sequential
   _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
   - []
   training: false
-Stamp: 3fBB6aEC
+Stamp: 3CB792d1
 Version: 1.0.0
 WriterConfig:
   Namespace: null
