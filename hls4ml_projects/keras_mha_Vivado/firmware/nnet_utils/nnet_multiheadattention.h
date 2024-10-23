@@ -285,41 +285,41 @@ void multiheadattention(
     #pragma HLS ARRAY_PARTITION variable=matr_out complete dim=1
 
     std::cout << "START PREP DATA" << std::endl;
-prepq:
-    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
-        #pragma HLS UNROLL
-        nnet::data_prep<data_T, res_T, CONFIG_T>(data_q, d_query[i]);
-    }
-    std::cout << "PREP QUERY DONE" << std::endl;
-prepvk:
-    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
-        #pragma HLS UNROLL
-        nnet::data_prep<data_T, res_T, CONFIG_T>(data_vk, d_value[i]);
-    }
-    std::cout << "PREP KEY VALUE DONE" << std::endl;
-lin_proj:
-    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
-        #pragma HLS UNROLL
-        nnet::lin_projection<data_T, res_T, CONFIG_T>(
-            d_query[i], d_value[i], k_proj[i], q_proj[i], v_proj[i],
-            key_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), key_bias + (CONFIG_T::head_dim_key * i),
-            query_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), query_bias + (CONFIG_T::head_dim_key * i),
-            value_weight + (CONFIG_T::head_dim_value * CONFIG_T::feature_dim * i),
-            value_bias + (CONFIG_T::head_dim_value * i));
-    }
-    std::cout << "LINEAR PROJECTION DONE" << std::endl;
-maxtrixmul1:
-    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
-        #pragma HLS UNROLL
-        nnet::matrixmul_transpose<res_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
-    }
-    std::cout << "MATRIX MULTIPLICATION 1 DONE" << std::endl;
-maxtrixmul2:
-    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
-        #pragma HLS UNROLL
-        nnet::matrixmul<res_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]); // stream
-    }
-    std::cout << "MATRIX MULTIPLICATION 2 DONE" << std::endl;
+// prepq:
+//     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
+//         #pragma HLS UNROLL
+//         nnet::data_prep<data_T, res_T, CONFIG_T>(data_q, d_query[i]);
+//     }
+//     std::cout << "PREP QUERY DONE" << std::endl;
+// prepvk:
+//     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
+//         #pragma HLS UNROLL
+//         nnet::data_prep<data_T, res_T, CONFIG_T>(data_vk, d_value[i]);
+//     }
+//     std::cout << "PREP KEY VALUE DONE" << std::endl;
+// lin_proj:
+//     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
+//         #pragma HLS UNROLL
+//         nnet::lin_projection<data_T, res_T, CONFIG_T>(
+//             d_query[i], d_value[i], k_proj[i], q_proj[i], v_proj[i],
+//             key_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), key_bias + (CONFIG_T::head_dim_key * i),
+//             query_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), query_bias + (CONFIG_T::head_dim_key * i),
+//             value_weight + (CONFIG_T::head_dim_value * CONFIG_T::feature_dim * i),
+//             value_bias + (CONFIG_T::head_dim_value * i));
+//     }
+//     std::cout << "LINEAR PROJECTION DONE" << std::endl;
+// maxtrixmul1:
+//     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
+//         #pragma HLS UNROLL
+//         nnet::matrixmul_transpose<res_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
+//     }
+//     std::cout << "MATRIX MULTIPLICATION 1 DONE" << std::endl;
+// maxtrixmul2:
+//     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
+//         #pragma HLS UNROLL
+//         nnet::matrixmul<res_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]); // stream
+//     }
+//     std::cout << "MATRIX MULTIPLICATION 2 DONE" << std::endl;
 
     nnet::dense_out<res_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
     std::cout << "DENSE OUTPUT DONE" << std::endl;
