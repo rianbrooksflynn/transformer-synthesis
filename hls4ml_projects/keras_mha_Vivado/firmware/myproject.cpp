@@ -53,8 +53,8 @@ void myproject(
     std::cout << "HEAD DIM VALUE: " << config3::head_dim_value << std::endl;
     std::cout << "FEATURE DIM: " << config3::feature_dim << std::endl;
     std::cout << "SEQ LEN: " << config3::seq_len << std::endl;
-    nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
-                            layer3_out, attention_output_weight3, attention_output_bias3, key_weight3, key_bias3, query_weight3, query_bias3, value_weight3, value_bias3); // multi_head_attention
+    // nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
+                            // layer3_out, attention_output_weight3, attention_output_bias3, key_weight3, key_bias3, query_weight3, query_bias3, value_weight3, value_bias3); // multi_head_attention
 
 }
 
