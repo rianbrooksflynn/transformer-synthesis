@@ -33,13 +33,13 @@ HLSConfig:
     Strategy: Latency
     TraceOutput: false
 IOType: io_parallel
-InputData: /home/rian/A3D3/transformer-synthesis/data/keras_mha_data.dat
+InputData: null
 KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/keras_model.keras'
 OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado
-OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_mha_predictions.dat
+OutputPredictions: null
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: b3703e66
+Stamp: D7a4cbF2
 Version: 1.0.0
 WriterConfig:
   Namespace: null
