@@ -20,8 +20,8 @@ struct multiheadattention_config {
 
     // Layer Sizes
     static const unsigned num_heads = 10;
-    static const unsigned head_dim_key = 10;
-    static const unsigned head_dim_value = 10;
+    static const unsigned head_dim_key = 2;
+    static const unsigned head_dim_value = 2;
     static const unsigned feature_dim = 20;
     static const unsigned seq_len = 500;
 
