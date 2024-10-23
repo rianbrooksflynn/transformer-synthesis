@@ -25,7 +25,6 @@
 struct config4_1 : nnet::dense_config {
     static const unsigned n_in = 20;
     static const unsigned n_out = 2;
-    static const unsigned seq_len = 1;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
@@ -35,6 +34,8 @@ struct config4_1 : nnet::dense_config {
     typedef mha_attention_output_bias_t bias_t;
     typedef mha_attention_output_weight_t weight_t;
     typedef ap_uint<1> index_t;
+    template<class data_T, class res_T, class CONFIG_T>
+    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
@@ -42,7 +43,6 @@ struct config4_1 : nnet::dense_config {
 struct config4_2 : nnet::dense_config {
     static const unsigned n_in = 20;
     static const unsigned n_out = 20;
-    static const unsigned seq_len = 1;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
@@ -52,6 +52,8 @@ struct config4_2 : nnet::dense_config {
     typedef mha_attention_output_bias_t bias_t;
     typedef mha_attention_output_weight_t weight_t;
     typedef ap_uint<1> index_t;
+    template<class data_T, class res_T, class CONFIG_T>
+    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
