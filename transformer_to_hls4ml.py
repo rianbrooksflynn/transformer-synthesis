@@ -85,9 +85,9 @@ def keras_mha():
     model = tf.keras.Model(inputs=[query_input, key_value_input], outputs=mha_layer)
     model.compile()
 
-    predictions = model.predict([mha_q_data, mha_kv_data])
-    out_file = str(file_path / 'data' / 'keras_mha_predictions.dat')
-    save_data(predictions, out_file)
+    # predictions = model.predict([mha_q_data, mha_kv_data])
+    # out_file = str(file_path / 'data' / 'keras_mha_predictions.dat')
+    # save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
     output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado')
@@ -128,7 +128,7 @@ def pytorch_mha():
 
 if __name__ == "__main__":
     # save_layernorm_data()
-    save_mha_data()
+    # save_mha_data()
     # keras_layernorm()
     # pytorch_layernorm()
     keras_mha()
