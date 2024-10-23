@@ -12,7 +12,7 @@ import hls4ml
 
 file_path = Path(__file__).parent
 
-batch_size = 10
+batch_size = 1
 
 layernorm_in_shape = (4, 5)
 
@@ -32,7 +32,7 @@ pytorch_mha_data_file = str(file_path / 'data' / 'pytorch_mha_data.dat')
 def save_data(data, file_path):
     data = data.reshape(data.shape[0], -1)
     print(data.shape)
-    with open(file_path, 'a') as f:
+    with open(file_path, 'w') as f:
         for i in range(data.shape[0]):
             for j in range(data.shape[1]):
                 f.write(str(data[i][j]) + " ")
@@ -44,10 +44,10 @@ def save_layernorm_data():
 
 
 def save_mha_data():
-    save_data(mha_q_data, keras_mha_data_file)
-    save_data(mha_kv_data, keras_mha_data_file)
-    copyfile(keras_mha_data_file, pytorch_mha_data_file)
-    save_data(mha_kv_data, pytorch_mha_data_file)
+    keras_mha_data = np.concatenate([mha_q_data, mha_kv_data], axis=1)
+    save_data(keras_mha_data, keras_mha_data_file)
+    pytorch_mha_data = np.concatenate([mha_q_data, mha_kv_data, mha_kv_data], axis=1)
+    save_data(pytorch_mha_data, pytorch_mha_data_file)
 
 
 def keras_layernorm():

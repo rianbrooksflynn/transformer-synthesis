@@ -10,8 +10,8 @@ fi
 LDFLAGS=
 INCFLAGS="-Ifirmware/ap_types/"
 PROJECT=myproject
-LIB_STAMP=9eFd04Fb
-WEIGHTS_DIR="\"weights\""
+LIB_STAMP=96C224dE
+WEIGHTS_DIR="\"firmware/weights\""
 
 ${CC} ${CFLAGS} ${INCFLAGS} -D WEIGHTS_DIR=${WEIGHTS_DIR} -c firmware/${PROJECT}.cpp -o ${PROJECT}.o
 ${CC} ${CFLAGS} ${INCFLAGS} -D WEIGHTS_DIR=${WEIGHTS_DIR} -c ${PROJECT}_test.cpp -o ${PROJECT}_test.o
