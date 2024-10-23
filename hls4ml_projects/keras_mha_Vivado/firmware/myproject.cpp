@@ -35,8 +35,18 @@ void myproject(
     // ****************************************
 
     // hls-fpga-machine-learning insert layers
-
     std::cout << "PRE MULTIHEAD ATTENTION" << std::endl;
+    std::cout << "INPUT 1 SIZE: " << sizeof(input_1) / sizeof(*input_1) << std::endl;
+    std::cout << "INPUT 2 SIZE: " << sizeof(input_2) / sizeof(*input_2) << std::endl;
+    std::cout << "LAYER 3 OUT SIZE: " << sizeof(layer3_out) / sizeof(*layer3_out) << std::endl;
+    std::cout << "ATTENTION OUTPUT WEIGHT SIZE: " << sizeof(attention_output_weight3) / sizeof(*attention_output_weight3) << std::endl;
+    std::cout << "ATTENTION OUTPUT BIAS SIZE: " << sizeof(attention_output_bias3) / sizeof(*attention_output_bias3) << std::endl;
+    std::cout << "KEY WEIGHT SIZE: " << sizeof(key_weight3) / sizeof(*key_weight3) << std::endl;
+    std::cout << "KEY BIAS SIZE: " << sizeof(key_bias3) / sizeof(*key_bias3) << std::endl;
+    std::cout << "QUERY WEIGHT SIZE: " << sizeof(query_weight3) / sizeof(*query_weight3) << std::endl;
+    std::cout << "QUERY BIAS SIZE: " << sizeof(query_bias3) / sizeof(*query_bias3) << std::endl;
+    std::cout << "VALUE WEIGHT SIZE: " << sizeof(value_weight3) / sizeof(*value_weight3) << std::endl;
+    std::cout << "VALUE BIAS SIZE: " << sizeof(value_bias3) / sizeof(*value_bias3) << std::endl;
     nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
                             layer3_out, attention_output_weight3, attention_output_bias3, key_weight3, key_bias3, query_weight3, query_bias3, value_weight3, value_bias3); // multi_head_attention
 
