@@ -267,7 +267,6 @@ void multiheadattention(
     typename CONFIG_T::bias_t query_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_key],
     typename CONFIG_T::weight_t value_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_value],
     typename CONFIG_T::bias_t value_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_value]) {
-    std::cout << "CHECKPOINT 0: start" << std::endl;
     hls::stream<data_T> d_value[CONFIG_T::num_heads][CONFIG_T::feature_dim];
     hls::stream<data_T> d_query[CONFIG_T::num_heads][CONFIG_T::feature_dim];
     hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> q_proj[CONFIG_T::num_heads];
@@ -284,21 +283,16 @@ void multiheadattention(
     #pragma HLS ARRAY_PARTITION variable=qk_mul complete dim=1
     #pragma HLS ARRAY_PARTITION variable=matr_out complete dim=1
 
-    std::cout << "CHECKPOINT 1: datapack complete" << std::endl;
-
 prepq:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::data_prep<data_T, res_T, CONFIG_T>(data_q, d_query[i]);
     }
-    std::cout << "CHECKPOINT 2: prepq complete" << std::endl;
-
 prepvk:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::data_prep<data_T, res_T, CONFIG_T>(data_vk, d_value[i]);
     }
-    std::cout << "CHECKPOINT 3: prepvk complete" << std::endl;
 
 lin_proj:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
@@ -310,24 +304,20 @@ lin_proj:
             value_weight + (CONFIG_T::head_dim_value * CONFIG_T::feature_dim * i),
             value_bias + (CONFIG_T::head_dim_value * i));
     }
-    std::cout << "CHECKPOINT 4: lin_proj complete" << std::endl;
 
 maxtrixmul1:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::matrixmul_transpose<res_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
     }
-    std::cout << "CHECKPOINT 5: maxtrixmul1 complete" << std::endl;
 
 maxtrixmul2:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::matrixmul<res_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]); // stream
     }
-    std::cout << "CHECKPOINT 6: maxtrixmul2 complete" << std::endl;
 
     nnet::dense_out<res_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
-    std::cout << "CHECKPOINT 7: dense_out complete" << std::endl;
 }
 } // namespace nnet
 
