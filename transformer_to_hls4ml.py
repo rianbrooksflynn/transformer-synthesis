@@ -91,7 +91,8 @@ def keras_mha():
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
     output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado')
-    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
+    # hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
+    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir)
     hls_model.compile()
 
 
@@ -126,9 +127,9 @@ def pytorch_mha():
 
 
 if __name__ == "__main__":
-    save_layernorm_data()
+    # save_layernorm_data()
     save_mha_data()
-    keras_layernorm()
-    pytorch_layernorm()
+    # keras_layernorm()
+    # pytorch_layernorm()
     keras_mha()
-    pytorch_mha()
+    # pytorch_mha()
