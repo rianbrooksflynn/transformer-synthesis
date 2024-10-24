@@ -123,7 +123,7 @@ void matrixmul(data_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len], hls::stream<data
     // CONFIG_T::template product<data_T, typename CONFIG_T::weight_t>::limit(multiplier_limit);
 
     data_T dataV[CONFIG_T::seq_len * CONFIG_T::head_dim_value];
-    #pragma HLS ARRAY_PARTITION variable = dataV complete dim = 1
+    #pragma HLS ARRAY_PARTITION variable=dataV complete dim=1
 
     for (int j = 0; j < CONFIG_T::seq_len; ++j) {
         #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
@@ -136,7 +136,7 @@ void matrixmul(data_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len], hls::stream<data
 
     data_T Sij, S_1;
     data_T QKi[CONFIG_T::seq_len];
-#pragma HLS ARRAY_Partition variable=QKi complete
+#pragma HLS ARRAY_PARTITION variable=QKi complete dim=1
 row:
     for (int i = 0; i < CONFIG_T::seq_len; ++i) {
     #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
