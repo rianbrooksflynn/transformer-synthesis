@@ -16,8 +16,8 @@ batch_size = 1
 
 layernorm_in_shape = (4, 5)
 
-seq_len = 500
-num_heads = 10
+seq_len = 100
+num_heads = 8
 key_dim = 2
 embed_dim = num_heads * key_dim
 
