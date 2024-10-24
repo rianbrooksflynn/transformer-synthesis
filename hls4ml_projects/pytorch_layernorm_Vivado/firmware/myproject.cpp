@@ -13,7 +13,7 @@ void myproject(
     #pragma HLS ARRAY_RESHAPE variable=input_1 complete dim=0
     #pragma HLS ARRAY_PARTITION variable=layer2_out complete dim=0
     #pragma HLS INTERFACE ap_vld port=input_1,layer2_out 
-    #pragma HLS PIPELINE 
+    #pragma HLS PIPELINE
 
     // hls-fpga-machine-learning insert load weights
 #ifndef __SYNTHESIS__

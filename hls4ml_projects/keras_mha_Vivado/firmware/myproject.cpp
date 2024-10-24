@@ -35,24 +35,7 @@ void myproject(
     // ****************************************
 
     // hls-fpga-machine-learning insert layers
-    std::cout << "PRE MULTIHEAD ATTENTION" << std::endl;
-    std::cout << "INPUT 1 SIZE: " << N_INPUT_1_1*N_INPUT_2_1 << std::endl;
-    std::cout << "INPUT 2 SIZE: " << N_INPUT_1_2*N_INPUT_2_2 << std::endl;
-    std::cout << "LAYER 3 OUT SIZE: " << seq_out_3*feature_out_3 << std::endl;
-    std::cout << "ATTENTION OUTPUT WEIGHT SIZE: " << sizeof(attention_output_weight3) / sizeof(*attention_output_weight3) << std::endl;
-    std::cout << "ATTENTION OUTPUT BIAS SIZE: " << sizeof(attention_output_bias3) / sizeof(*attention_output_bias3) << std::endl;
-    std::cout << "KEY WEIGHT SIZE: " << sizeof(key_weight3) / sizeof(*key_weight3) << std::endl;
-    std::cout << "KEY BIAS SIZE: " << sizeof(key_bias3) / sizeof(*key_bias3) << std::endl;
-    std::cout << "QUERY WEIGHT SIZE: " << sizeof(query_weight3) / sizeof(*query_weight3) << std::endl;
-    std::cout << "QUERY BIAS SIZE: " << sizeof(query_bias3) / sizeof(*query_bias3) << std::endl;
-    std::cout << "VALUE WEIGHT SIZE: " << sizeof(value_weight3) / sizeof(*value_weight3) << std::endl;
-    std::cout << "VALUE BIAS SIZE: " << sizeof(value_bias3) / sizeof(*value_bias3) << std::endl;
-    std::cout << "CONFIG PARAMETERS: " << std::endl;
-    std::cout << "NUM HEADS: " << config3::num_heads << std::endl;
-    std::cout << "HEAD DIM KEY: " << config3::head_dim_key << std::endl;
-    std::cout << "HEAD DIM VALUE: " << config3::head_dim_value << std::endl;
-    std::cout << "FEATURE DIM: " << config3::feature_dim << std::endl;
-    std::cout << "SEQ LEN: " << config3::seq_len << std::endl;
+
     nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
                             layer3_out, attention_output_weight3, attention_output_bias3, key_weight3, key_bias3, query_weight3, query_bias3, value_weight3, value_bias3); // multi_head_attention
 

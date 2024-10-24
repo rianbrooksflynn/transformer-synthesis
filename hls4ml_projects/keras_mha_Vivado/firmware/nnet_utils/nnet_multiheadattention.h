@@ -20,8 +20,8 @@ struct multiheadattention_config {
 
     // Layer Sizes
     static const unsigned num_heads = 10;
-    static const unsigned head_dim_key = 2;
-    static const unsigned head_dim_value = 2;
+    static const unsigned head_dim_key = 10;
+    static const unsigned head_dim_value = 10;
     static const unsigned feature_dim = 20;
     static const unsigned seq_len = 500;
 
@@ -267,7 +267,6 @@ void multiheadattention(
     typename CONFIG_T::bias_t query_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_key],
     typename CONFIG_T::weight_t value_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_value],
     typename CONFIG_T::bias_t value_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_value]) {
-    std::cout << "START MULTIHEAD ATTENTION" << std::endl;
     hls::stream<data_T> d_value[CONFIG_T::num_heads][CONFIG_T::feature_dim];
     hls::stream<data_T> d_query[CONFIG_T::num_heads][CONFIG_T::feature_dim];
     hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> q_proj[CONFIG_T::num_heads];
@@ -284,19 +283,17 @@ void multiheadattention(
     #pragma HLS ARRAY_PARTITION variable=qk_mul complete dim=1
     #pragma HLS ARRAY_PARTITION variable=matr_out complete dim=1
 
-    std::cout << "START PREP DATA" << std::endl;
 prepq:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::data_prep<data_T, res_T, CONFIG_T>(data_q, d_query[i]);
     }
-    std::cout << "PREP QUERY DONE" << std::endl;
 prepvk:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::data_prep<data_T, res_T, CONFIG_T>(data_vk, d_value[i]);
     }
-    std::cout << "PREP KEY VALUE DONE" << std::endl;
+
 lin_proj:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
@@ -307,22 +304,20 @@ lin_proj:
             value_weight + (CONFIG_T::head_dim_value * CONFIG_T::feature_dim * i),
             value_bias + (CONFIG_T::head_dim_value * i));
     }
-    std::cout << "LINEAR PROJECTION DONE" << std::endl;
+
 maxtrixmul1:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::matrixmul_transpose<res_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
     }
-    std::cout << "MATRIX MULTIPLICATION 1 DONE" << std::endl;
+
 maxtrixmul2:
     for (int i = 0; i < CONFIG_T::num_heads; ++i) {
         #pragma HLS UNROLL
         nnet::matrixmul<res_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]); // stream
     }
-    std::cout << "MATRIX MULTIPLICATION 2 DONE" << std::endl;
 
-    // nnet::dense_out<res_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
-    // std::cout << "DENSE OUTPUT DONE" << std::endl;
+    nnet::dense_out<res_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
 }
 } // namespace nnet
 

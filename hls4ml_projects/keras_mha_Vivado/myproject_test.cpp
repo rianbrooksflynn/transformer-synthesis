@@ -59,19 +59,15 @@ int main(int argc, char **argv) {
             }
 
             // hls-fpga-machine-learning insert data
-            std::cout << "INPUT SIZE: " << in.size() << std::endl;
-            std::cout << "PREDICTIONS SIZE: " << pr.size() << std::endl;
-            input_t input_1[N_INPUT_1_1*N_INPUT_2_1];
-            nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1>(in, input_1);
-            std::cout << "COPY DATA 1" << std::endl;
-            input2_t input_2[N_INPUT_1_2*N_INPUT_2_2];
-            nnet::copy_data<float, input2_t, 10000, N_INPUT_1_2*N_INPUT_2_2>(in, input_2);
-            std::cout << "COPY DATA 2" << std::endl;
-            result_t layer3_out[seq_out_3*feature_out_3];
+      input_t input_1[N_INPUT_1_1*N_INPUT_2_1];
+      nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1>(in, input_1);
+      input2_t input_2[N_INPUT_1_2*N_INPUT_2_2];
+      nnet::copy_data<float, input2_t, 10000, N_INPUT_1_2*N_INPUT_2_2>(in, input_2);
+      result_t layer3_out[seq_out_3*feature_out_3];
 
             // hls-fpga-machine-learning insert top-level-function
             myproject(input_1,input_2,layer3_out);
-            std::cout << "PREDICTIONS DONE" << std::endl;
+
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
                 // hls-fpga-machine-learning insert predictions
