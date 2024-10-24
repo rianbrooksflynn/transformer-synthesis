@@ -127,9 +127,9 @@ def pytorch_mha():
 
 
 if __name__ == "__main__":
-    # save_layernorm_data()
+    save_layernorm_data()
     save_mha_data()
-    # keras_layernorm()
-    # pytorch_layernorm()
+    keras_layernorm()
+    pytorch_layernorm()
     keras_mha()
-    # pytorch_mha()
+    pytorch_mha()
