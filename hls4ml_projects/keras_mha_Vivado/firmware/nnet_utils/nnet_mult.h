@@ -72,6 +72,10 @@ template <class x_T, class w_T> class mult : public Product {
         #pragma HLS INLINE
         return a * w;
     }
+    static void limit(unsigned multiplier_limit){
+        #pragma HLS INLINE
+        #pragma HLS ALLOCATION instances=mul limit=multiplier_limit operation
+    }
 };
 
 template <class x_T, class w_T> class weight_exponential : public Product {

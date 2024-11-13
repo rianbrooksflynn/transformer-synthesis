@@ -1,0 +1,878 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5566" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:82:34" msg_body="unexpected pragma argument 'mul', expects function/operation">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5538" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:273:26" msg_body="'region' in '#pragma HLS Inline' is deprecated, use 'Inline Pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:98:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:99:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:100:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:101:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:148:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:153:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:209:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:210:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:211:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:234:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:235:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5514" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:236:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:318:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-169" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:318:9" msg_body="There are a total of 5 such instances of non-canonical statements in the dataflow region"/>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_helpers.h:319:63" msg_body="unused parameter 'keep'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:13:16" msg_body="unused parameter 'data'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:14:16" msg_body="unused parameter 'buffer'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:15:24" msg_body="unused parameter 'partition'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:25:16" msg_body="unused parameter 'data'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:26:16" msg_body="unused parameter 'buffer'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_code_gen.h:27:24" msg_body="unused parameter 'partition'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:21:32" msg_body="unused parameter 'multiplier_limit'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:80:32" msg_body="unused parameter 'multiplier_limit'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_types.h:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="limit" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:82:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="limit" ARG_PragmaIsValid="0" ARG_PragmaOptions="instances=mul" ARG_PragmaType="allocation" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_mult.h:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="product" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights,biases" ARG_PragmaType="function_instantiate" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biases complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mult complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=acc complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights,biases" ARG_PragmaType="function_instantiate" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights block factor=block_factor" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biases complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=acc complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:59:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:65:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 rewind" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_leq_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights,biases" ARG_PragmaType="function_instantiate" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights block factor=block_factor" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:125:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biases complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:128:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=acc complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 rewind" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:179:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin_rem0" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights,biases" ARG_PragmaType="function_instantiate" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:204:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weights block factor=block_factor" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:205:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=biases complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=acc complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:212:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:218:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 rewind" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=tmpmult complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:224:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:232:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mult complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:236:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:251:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource_rf_gt_nin" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_resource.h:273:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_resource" ARG_PragmaIsValid="1" ARG_PragmaOptions="region" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_val complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense_seq.h:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_seq" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_dense.h:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="linear" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="relu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="relu_max" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sigmoid" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:206:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_latency" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:228:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_latency" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=exp_res complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_latency" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_latency" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:250:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_stable" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:277:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_stable" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:283:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_stable" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=exp_res complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:286:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_stable" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:298:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_stable" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_legacy" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:364:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax_legacy" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=data_cache complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:411:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softmax" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:459:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="tanh" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:480:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hard_sigmoid" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:499:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="leaky_relu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:515:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="thresholded_relu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:563:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softplus" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:615:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="softsign" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:667:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="elu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:728:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="selu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:751:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="prelu" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:767:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="binary_tanh" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_activation.h:786:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ternary_tanh" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_stream_array" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:91:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=Qi complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:92:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=Product complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:93:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=qk_smout complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:94:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=QK complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=krow complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:98:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:110:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:121:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul_transpose" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:148:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=QK complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:150:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=S complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:159:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=dataV complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=QKi complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:175:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=CONFIG_T::reuse_factor" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="matrixmul" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=data_q complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:214:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=data_vk complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:224:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=proj_k complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:225:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=proj_q complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:226:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=proj_v complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_q complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:228:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_v complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:234:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:236:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="lin_projection" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=mat_res_con complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:262:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=dense_out complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:265:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:267:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:269:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:275:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_out" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:286:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="data_prep" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=d complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:289:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="data_prep" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:318:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:319:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=d_query complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:320:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=v_proj complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:321:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=q_proj complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:322:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=k_proj complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:323:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=qk_mul complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=matr_out complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:330:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:334:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:340:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:350:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:355:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="multiheadattention" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/build_prj.tcl:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=myproject" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=input_1 complete dim=0" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=input_2 complete dim=0" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=layer3_out complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_vld port=input_1,input_2,layer3_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="myproject" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:63:27" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)'">
+        <args Callee="nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 75 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:241:9" msg_body="Inlining function 'void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' into 'void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)'">
+        <args Callee="void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_dense.h Line 44 Column 0" Caller="void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 208 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:242:9" msg_body="Inlining function 'void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' into 'void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)'">
+        <args Callee="void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_dense.h Line 44 Column 0" Caller="void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 208 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:243:9" msg_body="Inlining function 'void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' into 'void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)'">
+        <args Callee="void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_dense.h Line 44 Column 0" Caller="void nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_value, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*, config3::weight_t*, config3::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 208 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:133:9" msg_body="Inlining function 'void nnet::softmax&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config3&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*)' into 'void nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len])'">
+        <args Callee="void nnet::softmax&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config3&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_activation.h Line 410 Column 0" Caller="void nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len])" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 83 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:128:21" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len])'">
+        <args Callee="nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 75 Column 0" Caller="void nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len])" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 83 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:184:20" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len], hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*)'">
+        <args Callee="nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 75 Column 0" Caller="void nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [config3::seq_len], hls::stream&lt;nnet::datapack&lt;config3::head_dim_key, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;, 0&gt;&amp;, hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt;*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 147 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:63:27" msg_body="Inlining function 'nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)'">
+        <args Callee="nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 75 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:273:3" msg_body="Inlining function 'void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)' into 'void nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt; (*) [config3::head_dim_value], ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3::weight_t*, config3::bias_t*)'">
+        <args Callee="void nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)" Callee-DebugLoc="File firmware/nnet_utils/nnet_dense.h Line 44 Column 0" Caller="void nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;(hls::stream&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 0&gt; (*) [config3::head_dim_value], ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3::weight_t*, config3::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_multiheadattention.h Line 258 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:354:18" msg_body="Loop 'maxtrixmul2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="maxtrixmul2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:349:18" msg_body="Loop 'maxtrixmul1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="maxtrixmul1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:339:15" msg_body="Loop 'lin_proj' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="lin_proj"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:333:10" msg_body="Loop 'prepvk' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="prepvk"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:329:9" msg_body="Loop 'prepq' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="prepq"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:263:16" msg_body="Loop 'output_dense' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="output_dense"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:266:20" msg_body="Loop 'VITIS_LOOP_266_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_266_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:268:20" msg_body="Loop 'VITIS_LOOP_268_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_268_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:274:21" msg_body="Loop 'VITIS_LOOP_274_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_274_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:81:13" msg_body="Loop 'Result' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Result"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:73:13" msg_body="Loop 'Accum1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Accum1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:74:17" msg_body="Loop 'Accum2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Accum2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:68:17" msg_body="Loop 'ResetAccum' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="ResetAccum"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:59:15" msg_body="Loop 'Product1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Product1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:61:19" msg_body="Loop 'Product2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Product2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:174:7" msg_body="Loop 'row' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:176:6" msg_body="Loop 'qk' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="qk"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:180:14" msg_body="Loop 'col' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:183:22" msg_body="Loop 'product' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:161:20" msg_body="Loop 'VITIS_LOOP_161_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_161_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:164:21" msg_body="Loop 'VITIS_LOOP_164_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_164_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:116:10" msg_body="Loop 'row' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:120:9" msg_body="Loop 'q' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="q"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:124:14" msg_body="Loop 'col' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:127:22" msg_body="Loop 'product' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:134:27" msg_body="Loop 'VITIS_LOOP_134_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_134_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:106:13" msg_body="Loop 'prep_k' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="prep_k"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:109:24" msg_body="Loop 'VITIS_LOOP_109_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_109_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_activation.h:398:20" msg_body="Loop 'VITIS_LOOP_398_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_398_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_activation.h:371:23" msg_body="Loop 'VITIS_LOOP_371_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_371_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:216:7" msg_body="Loop 'k_h' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="k_h"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:51:19" msg_body="Loop 'VITIS_LOOP_51_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_51_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:287:20" msg_body="Loop 'VITIS_LOOP_287_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_287_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:288:21" msg_body="Loop 'VITIS_LOOP_288_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_288_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:309:0" msg_body="Unrolling loop 'maxtrixmul2' (firmware/nnet_utils/nnet_multiheadattention.h:354:18) in function 'nnet::multiheadattention&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:354:18" LoopName="maxtrixmul2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:309:0" msg_body="Unrolling loop 'maxtrixmul1' (firmware/nnet_utils/nnet_multiheadattention.h:349:18) in function 'nnet::multiheadattention&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:349:18" LoopName="maxtrixmul1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:309:0" msg_body="Unrolling loop 'lin_proj' (firmware/nnet_utils/nnet_multiheadattention.h:339:15) in function 'nnet::multiheadattention&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:339:15" LoopName="lin_proj"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:309:0" msg_body="Unrolling loop 'prepvk' (firmware/nnet_utils/nnet_multiheadattention.h:333:10) in function 'nnet::multiheadattention&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:333:10" LoopName="prepvk"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:309:0" msg_body="Unrolling loop 'prepq' (firmware/nnet_utils/nnet_multiheadattention.h:329:9) in function 'nnet::multiheadattention&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:329:9" LoopName="prepq"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:258:0" msg_body="Unrolling loop 'output_dense' (firmware/nnet_utils/nnet_multiheadattention.h:263:16) in function 'nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:263:16" LoopName="output_dense"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:258:0" msg_body="Pipeline directive for loop 'output_dense' (firmware/nnet_utils/nnet_multiheadattention.h:263:16) in function 'nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:263:16" LoopName="output_dense"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:258:0" msg_body="Unrolling loop 'VITIS_LOOP_274_3' (firmware/nnet_utils/nnet_multiheadattention.h:274:21) in function 'nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:274:21" LoopName="VITIS_LOOP_274_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:258:0" msg_body="Unrolling loop 'VITIS_LOOP_266_1' (firmware/nnet_utils/nnet_multiheadattention.h:266:20) in function 'nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:266:20" LoopName="VITIS_LOOP_266_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:258:0" msg_body="Unrolling loop 'VITIS_LOOP_268_2' (firmware/nnet_utils/nnet_multiheadattention.h:268:20) in function 'nnet::dense_out&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:268:20" LoopName="VITIS_LOOP_268_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:81:13) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:81:13" LoopName="Result"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:73:13) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:73:13" LoopName="Accum1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:74:17) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:74:17" LoopName="Accum2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:68:17) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:68:17" LoopName="ResetAccum"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:59:15) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:59:15" LoopName="Product1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:61:19) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:61:19" LoopName="Product2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'row' (firmware/nnet_utils/nnet_multiheadattention.h:174:7) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:174:7" LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Pipeline directive for loop 'row' (firmware/nnet_utils/nnet_multiheadattention.h:174:7) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:174:7" LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'col' (firmware/nnet_utils/nnet_multiheadattention.h:180:14) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:180:14" LoopName="col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'product' (firmware/nnet_utils/nnet_multiheadattention.h:183:22) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:183:22" LoopName="product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'qk' (firmware/nnet_utils/nnet_multiheadattention.h:176:6) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:176:6" LoopName="qk"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'VITIS_LOOP_161_1' (firmware/nnet_utils/nnet_multiheadattention.h:161:20) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:161:20" LoopName="VITIS_LOOP_161_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_161_1' (firmware/nnet_utils/nnet_multiheadattention.h:161:20) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:161:20" LoopName="VITIS_LOOP_161_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:147:0" msg_body="Unrolling loop 'VITIS_LOOP_164_2' (firmware/nnet_utils/nnet_multiheadattention.h:164:21) in function 'nnet::matrixmul&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:164:21" LoopName="VITIS_LOOP_164_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'row' (firmware/nnet_utils/nnet_multiheadattention.h:116:10) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:116:10" LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Pipeline directive for loop 'row' (firmware/nnet_utils/nnet_multiheadattention.h:116:10) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:116:10" LoopName="row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'VITIS_LOOP_134_2' (firmware/nnet_utils/nnet_multiheadattention.h:134:27) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:134:27" LoopName="VITIS_LOOP_134_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'col' (firmware/nnet_utils/nnet_multiheadattention.h:124:14) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:124:14" LoopName="col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'product' (firmware/nnet_utils/nnet_multiheadattention.h:127:22) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:127:22" LoopName="product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'q' (firmware/nnet_utils/nnet_multiheadattention.h:120:9) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:120:9" LoopName="q"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'prep_k' (firmware/nnet_utils/nnet_multiheadattention.h:106:13) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:106:13" LoopName="prep_k"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Pipeline directive for loop 'prep_k' (firmware/nnet_utils/nnet_multiheadattention.h:106:13) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:106:13" LoopName="prep_k"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:83:0" msg_body="Unrolling loop 'VITIS_LOOP_109_1' (firmware/nnet_utils/nnet_multiheadattention.h:109:24) in function 'nnet::matrixmul_transpose&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:109:24" LoopName="VITIS_LOOP_109_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_activation.h:333:0" msg_body="Unrolling loop 'VITIS_LOOP_398_2' (firmware/nnet_utils/nnet_activation.h:398:20) in function 'nnet::softmax_legacy&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_activation.h:398:20" LoopName="VITIS_LOOP_398_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_activation.h:333:0" msg_body="Unrolling loop 'VITIS_LOOP_371_1' (firmware/nnet_utils/nnet_activation.h:371:23) in function 'nnet::softmax_legacy&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_activation.h:371:23" LoopName="VITIS_LOOP_371_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:208:0" msg_body="Unrolling loop 'k_h' (firmware/nnet_utils/nnet_multiheadattention.h:216:7) in function 'nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:216:7" LoopName="k_h"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:208:0" msg_body="Pipeline directive for loop 'k_h' (firmware/nnet_utils/nnet_multiheadattention.h:216:7) in function 'nnet::lin_projection&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' has been removed because the loop is unrolled completely">
+        <args LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:216:7" LoopName="k_h"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Result' (firmware/nnet_utils/nnet_dense_latency.h:81:13) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:81:13" LoopName="Result"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Accum1' (firmware/nnet_utils/nnet_dense_latency.h:73:13) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:73:13" LoopName="Accum1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Accum2' (firmware/nnet_utils/nnet_dense_latency.h:74:17) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:74:17" LoopName="Accum2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'ResetAccum' (firmware/nnet_utils/nnet_dense_latency.h:68:17) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:68:17" LoopName="ResetAccum"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Product1' (firmware/nnet_utils/nnet_dense_latency.h:59:15) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:59:15" LoopName="Product1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Unrolling loop 'Product2' (firmware/nnet_utils/nnet_dense_latency.h:61:19) in function 'nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;' completely with a factor of 2">
+        <args Factor="2" LoopLoc="firmware/nnet_utils/nnet_dense_latency.h:61:19" LoopName="Product2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:50:0" msg_body="Unrolling loop 'VITIS_LOOP_51_1' (firmware/nnet_utils/nnet_multiheadattention.h:51:19) in function 'nnet::read_stream_array&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 4&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:51:19" LoopName="VITIS_LOOP_51_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:285:0" msg_body="Unrolling loop 'VITIS_LOOP_287_1' (firmware/nnet_utils/nnet_multiheadattention.h:287:20) in function 'nnet::data_prep&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 20">
+        <args Factor="20" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:287:20" LoopName="VITIS_LOOP_287_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:285:0" msg_body="Unrolling loop 'VITIS_LOOP_288_2' (firmware/nnet_utils/nnet_multiheadattention.h:288:21) in function 'nnet::data_prep&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3&gt;' completely with a factor of 4">
+        <args Factor="4" LoopLoc="firmware/nnet_utils/nnet_multiheadattention.h:288:21" LoopName="VITIS_LOOP_288_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_FUNCTION_INSTANTIATE" msg_id="214-367" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense.h:50:13" msg_body="Instantiating function 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' to 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' by setting 'weights' to 'value_weight', 'biases' to 'value_bias'">
+        <args Name="islist {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)} {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)}"/>
+    </msg>
+    <msg msg_groups="PRAGMA_FUNCTION_INSTANTIATE" msg_id="214-367" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense.h:50:13" msg_body="Instantiating function 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' to 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.246)' by setting 'weights' to 'query_weight', 'biases' to 'query_bias'">
+        <args Name="islist {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)} {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.246)}"/>
+    </msg>
+    <msg msg_groups="PRAGMA_FUNCTION_INSTANTIATE" msg_id="214-367" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense.h:50:13" msg_body="Instantiating function 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)' to 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.247)' by setting 'weights' to 'key_weight', 'biases' to 'key_bias'">
+        <args Name="islist {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)} {void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.247)}"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Inlining function 'std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.247)'">
+        <args Callee="std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 121 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.247)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Inlining function 'std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.246)'">
+        <args Callee="std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 121 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*) (.246)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Inlining function 'std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)'">
+        <args Callee="std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(config3_1::accum_t)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 121 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_1&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_1::weight_t*, config3_1::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_dense_latency.h:37:0" msg_body="Inlining function 'std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(config3_2::accum_t)' into 'void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)'">
+        <args Callee="std::enable_if&lt;!(std::is_same&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_uint&lt;1&gt; &gt;::value), ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::type nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(config3_2::accum_t)" Callee-DebugLoc="File firmware/nnet_utils/nnet_mult.h Line 121 Column 0" Caller="void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config3_2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config3_2::weight_t*, config3_2::bias_t*)" Caller-DebugLoc="File firmware/nnet_utils/nnet_dense_latency.h Line 37 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'value_bias3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="value_bias3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'value_weight3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="value_weight3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'query_bias3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="query_bias3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'query_weight3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="query_weight3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'key_bias3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="key_bias3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-253" msg_severity="WARNING" msg_loc="firmware/myproject.cpp:58:2" msg_body="Ignored unsupported array_partition pragma on variable 'key_weight3'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension.">
+        <args Name="key_weight3" PragmaName="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/weights/attention_output_bias3.h:12:0" msg_body="Applying array_partition to 'attention_output_bias3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="attention_output_bias3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/weights/attention_output_weight3.h:12:0" msg_body="Applying array_partition to 'attention_output_weight3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="attention_output_weight3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:88:12" msg_body="Applying array_partition to 'Product': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="Product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:89:12" msg_body="Applying array_partition to 'qk_smout': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="qk_smout"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:259:9" msg_body="Applying array_partition to 'mat_res_con': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="mat_res_con"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:260:8" msg_body="Applying array_partition to 'dense_out': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="dense_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:310:22" msg_body="Applying array_partition to 'd_value': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="d_value"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:311:22" msg_body="Applying array_partition to 'd_query': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="d_query"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:312:56" msg_body="Applying array_partition to 'q_proj': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="q_proj"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:313:56" msg_body="Applying array_partition to 'k_proj': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="k_proj"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:314:58" msg_body="Applying array_partition to 'v_proj': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="v_proj"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:315:12" msg_body="Applying array_partition to 'qk_mul': Complete partitioning on dimension 1. Complete partitioning on dimension 3.">
+        <args Dim="islist 1 3" Mode="islist Complete Complete" UOName="qk_mul"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:316:25" msg_body="Applying array_partition to 'matr_out': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="matr_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/myproject.cpp:27:0" msg_body="Applying array_partition to 'layer3_out': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="layer3_out"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:312:56" msg_body="Aggregating fifo (hls::stream) variable 'q_proj_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="q_proj_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:312:56" msg_body="Aggregating fifo (hls::stream) variable 'q_proj_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="q_proj_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:313:56" msg_body="Aggregating fifo (hls::stream) variable 'k_proj_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="k_proj_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:313:56" msg_body="Aggregating fifo (hls::stream) variable 'k_proj_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="k_proj_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:314:58" msg_body="Aggregating fifo (hls::stream) variable 'v_proj_1' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="v_proj_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="firmware/nnet_utils/nnet_multiheadattention.h:314:58" msg_body="Aggregating fifo (hls::stream) variable 'v_proj_0' with compact=bit mode in 32-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="32" HwTyName="fifo (hls::stream)" Name="v_proj_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/myproject.cpp:27:0" msg_body="Applying array_reshape to 'input_1': Complete reshaping on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="input_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/myproject.cpp:27:0" msg_body="Applying array_reshape to 'input_2': Complete reshaping on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="input_2"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

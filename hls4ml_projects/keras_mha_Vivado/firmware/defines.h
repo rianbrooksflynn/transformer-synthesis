@@ -28,7 +28,7 @@ typedef ap_fixed<16,6> multi_head_attention_query_weight_t;
 typedef ap_fixed<16,6> multi_head_attention_query_bias_t;
 typedef ap_fixed<16,6> multi_head_attention_value_weight_t;
 typedef ap_fixed<16,6> multi_head_attention_value_bias_t;
-typedef ap_fixed<33,13> result_t;
+typedef ap_fixed<16,6> result_t;
 typedef ap_fixed<24,8> multi_head_attention_table_t;
 
 

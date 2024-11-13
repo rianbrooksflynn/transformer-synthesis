@@ -1,0 +1,24 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    input_1:
+      Precision:
+        result: ap_fixed<16,6>
+    input_2:
+      Precision:
+        result: ap_fixed<16,6>
+    multi_head_attention:
+      Precision: ap_fixed<16,6>
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+IOType: io_parallel
+InputData: /home/rian/A3D3/transformer-synthesis/data/keras_mha_data.dat
+KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/keras_model.h5'
+OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_mha_predictions.dat
+Part: xcku115-flvb2104-2-i
+ProjectName: myproject
+Stamp: F0dF8EEf

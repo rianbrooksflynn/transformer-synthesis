@@ -21,4 +21,4 @@ set depth_list {
   {layer2_out_8 1}
   {layer2_out_9 1}
 }
-set trans_num 60
+set trans_num 1

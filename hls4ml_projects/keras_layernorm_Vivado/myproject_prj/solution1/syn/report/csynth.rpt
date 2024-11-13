@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'myproject'
 ================================================================
 + General Information: 
-    * Date:           Tue Oct 22 19:25:32 2024
+    * Date:           Wed Oct 30 10:44:03 2024
     * Version:        2023.2 (Build 4023990 on Oct 11 2023)
     * Project:        myproject_prj
     * Solution:       solution1 (Vivado IP Flow Target)
@@ -3167,78 +3167,84 @@
 ================================================================
 == Pragma Report
 ================================================================
+* Pragmas with Warnings
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| Type     | Options                           | Location                                                                                | Messages                                                                   |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:33 in dense_resource_rf_leq_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:107 in dense_resource_rf_gt_nin_rem0, weights | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:189 in dense_resource_rf_gt_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+
 * Valid Pragma Syntax
-+----------------------+----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| Type                 | Options                                                  | Location                                                                                      |
-+----------------------+----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| array_reshape        | variable=layer_normalization_input complete dim=0        | firmware/myproject.cpp:13 in myproject, layer_normalization_input                             |
-| array_partition      | variable=layer2_out complete dim=0                       | firmware/myproject.cpp:14 in myproject, layer2_out                                            |
-| interface            | ap_vld port=layer_normalization_input,layer2_out         | firmware/myproject.cpp:15 in myproject, layer_normalization_input,layer2_out                  |
-| pipeline             |                                                          | firmware/myproject.cpp:16 in myproject                                                        |
-| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:40 in dense                                                  |
-| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_latency.h:21 in dense_latency, weights,biases                  |
-| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_latency.h:26 in dense_latency                                  |
-| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_latency.h:29 in dense_latency, biases                          |
-| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_latency.h:30 in dense_latency, mult                            |
-| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_latency.h:31 in dense_latency, acc                             |
-| allocation           | operation instances=mul limit=CONFIG_T::multiplier_limit | firmware/nnet_utils/nnet_dense_latency.h:33 in dense_latency                                  |
-| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:28 in dense_resource_rf_leq_nin, weights,biases     |
-| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:30 in dense_resource_rf_leq_nin, weights            |
-| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:31 in dense_resource_rf_leq_nin, biases             |
-| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:34 in dense_resource_rf_leq_nin, acc                |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:38 in dense_resource_rf_leq_nin                     |
-| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:44 in dense_resource_rf_leq_nin                     |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:53 in dense_resource_rf_leq_nin                     |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:78 in dense_resource_rf_leq_nin                     |
-| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:99 in dense_resource_rf_gt_nin_rem0, weights,biases |
-| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:101 in dense_resource_rf_gt_nin_rem0, weights       |
-| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:102 in dense_resource_rf_gt_nin_rem0, biases        |
-| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:105 in dense_resource_rf_gt_nin_rem0, acc           |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:109 in dense_resource_rf_gt_nin_rem0                |
-| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:130 in dense_resource_rf_gt_nin_rem0                |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:137 in dense_resource_rf_gt_nin_rem0                |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:157 in dense_resource_rf_gt_nin_rem0                |
-| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:178 in dense_resource_rf_gt_nin, weights,biases     |
-| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:180 in dense_resource_rf_gt_nin, weights            |
-| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:181 in dense_resource_rf_gt_nin, biases             |
-| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:184 in dense_resource_rf_gt_nin, acc                |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:188 in dense_resource_rf_gt_nin                     |
-| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:194 in dense_resource_rf_gt_nin                     |
-| array_partition      | variable=tmpmult complete                                | firmware/nnet_utils/nnet_dense_resource.h:196 in dense_resource_rf_gt_nin, tmpmult            |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:200 in dense_resource_rf_gt_nin                     |
-| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_resource.h:210 in dense_resource_rf_gt_nin, mult               |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:214 in dense_resource_rf_gt_nin                     |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:220 in dense_resource_rf_gt_nin                     |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:230 in dense_resource_rf_gt_nin                     |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:240 in dense_resource_rf_gt_nin                     |
-| inline               | recursive                                                | firmware/nnet_utils/nnet_dense_resource.h:250 in dense_resource                               |
-| inline               |                                                          | firmware/nnet_utils/nnet_dense_seq.h:16 in dense_seq                                          |
-| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_dense_seq.h:19 in dense_seq, in_val                                  |
-| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_seq.h:23 in dense_seq                                          |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_seq.h:25 in dense_seq                                          |
-| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_seq.h:32 in dense_seq                                          |
-| unroll               |                                                          | firmware/nnet_utils/nnet_dense_seq.h:34 in dense_seq                                          |
-| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:60 in lookup_invert_sqr                                  |
-| unroll               | factor=4                                                 | firmware/nnet_utils/nnet_layernorm.h:63 in lookup_invert_sqr                                  |
-| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_layernorm.h:78 in layernorm_1d                                       |
-| array_partition      | variable=data complete                                   | firmware/nnet_utils/nnet_layernorm.h:79 in layernorm_1d, data                                 |
-| array_partition      | variable=res complete                                    | firmware/nnet_utils/nnet_layernorm.h:80 in layernorm_1d, res                                  |
-| array_partition      | variable=data_diff complete                              | firmware/nnet_utils/nnet_layernorm.h:104 in layernorm_1d, data_diff                           |
-| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:137 in layernormalize, scale,bias                        |
-| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:139 in layernormalize, scale                             |
-| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:140 in layernormalize, bias                              |
-| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:141 in layernormalize, in_val                            |
-| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:142 in layernormalize, outval                            |
-| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:146 in layernormalize                                    |
-| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:149 in layernormalize                                    |
-| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:155 in layernormalize                                    |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:25 in product                                                 |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:34 in product                                                 |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:46 in product                                                 |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:58 in product                                                 |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:72 in product                                                 |
-| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:82 in product                                                 |
-| unroll               |                                                          | firmware/nnet_utils/nnet_types.h:28 in operator=                                              |
-+----------------------+----------------------------------------------------------+-----------------------------------------------------------------------------------------------+
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Type                 | Options                                                  | Location                                                                                       |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| array_reshape        | variable=layer_normalization_input complete dim=0        | firmware/myproject.cpp:13 in myproject, layer_normalization_input                              |
+| array_partition      | variable=layer2_out complete dim=0                       | firmware/myproject.cpp:14 in myproject, layer2_out                                             |
+| interface            | ap_vld port=layer_normalization_input,layer2_out         | firmware/myproject.cpp:15 in myproject, layer_normalization_input,layer2_out                   |
+| pipeline             |                                                          | firmware/myproject.cpp:16 in myproject                                                         |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:44 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:53 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:64 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:75 in dense                                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_latency.h:21 in dense_latency, weights,biases                   |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_latency.h:26 in dense_latency                                   |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_latency.h:29 in dense_latency, biases                           |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_latency.h:30 in dense_latency, mult                             |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_latency.h:31 in dense_latency, acc                              |
+| allocation           | operation instances=mul limit=CONFIG_T::multiplier_limit | firmware/nnet_utils/nnet_dense_latency.h:33 in dense_latency                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:28 in dense_resource_rf_leq_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:29 in dense_resource_rf_leq_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:30 in dense_resource_rf_leq_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:37 in dense_resource_rf_leq_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:41 in dense_resource_rf_leq_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:47 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:56 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:81 in dense_resource_rf_leq_nin                      |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:102 in dense_resource_rf_gt_nin_rem0, weights,biases |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:103 in dense_resource_rf_gt_nin_rem0, weights        |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:104 in dense_resource_rf_gt_nin_rem0, biases         |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:111 in dense_resource_rf_gt_nin_rem0, acc            |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:115 in dense_resource_rf_gt_nin_rem0                 |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:136 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:143 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:163 in dense_resource_rf_gt_nin_rem0                 |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:184 in dense_resource_rf_gt_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:185 in dense_resource_rf_gt_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:186 in dense_resource_rf_gt_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:193 in dense_resource_rf_gt_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:197 in dense_resource_rf_gt_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:203 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=tmpmult complete                                | firmware/nnet_utils/nnet_dense_resource.h:205 in dense_resource_rf_gt_nin, tmpmult             |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:209 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_resource.h:219 in dense_resource_rf_gt_nin, mult                |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:223 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:229 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:239 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:249 in dense_resource_rf_gt_nin                      |
+| inline               | recursive                                                | firmware/nnet_utils/nnet_dense_resource.h:259 in dense_resource                                |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:60 in lookup_invert_sqr                                   |
+| unroll               | factor=4                                                 | firmware/nnet_utils/nnet_layernorm.h:63 in lookup_invert_sqr                                   |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_layernorm.h:78 in layernorm_1d                                        |
+| array_partition      | variable=data complete                                   | firmware/nnet_utils/nnet_layernorm.h:79 in layernorm_1d, data                                  |
+| array_partition      | variable=res complete                                    | firmware/nnet_utils/nnet_layernorm.h:80 in layernorm_1d, res                                   |
+| array_partition      | variable=data_diff complete                              | firmware/nnet_utils/nnet_layernorm.h:104 in layernorm_1d, data_diff                            |
+| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:137 in layernormalize, scale,bias                         |
+| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:139 in layernormalize, scale                              |
+| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:140 in layernormalize, bias                               |
+| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:141 in layernormalize, in_val                             |
+| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:142 in layernormalize, outval                             |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:146 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:149 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:155 in layernormalize                                     |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:25 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:34 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:46 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:58 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:72 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:82 in product                                                  |
+| unroll               |                                                          | firmware/nnet_utils/nnet_types.h:28 in operator=                                               |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 

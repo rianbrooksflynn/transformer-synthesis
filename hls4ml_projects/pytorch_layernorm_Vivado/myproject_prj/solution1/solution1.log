@@ -25,35 +25,42 @@ INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 15.69 seconds. CPU system time: 1.25 seconds. Elapsed time: 17.45 seconds; current allocated memory: 0.203 MB.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 8.81 seconds. CPU system time: 0.54 seconds. Elapsed time: 9.38 seconds; current allocated memory: 0.359 MB.
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 254.344 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 229.402 MB.
 INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:33:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:107:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:189:9)
 WARNING: [HLS 207-5292] unused parameter 'keep' (firmware/nnet_utils/nnet_helpers.h:285:99)
-WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_code_gen.h:11:36)
-WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_code_gen.h:12:36)
-WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_code_gen.h:13:44)
-WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_code_gen.h:21:24)
-WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_code_gen.h:22:24)
-WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_code_gen.h:23:32)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 41.78 seconds. CPU system time: 2.15 seconds. Elapsed time: 44.97 seconds; current allocated memory: 262.746 MB.
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:14:36)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:15:36)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:16:44)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:24:24)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:25:24)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:26:32)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:33:30)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:33:58)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:34:51)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:35:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 22.59 seconds. CPU system time: 1.14 seconds. Elapsed time: 23.76 seconds; current allocated memory: 237.910 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 4,553 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 53,687 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 16,197 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 16,087 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,447 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,371 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,311 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,254 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,231 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 12,239 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4,553 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 53,687 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,197 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,087 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,447 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,331 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,371 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,311 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,254 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,210 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,231 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 12,239 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:120:11)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:112:12)
 INFO: [HLS 214-291] Loop 'LAYERNORM_SEQ_LOOP' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:145:5)
@@ -86,17 +93,17 @@ INFO: [HLS 214-248] Applying array_partition to 'layer4_out': Complete partition
 INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:10:0)
 INFO: [HLS 214-248] Applying array_reshape to 'input_1': Complete reshaping on dimension 1. (firmware/myproject.cpp:10:0)
 INFO: [HLS 214-364] Automatically inlining function 'void nnet::lookup_invert_sqr<config2>(config2::mean_t, config2::table_t&, config2::table_t*, config2::table_t*)' to improve effectiveness of pipeline pragma in function 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:121:5)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 471.13 seconds. CPU system time: 0.7 seconds. Elapsed time: 474.32 seconds; current allocated memory: 263.488 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 263.488 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 489.13 seconds. CPU system time: 0.4 seconds. Elapsed time: 493.3 seconds; current allocated memory: 238.715 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 238.715 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.6 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.77 seconds; current allocated memory: 332.332 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.38 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.4 seconds; current allocated memory: 307.605 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:40) automatically.
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.94 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.96 seconds; current allocated memory: 332.332 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.59 seconds. CPU system time: 0 seconds. Elapsed time: 0.6 seconds; current allocated memory: 307.605 MB.
 INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:40) automatically.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:52:25)...8 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 10.62 seconds. CPU system time: 0.04 seconds. Elapsed time: 10.72 seconds; current allocated memory: 361.582 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 7.46 seconds. CPU system time: 0.03 seconds. Elapsed time: 7.54 seconds; current allocated memory: 395.469 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:52:27)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 6.71 seconds. CPU system time: 0.01 seconds. Elapsed time: 6.72 seconds; current allocated memory: 336.832 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 4.73 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.75 seconds; current allocated memory: 340.324 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'myproject' ...
 WARNING: [SYN 201-103] Legalizing function name 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>' to 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
@@ -109,13 +116,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.32 seconds; current allocated memory: 395.469 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.19 seconds; current allocated memory: 340.324 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 395.469 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 340.324 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -123,13 +130,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 395.469 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 340.324 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 395.469 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 340.324 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -137,13 +144,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 13.97 seconds. CPU system time: 0.19 seconds. Elapsed time: 14.21 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 9.57 seconds. CPU system time: 0.1 seconds. Elapsed time: 9.7 seconds; current allocated memory: 542.180 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 73.14 seconds. CPU system time: 0.09 seconds. Elapsed time: 73.49 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 47.36 seconds. CPU system time: 0.01 seconds. Elapsed time: 47.38 seconds; current allocated memory: 542.180 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -151,23 +158,23 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'myproject'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'myproject'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.96 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.04 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.66 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.68 seconds; current allocated memory: 542.180 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 542.180 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 542.180 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 590.867 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 542.180 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -178,7 +185,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_19s_19s_32_1_1': 5 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_29ns_19s_39_1_1': 5 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'.
 INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_tabbkb' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 55.29 seconds. CPU system time: 0.53 seconds. Elapsed time: 56.07 seconds; current allocated memory: 1.252 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 28.91 seconds. CPU system time: 0.23 seconds. Elapsed time: 29.14 seconds; current allocated memory: 1.188 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -206,13 +213,13 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_19' t
 INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.17 seconds. CPU system time: 0.19 seconds. Elapsed time: 3.41 seconds; current allocated memory: 1.273 GB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.48 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.55 seconds; current allocated memory: 1.276 GB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.81 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.86 seconds; current allocated memory: 1.286 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.88 seconds. CPU system time: 0.06 seconds. Elapsed time: 1.93 seconds; current allocated memory: 1.227 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.28 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.3 seconds; current allocated memory: 1.227 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.07 seconds; current allocated memory: 1.227 GB.
 INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
 INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
 INFO: [HLS 200-789] **** Estimated Fmax: 233.67 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 682.15 seconds. CPU system time: 4.23 seconds. Elapsed time: 690.86 seconds; current allocated memory: 1.038 GB.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 614.34 seconds. CPU system time: 2.08 seconds. Elapsed time: 620.28 seconds; current allocated memory: 1.003 GB.
 INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x -DRTL_SIM 
 INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
 INFO: [HLS 200-1510] Running: cosim_design -trace_level all -setup 
@@ -222,7 +229,8 @@ INFO: [COSIM 212-302] Starting C TB testing ...
 INFO: [COSIM 212-333] Generating C post check test bench ...
 INFO: [COSIM 212-12] Generating RTL test bench ...
 INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
-INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 36.85 seconds. CPU system time: 3.53 seconds. Elapsed time: 40.88 seconds; current allocated memory: 11.867 MB.
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 20.7 seconds. CPU system time: 2.27 seconds. Elapsed time: 22.96 seconds; current allocated memory: 7.703 MB.
 INFO: [COSIM 212-302] Starting C TB testing ...  
 INFO: [COSIM 212-323] Starting verilog simulation...
 INFO: [COSIM 212-15] Starting XSIM ...

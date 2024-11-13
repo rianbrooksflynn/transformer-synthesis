@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>529915392</coreId>
+						<coreId>643551264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>582394896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>305198160</coreId>
+						<coreId>644025552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>278914656</coreId>
+						<coreId>3155581231</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>542462019</coreId>
+						<coreId>1279795773</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -322,7 +322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1970040691</coreId>
+						<coreId>1176649076</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -358,7 +358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1797268061</coreId>
+						<coreId>1953852527</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -394,7 +394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1633641521</coreId>
+						<coreId>540701550</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -430,7 +430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420404</coreId>
+						<coreId>1869833586</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -466,7 +466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>758460466</coreId>
+						<coreId>574449505</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -502,7 +502,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>808591428</coreId>
+						<coreId>1717530721</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769104758</coreId>
+						<coreId>741744684</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>825634100</coreId>
+						<coreId>1702043749</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -610,7 +610,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1031301478</coreId>
+						<coreId>171847458</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -646,7 +646,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717924464</coreId>
+						<coreId>1931498832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868785011</coreId>
+						<coreId>828321841</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -718,7 +718,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1918990189</coreId>
+						<coreId>1563440948</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -742,7 +742,7 @@
 						<id>22</id>
 						<name>data_19_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -750,7 +750,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -772,7 +772,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601200416</coreId>
+						<coreId>997484326</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -799,7 +799,7 @@
 						<id>23</id>
 						<name>data_18_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -807,7 +807,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -829,7 +829,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>280809336</coreId>
+						<coreId>875638064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -856,7 +856,7 @@
 						<id>24</id>
 						<name>data_17_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -864,7 +864,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -886,7 +886,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>491108688</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -913,7 +913,7 @@
 						<id>25</id>
 						<name>data_16_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -921,7 +921,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -943,7 +943,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>275161792</coreId>
+						<coreId>570453615</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -970,7 +970,7 @@
 						<id>26</id>
 						<name>data_15_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -978,7 +978,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1000,7 +1000,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>491111648</coreId>
+						<coreId>552529512</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1027,7 +1027,7 @@
 						<id>27</id>
 						<name>data_14_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1035,7 +1035,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1057,7 +1057,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>491114696</coreId>
+						<coreId>667250064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1084,7 +1084,7 @@
 						<id>28</id>
 						<name>data_13_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1092,7 +1092,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1114,7 +1114,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>656434540</coreId>
+						<coreId>667250064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1141,7 +1141,7 @@
 						<id>29</id>
 						<name>data_12_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1149,7 +1149,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1171,7 +1171,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>858929768</coreId>
+						<coreId>1667590767</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1198,7 +1198,7 @@
 						<id>30</id>
 						<name>data_11_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1206,7 +1206,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1228,7 +1228,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1397508130</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1255,7 +1255,7 @@
 						<id>31</id>
 						<name>data_10_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1263,7 +1263,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1285,7 +1285,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1881155369</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1312,7 +1312,7 @@
 						<id>32</id>
 						<name>data_9_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1320,7 +1320,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1342,7 +1342,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1986360064</coreId>
+						<coreId>550687200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1369,7 +1369,7 @@
 						<id>33</id>
 						<name>data_8_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1377,7 +1377,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1399,7 +1399,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701060709</coreId>
+						<coreId>550688672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1426,7 +1426,7 @@
 						<id>34</id>
 						<name>data_7_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1434,7 +1434,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1456,7 +1456,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1952539695</coreId>
+						<coreId>550689632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1483,7 +1483,7 @@
 						<id>35</id>
 						<name>data_6_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1491,7 +1491,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1513,7 +1513,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741744684</coreId>
+						<coreId>550690848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1540,7 +1540,7 @@
 						<id>36</id>
 						<name>data_5_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1548,7 +1548,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1570,7 +1570,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>536894769</coreId>
+						<coreId>953272752</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1597,7 +1597,7 @@
 						<id>37</id>
 						<name>data_4_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1605,7 +1605,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1627,7 +1627,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1634562671</coreId>
+						<coreId>4294967292</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1654,7 +1654,7 @@
 						<id>38</id>
 						<name>data_3_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1662,7 +1662,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1684,7 +1684,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>976909413</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1711,7 +1711,7 @@
 						<id>39</id>
 						<name>data_2_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1719,7 +1719,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1741,7 +1741,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601265520</coreId>
+						<coreId>4294967292</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1768,7 +1768,7 @@
 						<id>40</id>
 						<name>data_1_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1776,7 +1776,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1798,7 +1798,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868767276</coreId>
+						<coreId>953272752</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1825,7 +1825,7 @@
 						<id>41</id>
 						<name>data_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1833,7 +1833,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1855,7 +1855,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768169582</coreId>
+						<coreId>4294967292</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1882,7 +1882,7 @@
 						<id>42</id>
 						<name>mrv</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1890,7 +1890,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1912,7 +1912,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885431923</coreId>
+						<coreId>656434540</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -1939,7 +1939,7 @@
 						<id>43</id>
 						<name>mrv_1</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1947,7 +1947,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1969,7 +1969,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>825045040</coreId>
+						<coreId>1848603500</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -1996,7 +1996,7 @@
 						<id>44</id>
 						<name>mrv_2</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2004,7 +2004,577 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1952999273</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>110</item>
+					<item>111</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>23</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_44">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>45</id>
+						<name>mrv_3</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869636946</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>112</item>
+					<item>113</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>24</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_45">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>46</id>
+						<name>mrv_4</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>791768687</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>114</item>
+					<item>115</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>25</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_46">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>47</id>
+						<name>mrv_5</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>960049453</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>116</item>
+					<item>117</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>26</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_47">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>48</id>
+						<name>mrv_6</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1142973800</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>118</item>
+					<item>119</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>27</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_48">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>49</id>
+						<name>mrv_7</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1785884767</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>120</item>
+					<item>121</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_49">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>50</id>
+						<name>mrv_8</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1701735975</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>122</item>
+					<item>123</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>29</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_50">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>51</id>
+						<name>mrv_9</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1919905394</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>124</item>
+					<item>125</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>30</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_51">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>52</id>
+						<name>mrv_s</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>7630437</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>126</item>
+					<item>127</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>31</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_52">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>53</id>
+						<name>mrv_10</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_array.h</first>
+											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>24</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2020173407</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>320</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>128</item>
+					<item>129</item>
+				</oprand_edges>
+				<opcode>insertvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>32</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_53">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>54</id>
+						<name>mrv_11</name>
+						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<lineNumber>24</lineNumber>
+						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2034,576 +2604,6 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>110</item>
-					<item>111</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>23</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_44">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>45</id>
-						<name>mrv_3</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>774778400</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>112</item>
-					<item>113</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_45">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>46</id>
-						<name>mrv_4</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1734960750</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>114</item>
-					<item>115</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>25</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_46">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>47</id>
-						<name>mrv_5</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>909261151</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>116</item>
-					<item>117</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>26</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_47">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>48</id>
-						<name>mrv_6</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>757935405</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>118</item>
-					<item>119</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>27</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_48">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>49</id>
-						<name>mrv_7</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>294377864</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>120</item>
-					<item>121</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_49">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>50</id>
-						<name>mrv_8</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1311119488</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>122</item>
-					<item>123</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>29</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_50">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>51</id>
-						<name>mrv_9</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>505313488</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>124</item>
-					<item>125</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>30</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_51">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>52</id>
-						<name>mrv_s</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>294381848</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>126</item>
-					<item>127</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>31</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_52">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>53</id>
-						<name>mrv_10</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1311119488</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>128</item>
-					<item>129</item>
-				</oprand_edges>
-				<opcode>insertvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>32</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_53">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>54</id>
-						<name>mrv_11</name>
-						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
-						<lineNumber>24</lineNumber>
-						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_array.h</first>
-											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>24</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>505313488</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>320</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
 					<item>130</item>
 					<item>131</item>
 				</oprand_edges>
@@ -2623,7 +2623,7 @@
 						<id>55</id>
 						<name>mrv_12</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2631,7 +2631,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2653,7 +2653,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>303906872</coreId>
+						<coreId>7630437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2680,7 +2680,7 @@
 						<id>56</id>
 						<name>mrv_13</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2688,7 +2688,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2710,7 +2710,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1311119488</coreId>
+						<coreId>1869833586</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2737,7 +2737,7 @@
 						<id>57</id>
 						<name>mrv_14</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2745,7 +2745,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2767,7 +2767,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>505313488</coreId>
+						<coreId>1952671082</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2794,7 +2794,7 @@
 						<id>58</id>
 						<name>mrv_15</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2802,7 +2802,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2824,7 +2824,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>303910712</coreId>
+						<coreId>1635000320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2851,7 +2851,7 @@
 						<id>59</id>
 						<name>mrv_16</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2859,7 +2859,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2881,7 +2881,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1311119488</coreId>
+						<coreId>1869438831</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2908,7 +2908,7 @@
 						<id>60</id>
 						<name>mrv_17</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2916,7 +2916,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2938,7 +2938,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>505313488</coreId>
+						<coreId>773864307</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -2965,7 +2965,7 @@
 						<id>61</id>
 						<name>mrv_18</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2973,7 +2973,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2995,7 +2995,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>303914696</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
@@ -3022,7 +3022,7 @@
 						<id>62</id>
 						<name>_ln24</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -3030,7 +3030,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3052,7 +3052,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1311119488</coreId>
+						<coreId>7891302</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3098,7 +3098,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>505313488</coreId>
+						<coreId>570453615</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>

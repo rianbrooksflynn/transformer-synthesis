@@ -1,823 +1,812 @@
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28369:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28530:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1207_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28369:7: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29343:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28530:7: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29504:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_676_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29343:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29357:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29504:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29518:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_690_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29357:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29371:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29518:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29532:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_704_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29371:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30988:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29532:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:31149:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1247_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30988:7: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32971:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:31149:7: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33132:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
         for (unsigned i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_27_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32971:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32984:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33132:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33145:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
         for (size_t i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_40_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32984:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55899:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:33145:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56310:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
     for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
     ^~~
     VITIS_LOOP_265_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55899:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55909:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56310:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56320:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
     for (auto i = 0; i < SIZE; i++)
     ^~~
     VITIS_LOOP_275_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55909:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56320:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56331:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE; i++) {
     ^~~
     VITIS_LOOP_286_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55927:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56331:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56338:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / res_T::size; i++) {
     ^~~
     VITIS_LOOP_293_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55927:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55929:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56338:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56340:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
         for (int j = 0; j < res_T::size; j++) {
         ^~~
         VITIS_LOOP_295_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55929:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55941:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56340:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56352:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / data_T::size; i++) {
     ^~~
     VITIS_LOOP_307_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55941:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55943:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56352:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56354:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
         for (int j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_309_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55943:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55958:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56354:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56369:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_324_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55958:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55978:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56369:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56389:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_344_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55978:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55979:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56389:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56390:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
         for (int jj = 0; jj < ncols; jj++) {
         ^~~
         VITIS_LOOP_345_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55979:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55994:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56390:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56405:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_360_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55994:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56001:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56405:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56412:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_367_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56001:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56601:9: warning: Added loop label VITIS_LOOP_22_1:   [xilinx-label-all-loops]
-        for (int j = 0; j < CONFIG_T::seq_len; ++j) {
-        ^~~
-        VITIS_LOOP_22_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56601:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56603:2: warning: Added loop label VITIS_LOOP_24_2:   [xilinx-label-all-loops]
- for (int i = 0; i < CONFIG_T::n_in; ++i) {
- ^~~
- VITIS_LOOP_24_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56603:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56610:9: warning: Added loop label VITIS_LOOP_31_3:   [xilinx-label-all-loops]
-        for (int j = 0; j < CONFIG_T::seq_len; ++j) {
-        ^~~
-        VITIS_LOOP_31_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56610:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56612:2: warning: Added loop label VITIS_LOOP_33_4:   [xilinx-label-all-loops]
- for (int i = 0; i < CONFIG_T::n_in; ++i) {
- ^~~
- VITIS_LOOP_33_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56612:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58617:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56412:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56764:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56838:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56920:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59005:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                        ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58618:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59006:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                        ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58619:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59007:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                        ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58620:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59008:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
                                                                        ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58621:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59009:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
                                                                        ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58651:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59039:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58652:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59040:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58653:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59041:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58654:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59042:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58655:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59043:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58656:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59044:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58657:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59045:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58658:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59046:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58659:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59047:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58660:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59048:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58710:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59098:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                       ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58711:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59099:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                       ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58712:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59100:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                       ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58739:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59127:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58740:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59128:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58741:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59129:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58742:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59130:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58743:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59131:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58744:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59132:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58780:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59168:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                         ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58781:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59169:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                         ^
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59055:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59443:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_61_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59055:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59101:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59443:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59489:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_117_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59101:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59264:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59489:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59652:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_289_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59264:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59416:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59652:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59804:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_449_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59416:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59596:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59804:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59984:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_629_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59596:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59600:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59984:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59988:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_633_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59600:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59710:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59988:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60098:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_743_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59710:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59800:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60098:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60188:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_840_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59800:7: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59819:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60188:7: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60207:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_859_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59819:7: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60109:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60207:7: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60497:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1173_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60109:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60192:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60497:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60580:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1256_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60192:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60598:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60580:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60986:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
             for (int j = 3; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_68_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60598:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60604:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60986:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60992:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
                 for (int j = 3; j >= I_+1; j--){
                 ^~~
                 VITIS_LOOP_74_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60604:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60608:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60992:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60996:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_78_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60608:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60656:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60996:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61044:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
             for (int j = 9; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_145_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60656:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60662:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61044:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61050:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
                 for (int j = 9; j >= I_+4; j--){
                 ^~~
                 VITIS_LOOP_151_5: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60662:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60666:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61050:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61054:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_155_6: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60666:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60681:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61054:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61069:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
         for (int j = 14; j < 22; j++){
         ^~~
         VITIS_LOOP_170_7: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60681:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60689:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61069:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61077:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++){
                 ^~~
                 VITIS_LOOP_178_8: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60689:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60754:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61077:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61142:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
             for (int j = 21; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_243_9: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60754:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60760:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61142:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61148:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
                 for (int j = 21; j >= I_+10; j--) {
                 ^~~
                 VITIS_LOOP_249_10: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60760:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60764:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61148:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61152:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_253_11: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60764:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60779:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61152:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61167:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
         for (int j = 27; j < 46; j++){
         ^~~
         VITIS_LOOP_268_12: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60779:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60787:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61167:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61175:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_276_13: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60787:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61016:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61175:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61404:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
             for (int j = 45; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_505_14: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61016:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61022:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61404:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61410:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
                 for (int j = 45; j >= I_+22; j--){
                 ^~~
                 VITIS_LOOP_511_15: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61022:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61026:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61410:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61414:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_515_16: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61026:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61036:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61414:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61424:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
         for (int j = 32-F_; j < 32+I_; j++){
         ^~~
         VITIS_LOOP_525_17: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61036:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61040:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61424:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61428:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
         for (int j = 32+I_; j <= 64; j++){
         ^~~
         VITIS_LOOP_529_18: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61040:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61050:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61428:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61438:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
         for (int j = 37; j < 64; j++) {
         ^~~
         VITIS_LOOP_539_19: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61050:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61058:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61438:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61446:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++){
                 ^~~
                 VITIS_LOOP_547_20: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61058:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61419:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61446:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61807:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
             for (int j = 63; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_908_21: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61419:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61425:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61807:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61813:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
                 for (int j = 63; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_914_22: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61425:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61429:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61813:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61817:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_918_23: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61429:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61545:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61817:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61933:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
             for (int j = 4; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_1034_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61545:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61551:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61933:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61939:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
                 for (int j = 4; j >= I_+1; j--) {
                 ^~~
                 VITIS_LOOP_1040_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61551:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61555:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61939:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61943:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1044_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61555:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61642:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61943:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62030:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
             for (int j = 10; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_1131_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61642:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61648:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62030:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62036:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
                 for (int j = 10; j >= I_+4; j--) {
                 ^~~
                 VITIS_LOOP_1137_5: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61648:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61652:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62036:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62040:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1141_6: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61652:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61671:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62040:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62059:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
         for (int j = wf+3; j < w-1; j++) {
         ^~~
         VITIS_LOOP_1160_7: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61671:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61678:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62059:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62066:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++) {
                 ^~~
                 VITIS_LOOP_1167_8: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61678:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61794:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62066:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62182:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
             for (int j = 22; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_1283_9: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61794:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61800:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62182:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62188:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
                 for (int j = 22; j >= I_+10; j--){
                 ^~~
                 VITIS_LOOP_1289_10: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61800:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61804:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62188:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62192:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1293_11: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61804:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61824:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62192:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62212:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
         for (int j = wf+4; j < w-1; j++){
         ^~~
         VITIS_LOOP_1313_12: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61824:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61831:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62212:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62219:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_1320_13: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61831:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62093:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62219:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62481:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
             for (int j = 46; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_1582_14: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62093:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62099:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62481:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62487:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
                 for (int j = 46; j >= I_+22; j--) {
                 ^~~
                 VITIS_LOOP_1588_15: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62099:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62103:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62487:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62491:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1592_16: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62103:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62127:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62491:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62515:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
         for (int j = wf+5; j < w-1; j++){
         ^~~
         VITIS_LOOP_1616_17: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62127:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62134:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62515:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62522:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++) {
                 ^~~
                 VITIS_LOOP_1623_18: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62134:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62564:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62522:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62952:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
             for (int j = 64; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_2053_19: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62564:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62570:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62952:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62958:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
                 for (int j = 64; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_2059_20: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62570:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62574:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62958:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62962:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_2063_21: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62574:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62704:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62962:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63092:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
             for(int j=3; j>=I+1; j--) {
             ^~~
             VITIS_LOOP_2193_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62704:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62711:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63092:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63099:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
                 for(int j=3; j>=I+1; j--) {
                 ^~~
                 VITIS_LOOP_2200_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62711:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62715:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63099:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63103:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
                 for(int j=I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2204_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62715:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62762:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63103:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63150:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
             for(int j=7; j>=3+I; j--) {
             ^~~
             VITIS_LOOP_2251_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62762:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62769:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63150:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63157:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
                 for(int j=7; j>=3+I; j--) {
                 ^~~
                 VITIS_LOOP_2258_5: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62769:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62773:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63157:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63161:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
                 for(int j=I+2; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2262_6: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62773:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62791:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63161:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63179:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
         for(int j=11; j<16; j++) {
         ^~~
         VITIS_LOOP_2280_7: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62791:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62846:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63179:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63234:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
             for(int j=15; j>=7+I; j--) {
             ^~~
             VITIS_LOOP_2335_8: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62846:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62853:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63234:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63241:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
                 for(int j=15; j>=7+I; j--) {
                 ^~~
                 VITIS_LOOP_2342_9: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62853:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62857:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63241:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63245:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
                 for(int j=6+I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2346_10: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62857:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62875:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63245:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63263:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
         for(int j=20; j<32; j++) {
         ^~~
         VITIS_LOOP_2364_11: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62875:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62964:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63263:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63352:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
             for(int j=31; j>=I+15; j--) {
             ^~~
             VITIS_LOOP_2453_12: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62964:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62971:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63352:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63359:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
                 for(int j=31; j>=I+15; j--) {
                 ^~~
                 VITIS_LOOP_2460_13: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62971:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62975:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63359:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63363:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
                 for(int j=I+14; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2464_14: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62975:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62985:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63363:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63373:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
         for(int j=32-F; j<32+I; j++) {
         ^~~
         VITIS_LOOP_2474_15: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62985:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62989:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63373:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63377:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
         for(int j=32+I; j<=64; j++) {
         ^~~
         VITIS_LOOP_2478_16: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62989:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63000:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63377:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63388:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
         for(int j=37; j<64; j++) {
         ^~~
         VITIS_LOOP_2489_17: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63000:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63008:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63388:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63396:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
                 for(int j=0; j<64; j++) {
                 ^~~
                 VITIS_LOOP_2497_18: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63008:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63333:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63396:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63721:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
             for(int j=63; j>=I+31; j--) {
             ^~~
             VITIS_LOOP_2822_19: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63333:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63340:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63721:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63728:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
                 for(int j=63; j>=I+31; j--) {
                 ^~~
                 VITIS_LOOP_2829_20: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63340:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63344:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63728:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63732:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
                 for(int j=I+30; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2833_21: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63344:17: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63432:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63732:17: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63820:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
    for(int j = 5; j>=I_+2; j--) {
    ^~~
    VITIS_LOOP_2921_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63432:4: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63439:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63820:4: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63827:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
     for(int j = 5; j>=I_+2; j--) {
     ^~~
     VITIS_LOOP_2928_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63439:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63443:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63827:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63831:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
     for(int j = I_+1; j>=0; j--) {
     ^~~
     VITIS_LOOP_2932_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63443:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63458:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63831:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63846:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
   for(int j = 11; j >=7; j--) {
   ^~~
   VITIS_LOOP_2947_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63458:3: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63490:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63846:3: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63878:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
    for(int j = 11; j >= I_+5; j--) {
    ^~~
    VITIS_LOOP_2979_5: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63490:4: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63497:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63878:4: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63885:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
     for(int j = 11; j>= I_+5; j--) {
     ^~~
     VITIS_LOOP_2986_6: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63497:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63501:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63885:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63889:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
     for(int j = I_+4; j>=0; j--) {
     ^~~
     VITIS_LOOP_2990_7: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63501:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63516:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63889:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63904:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
   for(int j = 25; j>=15; j--) {
   ^~~
   VITIS_LOOP_3005_8: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63516:3: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63566:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63904:3: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63954:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
    for(int j = 25; j>= I_+12; j--) {
    ^~~
    VITIS_LOOP_3055_9: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63566:4: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63573:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63954:4: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63961:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
     for(int j = 25; j>=I_+12; j--) {
     ^~~
     VITIS_LOOP_3062_10: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63573:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63577:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63961:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63965:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
     for(int j = I_+11; j>=0; j--) {
     ^~~
     VITIS_LOOP_3066_11: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63577:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63592:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63965:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63980:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
   for(int j = 51; j >= 29; j--) {
   ^~~
   VITIS_LOOP_3081_12: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63592:3: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63729:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63980:3: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64117:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
    for(int j = 51; j >= 25 + I_; j--) {
    ^~~
    VITIS_LOOP_3218_13: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63729:4: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63736:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64117:4: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64124:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
     for(int j = 51; j>=25 + I_; j--) {
     ^~~
     VITIS_LOOP_3225_14: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63736:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63740:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64124:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64128:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
     for(int j = 24 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3229_15: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63740:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63755:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64128:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64143:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
   for(int j = 63; j >= 36; j--) {
   ^~~
   VITIS_LOOP_3244_16: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63755:3: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63915:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64143:3: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64303:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
    for(int j = 63; j >= 31 + I_; j--) {
    ^~~
    VITIS_LOOP_3404_17: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63915:4: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63922:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64303:4: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64310:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
     for(int j = 63; j >= 31 + I_; j--) {
     ^~~
     VITIS_LOOP_3411_18: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63922:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63926:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64310:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64314:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
     for(int j = 30 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3415_19: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63926:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64641:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64314:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65029:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_703_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64641:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64859:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65029:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65247:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_921_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64859:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65276:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65247:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65664:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_1345_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65276:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65596:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65664:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65984:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
         for ( int pos = msbr-1; pos >= 0; pos-- ) {
         ^~~
         VITIS_LOOP_240_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65596:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65624:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65984:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66012:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
         for ( int pos = -1; pos >= -F_-1; pos-- ) {
         ^~~
         VITIS_LOOP_268_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65624:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66326:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66012:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66714:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
             for (int j = 0; j < W_-1; j++){
             ^~~
             VITIS_LOOP_48_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66326:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66379:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66714:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66767:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
     for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
     ^~~
     VITIS_LOOP_109_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66379:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66393:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66767:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66781:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
             for (int j = WO_m-1; j >= W_-1; j--) {
             ^~~
             VITIS_LOOP_123_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66393:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66423:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66781:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66811:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
             for (int j = W_-2; j >= 0; j--){
             ^~~
             VITIS_LOOP_153_4: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66423:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66508:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66811:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66896:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
            for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
            ^~~
            VITIS_LOOP_281_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66508:12: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66528:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66896:12: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66916:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
                for (int j = WO_e-1; j >= W_-1; j--) {
                ^~~
                VITIS_LOOP_301_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66528:16: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66542:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66916:16: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66930:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
                    for(int i = 0; i < W_-1; ++i) {
                    ^~~
                    VITIS_LOOP_315_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66542:20: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66635:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66930:20: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67023:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
            for (int j =WO_d-1; j >= W_-1; j--) {
            ^~~
            VITIS_LOOP_433_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66635:12: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66649:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67023:12: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67037:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
               for(int i = 0; i < W_-1; ++i) {
               ^~~
               VITIS_LOOP_447_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66649:15: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66769:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67037:15: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67157:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_33_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66769:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66893:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67157:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67281:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_183_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66893:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66948:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67281:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67336:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_248_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66948:13: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67467:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67336:13: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67855:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_16_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67467:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67478:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67855:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67866:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_27_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67478:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67489:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67866:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67877:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_38_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67489:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67500:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67877:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67888:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_49_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67500:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67511:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67888:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67899:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_60_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67511:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67522:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67899:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67910:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_71_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67522:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67533:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67910:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67921:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_82_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67533:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67544:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67921:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67932:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_93_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67544:2: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:69869:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67932:2: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70257:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
            for(int i = 0; i < W_-1; ++i) {
            ^~~
            VITIS_LOOP_26_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:69869:12: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:69933:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70257:12: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70321:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
       for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
       ^~~
       VITIS_LOOP_40_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:69933:7: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70050:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70321:7: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70438:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
         for(int pos = msbr - 1; pos >= 0; pos--) {
         ^~~
         VITIS_LOOP_49_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70050:9: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70075:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70438:9: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70463:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
     for(int pos = -1; pos >= -F-1; pos--) {
     ^~~
     VITIS_LOOP_81_2: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70075:5: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70145:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70463:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70533:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
        for(int i = 0; i < W - 1; ++i) {
        ^~~
        VITIS_LOOP_169_3: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70145:8: note: FIX-IT applied suggested code changes
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72396:5: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70533:8: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72784:5: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_40_1: 
-/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72396:5: note: FIX-IT applied suggested code changes
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72784:5: note: FIX-IT applied suggested code changes

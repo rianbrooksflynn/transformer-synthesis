@@ -204,10 +204,10 @@ set RtlHierarchyInfo {[
 			{"Name" : "layer2_out_19", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "invert_sqr_table", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "45", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_281", "Port" : "invert_sqr_table"},
-					{"ID" : "31", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_270", "Port" : "invert_sqr_table"},
 					{"ID" : "17", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_259", "Port" : "invert_sqr_table"},
-					{"ID" : "3", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_248", "Port" : "invert_sqr_table"}]}]},
+					{"ID" : "3", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_248", "Port" : "invert_sqr_table"},
+					{"ID" : "45", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_281", "Port" : "invert_sqr_table"},
+					{"ID" : "31", "SubInstance" : "grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_270", "Port" : "invert_sqr_table"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.call_ret3_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s_fu_218", "Parent" : "0",
 		"CDFG" : "transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s",
 		"Protocol" : "ap_ctrl_hs",

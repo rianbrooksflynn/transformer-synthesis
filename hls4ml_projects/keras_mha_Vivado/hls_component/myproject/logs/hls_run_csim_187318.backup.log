@@ -1,0 +1,130 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/myproject.hlsrun_csim_summary, at Mon Nov  4 08:07:07 2024
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject -config /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg -cmdlineconfig /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'rian' on host 'xianle' (Linux_x86_64 version 6.8.0-47-generic) on Mon Nov 04 08:07:09 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 24.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component'
+INFO: [HLS 200-1909] Reading HLS ini file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg
+INFO: [HLS 200-1909] Reading HLS ini file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/hls/config.cmdline
+INFO: [HLS 200-2005] Using work_dir /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject 
+INFO: [HLS 200-1510] Running: open_project /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject -diskless 
+INFO: [HLS 200-1510] Running: open_solution hls 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: apply_ini /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg 
+INFO: [HLS 200-1909] Reading HLS ini file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/myproject.cpp' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/myproject.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file_cflags=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/myproject.cpp,-std=c++0x' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_test.cpp' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_test.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/weights' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/weights' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/tb_data' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/tb_data' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file_cflags=/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_test.cpp,-std=c++0x' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying ini 'syn.top=myproject' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(6)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xcvu13p-flga2577-2-e' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=5ns' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(4)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=12.5%' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(5)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+INFO: [HLS 200-1465] Applying ini 'syn.compile.name_max_length=80' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(14)
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1465] Applying ini 'syn.schedule.enable_dsp_full_reg=0' at /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg(15)
+INFO: [HLS 200-1510] Running: apply_ini /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/hls/config.cmdline 
+INFO: [HLS 200-1909] Reading HLS ini file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/hls/config.cmdline
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../firmware/myproject.cpp in debug mode
+In file included from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:40:8: error: redefinition of ‘struct nnet::datapack<PackSize, data_T>’
+ struct datapack {
+        ^~~~~~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:38:46: note: previous definition of ‘struct nnet::datapack<PackSize, data_T>’
+ template <int PackSize, class data_T> struct datapack { data_T data[PackSize]; };
+                                              ^~~~~~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h: In instantiation of ‘void nnet::multiheadattention(data_T*, data_T*, res_T*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*) [with data_T = ap_fixed<16, 6>; res_T = ap_fixed<33, 13>; CONFIG_T = config3; typename CONFIG_T::weight_t = ap_fixed<16, 6>; typename CONFIG_T::bias_t = ap_fixed<16, 6>]’:
+../../../../../firmware/myproject.cpp:40:169:   required from here
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:349:59: error: no matching function for call to ‘matrixmul_transpose<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>(hls::stream<nnet::datapack<2, ap_fixed<16, 6> >, 0>&, hls::stream<nnet::datapack<2, ap_fixed<16, 6> >, 0>&, ap_fixed<16, 6> [100][100])’
+         nnet::matrixmul_transpose<data_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:73:6: note: candidate: ‘template<class data_T, class res_T, class CONFIG_T> void nnet::matrixmul_transpose(hls::stream<nnet::datapack<CONFIG_T::head_dim_key, data_T> >&, hls::stream<nnet::datapack<CONFIG_T::head_dim_key, data_T> >&, res_T (*)[CONFIG_T::seq_len])’
+ void matrixmul_transpose(
+      ^~~~~~~~~~~~~~~~~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:73:6: note:   template argument deduction/substitution failed:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:349:88: note:   cannot convert ‘qk_mul[i]’ (type ‘ap_fixed<16, 6> [100][100]’) to type ‘ap_fixed<33, 13> (*)[100]’
+         nnet::matrixmul_transpose<data_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
+                                                                                  ~~~~~~^
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h: In instantiation of ‘void nnet::lin_projection(hls::stream<__STREAM_T__, 0>*, hls::stream<__STREAM_T__, 0>*, hls::stream<nnet::datapack<CONFIG_T::head_dim_key, data_T> >&, hls::stream<nnet::datapack<CONFIG_T::head_dim_key, data_T> >&, hls::stream<nnet::datapack<CONFIG_T::head_dim_value, data_T> >&, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*) [with data_T = ap_fixed<16, 6>; res_T = ap_fixed<33, 13>; CONFIG_T = config3; typename CONFIG_T::weight_t = ap_fixed<16, 6>; typename CONFIG_T::bias_t = ap_fixed<16, 6>]’:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:338:54:   required from ‘void nnet::multiheadattention(data_T*, data_T*, res_T*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*) [with data_T = ap_fixed<16, 6>; res_T = ap_fixed<33, 13>; CONFIG_T = config3; typename CONFIG_T::weight_t = ap_fixed<16, 6>; typename CONFIG_T::bias_t = ap_fixed<16, 6>]’
+../../../../../firmware/myproject.cpp:40:169:   required from here
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:238:62: error: no matching function for call to ‘dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config3::config_mult1>(ap_fixed<16, 6> [16], ap_fixed<16, 6> [2], config3::weight_t*&, config3::bias_t*&)’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_k_pack.data, key_weight, key_bias);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../firmware/nnet_utils/nnet_multiheadattention.h:7,
+                 from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note: candidate: ‘template<class data_T, class res_T, class CONFIG_T> void nnet::dense(data_T*, res_T*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*)’
+ void dense(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_out],
+      ^~~~~
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note:   template argument deduction/substitution failed:
+In file included from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:238:81: note:   cannot convert ‘proj_k_pack.nnet::datapack<2, ap_fixed<16, 6> >::data’ (type ‘ap_fixed<16, 6> [2]’) to type ‘ap_fixed<33, 13>*’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_k_pack.data, key_weight, key_bias);
+                                                                     ~~~~~~~~~~~~^~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:239:62: error: no matching function for call to ‘dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config3::config_mult1>(ap_fixed<16, 6> [16], ap_fixed<16, 6> [2], config3::weight_t*&, config3::bias_t*&)’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_q, proj_q_pack.data, query_weight, query_bias);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../firmware/nnet_utils/nnet_multiheadattention.h:7,
+                 from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note: candidate: ‘template<class data_T, class res_T, class CONFIG_T> void nnet::dense(data_T*, res_T*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*)’
+ void dense(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_out],
+      ^~~~~
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note:   template argument deduction/substitution failed:
+In file included from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:239:81: note:   cannot convert ‘proj_q_pack.nnet::datapack<2, ap_fixed<16, 6> >::data’ (type ‘ap_fixed<16, 6> [2]’) to type ‘ap_fixed<33, 13>*’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_q, proj_q_pack.data, query_weight, query_bias);
+                                                                     ~~~~~~~~~~~~^~~~
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:240:62: error: no matching function for call to ‘dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config3::config_mult1>(ap_fixed<16, 6> [16], ap_fixed<16, 6> [2], config3::weight_t*&, config3::bias_t*&)’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_v_pack.data, value_weight, value_bias);
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../firmware/nnet_utils/nnet_multiheadattention.h:7,
+                 from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note: candidate: ‘template<class data_T, class res_T, class CONFIG_T> void nnet::dense(data_T*, res_T*, typename CONFIG_T::weight_t*, typename CONFIG_T::bias_t*)’
+ void dense(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_out],
+      ^~~~~
+../../../../../firmware/nnet_utils/nnet_dense.h:41:6: note:   template argument deduction/substitution failed:
+In file included from ../../../../../firmware/parameters.h:10,
+                 from ../../../../../firmware/myproject.cpp:4:
+../../../../../firmware/nnet_utils/nnet_multiheadattention.h:240:81: note:   cannot convert ‘proj_v_pack.nnet::datapack<2, ap_fixed<16, 6> >::data’ (type ‘ap_fixed<16, 6> [2]’) to type ‘ap_fixed<33, 13>*’
+         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_v_pack.data, value_weight, value_bias);
+                                                                     ~~~~~~~~~~~~^~~~
+make: *** [csim.mk:85: obj/myproject.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1.59 seconds. CPU system time: 0.18 seconds. Elapsed time: 1.77 seconds; current allocated memory: 0.215 MB.
+INFO: [HLS 200-1510] Running: close_project 
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 3.09 seconds. Total CPU system time: 0.35 seconds. Total elapsed time: 3.26 seconds; peak allocated memory: 237.012 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Nov  4 08:07:12 2024...

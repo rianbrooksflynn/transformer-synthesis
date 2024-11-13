@@ -16,8 +16,8 @@ batch_size = 1
 
 layernorm_in_shape = (4, 5)
 
-seq_len = 100
-num_heads = 8
+seq_len = 20
+num_heads = 2
 key_dim = 2
 embed_dim = num_heads * key_dim
 
@@ -126,10 +126,44 @@ def pytorch_mha():
     hls_model.compile()
 
 
+def keras_layernorm_old():
+    model = tf.keras.models.Sequential()
+    model.add(tf.keras.layers.LayerNormalization(input_shape=layernorm_in_shape))
+    model.compile()
+
+    predictions = model.predict(layernorm_data)
+    out_file = str(file_path / 'data' / 'keras_layernorm_predictions.dat')
+    save_data(predictions, out_file)
+
+    config = hls4ml.utils.config_from_keras_model(model, granularity='name')
+    output_dir = str(file_path / 'hls4ml_projects' / 'OLD_keras_layernorm_Vivado')
+    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
+    hls_model.compile()
+
+
+def keras_mha_old():
+    query_input = tf.keras.layers.Input(shape=(seq_len, embed_dim))
+    key_value_input = tf.keras.layers.Input(shape=(seq_len, embed_dim))
+    mha_layer = tf.keras.layers.MultiHeadAttention(num_heads=num_heads, key_dim=key_dim)(query_input, key_value_input)
+    model = tf.keras.Model(inputs=[query_input, key_value_input], outputs=mha_layer)
+    model.compile()
+
+    predictions = model.predict([mha_q_data, mha_kv_data])
+    out_file = str(file_path / 'data' / 'keras_mha_predictions.dat')
+    save_data(predictions, out_file)
+
+    config = hls4ml.utils.config_from_keras_model(model, granularity='name')
+    output_dir = str(file_path / 'hls4ml_projects' / 'OLD_keras_mha_Vivado')
+    hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
+    hls_model.compile()
+
+
 if __name__ == "__main__":
-    save_layernorm_data()
+    # save_layernorm_data()
     save_mha_data()
-    keras_layernorm()
-    pytorch_layernorm()
-    keras_mha()
-    pytorch_mha()
+    # keras_layernorm()
+    # pytorch_layernorm()
+    # keras_mha()
+    # pytorch_mha()
+    keras_mha_old()
+    # keras_layernorm_old()

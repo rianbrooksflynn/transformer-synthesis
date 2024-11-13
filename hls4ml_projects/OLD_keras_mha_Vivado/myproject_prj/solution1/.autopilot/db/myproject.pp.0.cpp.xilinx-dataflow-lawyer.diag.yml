@@ -1,0 +1,20 @@
+---
+MainSourceFile:  /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '318:9'
+    FilePath:        firmware/nnet_utils/nnet_multiheadattention.h
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '318:9'
+    FilePath:        firmware/nnet_utils/nnet_multiheadattention.h
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '318:9'
+    FilePath:        firmware/nnet_utils/nnet_multiheadattention.h
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-12] There are a total of 5 such instances of non-canonical statements in the dataflow region'
+    FileOffset:      '318:9'
+    FilePath:        firmware/nnet_utils/nnet_multiheadattention.h
+...

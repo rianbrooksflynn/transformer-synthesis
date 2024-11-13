@@ -1,0 +1,251 @@
+
+
+================================================================
+== Vitis HLS Report for 'lin_projection_ap_fixed_ap_fixed_16_6_5_3_0_config3_s'
+================================================================
+* Date:           Wed Nov 13 10:38:27 2024
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku115-flvb2104-2-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.570 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       23|       23|  0.115 us|  0.115 us|   23|   23|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------------------------------+--------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                                                   |                                                        |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                              Instance                             |                         Module                         |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +-------------------------------------------------------------------+--------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_read_stream_array_ap_fixed_16_6_5_3_0_4_s_fu_73                |read_stream_array_ap_fixed_16_6_5_3_0_4_s               |        0|        0|       0 ns|       0 ns|    0|    0|       no|
+        |grp_read_stream_array_ap_fixed_16_6_5_3_0_4_s_fu_85                |read_stream_array_ap_fixed_16_6_5_3_0_4_s               |        0|        0|       0 ns|       0 ns|    0|    0|       no|
+        |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2_fu_97   |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2  |        3|        3|  15.000 ns|  15.000 ns|    1|    1|      yes|
+        |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1_fu_109  |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1  |        3|        3|  15.000 ns|  15.000 ns|    1|    1|      yes|
+        |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s_fu_121  |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s  |        3|        3|  15.000 ns|  15.000 ns|    1|    1|      yes|
+        +-------------------------------------------------------------------+--------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+------+---------+--------+-----+
+|         Name        | BRAM_18K|  DSP |    FF   |   LUT  | URAM|
++---------------------+---------+------+---------+--------+-----+
+|DSP                  |        -|     -|        -|       -|    -|
+|Expression           |        -|     -|        0|      20|    -|
+|FIFO                 |        -|     -|        -|       -|    -|
+|Instance             |        0|    24|     1438|     841|    -|
+|Memory               |        -|     -|        -|       -|    -|
+|Multiplexer          |        -|     -|        -|     621|    -|
+|Register             |        -|     -|      125|       -|    -|
++---------------------+---------+------+---------+--------+-----+
+|Total                |        0|    24|     1563|    1482|    0|
++---------------------+---------+------+---------+--------+-----+
+|Available SLR        |     2160|  2760|   663360|  331680|    0|
++---------------------+---------+------+---------+--------+-----+
+|Utilization SLR (%)  |        0|    ~0|       ~0|      ~0|  100|
++---------------------+---------+------+---------+--------+-----+
+|Available            |     4320|  5520|  1326720|  663360|    0|
++---------------------+---------+------+---------+--------+-----+
+|Utilization (%)      |        0|    ~0|       ~0|      ~0|    0|
++---------------------+---------+------+---------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------------------------------------------+--------------------------------------------------------+---------+----+-----+-----+-----+
+    |                              Instance                             |                         Module                         | BRAM_18K| DSP|  FF | LUT | URAM|
+    +-------------------------------------------------------------------+--------------------------------------------------------+---------+----+-----+-----+-----+
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1_fu_109  |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1  |        0|   8|  436|  231|    0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2_fu_97   |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2  |        0|   8|  436|  231|    0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s_fu_121  |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s  |        0|   8|  436|  231|    0|
+    |grp_read_stream_array_ap_fixed_16_6_5_3_0_4_s_fu_73                |read_stream_array_ap_fixed_16_6_5_3_0_4_s               |        0|   0|   65|   74|    0|
+    |grp_read_stream_array_ap_fixed_16_6_5_3_0_4_s_fu_85                |read_stream_array_ap_fixed_16_6_5_3_0_4_s               |        0|   0|   65|   74|    0|
+    +-------------------------------------------------------------------+--------------------------------------------------------+---------+----+-----+-----+-----+
+    |Total                                                              |                                                        |        0|  24| 1438|  841|    0|
+    +-------------------------------------------------------------------+--------------------------------------------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |          Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state1                  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state10                 |        or|   0|  0|   2|           1|           1|
+    |ap_block_state10_ignore_call236  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state10_ignore_call241  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state1_ignore_call11    |        or|   0|  0|   2|           1|           1|
+    |ap_block_state1_ignore_call16    |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2                  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state21                 |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_ignore_call36    |        or|   0|  0|   2|           1|           1|
+    |ap_block_state2_ignore_call41    |        or|   0|  0|   2|           1|           1|
+    +---------------------------------+----------+----+---+----+------------+------------+
+    |Total                            |          |   0|  0|  20|          10|          10|
+    +---------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------------------------------------------------+-----+-----------+-----+-----------+
+    |                                    Name                                    | LUT | Input Size| Bits| Total Bits|
+    +----------------------------------------------------------------------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm                                                                   |  114|         25|    1|         25|
+    |ap_done                                                                     |    9|          2|    1|          2|
+    |d_query_1_0_blk_n                                                           |    9|          2|    1|          2|
+    |d_query_1_0_read                                                            |    9|          2|    1|          2|
+    |d_query_1_1_blk_n                                                           |    9|          2|    1|          2|
+    |d_query_1_1_read                                                            |    9|          2|    1|          2|
+    |d_query_1_2_blk_n                                                           |    9|          2|    1|          2|
+    |d_query_1_2_read                                                            |    9|          2|    1|          2|
+    |d_query_1_3_blk_n                                                           |    9|          2|    1|          2|
+    |d_query_1_3_read                                                            |    9|          2|    1|          2|
+    |d_value_1_0_blk_n                                                           |    9|          2|    1|          2|
+    |d_value_1_0_read                                                            |    9|          2|    1|          2|
+    |d_value_1_1_blk_n                                                           |    9|          2|    1|          2|
+    |d_value_1_1_read                                                            |    9|          2|    1|          2|
+    |d_value_1_2_blk_n                                                           |    9|          2|    1|          2|
+    |d_value_1_2_read                                                            |    9|          2|    1|          2|
+    |d_value_1_3_blk_n                                                           |    9|          2|    1|          2|
+    |d_value_1_3_read                                                            |    9|          2|    1|          2|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1_fu_109_ap_start  |    9|          2|    1|          2|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2_fu_97_ap_start   |    9|          2|    1|          2|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s_fu_121_ap_start  |    9|          2|    1|          2|
+    |k_proj_1_blk_n                                                              |    9|          2|    1|          2|
+    |k_proj_1_din                                                                |   97|         21|   32|        672|
+    |q_proj_1_blk_n                                                              |    9|          2|    1|          2|
+    |q_proj_1_din                                                                |   97|         21|   32|        672|
+    |real_start                                                                  |    9|          2|    1|          2|
+    |v_proj_1_blk_n                                                              |    9|          2|    1|          2|
+    |v_proj_1_din                                                                |   97|         21|   32|        672|
+    +----------------------------------------------------------------------------+-----+-----------+-----+-----------+
+    |Total                                                                       |  621|        136|  121|       2089|
+    +----------------------------------------------------------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------------------------------+----+----+-----+-----------+
+    |                                      Name                                      | FF | LUT| Bits| Const Bits|
+    +--------------------------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                                       |  24|   0|   24|          0|
+    |ap_done_reg                                                                     |   1|   0|    1|          0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_1_fu_109_ap_start_reg  |   1|   0|    1|          0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_2_fu_97_ap_start_reg   |   1|   0|    1|          0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config3_1_s_fu_121_ap_start_reg  |   1|   0|    1|          0|
+    |reg_201                                                                         |  16|   0|   16|          0|
+    |reg_205                                                                         |  16|   0|   16|          0|
+    |reg_209                                                                         |  16|   0|   16|          0|
+    |reg_213                                                                         |  16|   0|   16|          0|
+    |reg_217                                                                         |  16|   0|   16|          0|
+    |reg_221                                                                         |  16|   0|   16|          0|
+    |start_once_reg                                                                  |   1|   0|    1|          0|
+    +--------------------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                                           | 125|   0|  125|          0|
+    +--------------------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+-------------------------------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |                     Source Object                     |    C Type    |
++----------------------------+-----+-----+------------+-------------------------------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|start_full_n                |   in|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_continue                 |   in|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|start_out                   |  out|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|start_write                 |  out|    1|  ap_ctrl_hs|  lin_projection<ap_fixed,ap_fixed<16,6,5,3,0>,config3>|  return value|
+|d_query_1_0_dout            |   in|   16|     ap_fifo|                                            d_query_1_0|       pointer|
+|d_query_1_0_num_data_valid  |   in|    3|     ap_fifo|                                            d_query_1_0|       pointer|
+|d_query_1_0_fifo_cap        |   in|    3|     ap_fifo|                                            d_query_1_0|       pointer|
+|d_query_1_0_empty_n         |   in|    1|     ap_fifo|                                            d_query_1_0|       pointer|
+|d_query_1_0_read            |  out|    1|     ap_fifo|                                            d_query_1_0|       pointer|
+|d_query_1_1_dout            |   in|   16|     ap_fifo|                                            d_query_1_1|       pointer|
+|d_query_1_1_num_data_valid  |   in|    3|     ap_fifo|                                            d_query_1_1|       pointer|
+|d_query_1_1_fifo_cap        |   in|    3|     ap_fifo|                                            d_query_1_1|       pointer|
+|d_query_1_1_empty_n         |   in|    1|     ap_fifo|                                            d_query_1_1|       pointer|
+|d_query_1_1_read            |  out|    1|     ap_fifo|                                            d_query_1_1|       pointer|
+|d_query_1_2_dout            |   in|   16|     ap_fifo|                                            d_query_1_2|       pointer|
+|d_query_1_2_num_data_valid  |   in|    3|     ap_fifo|                                            d_query_1_2|       pointer|
+|d_query_1_2_fifo_cap        |   in|    3|     ap_fifo|                                            d_query_1_2|       pointer|
+|d_query_1_2_empty_n         |   in|    1|     ap_fifo|                                            d_query_1_2|       pointer|
+|d_query_1_2_read            |  out|    1|     ap_fifo|                                            d_query_1_2|       pointer|
+|d_query_1_3_dout            |   in|   16|     ap_fifo|                                            d_query_1_3|       pointer|
+|d_query_1_3_num_data_valid  |   in|    3|     ap_fifo|                                            d_query_1_3|       pointer|
+|d_query_1_3_fifo_cap        |   in|    3|     ap_fifo|                                            d_query_1_3|       pointer|
+|d_query_1_3_empty_n         |   in|    1|     ap_fifo|                                            d_query_1_3|       pointer|
+|d_query_1_3_read            |  out|    1|     ap_fifo|                                            d_query_1_3|       pointer|
+|d_value_1_0_dout            |   in|   16|     ap_fifo|                                            d_value_1_0|       pointer|
+|d_value_1_0_num_data_valid  |   in|    3|     ap_fifo|                                            d_value_1_0|       pointer|
+|d_value_1_0_fifo_cap        |   in|    3|     ap_fifo|                                            d_value_1_0|       pointer|
+|d_value_1_0_empty_n         |   in|    1|     ap_fifo|                                            d_value_1_0|       pointer|
+|d_value_1_0_read            |  out|    1|     ap_fifo|                                            d_value_1_0|       pointer|
+|d_value_1_1_dout            |   in|   16|     ap_fifo|                                            d_value_1_1|       pointer|
+|d_value_1_1_num_data_valid  |   in|    3|     ap_fifo|                                            d_value_1_1|       pointer|
+|d_value_1_1_fifo_cap        |   in|    3|     ap_fifo|                                            d_value_1_1|       pointer|
+|d_value_1_1_empty_n         |   in|    1|     ap_fifo|                                            d_value_1_1|       pointer|
+|d_value_1_1_read            |  out|    1|     ap_fifo|                                            d_value_1_1|       pointer|
+|d_value_1_2_dout            |   in|   16|     ap_fifo|                                            d_value_1_2|       pointer|
+|d_value_1_2_num_data_valid  |   in|    3|     ap_fifo|                                            d_value_1_2|       pointer|
+|d_value_1_2_fifo_cap        |   in|    3|     ap_fifo|                                            d_value_1_2|       pointer|
+|d_value_1_2_empty_n         |   in|    1|     ap_fifo|                                            d_value_1_2|       pointer|
+|d_value_1_2_read            |  out|    1|     ap_fifo|                                            d_value_1_2|       pointer|
+|d_value_1_3_dout            |   in|   16|     ap_fifo|                                            d_value_1_3|       pointer|
+|d_value_1_3_num_data_valid  |   in|    3|     ap_fifo|                                            d_value_1_3|       pointer|
+|d_value_1_3_fifo_cap        |   in|    3|     ap_fifo|                                            d_value_1_3|       pointer|
+|d_value_1_3_empty_n         |   in|    1|     ap_fifo|                                            d_value_1_3|       pointer|
+|d_value_1_3_read            |  out|    1|     ap_fifo|                                            d_value_1_3|       pointer|
+|k_proj_1_din                |  out|   32|     ap_fifo|                                               k_proj_1|       pointer|
+|k_proj_1_num_data_valid     |   in|    3|     ap_fifo|                                               k_proj_1|       pointer|
+|k_proj_1_fifo_cap           |   in|    3|     ap_fifo|                                               k_proj_1|       pointer|
+|k_proj_1_full_n             |   in|    1|     ap_fifo|                                               k_proj_1|       pointer|
+|k_proj_1_write              |  out|    1|     ap_fifo|                                               k_proj_1|       pointer|
+|q_proj_1_din                |  out|   32|     ap_fifo|                                               q_proj_1|       pointer|
+|q_proj_1_num_data_valid     |   in|    3|     ap_fifo|                                               q_proj_1|       pointer|
+|q_proj_1_fifo_cap           |   in|    3|     ap_fifo|                                               q_proj_1|       pointer|
+|q_proj_1_full_n             |   in|    1|     ap_fifo|                                               q_proj_1|       pointer|
+|q_proj_1_write              |  out|    1|     ap_fifo|                                               q_proj_1|       pointer|
+|v_proj_1_din                |  out|   32|     ap_fifo|                                               v_proj_1|       pointer|
+|v_proj_1_num_data_valid     |   in|    3|     ap_fifo|                                               v_proj_1|       pointer|
+|v_proj_1_fifo_cap           |   in|    3|     ap_fifo|                                               v_proj_1|       pointer|
+|v_proj_1_full_n             |   in|    1|     ap_fifo|                                               v_proj_1|       pointer|
+|v_proj_1_write              |  out|    1|     ap_fifo|                                               v_proj_1|       pointer|
++----------------------------+-----+-----+------------+-------------------------------------------------------+--------------+
+

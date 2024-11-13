@@ -1,0 +1,316 @@
+
+
+================================================================
+== Synthesis Summary Report of 'myproject'
+================================================================
++ General Information: 
+    * Date:           Tue Nov 12 10:45:33 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        myproject_prj
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu13p-flga2577-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+    |                               Modules                              | Issue|      | Latency | Latency| Iteration|         | Trip |          |          |          |            |            |     |
+    |                               & Loops                              | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined|   BRAM   |    DSP   |     FF     |     LUT    | URAM|
+    +--------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+    |+ myproject                                                         |    II|  0.12|        4|  20.000|         -|        1|     -|       yes|  16 (~0%)|  48 (~0%)|  2130 (~0%)|  3408 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |     -|  0.12|        4|  20.000|         -|        1|     -|       yes|   4 (~0%)|  12 (~0%)|   451 (~0%)|   840 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |     -|  0.12|        4|  20.000|         -|        1|     -|       yes|   4 (~0%)|  12 (~0%)|   451 (~0%)|   840 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |     -|  0.12|        4|  20.000|         -|        1|     -|       yes|   4 (~0%)|  12 (~0%)|   451 (~0%)|   840 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s  |     -|  0.12|        4|  20.000|         -|        1|     -|       yes|   4 (~0%)|  12 (~0%)|   451 (~0%)|   840 (~0%)|    -|
+    +--------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+----------+----------+------------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++---------------------------+--------+-----------+----------+
+| Port                      | Mode   | Direction | Bitwidth |
++---------------------------+--------+-----------+----------+
+| layer2_out_0              | ap_vld | out       | 33       |
+| layer2_out_1              | ap_vld | out       | 33       |
+| layer2_out_10             | ap_vld | out       | 33       |
+| layer2_out_11             | ap_vld | out       | 33       |
+| layer2_out_12             | ap_vld | out       | 33       |
+| layer2_out_13             | ap_vld | out       | 33       |
+| layer2_out_14             | ap_vld | out       | 33       |
+| layer2_out_15             | ap_vld | out       | 33       |
+| layer2_out_16             | ap_vld | out       | 33       |
+| layer2_out_17             | ap_vld | out       | 33       |
+| layer2_out_18             | ap_vld | out       | 33       |
+| layer2_out_19             | ap_vld | out       | 33       |
+| layer2_out_2              | ap_vld | out       | 33       |
+| layer2_out_3              | ap_vld | out       | 33       |
+| layer2_out_4              | ap_vld | out       | 33       |
+| layer2_out_5              | ap_vld | out       | 33       |
+| layer2_out_6              | ap_vld | out       | 33       |
+| layer2_out_7              | ap_vld | out       | 33       |
+| layer2_out_8              | ap_vld | out       | 33       |
+| layer2_out_9              | ap_vld | out       | 33       |
+| layer_normalization_input | ap_vld | in        | 320      |
++---------------------------+--------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++---------------------------+-----------+---------------------------------------+
+| Argument                  | Direction | Datatype                              |
++---------------------------+-----------+---------------------------------------+
+| layer_normalization_input | in        | ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>*  |
+| layer2_out                | out       | ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>* |
++---------------------------+-----------+---------------------------------------+
+
+* SW-to-HW Mapping
++---------------------------+----------------------------------+---------+
+| Argument                  | HW Interface                     | HW Type |
++---------------------------+----------------------------------+---------+
+| layer_normalization_input | layer_normalization_input_ap_vld | port    |
+| layer_normalization_input | layer_normalization_input        | port    |
+| layer2_out                | layer2_out_0                     | port    |
+| layer2_out                | layer2_out_0_ap_vld              | port    |
+| layer2_out                | layer2_out_1                     | port    |
+| layer2_out                | layer2_out_1_ap_vld              | port    |
+| layer2_out                | layer2_out_2                     | port    |
+| layer2_out                | layer2_out_2_ap_vld              | port    |
+| layer2_out                | layer2_out_3                     | port    |
+| layer2_out                | layer2_out_3_ap_vld              | port    |
+| layer2_out                | layer2_out_4                     | port    |
+| layer2_out                | layer2_out_4_ap_vld              | port    |
+| layer2_out                | layer2_out_5                     | port    |
+| layer2_out                | layer2_out_5_ap_vld              | port    |
+| layer2_out                | layer2_out_6                     | port    |
+| layer2_out                | layer2_out_6_ap_vld              | port    |
+| layer2_out                | layer2_out_7                     | port    |
+| layer2_out                | layer2_out_7_ap_vld              | port    |
+| layer2_out                | layer2_out_8                     | port    |
+| layer2_out                | layer2_out_8_ap_vld              | port    |
+| layer2_out                | layer2_out_9                     | port    |
+| layer2_out                | layer2_out_9_ap_vld              | port    |
+| layer2_out                | layer2_out_10                    | port    |
+| layer2_out                | layer2_out_10_ap_vld             | port    |
+| layer2_out                | layer2_out_11                    | port    |
+| layer2_out                | layer2_out_11_ap_vld             | port    |
+| layer2_out                | layer2_out_12                    | port    |
+| layer2_out                | layer2_out_12_ap_vld             | port    |
+| layer2_out                | layer2_out_13                    | port    |
+| layer2_out                | layer2_out_13_ap_vld             | port    |
+| layer2_out                | layer2_out_14                    | port    |
+| layer2_out                | layer2_out_14_ap_vld             | port    |
+| layer2_out                | layer2_out_15                    | port    |
+| layer2_out                | layer2_out_15_ap_vld             | port    |
+| layer2_out                | layer2_out_16                    | port    |
+| layer2_out                | layer2_out_16_ap_vld             | port    |
+| layer2_out                | layer2_out_17                    | port    |
+| layer2_out                | layer2_out_17_ap_vld             | port    |
+| layer2_out                | layer2_out_18                    | port    |
+| layer2_out                | layer2_out_18_ap_vld             | port    |
+| layer2_out                | layer2_out_19                    | port    |
+| layer2_out                | layer2_out_19_ap_vld             | port    |
++---------------------------+----------------------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+-------------+-----+--------+---------+
+| Name                                                                                                                                            | DSP | Pragma | Variable    | Op  | Impl   | Latency |
++-------------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+-------------+-----+--------+---------+
+| + myproject                                                                                                                                     | 48  |        |             |     |        |         |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292) | 12  |        |             |     |        |         |
+|    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
+|    sub_ln132_fu_211_p2                                                                                                                          |     |        | sub_ln132   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln133   | mul | auto   | 0       |
+|    sub_ln132_1_fu_217_p2                                                                                                                        |     |        | sub_ln132_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln133_1 | mul | auto   | 0       |
+|    sub_ln132_2_fu_223_p2                                                                                                                        |     |        | sub_ln132_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln133_2 | mul | auto   | 0       |
+|    sub_ln132_3_fu_229_p2                                                                                                                        |     |        | sub_ln132_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln133_3 | mul | auto   | 0       |
+|    sub_ln132_4_fu_235_p2                                                                                                                        |     |        | sub_ln132_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln133_4 | mul | auto   | 0       |
+|    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
+|    add_ln138_fu_415_p2                                                                                                                          |     |        | add_ln138   | add | fabric | 0       |
+|    mul_26ns_19s_45_1_1_U8                                                                                                                       | 1   |        | mul_ln146   | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U9                                                                                                                       | 1   |        | mul_ln146_1 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U10                                                                                                                      | 1   |        | mul_ln146_2 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U11                                                                                                                      | 1   |        | mul_ln146_3 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U12                                                                                                                      | 1   |        | mul_ln146_4 | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303) | 12  |        |             |     |        |         |
+|    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
+|    sub_ln132_fu_211_p2                                                                                                                          |     |        | sub_ln132   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln133   | mul | auto   | 0       |
+|    sub_ln132_1_fu_217_p2                                                                                                                        |     |        | sub_ln132_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln133_1 | mul | auto   | 0       |
+|    sub_ln132_2_fu_223_p2                                                                                                                        |     |        | sub_ln132_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln133_2 | mul | auto   | 0       |
+|    sub_ln132_3_fu_229_p2                                                                                                                        |     |        | sub_ln132_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln133_3 | mul | auto   | 0       |
+|    sub_ln132_4_fu_235_p2                                                                                                                        |     |        | sub_ln132_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln133_4 | mul | auto   | 0       |
+|    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
+|    add_ln138_fu_415_p2                                                                                                                          |     |        | add_ln138   | add | fabric | 0       |
+|    mul_26ns_19s_45_1_1_U8                                                                                                                       | 1   |        | mul_ln146   | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U9                                                                                                                       | 1   |        | mul_ln146_1 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U10                                                                                                                      | 1   |        | mul_ln146_2 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U11                                                                                                                      | 1   |        | mul_ln146_3 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U12                                                                                                                      | 1   |        | mul_ln146_4 | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314) | 12  |        |             |     |        |         |
+|    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
+|    sub_ln132_fu_211_p2                                                                                                                          |     |        | sub_ln132   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln133   | mul | auto   | 0       |
+|    sub_ln132_1_fu_217_p2                                                                                                                        |     |        | sub_ln132_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln133_1 | mul | auto   | 0       |
+|    sub_ln132_2_fu_223_p2                                                                                                                        |     |        | sub_ln132_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln133_2 | mul | auto   | 0       |
+|    sub_ln132_3_fu_229_p2                                                                                                                        |     |        | sub_ln132_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln133_3 | mul | auto   | 0       |
+|    sub_ln132_4_fu_235_p2                                                                                                                        |     |        | sub_ln132_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln133_4 | mul | auto   | 0       |
+|    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
+|    add_ln138_fu_415_p2                                                                                                                          |     |        | add_ln138   | add | fabric | 0       |
+|    mul_26ns_19s_45_1_1_U8                                                                                                                       | 1   |        | mul_ln146   | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U9                                                                                                                       | 1   |        | mul_ln146_1 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U10                                                                                                                      | 1   |        | mul_ln146_2 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U11                                                                                                                      | 1   |        | mul_ln146_3 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U12                                                                                                                      | 1   |        | mul_ln146_4 | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325) | 12  |        |             |     |        |         |
+|    mul_19s_12ns_31_1_1_U1                                                                                                                       | 1   |        | mul_ln73    | mul | auto   | 0       |
+|    sub_ln132_fu_211_p2                                                                                                                          |     |        | sub_ln132   | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U2                                                                                                                        | 1   |        | mul_ln133   | mul | auto   | 0       |
+|    sub_ln132_1_fu_217_p2                                                                                                                        |     |        | sub_ln132_1 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U3                                                                                                                        | 1   |        | mul_ln133_1 | mul | auto   | 0       |
+|    sub_ln132_2_fu_223_p2                                                                                                                        |     |        | sub_ln132_2 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U4                                                                                                                        | 1   |        | mul_ln133_2 | mul | auto   | 0       |
+|    sub_ln132_3_fu_229_p2                                                                                                                        |     |        | sub_ln132_3 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U5                                                                                                                        | 1   |        | mul_ln133_3 | mul | auto   | 0       |
+|    sub_ln132_4_fu_235_p2                                                                                                                        |     |        | sub_ln132_4 | sub | fabric | 0       |
+|    mul_19s_19s_32_1_1_U6                                                                                                                        | 1   |        | mul_ln133_4 | mul | auto   | 0       |
+|    mul_19s_12ns_31_1_1_U7                                                                                                                       | 1   |        | mul_ln73_1  | mul | auto   | 0       |
+|    add_ln138_fu_415_p2                                                                                                                          |     |        | add_ln138   | add | fabric | 0       |
+|    mul_26ns_19s_45_1_1_U8                                                                                                                       | 1   |        | mul_ln146   | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U9                                                                                                                       | 1   |        | mul_ln146_1 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U10                                                                                                                      | 1   |        | mul_ln146_2 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U11                                                                                                                      | 1   |        | mul_ln146_3 | mul | auto   | 0       |
+|    mul_26ns_19s_45_1_1_U12                                                                                                                      | 1   |        | mul_ln146_4 | mul | auto   | 0       |
++-------------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+-------------+-----+--------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+| Name                                                                                                                                            | Usage  | Type | BRAM | URAM | Pragma | Variable         | Impl | Latency | Bitwidth, Depth, |
+|                                                                                                                                                 |        |      |      |      |        |                  |      |         | Banks            |
++-------------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+| + myproject                                                                                                                                     |        |      | 16   | 0    |        |                  |      |         |                  |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292) |        |      | 4    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                           | rom_1p |      | 4    |      |        | invert_sqr_table | auto | 1       | 26, 2048, 1      |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303) |        |      | 4    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                           | rom_1p |      | 4    |      |        | invert_sqr_table | auto | 1       | 26, 2048, 1      |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314) |        |      | 4    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                           | rom_1p |      | 4    |      |        | invert_sqr_table | auto | 1       | 26, 2048, 1      |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325) |        |      | 4    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                           | rom_1p |      | 4    |      |        | invert_sqr_table | auto | 1       | 26, 2048, 1      |
++-------------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| Type     | Options                           | Location                                                                                | Messages                                                                   |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:33 in dense_resource_rf_leq_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:107 in dense_resource_rf_gt_nin_rem0, weights | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:189 in dense_resource_rf_gt_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+
+* Valid Pragma Syntax
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Type                 | Options                                                  | Location                                                                                       |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| array_reshape        | variable=layer_normalization_input complete dim=0        | firmware/myproject.cpp:13 in myproject, layer_normalization_input                              |
+| array_partition      | variable=layer2_out complete dim=0                       | firmware/myproject.cpp:14 in myproject, layer2_out                                             |
+| interface            | ap_vld port=layer_normalization_input,layer2_out         | firmware/myproject.cpp:15 in myproject, layer_normalization_input,layer2_out                   |
+| pipeline             |                                                          | firmware/myproject.cpp:16 in myproject                                                         |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:44 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:53 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:64 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:75 in dense                                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_latency.h:21 in dense_latency, weights,biases                   |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_latency.h:26 in dense_latency                                   |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_latency.h:29 in dense_latency, biases                           |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_latency.h:30 in dense_latency, mult                             |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_latency.h:31 in dense_latency, acc                              |
+| allocation           | operation instances=mul limit=CONFIG_T::multiplier_limit | firmware/nnet_utils/nnet_dense_latency.h:33 in dense_latency                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:28 in dense_resource_rf_leq_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:29 in dense_resource_rf_leq_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:30 in dense_resource_rf_leq_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:37 in dense_resource_rf_leq_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:41 in dense_resource_rf_leq_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:47 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:56 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:81 in dense_resource_rf_leq_nin                      |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:102 in dense_resource_rf_gt_nin_rem0, weights,biases |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:103 in dense_resource_rf_gt_nin_rem0, weights        |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:104 in dense_resource_rf_gt_nin_rem0, biases         |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:111 in dense_resource_rf_gt_nin_rem0, acc            |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:115 in dense_resource_rf_gt_nin_rem0                 |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:136 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:143 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:163 in dense_resource_rf_gt_nin_rem0                 |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:184 in dense_resource_rf_gt_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:185 in dense_resource_rf_gt_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:186 in dense_resource_rf_gt_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:193 in dense_resource_rf_gt_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:197 in dense_resource_rf_gt_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:203 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=tmpmult complete                                | firmware/nnet_utils/nnet_dense_resource.h:205 in dense_resource_rf_gt_nin, tmpmult             |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:209 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_resource.h:219 in dense_resource_rf_gt_nin, mult                |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:223 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:229 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:239 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:249 in dense_resource_rf_gt_nin                      |
+| inline               | recursive                                                | firmware/nnet_utils/nnet_dense_resource.h:259 in dense_resource                                |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_layernorm.h:93 in layernorm_1d                                        |
+| array_partition      | variable=data complete                                   | firmware/nnet_utils/nnet_layernorm.h:94 in layernorm_1d, data                                  |
+| array_partition      | variable=res complete                                    | firmware/nnet_utils/nnet_layernorm.h:95 in layernorm_1d, res                                   |
+| array_partition      | variable=data_diff complete                              | firmware/nnet_utils/nnet_layernorm.h:120 in layernorm_1d, data_diff                            |
+| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:158 in layernormalize, scale,bias                         |
+| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:160 in layernormalize, scale                              |
+| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:161 in layernormalize, bias                               |
+| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:162 in layernormalize, in_val                             |
+| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:163 in layernormalize, outval                             |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:167 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:170 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:176 in layernormalize                                     |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:25 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:34 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:46 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:58 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:72 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:82 in product                                                  |
+| unroll               |                                                          | firmware/nnet_utils/nnet_types.h:28 in operator=                                               |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,580 @@
+---
+MainSourceFile:  /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          797382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1026147
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1310102
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_1:  '
+    FileOffset:      32
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_294_1:  '
+    FileOffset:      294
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_294_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_305_1:  '
+    FileOffset:      305
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363193
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_305_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363822
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_1:  '
+    FileOffset:      345
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364175
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_347_2:  '
+    FileOffset:      347
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_347_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_364_1:  '
+    FileOffset:      364
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_364_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_385_1:  '
+    FileOffset:      385
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364989
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_385_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_386_2:  '
+    FileOffset:      386
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365030
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_386_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_403_1:  '
+    FileOffset:      403
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365392
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_403_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_412_1:  '
+    FileOffset:      412
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365601
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_412_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_25_1:  '
+    FileOffset:      25
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_dense_seq.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_25_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_2:  '
+    FileOffset:      27
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_dense_seq.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_34_3:  '
+    FileOffset:      34
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_dense_seq.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_34_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_36_4:  '
+    FileOffset:      36
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_dense_seq.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_36_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_55_1:  '
+    FileOffset:      55
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386009
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_55_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386591
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2387368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388018
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_1:  '
+    FileOffset:      186
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_197_1:  '
+    FileOffset:      197
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389441
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_197_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_230_1:  '
+    FileOffset:      230
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_230_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_242_2:  '
+    FileOffset:      242
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_242_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_1:  '
+    FileOffset:      276
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_285_2:  '
+    FileOffset:      285
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391946
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_285_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_297_3:  '
+    FileOffset:      297
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392451
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_297_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393151
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_371_1:  '
+    FileOffset:      371
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_371_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_2:  '
+    FileOffset:      398
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395713
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_464_1:  '
+    FileOffset:      464
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_464_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_485_1:  '
+    FileOffset:      485
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_485_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_1:  '
+    FileOffset:      502
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397290
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_518_1:  '
+    FileOffset:      518
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397648
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_518_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_537_1:  '
+    FileOffset:      537
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398018
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_537_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_568_1:  '
+    FileOffset:      568
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398673
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_568_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_1:  '
+    FileOffset:      589
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399866
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_641_1:  '
+    FileOffset:      641
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2400384
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_641_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_672_1:  '
+    FileOffset:      672
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401011
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_672_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_702_1:  '
+    FileOffset:      702
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_702_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_733_1:  '
+    FileOffset:      733
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2402420
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_733_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_754_1:  '
+    FileOffset:      754
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403002
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_754_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_771_1:  '
+    FileOffset:      771
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403362
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_771_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_790_1:  '
+    FileOffset:      790
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_790_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_1:  '
+    FileOffset:      51
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2405092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_1:  '
+    FileOffset:      109
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_2:  '
+    FileOffset:      134
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_1:  '
+    FileOffset:      161
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408334
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_2:  '
+    FileOffset:      164
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408449
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412545
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_3:  '
+    FileOffset:      274
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_1:  '
+    FileOffset:      287
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2413169
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_2:  '
+    FileOffset:      288
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2413212
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_2: '
+...

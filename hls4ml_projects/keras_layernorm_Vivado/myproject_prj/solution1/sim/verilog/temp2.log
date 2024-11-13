@@ -1,25 +1,27 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /opt/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
-Multi-threading is on. Using 46 slave threads.
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/glbl.v" into library work
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module apatb_myproject_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_19s_32_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_19s_19s_32_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_25ns_19s_44_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_25ns_19s_44_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_12ns_31_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_12ns_31_1_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_mul_19s_12ns_31_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_19s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_19s_19s_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_25ns_19s_44_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_25ns_19s_44_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -196,68 +198,9 @@ source myproject.tcl
 //
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
-// RTL Simulation : 0 / 60 [0.00%] @ "113000"
-// RTL Simulation : 1 / 60 [75.00%] @ "143000"
-// RTL Simulation : 2 / 60 [75.00%] @ "148000"
-// RTL Simulation : 3 / 60 [75.00%] @ "153000"
-// RTL Simulation : 4 / 60 [75.00%] @ "158000"
-// RTL Simulation : 5 / 60 [75.00%] @ "163000"
-// RTL Simulation : 6 / 60 [75.00%] @ "168000"
-// RTL Simulation : 7 / 60 [75.00%] @ "173000"
-// RTL Simulation : 8 / 60 [75.00%] @ "178000"
-// RTL Simulation : 9 / 60 [75.00%] @ "183000"
-// RTL Simulation : 10 / 60 [75.00%] @ "188000"
-// RTL Simulation : 11 / 60 [75.00%] @ "193000"
-// RTL Simulation : 12 / 60 [75.00%] @ "198000"
-// RTL Simulation : 13 / 60 [75.00%] @ "203000"
-// RTL Simulation : 14 / 60 [75.00%] @ "208000"
-// RTL Simulation : 15 / 60 [75.00%] @ "213000"
-// RTL Simulation : 16 / 60 [75.00%] @ "218000"
-// RTL Simulation : 17 / 60 [75.00%] @ "223000"
-// RTL Simulation : 18 / 60 [75.00%] @ "228000"
-// RTL Simulation : 19 / 60 [75.00%] @ "233000"
-// RTL Simulation : 20 / 60 [75.00%] @ "238000"
-// RTL Simulation : 21 / 60 [75.00%] @ "243000"
-// RTL Simulation : 22 / 60 [75.00%] @ "248000"
-// RTL Simulation : 23 / 60 [75.00%] @ "253000"
-// RTL Simulation : 24 / 60 [75.00%] @ "258000"
-// RTL Simulation : 25 / 60 [75.00%] @ "263000"
-// RTL Simulation : 26 / 60 [75.00%] @ "268000"
-// RTL Simulation : 27 / 60 [75.00%] @ "273000"
-// RTL Simulation : 28 / 60 [75.00%] @ "278000"
-// RTL Simulation : 29 / 60 [75.00%] @ "283000"
-// RTL Simulation : 30 / 60 [75.00%] @ "288000"
-// RTL Simulation : 31 / 60 [75.00%] @ "293000"
-// RTL Simulation : 32 / 60 [75.00%] @ "298000"
-// RTL Simulation : 33 / 60 [75.00%] @ "303000"
-// RTL Simulation : 34 / 60 [75.00%] @ "308000"
-// RTL Simulation : 35 / 60 [75.00%] @ "313000"
-// RTL Simulation : 36 / 60 [75.00%] @ "318000"
-// RTL Simulation : 37 / 60 [75.00%] @ "323000"
-// RTL Simulation : 38 / 60 [75.00%] @ "328000"
-// RTL Simulation : 39 / 60 [75.00%] @ "333000"
-// RTL Simulation : 40 / 60 [75.00%] @ "338000"
-// RTL Simulation : 41 / 60 [75.00%] @ "343000"
-// RTL Simulation : 42 / 60 [75.00%] @ "348000"
-// RTL Simulation : 43 / 60 [75.00%] @ "353000"
-// RTL Simulation : 44 / 60 [75.00%] @ "358000"
-// RTL Simulation : 45 / 60 [75.00%] @ "363000"
-// RTL Simulation : 46 / 60 [75.00%] @ "368000"
-// RTL Simulation : 47 / 60 [75.00%] @ "373000"
-// RTL Simulation : 48 / 60 [75.00%] @ "378000"
-// RTL Simulation : 49 / 60 [75.00%] @ "383000"
-// RTL Simulation : 50 / 60 [75.00%] @ "388000"
-// RTL Simulation : 51 / 60 [75.00%] @ "393000"
-// RTL Simulation : 52 / 60 [75.00%] @ "398000"
-// RTL Simulation : 53 / 60 [75.00%] @ "403000"
-// RTL Simulation : 54 / 60 [75.00%] @ "408000"
-// RTL Simulation : 55 / 60 [75.00%] @ "413000"
-// RTL Simulation : 56 / 60 [75.00%] @ "418000"
-// RTL Simulation : 57 / 60 [75.00%] @ "423000"
-// RTL Simulation : 58 / 60 [75.00%] @ "428000"
-// RTL Simulation : 59 / 60 [75.00%] @ "433000"
-// RTL Simulation : 60 / 60 [100.00%] @ "438000"
+// RTL Simulation : 0 / 1 [0.00%] @ "113000"
+// RTL Simulation : 1 / 1 [100.00%] @ "143000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 467500 ps : File "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 1450
+$finish called at time : 172500 ps : File "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 1450
 ## quit
-INFO: [Common 17-206] Exiting xsim at Tue Oct 22 19:29:48 2024...
+INFO: [Common 17-206] Exiting xsim at Wed Oct 30 10:47:07 2024...

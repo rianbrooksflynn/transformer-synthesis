@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>400217616</coreId>
+              <coreId>2192692644</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>48</coreId>
+              <coreId>543976559</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>304</coreId>
+              <coreId>544370534</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -322,7 +322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370874000</coreId>
+              <coreId>2192018465</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -358,7 +358,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371103344</coreId>
+              <coreId>2192017681</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -394,7 +394,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371106912</coreId>
+              <coreId>2191803501</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -430,7 +430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371107232</coreId>
+              <coreId>2191804285</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -466,7 +466,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788484461</coreId>
+              <coreId>410858640</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -502,7 +502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371118368</coreId>
+              <coreId>2191666043</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>381807648</coreId>
+              <coreId>2192742080</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>2192740656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -610,7 +610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788476287</coreId>
+              <coreId>2192743472</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -646,7 +646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371126576</coreId>
+              <coreId>2192743968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>381807648</coreId>
+              <coreId>2192760983</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -718,7 +718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>2192761479</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -754,7 +754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371127632</coreId>
+              <coreId>2192764295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -794,7 +794,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>511364992</coreId>
+              <coreId>670131168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>320</bitwidth>
@@ -829,7 +829,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="11" tracking_level="0" version="0">
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second class_id="12" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -851,7 +851,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>320</bitwidth>
@@ -886,7 +886,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -908,7 +908,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788402944</coreId>
+              <coreId>579402496</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -942,7 +942,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -964,7 +964,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371135600</coreId>
+              <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -998,7 +998,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1020,7 +1020,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3871986460</coreId>
+              <coreId>575665104</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1054,7 +1054,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1076,7 +1076,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>286835504</coreId>
+              <coreId>448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1110,7 +1110,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1132,7 +1132,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788376374</coreId>
+              <coreId>448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1166,7 +1166,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1188,7 +1188,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>371157344</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1222,7 +1222,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1244,7 +1244,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788377088</coreId>
+              <coreId>423902960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1278,7 +1278,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1300,7 +1300,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3782095269</coreId>
+              <coreId>2192953668</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1334,7 +1334,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1356,7 +1356,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3782137344</coreId>
+              <coreId>2194528980</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1390,7 +1390,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1412,7 +1412,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3782121503</coreId>
+              <coreId>423728928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1446,7 +1446,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1468,7 +1468,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776008960</coreId>
+              <coreId>412634144</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1502,7 +1502,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1524,7 +1524,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3775998516</coreId>
+              <coreId>2207031721</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1558,7 +1558,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1580,7 +1580,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776042496</coreId>
+              <coreId>410857680</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1614,7 +1614,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1636,7 +1636,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3775939554</coreId>
+              <coreId>96</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1670,7 +1670,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1692,7 +1692,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>381808000</coreId>
+              <coreId>30</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1726,7 +1726,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1748,7 +1748,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3775973738</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1782,7 +1782,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1804,7 +1804,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3775956190</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1838,7 +1838,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1860,7 +1860,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>381808000</coreId>
+              <coreId>69</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1894,7 +1894,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1916,7 +1916,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776148194</coreId>
+              <coreId>69</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1950,7 +1950,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1972,7 +1972,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382129552</coreId>
+              <coreId>69</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2006,7 +2006,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2028,7 +2028,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382182592</coreId>
+              <coreId>2170473910</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>320</bitwidth>
@@ -2082,7 +2082,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2104,7 +2104,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776066784</coreId>
+              <coreId>2189626713</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2138,7 +2138,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2160,7 +2160,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776283151</coreId>
+              <coreId>18</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2194,7 +2194,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2216,7 +2216,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382182592</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2250,7 +2250,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2272,7 +2272,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776235914</coreId>
+              <coreId>66</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2306,7 +2306,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2328,7 +2328,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382312224</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2362,7 +2362,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2384,7 +2384,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382103440</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2418,7 +2418,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2440,7 +2440,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>30</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2474,7 +2474,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2496,7 +2496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382117936</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2530,7 +2530,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2552,7 +2552,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>2171070932</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2586,7 +2586,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2608,7 +2608,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776428573</coreId>
+              <coreId>2173087809</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2642,7 +2642,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2664,7 +2664,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382131184</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2698,7 +2698,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2720,7 +2720,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382182904</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2754,7 +2754,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2776,7 +2776,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>2169729837</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2810,7 +2810,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2832,7 +2832,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382198448</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2866,7 +2866,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2888,7 +2888,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2922,7 +2922,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2944,7 +2944,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382275440</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2978,7 +2978,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3000,7 +3000,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>447881296</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3034,7 +3034,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3056,7 +3056,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382293824</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3090,7 +3090,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3112,7 +3112,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>64</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3146,7 +3146,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3168,7 +3168,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382298576</coreId>
+              <coreId>2169527567</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3202,7 +3202,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3231,7 +3231,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>443420064</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -3271,7 +3271,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3300,7 +3300,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382307216</coreId>
+              <coreId>2174486362</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3334,7 +3334,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3363,7 +3363,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>69</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3397,7 +3397,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3426,7 +3426,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>39</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3460,7 +3460,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3489,7 +3489,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776479630</coreId>
+              <coreId>442337168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3523,7 +3523,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3552,7 +3552,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684957506</coreId>
+              <coreId>443419456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3586,7 +3586,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3615,7 +3615,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776663747</coreId>
+              <coreId>2174359900</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -3655,7 +3655,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3684,7 +3684,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382361808</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3718,7 +3718,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3747,7 +3747,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3781,7 +3781,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3810,7 +3810,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>38</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3844,7 +3844,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3873,7 +3873,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776702120</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3907,7 +3907,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3936,7 +3936,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382397568</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3970,7 +3970,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3999,7 +3999,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -4039,7 +4039,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4068,7 +4068,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382479712</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4102,7 +4102,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4131,7 +4131,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4165,7 +4165,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4194,7 +4194,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>382501904</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4228,7 +4228,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4257,7 +4257,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4291,7 +4291,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4320,7 +4320,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776832040</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4354,7 +4354,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4383,7 +4383,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3776819196</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -4423,7 +4423,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4452,7 +4452,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3783173646</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4486,7 +4486,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4515,7 +4515,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>402066320</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4549,7 +4549,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4578,7 +4578,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>136525408</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4612,7 +4612,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4641,7 +4641,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3793957120</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4675,7 +4675,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -4704,7 +4704,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3793983484</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4738,7 +4738,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4760,7 +4760,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>381974336</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4796,7 +4796,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4818,7 +4818,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1397508187</coreId>
+              <coreId>447089792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4854,7 +4854,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4876,7 +4876,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3794416278</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4912,7 +4912,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4934,7 +4934,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>368798400</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4970,7 +4970,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4992,7 +4992,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3788558336</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5028,7 +5028,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5050,7 +5050,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>369209392</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5086,7 +5086,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5108,7 +5108,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>369927472</coreId>
+              <coreId>4294967295</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5144,7 +5144,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5166,7 +5166,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1313423963</coreId>
+              <coreId>2205817321</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5202,7 +5202,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5224,7 +5224,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3789390158</coreId>
+              <coreId>2205987349</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5260,7 +5260,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5282,7 +5282,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>369942304</coreId>
+              <coreId>411952208</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5318,7 +5318,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5340,7 +5340,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3789316352</coreId>
+              <coreId>411995392</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5376,7 +5376,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5398,7 +5398,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>369950944</coreId>
+              <coreId>2205969394</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5434,7 +5434,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5456,7 +5456,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370063824</coreId>
+              <coreId>411995392</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5492,7 +5492,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5514,7 +5514,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3789291974</coreId>
+              <coreId>2206160814</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5550,7 +5550,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5572,7 +5572,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370063824</coreId>
+              <coreId>411710336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5608,7 +5608,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5630,7 +5630,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3789496516</coreId>
+              <coreId>412036752</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5666,7 +5666,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5688,7 +5688,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>542329928</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5724,7 +5724,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5746,7 +5746,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370032608</coreId>
+              <coreId>39</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5782,7 +5782,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5804,7 +5804,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370055744</coreId>
+              <coreId>2206135095</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5840,7 +5840,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5862,7 +5862,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3789454080</coreId>
+              <coreId>1684957506</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5898,7 +5898,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5920,7 +5920,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>370088720</coreId>
+              <coreId>2205736181</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -5996,7 +5996,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>412634448</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>320</bitwidth>
@@ -6027,7 +6027,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3787549440</coreId>
+              <coreId>423407008</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>80</bitwidth>
@@ -6061,7 +6061,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>511364992</coreId>
+            <coreId>670131168</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>

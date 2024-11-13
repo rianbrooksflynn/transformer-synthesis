@@ -1,1475 +1,1454 @@
 ---
-MainSourceFile:  /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+MainSourceFile:  /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1207_1:  '
     FileOffset:      1207
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          785395
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          797587
         Length:          0
         ReplacementText: 'VITIS_LOOP_1207_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_676_1:  '
     FileOffset:      676
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1013167
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025415
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_690_1:  '
     FileOffset:      690
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1013635
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025883
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_704_1:  '
     FileOffset:      704
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1014104
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1026352
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1247_1:  '
     FileOffset:      1247
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1297588
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1309896
         Length:          0
         ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_types.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1671659
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684065
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_types.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1672034
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684440
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_265_1:  '
     FileOffset:      265
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2335385
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363384
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_275_1:  '
     FileOffset:      275
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2335772
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363771
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336107
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364106
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_293_1:  '
     FileOffset:      293
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336330
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364329
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_295_2:  '
     FileOffset:      295
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336425
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364424
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_307_1:  '
     FileOffset:      307
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336789
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364788
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_309_2:  '
     FileOffset:      309
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2336871
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364870
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_324_1:  '
     FileOffset:      324
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337214
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365213
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_344_1:  '
     FileOffset:      344
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337667
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365666
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_345_2:  '
     FileOffset:      345
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2337712
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365711
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_360_1:  '
     FileOffset:      360
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2338121
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366120
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_1:  '
     FileOffset:      367
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2338334
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366333
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_22_1:  '
-    FileOffset:      22
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356126
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_22_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_24_2:  '
-    FileOffset:      24
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356220
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_24_2: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_31_3:  '
-    FileOffset:      31
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
-    Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356476
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_31_3: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_33_4:  '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      33
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_seq.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2356570
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_33_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      91
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      92
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      93
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      94
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      95
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      125
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      126
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      127
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      128
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      129
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      130
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      131
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      132
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      133
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      134
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      184
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      185
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      186
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      213
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      214
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      215
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      216
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      217
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      218
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      254
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      255
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_61_1:  '
     FileOffset:      61
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2418202
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2445846
         Length:          0
         ReplacementText: 'VITIS_LOOP_61_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_117_1:  '
     FileOffset:      117
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2419018
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2446664
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_289_1:  '
     FileOffset:      289
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2421667
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2449315
         Length:          0
         ReplacementText: 'VITIS_LOOP_289_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_449_1:  '
     FileOffset:      449
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2424392
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2452042
         Length:          0
         ReplacementText: 'VITIS_LOOP_449_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_629_1:  '
     FileOffset:      629
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2427553
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2455203
         Length:          0
         ReplacementText: 'VITIS_LOOP_629_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_633_2:  '
     FileOffset:      633
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2427634
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2455284
         Length:          0
         ReplacementText: 'VITIS_LOOP_633_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_743_1:  '
     FileOffset:      743
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2429943
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2457593
         Length:          0
         ReplacementText: 'VITIS_LOOP_743_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_840_1:  '
     FileOffset:      840
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2431439
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459091
         Length:          0
         ReplacementText: 'VITIS_LOOP_840_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_859_2:  '
     FileOffset:      859
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2431669
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459321
         Length:          0
         ReplacementText: 'VITIS_LOOP_859_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1173_1:  '
     FileOffset:      1173
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2437855
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2465511
         Length:          0
         ReplacementText: 'VITIS_LOOP_1173_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1256_1:  '
     FileOffset:      1256
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2439458
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2467114
         Length:          0
         ReplacementText: 'VITIS_LOOP_1256_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_68_1:  '
     FileOffset:      68
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447311
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2474973
         Length:          0
         ReplacementText: 'VITIS_LOOP_68_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_74_2:  '
     FileOffset:      74
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447461
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2475123
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_78_3:  '
     FileOffset:      78
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447558
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2475220
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_145_4:  '
     FileOffset:      145
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449420
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2477084
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_151_5:  '
     FileOffset:      151
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449570
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2477234
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_155_6:  '
     FileOffset:      155
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2449667
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2477331
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_170_7:  '
     FileOffset:      170
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2450048
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2477712
         Length:          0
         ReplacementText: 'VITIS_LOOP_170_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_178_8:  '
     FileOffset:      178
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2450279
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2477943
         Length:          0
         ReplacementText: 'VITIS_LOOP_178_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_243_9:  '
     FileOffset:      243
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453726
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2481390
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_249_10:  '
     FileOffset:      249
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453878
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2481542
         Length:          0
         ReplacementText: 'VITIS_LOOP_249_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_253_11:  '
     FileOffset:      253
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2453978
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2481642
         Length:          0
         ReplacementText: 'VITIS_LOOP_253_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_268_12:  '
     FileOffset:      268
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2454360
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2482024
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_276_13:  '
     FileOffset:      276
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2454598
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2482262
         Length:          0
         ReplacementText: 'VITIS_LOOP_276_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_505_14:  '
     FileOffset:      505
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470153
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2497817
         Length:          0
         ReplacementText: 'VITIS_LOOP_505_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_511_15:  '
     FileOffset:      511
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470305
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2497969
         Length:          0
         ReplacementText: 'VITIS_LOOP_511_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_515_16:  '
     FileOffset:      515
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470404
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2498068
         Length:          0
         ReplacementText: 'VITIS_LOOP_515_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_525_17:  '
     FileOffset:      525
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470581
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2498245
         Length:          0
         ReplacementText: 'VITIS_LOOP_525_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_529_18:  '
     FileOffset:      529
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470679
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2498343
         Length:          0
         ReplacementText: 'VITIS_LOOP_529_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_539_19:  '
     FileOffset:      539
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470964
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2498628
         Length:          0
         ReplacementText: 'VITIS_LOOP_539_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_547_20:  '
     FileOffset:      547
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2471219
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2498883
         Length:          0
         ReplacementText: 'VITIS_LOOP_547_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_908_21:  '
     FileOffset:      908
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503458
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2531122
         Length:          0
         ReplacementText: 'VITIS_LOOP_908_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_914_22:  '
     FileOffset:      914
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503610
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2531274
         Length:          0
         ReplacementText: 'VITIS_LOOP_914_22: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_918_23:  '
     FileOffset:      918
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2503710
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2531374
         Length:          0
         ReplacementText: 'VITIS_LOOP_918_23: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1034_1:  '
     FileOffset:      1034
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506386
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2534050
         Length:          0
         ReplacementText: 'VITIS_LOOP_1034_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1040_2:  '
     FileOffset:      1040
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506536
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2534200
         Length:          0
         ReplacementText: 'VITIS_LOOP_1040_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1044_3:  '
     FileOffset:      1044
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2506634
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2534298
         Length:          0
         ReplacementText: 'VITIS_LOOP_1044_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1131_4:  '
     FileOffset:      1131
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510104
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2537768
         Length:          0
         ReplacementText: 'VITIS_LOOP_1131_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1137_5:  '
     FileOffset:      1137
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510255
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2537919
         Length:          0
         ReplacementText: 'VITIS_LOOP_1137_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1141_6:  '
     FileOffset:      1141
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510354
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2538018
         Length:          0
         ReplacementText: 'VITIS_LOOP_1141_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1160_7:  '
     FileOffset:      1160
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2510834
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2538498
         Length:          0
         ReplacementText: 'VITIS_LOOP_1160_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1167_8:  '
     FileOffset:      1167
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2511076
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2538740
         Length:          0
         ReplacementText: 'VITIS_LOOP_1167_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1283_9:  '
     FileOffset:      1283
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516648
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544312
         Length:          0
         ReplacementText: 'VITIS_LOOP_1283_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1289_10:  '
     FileOffset:      1289
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516800
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544464
         Length:          0
         ReplacementText: 'VITIS_LOOP_1289_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1293_11:  '
     FileOffset:      1293
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2516899
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544563
         Length:          0
         ReplacementText: 'VITIS_LOOP_1293_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1313_12:  '
     FileOffset:      1313
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2517408
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2545072
         Length:          0
         ReplacementText: 'VITIS_LOOP_1313_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1320_13:  '
     FileOffset:      1320
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2517657
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2545321
         Length:          0
         ReplacementText: 'VITIS_LOOP_1320_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1582_14:  '
     FileOffset:      1582
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535014
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2562678
         Length:          0
         ReplacementText: 'VITIS_LOOP_1582_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1588_15:  '
     FileOffset:      1588
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535166
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2562830
         Length:          0
         ReplacementText: 'VITIS_LOOP_1588_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1592_16:  '
     FileOffset:      1592
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535266
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2562930
         Length:          0
         ReplacementText: 'VITIS_LOOP_1592_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1616_17:  '
     FileOffset:      1616
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2535740
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2563404
         Length:          0
         ReplacementText: 'VITIS_LOOP_1616_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1623_18:  '
     FileOffset:      1623
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2536007
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2563671
         Length:          0
         ReplacementText: 'VITIS_LOOP_1623_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2053_19:  '
     FileOffset:      2053
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574578
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2602242
         Length:          0
         ReplacementText: 'VITIS_LOOP_2053_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2059_20:  '
     FileOffset:      2059
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574730
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2602394
         Length:          0
         ReplacementText: 'VITIS_LOOP_2059_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2063_21:  '
     FileOffset:      2063
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2574830
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2602494
         Length:          0
         ReplacementText: 'VITIS_LOOP_2063_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2193_1:  '
     FileOffset:      2193
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577450
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2605114
         Length:          0
         ReplacementText: 'VITIS_LOOP_2193_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2200_2:  '
     FileOffset:      2200
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577613
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2605277
         Length:          0
         ReplacementText: 'VITIS_LOOP_2200_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2204_3:  '
     FileOffset:      2204
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2577705
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2605369
         Length:          0
         ReplacementText: 'VITIS_LOOP_2204_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2251_4:  '
     FileOffset:      2251
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579314
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2606978
         Length:          0
         ReplacementText: 'VITIS_LOOP_2251_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2258_5:  '
     FileOffset:      2258
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579476
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2607140
         Length:          0
         ReplacementText: 'VITIS_LOOP_2258_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2262_6:  '
     FileOffset:      2262
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579568
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2607232
         Length:          0
         ReplacementText: 'VITIS_LOOP_2262_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2280_7:  '
     FileOffset:      2280
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2579941
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2607605
         Length:          0
         ReplacementText: 'VITIS_LOOP_2280_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2335_8:  '
     FileOffset:      2335
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582407
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2610071
         Length:          0
         ReplacementText: 'VITIS_LOOP_2335_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2342_9:  '
     FileOffset:      2342
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582574
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2610238
         Length:          0
         ReplacementText: 'VITIS_LOOP_2342_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2346_10:  '
     FileOffset:      2346
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2582667
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2610331
         Length:          0
         ReplacementText: 'VITIS_LOOP_2346_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2364_11:  '
     FileOffset:      2364
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2583048
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2610712
         Length:          0
         ReplacementText: 'VITIS_LOOP_2364_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2453_12:  '
     FileOffset:      2453
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588489
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616153
         Length:          0
         ReplacementText: 'VITIS_LOOP_2453_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2460_13:  '
     FileOffset:      2460
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588657
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616321
         Length:          0
         ReplacementText: 'VITIS_LOOP_2460_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2464_14:  '
     FileOffset:      2464
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588751
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616415
         Length:          0
         ReplacementText: 'VITIS_LOOP_2464_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2474_15:  '
     FileOffset:      2474
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2588922
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616586
         Length:          0
         ReplacementText: 'VITIS_LOOP_2474_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2478_16:  '
     FileOffset:      2478
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589013
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616677
         Length:          0
         ReplacementText: 'VITIS_LOOP_2478_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2489_17:  '
     FileOffset:      2489
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589295
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2616959
         Length:          0
         ReplacementText: 'VITIS_LOOP_2489_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2497_18:  '
     FileOffset:      2497
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2589482
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2617146
         Length:          0
         ReplacementText: 'VITIS_LOOP_2497_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2822_19:  '
     FileOffset:      2822
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2623952
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2651616
         Length:          0
         ReplacementText: 'VITIS_LOOP_2822_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2829_20:  '
     FileOffset:      2829
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2624120
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2651784
         Length:          0
         ReplacementText: 'VITIS_LOOP_2829_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2833_21:  '
     FileOffset:      2833
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2624214
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2651878
         Length:          0
         ReplacementText: 'VITIS_LOOP_2833_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2921_1:  '
     FileOffset:      2921
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626016
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2653680
         Length:          0
         ReplacementText: 'VITIS_LOOP_2921_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2928_2:  '
     FileOffset:      2928
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626124
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2653788
         Length:          0
         ReplacementText: 'VITIS_LOOP_2928_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2932_3:  '
     FileOffset:      2932
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626195
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2653859
         Length:          0
         ReplacementText: 'VITIS_LOOP_2932_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2947_4:  '
     FileOffset:      2947
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2626483
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2654147
         Length:          0
         ReplacementText: 'VITIS_LOOP_2947_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2979_5:  '
     FileOffset:      2979
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627697
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2655361
         Length:          0
         ReplacementText: 'VITIS_LOOP_2979_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2986_6:  '
     FileOffset:      2986
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627808
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2655472
         Length:          0
         ReplacementText: 'VITIS_LOOP_2986_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2990_7:  '
     FileOffset:      2990
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2627881
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2655545
         Length:          0
         ReplacementText: 'VITIS_LOOP_2990_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3005_8:  '
     FileOffset:      3005
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2628176
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2655840
         Length:          0
         ReplacementText: 'VITIS_LOOP_3005_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3055_9:  '
     FileOffset:      3055
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631509
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2659173
         Length:          0
         ReplacementText: 'VITIS_LOOP_3055_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3062_10:  '
     FileOffset:      3062
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631620
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2659284
         Length:          0
         ReplacementText: 'VITIS_LOOP_3062_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3066_11:  '
     FileOffset:      3066
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631693
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2659357
         Length:          0
         ReplacementText: 'VITIS_LOOP_3066_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3081_12:  '
     FileOffset:      3081
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2631989
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2659653
         Length:          0
         ReplacementText: 'VITIS_LOOP_3081_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3218_13:  '
     FileOffset:      3218
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651301
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2678965
         Length:          0
         ReplacementText: 'VITIS_LOOP_3218_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3225_14:  '
     FileOffset:      3225
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651415
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2679079
         Length:          0
         ReplacementText: 'VITIS_LOOP_3225_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3229_15:  '
     FileOffset:      3229
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651490
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2679154
         Length:          0
         ReplacementText: 'VITIS_LOOP_3229_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3244_16:  '
     FileOffset:      3244
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651777
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2679441
         Length:          0
         ReplacementText: 'VITIS_LOOP_3244_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3404_17:  '
     FileOffset:      3404
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677387
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2705051
         Length:          0
         ReplacementText: 'VITIS_LOOP_3404_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3411_18:  '
     FileOffset:      3411
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677501
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2705165
         Length:          0
         ReplacementText: 'VITIS_LOOP_3411_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3415_19:  '
     FileOffset:      3415
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2677578
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2705242
         Length:          0
         ReplacementText: 'VITIS_LOOP_3415_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_703_1:  '
     FileOffset:      703
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2711653
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2739325
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_921_1:  '
     FileOffset:      921
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2720042
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2747714
         Length:          0
         ReplacementText: 'VITIS_LOOP_921_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1345_1:  '
     FileOffset:      1345
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2739017
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2766691
         Length:          0
         ReplacementText: 'VITIS_LOOP_1345_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_240_1:  '
     FileOffset:      240
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2753881
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2781565
         Length:          0
         ReplacementText: 'VITIS_LOOP_240_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_268_2:  '
     FileOffset:      268
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2754402
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2782086
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_48_1:  '
     FileOffset:      48
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2770331
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2798033
         Length:          0
         ReplacementText: 'VITIS_LOOP_48_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_109_2:  '
     FileOffset:      109
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2771483
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2799187
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_123_3:  '
     FileOffset:      123
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2771792
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2799496
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_153_4:  '
     FileOffset:      153
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2772302
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2800006
         Length:          0
         ReplacementText: 'VITIS_LOOP_153_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_281_1:  '
     FileOffset:      281
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774220
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2801928
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_301_2:  '
     FileOffset:      301
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774585
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2802293
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_315_3:  '
     FileOffset:      315
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774893
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2802601
         Length:          0
         ReplacementText: 'VITIS_LOOP_315_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_433_1:  '
     FileOffset:      433
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2776723
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804433
         Length:          0
         ReplacementText: 'VITIS_LOOP_433_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_447_2:  '
     FileOffset:      447
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2777048
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804758
         Length:          0
         ReplacementText: 'VITIS_LOOP_447_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_33_1:  '
     FileOffset:      33
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2779709
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2807429
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_183_1:  '
     FileOffset:      183
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2782607
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2810333
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_248_1:  '
     FileOffset:      248
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2783896
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2811624
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_16_1:  '
     FileOffset:      16
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2794822
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2822584
         Length:          0
         ReplacementText: 'VITIS_LOOP_16_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2794997
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2822759
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_38_1:  '
     FileOffset:      38
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795158
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2822920
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_49_1:  '
     FileOffset:      49
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795320
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2823082
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_60_1:  '
     FileOffset:      60
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795494
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2823256
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_71_1:  '
     FileOffset:      71
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795669
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2823431
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_82_1:  '
     FileOffset:      82
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795830
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2823592
         Length:          0
         ReplacementText: 'VITIS_LOOP_82_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_93_1:  '
     FileOffset:      93
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795992
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2823754
         Length:          0
         ReplacementText: 'VITIS_LOOP_93_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_26_1:  '
     FileOffset:      26
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_mad_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_mad_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2866842
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2894694
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cbrt_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cbrt_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2868591
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2896449
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_49_1:  '
     FileOffset:      49
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2873112
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2900986
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_81_2:  '
     FileOffset:      81
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2873845
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2901721
         Length:          0
         ReplacementText: 'VITIS_LOOP_81_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_169_3:  '
     FileOffset:      169
-    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2875532
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2903410
         Length:          0
         ReplacementText: 'VITIS_LOOP_169_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
+    FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
-      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2928827
+      - FilePath:        /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2956717
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
 ...

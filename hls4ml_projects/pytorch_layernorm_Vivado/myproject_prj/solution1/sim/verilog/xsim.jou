@@ -3,13 +3,13 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Oct 22 20:22:03 2024
-# Process ID: 3451822
-# Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog
+# Start of session at: Wed Oct 30 11:02:41 2024
+# Process ID: 22020
+# Current directory: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog
 # Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
-# Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.log
-# Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.jou
-# Running On: olivb-20.cern.ch, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 22, Host memory: 66857 MB
+# Log file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.jou
+# Running On: xianle, OS: Linux, CPU Frequency: 3100.290 MHz, CPU Physical cores: 8, Host memory: 33384 MB
 #-----------------------------------------------------------
 source xsim.dir/myproject/xsim_script.tcl
 open_wave_config myproject_dataflow_ana.wcfg

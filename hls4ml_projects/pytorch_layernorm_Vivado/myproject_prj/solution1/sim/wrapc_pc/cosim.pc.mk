@@ -22,7 +22,7 @@ IRWRAPPER  := $(basename $(wildcard *.ll))
 CPPWRAPPER := $(IRWRAPPER:_ir=)
 APATB_UTIL := $(basename $(wildcard $(IRWRAPPER:_ir=_util).cpp))
 
-AUTOPILOT_ROOT := /opt/Xilinx/Vitis_HLS/2023.2
+AUTOPILOT_ROOT := /tools/Xilinx/Vitis_HLS/2023.2
 AUTOPILOT_MACH := lnx64
 
 ifdef AP_GCC_M32
@@ -31,7 +31,7 @@ ifdef AP_GCC_M32
 endif
 IFLAG += -fPIC
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := /opt/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin
+  AP_GCC_PATH := /tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin
 endif
 AUTOPILOT_TOOL = ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
 AUTOPILOT_TECH = ${AUTOPILOT_ROOT}/common/technology
@@ -46,6 +46,7 @@ IFLAG += -I "${AUTOPILOT_ROOT}/common/technology/generic/SystemC"
 IFLAG += -I "${AUTOPILOT_ROOT}/common/technology/generic/SystemC/AESL_FP_comp"
 IFLAG += -I "${AUTOPILOT_ROOT}/common/technology/generic/SystemC/AESL_comp"
 IFLAG += -I "${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools/auto_cc/include"
+IFLAG += -I "/usr/include/x86_64-linux-gnu"
 IFLAG += -D__VITIS_HLS__
 IFLAG += -D__HLS_COSIM__
 IFLAG += -D__SIM_FPO__

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'
 ================================================================
-* Date:           Tue Oct 22 20:17:46 2024
+* Date:           Wed Oct 30 10:59:57 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -1702,7 +1702,7 @@ The critical path consists of the following:
  <State 3>: 4.279ns
 The critical path consists of the following:
 	'mul' operation 31 bit ('mul_ln73_1', firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_layernorm.h:120) [51]  (2.080 ns)
-	'icmp' operation 1 bit ('icmp_ln64_501', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [2062]  (0.838 ns)
+	'icmp' operation 1 bit ('icmp_ln64_5', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [80]  (0.838 ns)
 	multiplexor before 'phi' operation 10 bit ('i_0_lcssa1_i') [2065]  (1.361 ns)
 
  <State 4>: 2.561ns

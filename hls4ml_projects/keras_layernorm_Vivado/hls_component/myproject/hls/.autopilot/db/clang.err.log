@@ -1,0 +1,14 @@
+In file included from /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/myproject.cpp:4:
+In file included from /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/parameters.h:10:
+In file included from /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_layernorm.h:6:
+In file included from /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense.h:7:
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h:33:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h:107:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/firmware/nnet_utils/nnet_dense_resource.h:189:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+3 warnings generated.

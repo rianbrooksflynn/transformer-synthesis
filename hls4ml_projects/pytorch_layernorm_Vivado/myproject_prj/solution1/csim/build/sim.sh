@@ -7,4 +7,4 @@
 # 
 # ==============================================================
 # The next line restarts using autoesl tclsh \
-    exec /opt/Xilinx/Vitis_HLS/2023.2/bin/vitis_hls run_sim.tcl
+    exec /tools/Xilinx/Vitis_HLS/2023.2/bin/vitis_hls run_sim.tcl

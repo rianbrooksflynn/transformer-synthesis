@@ -1,0 +1,139 @@
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+In file included from firmware/nnet_utils/nnet_code_gen.h:8:
+In file included from firmware/nnet_utils/nnet_function_stubs.h:8:
+firmware/nnet_utils/nnet_mult.h:77:34: warning: unexpected pragma argument 'mul', expects function/operation [-Winvalid-hls-pragmas]
+#pragma HLS ALLOCATION instances=mul limit=multiplier_limit operation
+                                 ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:10:
+In file included from firmware/nnet_utils/nnet_multiheadattention.h:6:
+In file included from firmware/nnet_utils/nnet_dense.h:7:
+firmware/nnet_utils/nnet_dense_resource.h:33:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:107:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:189:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:10:
+firmware/nnet_utils/nnet_multiheadattention.h:76:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=Q
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:77:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=K
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:78:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=datak_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:79:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=dataq_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:126:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=V
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:131:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=datav_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:187:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=k_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:188:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=q_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:189:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=v_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:212:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_k_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:213:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_q_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:214:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_v_pack
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:10:
+In file included from firmware/nnet_utils/nnet_multiheadattention.h:6:
+In file included from firmware/nnet_utils/nnet_dense.h:6:
+firmware/nnet_utils/nnet_dense_latency.h:33:64: error: no member named 'multiplier_limit' in 'config3_1'
+#pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::multiplier_limit
+                                                     ~~~~~~~~~~^
+firmware/nnet_utils/nnet_dense.h:54:2: note: in instantiation of function template specialization 'nnet::dense_latency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>' requested here
+ dense_latency<data_T, res_T, CONFIG_T>(data, res, weights, biases);
+ ^
+firmware/nnet_utils/nnet_dense.h:45:54: note: in instantiation of member function 'nnet::DenseLatency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>::dense' requested here
+ CONFIG_T::template kernel<data_T, res_T, CONFIG_T>::dense(data, res, weights, biases);
+                                                     ^
+firmware/nnet_utils/nnet_multiheadattention.h:219:9: note: in instantiation of function template specialization 'nnet::dense<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>' requested here
+        dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_k_pack.data, key_weight, key_bias);
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:319:8: note: in instantiation of function template specialization 'nnet::lin_projection<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>' requested here
+ nnet::lin_projection<data_T, res_T, CONFIG_T>(
+       ^
+firmware/myproject.cpp:39:8: note: in instantiation of function template specialization 'nnet::multiheadattention<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>' requested here
+ nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
+       ^
+#0 0x00000000018c85ea llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x18c85ea)
+#1 0x00000000018c641e llvm::sys::RunSignalHandlers() (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x18c641e)
+#2 0x00000000018c6656 SignalHandler(int) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x18c6656)
+#3 0x00000e6a99a45320 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x45320)
+#4 0x00000000040eb3af clang::Stmt::getLocStart() const (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x40eb3af)
+#5 0x00000000036a71db clang::Sema::VerifyIntegerConstantExpression(clang::Expr*, llvm::APSInt*, clang::Sema::VerifyICEDiagnoser&, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x36a71db)
+#6 0x00000000036a7892 clang::Sema::HLSVerifyIntegerConstantExpression(clang::Expr*, llvm::APSInt*) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x36a7892)
+#7 0x0000000003a210eb hoistXlxAttrs(llvm::SmallVector<clang::Stmt*, 8u>&, llvm::DenseMap<clang::Stmt*, llvm::SmallVector<clang::Attr const*, 4u>, llvm::DenseMapInfo<clang::Stmt*>, llvm::detail::DenseMapPair<clang::Stmt*, llvm::SmallVector<clang::Attr const*, 4u> > >&, clang::Sema&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3a210eb)
+#8 0x0000000003a20055 hoistXlxAttrs(llvm::SmallVector<clang::Stmt*, 8u>&, llvm::DenseMap<clang::Stmt*, llvm::SmallVector<clang::Attr const*, 4u>, llvm::DenseMapInfo<clang::Stmt*>, llvm::detail::DenseMapPair<clang::Stmt*, llvm::SmallVector<clang::Attr const*, 4u> > >&, clang::Sema&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3a20055)
+#9 0x0000000003a227ff doHoistXlxScope(clang::FunctionDecl*, clang::Sema&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3a227ff)
+#10 0x0000000003a23c6b XlxAttrHoistConsumer::HoistXlxScope(clang::Decl*) [clone .localalias.5244] (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3a23c6b)
+#11 0x0000000003a23e52 XlxAttrHoistConsumer::HandleTopLevelDecl(clang::DeclGroupRef) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3a23e52)
+#12 0x0000000001ef2d10 clang::MultiplexConsumer::HandleTopLevelDecl(clang::DeclGroupRef) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x1ef2d10)
+#13 0x000000000399a2a9 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x399a2a9)
+#14 0x00000000039994ee clang::Sema::PerformPendingInstantiations(bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x39994ee)
+#15 0x000000000399aecc clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x399aecc)
+#16 0x00000000039994ee clang::Sema::PerformPendingInstantiations(bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x39994ee)
+#17 0x000000000399aecc clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x399aecc)
+#18 0x00000000039994ee clang::Sema::PerformPendingInstantiations(bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x39994ee)
+#19 0x000000000399aecc clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x399aecc)
+#20 0x00000000039994ee clang::Sema::PerformPendingInstantiations(bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x39994ee)
+#21 0x000000000399aecc clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x399aecc)
+#22 0x00000000039994ee clang::Sema::PerformPendingInstantiations(bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x39994ee)
+#23 0x000000000347946b clang::Sema::ActOnEndOfTranslationUnit() (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x347946b)
+#24 0x000000000324040a clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x324040a)
+#25 0x0000000003234532 clang::ParseAST(clang::Sema&, bool, bool) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x3234532)
+#26 0x0000000001ec6536 clang::FrontendAction::Execute() (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x1ec6536)
+#27 0x0000000001e8dc26 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x1e8dc26)
+#28 0x0000000001f80703 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x1f80703)
+#29 0x000000000098fb78 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x98fb78)
+#30 0x000000000090b8a2 main (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x90b8a2)
+#31 0x00000e6a99a2a1ca (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a1ca)
+#32 0x00000e6a99a2a28b __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a28b)
+#33 0x000000000098d815 _start (/tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang+0x98d815)
+Stack dump:
+0.	Program arguments: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -cc1 -triple fpga64-xilinx-linux-gnu -fsyntax-only -disable-free -disable-llvm-verifier -main-file-name myproject.pp.0.cpp -mrelocation-model static -mthread-model posix -fhls -mhls-ir -disable-O0-optnone -hls-platform-name=virtexuplus_medium -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e -mdisable-fp-elim -fmath-errno -no-integrated-as -mconstructor-aliases -fuse-init-array -dwarf-column-info -debugger-tuning=gdb -diagnostic-log-file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.diag.xml -resource-dir /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/13/../../../../include/fpga64-xilinx-linux-gnu/c++/13 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward -internal-isystem /usr/local/include -internal-isystem /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/lib/clang/7.0.0/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fno-dwarf-directory-asm -fdebug-compilation-dir /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -opt-record-file /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -x c++ /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp 
+1.	<eof> parser at end of file
+2.	firmware/nnet_utils/nnet_multiheadattention.h:275:6: instantiating function definition 'nnet::multiheadattention<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>'
+3.	firmware/nnet_utils/nnet_multiheadattention.h:172:6: instantiating function definition 'nnet::lin_projection<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>'
+4.	firmware/nnet_utils/nnet_dense.h:41:6: instantiating function definition 'nnet::dense<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>'
+5.	firmware/nnet_utils/nnet_dense.h:50:17: instantiating function definition 'nnet::DenseLatency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>::dense'
+6.	firmware/nnet_utils/nnet_dense_latency.h:13:6: instantiating function definition 'nnet::dense_latency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3_1>'
+clang: error: unable to execute command: Segmentation fault (core dumped)
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 7.0.0 
+Target: fpga64-xilinx-linux-gnu
+Thread model: posix
+InstalledDir: /tools/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin
+clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang: note: diagnostic msg: /tmp/myproject-654d29.cpp
+clang: note: diagnostic msg: /tmp/myproject-654d29.sh
+clang: note: diagnostic msg: 
+
+********************

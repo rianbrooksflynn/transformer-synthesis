@@ -33,13 +33,13 @@
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
                 <row id="0" col0="myproject" col1="myproject.cpp:7" col2="4553" col3="12447" col4="12311" col5="12210" col6="12239">
-                    <row id="8" col0="transpose_2d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config3&gt;" col1="nnet_array.h:16" col2="29" col3="79" col4="42" col5="41" col6="42"/>
-                    <row id="2" col0="transpose_2d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config4&gt;" col1="nnet_array.h:16" col2="29" col3="79" col4="41" col5="21" col6="22"/>
-                    <row id="6" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:130" col2="4471" col3="12275" col4="12163" col5="12042" col6="12046">
-                        <row id="4" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:75" col2="4408" col3="12136" col3_disp="12,136 (4 calls)" col4="12068" col4_disp="12,068 (4 calls)" col5="11992" col5_disp="11,992 (4 calls)" col6="11996" col6_disp="11,996 (4 calls)">
-                            <row id="9" col0="init_invert_sqr_table&lt;config2, 1024&gt;" col1="nnet_layernorm.h:32" col2="827" col3="" col4="" col5="" col6=""/>
-                            <row id="3" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
-                            <row id="1" col0="lookup_invert_sqr&lt;config2&gt;" col1="nnet_layernorm.h:49" col2="338" col3="11388" col3_disp="11,388 (4 calls)" col4="11372" col4_disp="11,372 (4 calls)" col5="" col6=""/>
+                    <row id="5" col0="transpose_2d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config3&gt;" col1="nnet_array.h:16" col2="29" col3="79" col4="42" col5="41" col6="42"/>
+                    <row id="8" col0="transpose_2d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config4&gt;" col1="nnet_array.h:16" col2="29" col3="79" col4="41" col5="21" col6="22"/>
+                    <row id="2" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:130" col2="4471" col3="12275" col4="12163" col5="12042" col6="12046">
+                        <row id="9" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:75" col2="4408" col3="12136" col3_disp="12,136 (4 calls)" col4="12068" col4_disp="12,068 (4 calls)" col5="11992" col5_disp="11,992 (4 calls)" col6="11996" col6_disp="11,996 (4 calls)">
+                            <row id="6" col0="init_invert_sqr_table&lt;config2, 1024&gt;" col1="nnet_layernorm.h:32" col2="827" col3="" col4="" col5="" col6=""/>
+                            <row id="1" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="4" col0="lookup_invert_sqr&lt;config2&gt;" col1="nnet_layernorm.h:49" col2="338" col3="11388" col3_disp="11,388 (4 calls)" col4="11372" col4_disp="11,372 (4 calls)" col5="" col6=""/>
                         </row>
                     </row>
                 </row>

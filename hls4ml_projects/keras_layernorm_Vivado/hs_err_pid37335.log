@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/usr/lib/x86_64-linux-gnu/libc.so.6(+0x45320) [0xeb05b445320]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(+0xb95f9) [0xeb0646b95f9]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(Tcl_ResetResult+0x10) [0xeb0646ba000]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(+0x344e9) [0xeb0646344e9]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(Tcl_EvalEx+0x13) [0xeb064635163]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(Tcl_Eval+0x15) [0xeb064635185]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_hls_support.so(+0x8bb38) [0xeb069d97b38]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(Tcl_Exit+0x31) [0xeb064674401]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libtcl8.5.so(Tcl_Main+0x24e) [0xeb0646a036e]
+/tools/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_common.so(+0x61cbeb) [0xeb06941cbeb]
+/usr/lib/x86_64-linux-gnu/libc.so.6(+0x9ca94) [0xeb05b49ca94]
+/usr/lib/x86_64-linux-gnu/libc.so.6(+0x129c3c) [0xeb05b529c3c]

@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/hls_component/myproject/hls/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp

@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3713496192</coreId>
+              <coreId>1978678976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3730097872</coreId>
+              <coreId>2166217280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3709799504</coreId>
+              <coreId>1976879248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -322,7 +322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>48</coreId>
+              <coreId>1947775152</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -358,7 +358,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3709890336</coreId>
+              <coreId>1146183516</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -394,7 +394,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3754618736</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -430,7 +430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3754629248</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -466,7 +466,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>448</coreId>
+              <coreId>1948053872</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -502,7 +502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>654843098</coreId>
+              <coreId>1195631579</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -574,7 +574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976872832</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -610,7 +610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>48</coreId>
+              <coreId>1948513392</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -646,7 +646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3723164016</coreId>
+              <coreId>1976867648</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -718,7 +718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1195523416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -754,7 +754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>48</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -829,7 +829,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="11" tracking_level="0" version="0">
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second class_id="12" tracking_level="0" version="0">
                     <count>2</count>
                     <item_version>0</item_version>
@@ -892,7 +892,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -921,7 +921,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3874308064</coreId>
+              <coreId>2156517328</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -958,7 +958,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -987,7 +987,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3848272848</coreId>
+              <coreId>128</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1024,7 +1024,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1053,7 +1053,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3809579888</coreId>
+              <coreId>2732</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1090,7 +1090,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1119,7 +1119,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3850868464</coreId>
+              <coreId>112</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1156,7 +1156,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1185,7 +1185,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722514048</coreId>
+              <coreId>1976951488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1222,7 +1222,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1288,7 +1288,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1317,7 +1317,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1620</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1354,7 +1354,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1383,7 +1383,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722422752</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1420,7 +1420,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1449,7 +1449,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722414432</coreId>
+              <coreId>1976917520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1486,7 +1486,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1515,7 +1515,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1977197936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1552,7 +1552,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1581,7 +1581,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722739232</coreId>
+              <coreId>1977701536</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1618,7 +1618,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1647,7 +1647,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976913568</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1684,7 +1684,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1713,7 +1713,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1750,7 +1750,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1779,7 +1779,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1977743840</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1816,7 +1816,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1845,7 +1845,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976862128</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1882,7 +1882,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1911,7 +1911,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722841520</coreId>
+              <coreId>1977695040</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1948,7 +1948,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -1977,7 +1977,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1195632882</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2014,7 +2014,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2043,7 +2043,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976552784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2080,7 +2080,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2109,7 +2109,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1992411664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2146,7 +2146,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2175,7 +2175,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976864224</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>165</bitwidth>
@@ -2215,7 +2215,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2244,7 +2244,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722640256</coreId>
+              <coreId>1976876496</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2278,7 +2278,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2307,7 +2307,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722648960</coreId>
+              <coreId>1196985807</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2341,7 +2341,70 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <second>
+                    <count>2</count>
+                    <item_version>0</item_version>
+                    <item>
+                      <first>
+                        <first>firmware/myproject.cpp</first>
+                        <second>myproject</second>
+                      </first>
+                      <second>32</second>
+                    </item>
+                    <item>
+                      <first>
+                        <first>firmware/nnet_utils/nnet_layernorm.h</first>
+                        <second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+                      </first>
+                      <second>152</second>
+                    </item>
+                  </second>
+                </item>
+              </inlineStackInfo>
+              <originalName>outval</originalName>
+              <rtlName/>
+              <control/>
+              <opType/>
+              <implIndex/>
+              <coreName/>
+              <isStorage>0</isStorage>
+              <storageDepth>0</storageDepth>
+              <coreId>1977235648</coreId>
+              <rtlModuleName/>
+            </Obj>
+            <bitwidth>33</bitwidth>
+          </Value>
+          <oprand_edges>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>262</item>
+          </oprand_edges>
+          <opcode>extractvalue</opcode>
+          <m_Display>0</m_Display>
+          <m_isOnCriticalPath>0</m_isOnCriticalPath>
+          <m_isLCDNode>0</m_isLCDNode>
+          <m_isStartOfPath>0</m_isStartOfPath>
+          <m_delay>0.00</m_delay>
+          <m_topoIndex>28</m_topoIndex>
+          <m_clusterGroupNumber>-1</m_clusterGroupNumber>
+        </item>
+        <item class_id_reference="9" object_id="_47">
+          <Value>
+            <Obj>
+              <type>0</type>
+              <id>92</id>
+              <name>outval_3</name>
+              <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+              <fileDirectory>../.</fileDirectory>
+              <lineNumber>152</lineNumber>
+              <contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+              <inlineStackInfo>
+                <count>1</count>
+                <item_version>0</item_version>
+                <item>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2378,69 +2441,6 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>262</item>
-          </oprand_edges>
-          <opcode>extractvalue</opcode>
-          <m_Display>0</m_Display>
-          <m_isOnCriticalPath>0</m_isOnCriticalPath>
-          <m_isLCDNode>0</m_isLCDNode>
-          <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.00</m_delay>
-          <m_topoIndex>28</m_topoIndex>
-          <m_clusterGroupNumber>-1</m_clusterGroupNumber>
-        </item>
-        <item class_id_reference="9" object_id="_47">
-          <Value>
-            <Obj>
-              <type>0</type>
-              <id>92</id>
-              <name>outval_3</name>
-              <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-              <fileDirectory>../.</fileDirectory>
-              <lineNumber>152</lineNumber>
-              <contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
-              <inlineStackInfo>
-                <count>1</count>
-                <item_version>0</item_version>
-                <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
-                  <second>
-                    <count>2</count>
-                    <item_version>0</item_version>
-                    <item>
-                      <first>
-                        <first>firmware/myproject.cpp</first>
-                        <second>myproject</second>
-                      </first>
-                      <second>32</second>
-                    </item>
-                    <item>
-                      <first>
-                        <first>firmware/nnet_utils/nnet_layernorm.h</first>
-                        <second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
-                      </first>
-                      <second>152</second>
-                    </item>
-                  </second>
-                </item>
-              </inlineStackInfo>
-              <originalName>outval</originalName>
-              <rtlName/>
-              <control/>
-              <opType/>
-              <implIndex/>
-              <coreName/>
-              <isStorage>0</isStorage>
-              <storageDepth>0</storageDepth>
-              <coreId>657881107</coreId>
-              <rtlModuleName/>
-            </Obj>
-            <bitwidth>33</bitwidth>
-          </Value>
-          <oprand_edges>
-            <count>1</count>
-            <item_version>0</item_version>
             <item>263</item>
           </oprand_edges>
           <opcode>extractvalue</opcode>
@@ -2467,7 +2467,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2496,7 +2496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>255834</coreId>
+              <coreId>1976623680</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2530,7 +2530,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2559,7 +2559,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722663664</coreId>
+              <coreId>1976868800</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>165</bitwidth>
@@ -2599,7 +2599,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2628,7 +2628,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3722708432</coreId>
+              <coreId>1976576016</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2662,7 +2662,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2691,7 +2691,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3711396512</coreId>
+              <coreId>1976914256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2725,7 +2725,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2754,7 +2754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>667763652</coreId>
+              <coreId>1977739968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2788,7 +2788,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2817,7 +2817,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>256185</coreId>
+              <coreId>1976924784</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2851,7 +2851,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2880,7 +2880,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -2914,7 +2914,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -2943,7 +2943,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1886217065</coreId>
+              <coreId>1976887984</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>165</bitwidth>
@@ -2983,7 +2983,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3012,7 +3012,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>669721903</coreId>
+              <coreId>1976566848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3046,7 +3046,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3075,7 +3075,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3109,7 +3109,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3138,7 +3138,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708221648</coreId>
+              <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3172,7 +3172,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3201,7 +3201,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708224016</coreId>
+              <coreId>1976450416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3235,7 +3235,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3264,7 +3264,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708236944</coreId>
+              <coreId>1976462736</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3298,7 +3298,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3327,7 +3327,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976461632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>165</bitwidth>
@@ -3367,7 +3367,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3396,7 +3396,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976460912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3430,7 +3430,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3459,7 +3459,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3493,7 +3493,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3522,7 +3522,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708260688</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3556,7 +3556,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3585,7 +3585,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3709257968</coreId>
+              <coreId>1976440560</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3619,7 +3619,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -3648,7 +3648,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2</coreId>
+              <coreId>1976423520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -3682,7 +3682,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3704,7 +3704,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976436272</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3740,7 +3740,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3762,7 +3762,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708269920</coreId>
+              <coreId>1976423312</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3798,7 +3798,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3820,7 +3820,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3856,7 +3856,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3878,7 +3878,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708275472</coreId>
+              <coreId>1976447952</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3914,7 +3914,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3936,7 +3936,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708281008</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3972,7 +3972,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3994,7 +3994,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4030,7 +4030,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4052,7 +4052,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708281632</coreId>
+              <coreId>1976445488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4088,7 +4088,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4110,7 +4110,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708287168</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4146,7 +4146,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4168,7 +4168,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708288480</coreId>
+              <coreId>1976443024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4204,7 +4204,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4226,7 +4226,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708287792</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4262,7 +4262,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4284,7 +4284,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708295792</coreId>
+              <coreId>1976338016</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4320,7 +4320,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4342,7 +4342,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4378,7 +4378,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4400,7 +4400,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708298880</coreId>
+              <coreId>1976330624</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4436,7 +4436,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4458,7 +4458,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708301952</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4494,7 +4494,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4516,7 +4516,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976342944</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4552,7 +4552,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4574,7 +4574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708302576</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4610,7 +4610,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4632,7 +4632,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708308112</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4668,7 +4668,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4690,7 +4690,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976340480</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4726,7 +4726,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4748,7 +4748,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708308736</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4784,7 +4784,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4806,7 +4806,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708319200</coreId>
+              <coreId>1976333088</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4842,7 +4842,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+                  <first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4864,7 +4864,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708320512</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -4940,7 +4940,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708319824</coreId>
+              <coreId>1976320768</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -4971,7 +4971,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708322096</coreId>
+              <coreId>1976321312</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5002,7 +5002,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708322896</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5064,7 +5064,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976318304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5095,7 +5095,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3716985792</coreId>
+              <coreId>1976318848</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5126,7 +5126,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708325984</coreId>
+              <coreId>1976328160</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5157,7 +5157,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708328256</coreId>
+              <coreId>1976328704</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5188,7 +5188,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708329056</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5250,7 +5250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5281,7 +5281,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3717100368</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5312,7 +5312,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3709257440</coreId>
+              <coreId>1976325696</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5343,7 +5343,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708339344</coreId>
+              <coreId>1976326240</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5374,7 +5374,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708340144</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5436,7 +5436,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976323232</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5467,7 +5467,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3717219088</coreId>
+              <coreId>1976323776</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5498,7 +5498,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708340768</coreId>
+              <coreId>1976365120</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5529,7 +5529,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708346304</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5591,7 +5591,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5622,7 +5622,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3717323840</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5653,7 +5653,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708346928</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5684,7 +5684,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708349200</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5715,7 +5715,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708386016</coreId>
+              <coreId>1976370048</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5746,7 +5746,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1976370592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5777,7 +5777,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5808,7 +5808,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3717492784</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5839,7 +5839,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708389104</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5870,7 +5870,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708391376</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5901,7 +5901,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708392176</coreId>
+              <coreId>1976367584</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5932,7 +5932,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708322304</coreId>
+              <coreId>2936030790</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5963,7 +5963,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3716091184</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -5994,7 +5994,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708398416</coreId>
+              <coreId>1976362656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -6025,7 +6025,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3717583968</coreId>
+              <coreId>1976363200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -6056,7 +6056,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708397728</coreId>
+              <coreId>1976350336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -6087,7 +6087,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3708402464</coreId>
+              <coreId>1976350880</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>165</bitwidth>
@@ -6121,7 +6121,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>3839220976</coreId>
+            <coreId>2282989712</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>

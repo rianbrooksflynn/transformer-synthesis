@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3713496192</coreId>
+						<coreId>1978678976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -250,7 +250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3730097872</coreId>
+						<coreId>2166217280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -286,7 +286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3709799504</coreId>
+						<coreId>1976879248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -322,7 +322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>48</coreId>
+						<coreId>1947775152</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -358,7 +358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3709890336</coreId>
+						<coreId>1146183516</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -394,7 +394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3754618736</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -430,7 +430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3754629248</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -466,7 +466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>448</coreId>
+						<coreId>1948053872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -502,7 +502,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>654843098</coreId>
+						<coreId>1195631579</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -574,7 +574,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976872832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -610,7 +610,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>48</coreId>
+						<coreId>1948513392</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -646,7 +646,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3723164016</coreId>
+						<coreId>1976867648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -718,7 +718,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1195523416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -754,7 +754,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>48</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -821,7 +821,7 @@
 						<id>68</id>
 						<name>in_val</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -829,7 +829,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>2</count>
 									<item_version>0</item_version>
@@ -884,7 +884,7 @@
 						<id>69</id>
 						<name>in_val_19</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -892,7 +892,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -921,7 +921,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3874308064</coreId>
+						<coreId>2156517328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -950,7 +950,7 @@
 						<id>70</id>
 						<name>in_val_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -958,7 +958,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -987,7 +987,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3848272848</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1016,7 +1016,7 @@
 						<id>71</id>
 						<name>in_val_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1024,7 +1024,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1053,7 +1053,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3809579888</coreId>
+						<coreId>2732</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1082,7 +1082,7 @@
 						<id>72</id>
 						<name>in_val_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1090,7 +1090,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1119,7 +1119,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3850868464</coreId>
+						<coreId>112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1148,7 +1148,7 @@
 						<id>73</id>
 						<name>in_val_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1156,7 +1156,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1185,7 +1185,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722514048</coreId>
+						<coreId>1976951488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1214,7 +1214,7 @@
 						<id>74</id>
 						<name>in_val_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1222,7 +1222,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1280,7 +1280,7 @@
 						<id>75</id>
 						<name>in_val_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1288,7 +1288,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1317,7 +1317,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1620</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1346,7 +1346,7 @@
 						<id>76</id>
 						<name>in_val_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1354,7 +1354,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1383,7 +1383,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722422752</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1412,7 +1412,7 @@
 						<id>77</id>
 						<name>in_val_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1420,7 +1420,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1449,7 +1449,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722414432</coreId>
+						<coreId>1976917520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1478,7 +1478,7 @@
 						<id>78</id>
 						<name>in_val_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1486,7 +1486,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1515,7 +1515,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1977197936</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1544,7 +1544,7 @@
 						<id>79</id>
 						<name>in_val_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1552,7 +1552,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1581,7 +1581,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722739232</coreId>
+						<coreId>1977701536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1610,7 +1610,7 @@
 						<id>80</id>
 						<name>in_val_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1618,7 +1618,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1647,7 +1647,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976913568</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1676,7 +1676,7 @@
 						<id>81</id>
 						<name>in_val_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1684,7 +1684,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1713,7 +1713,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1742,7 +1742,7 @@
 						<id>82</id>
 						<name>in_val_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1750,7 +1750,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1779,7 +1779,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1977743840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1808,7 +1808,7 @@
 						<id>83</id>
 						<name>in_val_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1816,7 +1816,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1845,7 +1845,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976862128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1874,7 +1874,7 @@
 						<id>84</id>
 						<name>in_val_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1882,7 +1882,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1911,7 +1911,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722841520</coreId>
+						<coreId>1977695040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1940,7 +1940,7 @@
 						<id>85</id>
 						<name>in_val_16</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1948,7 +1948,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -1977,7 +1977,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1195632882</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2006,7 +2006,7 @@
 						<id>86</id>
 						<name>in_val_17</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2014,7 +2014,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2043,7 +2043,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976552784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2072,7 +2072,7 @@
 						<id>87</id>
 						<name>in_val_18</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2080,7 +2080,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2109,7 +2109,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1992411664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2138,7 +2138,7 @@
 						<id>88</id>
 						<name>call_ret6_i</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2146,7 +2146,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2175,7 +2175,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976864224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>165</bitwidth>
@@ -2207,7 +2207,7 @@
 						<id>89</id>
 						<name>outval</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2215,7 +2215,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2244,7 +2244,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722640256</coreId>
+						<coreId>1976876496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2270,7 +2270,7 @@
 						<id>90</id>
 						<name>outval_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2278,7 +2278,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2307,7 +2307,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722648960</coreId>
+						<coreId>1196985807</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2333,7 +2333,7 @@
 						<id>91</id>
 						<name>outval_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2341,7 +2341,70 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/myproject.cpp</first>
+											<second>myproject</second>
+										</first>
+										<second>32</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>152</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>outval</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1977235648</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>33</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>262</item>
+				</oprand_edges>
+				<opcode>extractvalue</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_47">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>92</id>
+						<name>outval_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<lineNumber>152</lineNumber>
+						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2378,69 +2441,6 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>262</item>
-				</oprand_edges>
-				<opcode>extractvalue</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_47">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>92</id>
-						<name>outval_3</name>
-						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
-						<lineNumber>152</lineNumber>
-						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/myproject.cpp</first>
-											<second>myproject</second>
-										</first>
-										<second>32</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_layernorm.h</first>
-											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>152</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>outval</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>657881107</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>33</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
 					<item>263</item>
 				</oprand_edges>
 				<opcode>extractvalue</opcode>
@@ -2459,7 +2459,7 @@
 						<id>93</id>
 						<name>outval_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2467,7 +2467,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2496,7 +2496,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>255834</coreId>
+						<coreId>1976623680</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2522,7 +2522,7 @@
 						<id>94</id>
 						<name>call_ret1_i</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2530,7 +2530,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2559,7 +2559,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722663664</coreId>
+						<coreId>1976868800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>165</bitwidth>
@@ -2591,7 +2591,7 @@
 						<id>95</id>
 						<name>outval_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2599,7 +2599,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2628,7 +2628,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3722708432</coreId>
+						<coreId>1976576016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2654,7 +2654,7 @@
 						<id>96</id>
 						<name>outval_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2662,7 +2662,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2691,7 +2691,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3711396512</coreId>
+						<coreId>1976914256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2717,7 +2717,7 @@
 						<id>97</id>
 						<name>outval_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2725,7 +2725,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2754,7 +2754,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>667763652</coreId>
+						<coreId>1977739968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2780,7 +2780,7 @@
 						<id>98</id>
 						<name>outval_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2788,7 +2788,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2817,7 +2817,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>256185</coreId>
+						<coreId>1976924784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2843,7 +2843,7 @@
 						<id>99</id>
 						<name>outval_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2851,7 +2851,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2880,7 +2880,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -2906,7 +2906,7 @@
 						<id>100</id>
 						<name>call_ret2_i</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2914,7 +2914,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -2943,7 +2943,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1886217065</coreId>
+						<coreId>1976887984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>165</bitwidth>
@@ -2975,7 +2975,7 @@
 						<id>101</id>
 						<name>outval_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2983,7 +2983,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3012,7 +3012,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>669721903</coreId>
+						<coreId>1976566848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3038,7 +3038,7 @@
 						<id>102</id>
 						<name>outval_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3046,7 +3046,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3075,7 +3075,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3101,7 +3101,7 @@
 						<id>103</id>
 						<name>outval_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3109,7 +3109,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3138,7 +3138,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708221648</coreId>
+						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3164,7 +3164,7 @@
 						<id>104</id>
 						<name>outval_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3172,7 +3172,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3201,7 +3201,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708224016</coreId>
+						<coreId>1976450416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3227,7 +3227,7 @@
 						<id>105</id>
 						<name>outval_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3235,7 +3235,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3264,7 +3264,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708236944</coreId>
+						<coreId>1976462736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3290,7 +3290,7 @@
 						<id>106</id>
 						<name>call_ret_i</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3298,7 +3298,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3327,7 +3327,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976461632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>165</bitwidth>
@@ -3359,7 +3359,7 @@
 						<id>107</id>
 						<name>outval_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3367,7 +3367,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3396,7 +3396,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976460912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3422,7 +3422,7 @@
 						<id>108</id>
 						<name>outval_16</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3430,7 +3430,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3459,7 +3459,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3485,7 +3485,7 @@
 						<id>109</id>
 						<name>outval_17</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3493,7 +3493,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3522,7 +3522,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708260688</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3548,7 +3548,7 @@
 						<id>110</id>
 						<name>outval_18</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3556,7 +3556,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3585,7 +3585,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3709257968</coreId>
+						<coreId>1976440560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3611,7 +3611,7 @@
 						<id>111</id>
 						<name>outval_19</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3619,7 +3619,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -3648,7 +3648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2</coreId>
+						<coreId>1976423520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -3674,7 +3674,7 @@
 						<id>112</id>
 						<name>layer2_out_0_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3682,7 +3682,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3704,7 +3704,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976436272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3732,7 +3732,7 @@
 						<id>113</id>
 						<name>layer2_out_1_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3740,7 +3740,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3762,7 +3762,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708269920</coreId>
+						<coreId>1976423312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3790,7 +3790,7 @@
 						<id>114</id>
 						<name>layer2_out_2_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3798,7 +3798,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3820,7 +3820,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3848,7 +3848,7 @@
 						<id>115</id>
 						<name>layer2_out_3_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3856,7 +3856,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3878,7 +3878,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708275472</coreId>
+						<coreId>1976447952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3906,7 +3906,7 @@
 						<id>116</id>
 						<name>layer2_out_4_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3914,7 +3914,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3936,7 +3936,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708281008</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3964,7 +3964,7 @@
 						<id>117</id>
 						<name>layer2_out_5_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -3972,7 +3972,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3994,7 +3994,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4022,7 +4022,7 @@
 						<id>118</id>
 						<name>layer2_out_6_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4030,7 +4030,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4052,7 +4052,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708281632</coreId>
+						<coreId>1976445488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4080,7 +4080,7 @@
 						<id>119</id>
 						<name>layer2_out_7_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4088,7 +4088,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4110,7 +4110,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708287168</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4138,7 +4138,7 @@
 						<id>120</id>
 						<name>layer2_out_8_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4146,7 +4146,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4168,7 +4168,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708288480</coreId>
+						<coreId>1976443024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4196,7 +4196,7 @@
 						<id>121</id>
 						<name>layer2_out_9_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4204,7 +4204,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4226,7 +4226,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708287792</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4254,7 +4254,7 @@
 						<id>122</id>
 						<name>layer2_out_10_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4262,7 +4262,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4284,7 +4284,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708295792</coreId>
+						<coreId>1976338016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4312,7 +4312,7 @@
 						<id>123</id>
 						<name>layer2_out_11_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4320,7 +4320,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4342,7 +4342,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4370,7 +4370,7 @@
 						<id>124</id>
 						<name>layer2_out_12_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4378,7 +4378,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4400,7 +4400,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708298880</coreId>
+						<coreId>1976330624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4428,7 +4428,7 @@
 						<id>125</id>
 						<name>layer2_out_13_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4436,7 +4436,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4458,7 +4458,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708301952</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4486,7 +4486,7 @@
 						<id>126</id>
 						<name>layer2_out_14_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4494,7 +4494,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4516,7 +4516,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976342944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4544,7 +4544,7 @@
 						<id>127</id>
 						<name>layer2_out_15_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4552,7 +4552,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4574,7 +4574,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708302576</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4602,7 +4602,7 @@
 						<id>128</id>
 						<name>layer2_out_16_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4610,7 +4610,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4632,7 +4632,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708308112</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4660,7 +4660,7 @@
 						<id>129</id>
 						<name>layer2_out_17_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4668,7 +4668,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4690,7 +4690,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976340480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4718,7 +4718,7 @@
 						<id>130</id>
 						<name>layer2_out_18_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4726,7 +4726,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4748,7 +4748,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708308736</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4776,7 +4776,7 @@
 						<id>131</id>
 						<name>layer2_out_19_write_ln32</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4784,7 +4784,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4806,7 +4806,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708319200</coreId>
+						<coreId>1976333088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4834,7 +4834,7 @@
 						<id>132</id>
 						<name>_ln34</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
+						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<contextNormFuncName>myproject</contextNormFuncName>
@@ -4842,7 +4842,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
+								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4864,7 +4864,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708320512</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4940,7 +4940,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708319824</coreId>
+						<coreId>1976320768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4971,7 +4971,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708322096</coreId>
+						<coreId>1976321312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5002,7 +5002,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708322896</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5064,7 +5064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976318304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5095,7 +5095,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3716985792</coreId>
+						<coreId>1976318848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5126,7 +5126,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708325984</coreId>
+						<coreId>1976328160</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5157,7 +5157,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708328256</coreId>
+						<coreId>1976328704</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5188,7 +5188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708329056</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5250,7 +5250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5281,7 +5281,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3717100368</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5312,7 +5312,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3709257440</coreId>
+						<coreId>1976325696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5343,7 +5343,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708339344</coreId>
+						<coreId>1976326240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5374,7 +5374,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708340144</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5436,7 +5436,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976323232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5467,7 +5467,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3717219088</coreId>
+						<coreId>1976323776</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5498,7 +5498,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708340768</coreId>
+						<coreId>1976365120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5529,7 +5529,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708346304</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5591,7 +5591,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5622,7 +5622,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3717323840</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5653,7 +5653,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708346928</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5684,7 +5684,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708349200</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5715,7 +5715,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708386016</coreId>
+						<coreId>1976370048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5746,7 +5746,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1976370592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5777,7 +5777,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5808,7 +5808,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3717492784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5839,7 +5839,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708389104</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5870,7 +5870,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708391376</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5901,7 +5901,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708392176</coreId>
+						<coreId>1976367584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5932,7 +5932,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708322304</coreId>
+						<coreId>2936030790</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5963,7 +5963,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3716091184</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5994,7 +5994,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708398416</coreId>
+						<coreId>1976362656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6025,7 +6025,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3717583968</coreId>
+						<coreId>1976363200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6056,7 +6056,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708397728</coreId>
+						<coreId>1976350336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6087,7 +6087,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3708402464</coreId>
+						<coreId>1976350880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>165</bitwidth>
@@ -6121,7 +6121,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>3839220976</coreId>
+					<coreId>2282989712</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>

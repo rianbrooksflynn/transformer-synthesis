@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'
 ================================================================
-* Date:           Tue Oct 22 19:18:16 2024
+* Date:           Wed Oct 30 10:39:28 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -2422,8 +2422,8 @@ The critical path consists of the following:
 
  <State 4>: 4.202ns
 The critical path consists of the following:
-	'add' operation 21 bit ('add_ln64_549', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [2275]  (0.815 ns)
-	'icmp' operation 1 bit ('icmp_ln64_552', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [2276]  (0.815 ns)
+	'add' operation 21 bit ('add_ln64_43', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [241]  (0.815 ns)
+	'icmp' operation 1 bit ('icmp_ln64_44', firmware/nnet_utils/nnet_layernorm.h:64->firmware/nnet_utils/nnet_layernorm.h:121) [242]  (0.815 ns)
 	multiplexor before 'phi' operation 10 bit ('i_0_lcssa1_i') [3014]  (1.373 ns)
 	'phi' operation 10 bit ('i_0_lcssa1_i') [3014]  (0.000 ns)
 	'getelementptr' operation 10 bit ('invert_sqr_table_addr', firmware/nnet_utils/nnet_layernorm.h:65->firmware/nnet_utils/nnet_layernorm.h:121) [3016]  (0.000 ns)

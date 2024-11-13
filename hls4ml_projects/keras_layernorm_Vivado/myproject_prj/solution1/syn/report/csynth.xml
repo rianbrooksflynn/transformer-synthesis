@@ -1935,7 +1935,10 @@
         <Pragma type="array_partition" location="firmware/myproject.cpp:14" status="valid" parentFunction="myproject" variable="layer2_out" isDirective="0" options="variable=layer2_out complete dim=0"/>
         <Pragma type="interface" location="firmware/myproject.cpp:15" status="valid" parentFunction="myproject" variable="layer_normalization_input,layer2_out" isDirective="0" options="ap_vld port=layer_normalization_input,layer2_out"/>
         <Pragma type="pipeline" location="firmware/myproject.cpp:16" status="valid" parentFunction="myproject" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense.h:40" status="valid" parentFunction="dense" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense.h:44" status="valid" parentFunction="dense" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense.h:53" status="valid" parentFunction="dense" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense.h:64" status="valid" parentFunction="dense" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense.h:75" status="valid" parentFunction="dense" variable="" isDirective="0" options=""/>
         <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_latency.h:21" status="valid" parentFunction="dense_latency" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
         <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_latency.h:26" status="valid" parentFunction="dense_latency" variable="" isDirective="0" options="II=CONFIG_T::reuse_factor"/>
         <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_latency.h:29" status="valid" parentFunction="dense_latency" variable="biases" isDirective="0" options="variable=biases complete"/>
@@ -1943,41 +1946,44 @@
         <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_latency.h:31" status="valid" parentFunction="dense_latency" variable="acc" isDirective="0" options="variable=acc complete"/>
         <Pragma type="allocation" location="firmware/nnet_utils/nnet_dense_latency.h:33" status="valid" parentFunction="dense_latency" variable="" isDirective="0" options="operation instances=mul limit=CONFIG_T::multiplier_limit"/>
         <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_resource.h:28" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
-        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:30" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:31" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="biases" isDirective="0" options="variable=biases complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:34" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="acc" isDirective="0" options="variable=acc complete"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:38" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:44" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options="II=1 rewind"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:53" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:78" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_resource.h:99" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
-        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:101" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:102" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="biases" isDirective="0" options="variable=biases complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:105" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="acc" isDirective="0" options="variable=acc complete"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:109" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:130" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options="II=1 rewind"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:137" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:157" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
-        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_resource.h:178" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
-        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:180" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:181" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="biases" isDirective="0" options="variable=biases complete"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:184" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="acc" isDirective="0" options="variable=acc complete"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:188" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:194" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options="II=1 rewind"/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:196" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="tmpmult" isDirective="0" options="variable=tmpmult complete"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:200" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:210" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="mult" isDirective="0" options="variable=mult complete"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:214" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:220" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:230" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:240" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense_resource.h:250" status="valid" parentFunction="dense_resource" variable="" isDirective="0" options="recursive"/>
-        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense_seq.h:16" status="valid" parentFunction="dense_seq" variable="" isDirective="0" options=""/>
-        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_seq.h:19" status="valid" parentFunction="dense_seq" variable="in_val" isDirective="0" options="variable=in_val complete"/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_seq.h:23" status="valid" parentFunction="dense_seq" variable="" isDirective="0" options="II=CONFIG_T::reuse_factor"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_seq.h:25" status="valid" parentFunction="dense_seq" variable="" isDirective="0" options=""/>
-        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_seq.h:32" status="valid" parentFunction="dense_seq" variable="" isDirective="0" options="II=CONFIG_T::reuse_factor"/>
-        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_seq.h:34" status="valid" parentFunction="dense_seq" variable="" isDirective="0" options=""/>
+        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:29" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:30" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="biases" isDirective="0" options="variable=biases complete"/>
+        <Pragma type="resource" location="firmware/nnet_utils/nnet_dense_resource.h:33" status="warning" parentFunction="dense_resource_rf_leq_nin" variable="weights" isDirective="0" options="variable=weights core=ROM_nP_BRAM">
+            <Msg msg_id="207-5536" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+        </Pragma>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:37" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="acc" isDirective="0" options="variable=acc complete"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:41" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:47" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options="II=1 rewind"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:56" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:81" status="valid" parentFunction="dense_resource_rf_leq_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_resource.h:102" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
+        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:103" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:104" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="biases" isDirective="0" options="variable=biases complete"/>
+        <Pragma type="resource" location="firmware/nnet_utils/nnet_dense_resource.h:107" status="warning" parentFunction="dense_resource_rf_gt_nin_rem0" variable="weights" isDirective="0" options="variable=weights core=ROM_nP_BRAM">
+            <Msg msg_id="207-5536" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+        </Pragma>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:111" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="acc" isDirective="0" options="variable=acc complete"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:115" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:136" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options="II=1 rewind"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:143" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:163" status="valid" parentFunction="dense_resource_rf_gt_nin_rem0" variable="" isDirective="0" options=""/>
+        <Pragma type="function_instantiate" location="firmware/nnet_utils/nnet_dense_resource.h:184" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="weights,biases" isDirective="0" options="variable=weights,biases"/>
+        <Pragma type="array_reshape" location="firmware/nnet_utils/nnet_dense_resource.h:185" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="weights" isDirective="0" options="variable=weights block factor=block_factor"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:186" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="biases" isDirective="0" options="variable=biases complete"/>
+        <Pragma type="resource" location="firmware/nnet_utils/nnet_dense_resource.h:189" status="warning" parentFunction="dense_resource_rf_gt_nin" variable="weights" isDirective="0" options="variable=weights core=ROM_nP_BRAM">
+            <Msg msg_id="207-5536" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+        </Pragma>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:193" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="acc" isDirective="0" options="variable=acc complete"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:197" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="firmware/nnet_utils/nnet_dense_resource.h:203" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options="II=1 rewind"/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:205" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="tmpmult" isDirective="0" options="variable=tmpmult complete"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:209" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" location="firmware/nnet_utils/nnet_dense_resource.h:219" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="mult" isDirective="0" options="variable=mult complete"/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:223" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:229" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:239" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="firmware/nnet_utils/nnet_dense_resource.h:249" status="valid" parentFunction="dense_resource_rf_gt_nin" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="firmware/nnet_utils/nnet_dense_resource.h:259" status="valid" parentFunction="dense_resource" variable="" isDirective="0" options="recursive"/>
         <Pragma type="pipeline" location="firmware/nnet_utils/nnet_layernorm.h:60" status="valid" parentFunction="lookup_invert_sqr" variable="" isDirective="0" options=""/>
         <Pragma type="unroll" location="firmware/nnet_utils/nnet_layernorm.h:63" status="valid" parentFunction="lookup_invert_sqr" variable="" isDirective="0" options="factor=4"/>
         <Pragma type="pipeline" location="firmware/nnet_utils/nnet_layernorm.h:78" status="valid" parentFunction="layernorm_1d" variable="" isDirective="0" options="II=CONFIG_T::reuse_factor"/>

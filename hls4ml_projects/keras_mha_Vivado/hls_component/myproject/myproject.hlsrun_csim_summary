@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/myproject.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Nov  4 08:34:06 2024",
+ "timestampMillis": "1730727246058",
+ "buildStep": {
+  "cmdId": "084789cf-4238-494a-8057-cee2e36df623",
+  "name": "vitis-run",
+  "logFile": "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/logs/myproject.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2023.2/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg --work_dir myproject ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/hls_config.cfg",
+   "--work_dir",
+   "myproject"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov  4 08:34:06 2024",
+ "timestampMillis": "1730727246058",
+ "status": {
+  "cmdId": "084789cf-4238-494a-8057-cee2e36df623",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Nov  4 08:34:09 2024",
+ "timestampMillis": "1730727249015",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "myproject",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/firmware/myproject.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Nov  4 08:34:09 2024",
+ "timestampMillis": "1730727249017",
+ "buildStep": {
+  "cmdId": "84f5256a-d5ce-4504-84f0-882fa34e1a82",
+  "name": "csim_design",
+  "logFile": "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component/myproject/hls/hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov  4 08:34:09 2024",
+ "timestampMillis": "1730727249017",
+ "status": {
+  "cmdId": "84f5256a-d5ce-4504-84f0-882fa34e1a82",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov  4 08:34:13 2024",
+ "timestampMillis": "1730727253539",
+ "status": {
+  "cmdId": "84f5256a-d5ce-4504-84f0-882fa34e1a82",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Nov  4 08:34:13 2024",
+ "timestampMillis": "1730727253621",
+ "status": {
+  "cmdId": "084789cf-4238-494a-8057-cee2e36df623",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov  4 08:34:13 2024",
+ "timestampMillis": "1730727253622",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Nov  4 08:34:13 2024",
+ "timestampMillis": "1730727253622",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

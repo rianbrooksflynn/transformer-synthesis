@@ -1,0 +1,471 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+  **** SW Build 4023990 on Oct 11 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2023.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'rian' on host 'xianle' (Linux_x86_64 version 6.8.0-48-generic) on Tue Nov 12 10:44:49 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 24.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'build_prj.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset myproject_prj 
+INFO: [HLS 200-10] Opening and resetting project '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj'.
+INFO: [HLS 200-1510] Running: set_top myproject 
+INFO: [HLS 200-1510] Running: add_files firmware/myproject.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb firmware/weights 
+INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb_data 
+INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
+INFO: [HLS 200-1510] Running: open_solution -reset solution1 
+INFO: [HLS 200-10] Creating and opening solution '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: config_array_partition -maximum_size 4096 
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: set_part xcvu13p-flga2577-2-e 
+INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
+INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 12.5% default 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+***** C SIMULATION *****
+INFO: [HLS 200-1510] Running: csim_design 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+-1.9621 0.495451 0.629619 0.686897 0.150129 -1.5519 0.432691 -0.602346 0.335135 1.38642 -0.993943 -1.29405 0.788571 0.20877 1.29065 -1.95001 0.483007 0.1619 0.856545 0.448554 
+Quantized predictions
+-1.96555 0.49603 0.631515 0.688646 0.149972 -1.55373 0.433369 -0.603227 0.335643 1.38736 -0.994807 -1.29529 0.789457 0.209325 1.29173 -2.47656 0.613064 0.205738 1.08779 0.569108 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 9.18 seconds. CPU system time: 0.58 seconds. Elapsed time: 9.76 seconds; current allocated memory: 0.391 MB.
+***** C SIMULATION COMPLETED IN 0h0m9s *****
+***** C/RTL SYNTHESIS *****
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 198.746 MB.
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:33:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:107:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:189:9)
+WARNING: [HLS 207-5292] unused parameter 'keep' (firmware/nnet_utils/nnet_helpers.h:285:99)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:14:36)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:15:36)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:16:44)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:24:24)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:25:24)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:26:32)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:33:30)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:33:58)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:34:51)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:35:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 23.54 seconds. CPU system time: 1.1 seconds. Elapsed time: 24.66 seconds; current allocated memory: 206.715 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 4,413 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4,132 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,003 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,001 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,001 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 903 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 903 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 903 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 943 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 883 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 838 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 838 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 838 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 838 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 859 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 865 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:136:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:128:12)
+INFO: [HLS 214-291] Loop 'LAYERNORM_SEQ_LOOP' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:166:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_LOAD' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:169:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_STORE' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:175:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_RESULT' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:145:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_VAR' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:131:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_SUM' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:125:5)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:166:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 4 (firmware/nnet_utils/nnet_layernorm.h:153:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:166:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' has been removed because the loop is unrolled completely (firmware/nnet_utils/nnet_layernorm.h:153:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:175:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:153:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:169:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:153:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:145:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:92:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:131:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:92:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:125:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:92:0)
+INFO: [HLS 214-248] Applying array_partition to 'b2': Complete partitioning on dimension 1. (firmware/weights/b2.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 's2': Complete partitioning on dimension 1. (firmware/weights/s2.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'in_val': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:155:12)
+INFO: [HLS 214-248] Applying array_partition to 'outval': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:156:11)
+INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:10:0)
+INFO: [HLS 214-248] Applying array_reshape to 'layer_normalization_input': Complete reshaping on dimension 1. (firmware/myproject.cpp:10:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3 seconds. CPU system time: 0.36 seconds. Elapsed time: 7.46 seconds; current allocated memory: 207.547 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 207.547 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 208.988 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:32) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 210.609 MB.
+INFO: [XFORM 203-602] Inlining function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'myproject' (firmware/myproject.cpp:32) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_layernorm.h:126:22) to (firmware/nnet_utils/nnet_layernorm.h:148:1) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'... converting 3 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:73:1)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 233.684 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 241.434 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...
+WARNING: [SYN 201-103] Legalizing function name 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 5, function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 241.434 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 241.434 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'myproject'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 5, function 'myproject'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 241.434 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 241.434 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_table_ROM_AUTO_1R' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' due to the length limit 80
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' pipeline 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_19s_12ns_31_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_19s_19s_32_1_1': 5 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_26ns_19s_45_1_1': 5 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 241.434 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer_normalization_input' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_3' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_4' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_5' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_6' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_7' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_8' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_9' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_10' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_11' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_12' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_13' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_14' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_15' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_16' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_17' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_18' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_19' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 241.434 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 244.723 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.72 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.73 seconds; current allocated memory: 249.250 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
+INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
+INFO: [HLS 200-789] **** Estimated Fmax: 235.08 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 28.08 seconds. CPU system time: 1.54 seconds. Elapsed time: 33.76 seconds; current allocated memory: 51.148 MB.
+***** C/RTL SYNTHESIS COMPLETED IN 0h0m33s *****
+***** C/RTL SIMULATION *****
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x -DRTL_SIM 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-1510] Running: cosim_design -trace_level all -setup 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin/g++"
+   Compiling apatb_myproject.cpp
+   Compiling myproject.cpp_pre.cpp.tb.cpp
+   Compiling myproject_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_myproject_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Processing input 0
+Predictions
+-1.9621 0.495451 0.629619 0.686897 0.150129 -1.5519 0.432691 -0.602346 0.335135 1.38642 -0.993943 -1.29405 0.788571 0.20877 1.29065 -1.95001 0.483007 0.1619 0.856545 0.448554 
+Quantized predictions
+-1.96555 0.49603 0.631515 0.688646 0.149972 -1.55373 0.433369 -0.603227 0.335643 1.38736 -0.994807 -1.29529 0.789457 0.209325 1.29173 -2.47656 0.613064 0.205738 1.08779 0.569108 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 21.78 seconds. CPU system time: 1.67 seconds. Elapsed time: 23.43 seconds; current allocated memory: 13.395 MB.
+INFO: [COSIM 212-302] Starting C TB testing ...  
+Processing input 0
+Predictions
+-1.9621 0.495451 0.629619 0.686897 0.150129 -1.5519 0.432691 -0.602346 0.335135 1.38642 -0.993943 -1.29405 0.788571 0.20877 1.29065 -1.95001 0.483007 0.1619 0.856545 0.448554 
+Quantized predictions
+-1.96555 0.49603 0.631515 0.688646 0.149972 -1.55373 0.433369 -0.603227 0.335643 1.38736 -0.994807 -1.29529 0.789457 0.209325 1.29173 -2.47656 0.613064 0.205738 1.08779 0.569108 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO: [COSIM 212-323] Starting verilog simulation...
+INFO: [COSIM 212-15] Starting XSIM ...
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_12ns_31_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_19s_12ns_31_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_19s_19s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_19s_19s_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_mul_26ns_19s_45_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_26ns_19s_45_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject_mul_19s_12ns_31_1_1(NU...
+Compiling module xil_defaultlib.myproject_mul_19s_19s_32_1_1(NUM...
+Compiling module xil_defaultlib.myproject_mul_26ns_19s_45_1_1(NU...
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
+
+****** xsim v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/myproject/xsim_script.tcl
+# xsim {myproject} -view {{myproject_dataflow_ana.wcfg}} -tclbatch {myproject.tcl} -protoinst {myproject.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file myproject.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325_activity
+Time resolution is 1 ps
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_19_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_19 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_18_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_18 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_17_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_17 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_16_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_16 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_15_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_15 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_14_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_14 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_13_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_13 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_12_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_12 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_11_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_11 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_10_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_10 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_9_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_9 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_8_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_8 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_7_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_7 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_6_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_6 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_5_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_5 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_4_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_4 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_3_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_3 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_2_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_2 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_1_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_1 -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_0_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_0 -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $cinputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input -into $return_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_ap_vld -into $return_group -color #ffff00 -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_start -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_done -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_idle -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_myproject_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_0 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_10 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_11 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_12 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_13 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_14 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_15 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_16 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_17 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_18 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_19 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_2 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_3 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_4 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_5 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_6 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_7 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_8 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out_9 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer_normalization_input -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(wire) -into $tbcoutputgroup]
+## add_wave /apatb_myproject_top/layer2_out_19_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_19 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_18_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_18 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_17_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_17 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_16_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_16 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_15_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_15 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_14_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_14 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_13_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_13 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_12_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_12 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_11_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_11 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_10_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_10 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_9_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_9 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_8_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_8 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_7_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_7 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_6_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_6 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_5_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_5 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_4_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_4 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_3_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_3 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_2_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_2 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_1_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_1 -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_0_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_0 -into $tb_return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(wire) -into $tbcinputgroup]
+## add_wave /apatb_myproject_top/layer_normalization_input -into $tb_return_group -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_ap_vld -into $tb_return_group -color #ffff00 -radix hex
+## save_wave_config myproject.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "113000"
+// RTL Simulation : 1 / 1 [100.00%] @ "143000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 172500 ps : File "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/OLD_keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 1450
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Nov 12 10:46:06 2024...
+INFO: [COSIM 212-316] Starting C post checking ...
+Processing input 0
+Predictions
+-1.9621 0.495451 0.629619 0.686897 0.150129 -1.5519 0.432691 -0.602346 0.335135 1.38642 -0.993943 -1.29405 0.788571 0.20877 1.29065 -1.95001 0.483007 0.1619 0.856545 0.448554 
+Quantized predictions
+-1.96555 0.49603 0.631515 0.688646 0.149972 -1.55373 0.433369 -0.603227 0.335643 1.38736 -0.994807 -1.29529 0.789457 0.209325 1.29173 -2.47656 0.613064 0.205738 1.08779 0.569108 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO:
+Report time       : Tue Nov 12 10:45:57 AM EST 2024.
+Solution          : solution1.
+Simulation tool   : xsim.
+
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |
++   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +
+|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
+|   Verilog|      Pass|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+
+***** C/RTL SIMULATION COMPLETED IN 0h0m32s *****
+INFO: [HLS 200-112] Total CPU user time: 68.66 seconds. Total CPU system time: 4.52 seconds. Total elapsed time: 77.11 seconds; peak allocated memory: 262.840 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Tue Nov 12 10:46:06 2024...
