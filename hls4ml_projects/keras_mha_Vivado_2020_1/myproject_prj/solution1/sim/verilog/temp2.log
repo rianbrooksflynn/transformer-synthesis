@@ -1,0 +1,672 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/tools/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /tools/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s myproject -debug wave 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_key_weigheOg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_key_weigheOg_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_key_weigheOg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_invert_table2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_invert_table2_rom
+INFO: [VRFC 10-311] analyzing module softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_invert_table2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_174.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_174
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_key_weighbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_key_weighbkb_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_key_weighbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_1_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_1_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/dense_latency_ap_fixed_ap_fixed_33_13_5_3_0_config3_2_0_0_0_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dense_latency_ap_fixed_ap_fixed_33_13_5_3_0_config3_2_0_0_0_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_query_weifYi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_query_weifYi_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_query_weifYi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_175.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_175
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/fifo_w1280_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w1280_d2_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/fifo_w66_d20_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w66_d20_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_exp_table1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_exp_table1_rom
+INFO: [VRFC 10-311] analyzing module softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config3_s_exp_table1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/multiheadattention_ap_fixed_ap_fixed_33_13_5_3_0_config3_entry333.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiheadattention_ap_fixed_ap_fixed_33_13_5_3_0_config3_entry333
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/myproject_mul_mul_21ns_16s_37_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_21ns_16s_37_1_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_21ns_16s_37_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/myproject_mux_42_16_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mux_42_16_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_value_weidEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_value_weidEe_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_value_weidEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/fifo_w16_d4_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w16_d4_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w16_d4_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/read_stream_array_ap_fixed_16_6_5_3_0_4_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_stream_array_ap_fixed_16_6_5_3_0_4_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_value_weig8j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_value_weig8j_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_value_weig8j
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170hbi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170hbi_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170hbi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_query_weicud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_query_weicud_rom
+INFO: [VRFC 10-311] analyzing module lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_query_weicud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/fifo_w33_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w33_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w33_d2_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171ibs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171ibs_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171ibs
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiheadattention_ap_fixed_ap_f...
+Compiling module xil_defaultlib.data_prep_ap_fixed_16_6_5_3_0_ap...
+Compiling module xil_defaultlib.data_prep_ap_fixed_16_6_5_3_0_ap...
+Compiling module xil_defaultlib.data_prep_ap_fixed_16_6_5_3_0_ap...
+Compiling module xil_defaultlib.data_prep_ap_fixed_16_6_5_3_0_ap...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.myproject_mux_42_16_1_1(ID=1,din...
+Compiling module xil_defaultlib.dense_latency_ap_fixed_16_6_5_3_...
+Compiling module xil_defaultlib.read_stream_array_ap_fixed_16_6_...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.lin_projection_ap_fixed_16_6_5_3...
+Compiling module xil_defaultlib.softmax_legacy_ap_fixed_ap_fixed...
+Compiling module xil_defaultlib.softmax_legacy_ap_fixed_ap_fixed...
+Compiling module xil_defaultlib.softmax_legacy_ap_fixed_ap_fixed...
+Compiling module xil_defaultlib.softmax_legacy_ap_fixed_ap_fixed...
+Compiling module xil_defaultlib.softmax_legacy_ap_fixed_ap_fixed...
+Compiling module xil_defaultlib.myproject_mul_mul_21ns_16s_37_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_21ns_16s_37_1_...
+Compiling module xil_defaultlib.matrixmul_transpose_ap_fixed_ap_...
+Compiling module xil_defaultlib.matrixmul_transpose_ap_fixed_ap_...
+Compiling module xil_defaultlib.matrixmul_ap_fixed_33_13_5_3_0_a...
+Compiling module xil_defaultlib.matrixmul_ap_fixed_33_13_5_3_0_a...
+Compiling module xil_defaultlib.dense_latency_ap_fixed_ap_fixed_...
+Compiling module xil_defaultlib.dense_out_ap_fixed_33_13_5_3_0_a...
+Compiling module xil_defaultlib.fifo_w1280_d2_A
+Compiling module xil_defaultlib.fifo_w16_d4_A_shiftReg
+Compiling module xil_defaultlib.fifo_w16_d4_A
+Compiling module xil_defaultlib.fifo_w66_d20_A
+Compiling module xil_defaultlib.fifo_w33_d2_A_shiftReg
+Compiling module xil_defaultlib.fifo_w33_d2_A
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_data_prep_ap_fixed_16_...
+Compiling module xil_defaultlib.start_for_lin_projection_ap_fixe...
+Compiling module xil_defaultlib.start_for_lin_projection_ap_fixe...
+Compiling module xil_defaultlib.start_for_lin_projection_ap_fixe...
+Compiling module xil_defaultlib.start_for_lin_projection_ap_fixe...
+Compiling module xil_defaultlib.start_for_matrixmul_transpose_ap...
+Compiling module xil_defaultlib.start_for_matrixmul_transpose_ap...
+Compiling module xil_defaultlib.start_for_matrixmul_transpose_ap...
+Compiling module xil_defaultlib.start_for_matrixmul_transpose_ap...
+Compiling module xil_defaultlib.start_for_dense_out_ap_fixed_33_...
+Compiling module xil_defaultlib.start_for_dense_out_ap_fixed_33_...
+Compiling module xil_defaultlib.multiheadattention_ap_fixed_16_6...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado_2020_1/myproject_prj/solution1/sim/verilog/xsim.dir/myproject/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 14 17:21:47 2024...
+
+****** xsim v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/myproject/xsim_script.tcl
+# xsim {myproject} -autoloadwcfg -tclbatch {myproject.tcl}
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source myproject.tcl
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set layer3_out_group [add_wave_group layer3_out(wire) -into $coutputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_79_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_79_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_78_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_78_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_77_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_77_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_76_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_76_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_75_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_75_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_74_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_74_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_73_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_73_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_72_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_72_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_71_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_71_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_70_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_70_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_69_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_69_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_68_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_68_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_67_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_67_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_66_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_66_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_65_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_65_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_64_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_64_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_63_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_63_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_62_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_62_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_61_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_61_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_60_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_60_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_59_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_59_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_58_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_58_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_57_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_57_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_56_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_56_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_55_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_55_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_54_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_54_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_53_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_53_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_52_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_52_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_51_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_51_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_50_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_50_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_49_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_49_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_48_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_48_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_47_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_47_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_46_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_46_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_45_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_45_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_44_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_44_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_43_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_43_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_42_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_42_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_41_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_41_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_40_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_40_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_39_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_39_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_38_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_38_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_37_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_37_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_36_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_36_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_35_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_35_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_34_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_34_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_33_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_33_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_32_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_32_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_31_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_31_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_30_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_30_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_29_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_29_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_28_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_28_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_27_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_27_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_26_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_26_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_25_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_25_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_24_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_24_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_23_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_23_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_22_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_22_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_21_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_21_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_20_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_20_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_19_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_19_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_18_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_18_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_17_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_17_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_16_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_16_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_15_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_15_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_14_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_14_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_13_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_13_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_12_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_12_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_11_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_11_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_10_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_10_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_9_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_9_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_8_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_8_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_7_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_7_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_6_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_6_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_5_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_5_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_4_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_4_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_3_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_3_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_2_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_2_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_1_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_1_V -into $layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_0_V_ap_vld -into $layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer3_out_0_V -into $layer3_out_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set input_2_group [add_wave_group input_2(wire) -into $cinputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/input_2_V_ap_vld -into $input_2_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/input_2_V -into $input_2_group -radix hex
+## set input_1_group [add_wave_group input_1(wire) -into $cinputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/input_1_V_ap_vld -into $input_1_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/input_1_V -into $input_1_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_start -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_done -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_idle -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_myproject_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_input_1_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_input_2_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_0_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_1_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_2_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_3_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_4_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_5_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_6_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_7_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_8_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_9_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_10_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_11_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_12_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_13_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_14_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_15_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_16_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_17_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_18_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_19_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_20_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_21_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_22_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_23_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_24_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_25_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_26_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_27_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_28_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_29_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_30_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_31_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_32_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_33_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_34_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_35_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_36_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_37_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_38_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_39_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_40_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_41_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_42_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_43_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_44_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_45_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_46_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_47_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_48_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_49_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_50_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_51_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_52_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_53_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_54_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_55_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_56_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_57_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_58_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_59_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_60_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_61_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_62_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_63_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_64_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_65_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_66_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_67_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_68_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_69_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_70_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_71_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_72_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_73_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_74_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_75_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_76_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_77_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_78_V -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer3_out_79_V -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_layer3_out_group [add_wave_group layer3_out(wire) -into $tbcoutputgroup]
+## add_wave /apatb_myproject_top/layer3_out_79_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_79_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_78_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_78_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_77_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_77_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_76_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_76_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_75_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_75_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_74_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_74_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_73_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_73_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_72_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_72_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_71_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_71_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_70_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_70_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_69_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_69_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_68_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_68_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_67_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_67_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_66_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_66_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_65_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_65_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_64_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_64_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_63_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_63_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_62_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_62_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_61_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_61_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_60_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_60_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_59_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_59_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_58_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_58_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_57_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_57_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_56_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_56_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_55_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_55_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_54_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_54_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_53_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_53_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_52_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_52_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_51_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_51_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_50_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_50_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_49_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_49_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_48_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_48_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_47_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_47_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_46_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_46_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_45_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_45_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_44_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_44_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_43_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_43_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_42_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_42_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_41_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_41_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_40_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_40_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_39_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_39_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_38_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_38_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_37_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_37_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_36_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_36_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_35_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_35_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_34_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_34_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_33_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_33_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_32_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_32_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_31_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_31_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_30_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_30_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_29_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_29_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_28_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_28_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_27_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_27_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_26_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_26_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_25_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_25_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_24_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_24_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_23_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_23_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_22_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_22_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_21_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_21_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_20_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_20_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_19_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_19_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_18_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_18_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_17_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_17_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_16_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_16_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_15_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_15_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_14_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_14_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_13_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_13_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_12_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_12_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_11_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_11_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_10_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_10_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_9_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_9_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_8_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_8_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_7_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_7_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_6_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_6_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_5_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_5_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_4_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_4_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_3_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_3_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_2_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_2_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_1_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_1_V -into $tb_layer3_out_group -radix hex
+## add_wave /apatb_myproject_top/layer3_out_0_V_ap_vld -into $tb_layer3_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer3_out_0_V -into $tb_layer3_out_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_input_2_group [add_wave_group input_2(wire) -into $tbcinputgroup]
+## add_wave /apatb_myproject_top/input_2_V_ap_vld -into $tb_input_2_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/input_2_V -into $tb_input_2_group -radix hex
+## set tb_input_1_group [add_wave_group input_1(wire) -into $tbcinputgroup]
+## add_wave /apatb_myproject_top/input_1_V_ap_vld -into $tb_input_1_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/input_1_V -into $tb_input_1_group -radix hex
+## save_wave_config myproject.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "113000"
+FATAL_ERROR: Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation time can not advance. Please check your source code. Note that the iteration limit can be changed using switch -maxdeltaid.
+Time: 132500 ps  Iteration: 10000
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Nov 14 17:21:57 2024...

@@ -39,7 +39,7 @@ OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivad
 OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_mha_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: 5eaaeb51
+Stamp: 8b414c3c
 Version: 1.0.0
 WriterConfig:
   Namespace: null

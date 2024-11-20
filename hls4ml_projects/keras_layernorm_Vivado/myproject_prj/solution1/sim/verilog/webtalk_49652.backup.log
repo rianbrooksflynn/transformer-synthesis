@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Nov 18 09:41:15 2024
+# Process ID: 49652
+# Current directory: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog
+# Command line: wbtcv -mode batch -source /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.dir/myproject/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/webtalk.log
+# Journal file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/myproject_prj/solution1/sim/verilog/xsim.dir/myproject/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 18 09:41:15 2024...

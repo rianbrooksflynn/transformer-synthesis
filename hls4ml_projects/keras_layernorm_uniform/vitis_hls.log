@@ -1,0 +1,374 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis/2020.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis/2020.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'rian' on host 'xianle' (Linux_x86_64 version 6.8.0-48-generic) on Mon Nov 18 11:49:28 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 24.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform'
+Sourcing Tcl script 'build_prj.tcl'
+INFO: [HLS 200-10] Creating and opening project '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj'.
+INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
+INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
+INFO: [HLS 200-10] Creating and opening solution '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+WARNING: [HLS 200-40] No /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/solution1.aps file found.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-1505.html
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
+INFO: [HLS 200-10] Setting target device to 'xcvu13p-flga2577-2-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+***** C SIMULATION *****
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+-0.892746 -1.05255 0.601787 1.6276 -0.284093 1.52229 0.0442373 -1.55955 -0.353265 0.346293 1.6544 -0.814672 -1.22166 0.311638 0.0702939 -1.4554 -0.947123 0.816988 0.627578 0.95796 
+Quantized predictions
+-1.11579 -1.316 0.752487 2.03479 -0.355002 1.75352 0.0512724 -1.7965 -0.406764 0.39895 1.69444 -0.834036 -1.25105 0.319355 0.0722694 -1.45566 -0.947661 0.817256 0.627671 0.957611 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+***** C SIMULATION COMPLETED IN 0h0m9s *****
+***** C/RTL SYNTHESIS *****
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 207-5324] unused parameter 'keep': firmware/nnet_utils/nnet_helpers.h:285:99
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:14:36
+WARNING: [HLS 207-5324] unused parameter 'buffer': firmware/nnet_utils/nnet_function_stubs.h:15:36
+WARNING: [HLS 207-5324] unused parameter 'partition': firmware/nnet_utils/nnet_function_stubs.h:16:44
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:24:24
+WARNING: [HLS 207-5324] unused parameter 'buffer': firmware/nnet_utils/nnet_function_stubs.h:25:24
+WARNING: [HLS 207-5324] unused parameter 'partition': firmware/nnet_utils/nnet_function_stubs.h:26:32
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:33:30
+WARNING: [HLS 207-5324] unused parameter 'res': firmware/nnet_utils/nnet_function_stubs.h:33:58
+WARNING: [HLS 207-5324] unused parameter 'weights': firmware/nnet_utils/nnet_function_stubs.h:34:51
+WARNING: [HLS 207-5324] unused parameter 'biases': firmware/nnet_utils/nnet_function_stubs.h:35:49
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_latency.h:21:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:28:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:33:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:102:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:107:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:184:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:189:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:117:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:118:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:119:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:120:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:121:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:151:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:152:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:153:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:154:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:155:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:156:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:157:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:158:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:159:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:160:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:210:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:211:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:212:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:239:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:240:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:241:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:242:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:243:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:244:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:280:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:281:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_layernorm.h:162:9
+WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:35
+WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:61
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' target.
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:139:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:131:12)
+WARNING: [HLS 214-183] Unsupport array of struct: array_partition pragma on TOP function argument, in 'call' (firmware/myproject.cpp:13:9)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:92:87)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:94:9)
+WARNING: [HLS 214-184] Unsupport array_reshape pragma on function argument, in 'call' (firmware/myproject.cpp:10:58)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:173:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:173:9)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:179:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:179:9)
+INFO: [HLS 214-178] Inlining function 'void nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:10:0)
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6606 ; free virtual = 29984
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6604 ; free virtual = 29982
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6588 ; free virtual = 29970
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6685 ; free virtual = 30069
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'myproject' (firmware/nnet_utils/nnet_layernorm.h:34:44).
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) because its parent loop or function is pipelined.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:120:30).
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) in function 'myproject' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:128) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:134) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:149) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [XFORM 203-101] Partitioning array 's2.V'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'b2.V'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'in_val.V' (firmware/nnet_utils/nnet_layernorm.h:159) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outval.V' (firmware/nnet_utils/nnet_layernorm.h:160) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data_diff.V' (firmware/nnet_utils/nnet_layernorm.h:120) in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:143:1)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6597 ; free virtual = 29985
+WARNING: [XFORM 203-631] Renaming function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:141:1)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6688 ; free virtual = 29994
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...
+WARNING: [SYN 201-103] Legalizing function name 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 65.43 seconds; current allocated memory: 207.818 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 208.158 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'myproject'.
+WARNING: [HLS 200-885] Unable to schedule 'load' operation ('in_val.V[2]') on array 'layer_normalization_input' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'layer_normalization_input'.
+Resolution: For help on HLS 200-885 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 10, Depth = 19.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 208.575 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.1 seconds; current allocated memory: 209.116 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_table' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' due to the length limit 80
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_19s_46_1_1': 5 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_mul_12ns_19s_31_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_mul_19s_19s_32_1_1': 5 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 209.956 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer_normalization_input' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
+INFO: [HLS 200-111]  Elapsed time: 0.18 seconds; current allocated memory: 212.004 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'myproject_mul_27ns_19s_46_1_1_Multiplier_0'
+INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb_rom' using auto ROMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:01:04 ; elapsed = 00:01:07 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6790 ; free virtual = 30042
+INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
+INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
+INFO: [HLS 200-789] **** Estimated Fmax: 248.68 MHz
+***** C/RTL SYNTHESIS COMPLETED IN 0h0m55s *****
+***** C/RTL SIMULATION *****
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "/tools/Xilinx/Vivado/2020.1/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_myproject.cpp
+   Compiling myproject.cpp_pre.cpp.tb.cpp
+   Compiling myproject_test.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Processing input 0
+Predictions
+-0.892746 -1.05255 0.601787 1.6276 -0.284093 1.52229 0.0442373 -1.55955 -0.353265 0.346293 1.6544 -0.814672 -1.22166 0.311638 0.0702939 -1.4554 -0.947123 0.816988 0.627578 0.95796 
+Quantized predictions
+-1.11579 -1.316 0.752487 2.03479 -0.355002 1.75352 0.0512724 -1.7965 -0.406764 0.39895 1.69444 -0.834036 -1.25105 0.319355 0.0722694 -1.45566 -0.947661 0.817256 0.627671 0.957611 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [COSIM 212-302] Starting C TB testing ...  
+Processing input 0
+Predictions
+-0.892746 -1.05255 0.601787 1.6276 -0.284093 1.52229 0.0442373 -1.55955 -0.353265 0.346293 1.6544 -0.814672 -1.22166 0.311638 0.0702939 -1.4554 -0.947123 0.816988 0.627578 0.95796 
+Quantized predictions
+-1.11579 -1.316 0.752487 2.03479 -0.355002 1.75352 0.0512724 -1.7965 -0.406764 0.39895 1.69444 -0.834036 -1.25105 0.319355 0.0722694 -1.45566 -0.947661 0.817256 0.627671 0.957611 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO: [COSIM 212-323] Starting verilog simulation...
+INFO: [COSIM 212-15] Starting XSIM ...
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --lib ieee_proposed=./ieee_proposed -s myproject -debug wave 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_12ns_19s_31_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_27ns_19s_46_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_46_1_1_Multiplier_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_46_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_layer2_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_layer2_out
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_layer_normalization_input.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_layer_normalization_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb_rom
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_19s_19s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1_DSP48_1
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject_mul_27ns_19s_46_1_1_Mu...
+Compiling module xil_defaultlib.myproject_mul_27ns_19s_46_1_1(ID...
+Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
+Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.AESL_automem_layer_normalization...
+Compiling module xil_defaultlib.AESL_automem_layer2_out
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/xsim.dir/myproject/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 18 11:51:06 2024...
+
+****** xsim v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/myproject/xsim_script.tcl
+# xsim {myproject} -autoloadwcfg -tclbatch {myproject.tcl}
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source myproject.tcl
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set layer2_out_group [add_wave_group layer2_out(memory) -into $coutputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_d1 -into $layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_we1 -into $layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_ce1 -into $layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_address1 -into $layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_d0 -into $layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_we0 -into $layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_ce0 -into $layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer2_out_address0 -into $layer2_out_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set layer_normalization_input_group [add_wave_group layer_normalization_input(memory) -into $cinputgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_q1 -into $layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_ce1 -into $layer_normalization_input_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_address1 -into $layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_q0 -into $layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_ce0 -into $layer_normalization_input_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/AESL_inst_myproject/layer_normalization_input_address0 -into $layer_normalization_input_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_start -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_done -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_idle -into $blocksiggroup
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_myproject_top/AESL_inst_myproject/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_myproject_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer_normalization_input -into $tb_portdepth_group -radix hex
+## add_wave /apatb_myproject_top/LENGTH_layer2_out -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_layer2_out_group [add_wave_group layer2_out(memory) -into $tbcoutputgroup]
+## add_wave /apatb_myproject_top/layer2_out_d1 -into $tb_layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_we1 -into $tb_layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_ce1 -into $tb_layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_address1 -into $tb_layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_d0 -into $tb_layer2_out_group -radix hex
+## add_wave /apatb_myproject_top/layer2_out_we0 -into $tb_layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_ce0 -into $tb_layer2_out_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer2_out_address0 -into $tb_layer2_out_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_layer_normalization_input_group [add_wave_group layer_normalization_input(memory) -into $tbcinputgroup]
+## add_wave /apatb_myproject_top/layer_normalization_input_q1 -into $tb_layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_ce1 -into $tb_layer_normalization_input_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_address1 -into $tb_layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_q0 -into $tb_layer_normalization_input_group -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_ce0 -into $tb_layer_normalization_input_group -color #ffff00 -radix hex
+## add_wave /apatb_myproject_top/layer_normalization_input_address0 -into $tb_layer_normalization_input_group -radix hex
+## save_wave_config myproject.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "613000"
+// RTL Simulation : 1 / 1 [100.00%] @ "713000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 732500 ps : File "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 285
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 18 11:51:16 2024...
+INFO: [COSIM 212-316] Starting C post checking ...
+Processing input 0
+Predictions
+-0.892746 -1.05255 0.601787 1.6276 -0.284093 1.52229 0.0442373 -1.55955 -0.353265 0.346293 1.6544 -0.814672 -1.22166 0.311638 0.0702939 -1.4554 -0.947123 0.816988 0.627578 0.95796 
+Quantized predictions
+-8193.12 -8193.32 0.752487 2.03479 -8192.36 1.75352 0.0512724 -8193.8 -8192.41 0.39895 1.69444 -8192.83 -8193.25 0.319355 0.0722694 -8193.46 -8192.95 0.817256 0.627671 0.957611 
+INFO: Saved inference results to file: tb_data/rtl_cosim_results.log
+INFO:
+Report time       : Mon Nov 18 11:50:59 AM EST 2024.
+Solution          : solution1.
+Simulation tool   : xsim.
+
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |
++   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +
+|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
+|   Verilog|      Pass|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+
+***** C/RTL SIMULATION COMPLETED IN 0h0m41s *****
+INFO: [HLS 200-112] Total elapsed time: 108.66 seconds; peak allocated memory: 212.004 MB.
+INFO: [Common 17-206] Exiting vitis_hls at Mon Nov 18 11:51:16 2024...

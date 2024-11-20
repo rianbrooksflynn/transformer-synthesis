@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Nov 18 09:41:25 2024
+# Process ID: 49880
+# Current directory: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/vivado.log
+# Journal file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vivado/vivado.jou
+#-----------------------------------------------------------
+source vivado_synth.tcl

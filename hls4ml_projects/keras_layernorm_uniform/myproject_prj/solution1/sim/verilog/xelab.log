@@ -1,0 +1,50 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --lib ieee_proposed=./ieee_proposed -s myproject -debug wave 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_12ns_19s_31_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_27ns_19s_46_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_46_1_1_Multiplier_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_46_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_layer2_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_layer2_out
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_layer_normalization_input.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_layer_normalization_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb_rom
+INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_19s_19s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1_DSP48_1
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject_mul_27ns_19s_46_1_1_Mu...
+Compiling module xil_defaultlib.myproject_mul_27ns_19s_46_1_1(ID...
+Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
+Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
+Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.AESL_automem_layer_normalization...
+Compiling module xil_defaultlib.AESL_automem_layer2_out
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject

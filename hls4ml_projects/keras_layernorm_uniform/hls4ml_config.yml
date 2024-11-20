@@ -1,0 +1,35 @@
+Backend: Vivado
+ClockPeriod: 5
+ClockUncertainty: 12.5%
+HLSConfig:
+  LayerName:
+    layer_normalization:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      Trace: false
+    layer_normalization_input:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: /home/rian/A3D3/transformer-synthesis/data/layernorm_data.dat
+KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/keras_model.keras'
+OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_layernorm_predictions.dat
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: 7a1815a8
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

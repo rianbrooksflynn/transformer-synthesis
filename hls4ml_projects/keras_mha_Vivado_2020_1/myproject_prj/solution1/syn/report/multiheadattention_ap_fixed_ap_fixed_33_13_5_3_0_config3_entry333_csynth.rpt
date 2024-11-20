@@ -1,0 +1,155 @@
+
+
+================================================================
+== Vivado HLS Report for 'multiheadattention_ap_fixed_ap_fixed_33_13_5_3_0_config3_entry333'
+================================================================
+* Date:           Thu Nov 14 17:15:24 2024
+
+* Version:        2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)
+* Project:        myproject_prj
+* Solution:       solution1
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 5.00 ns | 1.458 ns |   0.62 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|   0 ns   |   0 ns   |    0|    0|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K| DSP48E|    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|        2|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      -|        -|        -|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       72|     -|
+|Register             |        -|      -|        3|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      0|        3|       74|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|      0|    ~0   |    ~0   |     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|      0|    ~0   |    ~0   |     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+-------+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |ap_block_state1  |    or    |      0|  0|   2|           1|           1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |Total            |          |      0|  0|   2|           1|           1|
+    +-----------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------+----+-----------+-----+-----------+
+    |         Name         | LUT| Input Size| Bits| Total Bits|
+    +----------------------+----+-----------+-----+-----------+
+    |ap_done               |   9|          2|    1|          2|
+    |data_q_V_blk_n        |   9|          2|    1|          2|
+    |data_q_V_out1_blk_n   |   9|          2|    1|          2|
+    |data_q_V_out_blk_n    |   9|          2|    1|          2|
+    |data_vk_V_blk_n       |   9|          2|    1|          2|
+    |data_vk_V_out2_blk_n  |   9|          2|    1|          2|
+    |data_vk_V_out_blk_n   |   9|          2|    1|          2|
+    |real_start            |   9|          2|    1|          2|
+    +----------------------+----+-----------+-----+-----------+
+    |Total                 |  72|         16|    8|         16|
+    +----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+---+----+-----+-----------+
+    |      Name      | FF| LUT| Bits| Const Bits|
+    +----------------+---+----+-----+-----------+
+    |ap_CS_fsm       |  1|   0|    1|          0|
+    |ap_done_reg     |  1|   0|    1|          0|
+    |start_once_reg  |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+    |Total           |  3|   0|    3|          0|
+    +----------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+------+------------+---------------------------------------------------------------------+--------------+
+|       RTL Ports       | Dir | Bits |  Protocol  |                            Source Object                            |    C Type    |
++-----------------------+-----+------+------------+---------------------------------------------------------------------+--------------+
+|ap_clk                 |  in |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_rst                 |  in |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_start               |  in |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|start_full_n           |  in |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_done                | out |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_continue            |  in |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_idle                | out |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|ap_ready               | out |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|start_out              | out |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|start_write            | out |     1| ap_ctrl_hs | multiheadattention<ap_fixed,ap_fixed<33,13,5,3,0>,config3>.entry333 | return value |
+|data_q_V               |  in |  1280|   ap_vld   |                               data_q_V                              |    pointer   |
+|data_q_V_ap_vld        |  in |     1|   ap_vld   |                               data_q_V                              |    pointer   |
+|data_vk_V              |  in |  1280|   ap_vld   |                              data_vk_V                              |    pointer   |
+|data_vk_V_ap_vld       |  in |     1|   ap_vld   |                              data_vk_V                              |    pointer   |
+|data_q_V_out_din       | out |  1280|   ap_fifo  |                             data_q_V_out                            |    pointer   |
+|data_q_V_out_full_n    |  in |     1|   ap_fifo  |                             data_q_V_out                            |    pointer   |
+|data_q_V_out_write     | out |     1|   ap_fifo  |                             data_q_V_out                            |    pointer   |
+|data_q_V_out1_din      | out |  1280|   ap_fifo  |                            data_q_V_out1                            |    pointer   |
+|data_q_V_out1_full_n   |  in |     1|   ap_fifo  |                            data_q_V_out1                            |    pointer   |
+|data_q_V_out1_write    | out |     1|   ap_fifo  |                            data_q_V_out1                            |    pointer   |
+|data_vk_V_out_din      | out |  1280|   ap_fifo  |                            data_vk_V_out                            |    pointer   |
+|data_vk_V_out_full_n   |  in |     1|   ap_fifo  |                            data_vk_V_out                            |    pointer   |
+|data_vk_V_out_write    | out |     1|   ap_fifo  |                            data_vk_V_out                            |    pointer   |
+|data_vk_V_out2_din     | out |  1280|   ap_fifo  |                            data_vk_V_out2                           |    pointer   |
+|data_vk_V_out2_full_n  |  in |     1|   ap_fifo  |                            data_vk_V_out2                           |    pointer   |
+|data_vk_V_out2_write   | out |     1|   ap_fifo  |                            data_vk_V_out2                           |    pointer   |
++-----------------------+-----+------+------------+---------------------------------------------------------------------+--------------+
+

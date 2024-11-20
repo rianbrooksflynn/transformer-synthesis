@@ -1,0 +1,433 @@
+
+
+================================================================
+== Vitis HLS Report for 'myproject'
+================================================================
+* Date:           Wed Nov 20 09:22:30 2024
+
+* Version:        2020.1 (Build 2902540 on Wed May 27 20:16:15 MDT 2020)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 5.00 ns | 0.212 us |   0.62 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |       19|       19| 4.036 us | 4.036 us |   10|   10| function |
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 10, depth = 20
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 20
+* Pipeline : 1
+  Pipeline-0 : II = 10, D = 20, States = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 19 
+19 --> 20 
+20 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.59>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 21 'getelementptr' 'layer_normalization_input_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [2/2] (0.59ns)   --->   "%in_val_V_0 = load i5 %layer_normalization_input_addr"   --->   Operation 22 'load' 'in_val_V_0' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_1 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 23 'getelementptr' 'layer_normalization_input_addr_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [2/2] (0.59ns)   --->   "%in_val_V_1 = load i5 %layer_normalization_input_addr_1"   --->   Operation 24 'load' 'in_val_V_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 2 <SV = 1> <Delay = 0.59>
+ST_2 : Operation 25 [1/2] (0.59ns)   --->   "%in_val_V_0 = load i5 %layer_normalization_input_addr"   --->   Operation 25 'load' 'in_val_V_0' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_2 : Operation 26 [1/2] (0.59ns)   --->   "%in_val_V_1 = load i5 %layer_normalization_input_addr_1"   --->   Operation 26 'load' 'in_val_V_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_2 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 27 'getelementptr' 'layer_normalization_input_addr_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 28 [2/2] (0.59ns)   --->   "%in_val_V_2 = load i5 %layer_normalization_input_addr_2"   --->   Operation 28 'load' 'in_val_V_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_3 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 29 'getelementptr' 'layer_normalization_input_addr_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [2/2] (0.59ns)   --->   "%in_val_V_3 = load i5 %layer_normalization_input_addr_3"   --->   Operation 30 'load' 'in_val_V_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 3 <SV = 2> <Delay = 0.59>
+ST_3 : Operation 31 [1/2] (0.59ns)   --->   "%in_val_V_2 = load i5 %layer_normalization_input_addr_2"   --->   Operation 31 'load' 'in_val_V_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_3 : Operation 32 [1/2] (0.59ns)   --->   "%in_val_V_3 = load i5 %layer_normalization_input_addr_3"   --->   Operation 32 'load' 'in_val_V_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_4 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 33 'getelementptr' 'layer_normalization_input_addr_4' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [2/2] (0.59ns)   --->   "%in_val_V_4 = load i5 %layer_normalization_input_addr_4"   --->   Operation 34 'load' 'in_val_V_4' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_5 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 35 'getelementptr' 'layer_normalization_input_addr_5' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 36 [2/2] (0.59ns)   --->   "%in_val_V_0_1 = load i5 %layer_normalization_input_addr_5"   --->   Operation 36 'load' 'in_val_V_0_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 4 <SV = 3> <Delay = 0.59>
+ST_4 : Operation 37 [1/2] (0.59ns)   --->   "%in_val_V_4 = load i5 %layer_normalization_input_addr_4"   --->   Operation 37 'load' 'in_val_V_4' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_4 : Operation 38 [1/2] (0.59ns)   --->   "%in_val_V_0_1 = load i5 %layer_normalization_input_addr_5"   --->   Operation 38 'load' 'in_val_V_0_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_6 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 39 'getelementptr' 'layer_normalization_input_addr_6' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 40 [2/2] (0.59ns)   --->   "%in_val_V_1_1 = load i5 %layer_normalization_input_addr_6"   --->   Operation 40 'load' 'in_val_V_1_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_7 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 41 'getelementptr' 'layer_normalization_input_addr_7' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 42 [2/2] (0.59ns)   --->   "%in_val_V_2_1 = load i5 %layer_normalization_input_addr_7"   --->   Operation 42 'load' 'in_val_V_2_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 5 <SV = 4> <Delay = 4.04>
+ST_5 : Operation 43 [6/6] (4.04ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 43 'call' 'call_ret' <Predicate = true> <Delay = 4.04> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 44 [1/2] (0.59ns)   --->   "%in_val_V_1_1 = load i5 %layer_normalization_input_addr_6"   --->   Operation 44 'load' 'in_val_V_1_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_5 : Operation 45 [1/2] (0.59ns)   --->   "%in_val_V_2_1 = load i5 %layer_normalization_input_addr_7"   --->   Operation 45 'load' 'in_val_V_2_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_5 : Operation 46 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_8 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 46 'getelementptr' 'layer_normalization_input_addr_8' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 47 [2/2] (0.59ns)   --->   "%in_val_V_3_1 = load i5 %layer_normalization_input_addr_8"   --->   Operation 47 'load' 'in_val_V_3_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_5 : Operation 48 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_9 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 48 'getelementptr' 'layer_normalization_input_addr_9' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 49 [2/2] (0.59ns)   --->   "%in_val_V_4_1 = load i5 %layer_normalization_input_addr_9"   --->   Operation 49 'load' 'in_val_V_4_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 6 <SV = 5> <Delay = 4.37>
+ST_6 : Operation 50 [5/6] (4.37ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 50 'call' 'call_ret' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 51 [1/2] (0.59ns)   --->   "%in_val_V_3_1 = load i5 %layer_normalization_input_addr_8"   --->   Operation 51 'load' 'in_val_V_3_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_6 : Operation 52 [1/2] (0.59ns)   --->   "%in_val_V_4_1 = load i5 %layer_normalization_input_addr_9"   --->   Operation 52 'load' 'in_val_V_4_1' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_6 : Operation 53 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_10 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 53 'getelementptr' 'layer_normalization_input_addr_10' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 54 [2/2] (0.59ns)   --->   "%in_val_V_0_2 = load i5 %layer_normalization_input_addr_10"   --->   Operation 54 'load' 'in_val_V_0_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_6 : Operation 55 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_11 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 55 'getelementptr' 'layer_normalization_input_addr_11' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 56 [2/2] (0.59ns)   --->   "%in_val_V_1_2 = load i5 %layer_normalization_input_addr_11"   --->   Operation 56 'load' 'in_val_V_1_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 7 <SV = 6> <Delay = 4.37>
+ST_7 : Operation 57 [4/6] (4.37ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 57 'call' 'call_ret' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 58 [6/6] (4.04ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 58 'call' 'call_ret1' <Predicate = true> <Delay = 4.04> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 59 [1/2] (0.59ns)   --->   "%in_val_V_0_2 = load i5 %layer_normalization_input_addr_10"   --->   Operation 59 'load' 'in_val_V_0_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_7 : Operation 60 [1/2] (0.59ns)   --->   "%in_val_V_1_2 = load i5 %layer_normalization_input_addr_11"   --->   Operation 60 'load' 'in_val_V_1_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_7 : Operation 61 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_12 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 61 'getelementptr' 'layer_normalization_input_addr_12' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 62 [2/2] (0.59ns)   --->   "%in_val_V_2_2 = load i5 %layer_normalization_input_addr_12"   --->   Operation 62 'load' 'in_val_V_2_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_7 : Operation 63 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_13 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 63 'getelementptr' 'layer_normalization_input_addr_13' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 64 [2/2] (0.59ns)   --->   "%in_val_V_3_2 = load i5 %layer_normalization_input_addr_13"   --->   Operation 64 'load' 'in_val_V_3_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 8 <SV = 7> <Delay = 4.37>
+ST_8 : Operation 65 [3/6] (4.37ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 65 'call' 'call_ret' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 66 [5/6] (4.37ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 66 'call' 'call_ret1' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 67 [1/2] (0.59ns)   --->   "%in_val_V_2_2 = load i5 %layer_normalization_input_addr_12"   --->   Operation 67 'load' 'in_val_V_2_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_8 : Operation 68 [1/2] (0.59ns)   --->   "%in_val_V_3_2 = load i5 %layer_normalization_input_addr_13"   --->   Operation 68 'load' 'in_val_V_3_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_8 : Operation 69 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_14 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 69 'getelementptr' 'layer_normalization_input_addr_14' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 70 [2/2] (0.59ns)   --->   "%in_val_V_4_2 = load i5 %layer_normalization_input_addr_14"   --->   Operation 70 'load' 'in_val_V_4_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_8 : Operation 71 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_15 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 71 'getelementptr' 'layer_normalization_input_addr_15' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 72 [2/2] (0.59ns)   --->   "%in_val_V_0_3 = load i5 %layer_normalization_input_addr_15"   --->   Operation 72 'load' 'in_val_V_0_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 9 <SV = 8> <Delay = 4.37>
+ST_9 : Operation 73 [2/6] (4.37ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 73 'call' 'call_ret' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 74 [4/6] (4.37ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 74 'call' 'call_ret1' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 75 [1/2] (0.59ns)   --->   "%in_val_V_4_2 = load i5 %layer_normalization_input_addr_14"   --->   Operation 75 'load' 'in_val_V_4_2' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_9 : Operation 76 [1/2] (0.59ns)   --->   "%in_val_V_0_3 = load i5 %layer_normalization_input_addr_15"   --->   Operation 76 'load' 'in_val_V_0_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_9 : Operation 77 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_16 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 77 'getelementptr' 'layer_normalization_input_addr_16' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 78 [2/2] (0.59ns)   --->   "%in_val_V_1_3 = load i5 %layer_normalization_input_addr_16"   --->   Operation 78 'load' 'in_val_V_1_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_9 : Operation 79 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_17 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 79 'getelementptr' 'layer_normalization_input_addr_17' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 80 [2/2] (0.59ns)   --->   "%in_val_V_2_3 = load i5 %layer_normalization_input_addr_17"   --->   Operation 80 'load' 'in_val_V_2_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 10 <SV = 9> <Delay = 4.37>
+ST_10 : Operation 81 [1/6] (4.28ns)   --->   "%call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 81 'call' 'call_ret' <Predicate = true> <Delay = 4.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 82 [1/1] (0.00ns)   --->   "%outval_V_0 = extractvalue i165 %call_ret" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 82 'extractvalue' 'outval_V_0' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 83 [1/1] (0.00ns)   --->   "%outval_V_1 = extractvalue i165 %call_ret" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 83 'extractvalue' 'outval_V_1' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 84 [1/1] (0.00ns)   --->   "%outval_V_2 = extractvalue i165 %call_ret" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 84 'extractvalue' 'outval_V_2' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 85 [1/1] (0.00ns)   --->   "%outval_V_3 = extractvalue i165 %call_ret" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 85 'extractvalue' 'outval_V_3' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 86 [1/1] (0.00ns)   --->   "%outval_V_4 = extractvalue i165 %call_ret" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 86 'extractvalue' 'outval_V_4' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 87 [3/6] (4.37ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 87 'call' 'call_ret1' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 88 [6/6] (4.04ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 88 'call' 'call_ret2' <Predicate = true> <Delay = 4.04> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 89 [1/2] (0.59ns)   --->   "%in_val_V_1_3 = load i5 %layer_normalization_input_addr_16"   --->   Operation 89 'load' 'in_val_V_1_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_10 : Operation 90 [1/2] (0.59ns)   --->   "%in_val_V_2_3 = load i5 %layer_normalization_input_addr_17"   --->   Operation 90 'load' 'in_val_V_2_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_10 : Operation 91 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_18 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 91 'getelementptr' 'layer_normalization_input_addr_18' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 92 [2/2] (0.59ns)   --->   "%in_val_V_3_3 = load i5 %layer_normalization_input_addr_18"   --->   Operation 92 'load' 'in_val_V_3_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_10 : Operation 93 [1/1] (0.00ns)   --->   "%layer_normalization_input_addr_19 = getelementptr i16 %layer_normalization_input, i64, i64"   --->   Operation 93 'getelementptr' 'layer_normalization_input_addr_19' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 94 [2/2] (0.59ns)   --->   "%in_val_V_4_3 = load i5 %layer_normalization_input_addr_19"   --->   Operation 94 'load' 'in_val_V_4_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 11 <SV = 10> <Delay = 4.37>
+ST_11 : Operation 95 [1/1] (0.00ns)   --->   "%zext_ln205 = zext i33 %outval_V_0"   --->   Operation 95 'zext' 'zext_ln205' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 96 [1/1] (0.00ns)   --->   "%layer2_out_addr = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 96 'getelementptr' 'layer2_out_addr' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 97 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr, i64 %zext_ln205, i8"   --->   Operation 97 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_11 : Operation 98 [1/1] (0.00ns)   --->   "%zext_ln205_1 = zext i33 %outval_V_1"   --->   Operation 98 'zext' 'zext_ln205_1' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 99 [1/1] (0.00ns)   --->   "%layer2_out_addr_1 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 99 'getelementptr' 'layer2_out_addr_1' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 100 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_1, i64 %zext_ln205_1, i8"   --->   Operation 100 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_11 : Operation 101 [2/6] (4.37ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 101 'call' 'call_ret1' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_11 : Operation 102 [5/6] (4.37ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 102 'call' 'call_ret2' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_11 : Operation 103 [1/2] (0.59ns)   --->   "%in_val_V_3_3 = load i5 %layer_normalization_input_addr_18"   --->   Operation 103 'load' 'in_val_V_3_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+ST_11 : Operation 104 [1/2] (0.59ns)   --->   "%in_val_V_4_3 = load i5 %layer_normalization_input_addr_19"   --->   Operation 104 'load' 'in_val_V_4_3' <Predicate = true> <Delay = 0.59> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 0.59> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 20> <RAM>
+
+State 12 <SV = 11> <Delay = 4.37>
+ST_12 : Operation 105 [1/1] (0.00ns)   --->   "%zext_ln205_2 = zext i33 %outval_V_2"   --->   Operation 105 'zext' 'zext_ln205_2' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 106 [1/1] (0.00ns)   --->   "%layer2_out_addr_2 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 106 'getelementptr' 'layer2_out_addr_2' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 107 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_2, i64 %zext_ln205_2, i8"   --->   Operation 107 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_12 : Operation 108 [1/1] (0.00ns)   --->   "%zext_ln205_3 = zext i33 %outval_V_3"   --->   Operation 108 'zext' 'zext_ln205_3' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 109 [1/1] (0.00ns)   --->   "%layer2_out_addr_3 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 109 'getelementptr' 'layer2_out_addr_3' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 110 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_3, i64 %zext_ln205_3, i8"   --->   Operation 110 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_12 : Operation 111 [1/6] (4.28ns)   --->   "%call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 111 'call' 'call_ret1' <Predicate = true> <Delay = 4.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_12 : Operation 112 [1/1] (0.00ns)   --->   "%outval_V_0_1 = extractvalue i165 %call_ret1" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 112 'extractvalue' 'outval_V_0_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 113 [1/1] (0.00ns)   --->   "%outval_V_1_1 = extractvalue i165 %call_ret1" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 113 'extractvalue' 'outval_V_1_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 114 [1/1] (0.00ns)   --->   "%outval_V_2_1 = extractvalue i165 %call_ret1" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 114 'extractvalue' 'outval_V_2_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 115 [1/1] (0.00ns)   --->   "%outval_V_3_1 = extractvalue i165 %call_ret1" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 115 'extractvalue' 'outval_V_3_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 116 [1/1] (0.00ns)   --->   "%outval_V_4_1 = extractvalue i165 %call_ret1" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 116 'extractvalue' 'outval_V_4_1' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 117 [4/6] (4.37ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 117 'call' 'call_ret2' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_12 : Operation 118 [6/6] (4.04ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 118 'call' 'call_ret3' <Predicate = true> <Delay = 4.04> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 13 <SV = 12> <Delay = 4.37>
+ST_13 : Operation 119 [1/1] (0.00ns)   --->   "%zext_ln205_4 = zext i33 %outval_V_4"   --->   Operation 119 'zext' 'zext_ln205_4' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 120 [1/1] (0.00ns)   --->   "%layer2_out_addr_4 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 120 'getelementptr' 'layer2_out_addr_4' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 121 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_4, i64 %zext_ln205_4, i8"   --->   Operation 121 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_13 : Operation 122 [1/1] (0.00ns)   --->   "%zext_ln205_5 = zext i33 %outval_V_0_1"   --->   Operation 122 'zext' 'zext_ln205_5' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 123 [1/1] (0.00ns)   --->   "%layer2_out_addr_5 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 123 'getelementptr' 'layer2_out_addr_5' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 124 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_5, i64 %zext_ln205_5, i8"   --->   Operation 124 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_13 : Operation 125 [3/6] (4.37ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 125 'call' 'call_ret2' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_13 : Operation 126 [5/6] (4.37ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 126 'call' 'call_ret3' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 14 <SV = 13> <Delay = 4.37>
+ST_14 : Operation 127 [1/1] (0.00ns)   --->   "%zext_ln205_6 = zext i33 %outval_V_1_1"   --->   Operation 127 'zext' 'zext_ln205_6' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 128 [1/1] (0.00ns)   --->   "%layer2_out_addr_6 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 128 'getelementptr' 'layer2_out_addr_6' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 129 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_6, i64 %zext_ln205_6, i8"   --->   Operation 129 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_14 : Operation 130 [1/1] (0.00ns)   --->   "%zext_ln205_7 = zext i33 %outval_V_2_1"   --->   Operation 130 'zext' 'zext_ln205_7' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 131 [1/1] (0.00ns)   --->   "%layer2_out_addr_7 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 131 'getelementptr' 'layer2_out_addr_7' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 132 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_7, i64 %zext_ln205_7, i8"   --->   Operation 132 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_14 : Operation 133 [2/6] (4.37ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 133 'call' 'call_ret2' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_14 : Operation 134 [4/6] (4.37ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 134 'call' 'call_ret3' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 15 <SV = 14> <Delay = 4.37>
+ST_15 : Operation 135 [1/1] (0.00ns)   --->   "%zext_ln205_8 = zext i33 %outval_V_3_1"   --->   Operation 135 'zext' 'zext_ln205_8' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 136 [1/1] (0.00ns)   --->   "%layer2_out_addr_8 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 136 'getelementptr' 'layer2_out_addr_8' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 137 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_8, i64 %zext_ln205_8, i8"   --->   Operation 137 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_15 : Operation 138 [1/1] (0.00ns)   --->   "%zext_ln205_9 = zext i33 %outval_V_4_1"   --->   Operation 138 'zext' 'zext_ln205_9' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 139 [1/1] (0.00ns)   --->   "%layer2_out_addr_9 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 139 'getelementptr' 'layer2_out_addr_9' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 140 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_9, i64 %zext_ln205_9, i8"   --->   Operation 140 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_15 : Operation 141 [1/6] (4.28ns)   --->   "%call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 141 'call' 'call_ret2' <Predicate = true> <Delay = 4.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_15 : Operation 142 [1/1] (0.00ns)   --->   "%outval_V_0_2 = extractvalue i165 %call_ret2" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 142 'extractvalue' 'outval_V_0_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 143 [1/1] (0.00ns)   --->   "%outval_V_1_2 = extractvalue i165 %call_ret2" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 143 'extractvalue' 'outval_V_1_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 144 [1/1] (0.00ns)   --->   "%outval_V_2_2 = extractvalue i165 %call_ret2" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 144 'extractvalue' 'outval_V_2_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 145 [1/1] (0.00ns)   --->   "%outval_V_3_2 = extractvalue i165 %call_ret2" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 145 'extractvalue' 'outval_V_3_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 146 [1/1] (0.00ns)   --->   "%outval_V_4_2 = extractvalue i165 %call_ret2" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 146 'extractvalue' 'outval_V_4_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 147 [3/6] (4.37ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 147 'call' 'call_ret3' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 16 <SV = 15> <Delay = 4.37>
+ST_16 : Operation 148 [1/1] (0.00ns)   --->   "%zext_ln205_10 = zext i33 %outval_V_0_2"   --->   Operation 148 'zext' 'zext_ln205_10' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 149 [1/1] (0.00ns)   --->   "%layer2_out_addr_10 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 149 'getelementptr' 'layer2_out_addr_10' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 150 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_10, i64 %zext_ln205_10, i8"   --->   Operation 150 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_16 : Operation 151 [1/1] (0.00ns)   --->   "%zext_ln205_11 = zext i33 %outval_V_1_2"   --->   Operation 151 'zext' 'zext_ln205_11' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 152 [1/1] (0.00ns)   --->   "%layer2_out_addr_11 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 152 'getelementptr' 'layer2_out_addr_11' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 153 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_11, i64 %zext_ln205_11, i8"   --->   Operation 153 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_16 : Operation 154 [2/6] (4.37ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 154 'call' 'call_ret3' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 17 <SV = 16> <Delay = 4.28>
+ST_17 : Operation 155 [1/1] (0.00ns)   --->   "%zext_ln205_12 = zext i33 %outval_V_2_2"   --->   Operation 155 'zext' 'zext_ln205_12' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 156 [1/1] (0.00ns)   --->   "%layer2_out_addr_12 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 156 'getelementptr' 'layer2_out_addr_12' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 157 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_12, i64 %zext_ln205_12, i8"   --->   Operation 157 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_17 : Operation 158 [1/1] (0.00ns)   --->   "%zext_ln205_13 = zext i33 %outval_V_3_2"   --->   Operation 158 'zext' 'zext_ln205_13' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 159 [1/1] (0.00ns)   --->   "%layer2_out_addr_13 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 159 'getelementptr' 'layer2_out_addr_13' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 160 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_13, i64 %zext_ln205_13, i8"   --->   Operation 160 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_17 : Operation 161 [1/6] (4.28ns)   --->   "%call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i19 %invert_sqr_table_V" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 161 'call' 'call_ret3' <Predicate = true> <Delay = 4.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_17 : Operation 162 [1/1] (0.00ns)   --->   "%outval_V_0_3 = extractvalue i165 %call_ret3" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 162 'extractvalue' 'outval_V_0_3' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 163 [1/1] (0.00ns)   --->   "%outval_V_1_3 = extractvalue i165 %call_ret3" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 163 'extractvalue' 'outval_V_1_3' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 164 [1/1] (0.00ns)   --->   "%outval_V_2_3 = extractvalue i165 %call_ret3" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 164 'extractvalue' 'outval_V_2_3' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 165 [1/1] (0.00ns)   --->   "%outval_V_3_3 = extractvalue i165 %call_ret3" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 165 'extractvalue' 'outval_V_3_3' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 166 [1/1] (0.00ns)   --->   "%outval_V_4_3 = extractvalue i165 %call_ret3" [firmware/nnet_utils/nnet_layernorm.h:176]   --->   Operation 166 'extractvalue' 'outval_V_4_3' <Predicate = true> <Delay = 0.00>
+
+State 18 <SV = 17> <Delay = 1.15>
+ST_18 : Operation 167 [1/1] (0.00ns)   --->   "%zext_ln205_14 = zext i33 %outval_V_4_2"   --->   Operation 167 'zext' 'zext_ln205_14' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 168 [1/1] (0.00ns)   --->   "%layer2_out_addr_14 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 168 'getelementptr' 'layer2_out_addr_14' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 169 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_14, i64 %zext_ln205_14, i8"   --->   Operation 169 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_18 : Operation 170 [1/1] (0.00ns)   --->   "%zext_ln205_15 = zext i33 %outval_V_0_3"   --->   Operation 170 'zext' 'zext_ln205_15' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 171 [1/1] (0.00ns)   --->   "%layer2_out_addr_15 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 171 'getelementptr' 'layer2_out_addr_15' <Predicate = true> <Delay = 0.00>
+ST_18 : Operation 172 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_15, i64 %zext_ln205_15, i8"   --->   Operation 172 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+
+State 19 <SV = 18> <Delay = 1.15>
+ST_19 : Operation 173 [1/1] (0.00ns)   --->   "%zext_ln205_16 = zext i33 %outval_V_1_3"   --->   Operation 173 'zext' 'zext_ln205_16' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 174 [1/1] (0.00ns)   --->   "%layer2_out_addr_16 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 174 'getelementptr' 'layer2_out_addr_16' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 175 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_16, i64 %zext_ln205_16, i8"   --->   Operation 175 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_19 : Operation 176 [1/1] (0.00ns)   --->   "%zext_ln205_17 = zext i33 %outval_V_2_3"   --->   Operation 176 'zext' 'zext_ln205_17' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 177 [1/1] (0.00ns)   --->   "%layer2_out_addr_17 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 177 'getelementptr' 'layer2_out_addr_17' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 178 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_17, i64 %zext_ln205_17, i8"   --->   Operation 178 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+
+State 20 <SV = 19> <Delay = 1.15>
+ST_20 : Operation 179 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32, i32, i32, i32, void @empty_0"   --->   Operation 179 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 180 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1"   --->   Operation 180 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 181 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %layer_normalization_input, void @empty, i32, i32, void @empty_0, i32, i32, void @empty_0, void @empty_0, void @empty_0, i32, i32, i32, i32, void @empty_0, void @empty_0"   --->   Operation 181 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 182 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %layer_normalization_input"   --->   Operation 182 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 183 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer2_out, void @empty, i32, i32, void @empty_0, i32, i32, void @empty_0, void @empty_0, void @empty_0, i32, i32, i32, i32, void @empty_0, void @empty_0"   --->   Operation 183 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 184 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i64 %layer2_out"   --->   Operation 184 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 185 [1/1] (0.00ns)   --->   "%specbramwithbyteenable_ln0 = specbramwithbyteenable void @_ssdm_op_SpecBRAMWithByteEnable, i64 %layer2_out"   --->   Operation 185 'specbramwithbyteenable' 'specbramwithbyteenable_ln0' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 186 [1/1] (0.00ns)   --->   "%zext_ln205_18 = zext i33 %outval_V_3_3"   --->   Operation 186 'zext' 'zext_ln205_18' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 187 [1/1] (0.00ns)   --->   "%layer2_out_addr_18 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 187 'getelementptr' 'layer2_out_addr_18' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 188 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_18, i64 %zext_ln205_18, i8"   --->   Operation 188 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_20 : Operation 189 [1/1] (0.00ns)   --->   "%zext_ln205_19 = zext i33 %outval_V_4_3"   --->   Operation 189 'zext' 'zext_ln205_19' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 190 [1/1] (0.00ns)   --->   "%layer2_out_addr_19 = getelementptr i64 %layer2_out, i64, i64"   --->   Operation 190 'getelementptr' 'layer2_out_addr_19' <Predicate = true> <Delay = 0.00>
+ST_20 : Operation 191 [1/1] (1.15ns)   --->   "%store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_addr_19, i64 %zext_ln205_19, i8"   --->   Operation 191 'store' 'store_ln205' <Predicate = true> <Delay = 1.15> <CoreInst = "RAM">   --->   Core 23 'RAM' <Latency = 1> <II = 1> <Delay = 1.15> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 64> <Depth = 20> <RAM>
+ST_20 : Operation 192 [1/1] (0.00ns)   --->   "%ret_ln34 = ret" [firmware/myproject.cpp:34]   --->   Operation 192 'ret' 'ret_ln34' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 0.625ns.
+
+ <State 1>: 0.594ns
+The critical path consists of the following:
+	'getelementptr' operation ('layer_normalization_input_addr') [12]  (0 ns)
+	'load' operation ('in_val.V[0]') on array 'layer_normalization_input' [13]  (0.594 ns)
+
+ <State 2>: 0.594ns
+The critical path consists of the following:
+	'load' operation ('in_val.V[0]') on array 'layer_normalization_input' [13]  (0.594 ns)
+
+ <State 3>: 0.594ns
+The critical path consists of the following:
+	'load' operation ('in_val.V[2]') on array 'layer_normalization_input' [17]  (0.594 ns)
+
+ <State 4>: 0.594ns
+The critical path consists of the following:
+	'load' operation ('in_val.V[4]') on array 'layer_normalization_input' [21]  (0.594 ns)
+
+ <State 5>: 4.05ns
+The critical path consists of the following:
+	'call' operation ('call_ret', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [22]  (4.05 ns)
+
+ <State 6>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [22]  (4.38 ns)
+
+ <State 7>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [22]  (4.38 ns)
+
+ <State 8>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [22]  (4.38 ns)
+
+ <State 9>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [22]  (4.38 ns)
+
+ <State 10>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret1', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [53]  (4.38 ns)
+
+ <State 11>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret1', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [53]  (4.38 ns)
+
+ <State 12>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret2', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [84]  (4.38 ns)
+
+ <State 13>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret2', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [84]  (4.38 ns)
+
+ <State 14>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret2', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [84]  (4.38 ns)
+
+ <State 15>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret3', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [115]  (4.38 ns)
+
+ <State 16>: 4.38ns
+The critical path consists of the following:
+	'call' operation ('call_ret3', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [115]  (4.38 ns)
+
+ <State 17>: 4.29ns
+The critical path consists of the following:
+	'call' operation ('call_ret3', firmware/nnet_utils/nnet_layernorm.h:176) to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' [115]  (4.29 ns)
+
+ <State 18>: 1.16ns
+The critical path consists of the following:
+	'store' operation ('store_ln205') of constant <constant:_ssdm_op_Write.bram.p0i64> on array 'layer2_out' [104]  (1.16 ns)
+
+ <State 19>: 1.16ns
+The critical path consists of the following:
+	'store' operation ('store_ln205') of constant <constant:_ssdm_op_Write.bram.p0i64> on array 'layer2_out' [126]  (1.16 ns)
+
+ <State 20>: 1.16ns
+The critical path consists of the following:
+	'store' operation ('store_ln205') of constant <constant:_ssdm_op_Write.bram.p0i64> on array 'layer2_out' [132]  (1.16 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

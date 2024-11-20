@@ -1,0 +1,107 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.1 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
+INFO: [HLS 200-10] Setting target device to 'xcvu13p-flga2577-2-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 207-5324] unused parameter 'keep': firmware/nnet_utils/nnet_helpers.h:285:99
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:14:36
+WARNING: [HLS 207-5324] unused parameter 'buffer': firmware/nnet_utils/nnet_function_stubs.h:15:36
+WARNING: [HLS 207-5324] unused parameter 'partition': firmware/nnet_utils/nnet_function_stubs.h:16:44
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:24:24
+WARNING: [HLS 207-5324] unused parameter 'buffer': firmware/nnet_utils/nnet_function_stubs.h:25:24
+WARNING: [HLS 207-5324] unused parameter 'partition': firmware/nnet_utils/nnet_function_stubs.h:26:32
+WARNING: [HLS 207-5324] unused parameter 'data': firmware/nnet_utils/nnet_function_stubs.h:33:30
+WARNING: [HLS 207-5324] unused parameter 'res': firmware/nnet_utils/nnet_function_stubs.h:33:58
+WARNING: [HLS 207-5324] unused parameter 'weights': firmware/nnet_utils/nnet_function_stubs.h:34:51
+WARNING: [HLS 207-5324] unused parameter 'biases': firmware/nnet_utils/nnet_function_stubs.h:35:49
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_latency.h:21:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:28:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:33:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:102:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:107:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:184:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_dense_resource.h:189:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:117:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:118:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:119:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:120:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:121:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:151:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:152:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:153:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:154:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:155:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:156:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:157:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:158:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:159:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:160:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:210:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:211:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:212:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:239:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:240:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:241:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:242:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:243:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:244:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:280:9
+WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:281:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_layernorm.h:161:9
+WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:35
+WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:61
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' target.
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:138:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:130:12)
+WARNING: [HLS 214-183] Unsupport array of struct: array_partition pragma on TOP function argument, in 'call' (firmware/myproject.cpp:13:9)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:91:87)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:93:9)
+WARNING: [HLS 214-184] Unsupport array_reshape pragma on function argument, in 'call' (firmware/myproject.cpp:10:58)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:172:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:172:9)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:178:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:178:9)
+INFO: [HLS 214-178] Inlining function 'std::exp(float)' into 'void nnet::init_invert_sqr_table<config2, 256>(config2::table_t*, config2::table_t*)' (firmware/nnet_utils/nnet_layernorm.h:46:0)
+INFO: [HLS 214-178] Inlining function 'std::sqrt(float)' into 'void nnet::init_invert_sqr_table<config2, 256>(config2::table_t*, config2::table_t*)' (firmware/nnet_utils/nnet_layernorm.h:46:0)
+INFO: [HLS 214-178] Inlining function 'void nnet::init_invert_sqr_table<config2, 256>(config2::table_t*, config2::table_t*)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:91:0)
+INFO: [HLS 214-178] Inlining function 'void nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:10:0)
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20375 ; free virtual = 36103
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20375 ; free virtual = 36103
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20336 ; free virtual = 36079
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20311 ; free virtual = 36057
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'myproject' (firmware/nnet_utils/nnet_layernorm.h:34:44).
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) because its parent loop or function is pipelined.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:53:30).
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::lookup_invert_sqr<config2>' (firmware/nnet_utils/nnet_layernorm.h:63).
+WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'LAYERNORM_LOOKUP' (firmware/nnet_utils/nnet_layernorm.h:76) because its parent loop or function is pipelined.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) in function 'myproject' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'VITIS_LOOP_54_1' (firmware/nnet_utils/nnet_layernorm.h:53) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 256.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:127) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:133) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:148) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_LOOKUP' (firmware/nnet_utils/nnet_layernorm.h:76) in function 'nnet::lookup_invert_sqr<config2>' completely with a factor of 255.
+INFO: [XFORM 203-101] Partitioning array 's2.V'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'b2.V'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'in_val.V' (firmware/nnet_utils/nnet_layernorm.h:158) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outval.V' (firmware/nnet_utils/nnet_layernorm.h:159) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data_diff.V' (firmware/nnet_utils/nnet_layernorm.h:119) in dimension 1 completely.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (firmware/nnet_utils/nnet_layernorm.h:80:13) in function 'nnet::lookup_invert_sqr<config2>'... converting 245 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:145:1)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20318 ; free virtual = 36065
+WARNING: [XFORM 203-631] Renaming function 'nnet::lookup_invert_sqr<config2>' to 'lookup_invert_sqr<config2>' (firmware/nnet_utils/nnet_layernorm.h:63:27)
+WARNING: [XFORM 203-631] Renaming function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:145:1)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 1521.977 ; gain = 1155.781 ; free physical = 20346 ; free virtual = 36081
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...

@@ -1,0 +1,57 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s'" level="0">
+<item name = "Date">Thu Nov 14 17:14:35 2024
+</item>
+<item name = "Version">2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu13p-flga2577-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 5.116 ns, 0.62 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">116, 116, 0.593 us, 0.593 us, 41, 41, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172_fu_412">matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_172, 28, 28, 0.143 us, 0.143 us, 28, 28, none</column>
+<column name="grp_matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173_fu_422">matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config3_173, 28, 28, 0.143 us, 0.143 us, 28, 28, none</column>
+<column name="grp_matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_174_fu_432">matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_174, 40, 40, 0.205 us, 0.205 us, 40, 40, none</column>
+<column name="grp_matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_175_fu_839">matrixmul_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_175, 40, 40, 0.205 us, 0.205 us, 40, 40, none</column>
+<column name="grp_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170_fu_1246">lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_170, 25, 25, 0.128 us, 0.128 us, 25, 25, none</column>
+<column name="grp_lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171_fu_1267">lin_projection_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_171, 25, 25, 0.128 us, 0.128 us, 25, 25, none</column>
+<column name="grp_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166_fu_1288">data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_166, 19, 19, 97.198 ns, 97.198 ns, 19, 19, none</column>
+<column name="grp_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167_fu_1297">data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_167, 19, 19, 97.198 ns, 97.198 ns, 19, 19, none</column>
+<column name="grp_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168_fu_1306">data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_168, 19, 19, 97.198 ns, 97.198 ns, 19, 19, none</column>
+<column name="grp_data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169_fu_1315">data_prep_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_169, 19, 19, 97.198 ns, 97.198 ns, 19, 19, none</column>
+<column name="grp_dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_1324">dense_out_ap_fixed_33_13_5_3_0_ap_fixed_33_13_5_3_0_config3_s, 21, 21, 0.107 us, 0.107 us, 21, 21, none</column>
+<column name="call_ln285_multiheadattention_ap_fixed_ap_fixed_33_13_5_3_0_config3_entry333_fu_1492">multiheadattention_ap_fixed_ap_fixed_33_13_5_3_0_config3_entry333, 0, 0, 0 ns, 0 ns, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

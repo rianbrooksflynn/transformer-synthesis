@@ -1,0 +1,143 @@
+
+
+================================================================
+== Vitis HLS Report for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s'
+================================================================
+* Date:           Wed Nov 20 09:24:38 2024
+
+* Version:        2020.1 (Build 2902540 on Wed May 27 20:16:15 MDT 2020)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 5.00 ns |   0 ns   |   0.62 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |        0|        0|   0 ns   |   0 ns   |    1|    1| function |
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        -|        -|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      -|        -|        -|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|        -|     -|
+|Register             |        -|      -|        -|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------+-----+-----+------------+---------------------------------------------------------------------------+--------------+
+|   RTL Ports  | Dir | Bits|  Protocol  |                               Source Object                               |    C Type    |
++--------------+-----+-----+------------+---------------------------------------------------------------------------+--------------+
+|ap_ready      | out |    1| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_0   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_1   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_2   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_3   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_4   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_5   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_6   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_7   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_8   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_9   | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_10  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_11  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_12  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_13  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_14  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_15  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_16  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_17  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_18  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|ap_return_19  | out |   16| ap_ctrl_hs | transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4> | return value |
+|p_read        |  in |   16|   ap_none  |                                   p_read                                  |    scalar    |
+|p_read1       |  in |   16|   ap_none  |                                  p_read1                                  |    scalar    |
+|p_read2       |  in |   16|   ap_none  |                                  p_read2                                  |    scalar    |
+|p_read3       |  in |   16|   ap_none  |                                  p_read3                                  |    scalar    |
+|p_read4       |  in |   16|   ap_none  |                                  p_read4                                  |    scalar    |
+|p_read5       |  in |   16|   ap_none  |                                  p_read5                                  |    scalar    |
+|p_read6       |  in |   16|   ap_none  |                                  p_read6                                  |    scalar    |
+|p_read7       |  in |   16|   ap_none  |                                  p_read7                                  |    scalar    |
+|p_read8       |  in |   16|   ap_none  |                                  p_read8                                  |    scalar    |
+|p_read9       |  in |   16|   ap_none  |                                  p_read9                                  |    scalar    |
+|p_read10      |  in |   16|   ap_none  |                                  p_read10                                 |    scalar    |
+|p_read11      |  in |   16|   ap_none  |                                  p_read11                                 |    scalar    |
+|p_read12      |  in |   16|   ap_none  |                                  p_read12                                 |    scalar    |
+|p_read13      |  in |   16|   ap_none  |                                  p_read13                                 |    scalar    |
+|p_read14      |  in |   16|   ap_none  |                                  p_read14                                 |    scalar    |
+|p_read15      |  in |   16|   ap_none  |                                  p_read15                                 |    scalar    |
+|p_read16      |  in |   16|   ap_none  |                                  p_read16                                 |    scalar    |
+|p_read17      |  in |   16|   ap_none  |                                  p_read17                                 |    scalar    |
+|p_read18      |  in |   16|   ap_none  |                                  p_read18                                 |    scalar    |
+|p_read19      |  in |   16|   ap_none  |                                  p_read19                                 |    scalar    |
++--------------+-----+-----+------------+---------------------------------------------------------------------------+--------------+
+

@@ -28527,7 +28527,7 @@ struct ap_int_base : public ssdm_int<_AP_W, _AP_S> {
       int NZeros = 0;
       int i = 0;
       bool hitNonZero = false;
-      for (i = 0; i < __N - 1; ++i) {
+      VITIS_LOOP_1207_1: for (i = 0; i < __N - 1; ++i) {
         ap_int_base<64, false> t;
         t.V = ({ typename _ap_type::remove_const<__typeof__(this->V)>::type __Result__ = 0; __typeof__(this->V) __Val2__ = this->V; __builtin_bit_part_select((void*)(&__Result__), (void*)(&__Val2__), _AP_W - i * 64 - 64, _AP_W - i * 64 - 1); __Result__; });
         NZeros += hitNonZero ? 0 : __builtin_clzll(t.V);
@@ -29501,7 +29501,7 @@ struct ap_range_ref {
     bool reverse = l_index > h_index;
     unsigned low = reverse ? h_index : l_index;
     unsigned high = reverse ? l_index : h_index;
-    for (unsigned i = low; i != high; ++i) {
+    VITIS_LOOP_676_1: for (unsigned i = low; i != high; ++i) {
 
 #pragma HLS unroll
 
@@ -29515,7 +29515,7 @@ struct ap_range_ref {
     bool reverse = l_index > h_index;
     unsigned low = reverse ? h_index : l_index;
     unsigned high = reverse ? l_index : h_index;
-    for (unsigned i = low; i != high; ++i) {
+    VITIS_LOOP_690_1: for (unsigned i = low; i != high; ++i) {
 
 #pragma HLS unroll
 
@@ -29529,7 +29529,7 @@ struct ap_range_ref {
     bool reverse = l_index > h_index;
     unsigned low = reverse ? h_index : l_index;
     unsigned high = reverse ? l_index : h_index;
-    for (unsigned i = low; i != high; ++i) {
+    VITIS_LOOP_704_1: for (unsigned i = low; i != high; ++i) {
 
 #pragma HLS unroll
 
@@ -31146,7 +31146,7 @@ struct ap_fixed_base : ssdm_int<_AP_W, _AP_S> {
       int NZeros = 0;
       int i = 0;
       bool hitNonZero = false;
-      for (i = 0; i < __N - 1; ++i) {
+      VITIS_LOOP_1247_1: for (i = 0; i < __N - 1; ++i) {
         ap_int_base<64, false> t;
         t.range(0, 63) = this->range(_AP_W - i * 64 - 64, _AP_W - i * 64 - 1);
         NZeros += hitNonZero ? 0 : __builtin_clzll(t.V);
@@ -33129,7 +33129,7 @@ template <typename T, unsigned N> struct array {
 
         ({ bool _AssertPred = N == other.size && "Array sizes must match."; __builtin_assume(_AssertPred); });
 
-        for (unsigned i = 0; i < N; i++) {
+        VITIS_LOOP_27_1: for (unsigned i = 0; i < N; i++) {
 #pragma HLS UNROLL
  data[i] = other[i];
         }
@@ -33142,7 +33142,7 @@ template <typename T, unsigned N, T (*func)(T)> class lookup_table {
   public:
     lookup_table(T from, T to) : range_start(from), range_end(to), base_div(ap_uint<16>(N) / T(to - from)) {
         T step = (range_end - range_start) / ap_uint<16>(N);
-        for (size_t i = 0; i < N; i++) {
+        VITIS_LOOP_40_1: for (size_t i = 0; i < N; i++) {
             T num = range_start + ap_uint<16>(i) * step;
             T sample = func(num);
             samples[i] = sample;
@@ -33182,15 +33182,15 @@ typedef ap_fixed<16,6> multi_head_attention_query_weight_t;
 typedef ap_fixed<16,6> multi_head_attention_query_bias_t;
 typedef ap_fixed<16,6> multi_head_attention_value_weight_t;
 typedef ap_fixed<16,6> multi_head_attention_value_bias_t;
-typedef ap_fixed<16,6> result_t;
+typedef ap_fixed<33,13> result_t;
 typedef ap_fixed<24,8> multi_head_attention_table_t;
 # 9 "firmware/myproject.h" 2
 
 
 
-void myproject(
-    input_t input_1[100*16], input2_t input_2[100*16],
-    result_t layer3_out[100*16]
+__attribute__((sdx_kernel("myproject", 0))) void myproject(
+    input_t input_1[20*4], input2_t input_2[20*4],
+    result_t layer3_out[20*4]
 );
 # 4 "firmware/myproject.cpp" 2
 # 1 "firmware/parameters.h" 1
@@ -56314,7 +56314,7 @@ void copy_data(std::vector<src_T> src, hls::stream<dst_T> &dst) {
 
     size_t i_pack = 0;
     dst_T dst_pack;
-    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    VITIS_LOOP_265_1: for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
         dst_pack[i_pack++] = typename dst_T::value_type(*i);
         if (i_pack == dst_T::size) {
             i_pack = 0;
@@ -56324,7 +56324,7 @@ void copy_data(std::vector<src_T> src, hls::stream<dst_T> &dst) {
 }
 
 template <class src_T, class dst_T, size_t OFFSET, size_t SIZE> void copy_data_axi(std::vector<src_T> src, dst_T dst[SIZE]) {
-    for (auto i = 0; i < SIZE; i++)
+    VITIS_LOOP_275_1: for (auto i = 0; i < SIZE; i++)
         if (i == SIZE - 1) {
             dst[i].data = src[i];
             dst[i].last = 1;
@@ -56335,16 +56335,16 @@ template <class src_T, class dst_T, size_t OFFSET, size_t SIZE> void copy_data_a
 }
 
 template <class res_T, size_t SIZE> void print_result(res_T result[SIZE], std::ostream &out, bool keep = false) {
-    for (int i = 0; i < SIZE; i++) {
+    VITIS_LOOP_286_1: for (int i = 0; i < SIZE; i++) {
         out << result[i] << " ";
     }
     out << std::endl;
 }
 
 template <class res_T, size_t SIZE> void print_result(hls::stream<res_T> &result, std::ostream &out, bool keep = false) {
-    for (int i = 0; i < SIZE / res_T::size; i++) {
+    VITIS_LOOP_293_1: for (int i = 0; i < SIZE / res_T::size; i++) {
         res_T res_pack = result.read();
-        for (int j = 0; j < res_T::size; j++) {
+        VITIS_LOOP_295_2: for (int j = 0; j < res_T::size; j++) {
             out << res_pack[j] << " ";
         }
         if (keep)
@@ -56356,9 +56356,9 @@ template <class res_T, size_t SIZE> void print_result(hls::stream<res_T> &result
 template <class data_T, size_t SIZE> void fill_zero(data_T data[SIZE]) { std::fill_n(data, SIZE, 0.); }
 
 template <class data_T, size_t SIZE> void fill_zero(hls::stream<data_T> &data) {
-    for (int i = 0; i < SIZE / data_T::size; i++) {
+    VITIS_LOOP_307_1: for (int i = 0; i < SIZE / data_T::size; i++) {
         data_T data_pack;
-        for (int j = 0; j < data_T::size; j++) {
+        VITIS_LOOP_309_2: for (int j = 0; j < data_T::size; j++) {
             data_pack[j] = 0.;
         }
         data.write(data_pack);
@@ -56373,7 +56373,7 @@ template <class dataType, unsigned int nrows> int read_file_1D(const char *filen
     }
 
     float newval;
-    for (int ii = 0; ii < nrows; ii++) {
+    VITIS_LOOP_324_1: for (int ii = 0; ii < nrows; ii++) {
         if (fscanf(fp, "%f\n", &newval) != 0) {
             data[ii] = newval;
         } else {
@@ -56393,8 +56393,8 @@ int read_file_2D(const char *filename, dataType data[nrows][ncols]) {
     }
 
     float newval;
-    for (int ii = 0; ii < nrows; ii++) {
-        for (int jj = 0; jj < ncols; jj++) {
+    VITIS_LOOP_344_1: for (int ii = 0; ii < nrows; ii++) {
+        VITIS_LOOP_345_2: for (int jj = 0; jj < ncols; jj++) {
             if (fscanf(fp, "%f\n", &newval) != 0) {
                 data[ii][jj] = newval;
             } else {
@@ -56409,14 +56409,14 @@ int read_file_2D(const char *filename, dataType data[nrows][ncols]) {
 template <class in_T, class out_T, int N_IN> void change_type(hls::stream<in_T> &in, hls::stream<out_T> &out) {
     in_T datareg;
     hls::stream<out_T> input_trunc;
-    for (int ii = 0; ii < N_IN; ii++) {
+    VITIS_LOOP_360_1: for (int ii = 0; ii < N_IN; ii++) {
         out << (out_T)in.read();
     }
 }
 
 template <class data_T, int N_IN> void hls_stream_debug(hls::stream<data_T> &data, hls::stream<data_T> &res) {
     data_T datareg;
-    for (int ii = 0; ii < N_IN; ii++) {
+    VITIS_LOOP_367_1: for (int ii = 0; ii < N_IN; ii++) {
         datareg = data.read();
         std::cout << "[" << ii << "]: " << datareg << std::endl;
         res << datareg;
@@ -56564,10 +56564,6 @@ template <class x_T, class w_T> class mult : public Product {
 #pragma HLS INLINE
  return a * w;
     }
-    static void limit(unsigned multiplier_limit){
-#pragma HLS INLINE
-#pragma HLS ALLOCATION instances=mul limit=multiplier_limit operation
- }
 };
 
 template <class x_T, class w_T> class weight_exponential : public Product {
@@ -56657,6 +56653,806 @@ namespace nnet {
 
 
 
+# 1 "firmware/nnet_utils/nnet_activation.h" 1
+
+
+
+
+
+# 1 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 1 3
+# 40 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 3
+# 7 "firmware/nnet_utils/nnet_activation.h" 2
+
+namespace nnet {
+
+struct activ_config {
+
+    static const unsigned n_in = 10;
+
+
+    static const unsigned table_size = 1024;
+
+
+    static const unsigned io_type = io_parallel;
+    static const unsigned reuse_factor = 1;
+
+
+    typedef ap_fixed<18, 8> table_t;
+};
+
+
+
+
+template <class data_T, class res_T, typename CONFIG_T> void linear(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ VITIS_LOOP_31_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        res[ii] = data[ii];
+    }
+}
+
+
+
+
+template <class data_T, class res_T, typename CONFIG_T> void relu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    VITIS_LOOP_43_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg > 0)
+            res[ii] = datareg;
+        else
+            res[ii] = 0;
+    }
+}
+
+template <class data_T, class res_T, int MAX_INT, typename CONFIG_T>
+void relu_max(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    VITIS_LOOP_57_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg < 0)
+            res[ii] = 0;
+        else if (datareg > MAX_INT)
+            res[ii] = MAX_INT;
+        else
+            res[ii] = datareg;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T> void relu6(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+    relu_max<data_T, res_T, 6, CONFIG_T>(data, res);
+}
+
+template <class data_T, class res_T, typename CONFIG_T> void relu1(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+    relu_max<data_T, res_T, 1, CONFIG_T>(data, res);
+}
+
+
+
+
+inline float sigmoid_fcn_float(float input) { return 1.0 / (1 + std::exp(-input)); }
+
+template <typename CONFIG_T, int N_TABLE> void init_sigmoid_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+
+    VITIS_LOOP_84_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = sigmoid_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void sigmoid(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t sigmoid_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_sigmoid_table<CONFIG_T, CONFIG_T::table_size>(sigmoid_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+
+ int data_round;
+    int index;
+    VITIS_LOOP_114_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        data_round = data[ii] * CONFIG_T::table_size / 16;
+        index = data_round + 8 * CONFIG_T::table_size / 16;
+        if (index < 0)
+            index = 0;
+        if (index > CONFIG_T::table_size - 1)
+            index = CONFIG_T::table_size - 1;
+        res[ii] = (res_T)sigmoid_table[index];
+    }
+}
+
+
+
+
+
+enum class softmax_implementation { latency = 0, legacy = 1, stable = 2, argmax = 3 };
+
+inline float exp_fcn_float(float input) { return std::exp(input); }
+
+template <class data_T, typename CONFIG_T> inline float softmax_real_val_from_idx(unsigned i) {
+
+    static constexpr int N = ceillog2(CONFIG_T::table_size);
+    data_T x(0);
+    x(x.width - 1, x.width - N) = i;
+    return (float)x;
+}
+
+template <class data_T, typename CONFIG_T> inline unsigned softmax_idx_from_real_val(data_T x) {
+
+    static constexpr int N = ceillog2(CONFIG_T::table_size);
+    ap_uint<N> y = x(x.width - 1, x.width - N);
+    return (unsigned)y(N - 1, 0);
+}
+
+template <class data_T, typename CONFIG_T>
+void init_exp_table(typename CONFIG_T::exp_table_t table_out[CONFIG_T::table_size]) {
+
+    VITIS_LOOP_151_1: for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+
+        float x = softmax_real_val_from_idx<data_T, CONFIG_T>(i);
+        typename CONFIG_T::exp_table_t exp_x = exp_fcn_float(x);
+        table_out[i] = exp_x;
+    }
+}
+
+template <class data_T, typename CONFIG_T>
+void init_invert_table(typename CONFIG_T::inv_table_t table_out[CONFIG_T::table_size]) {
+
+    VITIS_LOOP_162_1: for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+        float x = softmax_real_val_from_idx<data_T, CONFIG_T>(i);
+        typename CONFIG_T::inv_table_t inv_x = 1.0 / x;
+        table_out[i] = inv_x;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softmax_latency(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS pipeline
+
+
+ bool initialized = false;
+    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
+    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
+
+
+
+
+
+
+    if (!initialized) {
+
+        init_exp_table<data_T, CONFIG_T>(exp_table);
+
+        init_invert_table<typename CONFIG_T::exp_table_t, CONFIG_T>(invert_table);
+        initialized = true;
+    }
+
+
+    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
+#pragma HLS array_partition variable=exp_res complete
+ typename CONFIG_T::exp_table_t exp_sum(0);
+    VITIS_LOOP_195_1: for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS unroll
+ unsigned x = softmax_idx_from_real_val<data_T, CONFIG_T>(data[i]);
+        exp_res[i] = exp_table[x];
+    }
+
+
+
+    Op_add<typename CONFIG_T::exp_table_t> op_add;
+    exp_sum =
+        reduce<typename CONFIG_T::exp_table_t, CONFIG_T::n_in, Op_add<typename CONFIG_T::exp_table_t>>(exp_res, op_add);
+
+    typename CONFIG_T::inv_table_t inv_exp_sum =
+        invert_table[softmax_idx_from_real_val<typename CONFIG_T::exp_table_t, CONFIG_T>(exp_sum)];
+    VITIS_LOOP_209_2: for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS unroll
+ res[i] = exp_res[i] * inv_exp_sum;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softmax_stable(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS pipeline
+
+
+ bool initialized = false;
+    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
+    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
+
+
+
+
+
+
+    if (!initialized) {
+
+        init_exp_table<data_T, CONFIG_T>(exp_table);
+
+        init_invert_table<typename CONFIG_T::exp_table_t, CONFIG_T>(invert_table);
+        initialized = true;
+    }
+
+
+    Op_max<data_T> op_max;
+    data_T x_max = reduce<data_T, CONFIG_T::n_in, Op_max<data_T>>(data, op_max);
+
+
+    ap_fixed<data_T::width, data_T::iwidth, AP_RND, AP_SAT> d_xi_xmax[CONFIG_T::n_in];
+    VITIS_LOOP_243_1: for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS unroll
+ d_xi_xmax[i] = data[i] - x_max;
+    }
+
+
+    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
+#pragma HLS array_partition variable=exp_res complete
+ typename CONFIG_T::exp_table_t exp_sum(0);
+    VITIS_LOOP_252_2: for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS unroll
+ unsigned x = softmax_idx_from_real_val<data_T, CONFIG_T>(d_xi_xmax[i]);
+        exp_res[i] = exp_table[x];
+    }
+
+
+
+    Op_add<typename CONFIG_T::exp_table_t> op_add;
+    exp_sum =
+        reduce<typename CONFIG_T::exp_table_t, CONFIG_T::n_in, Op_add<typename CONFIG_T::exp_table_t>>(exp_res, op_add);
+
+    typename CONFIG_T::inv_table_t inv_exp_sum =
+        invert_table[softmax_idx_from_real_val<typename CONFIG_T::exp_table_t, CONFIG_T>(exp_sum)];
+    VITIS_LOOP_266_3: for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS unroll
+ res[i] = exp_res[i] * inv_exp_sum;
+    }
+}
+
+template <typename CONFIG_T, int N_TABLE> void init_exp_table_legacy(typename CONFIG_T::exp_table_t table_out[N_TABLE]) {
+    float exp_range = (float)CONFIG_T::exp_range;
+    VITIS_LOOP_274_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
+
+        typename CONFIG_T::exp_table_t real_val = exp_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <typename CONFIG_T, int N_TABLE> void init_invert_table_legacy(typename CONFIG_T::inv_table_t table_out[N_TABLE]) {
+    float inv_range = (float)CONFIG_T::inv_range;
+
+
+    VITIS_LOOP_288_1: for (int ii = 0; ii < N_TABLE; ii++) {
+        float in_val = inv_range * ii / float(N_TABLE);
+        if (in_val > 0.0)
+            table_out[ii] = 1.0 / in_val;
+        else
+            table_out[ii] = 0.0;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softmax_legacy(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS pipeline
+ int exp_range = CONFIG_T::exp_range;
+    int inv_range = CONFIG_T::inv_range;
+
+
+    bool initialized = false;
+    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
+    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
+
+
+
+
+
+    if (!initialized) {
+        init_exp_table_legacy<CONFIG_T, CONFIG_T::table_size>(exp_table);
+        init_invert_table_legacy<CONFIG_T, CONFIG_T::table_size>(invert_table);
+        initialized = true;
+    }
+
+
+    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
+    typename CONFIG_T::exp_table_t exp_diff_res;
+    typename CONFIG_T::exp_table_t data_cache[CONFIG_T::n_in];
+    int data_round;
+    int index;
+
+#pragma HLS array_partition variable=data_cache complete
+
+ typename CONFIG_T::accum_t denominator;
+    typename CONFIG_T::inv_table_t deno_inver;
+
+    denominator = 0;
+    VITIS_LOOP_331_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        data_round = data[ii] * (CONFIG_T::table_size / (exp_range * 2));
+        index = data_round + exp_range * (CONFIG_T::table_size / (exp_range * 2));
+        if (index < 0)
+            index = 0;
+        if (index > CONFIG_T::table_size - 1)
+            index = CONFIG_T::table_size - 1;
+        denominator += exp_table[index];
+        data_cache[ii] = exp_table[index];
+    }
+
+
+    int exp_res_index = denominator * (CONFIG_T::table_size / inv_range);
+
+    if (exp_res_index < 0)
+        exp_res_index = 0;
+    if (exp_res_index > CONFIG_T::table_size - 1)
+        exp_res_index = CONFIG_T::table_size - 1;
+    deno_inver = invert_table[exp_res_index];
+
+    VITIS_LOOP_351_2: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        res[ii] = (res_T)(data_cache[ii] * deno_inver);
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softmax_argmax(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+    VITIS_LOOP_358_1: for (int i = 0; i < CONFIG_T::n_in; i++) {
+#pragma HLS UNROLL
+ res[i] = (res_T)0;
+    }
+
+    data_T maximum = data[0];
+    int idx = 0;
+
+    VITIS_LOOP_366_2: for (int i = 1; i < CONFIG_T::n_in; i++) {
+#pragma HLS PIPELINE
+ if (data[i] > maximum) {
+            maximum = data[i];
+            idx = i;
+        }
+    }
+
+    res[idx] = (res_T)1;
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softmax(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS inline
+ switch (CONFIG_T::implementation) {
+    case softmax_implementation::latency:
+        softmax_latency<data_T, res_T, CONFIG_T>(data, res);
+        break;
+    case softmax_implementation::stable:
+        softmax_stable<data_T, res_T, CONFIG_T>(data, res);
+        break;
+    case softmax_implementation::legacy:
+        softmax_legacy<data_T, res_T, CONFIG_T>(data, res);
+        break;
+    case softmax_implementation::argmax:
+        softmax_argmax<data_T, res_T, CONFIG_T>(data, res);
+        break;
+    }
+}
+
+
+
+
+template <typename CONFIG_T, int N_TABLE> void init_tanh_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+    VITIS_LOOP_401_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = 2 * 4.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = tanh(in_val);
+
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T> void tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t tanh_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_tanh_table<CONFIG_T, CONFIG_T::table_size>(tanh_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+
+ int data_round;
+    int index;
+    VITIS_LOOP_431_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        data_round = data[ii] * CONFIG_T::table_size / 8;
+        index = data_round + 4 * CONFIG_T::table_size / 8;
+
+        if (index < 0)
+            index = 0;
+        if (index > CONFIG_T::table_size - 1)
+            index = CONFIG_T::table_size - 1;
+        res[ii] = (res_T)tanh_table[index];
+    }
+}
+
+
+
+
+template <int table_size, class data_T> inline unsigned get_index_unary_lut(data_T x) {
+
+    static constexpr int N = ceillog2(table_size);
+    return (unsigned)(x(x.width - 1, 0));
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void unary_lut(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in],
+               typename CONFIG_T::table_t table[CONFIG_T::table_size]) {
+#pragma HLS function_instantiate variable=table
+#pragma HLS ARRAY_PARTITION variable=table
+
+ VITIS_LOOP_458_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+#pragma HLS UNROLL
+ unsigned index = get_index_unary_lut<CONFIG_T::table_size>(data[ii]);
+        res[ii] = (res_T)table[index];
+    }
+}
+
+
+
+
+template <class data_T, class res_T, typename CONFIG_T>
+void hard_sigmoid(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ VITIS_LOOP_472_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        auto datareg = CONFIG_T::slope * data[ii] + CONFIG_T::shift;
+        if (datareg > 1)
+            datareg = 1;
+        else if (datareg < 0)
+            datareg = 0;
+        res[ii] = datareg;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void hard_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+    if (CONFIG_T::io_type == io_parallel) {
+#pragma HLS PIPELINE
+ }
+
+    VITIS_LOOP_488_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        auto sigmoid = CONFIG_T::slope * data[ii] + CONFIG_T::shift;
+        if (sigmoid > 1)
+            sigmoid = 1;
+        else if (sigmoid < 0)
+            sigmoid = 0;
+        res[ii] = 2 * sigmoid - 1;
+    }
+}
+
+
+
+
+template <class data_T, class param_T, class res_T, typename CONFIG_T>
+void leaky_relu(data_T data[CONFIG_T::n_in], param_T alpha, res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    VITIS_LOOP_506_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg > 0)
+            res[ii] = datareg;
+        else
+            res[ii] = alpha * datareg;
+    }
+}
+
+
+
+
+template <class data_T, class param_T, class res_T, typename CONFIG_T>
+void thresholded_relu(data_T data[CONFIG_T::n_in], param_T theta, res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    VITIS_LOOP_523_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg > theta)
+            res[ii] = datareg;
+        else
+            res[ii] = 0;
+    }
+}
+
+
+
+
+inline float softplus_fcn_float(float input) { return std::log(std::exp(input) + 1.); }
+
+template <typename CONFIG_T, int N_TABLE> void init_softplus_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+
+    VITIS_LOOP_540_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = softplus_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softplus(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t softplus_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_softplus_table<CONFIG_T, CONFIG_T::table_size>(softplus_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+
+ int data_round;
+    int index;
+    VITIS_LOOP_570_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        data_round = data[ii] * CONFIG_T::table_size / 16;
+        index = data_round + 8 * CONFIG_T::table_size / 16;
+        if (index < 0)
+            index = 0;
+        if (index > CONFIG_T::table_size - 1)
+            index = CONFIG_T::table_size - 1;
+        res[ii] = (res_T)softplus_table[index];
+    }
+}
+
+
+
+
+inline float softsign_fcn_float(float input) { return input / (std::abs(input) + 1.); }
+
+template <typename CONFIG_T, int N_TABLE> void init_softsign_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+
+    VITIS_LOOP_589_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = softsign_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T>
+void softsign(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t softsign_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_softsign_table<CONFIG_T, CONFIG_T::table_size>(softsign_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+
+ int data_round;
+    int index;
+    VITIS_LOOP_619_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        data_round = data[ii] * CONFIG_T::table_size / 16;
+        index = data_round + 8 * CONFIG_T::table_size / 16;
+        if (index < 0)
+            index = 0;
+        if (index > CONFIG_T::table_size - 1)
+            index = CONFIG_T::table_size - 1;
+        res[ii] = (res_T)softsign_table[index];
+    }
+}
+
+
+
+
+inline float elu_fcn_float(float input) { return std::exp(input) - 1.; }
+
+template <typename CONFIG_T, int N_TABLE> void init_elu_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+
+    VITIS_LOOP_638_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = -8.0 * ii / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = elu_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class param_T, class res_T, typename CONFIG_T>
+void elu(data_T data[CONFIG_T::n_in], const param_T alpha, res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t elu_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_elu_table<CONFIG_T, CONFIG_T::table_size>(elu_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+ data_T datareg;
+
+    int index;
+    VITIS_LOOP_668_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg >= 0) {
+            res[ii] = datareg;
+        } else {
+            index = datareg * CONFIG_T::table_size / -8;
+            if (index > CONFIG_T::table_size - 1)
+                index = CONFIG_T::table_size - 1;
+            res[ii] = alpha * elu_table[index];
+        }
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T> void elu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+    elu<data_T, ap_uint<1>, res_T, CONFIG_T>(data, 1.0, res);
+}
+
+
+
+
+inline float selu_fcn_float(float input) {
+    return 1.0507009873554804934193349852946 * (1.6732632423543772848170429916717 * (std::exp(input) - 1.));
+}
+
+template <typename CONFIG_T, int N_TABLE> void init_selu_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
+
+
+    VITIS_LOOP_695_1: for (int ii = 0; ii < N_TABLE; ii++) {
+
+        float in_val = -8.0 * ii / float(N_TABLE);
+
+        typename CONFIG_T::table_t real_val = selu_fcn_float(in_val);
+
+        table_out[ii] = real_val;
+    }
+}
+
+template <class data_T, class res_T, typename CONFIG_T> void selu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+
+
+    bool initialized = false;
+    typename CONFIG_T::table_t selu_table[CONFIG_T::table_size];
+
+
+
+
+    if (!initialized) {
+        init_selu_table<CONFIG_T, CONFIG_T::table_size>(selu_table);
+        initialized = true;
+    }
+
+#pragma HLS PIPELINE
+
+ data_T datareg;
+
+    int index;
+    VITIS_LOOP_724_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg >= 0) {
+            res[ii] = res_T(1.0507009873554804934193349852946) * datareg;
+        } else {
+            index = datareg * CONFIG_T::table_size / -8;
+            if (index > CONFIG_T::table_size - 1)
+                index = CONFIG_T::table_size - 1;
+            res[ii] = selu_table[index];
+        }
+    }
+}
+
+
+
+
+template <class data_T, class param_T, class res_T, typename CONFIG_T>
+void prelu(data_T data[CONFIG_T::n_in], param_T alpha[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    VITIS_LOOP_745_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg > 0)
+            res[ii] = datareg;
+        else
+            res[ii] = alpha[ii] * datareg;
+    }
+}
+
+
+
+
+template <class data_T, class res_T, typename CONFIG_T>
+void binary_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    res_T cache;
+    VITIS_LOOP_763_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = data[ii];
+        if (datareg > 0)
+            cache = 1;
+        else
+            cache = -1;
+
+        res[ii] = (res_T)cache;
+    }
+}
+
+
+
+
+template <class data_T, class res_T, typename CONFIG_T>
+void ternary_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
+#pragma HLS PIPELINE
+
+ data_T datareg;
+    res_T cache;
+    VITIS_LOOP_783_1: for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+        datareg = 2 * data[ii];
+        if (datareg > 1)
+            cache = 1;
+        else if (datareg > -1 && datareg <= 1)
+            cache = 0;
+        else
+            cache = -1;
+
+        res[ii] = (res_T)cache;
+    }
+}
+
+}
+# 6 "firmware/nnet_utils/nnet_multiheadattention.h" 2
 
 # 1 "firmware/nnet_utils/nnet_dense.h" 1
 
@@ -57085,806 +57881,6 @@ class DenseResource_rf_gt_nin_rem0 : public DenseKernel<data_T, res_T, CONFIG_T>
 };
 
 }
-# 7 "firmware/nnet_utils/nnet_multiheadattention.h" 2
-# 1 "firmware/nnet_utils/nnet_activation.h" 1
-
-
-
-
-
-# 1 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 1 3
-# 40 "/tools/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 3
-# 7 "firmware/nnet_utils/nnet_activation.h" 2
-
-namespace nnet {
-
-struct activ_config {
-
-    static const unsigned n_in = 10;
-
-
-    static const unsigned table_size = 1024;
-
-
-    static const unsigned io_type = io_parallel;
-    static const unsigned reuse_factor = 1;
-
-
-    typedef ap_fixed<18, 8> table_t;
-};
-
-
-
-
-template <class data_T, class res_T, typename CONFIG_T> void linear(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        res[ii] = data[ii];
-    }
-}
-
-
-
-
-template <class data_T, class res_T, typename CONFIG_T> void relu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg > 0)
-            res[ii] = datareg;
-        else
-            res[ii] = 0;
-    }
-}
-
-template <class data_T, class res_T, int MAX_INT, typename CONFIG_T>
-void relu_max(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg < 0)
-            res[ii] = 0;
-        else if (datareg > MAX_INT)
-            res[ii] = MAX_INT;
-        else
-            res[ii] = datareg;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T> void relu6(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-    relu_max<data_T, res_T, 6, CONFIG_T>(data, res);
-}
-
-template <class data_T, class res_T, typename CONFIG_T> void relu1(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-    relu_max<data_T, res_T, 1, CONFIG_T>(data, res);
-}
-
-
-
-
-inline float sigmoid_fcn_float(float input) { return 1.0 / (1 + std::exp(-input)); }
-
-template <typename CONFIG_T, int N_TABLE> void init_sigmoid_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = sigmoid_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void sigmoid(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t sigmoid_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_sigmoid_table<CONFIG_T, CONFIG_T::table_size>(sigmoid_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
-
- int data_round;
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        data_round = data[ii] * CONFIG_T::table_size / 16;
-        index = data_round + 8 * CONFIG_T::table_size / 16;
-        if (index < 0)
-            index = 0;
-        if (index > CONFIG_T::table_size - 1)
-            index = CONFIG_T::table_size - 1;
-        res[ii] = (res_T)sigmoid_table[index];
-    }
-}
-
-
-
-
-
-enum class softmax_implementation { latency = 0, legacy = 1, stable = 2, argmax = 3 };
-
-inline float exp_fcn_float(float input) { return std::exp(input); }
-
-template <class data_T, typename CONFIG_T> inline float softmax_real_val_from_idx(unsigned i) {
-
-    static constexpr int N = ceillog2(CONFIG_T::table_size);
-    data_T x(0);
-    x(x.width - 1, x.width - N) = i;
-    return (float)x;
-}
-
-template <class data_T, typename CONFIG_T> inline unsigned softmax_idx_from_real_val(data_T x) {
-
-    static constexpr int N = ceillog2(CONFIG_T::table_size);
-    ap_uint<N> y = x(x.width - 1, x.width - N);
-    return (unsigned)y(N - 1, 0);
-}
-
-template <class data_T, typename CONFIG_T>
-void init_exp_table(typename CONFIG_T::exp_table_t table_out[CONFIG_T::table_size]) {
-
-    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
-
-        float x = softmax_real_val_from_idx<data_T, CONFIG_T>(i);
-        typename CONFIG_T::exp_table_t exp_x = exp_fcn_float(x);
-        table_out[i] = exp_x;
-    }
-}
-
-template <class data_T, typename CONFIG_T>
-void init_invert_table(typename CONFIG_T::inv_table_t table_out[CONFIG_T::table_size]) {
-
-    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
-        float x = softmax_real_val_from_idx<data_T, CONFIG_T>(i);
-        typename CONFIG_T::inv_table_t inv_x = 1.0 / x;
-        table_out[i] = inv_x;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softmax_latency(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS pipeline
-
-
- bool initialized = false;
-    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
-    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
-
-
-
-
-
-
-    if (!initialized) {
-
-        init_exp_table<data_T, CONFIG_T>(exp_table);
-
-        init_invert_table<typename CONFIG_T::exp_table_t, CONFIG_T>(invert_table);
-        initialized = true;
-    }
-
-
-    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
-#pragma HLS array_partition variable=exp_res complete
- typename CONFIG_T::exp_table_t exp_sum(0);
-    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS unroll
- unsigned x = softmax_idx_from_real_val<data_T, CONFIG_T>(data[i]);
-        exp_res[i] = exp_table[x];
-    }
-
-
-
-    Op_add<typename CONFIG_T::exp_table_t> op_add;
-    exp_sum =
-        reduce<typename CONFIG_T::exp_table_t, CONFIG_T::n_in, Op_add<typename CONFIG_T::exp_table_t>>(exp_res, op_add);
-
-    typename CONFIG_T::inv_table_t inv_exp_sum =
-        invert_table[softmax_idx_from_real_val<typename CONFIG_T::exp_table_t, CONFIG_T>(exp_sum)];
-    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS unroll
- res[i] = exp_res[i] * inv_exp_sum;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softmax_stable(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS pipeline
-
-
- bool initialized = false;
-    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
-    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
-
-
-
-
-
-
-    if (!initialized) {
-
-        init_exp_table<data_T, CONFIG_T>(exp_table);
-
-        init_invert_table<typename CONFIG_T::exp_table_t, CONFIG_T>(invert_table);
-        initialized = true;
-    }
-
-
-    Op_max<data_T> op_max;
-    data_T x_max = reduce<data_T, CONFIG_T::n_in, Op_max<data_T>>(data, op_max);
-
-
-    ap_fixed<data_T::width, data_T::iwidth, AP_RND, AP_SAT> d_xi_xmax[CONFIG_T::n_in];
-    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS unroll
- d_xi_xmax[i] = data[i] - x_max;
-    }
-
-
-    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
-#pragma HLS array_partition variable=exp_res complete
- typename CONFIG_T::exp_table_t exp_sum(0);
-    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS unroll
- unsigned x = softmax_idx_from_real_val<data_T, CONFIG_T>(d_xi_xmax[i]);
-        exp_res[i] = exp_table[x];
-    }
-
-
-
-    Op_add<typename CONFIG_T::exp_table_t> op_add;
-    exp_sum =
-        reduce<typename CONFIG_T::exp_table_t, CONFIG_T::n_in, Op_add<typename CONFIG_T::exp_table_t>>(exp_res, op_add);
-
-    typename CONFIG_T::inv_table_t inv_exp_sum =
-        invert_table[softmax_idx_from_real_val<typename CONFIG_T::exp_table_t, CONFIG_T>(exp_sum)];
-    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS unroll
- res[i] = exp_res[i] * inv_exp_sum;
-    }
-}
-
-template <typename CONFIG_T, int N_TABLE> void init_exp_table_legacy(typename CONFIG_T::exp_table_t table_out[N_TABLE]) {
-    float exp_range = (float)CONFIG_T::exp_range;
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
-
-        typename CONFIG_T::exp_table_t real_val = exp_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <typename CONFIG_T, int N_TABLE> void init_invert_table_legacy(typename CONFIG_T::inv_table_t table_out[N_TABLE]) {
-    float inv_range = (float)CONFIG_T::inv_range;
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-        float in_val = inv_range * ii / float(N_TABLE);
-        if (in_val > 0.0)
-            table_out[ii] = 1.0 / in_val;
-        else
-            table_out[ii] = 0.0;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softmax_legacy(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS pipeline
- int exp_range = CONFIG_T::exp_range;
-    int inv_range = CONFIG_T::inv_range;
-
-
-    bool initialized = false;
-    typename CONFIG_T::exp_table_t exp_table[CONFIG_T::table_size];
-    typename CONFIG_T::inv_table_t invert_table[CONFIG_T::table_size];
-
-
-
-
-
-    if (!initialized) {
-        init_exp_table_legacy<CONFIG_T, CONFIG_T::table_size>(exp_table);
-        init_invert_table_legacy<CONFIG_T, CONFIG_T::table_size>(invert_table);
-        initialized = true;
-    }
-
-
-    typename CONFIG_T::exp_table_t exp_res[CONFIG_T::n_in];
-    typename CONFIG_T::exp_table_t exp_diff_res;
-    typename CONFIG_T::exp_table_t data_cache[CONFIG_T::n_in];
-    int data_round;
-    int index;
-
-#pragma HLS array_partition variable=data_cache complete
-
- typename CONFIG_T::accum_t denominator;
-    typename CONFIG_T::inv_table_t deno_inver;
-
-    denominator = 0;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        data_round = data[ii] * (CONFIG_T::table_size / (exp_range * 2));
-        index = data_round + exp_range * (CONFIG_T::table_size / (exp_range * 2));
-        if (index < 0)
-            index = 0;
-        if (index > CONFIG_T::table_size - 1)
-            index = CONFIG_T::table_size - 1;
-        denominator += exp_table[index];
-        data_cache[ii] = exp_table[index];
-    }
-
-
-    int exp_res_index = denominator * (CONFIG_T::table_size / inv_range);
-
-    if (exp_res_index < 0)
-        exp_res_index = 0;
-    if (exp_res_index > CONFIG_T::table_size - 1)
-        exp_res_index = CONFIG_T::table_size - 1;
-    deno_inver = invert_table[exp_res_index];
-
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        res[ii] = (res_T)(data_cache[ii] * deno_inver);
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softmax_argmax(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-    for (int i = 0; i < CONFIG_T::n_in; i++) {
-#pragma HLS UNROLL
- res[i] = (res_T)0;
-    }
-
-    data_T maximum = data[0];
-    int idx = 0;
-
-    for (int i = 1; i < CONFIG_T::n_in; i++) {
-#pragma HLS PIPELINE
- if (data[i] > maximum) {
-            maximum = data[i];
-            idx = i;
-        }
-    }
-
-    res[idx] = (res_T)1;
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softmax(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS inline
- switch (CONFIG_T::implementation) {
-    case softmax_implementation::latency:
-        softmax_latency<data_T, res_T, CONFIG_T>(data, res);
-        break;
-    case softmax_implementation::stable:
-        softmax_stable<data_T, res_T, CONFIG_T>(data, res);
-        break;
-    case softmax_implementation::legacy:
-        softmax_legacy<data_T, res_T, CONFIG_T>(data, res);
-        break;
-    case softmax_implementation::argmax:
-        softmax_argmax<data_T, res_T, CONFIG_T>(data, res);
-        break;
-    }
-}
-
-
-
-
-template <typename CONFIG_T, int N_TABLE> void init_tanh_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = 2 * 4.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = tanh(in_val);
-
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T> void tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t tanh_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_tanh_table<CONFIG_T, CONFIG_T::table_size>(tanh_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
-
- int data_round;
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        data_round = data[ii] * CONFIG_T::table_size / 8;
-        index = data_round + 4 * CONFIG_T::table_size / 8;
-
-        if (index < 0)
-            index = 0;
-        if (index > CONFIG_T::table_size - 1)
-            index = CONFIG_T::table_size - 1;
-        res[ii] = (res_T)tanh_table[index];
-    }
-}
-
-
-
-
-template <int table_size, class data_T> inline unsigned get_index_unary_lut(data_T x) {
-
-    static constexpr int N = ceillog2(table_size);
-    return (unsigned)(x(x.width - 1, 0));
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void unary_lut(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in],
-               typename CONFIG_T::table_t table[CONFIG_T::table_size]) {
-#pragma HLS function_instantiate variable=table
-#pragma HLS ARRAY_PARTITION variable=table
-
- for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-#pragma HLS UNROLL
- unsigned index = get_index_unary_lut<CONFIG_T::table_size>(data[ii]);
-        res[ii] = (res_T)table[index];
-    }
-}
-
-
-
-
-template <class data_T, class res_T, typename CONFIG_T>
-void hard_sigmoid(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        auto datareg = CONFIG_T::slope * data[ii] + CONFIG_T::shift;
-        if (datareg > 1)
-            datareg = 1;
-        else if (datareg < 0)
-            datareg = 0;
-        res[ii] = datareg;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void hard_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-    if (CONFIG_T::io_type == io_parallel) {
-#pragma HLS PIPELINE
- }
-
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        auto sigmoid = CONFIG_T::slope * data[ii] + CONFIG_T::shift;
-        if (sigmoid > 1)
-            sigmoid = 1;
-        else if (sigmoid < 0)
-            sigmoid = 0;
-        res[ii] = 2 * sigmoid - 1;
-    }
-}
-
-
-
-
-template <class data_T, class param_T, class res_T, typename CONFIG_T>
-void leaky_relu(data_T data[CONFIG_T::n_in], param_T alpha, res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg > 0)
-            res[ii] = datareg;
-        else
-            res[ii] = alpha * datareg;
-    }
-}
-
-
-
-
-template <class data_T, class param_T, class res_T, typename CONFIG_T>
-void thresholded_relu(data_T data[CONFIG_T::n_in], param_T theta, res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg > theta)
-            res[ii] = datareg;
-        else
-            res[ii] = 0;
-    }
-}
-
-
-
-
-inline float softplus_fcn_float(float input) { return std::log(std::exp(input) + 1.); }
-
-template <typename CONFIG_T, int N_TABLE> void init_softplus_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = softplus_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softplus(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t softplus_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_softplus_table<CONFIG_T, CONFIG_T::table_size>(softplus_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
-
- int data_round;
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        data_round = data[ii] * CONFIG_T::table_size / 16;
-        index = data_round + 8 * CONFIG_T::table_size / 16;
-        if (index < 0)
-            index = 0;
-        if (index > CONFIG_T::table_size - 1)
-            index = CONFIG_T::table_size - 1;
-        res[ii] = (res_T)softplus_table[index];
-    }
-}
-
-
-
-
-inline float softsign_fcn_float(float input) { return input / (std::abs(input) + 1.); }
-
-template <typename CONFIG_T, int N_TABLE> void init_softsign_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = 2 * 8.0 * (ii - float(N_TABLE) / 2.0) / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = softsign_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T>
-void softsign(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t softsign_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_softsign_table<CONFIG_T, CONFIG_T::table_size>(softsign_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
-
- int data_round;
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        data_round = data[ii] * CONFIG_T::table_size / 16;
-        index = data_round + 8 * CONFIG_T::table_size / 16;
-        if (index < 0)
-            index = 0;
-        if (index > CONFIG_T::table_size - 1)
-            index = CONFIG_T::table_size - 1;
-        res[ii] = (res_T)softsign_table[index];
-    }
-}
-
-
-
-
-inline float elu_fcn_float(float input) { return std::exp(input) - 1.; }
-
-template <typename CONFIG_T, int N_TABLE> void init_elu_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = -8.0 * ii / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = elu_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class param_T, class res_T, typename CONFIG_T>
-void elu(data_T data[CONFIG_T::n_in], const param_T alpha, res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t elu_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_elu_table<CONFIG_T, CONFIG_T::table_size>(elu_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
- data_T datareg;
-
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg >= 0) {
-            res[ii] = datareg;
-        } else {
-            index = datareg * CONFIG_T::table_size / -8;
-            if (index > CONFIG_T::table_size - 1)
-                index = CONFIG_T::table_size - 1;
-            res[ii] = alpha * elu_table[index];
-        }
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T> void elu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-    elu<data_T, ap_uint<1>, res_T, CONFIG_T>(data, 1.0, res);
-}
-
-
-
-
-inline float selu_fcn_float(float input) {
-    return 1.0507009873554804934193349852946 * (1.6732632423543772848170429916717 * (std::exp(input) - 1.));
-}
-
-template <typename CONFIG_T, int N_TABLE> void init_selu_table(typename CONFIG_T::table_t table_out[N_TABLE]) {
-
-
-    for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = -8.0 * ii / float(N_TABLE);
-
-        typename CONFIG_T::table_t real_val = selu_fcn_float(in_val);
-
-        table_out[ii] = real_val;
-    }
-}
-
-template <class data_T, class res_T, typename CONFIG_T> void selu(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-
-
-    bool initialized = false;
-    typename CONFIG_T::table_t selu_table[CONFIG_T::table_size];
-
-
-
-
-    if (!initialized) {
-        init_selu_table<CONFIG_T, CONFIG_T::table_size>(selu_table);
-        initialized = true;
-    }
-
-#pragma HLS PIPELINE
-
- data_T datareg;
-
-    int index;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg >= 0) {
-            res[ii] = res_T(1.0507009873554804934193349852946) * datareg;
-        } else {
-            index = datareg * CONFIG_T::table_size / -8;
-            if (index > CONFIG_T::table_size - 1)
-                index = CONFIG_T::table_size - 1;
-            res[ii] = selu_table[index];
-        }
-    }
-}
-
-
-
-
-template <class data_T, class param_T, class res_T, typename CONFIG_T>
-void prelu(data_T data[CONFIG_T::n_in], param_T alpha[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg > 0)
-            res[ii] = datareg;
-        else
-            res[ii] = alpha[ii] * datareg;
-    }
-}
-
-
-
-
-template <class data_T, class res_T, typename CONFIG_T>
-void binary_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    res_T cache;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = data[ii];
-        if (datareg > 0)
-            cache = 1;
-        else
-            cache = -1;
-
-        res[ii] = (res_T)cache;
-    }
-}
-
-
-
-
-template <class data_T, class res_T, typename CONFIG_T>
-void ternary_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
-#pragma HLS PIPELINE
-
- data_T datareg;
-    res_T cache;
-    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
-        datareg = 2 * data[ii];
-        if (datareg > 1)
-            cache = 1;
-        else if (datareg > -1 && datareg <= 1)
-            cache = 0;
-        else
-            cache = -1;
-
-        res[ii] = (res_T)cache;
-    }
-}
-
-}
 # 8 "firmware/nnet_utils/nnet_multiheadattention.h" 2
 
 
@@ -57893,12 +57889,12 @@ void ternary_tanh(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_in]) {
 
 namespace nnet {
 
-struct multiheadattention_config
-{
+struct multiheadattention_config {
 
     typedef float bias_t;
     typedef float weight_t;
     typedef float accum_t;
+    typedef ap_fixed<16, 8> multi_t;
 
 
     static const unsigned num_heads = 10;
@@ -57913,40 +57909,29 @@ struct multiheadattention_config
     static const unsigned reuse_factor = 1;
     static const bool store_weights_in_bram = false;
 
-    template<class x_T, class y_T>
-    using product = nnet::product::mult<x_T, y_T>;
+    template <class x_T, class y_T> using product = nnet::product::mult<x_T, y_T>;
 };
 
-template<int PackSize, class data_T>
-struct datapack {
-    data_T data[PackSize];
-};
+template <int PackSize, class data_T> struct datapack { data_T data[PackSize]; };
 
-
-template <class data_T,int size>
-void read_stream_array(
- hls::stream<data_T> data_in[size],
- data_T out[size]
-)
-{
- for (int k=0; k<size; ++k){
+template <class data_T, int size> void read_stream_array(hls::stream<data_T> data_in[size], data_T out[size]) {
+    VITIS_LOOP_40_1: for (int k = 0; k < size; ++k) {
 #pragma HLS UNROLL
  out[k] = data_in[k].read();
- }
+    }
 }
 
-
-template<class data_T, class res_T, typename CONFIG_T>
-void matrixmul_transpose(
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &Q,
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &K,
-    res_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len])
+template <class data_T, class res_T, typename CONFIG_T>
+void matrixmul_transpose(hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &Q,
+                         hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &K,
+                         res_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len])
 {
-    const data_T dk = 1.0/sqrt(CONFIG_T::head_dim_key);
-    data_T QKij, QK_1;
+    const data_T dk = 1.0 / sqrt(CONFIG_T::head_dim_key);
+    data_T QK_1;
+    typename CONFIG_T::accum_t QKij;
     data_T Qi[CONFIG_T::head_dim_key];
     data_T Product[CONFIG_T::seq_len];
-    data_T qk_smout[CONFIG_T::seq_len];
+    res_T qk_smout[CONFIG_T::seq_len];
     data_T krow[CONFIG_T::seq_len * CONFIG_T::head_dim_key];
 #pragma HLS ARRAY_PARTITION variable=Qi complete
 #pragma HLS ARRAY_PARTITION variable=Product complete
@@ -57960,50 +57945,50 @@ void matrixmul_transpose(
 #pragma HLS DATA_PACK variable=datak_pack
 #pragma HLS DATA_PACK variable=dataq_pack
 
- int multiplier_limit = ceil(float(CONFIG_T::seq_len * CONFIG_T::head_dim_key) / float(CONFIG_T::reuse_factor));
-    CONFIG_T::template product<data_T, typename CONFIG_T::weight_t>::limit(multiplier_limit);
 
-    prep_k: for(int i = 0; i < CONFIG_T::seq_len; ++i) {
+
+
+prep_k:
+    for (int i = 0; i < CONFIG_T::seq_len; ++i) {
 #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
  datak_pack = K.read();
-     for(int j = 0; j < CONFIG_T::head_dim_key; ++j) {
+        VITIS_LOOP_77_1: for (int j = 0; j < CONFIG_T::head_dim_key; ++j) {
 #pragma HLS UNROLL
- krow[i*CONFIG_T::head_dim_key + j] = datak_pack.data[j];
-     }
+ krow[i * CONFIG_T::head_dim_key + j] = datak_pack.data[j];
+        }
     }
 
-
-    row: for(int i = 0; i < CONFIG_T::seq_len; ++i) {
+row:
+    for (int i = 0; i < CONFIG_T::seq_len; ++i) {
 #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
  dataq_pack = Q.read();
 
-     q: for(int q_i = 0; q_i < CONFIG_T::head_dim_key; ++q_i){
+    q:
+        for (int q_i = 0; q_i < CONFIG_T::head_dim_key; ++q_i) {
 #pragma HLS UNROLL
- Qi[q_i]=dataq_pack.data[q_i];
-     }
-        col: for(int j = 0; j < CONFIG_T::seq_len; ++j) {
-
+ Qi[q_i] = dataq_pack.data[q_i];
+        }
+    col:
+        for (int j = 0; j < CONFIG_T::seq_len; ++j) {
             QKij = 0;
-            product: for(int k = 0; k < CONFIG_T::head_dim_key; ++k) {
-             QK_1 = CONFIG_T::template product<data_T, data_T>::product(Qi[k],krow[j*CONFIG_T::head_dim_key + k]);
+        product:
+            for (int k = 0; k < CONFIG_T::head_dim_key; ++k) {
+                QK_1 = CONFIG_T::template product<data_T, data_T>::product(Qi[k], krow[j * CONFIG_T::head_dim_key + k]);
                 QKij += QK_1;
             }
             Product[j] = QKij * dk;
         }
         softmax<data_T, res_T, typename CONFIG_T::softmax_config1>(Product, qk_smout);
-        for(int n = 0; n < CONFIG_T::seq_len; ++n) {
+        VITIS_LOOP_104_2: for (int n = 0; n < CONFIG_T::seq_len; ++n) {
 #pragma HLS UNROLL
- QK[i][n]=qk_smout[n];
+ QK[i][n] = qk_smout[n];
         }
     }
 }
 
-
-template<class data_T, class res_T, typename CONFIG_T>
-void matrixmul(
-    data_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len],
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &V,
- hls::stream<data_T> S[CONFIG_T::head_dim_value])
+template <class data_T, class res_T, typename CONFIG_T>
+void matrixmul(data_T QK[CONFIG_T::seq_len][CONFIG_T::seq_len], hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &V,
+               hls::stream<res_T> S[CONFIG_T::head_dim_value])
 {
 #pragma HLS DATA_PACK variable=V
 #pragma HLS ARRAY_PARTITION variable=QK complete dim=2
@@ -58012,60 +57997,56 @@ void matrixmul(
  datapack<CONFIG_T::head_dim_key, data_T> datav_pack;
 #pragma HLS DATA_PACK variable=datav_pack
 
- int multiplier_limit = ceil(float(CONFIG_T::seq_len*CONFIG_T::head_dim_value) / float(CONFIG_T::reuse_factor));
- CONFIG_T::template product<data_T, typename CONFIG_T::weight_t>::limit(multiplier_limit);
 
- data_T dataV[CONFIG_T::seq_len*CONFIG_T::head_dim_value];
-#pragma HLS ARRAY_PARTITION variable=dataV complete dim=1
 
- for (int j=0; j <CONFIG_T::seq_len; ++j){
+
+ data_T dataV[CONFIG_T::seq_len * CONFIG_T::head_dim_value];
+#pragma HLS ARRAY_PARTITION variable = dataV complete dim = 1
+
+ VITIS_LOOP_128_1: for (int j = 0; j < CONFIG_T::seq_len; ++j) {
 #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
  datav_pack = V.read();
-  for (int i=0; i <CONFIG_T::head_dim_value; ++i){
+        VITIS_LOOP_131_2: for (int i = 0; i < CONFIG_T::head_dim_value; ++i) {
 #pragma HLS UNROLL
- dataV[CONFIG_T::seq_len*i+j]=datav_pack.data[i];
-  }
- }
-
+ dataV[CONFIG_T::seq_len * i + j] = datav_pack.data[i];
+        }
+    }
 
     data_T Sij, S_1;
     data_T QKi[CONFIG_T::seq_len];
 #pragma HLS ARRAY_Partition variable=QKi complete
- row: for(int i = 0; i < CONFIG_T::seq_len; ++i) {
+row:
+    for (int i = 0; i < CONFIG_T::seq_len; ++i) {
 #pragma HLS PIPELINE II=CONFIG_T::reuse_factor
- qk: for(int q_i = 0; q_i < CONFIG_T::seq_len; ++q_i){
+ qk:
+        for (int q_i = 0; q_i < CONFIG_T::seq_len; ++q_i) {
 #pragma HLS UNROLL
- QKi[q_i]=QK[i][q_i];
-  }
-        col: for(int j = 0; j < CONFIG_T::head_dim_value; ++j) {
-
+ QKi[q_i] = QK[i][q_i];
+        }
+    col:
+        for (int j = 0; j < CONFIG_T::head_dim_value; ++j) {
             Sij = 0;
-            product: for(int k = 0; k < CONFIG_T::seq_len; ++k) {
-             S_1 = CONFIG_T::template product<data_T, data_T>::product(QKi[k], dataV[j*CONFIG_T::seq_len + k]);
-             Sij += S_1;
+        product:
+            for (int k = 0; k < CONFIG_T::seq_len; ++k) {
+                S_1 = CONFIG_T::template product<data_T, data_T>::product(QKi[k], dataV[j * CONFIG_T::seq_len + k]);
+                Sij += S_1;
             }
             S[j].write(Sij);
         }
     }
 }
 
-
-template<class data_T, class res_T, typename CONFIG_T>
-void lin_projection(
- hls::stream<data_T> data_q[CONFIG_T::feature_dim],
- hls::stream<data_T> data_vk[CONFIG_T::feature_dim],
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &k_proj,
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> &q_proj,
- hls::stream<datapack<CONFIG_T::head_dim_value, data_T>> &v_proj,
-    typename CONFIG_T::weight_t key_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_key],
-    typename CONFIG_T::bias_t key_bias[CONFIG_T::head_dim_key],
- typename CONFIG_T::weight_t query_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_key],
- typename CONFIG_T::bias_t query_bias[CONFIG_T::head_dim_key],
- typename CONFIG_T::weight_t value_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_value],
- typename CONFIG_T::bias_t value_bias[CONFIG_T::head_dim_value]
- )
-
-{
+template <class data_T, class res_T, typename CONFIG_T>
+void lin_projection(hls::stream<data_T> data_q[CONFIG_T::feature_dim], hls::stream<data_T> data_vk[CONFIG_T::feature_dim],
+                    hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> &k_proj,
+                    hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> &q_proj,
+                    hls::stream<datapack<CONFIG_T::head_dim_value, res_T>> &v_proj,
+                    typename CONFIG_T::weight_t key_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_key],
+                    typename CONFIG_T::bias_t key_bias[CONFIG_T::head_dim_key],
+                    typename CONFIG_T::weight_t query_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_key],
+                    typename CONFIG_T::bias_t query_bias[CONFIG_T::head_dim_key],
+                    typename CONFIG_T::weight_t value_weight[CONFIG_T::feature_dim * CONFIG_T::head_dim_value],
+                    typename CONFIG_T::bias_t value_bias[CONFIG_T::head_dim_value]) {
 #pragma HLS DATA_PACK variable=k_proj
 #pragma HLS DATA_PACK variable=q_proj
 #pragma HLS DATA_PACK variable=v_proj
@@ -58073,107 +58054,111 @@ void lin_projection(
 #pragma HLS ARRAY_PARTITION variable=data_q complete dim=1
 #pragma HLS ARRAY_PARTITION variable=data_vk complete dim=1
 
- k_h: for (int j=0; j <CONFIG_T::seq_len; ++j){
+k_h:
+    for (int j = 0; j < CONFIG_T::seq_len; ++j) {
 #pragma HLS PIPELINE
 
  data_T proj_k[CONFIG_T::head_dim_key];
-     data_T proj_q[CONFIG_T::head_dim_key];
-     data_T proj_v[CONFIG_T::head_dim_value];
-     data_T in_q[CONFIG_T::feature_dim];
-  data_T in_v[CONFIG_T::feature_dim];
+        data_T proj_q[CONFIG_T::head_dim_key];
+        data_T proj_v[CONFIG_T::head_dim_value];
+        data_T in_q[CONFIG_T::feature_dim];
+        data_T in_v[CONFIG_T::feature_dim];
 #pragma HLS ARRAY_PARTITION variable=proj_k complete dim=1
 #pragma HLS ARRAY_PARTITION variable=proj_q complete dim=1
 #pragma HLS ARRAY_PARTITION variable=proj_v complete dim=1
 #pragma HLS ARRAY_PARTITION variable=in_q complete dim=1
 #pragma HLS ARRAY_PARTITION variable=in_v complete dim=1
 
-
- datapack<CONFIG_T::head_dim_key, data_T> proj_k_pack;
-  datapack<CONFIG_T::head_dim_key, data_T> proj_q_pack;
-  datapack<CONFIG_T::head_dim_value, data_T> proj_v_pack;
+ datapack<CONFIG_T::head_dim_key, res_T> proj_k_pack;
+        datapack<CONFIG_T::head_dim_key, res_T> proj_q_pack;
+        datapack<CONFIG_T::head_dim_value, res_T> proj_v_pack;
 #pragma HLS DATA_PACK variable=proj_k_pack
 #pragma HLS DATA_PACK variable=proj_q_pack
 #pragma HLS DATA_PACK variable=proj_v_pack
 
  read_stream_array<data_T, CONFIG_T::feature_dim>(data_q, in_q);
-  read_stream_array<data_T, CONFIG_T::feature_dim>(data_vk, in_v);
+        read_stream_array<data_T, CONFIG_T::feature_dim>(data_vk, in_v);
 
         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_k_pack.data, key_weight, key_bias);
         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_q, proj_q_pack.data, query_weight, query_bias);
         dense<data_T, res_T, typename CONFIG_T::config_mult1>(in_v, proj_v_pack.data, value_weight, value_bias);
 
         k_proj.write(proj_k_pack);
-  q_proj.write(proj_q_pack);
-  v_proj.write(proj_v_pack);
+        q_proj.write(proj_q_pack);
+        v_proj.write(proj_v_pack);
     }
 }
 
-
-template<class data_T, class res_T, typename CONFIG_T>
-void dense_out(
- hls::stream<data_T> data_in[CONFIG_T::num_heads][CONFIG_T::head_dim_value],
- res_T res[CONFIG_T::seq_len * CONFIG_T::feature_dim],
-    typename CONFIG_T::weight_t attention_output_weight[CONFIG_T::num_heads * CONFIG_T::head_dim_value * CONFIG_T::feature_dim],
-    typename CONFIG_T::bias_t attention_output_bias[CONFIG_T::feature_dim])
-{
- data_T mat_res_con[CONFIG_T::num_heads*CONFIG_T::head_dim_value];
- res_T dense_out[CONFIG_T::feature_dim];
+template <class data_T, class res_T, typename CONFIG_T>
+void dense_out(hls::stream<data_T> data_in[CONFIG_T::num_heads][CONFIG_T::head_dim_value],
+               res_T res[CONFIG_T::seq_len * CONFIG_T::feature_dim],
+               typename CONFIG_T::weight_t
+                   attention_output_weight[CONFIG_T::num_heads * CONFIG_T::head_dim_value * CONFIG_T::feature_dim],
+               typename CONFIG_T::bias_t attention_output_bias[CONFIG_T::feature_dim]) {
+    data_T mat_res_con[CONFIG_T::num_heads * CONFIG_T::head_dim_value];
+    res_T dense_out[CONFIG_T::feature_dim];
 #pragma HLS ARRAY_PARTITION variable=mat_res_con complete dim=1
 #pragma HLS ARRAY_PARTITION variable=dense_out complete dim=1
- output_dense: for (int k=0; k <CONFIG_T::seq_len; ++k){
+output_dense:
+    for (int k = 0; k < CONFIG_T::seq_len; ++k) {
 
 #pragma HLS PIPELINE
- for (int i=0;i<CONFIG_T::num_heads; ++i){
+ VITIS_LOOP_228_1: for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
- for (int j=0;j<CONFIG_T::head_dim_value; ++j){
+ VITIS_LOOP_230_2: for (int j = 0; j < CONFIG_T::head_dim_value; ++j) {
 #pragma HLS UNROLL
- mat_res_con[CONFIG_T::head_dim_value*i+j]=data_in[i][j].read();
-   }
-  }
-  dense<data_T, res_T, typename CONFIG_T::config_mult2>(mat_res_con, dense_out, attention_output_weight, attention_output_bias);
-  for (int i=0;i<CONFIG_T::feature_dim; ++i){
+ mat_res_con[CONFIG_T::head_dim_value * i + j] = data_in[i][j].read();
+            }
+        }
+        dense<data_T, res_T, typename CONFIG_T::config_mult2>(mat_res_con, dense_out, attention_output_weight,
+                                                              attention_output_bias);
+        VITIS_LOOP_237_3: for (int i = 0; i < CONFIG_T::feature_dim; ++i) {
 #pragma HLS UNROLL
- res[CONFIG_T::feature_dim*k+i] = dense_out[i];
-  }
- }
+ res[CONFIG_T::feature_dim * k + i] = dense_out[i];
+        }
+    }
 }
 
-template<class data_T, class res_T, typename CONFIG_T>
-void data_prep(
- data_T data[CONFIG_T::seq_len * CONFIG_T::feature_dim],
- hls::stream<data_T> d[CONFIG_T::feature_dim])
-{
+template <class data_T, class res_T, typename CONFIG_T>
+void data_prep(data_T data[CONFIG_T::seq_len * CONFIG_T::feature_dim], hls::stream<data_T> d[CONFIG_T::feature_dim]) {
 #pragma HLS ARRAY_PARTITION variable=d complete dim=1
- for (int j=0; j<CONFIG_T::seq_len; ++j){
-  for (int k=0; k<CONFIG_T::feature_dim; ++k){
+ VITIS_LOOP_247_1: for (int j = 0; j < CONFIG_T::seq_len; ++j) {
+        VITIS_LOOP_248_2: for (int k = 0; k < CONFIG_T::feature_dim; ++k) {
 #pragma HLS UNROLL
- d[k].write(data[j*CONFIG_T::feature_dim + k]);
-  }
- }
+ d[k].write(data[j * CONFIG_T::feature_dim + k]);
+        }
+    }
 }
 
-
-template<class data_T, class res_T, typename CONFIG_T>
+template <class data_T, class res_T, typename CONFIG_T>
 void multiheadattention(
-    data_T data_q[CONFIG_T::seq_len * CONFIG_T::feature_dim],
-    data_T data_vk[CONFIG_T::seq_len * CONFIG_T::feature_dim],
+    data_T data_q[CONFIG_T::seq_len * CONFIG_T::feature_dim], data_T data_vk[CONFIG_T::seq_len * CONFIG_T::feature_dim],
     res_T res[CONFIG_T::seq_len * CONFIG_T::feature_dim],
-    typename CONFIG_T::weight_t attention_output_weight[CONFIG_T::num_heads * CONFIG_T::head_dim_value * CONFIG_T::feature_dim],
+    typename CONFIG_T::weight_t attention_output_weight[CONFIG_T::num_heads * CONFIG_T::head_dim_value *
+                                                        CONFIG_T::feature_dim],
     typename CONFIG_T::bias_t attention_output_bias[CONFIG_T::feature_dim],
-    typename CONFIG_T::weight_t key_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_key],
+    typename CONFIG_T::weight_t
+        key_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_key],
     typename CONFIG_T::bias_t key_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_key],
-    typename CONFIG_T::weight_t query_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_key],
+    typename CONFIG_T::weight_t
+        query_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_key],
     typename CONFIG_T::bias_t query_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_key],
     typename CONFIG_T::weight_t value_weight[CONFIG_T::feature_dim * CONFIG_T::num_heads * CONFIG_T::head_dim_value],
-    typename CONFIG_T::bias_t value_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_value])
-{
- hls::stream<data_T> d_value[CONFIG_T::num_heads][CONFIG_T::feature_dim];
- hls::stream<data_T> d_query[CONFIG_T::num_heads][CONFIG_T::feature_dim];
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> q_proj[CONFIG_T::num_heads];
- hls::stream<datapack<CONFIG_T::head_dim_key, data_T>> k_proj[CONFIG_T::num_heads];
- hls::stream<datapack<CONFIG_T::head_dim_value, data_T>> v_proj[CONFIG_T::num_heads];
-    data_T qk_mul[CONFIG_T::num_heads][CONFIG_T::seq_len][CONFIG_T::seq_len];
-    hls::stream<data_T> matr_out[CONFIG_T::num_heads][CONFIG_T::head_dim_value];
+    typename CONFIG_T::bias_t value_bias[CONFIG_T::num_heads * CONFIG_T::head_dim_value]) {
+    hls::stream<data_T> d_value[CONFIG_T::num_heads][CONFIG_T::feature_dim];
+    hls::stream<data_T> d_query[CONFIG_T::num_heads][CONFIG_T::feature_dim];
+    hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> q_proj[CONFIG_T::num_heads];
+    hls::stream<datapack<CONFIG_T::head_dim_key, res_T>> k_proj[CONFIG_T::num_heads];
+    hls::stream<datapack<CONFIG_T::head_dim_value, res_T>> v_proj[CONFIG_T::num_heads];
+    res_T qk_mul[CONFIG_T::num_heads][CONFIG_T::seq_len][CONFIG_T::seq_len];
+    hls::stream<res_T> matr_out[CONFIG_T::num_heads][CONFIG_T::head_dim_value];
+#pragma HLS stream variable=d_value type=fifo depth=CONFIG_T::feature_dim
+#pragma HLS stream variable=d_query type=fifo depth=CONFIG_T::feature_dim
+#pragma HLS stream variable=q_proj type=fifo depth=CONFIG_T::seq_len
+#pragma HLS stream variable=k_proj type=fifo depth=CONFIG_T::seq_len
+#pragma HLS stream variable=v_proj type=fifo depth=CONFIG_T::seq_len
+#pragma HLS stream variable=matr_out type=fifo depth=CONFIG_T::head_dim_value
+
 
 #pragma HLS DATAFLOW
 #pragma HLS ARRAY_PARTITION variable=d_query complete dim=1
@@ -58182,43 +58167,41 @@ void multiheadattention(
 #pragma HLS ARRAY_PARTITION variable=k_proj complete dim=1
 #pragma HLS ARRAY_PARTITION variable=qk_mul complete dim=1
 #pragma HLS ARRAY_PARTITION variable=matr_out complete dim=1
-
-
-
-
- prepq: for (int i=0;i<CONFIG_T::num_heads; ++i){
+prepq:
+    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
  nnet::data_prep<data_T, res_T, CONFIG_T>(data_q, d_query[i]);
     }
- prepvk: for (int i=0;i<CONFIG_T::num_heads; ++i){
+prepvk:
+    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
  nnet::data_prep<data_T, res_T, CONFIG_T>(data_vk, d_value[i]);
     }
 
-
-    lin_proj: for (int i=0;i<CONFIG_T::num_heads; ++i){
+lin_proj:
+    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
  nnet::lin_projection<data_T, res_T, CONFIG_T>(
-       d_query[i], d_value[i],
-       k_proj[i], q_proj[i], v_proj[i],
-    key_weight+(CONFIG_T::head_dim_key*CONFIG_T::feature_dim*i), key_bias+(CONFIG_T::head_dim_key*i),
-    query_weight+(CONFIG_T::head_dim_key*CONFIG_T::feature_dim*i), query_bias+(CONFIG_T::head_dim_key*i),
-    value_weight+(CONFIG_T::head_dim_value*CONFIG_T::feature_dim*i), value_bias+(CONFIG_T::head_dim_value*i));
+            d_query[i], d_value[i], k_proj[i], q_proj[i], v_proj[i],
+            key_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), key_bias + (CONFIG_T::head_dim_key * i),
+            query_weight + (CONFIG_T::head_dim_key * CONFIG_T::feature_dim * i), query_bias + (CONFIG_T::head_dim_key * i),
+            value_weight + (CONFIG_T::head_dim_value * CONFIG_T::feature_dim * i),
+            value_bias + (CONFIG_T::head_dim_value * i));
     }
 
-    maxtrixmul1: for (int i=0; i < CONFIG_T::num_heads; ++i){
+maxtrixmul1:
+    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
- nnet::matrixmul_transpose<data_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
+ nnet::matrixmul_transpose<res_T, res_T, CONFIG_T>(q_proj[i], k_proj[i], qk_mul[i]);
     }
 
-    maxtrixmul2: for (int i=0; i < CONFIG_T::num_heads; ++i){
+maxtrixmul2:
+    for (int i = 0; i < CONFIG_T::num_heads; ++i) {
 #pragma HLS UNROLL
- nnet::matrixmul<data_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]);
+ nnet::matrixmul<res_T, res_T, CONFIG_T>(qk_mul[i], v_proj[i], matr_out[i]);
     }
 
-    nnet::dense_out<data_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
-
-
+    nnet::dense_out<res_T, res_T, CONFIG_T>(matr_out, res, attention_output_weight, attention_output_bias);
 }
 }
 # 11 "firmware/parameters.h" 2
@@ -58226,47 +58209,49 @@ void multiheadattention(
 
 # 1 "firmware/weights/attention_output_weight3.h" 1
 # 12 "firmware/weights/attention_output_weight3.h"
-multi_head_attention_attention_output_weight_t attention_output_weight3[256] = {0.1829242706, -0.1617938876, 0.0971835852, 0.0594606996, -0.0024936050, 0.0563136935, 0.0355038792, -0.0435851365, -0.0803849697, -0.0559301525, 0.0421150923, -0.0608150065, -0.1639782637, -0.1323623955, -0.0881756321, -0.0911657289, -0.0060767978, -0.0296232551, 0.0301510990, 0.1521164179, 0.0627132058, -0.0880223811, 0.0051502287, 0.0849613845, -0.0193444937, -0.1144095734, -0.0753431618, -0.0055356771, 0.0266772956, -0.1125305369, -0.1971632689, 0.1812762618, -0.0706295222, 0.1833581328, 0.2002342939, -0.1891128123, 0.0018347949, 0.0890220106, 0.0642154515, -0.1447246820, -0.1718575954, 0.0580920875, 0.0455216914, -0.1335936189, -0.1564519703, -0.0658108145, 0.0556097329, -0.1730634719, 0.1138551533, 0.0132709593, -0.0457375795, -0.0341483653, 0.1211808026, -0.1079145744, -0.1512893736, 0.1834599674, -0.1869108826, -0.1828089356, -0.0375208855, -0.1403757483, 0.0992774367, 0.0588925183, 0.0371964276, -0.0573003739, -0.0837739483, -0.0562830865, 0.0595923364, -0.0861182362, -0.1813005060, -0.0736078918, 0.0578609109, 0.0644111633, 0.0528798997, 0.0939627290, 0.1846613586, 0.1018199921, 0.0539397299, -0.1074772999, -0.1923740953, 0.0003236830, 0.1811166406, -0.1875773817, 0.0433472991, -0.0241159499, 0.0579674840, 0.0347006768, -0.1129577905, 0.1160433590, 0.0336492807, 0.0817367435, 0.0516482890, -0.1759097129, -0.0920372605, 0.1643010676, -0.1550446153, 0.1866781414, 0.1909984648, -0.0162214935, -0.1499915719, 0.0698855519, 0.0897388756, 0.1099793315, -0.0189838260, 0.1026473939, 0.0422802716, 0.1524853706, 0.1635593772, 0.2008423507, 0.1683912873, -0.0492571294, -0.1787525862, -0.1849716902, 0.0049220771, 0.0009601563, -0.1107222736, -0.1855155975, 0.0829663277, 0.1142047346, 0.0058408678, 0.1066311300, 0.0526846051, 0.1916233003, 0.1269083619, -0.1980228722, 0.1158591211, -0.0487345457, 0.0114096403, 0.0173631161, -0.0557339787, -0.1804871857, -0.0502727628, -0.0193920434, 0.1625407040, -0.0209066570, 0.1469810307, 0.1841335893, -0.0524599552, 0.0952312648, -0.1968478113, -0.1399715692, -0.0516360700, 0.0886168480, 0.1023951173, -0.2018397748, -0.1922966093, 0.1373336613, -0.0878987685, 0.0731910169, 0.1542670131, -0.0179983228, -0.1213453487, 0.1850537062, 0.1334064007, 0.2004608512, -0.0826491043, 0.1394794583, 0.1481606662, -0.1589484364, 0.0493803620, 0.0392252952, -0.1721424013, -0.1252384633, -0.1433542669, -0.1094135642, -0.0530048758, -0.0896440148, 0.0088671297, 0.0374644399, 0.1863049269, 0.0465756655, 0.1417849362, -0.0556862801, -0.1894794255, 0.1829161048, -0.0533061177, -0.0889491439, 0.1455971301, -0.1253309250, -0.1111747250, -0.1479465812, 0.1245176196, 0.1948244870, -0.1567543298, 0.0349519998, 0.0283690095, 0.1198898554, -0.0828868896, -0.0356496423, -0.1859179288, -0.0578316152, 0.0382738560, -0.1474902779, -0.1496146917, 0.1945901811, -0.0683145374, 0.1771648824, 0.0396675318, -0.1444216371, -0.0561257899, -0.0151522309, -0.0025120378, 0.1799440980, -0.1240629628, 0.0098308772, -0.1643589437, -0.1423796564, 0.0533309877, -0.1497138739, -0.0708747059, -0.0234280974, -0.2038205713, 0.1845717430, 0.0492849648, -0.1722248346, 0.0190235376, 0.1135209501, 0.0406431705, 0.0964843631, -0.1575604081, -0.1624913514, 0.0713619292, 0.0417699516, -0.1482195556, -0.1291702688, -0.1346569359, -0.0420919359, -0.1945086718, -0.1491869986, -0.0870334655, 0.0274472535, 0.0939028561, -0.0442087501, -0.1819678694, 0.1709271371, -0.0276956558, 0.1718894243, -0.0091451555, -0.1977259517, 0.0305138081, -0.1792885661, -0.1435095072, -0.0282693356, 0.1222853959, 0.1837152243, -0.0448561162, 0.0948786438, -0.1265296936, 0.1782427132, 0.2028624713, -0.1030304059, -0.1161646992, 0.1933268905, -0.1609346867, 0.1490156054, -0.0118570328, -0.1296296865};
+multi_head_attention_attention_output_weight_t attention_output_weight3[16] = {-0.5740144253, 0.4646436572, 0.0349360108, 0.4939565063, -0.2766972482, -0.2486016750, -0.6789112091, -0.6836144328, -0.1244549155, -0.2399219573, 0.5377005935, -0.3692827523, -0.0613366365, -0.2733966410, 0.2373669744, -0.1371175051};
 # 14 "firmware/parameters.h" 2
 # 1 "firmware/weights/attention_output_bias3.h" 1
 # 12 "firmware/weights/attention_output_bias3.h"
-multi_head_attention_attention_output_bias_t attention_output_bias3[16] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+multi_head_attention_attention_output_bias_t attention_output_bias3[4] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 15 "firmware/parameters.h" 2
 # 1 "firmware/weights/key_weight3.h" 1
 # 12 "firmware/weights/key_weight3.h"
-multi_head_attention_key_weight_t key_weight3[256] = {-0.1113473624, 0.1412380040, 0.1232050061, -0.0705744699, -0.0271563381, 0.1775318980, 0.1112547815, 0.0028324127, 0.0538876802, 0.0963004827, 0.0691612065, -0.1550212801, -0.1852445602, -0.0323141217, -0.0633541048, -0.0624034256, -0.1147289574, 0.1647981405, 0.0572296977, -0.1689803600, 0.1250916123, 0.1405017674, -0.0641241223, -0.1716238856, -0.1098490208, -0.1752078980, 0.0365012884, 0.1759796739, -0.0896695033, -0.1166242212, -0.1819572896, -0.1365530789, 0.0783805847, 0.1404350102, 0.1881469488, -0.1801392734, 0.1642380655, -0.0756933764, -0.1560698748, -0.0124958307, -0.1409347057, 0.0058700442, 0.1517398655, -0.0930070132, -0.0983317420, -0.0970868319, -0.1317402720, 0.0748175383, 0.0444605500, 0.0885227919, 0.0176894069, -0.0228761435, 0.1276963353, 0.0160387009, 0.0507384986, 0.1235100031, -0.0862245634, 0.0661045015, -0.0014785826, 0.0409761816, -0.0912945345, -0.0134412497, -0.0773593113, -0.1561039984, -0.1341487020, 0.0279125869, 0.1836687326, -0.0464629233, -0.0314779878, 0.1133672893, 0.0533330888, -0.1265286952, 0.1096380651, 0.0194725245, -0.1577788889, 0.1698612869, 0.0994176567, 0.0701610148, 0.0920996964, 0.0813387036, 0.1688774526, 0.1343010068, -0.1760091633, 0.1194212139, -0.0819708258, 0.0663698912, 0.1571304500, -0.0974317193, -0.1165030226, 0.0282505602, -0.0414011180, 0.1892192960, -0.0499211103, -0.1693407148, 0.1246697605, 0.0812323093, -0.1877438575, 0.1915251017, -0.0428008437, -0.1703940332, -0.0376400501, 0.0665762424, -0.0843208060, -0.0076199621, 0.1482237279, -0.1493453234, 0.0067234486, 0.0862670839, -0.0285369009, -0.1791200787, 0.1844003797, -0.1792125553, 0.0308716893, -0.1857721359, 0.1847348809, 0.1275472343, -0.1047831997, 0.1863872111, -0.0216057897, 0.0325237811, 0.0808816850, 0.1463437080, -0.1416207403, -0.1860653609, 0.0407816619, -0.0061203241, -0.1335346103, 0.1661337912, 0.0811353028, 0.1521814764, -0.0637311190, -0.0774476826, -0.0447570086, -0.1914863586, -0.0487830788, -0.0137937069, 0.1881699860, -0.0532055646, 0.0563951433, -0.1113341078, -0.0511666834, 0.1393497884, -0.1838327348, -0.0104771703, 0.1707128882, 0.0784461796, 0.1819807887, 0.1743102074, -0.1880497783, -0.1198360026, -0.0242386013, -0.0836276188, 0.0835489035, 0.1682893932, -0.1616833955, 0.0553676039, 0.1166547835, -0.1912909299, -0.0667616874, 0.1716388464, 0.0854262114, -0.0540520400, 0.1147333980, 0.1551041603, 0.1831527054, 0.1154389977, 0.1302315295, 0.0031576753, -0.1207614243, -0.1700213403, 0.0416831225, -0.0104465485, 0.1292346418, -0.1155351251, 0.0312090963, 0.1931068301, 0.0341942459, 0.0771361887, 0.1300502717, 0.0686373413, 0.0135094970, 0.1590802670, -0.0042463094, -0.1851740628, 0.1816996038, 0.0029195249, 0.1902670562, -0.1137018725, -0.0656275898, -0.0846475065, -0.1062095687, 0.1076529324, -0.0970641598, -0.1856442094, -0.0940502137, -0.1225700229, 0.0099477917, 0.1500663459, -0.0243099779, -0.1644126177, -0.0149834007, 0.1199461222, -0.0124884993, 0.0214547217, 0.0770547390, 0.0174645633, 0.1425910890, 0.1903322637, -0.1141820326, 0.0331031084, -0.0033590198, -0.0776414126, -0.1171444580, 0.0102929920, -0.1005718485, -0.1291583776, 0.0946965814, 0.1125213206, 0.0641458631, 0.0593596399, -0.1348289251, 0.0434133261, -0.1318784952, 0.1041308343, 0.0997520983, -0.0818521231, 0.1586155295, -0.0718115792, 0.1535723209, 0.0945900381, -0.0103910118, 0.1860274076, -0.0700984597, -0.0684891194, 0.1279778779, -0.0065107346, -0.1043776944, 0.1327924430, 0.1626118720, 0.0326389223, -0.1325797737, 0.1712994576, 0.0072892457, 0.0675343871, -0.0319807827, 0.0278887749, 0.0766735971, -0.1849164814, 0.1551977694, 0.0997129977, -0.0171865225, -0.0210069716, 0.0042904913, 0.0027068704, 0.0395053476, -0.0123576969};
+multi_head_attention_key_weight_t key_weight3[16] = {0.1893709898, -0.4420658350, -0.2403980494, 0.5091009736, -0.0791096091, 0.2074523568, 0.5639588237, -0.5040867329, -0.1336190701, 0.0253819823, -0.3114859164, -0.3836576939, 0.5145336986, 0.5913346410, -0.3900385499, -0.3538711667};
 # 16 "firmware/parameters.h" 2
 # 1 "firmware/weights/key_bias3.h" 1
 # 12 "firmware/weights/key_bias3.h"
-multi_head_attention_key_bias_t key_bias3[16] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+multi_head_attention_key_bias_t key_bias3[4] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 17 "firmware/parameters.h" 2
 # 1 "firmware/weights/query_weight3.h" 1
 # 12 "firmware/weights/query_weight3.h"
-multi_head_attention_query_weight_t query_weight3[256] = {-0.0672584325, 0.1428458989, 0.1471527815, -0.1689138263, -0.0301633626, -0.0092025101, -0.0565257668, -0.1217179224, -0.1409855783, -0.0018063784, 0.1111708581, 0.1674706042, 0.0002857447, -0.0228073001, -0.1622906178, -0.0206254274, -0.1066232473, -0.0008950382, -0.0993507057, -0.1902799010, -0.1703250557, -0.0109536797, 0.0130148232, 0.0515772104, -0.1772339046, 0.0979553163, 0.0364017040, 0.0731256008, -0.0586939305, 0.1364177167, 0.0418024212, -0.1676325351, -0.1442851871, -0.0233479887, 0.0670732558, -0.1437886804, 0.0093229711, -0.0909808129, -0.1711514443, -0.0393350273, -0.0199808031, 0.1222236156, -0.0652362555, -0.1209279150, 0.0051286072, -0.1031258106, 0.0051379800, 0.0732377470, 0.0454540253, 0.0865183473, -0.0081641227, -0.0334021598, -0.1758670509, -0.1274399012, -0.0592389107, -0.0454712063, -0.1604969800, -0.1441849023, -0.0315742046, 0.1367937624, 0.0368870795, 0.1686124504, 0.1090442836, -0.0274445266, -0.0071856529, 0.0781612396, 0.0217274874, 0.0828116536, 0.1179425120, -0.0566468239, -0.1756565720, -0.0179751515, -0.0795305744, 0.1308802664, 0.1685620546, -0.1518080086, 0.1043141782, -0.1070724279, -0.1479769945, 0.1056668758, 0.0508415103, 0.0282118618, 0.0393436700, 0.0510646403, 0.0540092885, -0.1696299613, 0.1193816960, -0.0169911385, 0.0252261311, -0.0344389826, -0.1512105763, -0.1921135336, -0.0624507517, 0.1308016479, 0.1909737289, 0.0507515222, 0.1286111176, 0.1514556408, -0.1615236998, 0.1527716219, -0.0069639832, 0.1744561195, -0.1198147684, -0.0752215683, 0.1057783365, -0.0331513584, -0.1239306405, -0.1904281080, -0.0998716876, -0.0623285770, 0.1805204749, 0.1717855334, 0.0163720101, -0.1904880852, 0.0476793945, -0.0088933706, -0.0349347591, 0.1103224754, -0.1524890959, -0.1129626930, 0.0171740651, -0.0638073087, 0.1306592226, 0.0502114296, -0.1925784945, -0.1655432731, -0.1929089427, 0.0189220011, 0.0828993320, 0.1000398695, 0.0246679336, -0.0710911080, -0.1522399187, 0.1035578251, 0.0439783484, -0.0368502289, -0.0316944867, 0.0286272913, -0.1914079189, -0.0004476160, -0.0747485161, 0.0872334242, -0.1214867532, 0.1496534050, -0.1005051807, 0.0243271589, 0.0965861678, -0.0099501014, 0.1483890712, 0.0941480100, -0.1643702835, 0.1165082455, 0.1365595460, -0.0025781095, 0.1010185778, -0.0221170634, -0.0239873081, -0.1048795581, 0.1519328654, -0.0122286975, 0.1250681579, 0.0108224750, -0.0861728564, 0.1495805681, -0.1493644416, -0.0393496305, 0.1697267294, 0.1575478613, 0.1192034781, 0.0701498389, 0.1663927436, -0.0960094184, 0.0591275096, -0.0512715280, 0.0632078350, -0.0938370898, 0.1389394999, 0.0831193328, 0.0785402060, 0.0978338420, -0.0146462768, -0.1023597196, -0.1865409464, -0.1493489295, -0.1803341508, -0.0076050907, 0.1882874072, -0.1471709311, 0.0145267844, 0.0366532803, -0.0665012449, 0.1129030883, -0.1047105789, 0.1896945536, 0.0892543495, 0.0066386312, 0.0863626599, 0.1877095103, 0.0571777821, -0.1778484285, 0.0355088711, -0.0846728012, 0.0376440287, 0.0374251455, 0.0720465481, -0.0253725350, -0.0921433643, 0.1540097892, -0.0645685941, -0.1491982788, -0.1701158583, -0.0258898139, -0.1509860456, 0.1103104353, -0.1183952391, -0.1829293370, 0.1408391893, -0.0744065866, -0.1236286908, 0.0954012275, 0.1219825745, -0.0457075834, 0.0405986011, 0.1909357905, 0.0470845550, 0.0250576586, -0.1071209088, 0.1325340271, -0.1426151395, -0.0080406070, -0.1077169999, 0.1235524714, 0.0791272819, 0.1819962561, 0.0882140100, -0.1759776771, 0.0762626529, -0.0024846196, 0.0602695942, -0.0319480449, 0.1914085746, 0.1196096838, 0.1892994940, 0.0104825646, 0.1263879836, -0.0796173736, 0.0943633914, -0.0983852595, -0.1127106100, -0.1533357501, 0.1135903299, -0.0574269444, 0.0582713783, -0.0611433238, 0.1254018247, 0.1488119662};
+multi_head_attention_query_weight_t query_weight3[16] = {0.2312898040, -0.1697508097, -0.3935853243, -0.0167782903, -0.5700020790, 0.2963240147, 0.2766335607, 0.4252524972, -0.2877587080, -0.4031715989, 0.6118795276, -0.2191368043, 0.2744694352, -0.1866962612, 0.5611146092, -0.1865192950};
 # 18 "firmware/parameters.h" 2
 # 1 "firmware/weights/query_bias3.h" 1
 # 12 "firmware/weights/query_bias3.h"
-multi_head_attention_query_bias_t query_bias3[16] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+multi_head_attention_query_bias_t query_bias3[4] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 19 "firmware/parameters.h" 2
 # 1 "firmware/weights/value_weight3.h" 1
 # 12 "firmware/weights/value_weight3.h"
-multi_head_attention_value_weight_t value_weight3[256] = {-0.0291571468, -0.1784903258, 0.1808609366, 0.1696921885, 0.1120160818, 0.1366574168, 0.0250801891, -0.0077646524, 0.0003998727, -0.0423029959, 0.1563266814, -0.1085125059, 0.1034003794, 0.1758140028, 0.1718809605, 0.0125360489, -0.1700633168, 0.1548629701, -0.0909760594, 0.0953172445, -0.1586569846, -0.0371740609, -0.0490536839, 0.1008847952, -0.0561183095, 0.0984168351, -0.1298367083, 0.1393375993, -0.0747677237, 0.0825611055, 0.1230948865, 0.1843636036, -0.0471840948, -0.0862490758, 0.0653367937, -0.0613094419, -0.1286236346, -0.1380612105, -0.0239475965, 0.1708708704, 0.0619118214, 0.0044489056, -0.1027468964, -0.1619767547, 0.1020019352, 0.1834511161, 0.0053506345, -0.0710050911, -0.0172266513, -0.1522861421, -0.1346849203, 0.0371584147, 0.1226349771, 0.1848533154, -0.1290283650, -0.0963229984, -0.0230498314, -0.1194428727, -0.0434861332, -0.1411925256, 0.0297863334, 0.1864885092, 0.1327510476, -0.1270977855, -0.1610604376, -0.1206592098, 0.1917081475, 0.0173155218, 0.0122493356, -0.0506239086, 0.0104985833, -0.1413674504, 0.0999770761, 0.0873786211, -0.0126134753, -0.0681131631, 0.0471598059, 0.0916610360, 0.1179850996, 0.1537590027, 0.1392185986, 0.1547990143, 0.1012640595, -0.1198878512, -0.0167926103, -0.0145297945, -0.1927088350, -0.1699510217, -0.1208248138, -0.0624539405, 0.0619053841, -0.1763223410, 0.1179109216, 0.0995058715, 0.1866514385, -0.0363065004, -0.0110851228, -0.0135402381, 0.1214824021, -0.0266223848, -0.0165374726, 0.0898059905, -0.0937267020, -0.1218661219, -0.1413013935, 0.1792242825, -0.1796417832, 0.0933725238, -0.0463131517, 0.0070734471, -0.0284599811, -0.1637482941, 0.0926030874, -0.0031954944, 0.0687393546, -0.1898679286, 0.1271345019, -0.1151337251, -0.0814314261, -0.1094399542, 0.0033998340, 0.1657093763, 0.1829923987, 0.0793022215, 0.0492553562, 0.1928187311, -0.1157696620, 0.0900234878, 0.0583323240, 0.1712352037, -0.1712781787, -0.0773130506, -0.0241343528, 0.1218607724, -0.1764796823, 0.1301123202, 0.0751959085, 0.1814548671, 0.0699706674, 0.0554956198, 0.0485933274, -0.0419334173, -0.0860262662, -0.1525260806, -0.1723086387, -0.0537172258, -0.0762603879, 0.0209721029, 0.1499315500, 0.1838533282, -0.1073214635, -0.1854905039, 0.1473981738, -0.0176407397, 0.0111095905, 0.1327863336, 0.0480060875, 0.0428254008, -0.0865469202, 0.1419366300, -0.0492378026, 0.0014075190, 0.0751121640, 0.1589303017, 0.0297638029, -0.1425504982, -0.0786699802, 0.0903584361, -0.0562520176, -0.1879607141, -0.0814310983, 0.1565191150, -0.1247687563, -0.1662835926, 0.0177845657, -0.1903870106, -0.1107694060, 0.0351453274, 0.1608148515, -0.1519936621, -0.0692188814, -0.0910172388, 0.0207604170, -0.0777703598, -0.0047480315, -0.1475326568, 0.1285990179, 0.0532293022, -0.0128813535, 0.0254867524, 0.0748976469, 0.0397420228, 0.0636495054, 0.1117128432, -0.1872948557, -0.1817664653, -0.0899306387, -0.0698739365, -0.1327273846, -0.1329685152, 0.0136131346, -0.1477907896, -0.0022143424, 0.0107557923, 0.1158960462, -0.0641361624, 0.1714219451, 0.1150445342, 0.0551146865, -0.0586379319, 0.1629260182, 0.1466331780, -0.0493192524, 0.0274651647, -0.0536588132, 0.0619948804, 0.1420930922, -0.0858620405, 0.0863644481, 0.1310895085, -0.0480413735, 0.1760071814, -0.0806975141, -0.1729442924, -0.1808859706, 0.0696574450, -0.1286831051, 0.1736918688, -0.0329512209, -0.1114714667, 0.1589323878, 0.1915375292, 0.1492142081, 0.1707633436, 0.0608486235, 0.1563500762, -0.0749962181, 0.0352785289, 0.0378589481, -0.0971707180, 0.1574147344, 0.0442994237, -0.0446784645, -0.1271410435, -0.1737987101, -0.1131008342, -0.0380449593, -0.1904929727, 0.0359017253, 0.0407845676, -0.1587365270, 0.0889990330, -0.0906157494, 0.1775076389, 0.1714105904, -0.1104451641};
+multi_head_attention_value_weight_t value_weight3[16] = {-0.5544670224, 0.1875151992, -0.4981001318, 0.2852869034, 0.0763136744, -0.0054886341, 0.4432833791, 0.1730962992, 0.3760635853, -0.4359543920, 0.4395177960, 0.4559074044, 0.1055645347, 0.3893378377, -0.3319321871, -0.2553878129};
 # 20 "firmware/parameters.h" 2
 # 1 "firmware/weights/value_bias3.h" 1
 # 12 "firmware/weights/value_bias3.h"
-multi_head_attention_value_bias_t value_bias3[16] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
+multi_head_attention_value_bias_t value_bias3[4] = {0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000};
 # 21 "firmware/parameters.h" 2
 
 
 
 
 struct config3_1 : nnet::dense_config {
-    static const unsigned n_in = 16;
+    static const unsigned n_in = 4;
     static const unsigned n_out = 2;
+    static const unsigned io_type = nnet::io_parallel;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
-    static const unsigned n_nonzeros = 256;
+    static const unsigned n_nonzeros = 16;
+    static const unsigned multiplier_limit = ((n_in * n_out + reuse_factor - 1) / reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
     typedef multi_head_attention_accum_t accum_t;
     typedef multi_head_attention_attention_output_bias_t bias_t;
@@ -58279,12 +58264,14 @@ struct config3_1 : nnet::dense_config {
 };
 
 struct config3_2 : nnet::dense_config {
-    static const unsigned n_in = 16;
-    static const unsigned n_out = 16;
+    static const unsigned n_in = 4;
+    static const unsigned n_out = 4;
+    static const unsigned io_type = nnet::io_parallel;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
     static const unsigned n_zeros = 0;
-    static const unsigned n_nonzeros = 256;
+    static const unsigned n_nonzeros = 16;
+    static const unsigned multiplier_limit = ((n_in * n_out + reuse_factor - 1) / reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
     typedef multi_head_attention_accum_t accum_t;
     typedef multi_head_attention_attention_output_bias_t bias_t;
@@ -58297,7 +58284,7 @@ struct config3_2 : nnet::dense_config {
 };
 
 struct softmax_config3 : nnet::activ_config {
-    static const unsigned n_in = 100;
+    static const unsigned n_in = 20;
     static const unsigned table_size = 2048;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;
@@ -58317,11 +58304,11 @@ struct config3 : nnet::multiheadattention_config {
     typedef config3_2 config_mult2;
     typedef softmax_config3 softmax_config1;
 
-    static const unsigned num_heads = 8;
+    static const unsigned num_heads = 2;
     static const unsigned head_dim_key = 2;
     static const unsigned head_dim_value = 2;
-    static const unsigned feature_dim = 16;
-    static const unsigned seq_len = 100;
+    static const unsigned feature_dim = 4;
+    static const unsigned seq_len = 20;
 
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;
@@ -58330,10 +58317,14 @@ struct config3 : nnet::multiheadattention_config {
 # 5 "firmware/myproject.cpp" 2
 
 
-void myproject(
-    input_t input_1[100*16], input2_t input_2[100*16],
-    result_t layer3_out[100*16]
+__attribute__((sdx_kernel("myproject", 0))) void myproject(
+    input_t input_1[20*4], input2_t input_2[20*4],
+    result_t layer3_out[20*4]
 ) {
+#line 183 "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vivado/build_prj.tcl"
+#pragma HLSDIRECTIVE TOP name=myproject
+# 10 "firmware/myproject.cpp"
+
 
 
 #pragma HLS ARRAY_RESHAPE variable=input_1 complete dim=0

@@ -60,7 +60,7 @@ def keras_layernorm():
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'keras_layernorm_Vivado')
+    output_dir = str(file_path / 'hls4ml_projects' / 'keras_layernorm_log')
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
@@ -74,7 +74,7 @@ def pytorch_layernorm():
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_pytorch_model(model, layernorm_in_shape, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_Vivado')
+    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_log')
     hls_model = hls4ml.converters.convert_from_pytorch_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
@@ -91,7 +91,7 @@ def keras_mha():
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado')
+    output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado_2020_1')
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
     hls_model.compile()
 
@@ -159,11 +159,11 @@ def keras_mha_old():
 
 
 if __name__ == "__main__":
-    # save_layernorm_data()
-    save_mha_data()
-    # keras_layernorm()
-    # pytorch_layernorm()
+    save_layernorm_data()
+    # save_mha_data()
+    keras_layernorm()
+    pytorch_layernorm()
     # keras_mha()
     # pytorch_mha()
-    keras_mha_old()
     # keras_layernorm_old()
+    # keras_mha_old()
