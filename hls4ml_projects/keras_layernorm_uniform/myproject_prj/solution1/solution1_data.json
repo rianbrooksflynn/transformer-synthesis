@@ -167,18 +167,18 @@
     "Vhdl": [
       "impl\/vhdl\/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.vhd",
       "impl\/vhdl\/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.vhd",
-      "impl\/vhdl\/myproject_mul_27ns_19s_46_1_1.vhd",
-      "impl\/vhdl\/myproject_mul_mul_12ns_19s_31_1_1.vhd",
-      "impl\/vhdl\/myproject_mul_mul_19s_19s_32_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_22s_22s_38_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_mul_15ns_22s_37_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_mul_22s_9ns_31_1_1.vhd",
       "impl\/vhdl\/myproject.vhd"
     ],
     "Verilog": [
       "impl\/verilog\/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v",
       "impl\/verilog\/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v",
       "impl\/verilog\/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb_rom.dat",
-      "impl\/verilog\/myproject_mul_27ns_19s_46_1_1.v",
-      "impl\/verilog\/myproject_mul_mul_12ns_19s_31_1_1.v",
-      "impl\/verilog\/myproject_mul_mul_19s_19s_32_1_1.v",
+      "impl\/verilog\/myproject_mul_22s_22s_38_1_1.v",
+      "impl\/verilog\/myproject_mul_mul_15ns_22s_37_1_1.v",
+      "impl\/verilog\/myproject_mul_mul_22s_9ns_31_1_1.v",
       "impl\/verilog\/myproject.v"
     ],
     "IpMisc": ["impl\/misc\/logo.png"],
@@ -401,19 +401,19 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.021"
+          "Estimate": "4.027"
         },
         "Area": {
-          "BRAM_18K": "12",
+          "BRAM_18K": "8",
           "AVAIL_BRAM": "5376",
           "UTIL_BRAM": "~0",
-          "DSP": "12",
+          "DSP": "17",
           "AVAIL_DSP": "12288",
           "UTIL_DSP": "~0",
-          "FF": "593",
+          "FF": "659",
           "AVAIL_FF": "3456000",
           "UTIL_FF": "~0",
-          "LUT": "727",
+          "LUT": "722",
           "AVAIL_LUT": "1728000",
           "UTIL_LUT": "~0",
           "URAM": "0",
@@ -433,19 +433,19 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.021"
+          "Estimate": "4.027"
         },
         "Area": {
-          "BRAM_18K": "12",
+          "BRAM_18K": "8",
           "AVAIL_BRAM": "5376",
           "UTIL_BRAM": "~0",
-          "DSP": "12",
+          "DSP": "17",
           "AVAIL_DSP": "12288",
           "UTIL_DSP": "~0",
-          "FF": "900",
+          "FF": "966",
           "AVAIL_FF": "3456000",
           "UTIL_FF": "~0",
-          "LUT": "1192",
+          "LUT": "1187",
           "AVAIL_LUT": "1728000",
           "UTIL_LUT": "~0",
           "URAM": "0",
@@ -458,7 +458,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2024-11-18 11:50:35 EST",
+    "Time": "2024-11-20 14:25:17 EST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.1"
   }

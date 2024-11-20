@@ -31,15 +31,14 @@ struct layernorm_config {
 template<typename CONFIG_T, int N_TABLE>
 void init_invert_sqr_table(typename CONFIG_T::table_t table_out[N_TABLE])
 {
-    float inv_range = CONFIG_T::table_range;
     // Inversion function:
     //   result = 1/sqrt(x)
+    float min_val = CONFIG_T::epsilon;
+    float max_val = CONFIG_T::table_range;
+    float step = max_val / (float)(N_TABLE);
     for (int ii = 0; ii < N_TABLE; ii++) {
-        // First, convert from table index to X-value (signed 8-bit, range 0 to +0.01)
-        float in_val = inv_range*ii/float(N_TABLE);
-        // Next, compute lookup table function
-        if (in_val > 0.0) table_out[ii] = 1.0/sqrt(in_val);
-        else table_out[ii] = 0.0;
+        float in_val = min_val + step * ii;
+        table_out[ii] = (typename CONFIG_T::table_t)(1.0/sqrt(in_val));
     }
 }
 
@@ -138,11 +137,11 @@ LAYERNORM_1D_VAR:
     }
     var = CONFIG_T::template product<typename CONFIG_T::mean_t, typename CONFIG_T::mean_t>::product(sum_cache2, k_inv);
 
-    int index = (var + var_epsilon) * (CONFIG_T::table_size) * inv_range_inv;
-    if (CONFIG_T::table_range > 1) index = (var + var_epsilon) * (CONFIG_T::table_size) / (int)CONFIG_T::table_range;
+    int index = (var) * (CONFIG_T::table_size) * inv_range_inv;
+    if (CONFIG_T::table_range > 1) index = (var) * (CONFIG_T::table_size) / (int)CONFIG_T::table_range;
     if (index < 0) index = 0;
     if (index > CONFIG_T::table_size - 1) index = CONFIG_T::table_size - 1;
-    deno_inver = (typename CONFIG_T::table_t)invert_sqr_table[index];
+    deno_inver = invert_sqr_table[index];
     // lookup_invert_sqr<CONFIG_T>(var + var_epsilon, deno_inver, index_table, invert_sqr_table);
 
 LAYERNORM_1D_RESULT:

@@ -2,8 +2,8 @@
 # xsim v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Nov 18 12:35:30 2024
-# Process ID: 72452
+# Start of session at: Wed Nov 20 14:28:34 2024
+# Process ID: 62123
 # Current directory: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog
 # Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
 # Log file: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/xsim.log
@@ -78,8 +78,8 @@ source myproject.tcl
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [0.00%] @ "613000"
-// RTL Simulation : 1 / 1 [100.00%] @ "748000"
+// RTL Simulation : 1 / 1 [100.00%] @ "743000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 767500 ps : File "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 287
+$finish called at time : 762500 ps : File "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 287
 ## quit
-INFO: [Common 17-206] Exiting xsim at Mon Nov 18 12:35:38 2024...
+INFO: [Common 17-206] Exiting xsim at Wed Nov 20 14:28:41 2024...

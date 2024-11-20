@@ -2159,7 +2159,7 @@
 						<name>call_ret</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2175,7 +2175,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2202,7 +2202,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>43</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2214,7 +2214,7 @@
 						<name>outval_V_0</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2230,7 +2230,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2263,7 +2263,7 @@
 						<name>outval_V_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2279,7 +2279,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2312,7 +2312,7 @@
 						<name>outval_V_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2328,7 +2328,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2361,7 +2361,7 @@
 						<name>outval_V_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2377,7 +2377,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2410,7 +2410,7 @@
 						<name>outval_V_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2426,7 +2426,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2701,7 +2701,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>61</m_topoIndex>
+				<m_topoIndex>56</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_56">
@@ -2751,7 +2751,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>62</m_topoIndex>
+				<m_topoIndex>57</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_57">
@@ -2802,7 +2802,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>63</m_topoIndex>
+				<m_topoIndex>58</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_58">
@@ -2852,7 +2852,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>64</m_topoIndex>
+				<m_topoIndex>59</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_59">
@@ -2903,7 +2903,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>70</m_topoIndex>
+				<m_topoIndex>65</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_60">
@@ -2953,7 +2953,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>71</m_topoIndex>
+				<m_topoIndex>66</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_61">
@@ -2964,7 +2964,7 @@
 						<name>call_ret3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2980,7 +2980,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3007,7 +3007,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>44</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3019,7 +3019,7 @@
 						<name>outval_V_0_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3035,7 +3035,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3057,7 +3057,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>56</m_topoIndex>
+				<m_topoIndex>60</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_63">
@@ -3068,7 +3068,7 @@
 						<name>outval_V_1_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3084,7 +3084,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3106,7 +3106,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>57</m_topoIndex>
+				<m_topoIndex>61</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_64">
@@ -3117,7 +3117,7 @@
 						<name>outval_V_2_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3133,7 +3133,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3155,7 +3155,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>58</m_topoIndex>
+				<m_topoIndex>62</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_65">
@@ -3166,7 +3166,7 @@
 						<name>outval_V_3_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3182,7 +3182,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3204,7 +3204,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>59</m_topoIndex>
+				<m_topoIndex>63</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_66">
@@ -3215,7 +3215,7 @@
 						<name>outval_V_4_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3231,7 +3231,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3253,7 +3253,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>60</m_topoIndex>
+				<m_topoIndex>64</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_67">
@@ -3304,7 +3304,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>72</m_topoIndex>
+				<m_topoIndex>67</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_68">
@@ -3354,7 +3354,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>73</m_topoIndex>
+				<m_topoIndex>68</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_69">
@@ -3405,7 +3405,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>79</m_topoIndex>
+				<m_topoIndex>74</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_70">
@@ -3455,7 +3455,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>80</m_topoIndex>
+				<m_topoIndex>75</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_71">
@@ -3506,7 +3506,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>81</m_topoIndex>
+				<m_topoIndex>76</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_72">
@@ -3556,7 +3556,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.59</m_delay>
-				<m_topoIndex>82</m_topoIndex>
+				<m_topoIndex>77</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_73">
@@ -3769,7 +3769,7 @@
 						<name>call_ret4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3785,7 +3785,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3812,7 +3812,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>45</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3824,7 +3824,7 @@
 						<name>outval_V_0_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3840,7 +3840,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3862,7 +3862,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>65</m_topoIndex>
+				<m_topoIndex>69</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_79">
@@ -3873,7 +3873,7 @@
 						<name>outval_V_1_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3889,7 +3889,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3911,7 +3911,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>66</m_topoIndex>
+				<m_topoIndex>70</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_80">
@@ -3922,7 +3922,7 @@
 						<name>outval_V_2_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3938,7 +3938,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3960,7 +3960,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>67</m_topoIndex>
+				<m_topoIndex>71</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_81">
@@ -3971,7 +3971,7 @@
 						<name>outval_V_3_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3987,7 +3987,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4009,7 +4009,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>68</m_topoIndex>
+				<m_topoIndex>72</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_82">
@@ -4020,7 +4020,7 @@
 						<name>outval_V_4_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4036,7 +4036,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4058,7 +4058,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>69</m_topoIndex>
+				<m_topoIndex>73</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_83">
@@ -4574,7 +4574,7 @@
 						<name>call_ret5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4590,7 +4590,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4617,7 +4617,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>46</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -4629,7 +4629,7 @@
 						<name>outval_V_0_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4645,7 +4645,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4667,7 +4667,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>74</m_topoIndex>
+				<m_topoIndex>78</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_95">
@@ -4678,7 +4678,7 @@
 						<name>outval_V_1_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4694,7 +4694,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4716,7 +4716,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>75</m_topoIndex>
+				<m_topoIndex>79</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_96">
@@ -4727,7 +4727,7 @@
 						<name>outval_V_2_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4743,7 +4743,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4765,7 +4765,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>76</m_topoIndex>
+				<m_topoIndex>80</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_97">
@@ -4776,7 +4776,7 @@
 						<name>outval_V_3_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4792,7 +4792,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4814,7 +4814,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>77</m_topoIndex>
+				<m_topoIndex>81</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_98">
@@ -4825,7 +4825,7 @@
 						<name>outval_V_4_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -4841,7 +4841,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -4863,7 +4863,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>78</m_topoIndex>
+				<m_topoIndex>82</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_99">
@@ -7610,11 +7610,11 @@
 				<item>118</item>
 			</basic_blocks>
 			<mII>10</mII>
-			<mDepth>26</mDepth>
+			<mDepth>25</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>25</mMinLatency>
-			<mMaxLatency>25</mMaxLatency>
+			<mMinLatency>24</mMinLatency>
+			<mMaxLatency>24</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -7963,70 +7963,70 @@
 		<item>
 			<first>59</first>
 			<second>
-				<first>16</first>
+				<first>15</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>60</first>
 			<second>
-				<first>16</first>
+				<first>15</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>61</first>
 			<second>
-				<first>16</first>
+				<first>15</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>62</first>
 			<second>
-				<first>16</first>
+				<first>15</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>63</first>
 			<second>
-				<first>17</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>64</first>
 			<second>
-				<first>17</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>65</first>
 			<second>
-				<first>17</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>66</first>
 			<second>
-				<first>17</first>
+				<first>16</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>67</first>
 			<second>
-				<first>18</first>
+				<first>17</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>68</first>
 			<second>
-				<first>18</first>
+				<first>17</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -8075,70 +8075,70 @@
 		<item>
 			<first>75</first>
 			<second>
-				<first>18</first>
+				<first>17</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>76</first>
 			<second>
-				<first>18</first>
+				<first>17</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>77</first>
 			<second>
-				<first>19</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>78</first>
 			<second>
-				<first>19</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>79</first>
 			<second>
-				<first>19</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>80</first>
 			<second>
-				<first>19</first>
+				<first>18</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>81</first>
 			<second>
-				<first>20</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>82</first>
 			<second>
-				<first>20</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>83</first>
 			<second>
-				<first>20</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>84</first>
 			<second>
-				<first>20</first>
+				<first>19</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -8187,70 +8187,70 @@
 		<item>
 			<first>91</first>
 			<second>
-				<first>21</first>
+				<first>20</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>92</first>
 			<second>
-				<first>21</first>
+				<first>20</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>93</first>
 			<second>
-				<first>21</first>
+				<first>20</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>94</first>
 			<second>
-				<first>21</first>
+				<first>20</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>95</first>
 			<second>
-				<first>22</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>96</first>
 			<second>
-				<first>22</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>97</first>
 			<second>
-				<first>22</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>98</first>
 			<second>
-				<first>22</first>
+				<first>21</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>99</first>
 			<second>
-				<first>23</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>100</first>
 			<second>
-				<first>23</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -8299,77 +8299,77 @@
 		<item>
 			<first>107</first>
 			<second>
-				<first>23</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>108</first>
 			<second>
-				<first>23</first>
+				<first>22</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>109</first>
 			<second>
-				<first>24</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>110</first>
 			<second>
-				<first>24</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>111</first>
 			<second>
-				<first>24</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>112</first>
 			<second>
-				<first>24</first>
+				<first>23</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>113</first>
 			<second>
-				<first>25</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>114</first>
 			<second>
-				<first>25</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>115</first>
 			<second>
-				<first>25</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>116</first>
 			<second>
-				<first>25</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>117</first>
 			<second>
-				<first>25</first>
+				<first>24</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -8381,7 +8381,7 @@
 			<first>118</first>
 			<second class_id="31" tracking_level="0" version="0">
 				<first>0</first>
-				<second>25</second>
+				<second>24</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
@@ -8402,7 +8402,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>10</interval>
-			<pipe_depth>26</pipe_depth>
+			<pipe_depth>25</pipe_depth>
 		</item>
 	</regions>
 	<dp_fu_nodes class_id="34" tracking_level="0" version="0">

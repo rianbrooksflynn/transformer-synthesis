@@ -6,9 +6,9 @@
 module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_table_rom (
 addr0, ce0, q0, clk);
 
-parameter DWIDTH = 27;
-parameter AWIDTH = 13;
-parameter MEM_SIZE = 8192;
+parameter DWIDTH = 11;
+parameter AWIDTH = 14;
+parameter MEM_SIZE = 16384;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -43,9 +43,9 @@ module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_
     ce0,
     q0);
 
-parameter DataWidth = 32'd27;
-parameter AddressRange = 32'd8192;
-parameter AddressWidth = 32'd13;
+parameter DataWidth = 32'd11;
+parameter AddressRange = 32'd16384;
+parameter AddressWidth = 32'd14;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

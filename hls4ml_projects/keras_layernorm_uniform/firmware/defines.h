@@ -19,8 +19,8 @@ typedef ap_fixed<16,6> input_t;
 typedef ap_fixed<33,13> result_t;
 typedef ap_fixed<16,6> layer_normalization_scale_t;
 typedef ap_fixed<16,6> layer_normalization_bias_t;
-typedef ap_fixed<30,10> layer_normalization_table_t;
-typedef ap_fixed<19,6> layer_normalization_mean_t;
+typedef ap_fixed<11,7> layer_normalization_table_t;
+typedef ap_fixed<22,6> layer_normalization_mean_t;
 
 
 #endif

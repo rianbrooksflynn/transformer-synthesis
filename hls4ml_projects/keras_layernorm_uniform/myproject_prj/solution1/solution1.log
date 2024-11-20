@@ -58,42 +58,43 @@ WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in futu
 WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:244:9
 WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:280:9
 WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: /tools/Xilinx/Vitis/2020.1/common/technology/autopilot/hls_hotbm_apfixed.h:281:9
-WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_layernorm.h:162:9
+WARNING: [HLS 207-1534] 'function_instantiate' is deprecated, and it will be removed in future release: firmware/nnet_utils/nnet_layernorm.h:161:9
 WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:35
 WARNING: [HLS 207-1602] Unsupported interface port data type in '#pragma HLS interface ap_vld': firmware/myproject.cpp:15:61
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' target.
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:139:11)
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:131:12)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:138:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:130:12)
 WARNING: [HLS 214-183] Unsupport array of struct: array_partition pragma on TOP function argument, in 'call' (firmware/myproject.cpp:13:9)
-WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:92:87)
-WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:94:9)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:91:87)
+WARNING: [HLS 214-180] Unsupport array_partition pragma on function argument, in 'call' (firmware/nnet_utils/nnet_layernorm.h:93:9)
 WARNING: [HLS 214-184] Unsupport array_reshape pragma on function argument, in 'call' (firmware/myproject.cpp:10:58)
-INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:173:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:173:9)
-INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:179:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:179:9)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:172:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:172:9)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:178:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5 (firmware/nnet_utils/nnet_layernorm.h:178:9)
 INFO: [HLS 214-178] Inlining function 'void nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' into 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (firmware/myproject.cpp:10:0)
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6606 ; free virtual = 29984
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6604 ; free virtual = 29982
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12929 ; free virtual = 33983
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12929 ; free virtual = 33983
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6588 ; free virtual = 29970
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12923 ; free virtual = 33980
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:01:01 ; elapsed = 00:01:04 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6685 ; free virtual = 30069
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12906 ; free virtual = 33966
 INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'myproject' (firmware/nnet_utils/nnet_layernorm.h:34:44).
-WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) because its parent loop or function is pipelined.
-WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) because its parent loop or function is pipelined.
-INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:120:30).
-INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:170) in function 'myproject' completely with a factor of 4.
-INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:128) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
-INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:134) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
-INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:149) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) because its parent loop or function is pipelined.
+WARNING: [XFORM 203-503] Ignored partial unroll directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) because its parent loop or function is pipelined.
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:119:30).
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169) in function 'myproject' completely with a factor of 4.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:127) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:133) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:148) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 5.
 INFO: [XFORM 203-101] Partitioning array 's2.V'  in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'b2.V'  in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'in_val.V' (firmware/nnet_utils/nnet_layernorm.h:159) in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'outval.V' (firmware/nnet_utils/nnet_layernorm.h:160) in dimension 1 completely.
-INFO: [XFORM 203-101] Partitioning array 'data_diff.V' (firmware/nnet_utils/nnet_layernorm.h:120) in dimension 1 completely.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:143:1)...8 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6597 ; free virtual = 29985
-WARNING: [XFORM 203-631] Renaming function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:141:1)
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 6688 ; free virtual = 29994
+INFO: [XFORM 203-101] Partitioning array 'in_val.V' (firmware/nnet_utils/nnet_layernorm.h:158) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'outval.V' (firmware/nnet_utils/nnet_layernorm.h:159) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data_diff.V' (firmware/nnet_utils/nnet_layernorm.h:119) in dimension 1 completely.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (firmware/nnet_utils/nnet_layernorm.h:151:1) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'... converting 3 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:142:1)...8 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12869 ; free virtual = 33932
+WARNING: [XFORM 203-631] Renaming function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' to 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:140:1)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1498.227 ; gain = 1091.781 ; free physical = 12863 ; free virtual = 33927
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'myproject' ...
 WARNING: [SYN 201-103] Legalizing function name 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
@@ -104,19 +105,16 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 65.43 seconds; current allocated memory: 207.818 MB.
+INFO: [HLS 200-111]  Elapsed time: 56.55 seconds; current allocated memory: 193.952 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 208.158 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 194.310 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'myproject'.
 WARNING: [HLS 200-885] Unable to schedule 'load' operation ('in_val.V[2]') on array 'layer_normalization_input' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'layer_normalization_input'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 10, Depth = 19.
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 208.575 MB.

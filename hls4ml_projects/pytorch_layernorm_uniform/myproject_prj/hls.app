@@ -1,4 +1,4 @@
-<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" projectType="C/C++" top="myproject" name="myproject_prj">
+<AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" top="myproject" name="myproject_prj">
     <includePaths/>
     <libraryFlag/>
     <solutions>

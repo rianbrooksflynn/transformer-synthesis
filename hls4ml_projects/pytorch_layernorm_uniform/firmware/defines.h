@@ -25,8 +25,8 @@ typedef ap_fixed<16,6> layer4_t;
 typedef ap_fixed<16,6> result_t;
 typedef ap_fixed<16,6> _0_scale_t;
 typedef ap_fixed<16,6> _0_bias_t;
-typedef ap_fixed<30,10> _0_table_t;
-typedef ap_fixed<19,6> _0_mean_t;
+typedef ap_fixed<11,7> _0_table_t;
+typedef ap_fixed<22,6> _0_mean_t;
 
 
 #endif

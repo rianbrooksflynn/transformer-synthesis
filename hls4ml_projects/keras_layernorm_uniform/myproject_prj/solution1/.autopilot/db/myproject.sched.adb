@@ -580,7 +580,7 @@
 						<name>call_ret</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -596,7 +596,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -623,7 +623,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>17</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -635,7 +635,7 @@
 						<name>outval_V_0</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -651,7 +651,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -684,7 +684,7 @@
 						<name>outval_V_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -700,7 +700,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -733,7 +733,7 @@
 						<name>outval_V_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -749,7 +749,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -782,7 +782,7 @@
 						<name>outval_V_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -798,7 +798,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -831,7 +831,7 @@
 						<name>outval_V_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -847,7 +847,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2140,7 +2140,7 @@
 						<name>call_ret1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2156,7 +2156,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2183,7 +2183,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>26</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2195,7 +2195,7 @@
 						<name>outval_V_0_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2211,7 +2211,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2244,7 +2244,7 @@
 						<name>outval_V_1_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2260,7 +2260,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2293,7 +2293,7 @@
 						<name>outval_V_2_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2309,7 +2309,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2342,7 +2342,7 @@
 						<name>outval_V_3_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2358,7 +2358,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -2391,7 +2391,7 @@
 						<name>outval_V_4_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -2407,7 +2407,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3700,7 +3700,7 @@
 						<name>call_ret2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3716,7 +3716,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3743,7 +3743,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>50</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3755,7 +3755,7 @@
 						<name>outval_V_0_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3771,7 +3771,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3804,7 +3804,7 @@
 						<name>outval_V_1_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3820,7 +3820,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3853,7 +3853,7 @@
 						<name>outval_V_2_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3869,7 +3869,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3902,7 +3902,7 @@
 						<name>outval_V_3_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3918,7 +3918,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -3951,7 +3951,7 @@
 						<name>outval_V_4_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -3967,7 +3967,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5260,7 +5260,7 @@
 						<name>call_ret3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5276,7 +5276,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5303,7 +5303,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.90</m_delay>
+				<m_delay>3.92</m_delay>
 				<m_topoIndex>72</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -5315,7 +5315,7 @@
 						<name>outval_V_0_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5331,7 +5331,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5364,7 +5364,7 @@
 						<name>outval_V_1_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5380,7 +5380,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5413,7 +5413,7 @@
 						<name>outval_V_2_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5429,7 +5429,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5462,7 +5462,7 @@
 						<name>outval_V_3_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5478,7 +5478,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>
@@ -5511,7 +5511,7 @@
 						<name>outval_V_4_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
 						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>176</lineNumber>
 						<contextFuncName>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernormalize_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
@@ -5527,7 +5527,7 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernormalize&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>177</second>
+										<second>176</second>
 									</item>
 								</second>
 							</item>

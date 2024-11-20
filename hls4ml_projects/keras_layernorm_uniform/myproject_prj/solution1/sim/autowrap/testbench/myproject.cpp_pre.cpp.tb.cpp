@@ -67005,8 +67005,8 @@ typedef ap_fixed<16,6> input_t;
 typedef ap_fixed<33,13> result_t;
 typedef ap_fixed<16,6> layer_normalization_scale_t;
 typedef ap_fixed<16,6> layer_normalization_bias_t;
-typedef ap_fixed<30,10> layer_normalization_table_t;
-typedef ap_fixed<19,6> layer_normalization_mean_t;
+typedef ap_fixed<11,7> layer_normalization_table_t;
+typedef ap_fixed<22,6> layer_normalization_mean_t;
 # 9 "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/firmware/myproject.h" 2
 
 
@@ -94354,18 +94354,17 @@ struct layernorm_config {
 template<typename CONFIG_T, int N_TABLE>
 void init_invert_sqr_table(typename CONFIG_T::table_t table_out[N_TABLE])
 {
-    float inv_range = CONFIG_T::table_range;
 
 
+    float min_val = CONFIG_T::epsilon;
+    float max_val = CONFIG_T::table_range;
+    float step = max_val / (float)(N_TABLE);
     for (int ii = 0; ii < N_TABLE; ii++) {
-
-        float in_val = inv_range*ii/float(N_TABLE);
-
-        if (in_val > 0.0) table_out[ii] = 1.0/sqrt(in_val);
-        else table_out[ii] = 0.0;
+        float in_val = min_val + step * ii;
+        table_out[ii] = (typename CONFIG_T::table_t)(1.0/sqrt(in_val));
     }
 }
-# 89 "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/firmware/nnet_utils/nnet_layernorm.h"
+# 88 "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/firmware/nnet_utils/nnet_layernorm.h"
 template <class data_T, class res_T, typename CONFIG_T>
 void layernorm_1d(data_T data[CONFIG_T::n_in / CONFIG_T::seq_len], res_T res[CONFIG_T::n_in / CONFIG_T::seq_len],
                   typename CONFIG_T::scale_t scale[CONFIG_T::n_in / CONFIG_T::seq_len],
@@ -94418,11 +94417,11 @@ LAYERNORM_1D_VAR:
     }
     var = CONFIG_T::template product<typename CONFIG_T::mean_t, typename CONFIG_T::mean_t>::product(sum_cache2, k_inv);
 
-    int index = (var + var_epsilon) * (CONFIG_T::table_size) * inv_range_inv;
-    if (CONFIG_T::table_range > 1) index = (var + var_epsilon) * (CONFIG_T::table_size) / (int)CONFIG_T::table_range;
+    int index = (var) * (CONFIG_T::table_size) * inv_range_inv;
+    if (CONFIG_T::table_range > 1) index = (var) * (CONFIG_T::table_size) / (int)CONFIG_T::table_range;
     if (index < 0) index = 0;
     if (index > CONFIG_T::table_size - 1) index = CONFIG_T::table_size - 1;
-    deno_inver = (typename CONFIG_T::table_t)invert_sqr_table[index];
+    deno_inver = invert_sqr_table[index];
 
 
 LAYERNORM_1D_RESULT:
@@ -94482,7 +94481,7 @@ layer_normalization_bias_t b2[5];
 struct config2 : nnet::layernorm_config {
     static const unsigned n_in = 4*5;
     static const unsigned seq_len = 4;
-    static const unsigned table_size = 8192;
+    static const unsigned table_size = 16384;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;

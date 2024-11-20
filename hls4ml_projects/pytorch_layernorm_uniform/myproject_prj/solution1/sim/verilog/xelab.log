@@ -5,18 +5,18 @@ Multi-threading is on. Using 14 slave threads.
 WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/glbl.v" into library work
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_12ns_19s_31_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1_DSP48_0
-INFO: [VRFC 10-311] analyzing module myproject_mul_mul_12ns_19s_31_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_22s_22s_38_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_22s_22s_38_1_1_Multiplier_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_22s_22s_38_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_layer2_out.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_automem_layer2_out
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_27ns_19s_39_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_39_1_1_Multiplier_0
-INFO: [VRFC 10-311] analyzing module myproject_mul_27ns_19s_39_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_15ns_22s_37_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_15ns_22s_37_1_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_15ns_22s_37_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/AESL_automem_input_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_automem_input_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
@@ -26,11 +26,11 @@ INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_invert_sqr_table
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_22s_11s_26_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_22s_11s_26_1_1_DSP48_1
+INFO: [VRFC 10-311] analyzing module myproject_mul_mul_22s_11s_26_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform/myproject_prj/solution1/sim/verilog/myproject_mul_mul_19s_19s_32_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1_DSP48_1
-INFO: [VRFC 10-311] analyzing module myproject_mul_mul_19s_19s_32_1_1
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
@@ -39,12 +39,12 @@ Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
-Compiling module xil_defaultlib.myproject_mul_27ns_19s_39_1_1_Mu...
-Compiling module xil_defaultlib.myproject_mul_27ns_19s_39_1_1(ID...
-Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
-Compiling module xil_defaultlib.myproject_mul_mul_12ns_19s_31_1_...
-Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
-Compiling module xil_defaultlib.myproject_mul_mul_19s_19s_32_1_1...
+Compiling module xil_defaultlib.myproject_mul_22s_22s_38_1_1_Mul...
+Compiling module xil_defaultlib.myproject_mul_22s_22s_38_1_1(ID=...
+Compiling module xil_defaultlib.myproject_mul_mul_15ns_22s_37_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_15ns_22s_37_1_...
+Compiling module xil_defaultlib.myproject_mul_mul_22s_11s_26_1_1...
+Compiling module xil_defaultlib.myproject_mul_mul_22s_11s_26_1_1...
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_transpose_2d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_transpose_2d_ap_fixed_...

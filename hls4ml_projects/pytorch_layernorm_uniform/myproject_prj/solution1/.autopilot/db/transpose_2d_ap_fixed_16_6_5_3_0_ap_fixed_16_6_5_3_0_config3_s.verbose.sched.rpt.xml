@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'" level="0">
-<item name = "Date">Mon Nov 18 12:34:59 2024
+<item name = "Date">Wed Nov 20 14:28:06 2024
 </item>
 <item name = "Version">2020.1 (Build 2902540 on Wed May 27 20:16:15 MDT 2020)</item>
 <item name = "Project">myproject_prj</item>

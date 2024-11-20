@@ -467,9 +467,9 @@ bb.0:43 %in_val_V_2_1 = load i5 %layer_normalization_input_addr_7
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i27 %invert_sqr_table
+bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret"/></StgValue>
@@ -575,9 +575,9 @@ bb.0:47 %in_val_V_4_1 = load i5 %layer_normalization_input_addr_9
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i27 %invert_sqr_table
+bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret"/></StgValue>
@@ -683,9 +683,9 @@ bb.0:72 %in_val_V_1_2 = load i5 %layer_normalization_input_addr_11
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i27 %invert_sqr_table
+bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret"/></StgValue>
@@ -698,9 +698,9 @@ bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<3
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i27 %invert_sqr_table
+bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret1"/></StgValue>
@@ -806,9 +806,9 @@ bb.0:76 %in_val_V_3_2 = load i5 %layer_normalization_input_addr_13
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i27 %invert_sqr_table
+bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret"/></StgValue>
@@ -821,9 +821,9 @@ bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<3
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i27 %invert_sqr_table
+bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret1"/></StgValue>
@@ -929,9 +929,9 @@ bb.0:101 %in_val_V_0_3 = load i5 %layer_normalization_input_addr_15
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="22" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i27 %invert_sqr_table
+bb.0:17 %call_ret = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0, i16 %in_val_V_1, i16 %in_val_V_2, i16 %in_val_V_3, i16 %in_val_V_4, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret"/></StgValue>
@@ -1019,9 +1019,9 @@ bb.0:22 %outval_V_4 = extractvalue i165 %call_ret
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i27 %invert_sqr_table
+bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret1"/></StgValue>
@@ -1217,9 +1217,9 @@ bb.0:28 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i27 %invert_sqr_table
+bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret1"/></StgValue>
@@ -1232,9 +1232,9 @@ bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i27 %invert_sqr_table
+bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret2"/></StgValue>
@@ -1430,9 +1430,9 @@ bb.0:34 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="53" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i27 %invert_sqr_table
+bb.0:48 %call_ret1 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_1, i16 %in_val_V_1_1, i16 %in_val_V_2_1, i16 %in_val_V_3_1, i16 %in_val_V_4_1, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret1"/></StgValue>
@@ -1520,9 +1520,9 @@ bb.0:53 %outval_V_4_1 = extractvalue i165 %call_ret1
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i27 %invert_sqr_table
+bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret2"/></StgValue>
@@ -1658,9 +1658,9 @@ bb.0:56 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i27 %invert_sqr_table
+bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret2"/></StgValue>
@@ -1673,9 +1673,9 @@ bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i27 %invert_sqr_table
+bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret3"/></StgValue>
@@ -1781,9 +1781,9 @@ bb.0:62 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i27 %invert_sqr_table
+bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret2"/></StgValue>
@@ -1796,9 +1796,9 @@ bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i27 %invert_sqr_table
+bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret3"/></StgValue>
@@ -1904,9 +1904,9 @@ bb.0:68 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="84" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i27 %invert_sqr_table
+bb.0:79 %call_ret2 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_2, i16 %in_val_V_1_2, i16 %in_val_V_2_2, i16 %in_val_V_3_2, i16 %in_val_V_4_2, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret2"/></StgValue>
@@ -1994,9 +1994,9 @@ bb.0:84 %outval_V_4_2 = extractvalue i165 %call_ret2
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i27 %invert_sqr_table
+bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret3"/></StgValue>
@@ -2102,9 +2102,9 @@ bb.0:90 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i27 %invert_sqr_table
+bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret3"/></StgValue>
@@ -2210,9 +2210,9 @@ bb.0:96 %store_ln205 = store void @_ssdm_op_Write.bram.p0i64, i5 %layer2_out_add
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="27">
+<Node id="115" bw="165" op_0_bw="165" op_1_bw="16" op_2_bw="16" op_3_bw="16" op_4_bw="16" op_5_bw="16" op_6_bw="9">
 <![CDATA[
-bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i27 %invert_sqr_table
+bb.0:110 %call_ret3 = call i165 @layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>, i16 %in_val_V_0_3, i16 %in_val_V_1_3, i16 %in_val_V_2_3, i16 %in_val_V_3_3, i16 %in_val_V_4_3, i9 %invert_sqr_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ret3"/></StgValue>

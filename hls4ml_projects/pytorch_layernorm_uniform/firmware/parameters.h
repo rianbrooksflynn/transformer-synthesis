@@ -37,7 +37,7 @@ struct config4 : nnet::transpose_config {
 struct config2 : nnet::layernorm_config {
     static const unsigned n_in = OUT_HEIGHT_4*OUT_WIDTH_4;
     static const unsigned seq_len = 4;
-    static const unsigned table_size = 8192;
+    static const unsigned table_size = 16384;
     static constexpr double table_range = 1.0;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned reuse_factor = 1;
