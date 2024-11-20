@@ -1,1 +1,1 @@
-set ::AESL_AUTOSIM::gTopFileName /home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp
+set ::AESL_AUTOSIM::gTopFileName /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp

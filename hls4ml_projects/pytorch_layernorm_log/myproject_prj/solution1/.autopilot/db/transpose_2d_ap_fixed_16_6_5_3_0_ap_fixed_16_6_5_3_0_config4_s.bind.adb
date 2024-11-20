@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE boost_serialization>
-<boost_serialization signature="serialization::archive" version="15">
+<boost_serialization signature="serialization::archive" version="17">
 <syndb class_id="0" tracking_level="0" version="0">
 	<userIPLatency>-1</userIPLatency>
 	<userIPName></userIPName>
 	<cdfg class_id="1" tracking_level="1" version="0" object_id="_0">
 		<name>transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s</name>
+		<module_structure>Pipeline</module_structure>
 		<ret_bitwidth>320</ret_bitwidth>
 		<ports class_id="2" tracking_level="0" version="0">
 			<count>20</count>
@@ -15,7 +16,7 @@
 					<Obj class_id="5" tracking_level="0" version="0">
 						<type>1</type>
 						<id>1</id>
-						<name>p_read</name>
+						<name>data_0_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -25,9 +26,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[0]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1734960750</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -44,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>p_read1</name>
+						<name>data_1_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -54,9 +62,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[1]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1734960750</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -73,7 +88,7 @@
 					<Obj>
 						<type>1</type>
 						<id>3</id>
-						<name>p_read2</name>
+						<name>data_2_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -83,9 +98,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[2]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2161017693</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -102,7 +124,7 @@
 					<Obj>
 						<type>1</type>
 						<id>4</id>
-						<name>p_read3</name>
+						<name>data_3_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -112,9 +134,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[3]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1966692832</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -131,7 +160,7 @@
 					<Obj>
 						<type>1</type>
 						<id>5</id>
-						<name>p_read4</name>
+						<name>data_4_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -141,9 +170,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[4]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1966642240</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -160,7 +196,7 @@
 					<Obj>
 						<type>1</type>
 						<id>6</id>
-						<name>p_read5</name>
+						<name>data_5_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -170,9 +206,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[5]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2161111354</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -189,7 +232,7 @@
 					<Obj>
 						<type>1</type>
 						<id>7</id>
-						<name>p_read6</name>
+						<name>data_6_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -199,9 +242,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[6]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>997420912</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -218,7 +268,7 @@
 					<Obj>
 						<type>1</type>
 						<id>8</id>
-						<name>p_read7</name>
+						<name>data_7_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -228,9 +278,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[7]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>574449505</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -247,7 +304,7 @@
 					<Obj>
 						<type>1</type>
 						<id>9</id>
-						<name>p_read8</name>
+						<name>data_8_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -257,9 +314,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[8]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>574454117</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -276,7 +340,7 @@
 					<Obj>
 						<type>1</type>
 						<id>10</id>
-						<name>p_read9</name>
+						<name>data_9_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -286,9 +350,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[9]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1830842991</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -305,7 +376,7 @@
 					<Obj>
 						<type>1</type>
 						<id>11</id>
-						<name>p_read10</name>
+						<name>data_10_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -315,9 +386,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[10]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>997485606</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -334,7 +412,7 @@
 					<Obj>
 						<type>1</type>
 						<id>12</id>
-						<name>p_read11</name>
+						<name>data_11_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -344,9 +422,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1948262967</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -363,7 +448,7 @@
 					<Obj>
 						<type>1</type>
 						<id>13</id>
-						<name>p_read12</name>
+						<name>data_12_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -373,9 +458,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[12]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1096045407</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -392,7 +484,7 @@
 					<Obj>
 						<type>1</type>
 						<id>14</id>
-						<name>p_read13</name>
+						<name>data_13_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -402,9 +494,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[13]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539768352</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -421,7 +520,7 @@
 					<Obj>
 						<type>1</type>
 						<id>15</id>
-						<name>p_read14</name>
+						<name>data_14_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -431,9 +530,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[14]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>828326990</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -450,7 +556,7 @@
 					<Obj>
 						<type>1</type>
 						<id>16</id>
-						<name>p_read15</name>
+						<name>data_15_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -460,9 +566,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[15]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1145981250</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -479,7 +592,7 @@
 					<Obj>
 						<type>1</type>
 						<id>17</id>
-						<name>p_read16</name>
+						<name>data_16_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -489,9 +602,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[16]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1031301478</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -508,7 +628,7 @@
 					<Obj>
 						<type>1</type>
 						<id>18</id>
-						<name>p_read17</name>
+						<name>data_17_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -518,9 +638,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[17]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1346981983</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -537,7 +664,7 @@
 					<Obj>
 						<type>1</type>
 						<id>19</id>
-						<name>p_read18</name>
+						<name>data_18_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -547,9 +674,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[18]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>539122993</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -566,7 +700,7 @@
 					<Obj>
 						<type>1</type>
 						<id>20</id>
-						<name>p_read19</name>
+						<name>data_19_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -576,9 +710,16 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>data.V[19]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1313415741</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -599,17 +740,17 @@
 					<Obj>
 						<type>0</type>
 						<id>22</id>
-						<name>p_read_1</name>
+						<name>data_19_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -618,14 +759,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[19]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>540697965</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -649,17 +797,17 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>p_read_2</name>
+						<name>data_18_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -668,14 +816,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[18]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>808591443</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -699,17 +854,17 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>p_read_3</name>
+						<name>data_17_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -718,14 +873,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[17]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1702390118</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -749,17 +911,17 @@
 					<Obj>
 						<type>0</type>
 						<id>25</id>
-						<name>p_read_4</name>
+						<name>data_16_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -768,14 +930,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[16]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1398754642</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -799,17 +968,17 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>p_read_5</name>
+						<name>data_15_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -818,14 +987,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[15]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1935745124</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -849,17 +1025,17 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>p_read_6</name>
+						<name>data_14_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -868,14 +1044,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[14]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1769239903</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -899,17 +1082,17 @@
 					<Obj>
 						<type>0</type>
 						<id>28</id>
-						<name>p_read_7</name>
+						<name>data_13_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -918,14 +1101,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[13]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1952804462</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -949,17 +1139,17 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>p_read_8</name>
+						<name>data_12_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -968,14 +1158,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[12]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>694510703</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -999,17 +1196,17 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>p_read_9</name>
+						<name>data_11_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1018,14 +1215,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[11]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1953068832</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1049,17 +1253,17 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>p_read_10</name>
+						<name>data_10_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1068,14 +1272,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[10]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>570456421</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1099,17 +1310,17 @@
 					<Obj>
 						<type>0</type>
 						<id>32</id>
-						<name>p_read_11</name>
+						<name>data_9_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1118,14 +1329,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[9]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1852793632</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1149,17 +1367,17 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>p_read_12</name>
+						<name>data_8_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1168,14 +1386,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[8]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1835627552</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1199,17 +1424,17 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>p_read_13</name>
+						<name>data_7_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1218,14 +1443,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[7]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1931491633</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1249,17 +1481,17 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>p_read_14</name>
+						<name>data_6_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1268,14 +1500,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[6]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1937055829</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1299,17 +1538,17 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>p_read_15</name>
+						<name>data_5_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1318,14 +1557,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[5]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1597387103</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1349,17 +1595,17 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>p_read_16</name>
+						<name>data_4_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1368,14 +1614,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[4]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>570456169</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1399,17 +1652,17 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>p_read_17</name>
+						<name>data_3_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1418,14 +1671,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[3]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>542329928</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1449,17 +1709,17 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>p_read_18</name>
+						<name>data_2_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1468,14 +1728,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[2]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1499,17 +1766,17 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>p_read_19</name>
+						<name>data_1_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1518,14 +1785,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[1]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1549,17 +1823,17 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>p_read_20</name>
+						<name>data_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
-						<lineNumber>16</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1568,14 +1842,21 @@
 											<first>firmware/nnet_utils/nnet_array.h</first>
 											<second>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
-										<second>16</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>data.V[0]</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -1601,7 +1882,7 @@
 						<id>42</id>
 						<name>mrv</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1609,7 +1890,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1625,7 +1906,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1651,7 +1939,7 @@
 						<id>43</id>
 						<name>mrv_1</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1659,7 +1947,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1675,7 +1963,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1701,7 +1996,7 @@
 						<id>44</id>
 						<name>mrv_2</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1709,7 +2004,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1725,7 +2020,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1751,7 +2053,7 @@
 						<id>45</id>
 						<name>mrv_3</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1759,7 +2061,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1775,7 +2077,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1801,7 +2110,7 @@
 						<id>46</id>
 						<name>mrv_4</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1809,7 +2118,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1825,7 +2134,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967622944</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1851,7 +2167,7 @@
 						<id>47</id>
 						<name>mrv_5</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1859,7 +2175,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1875,7 +2191,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1901,7 +2224,7 @@
 						<id>48</id>
 						<name>mrv_6</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1909,7 +2232,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1925,7 +2248,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936942413</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -1951,7 +2281,7 @@
 						<id>49</id>
 						<name>mrv_7</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -1959,7 +2289,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1975,7 +2305,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1280199007</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2001,7 +2338,7 @@
 						<id>50</id>
 						<name>mrv_8</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2009,7 +2346,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2025,7 +2362,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967224704</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2051,7 +2395,7 @@
 						<id>51</id>
 						<name>mrv_9</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2059,7 +2403,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2075,7 +2419,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2159028199</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2101,7 +2452,7 @@
 						<id>52</id>
 						<name>mrv_s</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2109,7 +2460,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2125,7 +2476,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967463648</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2151,7 +2509,7 @@
 						<id>53</id>
 						<name>mrv_10</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2159,7 +2517,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2175,7 +2533,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2201,7 +2566,7 @@
 						<id>54</id>
 						<name>mrv_11</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2209,7 +2574,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2225,7 +2590,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2251,7 +2623,7 @@
 						<id>55</id>
 						<name>mrv_12</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2259,7 +2631,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2275,7 +2647,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2164658384</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2301,7 +2680,7 @@
 						<id>56</id>
 						<name>mrv_13</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2309,7 +2688,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2325,7 +2704,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2351,7 +2737,7 @@
 						<id>57</id>
 						<name>mrv_14</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2359,7 +2745,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2375,7 +2761,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967263328</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2401,7 +2794,7 @@
 						<id>58</id>
 						<name>mrv_15</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2409,7 +2802,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2425,7 +2818,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967643760</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2451,7 +2851,7 @@
 						<id>59</id>
 						<name>mrv_16</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2459,7 +2859,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2475,7 +2875,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936942413</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2501,7 +2908,7 @@
 						<id>60</id>
 						<name>mrv_17</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2509,7 +2916,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2525,7 +2932,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2159367577</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2551,7 +2965,7 @@
 						<id>61</id>
 						<name>mrv_18</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2559,7 +2973,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2575,7 +2989,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967217152</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2601,7 +3022,7 @@
 						<id>62</id>
 						<name>_ln24</name>
 						<fileName>firmware/nnet_utils/nnet_array.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>transpose_2d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<contextNormFuncName>transpose_2d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config4_s</contextNormFuncName>
@@ -2609,7 +3030,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_log</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2625,7 +3046,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -2664,7 +3092,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1967453728</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>320</bitwidth>
 				</Value>
@@ -2691,7 +3126,14 @@
 					</inlineStackInfo>
 					<originalName></originalName>
 					<rtlName></rtlName>
+					<control></control>
+					<opType></opType>
+					<implIndex></implIndex>
 					<coreName></coreName>
+					<isStorage>0</isStorage>
+					<storageDepth>0</storageDepth>
+					<coreId>4294967295</coreId>
+					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
 					<count>41</count>
@@ -3747,13 +4189,17 @@
 			<region_type>8</region_type>
 			<interval>1</interval>
 			<pipe_depth>1</pipe_depth>
+			<mDBIIViolationVec class_id="39" tracking_level="0" version="0">
+				<count>0</count>
+				<item_version>0</item_version>
+			</mDBIIViolationVec>
 		</item>
 	</regions>
-	<dp_fu_nodes class_id="39" tracking_level="0" version="0">
+	<dp_fu_nodes class_id="40" tracking_level="0" version="0">
 		<count>40</count>
 		<item_version>0</item_version>
-		<item class_id="40" tracking_level="0" version="0">
-			<first>54</first>
+		<item class_id="41" tracking_level="0" version="0">
+			<first>52</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3761,7 +4207,7 @@
 			</second>
 		</item>
 		<item>
-			<first>60</first>
+			<first>58</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3769,7 +4215,7 @@
 			</second>
 		</item>
 		<item>
-			<first>66</first>
+			<first>64</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3777,7 +4223,7 @@
 			</second>
 		</item>
 		<item>
-			<first>72</first>
+			<first>70</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3785,7 +4231,7 @@
 			</second>
 		</item>
 		<item>
-			<first>78</first>
+			<first>76</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3793,7 +4239,7 @@
 			</second>
 		</item>
 		<item>
-			<first>84</first>
+			<first>82</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3801,7 +4247,7 @@
 			</second>
 		</item>
 		<item>
-			<first>90</first>
+			<first>88</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3809,7 +4255,7 @@
 			</second>
 		</item>
 		<item>
-			<first>96</first>
+			<first>94</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3817,7 +4263,7 @@
 			</second>
 		</item>
 		<item>
-			<first>102</first>
+			<first>100</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3825,7 +4271,7 @@
 			</second>
 		</item>
 		<item>
-			<first>108</first>
+			<first>106</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3833,7 +4279,7 @@
 			</second>
 		</item>
 		<item>
-			<first>114</first>
+			<first>112</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3841,7 +4287,7 @@
 			</second>
 		</item>
 		<item>
-			<first>120</first>
+			<first>118</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3849,7 +4295,7 @@
 			</second>
 		</item>
 		<item>
-			<first>126</first>
+			<first>124</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3857,7 +4303,7 @@
 			</second>
 		</item>
 		<item>
-			<first>132</first>
+			<first>130</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3865,7 +4311,7 @@
 			</second>
 		</item>
 		<item>
-			<first>138</first>
+			<first>136</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3873,7 +4319,7 @@
 			</second>
 		</item>
 		<item>
-			<first>144</first>
+			<first>142</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3881,7 +4327,7 @@
 			</second>
 		</item>
 		<item>
-			<first>150</first>
+			<first>148</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3889,7 +4335,7 @@
 			</second>
 		</item>
 		<item>
-			<first>156</first>
+			<first>154</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3897,7 +4343,7 @@
 			</second>
 		</item>
 		<item>
-			<first>162</first>
+			<first>160</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3905,7 +4351,7 @@
 			</second>
 		</item>
 		<item>
-			<first>168</first>
+			<first>166</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3913,7 +4359,7 @@
 			</second>
 		</item>
 		<item>
-			<first>174</first>
+			<first>172</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3921,7 +4367,7 @@
 			</second>
 		</item>
 		<item>
-			<first>180</first>
+			<first>178</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3929,7 +4375,7 @@
 			</second>
 		</item>
 		<item>
-			<first>186</first>
+			<first>184</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3937,7 +4383,7 @@
 			</second>
 		</item>
 		<item>
-			<first>192</first>
+			<first>190</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3945,7 +4391,7 @@
 			</second>
 		</item>
 		<item>
-			<first>198</first>
+			<first>196</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3953,7 +4399,7 @@
 			</second>
 		</item>
 		<item>
-			<first>204</first>
+			<first>202</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3961,7 +4407,7 @@
 			</second>
 		</item>
 		<item>
-			<first>210</first>
+			<first>208</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3969,7 +4415,7 @@
 			</second>
 		</item>
 		<item>
-			<first>216</first>
+			<first>214</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3977,7 +4423,7 @@
 			</second>
 		</item>
 		<item>
-			<first>222</first>
+			<first>220</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3985,7 +4431,7 @@
 			</second>
 		</item>
 		<item>
-			<first>228</first>
+			<first>226</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3993,7 +4439,7 @@
 			</second>
 		</item>
 		<item>
-			<first>234</first>
+			<first>232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4001,7 +4447,7 @@
 			</second>
 		</item>
 		<item>
-			<first>240</first>
+			<first>238</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4009,7 +4455,7 @@
 			</second>
 		</item>
 		<item>
-			<first>246</first>
+			<first>244</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4017,7 +4463,7 @@
 			</second>
 		</item>
 		<item>
-			<first>252</first>
+			<first>250</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4025,7 +4471,7 @@
 			</second>
 		</item>
 		<item>
-			<first>258</first>
+			<first>256</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4033,7 +4479,7 @@
 			</second>
 		</item>
 		<item>
-			<first>264</first>
+			<first>262</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4041,7 +4487,7 @@
 			</second>
 		</item>
 		<item>
-			<first>270</first>
+			<first>268</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4049,7 +4495,7 @@
 			</second>
 		</item>
 		<item>
-			<first>276</first>
+			<first>274</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4057,7 +4503,7 @@
 			</second>
 		</item>
 		<item>
-			<first>282</first>
+			<first>280</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4065,7 +4511,7 @@
 			</second>
 		</item>
 		<item>
-			<first>288</first>
+			<first>286</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4073,11 +4519,11 @@
 			</second>
 		</item>
 	</dp_fu_nodes>
-	<dp_fu_nodes_expression class_id="42" tracking_level="0" version="0">
+	<dp_fu_nodes_expression class_id="43" tracking_level="0" version="0">
 		<count>20</count>
 		<item_version>0</item_version>
-		<item class_id="43" tracking_level="0" version="0">
-			<first>mrv_10_fu_240</first>
+		<item class_id="44" tracking_level="0" version="0">
+			<first>mrv_10_fu_238</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4085,7 +4531,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_11_fu_246</first>
+			<first>mrv_11_fu_244</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4093,7 +4539,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_12_fu_252</first>
+			<first>mrv_12_fu_250</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4101,7 +4547,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_13_fu_258</first>
+			<first>mrv_13_fu_256</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4109,7 +4555,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_14_fu_264</first>
+			<first>mrv_14_fu_262</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4117,7 +4563,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_15_fu_270</first>
+			<first>mrv_15_fu_268</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4125,7 +4571,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_16_fu_276</first>
+			<first>mrv_16_fu_274</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4133,7 +4579,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_17_fu_282</first>
+			<first>mrv_17_fu_280</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4141,7 +4587,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_18_fu_288</first>
+			<first>mrv_18_fu_286</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4149,7 +4595,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_1_fu_180</first>
+			<first>mrv_1_fu_178</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4157,7 +4603,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_2_fu_186</first>
+			<first>mrv_2_fu_184</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4165,7 +4611,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_3_fu_192</first>
+			<first>mrv_3_fu_190</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4173,7 +4619,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_4_fu_198</first>
+			<first>mrv_4_fu_196</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4181,7 +4627,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_5_fu_204</first>
+			<first>mrv_5_fu_202</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4189,7 +4635,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_6_fu_210</first>
+			<first>mrv_6_fu_208</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4197,7 +4643,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_7_fu_216</first>
+			<first>mrv_7_fu_214</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4205,7 +4651,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_8_fu_222</first>
+			<first>mrv_8_fu_220</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4213,7 +4659,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_9_fu_228</first>
+			<first>mrv_9_fu_226</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4221,7 +4667,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_fu_174</first>
+			<first>mrv_fu_172</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4229,7 +4675,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mrv_s_fu_234</first>
+			<first>mrv_s_fu_232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4245,95 +4691,7 @@
 		<count>20</count>
 		<item_version>0</item_version>
 		<item>
-			<first>p_read_10_read_fu_108</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>31</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_11_read_fu_114</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_12_read_fu_120</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>33</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_13_read_fu_126</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>34</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_14_read_fu_132</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>35</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_15_read_fu_138</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_16_read_fu_144</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>37</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_17_read_fu_150</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>38</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_18_read_fu_156</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>39</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_19_read_fu_162</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>40</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_1_read_fu_54</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_20_read_fu_168</first>
+			<first>data_0_val_read_read_fu_166</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4341,55 +4699,23 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read_2_read_fu_60</first>
+			<first>data_10_val_read_read_fu_106</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>23</item>
+				<item>31</item>
 			</second>
 		</item>
 		<item>
-			<first>p_read_3_read_fu_66</first>
+			<first>data_11_val_read_read_fu_100</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>24</item>
+				<item>30</item>
 			</second>
 		</item>
 		<item>
-			<first>p_read_4_read_fu_72</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>25</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_5_read_fu_78</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_6_read_fu_84</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>27</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_7_read_fu_90</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>28</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read_8_read_fu_96</first>
+			<first>data_12_val_read_read_fu_94</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4397,11 +4723,131 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read_9_read_fu_102</first>
+			<first>data_13_val_read_read_fu_88</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>30</item>
+				<item>28</item>
+			</second>
+		</item>
+		<item>
+			<first>data_14_val_read_read_fu_82</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>27</item>
+			</second>
+		</item>
+		<item>
+			<first>data_15_val_read_read_fu_76</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>data_16_val_read_read_fu_70</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>25</item>
+			</second>
+		</item>
+		<item>
+			<first>data_17_val_read_read_fu_64</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>24</item>
+			</second>
+		</item>
+		<item>
+			<first>data_18_val_read_read_fu_58</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>23</item>
+			</second>
+		</item>
+		<item>
+			<first>data_19_val_read_read_fu_52</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
+			<first>data_1_val_read_read_fu_160</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>40</item>
+			</second>
+		</item>
+		<item>
+			<first>data_2_val_read_read_fu_154</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>39</item>
+			</second>
+		</item>
+		<item>
+			<first>data_3_val_read_read_fu_148</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>38</item>
+			</second>
+		</item>
+		<item>
+			<first>data_4_val_read_read_fu_142</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>37</item>
+			</second>
+		</item>
+		<item>
+			<first>data_5_val_read_read_fu_136</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>36</item>
+			</second>
+		</item>
+		<item>
+			<first>data_6_val_read_read_fu_130</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>35</item>
+			</second>
+		</item>
+		<item>
+			<first>data_7_val_read_read_fu_124</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>34</item>
+			</second>
+		</item>
+		<item>
+			<first>data_8_val_read_read_fu_118</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>33</item>
+			</second>
+		</item>
+		<item>
+			<first>data_9_val_read_read_fu_112</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>32</item>
 			</second>
 		</item>
 	</dp_fu_nodes_io>
@@ -4409,7 +4855,7 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</return_ports>
-	<dp_mem_port_nodes class_id="44" tracking_level="0" version="0">
+	<dp_mem_port_nodes class_id="45" tracking_level="0" version="0">
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_mem_port_nodes>
@@ -4429,11 +4875,11 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_regname_phi>
-	<dp_port_io_nodes class_id="45" tracking_level="0" version="0">
+	<dp_port_io_nodes class_id="46" tracking_level="0" version="0">
 		<count>20</count>
 		<item_version>0</item_version>
-		<item class_id="46" tracking_level="0" version="0">
-			<first>p_read</first>
+		<item class_id="47" tracking_level="0" version="0">
+			<first>data_0_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4448,22 +4894,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read1</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>
-					<first>read</first>
-					<second>
-						<count>1</count>
-						<item_version>0</item_version>
-						<item>40</item>
-					</second>
-				</item>
-			</second>
-		</item>
-		<item>
-			<first>p_read10</first>
+			<first>data_10_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4478,7 +4909,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read11</first>
+			<first>data_11_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4493,7 +4924,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read12</first>
+			<first>data_12_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4508,7 +4939,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read13</first>
+			<first>data_13_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4523,7 +4954,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read14</first>
+			<first>data_14_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4538,7 +4969,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read15</first>
+			<first>data_15_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4553,7 +4984,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read16</first>
+			<first>data_16_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4568,7 +4999,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read17</first>
+			<first>data_17_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4583,7 +5014,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read18</first>
+			<first>data_18_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4598,7 +5029,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read19</first>
+			<first>data_19_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4613,7 +5044,22 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read2</first>
+			<first>data_1_val</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>
+					<first>read</first>
+					<second>
+						<count>1</count>
+						<item_version>0</item_version>
+						<item>40</item>
+					</second>
+				</item>
+			</second>
+		</item>
+		<item>
+			<first>data_2_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4628,7 +5074,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read3</first>
+			<first>data_3_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4643,7 +5089,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read4</first>
+			<first>data_4_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4658,7 +5104,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read5</first>
+			<first>data_5_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4673,7 +5119,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read6</first>
+			<first>data_6_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4688,7 +5134,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read7</first>
+			<first>data_7_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4703,7 +5149,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read8</first>
+			<first>data_8_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4718,7 +5164,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_read9</first>
+			<first>data_9_val</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

@@ -1,0 +1,1002 @@
+
+
+================================================================
+== Synthesis Summary Report of 'myproject'
+================================================================
++ General Information: 
+    * Date:           Wed Nov 20 20:55:20 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        myproject_prj
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: virtexuplus
+    * Target device:  xcvu13p-flga2577-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+---------+----------+------------+-------------+-----+
+    |                              Modules                              | Issue|      | Latency | Latency| Iteration|         | Trip |          |         |          |            |             |     |
+    |                              & Loops                              | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined|  BRAM   |    DSP   |     FF     |     LUT     | URAM|
+    +-------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+---------+----------+------------+-------------+-----+
+    |+ myproject                                                        |    II|  0.04|        4|  20.000|         -|        1|     -|       yes|  4 (~0%)|  88 (~0%)|  4030 (~0%)|   42092 (2%)|    -|
+    | + transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s  |    II|  4.37|        0|   0.000|         -|        1|     -|       yes|        -|         -|           -|            -|    -|
+    | + transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s  |    II|  4.37|        0|   0.000|         -|        1|     -|       yes|        -|         -|           -|            -|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s  |     -|  0.04|        4|  20.000|         -|        1|     -|       yes|  1 (~0%)|  22 (~0%)|   926 (~0%)|  10511 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s  |     -|  0.04|        4|  20.000|         -|        1|     -|       yes|  1 (~0%)|  22 (~0%)|   926 (~0%)|  10511 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s  |     -|  0.04|        4|  20.000|         -|        1|     -|       yes|  1 (~0%)|  22 (~0%)|   926 (~0%)|  10511 (~0%)|    -|
+    | + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s  |     -|  0.04|        4|  20.000|         -|        1|     -|       yes|  1 (~0%)|  22 (~0%)|   926 (~0%)|  10511 (~0%)|    -|
+    +-------------------------------------------------------------------+------+------+---------+--------+----------+---------+------+----------+---------+----------+------------+-------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++---------------+--------+-----------+----------+
+| Port          | Mode   | Direction | Bitwidth |
++---------------+--------+-----------+----------+
+| input_1       | ap_vld | in        | 320      |
+| layer2_out_0  | ap_vld | out       | 16       |
+| layer2_out_1  | ap_vld | out       | 16       |
+| layer2_out_10 | ap_vld | out       | 16       |
+| layer2_out_11 | ap_vld | out       | 16       |
+| layer2_out_12 | ap_vld | out       | 16       |
+| layer2_out_13 | ap_vld | out       | 16       |
+| layer2_out_14 | ap_vld | out       | 16       |
+| layer2_out_15 | ap_vld | out       | 16       |
+| layer2_out_16 | ap_vld | out       | 16       |
+| layer2_out_17 | ap_vld | out       | 16       |
+| layer2_out_18 | ap_vld | out       | 16       |
+| layer2_out_19 | ap_vld | out       | 16       |
+| layer2_out_2  | ap_vld | out       | 16       |
+| layer2_out_3  | ap_vld | out       | 16       |
+| layer2_out_4  | ap_vld | out       | 16       |
+| layer2_out_5  | ap_vld | out       | 16       |
+| layer2_out_6  | ap_vld | out       | 16       |
+| layer2_out_7  | ap_vld | out       | 16       |
+| layer2_out_8  | ap_vld | out       | 16       |
+| layer2_out_9  | ap_vld | out       | 16       |
++---------------+--------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+--------------------------------------+
+| Argument   | Direction | Datatype                             |
++------------+-----------+--------------------------------------+
+| input_1    | in        | ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>* |
+| layer2_out | out       | ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>* |
++------------+-----------+--------------------------------------+
+
+* SW-to-HW Mapping
++------------+----------------------+---------+
+| Argument   | HW Interface         | HW Type |
++------------+----------------------+---------+
+| input_1    | input_1_ap_vld       | port    |
+| input_1    | input_1              | port    |
+| layer2_out | layer2_out_0         | port    |
+| layer2_out | layer2_out_0_ap_vld  | port    |
+| layer2_out | layer2_out_1         | port    |
+| layer2_out | layer2_out_1_ap_vld  | port    |
+| layer2_out | layer2_out_2         | port    |
+| layer2_out | layer2_out_2_ap_vld  | port    |
+| layer2_out | layer2_out_3         | port    |
+| layer2_out | layer2_out_3_ap_vld  | port    |
+| layer2_out | layer2_out_4         | port    |
+| layer2_out | layer2_out_4_ap_vld  | port    |
+| layer2_out | layer2_out_5         | port    |
+| layer2_out | layer2_out_5_ap_vld  | port    |
+| layer2_out | layer2_out_6         | port    |
+| layer2_out | layer2_out_6_ap_vld  | port    |
+| layer2_out | layer2_out_7         | port    |
+| layer2_out | layer2_out_7_ap_vld  | port    |
+| layer2_out | layer2_out_8         | port    |
+| layer2_out | layer2_out_8_ap_vld  | port    |
+| layer2_out | layer2_out_9         | port    |
+| layer2_out | layer2_out_9_ap_vld  | port    |
+| layer2_out | layer2_out_10        | port    |
+| layer2_out | layer2_out_10_ap_vld | port    |
+| layer2_out | layer2_out_11        | port    |
+| layer2_out | layer2_out_11_ap_vld | port    |
+| layer2_out | layer2_out_12        | port    |
+| layer2_out | layer2_out_12_ap_vld | port    |
+| layer2_out | layer2_out_13        | port    |
+| layer2_out | layer2_out_13_ap_vld | port    |
+| layer2_out | layer2_out_14        | port    |
+| layer2_out | layer2_out_14_ap_vld | port    |
+| layer2_out | layer2_out_15        | port    |
+| layer2_out | layer2_out_15_ap_vld | port    |
+| layer2_out | layer2_out_16        | port    |
+| layer2_out | layer2_out_16_ap_vld | port    |
+| layer2_out | layer2_out_17        | port    |
+| layer2_out | layer2_out_17_ap_vld | port    |
+| layer2_out | layer2_out_18        | port    |
+| layer2_out | layer2_out_18_ap_vld | port    |
+| layer2_out | layer2_out_19        | port    |
+| layer2_out | layer2_out_19_ap_vld | port    |
++------------+----------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-----------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| Name                                                                                                                                          | DSP | Pragma | Variable     | Op  | Impl   | Latency |
++-----------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| + myproject                                                                                                                                   | 88  |        |              |     |        |         |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_248) | 22  |        |              |     |        |         |
+|    mul_22s_15ns_37_1_1_U32                                                                                                                    | 1   |        | mul_ln73     | mul | auto   | 0       |
+|    sub_ln134_fu_1698_p2                                                                                                                       |     |        | sub_ln134    | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U27                                                                                                                     | 2   |        | mul_ln135    | mul | auto   | 0       |
+|    sub_ln134_1_fu_1719_p2                                                                                                                     |     |        | sub_ln134_1  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U28                                                                                                                     | 2   |        | mul_ln135_1  | mul | auto   | 0       |
+|    sub_ln134_2_fu_1740_p2                                                                                                                     |     |        | sub_ln134_2  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U29                                                                                                                     | 2   |        | mul_ln135_2  | mul | auto   | 0       |
+|    sub_ln134_3_fu_1761_p2                                                                                                                     |     |        | sub_ln134_3  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U30                                                                                                                     | 2   |        | mul_ln135_3  | mul | auto   | 0       |
+|    sub_ln134_4_fu_1782_p2                                                                                                                     |     |        | sub_ln134_4  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U31                                                                                                                     | 2   |        | mul_ln135_4  | mul | auto   | 0       |
+|    mul_22s_15ns_37_1_1_U33                                                                                                                    | 1   |        | mul_ln73_1   | mul | auto   | 0       |
+|    add_ln78_fu_1891_p2                                                                                                                        |     |        | add_ln78     | add | fabric | 0       |
+|    add_ln78_1_fu_1908_p2                                                                                                                      |     |        | add_ln78_1   | add | fabric | 0       |
+|    add_ln78_2_fu_1925_p2                                                                                                                      |     |        | add_ln78_2   | add | fabric | 0       |
+|    add_ln78_3_fu_1942_p2                                                                                                                      |     |        | add_ln78_3   | add | fabric | 0       |
+|    add_ln78_4_fu_1959_p2                                                                                                                      |     |        | add_ln78_4   | add | fabric | 0       |
+|    add_ln78_5_fu_1976_p2                                                                                                                      |     |        | add_ln78_5   | add | fabric | 0       |
+|    add_ln78_6_fu_1993_p2                                                                                                                      |     |        | add_ln78_6   | add | fabric | 0       |
+|    add_ln78_7_fu_2010_p2                                                                                                                      |     |        | add_ln78_7   | add | fabric | 0       |
+|    add_ln78_8_fu_2027_p2                                                                                                                      |     |        | add_ln78_8   | add | fabric | 0       |
+|    add_ln78_9_fu_2044_p2                                                                                                                      |     |        | add_ln78_9   | add | fabric | 0       |
+|    add_ln78_10_fu_2061_p2                                                                                                                     |     |        | add_ln78_10  | add | fabric | 0       |
+|    add_ln78_11_fu_2078_p2                                                                                                                     |     |        | add_ln78_11  | add | fabric | 0       |
+|    add_ln78_12_fu_2089_p2                                                                                                                     |     |        | add_ln78_12  | add | fabric | 0       |
+|    add_ln78_13_fu_2106_p2                                                                                                                     |     |        | add_ln78_13  | add | fabric | 0       |
+|    add_ln78_14_fu_2123_p2                                                                                                                     |     |        | add_ln78_14  | add | fabric | 0       |
+|    add_ln78_15_fu_2134_p2                                                                                                                     |     |        | add_ln78_15  | add | fabric | 0       |
+|    add_ln78_16_fu_2145_p2                                                                                                                     |     |        | add_ln78_16  | add | fabric | 0       |
+|    add_ln78_17_fu_2162_p2                                                                                                                     |     |        | add_ln78_17  | add | fabric | 0       |
+|    add_ln78_18_fu_2173_p2                                                                                                                     |     |        | add_ln78_18  | add | fabric | 0       |
+|    add_ln78_19_fu_2184_p2                                                                                                                     |     |        | add_ln78_19  | add | fabric | 0       |
+|    add_ln78_20_fu_2195_p2                                                                                                                     |     |        | add_ln78_20  | add | fabric | 0       |
+|    add_ln78_21_fu_2206_p2                                                                                                                     |     |        | add_ln78_21  | add | fabric | 0       |
+|    add_ln78_22_fu_2217_p2                                                                                                                     |     |        | add_ln78_22  | add | fabric | 0       |
+|    add_ln78_23_fu_2228_p2                                                                                                                     |     |        | add_ln78_23  | add | fabric | 0       |
+|    add_ln78_24_fu_2239_p2                                                                                                                     |     |        | add_ln78_24  | add | fabric | 0       |
+|    add_ln78_25_fu_2250_p2                                                                                                                     |     |        | add_ln78_25  | add | fabric | 0       |
+|    add_ln78_26_fu_2261_p2                                                                                                                     |     |        | add_ln78_26  | add | fabric | 0       |
+|    add_ln78_27_fu_2272_p2                                                                                                                     |     |        | add_ln78_27  | add | fabric | 0       |
+|    add_ln78_28_fu_2283_p2                                                                                                                     |     |        | add_ln78_28  | add | fabric | 0       |
+|    add_ln78_29_fu_2294_p2                                                                                                                     |     |        | add_ln78_29  | add | fabric | 0       |
+|    add_ln78_30_fu_2305_p2                                                                                                                     |     |        | add_ln78_30  | add | fabric | 0       |
+|    add_ln78_31_fu_2316_p2                                                                                                                     |     |        | add_ln78_31  | add | fabric | 0       |
+|    add_ln78_32_fu_2327_p2                                                                                                                     |     |        | add_ln78_32  | add | fabric | 0       |
+|    add_ln78_33_fu_2338_p2                                                                                                                     |     |        | add_ln78_33  | add | fabric | 0       |
+|    add_ln78_34_fu_2349_p2                                                                                                                     |     |        | add_ln78_34  | add | fabric | 0       |
+|    add_ln78_35_fu_2360_p2                                                                                                                     |     |        | add_ln78_35  | add | fabric | 0       |
+|    add_ln78_36_fu_2371_p2                                                                                                                     |     |        | add_ln78_36  | add | fabric | 0       |
+|    add_ln78_37_fu_2382_p2                                                                                                                     |     |        | add_ln78_37  | add | fabric | 0       |
+|    add_ln78_38_fu_2393_p2                                                                                                                     |     |        | add_ln78_38  | add | fabric | 0       |
+|    add_ln78_39_fu_2404_p2                                                                                                                     |     |        | add_ln78_39  | add | fabric | 0       |
+|    add_ln78_40_fu_2415_p2                                                                                                                     |     |        | add_ln78_40  | add | fabric | 0       |
+|    add_ln78_41_fu_2426_p2                                                                                                                     |     |        | add_ln78_41  | add | fabric | 0       |
+|    add_ln78_42_fu_2437_p2                                                                                                                     |     |        | add_ln78_42  | add | fabric | 0       |
+|    add_ln78_43_fu_2448_p2                                                                                                                     |     |        | add_ln78_43  | add | fabric | 0       |
+|    add_ln78_44_fu_2459_p2                                                                                                                     |     |        | add_ln78_44  | add | fabric | 0       |
+|    add_ln78_45_fu_2470_p2                                                                                                                     |     |        | add_ln78_45  | add | fabric | 0       |
+|    add_ln78_46_fu_2481_p2                                                                                                                     |     |        | add_ln78_46  | add | fabric | 0       |
+|    add_ln78_47_fu_2492_p2                                                                                                                     |     |        | add_ln78_47  | add | fabric | 0       |
+|    add_ln78_48_fu_2503_p2                                                                                                                     |     |        | add_ln78_48  | add | fabric | 0       |
+|    add_ln78_49_fu_2514_p2                                                                                                                     |     |        | add_ln78_49  | add | fabric | 0       |
+|    add_ln78_50_fu_2525_p2                                                                                                                     |     |        | add_ln78_50  | add | fabric | 0       |
+|    add_ln78_51_fu_2536_p2                                                                                                                     |     |        | add_ln78_51  | add | fabric | 0       |
+|    add_ln78_52_fu_2547_p2                                                                                                                     |     |        | add_ln78_52  | add | fabric | 0       |
+|    add_ln78_53_fu_2558_p2                                                                                                                     |     |        | add_ln78_53  | add | fabric | 0       |
+|    add_ln78_54_fu_2569_p2                                                                                                                     |     |        | add_ln78_54  | add | fabric | 0       |
+|    add_ln78_55_fu_2580_p2                                                                                                                     |     |        | add_ln78_55  | add | fabric | 0       |
+|    add_ln78_56_fu_2591_p2                                                                                                                     |     |        | add_ln78_56  | add | fabric | 0       |
+|    add_ln78_57_fu_2602_p2                                                                                                                     |     |        | add_ln78_57  | add | fabric | 0       |
+|    add_ln78_58_fu_2613_p2                                                                                                                     |     |        | add_ln78_58  | add | fabric | 0       |
+|    add_ln78_59_fu_2624_p2                                                                                                                     |     |        | add_ln78_59  | add | fabric | 0       |
+|    add_ln78_60_fu_2635_p2                                                                                                                     |     |        | add_ln78_60  | add | fabric | 0       |
+|    add_ln78_61_fu_2646_p2                                                                                                                     |     |        | add_ln78_61  | add | fabric | 0       |
+|    add_ln78_62_fu_2657_p2                                                                                                                     |     |        | add_ln78_62  | add | fabric | 0       |
+|    add_ln78_63_fu_2668_p2                                                                                                                     |     |        | add_ln78_63  | add | fabric | 0       |
+|    add_ln78_64_fu_2679_p2                                                                                                                     |     |        | add_ln78_64  | add | fabric | 0       |
+|    add_ln78_65_fu_2690_p2                                                                                                                     |     |        | add_ln78_65  | add | fabric | 0       |
+|    add_ln78_66_fu_2701_p2                                                                                                                     |     |        | add_ln78_66  | add | fabric | 0       |
+|    add_ln78_67_fu_2712_p2                                                                                                                     |     |        | add_ln78_67  | add | fabric | 0       |
+|    add_ln78_68_fu_2723_p2                                                                                                                     |     |        | add_ln78_68  | add | fabric | 0       |
+|    add_ln78_69_fu_2734_p2                                                                                                                     |     |        | add_ln78_69  | add | fabric | 0       |
+|    add_ln78_70_fu_2745_p2                                                                                                                     |     |        | add_ln78_70  | add | fabric | 0       |
+|    add_ln78_71_fu_2756_p2                                                                                                                     |     |        | add_ln78_71  | add | fabric | 0       |
+|    add_ln78_72_fu_2767_p2                                                                                                                     |     |        | add_ln78_72  | add | fabric | 0       |
+|    add_ln78_73_fu_2778_p2                                                                                                                     |     |        | add_ln78_73  | add | fabric | 0       |
+|    add_ln78_74_fu_2789_p2                                                                                                                     |     |        | add_ln78_74  | add | fabric | 0       |
+|    add_ln78_75_fu_2800_p2                                                                                                                     |     |        | add_ln78_75  | add | fabric | 0       |
+|    add_ln78_76_fu_2811_p2                                                                                                                     |     |        | add_ln78_76  | add | fabric | 0       |
+|    add_ln78_77_fu_2822_p2                                                                                                                     |     |        | add_ln78_77  | add | fabric | 0       |
+|    add_ln78_78_fu_2833_p2                                                                                                                     |     |        | add_ln78_78  | add | fabric | 0       |
+|    add_ln78_79_fu_2844_p2                                                                                                                     |     |        | add_ln78_79  | add | fabric | 0       |
+|    add_ln78_80_fu_2855_p2                                                                                                                     |     |        | add_ln78_80  | add | fabric | 0       |
+|    add_ln78_81_fu_2866_p2                                                                                                                     |     |        | add_ln78_81  | add | fabric | 0       |
+|    add_ln78_82_fu_2877_p2                                                                                                                     |     |        | add_ln78_82  | add | fabric | 0       |
+|    add_ln78_83_fu_2888_p2                                                                                                                     |     |        | add_ln78_83  | add | fabric | 0       |
+|    add_ln78_84_fu_2899_p2                                                                                                                     |     |        | add_ln78_84  | add | fabric | 0       |
+|    add_ln78_85_fu_2910_p2                                                                                                                     |     |        | add_ln78_85  | add | fabric | 0       |
+|    add_ln78_86_fu_2921_p2                                                                                                                     |     |        | add_ln78_86  | add | fabric | 0       |
+|    add_ln78_87_fu_2932_p2                                                                                                                     |     |        | add_ln78_87  | add | fabric | 0       |
+|    add_ln78_88_fu_2943_p2                                                                                                                     |     |        | add_ln78_88  | add | fabric | 0       |
+|    add_ln78_89_fu_2954_p2                                                                                                                     |     |        | add_ln78_89  | add | fabric | 0       |
+|    add_ln78_90_fu_2965_p2                                                                                                                     |     |        | add_ln78_90  | add | fabric | 0       |
+|    add_ln78_91_fu_2976_p2                                                                                                                     |     |        | add_ln78_91  | add | fabric | 0       |
+|    add_ln78_92_fu_2987_p2                                                                                                                     |     |        | add_ln78_92  | add | fabric | 0       |
+|    add_ln78_93_fu_2998_p2                                                                                                                     |     |        | add_ln78_93  | add | fabric | 0       |
+|    add_ln78_94_fu_3009_p2                                                                                                                     |     |        | add_ln78_94  | add | fabric | 0       |
+|    add_ln78_95_fu_3020_p2                                                                                                                     |     |        | add_ln78_95  | add | fabric | 0       |
+|    add_ln78_96_fu_3031_p2                                                                                                                     |     |        | add_ln78_96  | add | fabric | 0       |
+|    add_ln78_97_fu_3042_p2                                                                                                                     |     |        | add_ln78_97  | add | fabric | 0       |
+|    add_ln78_98_fu_3053_p2                                                                                                                     |     |        | add_ln78_98  | add | fabric | 0       |
+|    add_ln78_99_fu_3064_p2                                                                                                                     |     |        | add_ln78_99  | add | fabric | 0       |
+|    add_ln78_100_fu_3075_p2                                                                                                                    |     |        | add_ln78_100 | add | fabric | 0       |
+|    add_ln78_101_fu_3086_p2                                                                                                                    |     |        | add_ln78_101 | add | fabric | 0       |
+|    add_ln78_102_fu_3097_p2                                                                                                                    |     |        | add_ln78_102 | add | fabric | 0       |
+|    add_ln78_103_fu_3108_p2                                                                                                                    |     |        | add_ln78_103 | add | fabric | 0       |
+|    add_ln78_104_fu_3119_p2                                                                                                                    |     |        | add_ln78_104 | add | fabric | 0       |
+|    add_ln78_105_fu_3130_p2                                                                                                                    |     |        | add_ln78_105 | add | fabric | 0       |
+|    add_ln78_106_fu_3141_p2                                                                                                                    |     |        | add_ln78_106 | add | fabric | 0       |
+|    add_ln78_107_fu_3152_p2                                                                                                                    |     |        | add_ln78_107 | add | fabric | 0       |
+|    add_ln78_108_fu_3163_p2                                                                                                                    |     |        | add_ln78_108 | add | fabric | 0       |
+|    add_ln78_109_fu_3174_p2                                                                                                                    |     |        | add_ln78_109 | add | fabric | 0       |
+|    add_ln78_110_fu_3185_p2                                                                                                                    |     |        | add_ln78_110 | add | fabric | 0       |
+|    add_ln78_111_fu_3196_p2                                                                                                                    |     |        | add_ln78_111 | add | fabric | 0       |
+|    add_ln78_112_fu_3207_p2                                                                                                                    |     |        | add_ln78_112 | add | fabric | 0       |
+|    add_ln78_113_fu_3218_p2                                                                                                                    |     |        | add_ln78_113 | add | fabric | 0       |
+|    add_ln78_114_fu_3229_p2                                                                                                                    |     |        | add_ln78_114 | add | fabric | 0       |
+|    add_ln78_115_fu_3240_p2                                                                                                                    |     |        | add_ln78_115 | add | fabric | 0       |
+|    add_ln78_116_fu_3251_p2                                                                                                                    |     |        | add_ln78_116 | add | fabric | 0       |
+|    add_ln78_117_fu_3262_p2                                                                                                                    |     |        | add_ln78_117 | add | fabric | 0       |
+|    add_ln78_118_fu_3273_p2                                                                                                                    |     |        | add_ln78_118 | add | fabric | 0       |
+|    add_ln78_119_fu_3284_p2                                                                                                                    |     |        | add_ln78_119 | add | fabric | 0       |
+|    add_ln78_120_fu_3295_p2                                                                                                                    |     |        | add_ln78_120 | add | fabric | 0       |
+|    add_ln78_121_fu_3306_p2                                                                                                                    |     |        | add_ln78_121 | add | fabric | 0       |
+|    add_ln78_122_fu_3317_p2                                                                                                                    |     |        | add_ln78_122 | add | fabric | 0       |
+|    add_ln78_123_fu_3328_p2                                                                                                                    |     |        | add_ln78_123 | add | fabric | 0       |
+|    add_ln78_124_fu_3339_p2                                                                                                                    |     |        | add_ln78_124 | add | fabric | 0       |
+|    add_ln78_125_fu_3350_p2                                                                                                                    |     |        | add_ln78_125 | add | fabric | 0       |
+|    add_ln78_126_fu_3361_p2                                                                                                                    |     |        | add_ln78_126 | add | fabric | 0       |
+|    add_ln78_127_fu_3372_p2                                                                                                                    |     |        | add_ln78_127 | add | fabric | 0       |
+|    add_ln78_128_fu_3383_p2                                                                                                                    |     |        | add_ln78_128 | add | fabric | 0       |
+|    add_ln78_129_fu_3394_p2                                                                                                                    |     |        | add_ln78_129 | add | fabric | 0       |
+|    add_ln78_130_fu_3405_p2                                                                                                                    |     |        | add_ln78_130 | add | fabric | 0       |
+|    add_ln78_131_fu_3416_p2                                                                                                                    |     |        | add_ln78_131 | add | fabric | 0       |
+|    add_ln78_132_fu_3427_p2                                                                                                                    |     |        | add_ln78_132 | add | fabric | 0       |
+|    add_ln78_133_fu_3438_p2                                                                                                                    |     |        | add_ln78_133 | add | fabric | 0       |
+|    add_ln78_134_fu_3449_p2                                                                                                                    |     |        | add_ln78_134 | add | fabric | 0       |
+|    add_ln78_135_fu_3460_p2                                                                                                                    |     |        | add_ln78_135 | add | fabric | 0       |
+|    add_ln78_136_fu_3471_p2                                                                                                                    |     |        | add_ln78_136 | add | fabric | 0       |
+|    add_ln78_137_fu_3482_p2                                                                                                                    |     |        | add_ln78_137 | add | fabric | 0       |
+|    add_ln78_138_fu_3493_p2                                                                                                                    |     |        | add_ln78_138 | add | fabric | 0       |
+|    add_ln78_139_fu_3504_p2                                                                                                                    |     |        | add_ln78_139 | add | fabric | 0       |
+|    add_ln78_140_fu_3515_p2                                                                                                                    |     |        | add_ln78_140 | add | fabric | 0       |
+|    add_ln78_141_fu_3526_p2                                                                                                                    |     |        | add_ln78_141 | add | fabric | 0       |
+|    add_ln78_142_fu_3537_p2                                                                                                                    |     |        | add_ln78_142 | add | fabric | 0       |
+|    add_ln78_143_fu_3548_p2                                                                                                                    |     |        | add_ln78_143 | add | fabric | 0       |
+|    add_ln78_144_fu_3559_p2                                                                                                                    |     |        | add_ln78_144 | add | fabric | 0       |
+|    add_ln78_145_fu_3570_p2                                                                                                                    |     |        | add_ln78_145 | add | fabric | 0       |
+|    add_ln78_146_fu_3581_p2                                                                                                                    |     |        | add_ln78_146 | add | fabric | 0       |
+|    add_ln78_147_fu_3592_p2                                                                                                                    |     |        | add_ln78_147 | add | fabric | 0       |
+|    add_ln78_148_fu_3603_p2                                                                                                                    |     |        | add_ln78_148 | add | fabric | 0       |
+|    add_ln78_149_fu_3614_p2                                                                                                                    |     |        | add_ln78_149 | add | fabric | 0       |
+|    add_ln78_150_fu_3625_p2                                                                                                                    |     |        | add_ln78_150 | add | fabric | 0       |
+|    add_ln78_151_fu_3636_p2                                                                                                                    |     |        | add_ln78_151 | add | fabric | 0       |
+|    add_ln78_152_fu_3647_p2                                                                                                                    |     |        | add_ln78_152 | add | fabric | 0       |
+|    add_ln78_153_fu_3658_p2                                                                                                                    |     |        | add_ln78_153 | add | fabric | 0       |
+|    add_ln78_154_fu_3669_p2                                                                                                                    |     |        | add_ln78_154 | add | fabric | 0       |
+|    add_ln78_155_fu_3680_p2                                                                                                                    |     |        | add_ln78_155 | add | fabric | 0       |
+|    add_ln78_156_fu_3691_p2                                                                                                                    |     |        | add_ln78_156 | add | fabric | 0       |
+|    add_ln78_157_fu_3702_p2                                                                                                                    |     |        | add_ln78_157 | add | fabric | 0       |
+|    add_ln78_158_fu_3713_p2                                                                                                                    |     |        | add_ln78_158 | add | fabric | 0       |
+|    add_ln78_159_fu_3724_p2                                                                                                                    |     |        | add_ln78_159 | add | fabric | 0       |
+|    add_ln78_160_fu_3735_p2                                                                                                                    |     |        | add_ln78_160 | add | fabric | 0       |
+|    add_ln78_161_fu_3746_p2                                                                                                                    |     |        | add_ln78_161 | add | fabric | 0       |
+|    add_ln78_162_fu_3757_p2                                                                                                                    |     |        | add_ln78_162 | add | fabric | 0       |
+|    add_ln78_163_fu_3768_p2                                                                                                                    |     |        | add_ln78_163 | add | fabric | 0       |
+|    add_ln78_164_fu_3779_p2                                                                                                                    |     |        | add_ln78_164 | add | fabric | 0       |
+|    add_ln78_165_fu_3790_p2                                                                                                                    |     |        | add_ln78_165 | add | fabric | 0       |
+|    mul_22s_21s_36_1_1_U22                                                                                                                     | 2   |        | mul_ln149    | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U23                                                                                                                     | 2   |        | mul_ln149_1  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U24                                                                                                                     | 2   |        | mul_ln149_2  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U25                                                                                                                     | 2   |        | mul_ln149_3  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U26                                                                                                                     | 2   |        | mul_ln149_4  | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_259) | 22  |        |              |     |        |         |
+|    mul_22s_15ns_37_1_1_U32                                                                                                                    | 1   |        | mul_ln73     | mul | auto   | 0       |
+|    sub_ln134_fu_1698_p2                                                                                                                       |     |        | sub_ln134    | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U27                                                                                                                     | 2   |        | mul_ln135    | mul | auto   | 0       |
+|    sub_ln134_1_fu_1719_p2                                                                                                                     |     |        | sub_ln134_1  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U28                                                                                                                     | 2   |        | mul_ln135_1  | mul | auto   | 0       |
+|    sub_ln134_2_fu_1740_p2                                                                                                                     |     |        | sub_ln134_2  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U29                                                                                                                     | 2   |        | mul_ln135_2  | mul | auto   | 0       |
+|    sub_ln134_3_fu_1761_p2                                                                                                                     |     |        | sub_ln134_3  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U30                                                                                                                     | 2   |        | mul_ln135_3  | mul | auto   | 0       |
+|    sub_ln134_4_fu_1782_p2                                                                                                                     |     |        | sub_ln134_4  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U31                                                                                                                     | 2   |        | mul_ln135_4  | mul | auto   | 0       |
+|    mul_22s_15ns_37_1_1_U33                                                                                                                    | 1   |        | mul_ln73_1   | mul | auto   | 0       |
+|    add_ln78_fu_1891_p2                                                                                                                        |     |        | add_ln78     | add | fabric | 0       |
+|    add_ln78_1_fu_1908_p2                                                                                                                      |     |        | add_ln78_1   | add | fabric | 0       |
+|    add_ln78_2_fu_1925_p2                                                                                                                      |     |        | add_ln78_2   | add | fabric | 0       |
+|    add_ln78_3_fu_1942_p2                                                                                                                      |     |        | add_ln78_3   | add | fabric | 0       |
+|    add_ln78_4_fu_1959_p2                                                                                                                      |     |        | add_ln78_4   | add | fabric | 0       |
+|    add_ln78_5_fu_1976_p2                                                                                                                      |     |        | add_ln78_5   | add | fabric | 0       |
+|    add_ln78_6_fu_1993_p2                                                                                                                      |     |        | add_ln78_6   | add | fabric | 0       |
+|    add_ln78_7_fu_2010_p2                                                                                                                      |     |        | add_ln78_7   | add | fabric | 0       |
+|    add_ln78_8_fu_2027_p2                                                                                                                      |     |        | add_ln78_8   | add | fabric | 0       |
+|    add_ln78_9_fu_2044_p2                                                                                                                      |     |        | add_ln78_9   | add | fabric | 0       |
+|    add_ln78_10_fu_2061_p2                                                                                                                     |     |        | add_ln78_10  | add | fabric | 0       |
+|    add_ln78_11_fu_2078_p2                                                                                                                     |     |        | add_ln78_11  | add | fabric | 0       |
+|    add_ln78_12_fu_2089_p2                                                                                                                     |     |        | add_ln78_12  | add | fabric | 0       |
+|    add_ln78_13_fu_2106_p2                                                                                                                     |     |        | add_ln78_13  | add | fabric | 0       |
+|    add_ln78_14_fu_2123_p2                                                                                                                     |     |        | add_ln78_14  | add | fabric | 0       |
+|    add_ln78_15_fu_2134_p2                                                                                                                     |     |        | add_ln78_15  | add | fabric | 0       |
+|    add_ln78_16_fu_2145_p2                                                                                                                     |     |        | add_ln78_16  | add | fabric | 0       |
+|    add_ln78_17_fu_2162_p2                                                                                                                     |     |        | add_ln78_17  | add | fabric | 0       |
+|    add_ln78_18_fu_2173_p2                                                                                                                     |     |        | add_ln78_18  | add | fabric | 0       |
+|    add_ln78_19_fu_2184_p2                                                                                                                     |     |        | add_ln78_19  | add | fabric | 0       |
+|    add_ln78_20_fu_2195_p2                                                                                                                     |     |        | add_ln78_20  | add | fabric | 0       |
+|    add_ln78_21_fu_2206_p2                                                                                                                     |     |        | add_ln78_21  | add | fabric | 0       |
+|    add_ln78_22_fu_2217_p2                                                                                                                     |     |        | add_ln78_22  | add | fabric | 0       |
+|    add_ln78_23_fu_2228_p2                                                                                                                     |     |        | add_ln78_23  | add | fabric | 0       |
+|    add_ln78_24_fu_2239_p2                                                                                                                     |     |        | add_ln78_24  | add | fabric | 0       |
+|    add_ln78_25_fu_2250_p2                                                                                                                     |     |        | add_ln78_25  | add | fabric | 0       |
+|    add_ln78_26_fu_2261_p2                                                                                                                     |     |        | add_ln78_26  | add | fabric | 0       |
+|    add_ln78_27_fu_2272_p2                                                                                                                     |     |        | add_ln78_27  | add | fabric | 0       |
+|    add_ln78_28_fu_2283_p2                                                                                                                     |     |        | add_ln78_28  | add | fabric | 0       |
+|    add_ln78_29_fu_2294_p2                                                                                                                     |     |        | add_ln78_29  | add | fabric | 0       |
+|    add_ln78_30_fu_2305_p2                                                                                                                     |     |        | add_ln78_30  | add | fabric | 0       |
+|    add_ln78_31_fu_2316_p2                                                                                                                     |     |        | add_ln78_31  | add | fabric | 0       |
+|    add_ln78_32_fu_2327_p2                                                                                                                     |     |        | add_ln78_32  | add | fabric | 0       |
+|    add_ln78_33_fu_2338_p2                                                                                                                     |     |        | add_ln78_33  | add | fabric | 0       |
+|    add_ln78_34_fu_2349_p2                                                                                                                     |     |        | add_ln78_34  | add | fabric | 0       |
+|    add_ln78_35_fu_2360_p2                                                                                                                     |     |        | add_ln78_35  | add | fabric | 0       |
+|    add_ln78_36_fu_2371_p2                                                                                                                     |     |        | add_ln78_36  | add | fabric | 0       |
+|    add_ln78_37_fu_2382_p2                                                                                                                     |     |        | add_ln78_37  | add | fabric | 0       |
+|    add_ln78_38_fu_2393_p2                                                                                                                     |     |        | add_ln78_38  | add | fabric | 0       |
+|    add_ln78_39_fu_2404_p2                                                                                                                     |     |        | add_ln78_39  | add | fabric | 0       |
+|    add_ln78_40_fu_2415_p2                                                                                                                     |     |        | add_ln78_40  | add | fabric | 0       |
+|    add_ln78_41_fu_2426_p2                                                                                                                     |     |        | add_ln78_41  | add | fabric | 0       |
+|    add_ln78_42_fu_2437_p2                                                                                                                     |     |        | add_ln78_42  | add | fabric | 0       |
+|    add_ln78_43_fu_2448_p2                                                                                                                     |     |        | add_ln78_43  | add | fabric | 0       |
+|    add_ln78_44_fu_2459_p2                                                                                                                     |     |        | add_ln78_44  | add | fabric | 0       |
+|    add_ln78_45_fu_2470_p2                                                                                                                     |     |        | add_ln78_45  | add | fabric | 0       |
+|    add_ln78_46_fu_2481_p2                                                                                                                     |     |        | add_ln78_46  | add | fabric | 0       |
+|    add_ln78_47_fu_2492_p2                                                                                                                     |     |        | add_ln78_47  | add | fabric | 0       |
+|    add_ln78_48_fu_2503_p2                                                                                                                     |     |        | add_ln78_48  | add | fabric | 0       |
+|    add_ln78_49_fu_2514_p2                                                                                                                     |     |        | add_ln78_49  | add | fabric | 0       |
+|    add_ln78_50_fu_2525_p2                                                                                                                     |     |        | add_ln78_50  | add | fabric | 0       |
+|    add_ln78_51_fu_2536_p2                                                                                                                     |     |        | add_ln78_51  | add | fabric | 0       |
+|    add_ln78_52_fu_2547_p2                                                                                                                     |     |        | add_ln78_52  | add | fabric | 0       |
+|    add_ln78_53_fu_2558_p2                                                                                                                     |     |        | add_ln78_53  | add | fabric | 0       |
+|    add_ln78_54_fu_2569_p2                                                                                                                     |     |        | add_ln78_54  | add | fabric | 0       |
+|    add_ln78_55_fu_2580_p2                                                                                                                     |     |        | add_ln78_55  | add | fabric | 0       |
+|    add_ln78_56_fu_2591_p2                                                                                                                     |     |        | add_ln78_56  | add | fabric | 0       |
+|    add_ln78_57_fu_2602_p2                                                                                                                     |     |        | add_ln78_57  | add | fabric | 0       |
+|    add_ln78_58_fu_2613_p2                                                                                                                     |     |        | add_ln78_58  | add | fabric | 0       |
+|    add_ln78_59_fu_2624_p2                                                                                                                     |     |        | add_ln78_59  | add | fabric | 0       |
+|    add_ln78_60_fu_2635_p2                                                                                                                     |     |        | add_ln78_60  | add | fabric | 0       |
+|    add_ln78_61_fu_2646_p2                                                                                                                     |     |        | add_ln78_61  | add | fabric | 0       |
+|    add_ln78_62_fu_2657_p2                                                                                                                     |     |        | add_ln78_62  | add | fabric | 0       |
+|    add_ln78_63_fu_2668_p2                                                                                                                     |     |        | add_ln78_63  | add | fabric | 0       |
+|    add_ln78_64_fu_2679_p2                                                                                                                     |     |        | add_ln78_64  | add | fabric | 0       |
+|    add_ln78_65_fu_2690_p2                                                                                                                     |     |        | add_ln78_65  | add | fabric | 0       |
+|    add_ln78_66_fu_2701_p2                                                                                                                     |     |        | add_ln78_66  | add | fabric | 0       |
+|    add_ln78_67_fu_2712_p2                                                                                                                     |     |        | add_ln78_67  | add | fabric | 0       |
+|    add_ln78_68_fu_2723_p2                                                                                                                     |     |        | add_ln78_68  | add | fabric | 0       |
+|    add_ln78_69_fu_2734_p2                                                                                                                     |     |        | add_ln78_69  | add | fabric | 0       |
+|    add_ln78_70_fu_2745_p2                                                                                                                     |     |        | add_ln78_70  | add | fabric | 0       |
+|    add_ln78_71_fu_2756_p2                                                                                                                     |     |        | add_ln78_71  | add | fabric | 0       |
+|    add_ln78_72_fu_2767_p2                                                                                                                     |     |        | add_ln78_72  | add | fabric | 0       |
+|    add_ln78_73_fu_2778_p2                                                                                                                     |     |        | add_ln78_73  | add | fabric | 0       |
+|    add_ln78_74_fu_2789_p2                                                                                                                     |     |        | add_ln78_74  | add | fabric | 0       |
+|    add_ln78_75_fu_2800_p2                                                                                                                     |     |        | add_ln78_75  | add | fabric | 0       |
+|    add_ln78_76_fu_2811_p2                                                                                                                     |     |        | add_ln78_76  | add | fabric | 0       |
+|    add_ln78_77_fu_2822_p2                                                                                                                     |     |        | add_ln78_77  | add | fabric | 0       |
+|    add_ln78_78_fu_2833_p2                                                                                                                     |     |        | add_ln78_78  | add | fabric | 0       |
+|    add_ln78_79_fu_2844_p2                                                                                                                     |     |        | add_ln78_79  | add | fabric | 0       |
+|    add_ln78_80_fu_2855_p2                                                                                                                     |     |        | add_ln78_80  | add | fabric | 0       |
+|    add_ln78_81_fu_2866_p2                                                                                                                     |     |        | add_ln78_81  | add | fabric | 0       |
+|    add_ln78_82_fu_2877_p2                                                                                                                     |     |        | add_ln78_82  | add | fabric | 0       |
+|    add_ln78_83_fu_2888_p2                                                                                                                     |     |        | add_ln78_83  | add | fabric | 0       |
+|    add_ln78_84_fu_2899_p2                                                                                                                     |     |        | add_ln78_84  | add | fabric | 0       |
+|    add_ln78_85_fu_2910_p2                                                                                                                     |     |        | add_ln78_85  | add | fabric | 0       |
+|    add_ln78_86_fu_2921_p2                                                                                                                     |     |        | add_ln78_86  | add | fabric | 0       |
+|    add_ln78_87_fu_2932_p2                                                                                                                     |     |        | add_ln78_87  | add | fabric | 0       |
+|    add_ln78_88_fu_2943_p2                                                                                                                     |     |        | add_ln78_88  | add | fabric | 0       |
+|    add_ln78_89_fu_2954_p2                                                                                                                     |     |        | add_ln78_89  | add | fabric | 0       |
+|    add_ln78_90_fu_2965_p2                                                                                                                     |     |        | add_ln78_90  | add | fabric | 0       |
+|    add_ln78_91_fu_2976_p2                                                                                                                     |     |        | add_ln78_91  | add | fabric | 0       |
+|    add_ln78_92_fu_2987_p2                                                                                                                     |     |        | add_ln78_92  | add | fabric | 0       |
+|    add_ln78_93_fu_2998_p2                                                                                                                     |     |        | add_ln78_93  | add | fabric | 0       |
+|    add_ln78_94_fu_3009_p2                                                                                                                     |     |        | add_ln78_94  | add | fabric | 0       |
+|    add_ln78_95_fu_3020_p2                                                                                                                     |     |        | add_ln78_95  | add | fabric | 0       |
+|    add_ln78_96_fu_3031_p2                                                                                                                     |     |        | add_ln78_96  | add | fabric | 0       |
+|    add_ln78_97_fu_3042_p2                                                                                                                     |     |        | add_ln78_97  | add | fabric | 0       |
+|    add_ln78_98_fu_3053_p2                                                                                                                     |     |        | add_ln78_98  | add | fabric | 0       |
+|    add_ln78_99_fu_3064_p2                                                                                                                     |     |        | add_ln78_99  | add | fabric | 0       |
+|    add_ln78_100_fu_3075_p2                                                                                                                    |     |        | add_ln78_100 | add | fabric | 0       |
+|    add_ln78_101_fu_3086_p2                                                                                                                    |     |        | add_ln78_101 | add | fabric | 0       |
+|    add_ln78_102_fu_3097_p2                                                                                                                    |     |        | add_ln78_102 | add | fabric | 0       |
+|    add_ln78_103_fu_3108_p2                                                                                                                    |     |        | add_ln78_103 | add | fabric | 0       |
+|    add_ln78_104_fu_3119_p2                                                                                                                    |     |        | add_ln78_104 | add | fabric | 0       |
+|    add_ln78_105_fu_3130_p2                                                                                                                    |     |        | add_ln78_105 | add | fabric | 0       |
+|    add_ln78_106_fu_3141_p2                                                                                                                    |     |        | add_ln78_106 | add | fabric | 0       |
+|    add_ln78_107_fu_3152_p2                                                                                                                    |     |        | add_ln78_107 | add | fabric | 0       |
+|    add_ln78_108_fu_3163_p2                                                                                                                    |     |        | add_ln78_108 | add | fabric | 0       |
+|    add_ln78_109_fu_3174_p2                                                                                                                    |     |        | add_ln78_109 | add | fabric | 0       |
+|    add_ln78_110_fu_3185_p2                                                                                                                    |     |        | add_ln78_110 | add | fabric | 0       |
+|    add_ln78_111_fu_3196_p2                                                                                                                    |     |        | add_ln78_111 | add | fabric | 0       |
+|    add_ln78_112_fu_3207_p2                                                                                                                    |     |        | add_ln78_112 | add | fabric | 0       |
+|    add_ln78_113_fu_3218_p2                                                                                                                    |     |        | add_ln78_113 | add | fabric | 0       |
+|    add_ln78_114_fu_3229_p2                                                                                                                    |     |        | add_ln78_114 | add | fabric | 0       |
+|    add_ln78_115_fu_3240_p2                                                                                                                    |     |        | add_ln78_115 | add | fabric | 0       |
+|    add_ln78_116_fu_3251_p2                                                                                                                    |     |        | add_ln78_116 | add | fabric | 0       |
+|    add_ln78_117_fu_3262_p2                                                                                                                    |     |        | add_ln78_117 | add | fabric | 0       |
+|    add_ln78_118_fu_3273_p2                                                                                                                    |     |        | add_ln78_118 | add | fabric | 0       |
+|    add_ln78_119_fu_3284_p2                                                                                                                    |     |        | add_ln78_119 | add | fabric | 0       |
+|    add_ln78_120_fu_3295_p2                                                                                                                    |     |        | add_ln78_120 | add | fabric | 0       |
+|    add_ln78_121_fu_3306_p2                                                                                                                    |     |        | add_ln78_121 | add | fabric | 0       |
+|    add_ln78_122_fu_3317_p2                                                                                                                    |     |        | add_ln78_122 | add | fabric | 0       |
+|    add_ln78_123_fu_3328_p2                                                                                                                    |     |        | add_ln78_123 | add | fabric | 0       |
+|    add_ln78_124_fu_3339_p2                                                                                                                    |     |        | add_ln78_124 | add | fabric | 0       |
+|    add_ln78_125_fu_3350_p2                                                                                                                    |     |        | add_ln78_125 | add | fabric | 0       |
+|    add_ln78_126_fu_3361_p2                                                                                                                    |     |        | add_ln78_126 | add | fabric | 0       |
+|    add_ln78_127_fu_3372_p2                                                                                                                    |     |        | add_ln78_127 | add | fabric | 0       |
+|    add_ln78_128_fu_3383_p2                                                                                                                    |     |        | add_ln78_128 | add | fabric | 0       |
+|    add_ln78_129_fu_3394_p2                                                                                                                    |     |        | add_ln78_129 | add | fabric | 0       |
+|    add_ln78_130_fu_3405_p2                                                                                                                    |     |        | add_ln78_130 | add | fabric | 0       |
+|    add_ln78_131_fu_3416_p2                                                                                                                    |     |        | add_ln78_131 | add | fabric | 0       |
+|    add_ln78_132_fu_3427_p2                                                                                                                    |     |        | add_ln78_132 | add | fabric | 0       |
+|    add_ln78_133_fu_3438_p2                                                                                                                    |     |        | add_ln78_133 | add | fabric | 0       |
+|    add_ln78_134_fu_3449_p2                                                                                                                    |     |        | add_ln78_134 | add | fabric | 0       |
+|    add_ln78_135_fu_3460_p2                                                                                                                    |     |        | add_ln78_135 | add | fabric | 0       |
+|    add_ln78_136_fu_3471_p2                                                                                                                    |     |        | add_ln78_136 | add | fabric | 0       |
+|    add_ln78_137_fu_3482_p2                                                                                                                    |     |        | add_ln78_137 | add | fabric | 0       |
+|    add_ln78_138_fu_3493_p2                                                                                                                    |     |        | add_ln78_138 | add | fabric | 0       |
+|    add_ln78_139_fu_3504_p2                                                                                                                    |     |        | add_ln78_139 | add | fabric | 0       |
+|    add_ln78_140_fu_3515_p2                                                                                                                    |     |        | add_ln78_140 | add | fabric | 0       |
+|    add_ln78_141_fu_3526_p2                                                                                                                    |     |        | add_ln78_141 | add | fabric | 0       |
+|    add_ln78_142_fu_3537_p2                                                                                                                    |     |        | add_ln78_142 | add | fabric | 0       |
+|    add_ln78_143_fu_3548_p2                                                                                                                    |     |        | add_ln78_143 | add | fabric | 0       |
+|    add_ln78_144_fu_3559_p2                                                                                                                    |     |        | add_ln78_144 | add | fabric | 0       |
+|    add_ln78_145_fu_3570_p2                                                                                                                    |     |        | add_ln78_145 | add | fabric | 0       |
+|    add_ln78_146_fu_3581_p2                                                                                                                    |     |        | add_ln78_146 | add | fabric | 0       |
+|    add_ln78_147_fu_3592_p2                                                                                                                    |     |        | add_ln78_147 | add | fabric | 0       |
+|    add_ln78_148_fu_3603_p2                                                                                                                    |     |        | add_ln78_148 | add | fabric | 0       |
+|    add_ln78_149_fu_3614_p2                                                                                                                    |     |        | add_ln78_149 | add | fabric | 0       |
+|    add_ln78_150_fu_3625_p2                                                                                                                    |     |        | add_ln78_150 | add | fabric | 0       |
+|    add_ln78_151_fu_3636_p2                                                                                                                    |     |        | add_ln78_151 | add | fabric | 0       |
+|    add_ln78_152_fu_3647_p2                                                                                                                    |     |        | add_ln78_152 | add | fabric | 0       |
+|    add_ln78_153_fu_3658_p2                                                                                                                    |     |        | add_ln78_153 | add | fabric | 0       |
+|    add_ln78_154_fu_3669_p2                                                                                                                    |     |        | add_ln78_154 | add | fabric | 0       |
+|    add_ln78_155_fu_3680_p2                                                                                                                    |     |        | add_ln78_155 | add | fabric | 0       |
+|    add_ln78_156_fu_3691_p2                                                                                                                    |     |        | add_ln78_156 | add | fabric | 0       |
+|    add_ln78_157_fu_3702_p2                                                                                                                    |     |        | add_ln78_157 | add | fabric | 0       |
+|    add_ln78_158_fu_3713_p2                                                                                                                    |     |        | add_ln78_158 | add | fabric | 0       |
+|    add_ln78_159_fu_3724_p2                                                                                                                    |     |        | add_ln78_159 | add | fabric | 0       |
+|    add_ln78_160_fu_3735_p2                                                                                                                    |     |        | add_ln78_160 | add | fabric | 0       |
+|    add_ln78_161_fu_3746_p2                                                                                                                    |     |        | add_ln78_161 | add | fabric | 0       |
+|    add_ln78_162_fu_3757_p2                                                                                                                    |     |        | add_ln78_162 | add | fabric | 0       |
+|    add_ln78_163_fu_3768_p2                                                                                                                    |     |        | add_ln78_163 | add | fabric | 0       |
+|    add_ln78_164_fu_3779_p2                                                                                                                    |     |        | add_ln78_164 | add | fabric | 0       |
+|    add_ln78_165_fu_3790_p2                                                                                                                    |     |        | add_ln78_165 | add | fabric | 0       |
+|    mul_22s_21s_36_1_1_U22                                                                                                                     | 2   |        | mul_ln149    | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U23                                                                                                                     | 2   |        | mul_ln149_1  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U24                                                                                                                     | 2   |        | mul_ln149_2  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U25                                                                                                                     | 2   |        | mul_ln149_3  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U26                                                                                                                     | 2   |        | mul_ln149_4  | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_270) | 22  |        |              |     |        |         |
+|    mul_22s_15ns_37_1_1_U32                                                                                                                    | 1   |        | mul_ln73     | mul | auto   | 0       |
+|    sub_ln134_fu_1698_p2                                                                                                                       |     |        | sub_ln134    | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U27                                                                                                                     | 2   |        | mul_ln135    | mul | auto   | 0       |
+|    sub_ln134_1_fu_1719_p2                                                                                                                     |     |        | sub_ln134_1  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U28                                                                                                                     | 2   |        | mul_ln135_1  | mul | auto   | 0       |
+|    sub_ln134_2_fu_1740_p2                                                                                                                     |     |        | sub_ln134_2  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U29                                                                                                                     | 2   |        | mul_ln135_2  | mul | auto   | 0       |
+|    sub_ln134_3_fu_1761_p2                                                                                                                     |     |        | sub_ln134_3  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U30                                                                                                                     | 2   |        | mul_ln135_3  | mul | auto   | 0       |
+|    sub_ln134_4_fu_1782_p2                                                                                                                     |     |        | sub_ln134_4  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U31                                                                                                                     | 2   |        | mul_ln135_4  | mul | auto   | 0       |
+|    mul_22s_15ns_37_1_1_U33                                                                                                                    | 1   |        | mul_ln73_1   | mul | auto   | 0       |
+|    add_ln78_fu_1891_p2                                                                                                                        |     |        | add_ln78     | add | fabric | 0       |
+|    add_ln78_1_fu_1908_p2                                                                                                                      |     |        | add_ln78_1   | add | fabric | 0       |
+|    add_ln78_2_fu_1925_p2                                                                                                                      |     |        | add_ln78_2   | add | fabric | 0       |
+|    add_ln78_3_fu_1942_p2                                                                                                                      |     |        | add_ln78_3   | add | fabric | 0       |
+|    add_ln78_4_fu_1959_p2                                                                                                                      |     |        | add_ln78_4   | add | fabric | 0       |
+|    add_ln78_5_fu_1976_p2                                                                                                                      |     |        | add_ln78_5   | add | fabric | 0       |
+|    add_ln78_6_fu_1993_p2                                                                                                                      |     |        | add_ln78_6   | add | fabric | 0       |
+|    add_ln78_7_fu_2010_p2                                                                                                                      |     |        | add_ln78_7   | add | fabric | 0       |
+|    add_ln78_8_fu_2027_p2                                                                                                                      |     |        | add_ln78_8   | add | fabric | 0       |
+|    add_ln78_9_fu_2044_p2                                                                                                                      |     |        | add_ln78_9   | add | fabric | 0       |
+|    add_ln78_10_fu_2061_p2                                                                                                                     |     |        | add_ln78_10  | add | fabric | 0       |
+|    add_ln78_11_fu_2078_p2                                                                                                                     |     |        | add_ln78_11  | add | fabric | 0       |
+|    add_ln78_12_fu_2089_p2                                                                                                                     |     |        | add_ln78_12  | add | fabric | 0       |
+|    add_ln78_13_fu_2106_p2                                                                                                                     |     |        | add_ln78_13  | add | fabric | 0       |
+|    add_ln78_14_fu_2123_p2                                                                                                                     |     |        | add_ln78_14  | add | fabric | 0       |
+|    add_ln78_15_fu_2134_p2                                                                                                                     |     |        | add_ln78_15  | add | fabric | 0       |
+|    add_ln78_16_fu_2145_p2                                                                                                                     |     |        | add_ln78_16  | add | fabric | 0       |
+|    add_ln78_17_fu_2162_p2                                                                                                                     |     |        | add_ln78_17  | add | fabric | 0       |
+|    add_ln78_18_fu_2173_p2                                                                                                                     |     |        | add_ln78_18  | add | fabric | 0       |
+|    add_ln78_19_fu_2184_p2                                                                                                                     |     |        | add_ln78_19  | add | fabric | 0       |
+|    add_ln78_20_fu_2195_p2                                                                                                                     |     |        | add_ln78_20  | add | fabric | 0       |
+|    add_ln78_21_fu_2206_p2                                                                                                                     |     |        | add_ln78_21  | add | fabric | 0       |
+|    add_ln78_22_fu_2217_p2                                                                                                                     |     |        | add_ln78_22  | add | fabric | 0       |
+|    add_ln78_23_fu_2228_p2                                                                                                                     |     |        | add_ln78_23  | add | fabric | 0       |
+|    add_ln78_24_fu_2239_p2                                                                                                                     |     |        | add_ln78_24  | add | fabric | 0       |
+|    add_ln78_25_fu_2250_p2                                                                                                                     |     |        | add_ln78_25  | add | fabric | 0       |
+|    add_ln78_26_fu_2261_p2                                                                                                                     |     |        | add_ln78_26  | add | fabric | 0       |
+|    add_ln78_27_fu_2272_p2                                                                                                                     |     |        | add_ln78_27  | add | fabric | 0       |
+|    add_ln78_28_fu_2283_p2                                                                                                                     |     |        | add_ln78_28  | add | fabric | 0       |
+|    add_ln78_29_fu_2294_p2                                                                                                                     |     |        | add_ln78_29  | add | fabric | 0       |
+|    add_ln78_30_fu_2305_p2                                                                                                                     |     |        | add_ln78_30  | add | fabric | 0       |
+|    add_ln78_31_fu_2316_p2                                                                                                                     |     |        | add_ln78_31  | add | fabric | 0       |
+|    add_ln78_32_fu_2327_p2                                                                                                                     |     |        | add_ln78_32  | add | fabric | 0       |
+|    add_ln78_33_fu_2338_p2                                                                                                                     |     |        | add_ln78_33  | add | fabric | 0       |
+|    add_ln78_34_fu_2349_p2                                                                                                                     |     |        | add_ln78_34  | add | fabric | 0       |
+|    add_ln78_35_fu_2360_p2                                                                                                                     |     |        | add_ln78_35  | add | fabric | 0       |
+|    add_ln78_36_fu_2371_p2                                                                                                                     |     |        | add_ln78_36  | add | fabric | 0       |
+|    add_ln78_37_fu_2382_p2                                                                                                                     |     |        | add_ln78_37  | add | fabric | 0       |
+|    add_ln78_38_fu_2393_p2                                                                                                                     |     |        | add_ln78_38  | add | fabric | 0       |
+|    add_ln78_39_fu_2404_p2                                                                                                                     |     |        | add_ln78_39  | add | fabric | 0       |
+|    add_ln78_40_fu_2415_p2                                                                                                                     |     |        | add_ln78_40  | add | fabric | 0       |
+|    add_ln78_41_fu_2426_p2                                                                                                                     |     |        | add_ln78_41  | add | fabric | 0       |
+|    add_ln78_42_fu_2437_p2                                                                                                                     |     |        | add_ln78_42  | add | fabric | 0       |
+|    add_ln78_43_fu_2448_p2                                                                                                                     |     |        | add_ln78_43  | add | fabric | 0       |
+|    add_ln78_44_fu_2459_p2                                                                                                                     |     |        | add_ln78_44  | add | fabric | 0       |
+|    add_ln78_45_fu_2470_p2                                                                                                                     |     |        | add_ln78_45  | add | fabric | 0       |
+|    add_ln78_46_fu_2481_p2                                                                                                                     |     |        | add_ln78_46  | add | fabric | 0       |
+|    add_ln78_47_fu_2492_p2                                                                                                                     |     |        | add_ln78_47  | add | fabric | 0       |
+|    add_ln78_48_fu_2503_p2                                                                                                                     |     |        | add_ln78_48  | add | fabric | 0       |
+|    add_ln78_49_fu_2514_p2                                                                                                                     |     |        | add_ln78_49  | add | fabric | 0       |
+|    add_ln78_50_fu_2525_p2                                                                                                                     |     |        | add_ln78_50  | add | fabric | 0       |
+|    add_ln78_51_fu_2536_p2                                                                                                                     |     |        | add_ln78_51  | add | fabric | 0       |
+|    add_ln78_52_fu_2547_p2                                                                                                                     |     |        | add_ln78_52  | add | fabric | 0       |
+|    add_ln78_53_fu_2558_p2                                                                                                                     |     |        | add_ln78_53  | add | fabric | 0       |
+|    add_ln78_54_fu_2569_p2                                                                                                                     |     |        | add_ln78_54  | add | fabric | 0       |
+|    add_ln78_55_fu_2580_p2                                                                                                                     |     |        | add_ln78_55  | add | fabric | 0       |
+|    add_ln78_56_fu_2591_p2                                                                                                                     |     |        | add_ln78_56  | add | fabric | 0       |
+|    add_ln78_57_fu_2602_p2                                                                                                                     |     |        | add_ln78_57  | add | fabric | 0       |
+|    add_ln78_58_fu_2613_p2                                                                                                                     |     |        | add_ln78_58  | add | fabric | 0       |
+|    add_ln78_59_fu_2624_p2                                                                                                                     |     |        | add_ln78_59  | add | fabric | 0       |
+|    add_ln78_60_fu_2635_p2                                                                                                                     |     |        | add_ln78_60  | add | fabric | 0       |
+|    add_ln78_61_fu_2646_p2                                                                                                                     |     |        | add_ln78_61  | add | fabric | 0       |
+|    add_ln78_62_fu_2657_p2                                                                                                                     |     |        | add_ln78_62  | add | fabric | 0       |
+|    add_ln78_63_fu_2668_p2                                                                                                                     |     |        | add_ln78_63  | add | fabric | 0       |
+|    add_ln78_64_fu_2679_p2                                                                                                                     |     |        | add_ln78_64  | add | fabric | 0       |
+|    add_ln78_65_fu_2690_p2                                                                                                                     |     |        | add_ln78_65  | add | fabric | 0       |
+|    add_ln78_66_fu_2701_p2                                                                                                                     |     |        | add_ln78_66  | add | fabric | 0       |
+|    add_ln78_67_fu_2712_p2                                                                                                                     |     |        | add_ln78_67  | add | fabric | 0       |
+|    add_ln78_68_fu_2723_p2                                                                                                                     |     |        | add_ln78_68  | add | fabric | 0       |
+|    add_ln78_69_fu_2734_p2                                                                                                                     |     |        | add_ln78_69  | add | fabric | 0       |
+|    add_ln78_70_fu_2745_p2                                                                                                                     |     |        | add_ln78_70  | add | fabric | 0       |
+|    add_ln78_71_fu_2756_p2                                                                                                                     |     |        | add_ln78_71  | add | fabric | 0       |
+|    add_ln78_72_fu_2767_p2                                                                                                                     |     |        | add_ln78_72  | add | fabric | 0       |
+|    add_ln78_73_fu_2778_p2                                                                                                                     |     |        | add_ln78_73  | add | fabric | 0       |
+|    add_ln78_74_fu_2789_p2                                                                                                                     |     |        | add_ln78_74  | add | fabric | 0       |
+|    add_ln78_75_fu_2800_p2                                                                                                                     |     |        | add_ln78_75  | add | fabric | 0       |
+|    add_ln78_76_fu_2811_p2                                                                                                                     |     |        | add_ln78_76  | add | fabric | 0       |
+|    add_ln78_77_fu_2822_p2                                                                                                                     |     |        | add_ln78_77  | add | fabric | 0       |
+|    add_ln78_78_fu_2833_p2                                                                                                                     |     |        | add_ln78_78  | add | fabric | 0       |
+|    add_ln78_79_fu_2844_p2                                                                                                                     |     |        | add_ln78_79  | add | fabric | 0       |
+|    add_ln78_80_fu_2855_p2                                                                                                                     |     |        | add_ln78_80  | add | fabric | 0       |
+|    add_ln78_81_fu_2866_p2                                                                                                                     |     |        | add_ln78_81  | add | fabric | 0       |
+|    add_ln78_82_fu_2877_p2                                                                                                                     |     |        | add_ln78_82  | add | fabric | 0       |
+|    add_ln78_83_fu_2888_p2                                                                                                                     |     |        | add_ln78_83  | add | fabric | 0       |
+|    add_ln78_84_fu_2899_p2                                                                                                                     |     |        | add_ln78_84  | add | fabric | 0       |
+|    add_ln78_85_fu_2910_p2                                                                                                                     |     |        | add_ln78_85  | add | fabric | 0       |
+|    add_ln78_86_fu_2921_p2                                                                                                                     |     |        | add_ln78_86  | add | fabric | 0       |
+|    add_ln78_87_fu_2932_p2                                                                                                                     |     |        | add_ln78_87  | add | fabric | 0       |
+|    add_ln78_88_fu_2943_p2                                                                                                                     |     |        | add_ln78_88  | add | fabric | 0       |
+|    add_ln78_89_fu_2954_p2                                                                                                                     |     |        | add_ln78_89  | add | fabric | 0       |
+|    add_ln78_90_fu_2965_p2                                                                                                                     |     |        | add_ln78_90  | add | fabric | 0       |
+|    add_ln78_91_fu_2976_p2                                                                                                                     |     |        | add_ln78_91  | add | fabric | 0       |
+|    add_ln78_92_fu_2987_p2                                                                                                                     |     |        | add_ln78_92  | add | fabric | 0       |
+|    add_ln78_93_fu_2998_p2                                                                                                                     |     |        | add_ln78_93  | add | fabric | 0       |
+|    add_ln78_94_fu_3009_p2                                                                                                                     |     |        | add_ln78_94  | add | fabric | 0       |
+|    add_ln78_95_fu_3020_p2                                                                                                                     |     |        | add_ln78_95  | add | fabric | 0       |
+|    add_ln78_96_fu_3031_p2                                                                                                                     |     |        | add_ln78_96  | add | fabric | 0       |
+|    add_ln78_97_fu_3042_p2                                                                                                                     |     |        | add_ln78_97  | add | fabric | 0       |
+|    add_ln78_98_fu_3053_p2                                                                                                                     |     |        | add_ln78_98  | add | fabric | 0       |
+|    add_ln78_99_fu_3064_p2                                                                                                                     |     |        | add_ln78_99  | add | fabric | 0       |
+|    add_ln78_100_fu_3075_p2                                                                                                                    |     |        | add_ln78_100 | add | fabric | 0       |
+|    add_ln78_101_fu_3086_p2                                                                                                                    |     |        | add_ln78_101 | add | fabric | 0       |
+|    add_ln78_102_fu_3097_p2                                                                                                                    |     |        | add_ln78_102 | add | fabric | 0       |
+|    add_ln78_103_fu_3108_p2                                                                                                                    |     |        | add_ln78_103 | add | fabric | 0       |
+|    add_ln78_104_fu_3119_p2                                                                                                                    |     |        | add_ln78_104 | add | fabric | 0       |
+|    add_ln78_105_fu_3130_p2                                                                                                                    |     |        | add_ln78_105 | add | fabric | 0       |
+|    add_ln78_106_fu_3141_p2                                                                                                                    |     |        | add_ln78_106 | add | fabric | 0       |
+|    add_ln78_107_fu_3152_p2                                                                                                                    |     |        | add_ln78_107 | add | fabric | 0       |
+|    add_ln78_108_fu_3163_p2                                                                                                                    |     |        | add_ln78_108 | add | fabric | 0       |
+|    add_ln78_109_fu_3174_p2                                                                                                                    |     |        | add_ln78_109 | add | fabric | 0       |
+|    add_ln78_110_fu_3185_p2                                                                                                                    |     |        | add_ln78_110 | add | fabric | 0       |
+|    add_ln78_111_fu_3196_p2                                                                                                                    |     |        | add_ln78_111 | add | fabric | 0       |
+|    add_ln78_112_fu_3207_p2                                                                                                                    |     |        | add_ln78_112 | add | fabric | 0       |
+|    add_ln78_113_fu_3218_p2                                                                                                                    |     |        | add_ln78_113 | add | fabric | 0       |
+|    add_ln78_114_fu_3229_p2                                                                                                                    |     |        | add_ln78_114 | add | fabric | 0       |
+|    add_ln78_115_fu_3240_p2                                                                                                                    |     |        | add_ln78_115 | add | fabric | 0       |
+|    add_ln78_116_fu_3251_p2                                                                                                                    |     |        | add_ln78_116 | add | fabric | 0       |
+|    add_ln78_117_fu_3262_p2                                                                                                                    |     |        | add_ln78_117 | add | fabric | 0       |
+|    add_ln78_118_fu_3273_p2                                                                                                                    |     |        | add_ln78_118 | add | fabric | 0       |
+|    add_ln78_119_fu_3284_p2                                                                                                                    |     |        | add_ln78_119 | add | fabric | 0       |
+|    add_ln78_120_fu_3295_p2                                                                                                                    |     |        | add_ln78_120 | add | fabric | 0       |
+|    add_ln78_121_fu_3306_p2                                                                                                                    |     |        | add_ln78_121 | add | fabric | 0       |
+|    add_ln78_122_fu_3317_p2                                                                                                                    |     |        | add_ln78_122 | add | fabric | 0       |
+|    add_ln78_123_fu_3328_p2                                                                                                                    |     |        | add_ln78_123 | add | fabric | 0       |
+|    add_ln78_124_fu_3339_p2                                                                                                                    |     |        | add_ln78_124 | add | fabric | 0       |
+|    add_ln78_125_fu_3350_p2                                                                                                                    |     |        | add_ln78_125 | add | fabric | 0       |
+|    add_ln78_126_fu_3361_p2                                                                                                                    |     |        | add_ln78_126 | add | fabric | 0       |
+|    add_ln78_127_fu_3372_p2                                                                                                                    |     |        | add_ln78_127 | add | fabric | 0       |
+|    add_ln78_128_fu_3383_p2                                                                                                                    |     |        | add_ln78_128 | add | fabric | 0       |
+|    add_ln78_129_fu_3394_p2                                                                                                                    |     |        | add_ln78_129 | add | fabric | 0       |
+|    add_ln78_130_fu_3405_p2                                                                                                                    |     |        | add_ln78_130 | add | fabric | 0       |
+|    add_ln78_131_fu_3416_p2                                                                                                                    |     |        | add_ln78_131 | add | fabric | 0       |
+|    add_ln78_132_fu_3427_p2                                                                                                                    |     |        | add_ln78_132 | add | fabric | 0       |
+|    add_ln78_133_fu_3438_p2                                                                                                                    |     |        | add_ln78_133 | add | fabric | 0       |
+|    add_ln78_134_fu_3449_p2                                                                                                                    |     |        | add_ln78_134 | add | fabric | 0       |
+|    add_ln78_135_fu_3460_p2                                                                                                                    |     |        | add_ln78_135 | add | fabric | 0       |
+|    add_ln78_136_fu_3471_p2                                                                                                                    |     |        | add_ln78_136 | add | fabric | 0       |
+|    add_ln78_137_fu_3482_p2                                                                                                                    |     |        | add_ln78_137 | add | fabric | 0       |
+|    add_ln78_138_fu_3493_p2                                                                                                                    |     |        | add_ln78_138 | add | fabric | 0       |
+|    add_ln78_139_fu_3504_p2                                                                                                                    |     |        | add_ln78_139 | add | fabric | 0       |
+|    add_ln78_140_fu_3515_p2                                                                                                                    |     |        | add_ln78_140 | add | fabric | 0       |
+|    add_ln78_141_fu_3526_p2                                                                                                                    |     |        | add_ln78_141 | add | fabric | 0       |
+|    add_ln78_142_fu_3537_p2                                                                                                                    |     |        | add_ln78_142 | add | fabric | 0       |
+|    add_ln78_143_fu_3548_p2                                                                                                                    |     |        | add_ln78_143 | add | fabric | 0       |
+|    add_ln78_144_fu_3559_p2                                                                                                                    |     |        | add_ln78_144 | add | fabric | 0       |
+|    add_ln78_145_fu_3570_p2                                                                                                                    |     |        | add_ln78_145 | add | fabric | 0       |
+|    add_ln78_146_fu_3581_p2                                                                                                                    |     |        | add_ln78_146 | add | fabric | 0       |
+|    add_ln78_147_fu_3592_p2                                                                                                                    |     |        | add_ln78_147 | add | fabric | 0       |
+|    add_ln78_148_fu_3603_p2                                                                                                                    |     |        | add_ln78_148 | add | fabric | 0       |
+|    add_ln78_149_fu_3614_p2                                                                                                                    |     |        | add_ln78_149 | add | fabric | 0       |
+|    add_ln78_150_fu_3625_p2                                                                                                                    |     |        | add_ln78_150 | add | fabric | 0       |
+|    add_ln78_151_fu_3636_p2                                                                                                                    |     |        | add_ln78_151 | add | fabric | 0       |
+|    add_ln78_152_fu_3647_p2                                                                                                                    |     |        | add_ln78_152 | add | fabric | 0       |
+|    add_ln78_153_fu_3658_p2                                                                                                                    |     |        | add_ln78_153 | add | fabric | 0       |
+|    add_ln78_154_fu_3669_p2                                                                                                                    |     |        | add_ln78_154 | add | fabric | 0       |
+|    add_ln78_155_fu_3680_p2                                                                                                                    |     |        | add_ln78_155 | add | fabric | 0       |
+|    add_ln78_156_fu_3691_p2                                                                                                                    |     |        | add_ln78_156 | add | fabric | 0       |
+|    add_ln78_157_fu_3702_p2                                                                                                                    |     |        | add_ln78_157 | add | fabric | 0       |
+|    add_ln78_158_fu_3713_p2                                                                                                                    |     |        | add_ln78_158 | add | fabric | 0       |
+|    add_ln78_159_fu_3724_p2                                                                                                                    |     |        | add_ln78_159 | add | fabric | 0       |
+|    add_ln78_160_fu_3735_p2                                                                                                                    |     |        | add_ln78_160 | add | fabric | 0       |
+|    add_ln78_161_fu_3746_p2                                                                                                                    |     |        | add_ln78_161 | add | fabric | 0       |
+|    add_ln78_162_fu_3757_p2                                                                                                                    |     |        | add_ln78_162 | add | fabric | 0       |
+|    add_ln78_163_fu_3768_p2                                                                                                                    |     |        | add_ln78_163 | add | fabric | 0       |
+|    add_ln78_164_fu_3779_p2                                                                                                                    |     |        | add_ln78_164 | add | fabric | 0       |
+|    add_ln78_165_fu_3790_p2                                                                                                                    |     |        | add_ln78_165 | add | fabric | 0       |
+|    mul_22s_21s_36_1_1_U22                                                                                                                     | 2   |        | mul_ln149    | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U23                                                                                                                     | 2   |        | mul_ln149_1  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U24                                                                                                                     | 2   |        | mul_ln149_2  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U25                                                                                                                     | 2   |        | mul_ln149_3  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U26                                                                                                                     | 2   |        | mul_ln149_4  | mul | auto   | 0       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_281) | 22  |        |              |     |        |         |
+|    mul_22s_15ns_37_1_1_U32                                                                                                                    | 1   |        | mul_ln73     | mul | auto   | 0       |
+|    sub_ln134_fu_1698_p2                                                                                                                       |     |        | sub_ln134    | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U27                                                                                                                     | 2   |        | mul_ln135    | mul | auto   | 0       |
+|    sub_ln134_1_fu_1719_p2                                                                                                                     |     |        | sub_ln134_1  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U28                                                                                                                     | 2   |        | mul_ln135_1  | mul | auto   | 0       |
+|    sub_ln134_2_fu_1740_p2                                                                                                                     |     |        | sub_ln134_2  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U29                                                                                                                     | 2   |        | mul_ln135_2  | mul | auto   | 0       |
+|    sub_ln134_3_fu_1761_p2                                                                                                                     |     |        | sub_ln134_3  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U30                                                                                                                     | 2   |        | mul_ln135_3  | mul | auto   | 0       |
+|    sub_ln134_4_fu_1782_p2                                                                                                                     |     |        | sub_ln134_4  | sub | fabric | 0       |
+|    mul_22s_22s_38_1_1_U31                                                                                                                     | 2   |        | mul_ln135_4  | mul | auto   | 0       |
+|    mul_22s_15ns_37_1_1_U33                                                                                                                    | 1   |        | mul_ln73_1   | mul | auto   | 0       |
+|    add_ln78_fu_1891_p2                                                                                                                        |     |        | add_ln78     | add | fabric | 0       |
+|    add_ln78_1_fu_1908_p2                                                                                                                      |     |        | add_ln78_1   | add | fabric | 0       |
+|    add_ln78_2_fu_1925_p2                                                                                                                      |     |        | add_ln78_2   | add | fabric | 0       |
+|    add_ln78_3_fu_1942_p2                                                                                                                      |     |        | add_ln78_3   | add | fabric | 0       |
+|    add_ln78_4_fu_1959_p2                                                                                                                      |     |        | add_ln78_4   | add | fabric | 0       |
+|    add_ln78_5_fu_1976_p2                                                                                                                      |     |        | add_ln78_5   | add | fabric | 0       |
+|    add_ln78_6_fu_1993_p2                                                                                                                      |     |        | add_ln78_6   | add | fabric | 0       |
+|    add_ln78_7_fu_2010_p2                                                                                                                      |     |        | add_ln78_7   | add | fabric | 0       |
+|    add_ln78_8_fu_2027_p2                                                                                                                      |     |        | add_ln78_8   | add | fabric | 0       |
+|    add_ln78_9_fu_2044_p2                                                                                                                      |     |        | add_ln78_9   | add | fabric | 0       |
+|    add_ln78_10_fu_2061_p2                                                                                                                     |     |        | add_ln78_10  | add | fabric | 0       |
+|    add_ln78_11_fu_2078_p2                                                                                                                     |     |        | add_ln78_11  | add | fabric | 0       |
+|    add_ln78_12_fu_2089_p2                                                                                                                     |     |        | add_ln78_12  | add | fabric | 0       |
+|    add_ln78_13_fu_2106_p2                                                                                                                     |     |        | add_ln78_13  | add | fabric | 0       |
+|    add_ln78_14_fu_2123_p2                                                                                                                     |     |        | add_ln78_14  | add | fabric | 0       |
+|    add_ln78_15_fu_2134_p2                                                                                                                     |     |        | add_ln78_15  | add | fabric | 0       |
+|    add_ln78_16_fu_2145_p2                                                                                                                     |     |        | add_ln78_16  | add | fabric | 0       |
+|    add_ln78_17_fu_2162_p2                                                                                                                     |     |        | add_ln78_17  | add | fabric | 0       |
+|    add_ln78_18_fu_2173_p2                                                                                                                     |     |        | add_ln78_18  | add | fabric | 0       |
+|    add_ln78_19_fu_2184_p2                                                                                                                     |     |        | add_ln78_19  | add | fabric | 0       |
+|    add_ln78_20_fu_2195_p2                                                                                                                     |     |        | add_ln78_20  | add | fabric | 0       |
+|    add_ln78_21_fu_2206_p2                                                                                                                     |     |        | add_ln78_21  | add | fabric | 0       |
+|    add_ln78_22_fu_2217_p2                                                                                                                     |     |        | add_ln78_22  | add | fabric | 0       |
+|    add_ln78_23_fu_2228_p2                                                                                                                     |     |        | add_ln78_23  | add | fabric | 0       |
+|    add_ln78_24_fu_2239_p2                                                                                                                     |     |        | add_ln78_24  | add | fabric | 0       |
+|    add_ln78_25_fu_2250_p2                                                                                                                     |     |        | add_ln78_25  | add | fabric | 0       |
+|    add_ln78_26_fu_2261_p2                                                                                                                     |     |        | add_ln78_26  | add | fabric | 0       |
+|    add_ln78_27_fu_2272_p2                                                                                                                     |     |        | add_ln78_27  | add | fabric | 0       |
+|    add_ln78_28_fu_2283_p2                                                                                                                     |     |        | add_ln78_28  | add | fabric | 0       |
+|    add_ln78_29_fu_2294_p2                                                                                                                     |     |        | add_ln78_29  | add | fabric | 0       |
+|    add_ln78_30_fu_2305_p2                                                                                                                     |     |        | add_ln78_30  | add | fabric | 0       |
+|    add_ln78_31_fu_2316_p2                                                                                                                     |     |        | add_ln78_31  | add | fabric | 0       |
+|    add_ln78_32_fu_2327_p2                                                                                                                     |     |        | add_ln78_32  | add | fabric | 0       |
+|    add_ln78_33_fu_2338_p2                                                                                                                     |     |        | add_ln78_33  | add | fabric | 0       |
+|    add_ln78_34_fu_2349_p2                                                                                                                     |     |        | add_ln78_34  | add | fabric | 0       |
+|    add_ln78_35_fu_2360_p2                                                                                                                     |     |        | add_ln78_35  | add | fabric | 0       |
+|    add_ln78_36_fu_2371_p2                                                                                                                     |     |        | add_ln78_36  | add | fabric | 0       |
+|    add_ln78_37_fu_2382_p2                                                                                                                     |     |        | add_ln78_37  | add | fabric | 0       |
+|    add_ln78_38_fu_2393_p2                                                                                                                     |     |        | add_ln78_38  | add | fabric | 0       |
+|    add_ln78_39_fu_2404_p2                                                                                                                     |     |        | add_ln78_39  | add | fabric | 0       |
+|    add_ln78_40_fu_2415_p2                                                                                                                     |     |        | add_ln78_40  | add | fabric | 0       |
+|    add_ln78_41_fu_2426_p2                                                                                                                     |     |        | add_ln78_41  | add | fabric | 0       |
+|    add_ln78_42_fu_2437_p2                                                                                                                     |     |        | add_ln78_42  | add | fabric | 0       |
+|    add_ln78_43_fu_2448_p2                                                                                                                     |     |        | add_ln78_43  | add | fabric | 0       |
+|    add_ln78_44_fu_2459_p2                                                                                                                     |     |        | add_ln78_44  | add | fabric | 0       |
+|    add_ln78_45_fu_2470_p2                                                                                                                     |     |        | add_ln78_45  | add | fabric | 0       |
+|    add_ln78_46_fu_2481_p2                                                                                                                     |     |        | add_ln78_46  | add | fabric | 0       |
+|    add_ln78_47_fu_2492_p2                                                                                                                     |     |        | add_ln78_47  | add | fabric | 0       |
+|    add_ln78_48_fu_2503_p2                                                                                                                     |     |        | add_ln78_48  | add | fabric | 0       |
+|    add_ln78_49_fu_2514_p2                                                                                                                     |     |        | add_ln78_49  | add | fabric | 0       |
+|    add_ln78_50_fu_2525_p2                                                                                                                     |     |        | add_ln78_50  | add | fabric | 0       |
+|    add_ln78_51_fu_2536_p2                                                                                                                     |     |        | add_ln78_51  | add | fabric | 0       |
+|    add_ln78_52_fu_2547_p2                                                                                                                     |     |        | add_ln78_52  | add | fabric | 0       |
+|    add_ln78_53_fu_2558_p2                                                                                                                     |     |        | add_ln78_53  | add | fabric | 0       |
+|    add_ln78_54_fu_2569_p2                                                                                                                     |     |        | add_ln78_54  | add | fabric | 0       |
+|    add_ln78_55_fu_2580_p2                                                                                                                     |     |        | add_ln78_55  | add | fabric | 0       |
+|    add_ln78_56_fu_2591_p2                                                                                                                     |     |        | add_ln78_56  | add | fabric | 0       |
+|    add_ln78_57_fu_2602_p2                                                                                                                     |     |        | add_ln78_57  | add | fabric | 0       |
+|    add_ln78_58_fu_2613_p2                                                                                                                     |     |        | add_ln78_58  | add | fabric | 0       |
+|    add_ln78_59_fu_2624_p2                                                                                                                     |     |        | add_ln78_59  | add | fabric | 0       |
+|    add_ln78_60_fu_2635_p2                                                                                                                     |     |        | add_ln78_60  | add | fabric | 0       |
+|    add_ln78_61_fu_2646_p2                                                                                                                     |     |        | add_ln78_61  | add | fabric | 0       |
+|    add_ln78_62_fu_2657_p2                                                                                                                     |     |        | add_ln78_62  | add | fabric | 0       |
+|    add_ln78_63_fu_2668_p2                                                                                                                     |     |        | add_ln78_63  | add | fabric | 0       |
+|    add_ln78_64_fu_2679_p2                                                                                                                     |     |        | add_ln78_64  | add | fabric | 0       |
+|    add_ln78_65_fu_2690_p2                                                                                                                     |     |        | add_ln78_65  | add | fabric | 0       |
+|    add_ln78_66_fu_2701_p2                                                                                                                     |     |        | add_ln78_66  | add | fabric | 0       |
+|    add_ln78_67_fu_2712_p2                                                                                                                     |     |        | add_ln78_67  | add | fabric | 0       |
+|    add_ln78_68_fu_2723_p2                                                                                                                     |     |        | add_ln78_68  | add | fabric | 0       |
+|    add_ln78_69_fu_2734_p2                                                                                                                     |     |        | add_ln78_69  | add | fabric | 0       |
+|    add_ln78_70_fu_2745_p2                                                                                                                     |     |        | add_ln78_70  | add | fabric | 0       |
+|    add_ln78_71_fu_2756_p2                                                                                                                     |     |        | add_ln78_71  | add | fabric | 0       |
+|    add_ln78_72_fu_2767_p2                                                                                                                     |     |        | add_ln78_72  | add | fabric | 0       |
+|    add_ln78_73_fu_2778_p2                                                                                                                     |     |        | add_ln78_73  | add | fabric | 0       |
+|    add_ln78_74_fu_2789_p2                                                                                                                     |     |        | add_ln78_74  | add | fabric | 0       |
+|    add_ln78_75_fu_2800_p2                                                                                                                     |     |        | add_ln78_75  | add | fabric | 0       |
+|    add_ln78_76_fu_2811_p2                                                                                                                     |     |        | add_ln78_76  | add | fabric | 0       |
+|    add_ln78_77_fu_2822_p2                                                                                                                     |     |        | add_ln78_77  | add | fabric | 0       |
+|    add_ln78_78_fu_2833_p2                                                                                                                     |     |        | add_ln78_78  | add | fabric | 0       |
+|    add_ln78_79_fu_2844_p2                                                                                                                     |     |        | add_ln78_79  | add | fabric | 0       |
+|    add_ln78_80_fu_2855_p2                                                                                                                     |     |        | add_ln78_80  | add | fabric | 0       |
+|    add_ln78_81_fu_2866_p2                                                                                                                     |     |        | add_ln78_81  | add | fabric | 0       |
+|    add_ln78_82_fu_2877_p2                                                                                                                     |     |        | add_ln78_82  | add | fabric | 0       |
+|    add_ln78_83_fu_2888_p2                                                                                                                     |     |        | add_ln78_83  | add | fabric | 0       |
+|    add_ln78_84_fu_2899_p2                                                                                                                     |     |        | add_ln78_84  | add | fabric | 0       |
+|    add_ln78_85_fu_2910_p2                                                                                                                     |     |        | add_ln78_85  | add | fabric | 0       |
+|    add_ln78_86_fu_2921_p2                                                                                                                     |     |        | add_ln78_86  | add | fabric | 0       |
+|    add_ln78_87_fu_2932_p2                                                                                                                     |     |        | add_ln78_87  | add | fabric | 0       |
+|    add_ln78_88_fu_2943_p2                                                                                                                     |     |        | add_ln78_88  | add | fabric | 0       |
+|    add_ln78_89_fu_2954_p2                                                                                                                     |     |        | add_ln78_89  | add | fabric | 0       |
+|    add_ln78_90_fu_2965_p2                                                                                                                     |     |        | add_ln78_90  | add | fabric | 0       |
+|    add_ln78_91_fu_2976_p2                                                                                                                     |     |        | add_ln78_91  | add | fabric | 0       |
+|    add_ln78_92_fu_2987_p2                                                                                                                     |     |        | add_ln78_92  | add | fabric | 0       |
+|    add_ln78_93_fu_2998_p2                                                                                                                     |     |        | add_ln78_93  | add | fabric | 0       |
+|    add_ln78_94_fu_3009_p2                                                                                                                     |     |        | add_ln78_94  | add | fabric | 0       |
+|    add_ln78_95_fu_3020_p2                                                                                                                     |     |        | add_ln78_95  | add | fabric | 0       |
+|    add_ln78_96_fu_3031_p2                                                                                                                     |     |        | add_ln78_96  | add | fabric | 0       |
+|    add_ln78_97_fu_3042_p2                                                                                                                     |     |        | add_ln78_97  | add | fabric | 0       |
+|    add_ln78_98_fu_3053_p2                                                                                                                     |     |        | add_ln78_98  | add | fabric | 0       |
+|    add_ln78_99_fu_3064_p2                                                                                                                     |     |        | add_ln78_99  | add | fabric | 0       |
+|    add_ln78_100_fu_3075_p2                                                                                                                    |     |        | add_ln78_100 | add | fabric | 0       |
+|    add_ln78_101_fu_3086_p2                                                                                                                    |     |        | add_ln78_101 | add | fabric | 0       |
+|    add_ln78_102_fu_3097_p2                                                                                                                    |     |        | add_ln78_102 | add | fabric | 0       |
+|    add_ln78_103_fu_3108_p2                                                                                                                    |     |        | add_ln78_103 | add | fabric | 0       |
+|    add_ln78_104_fu_3119_p2                                                                                                                    |     |        | add_ln78_104 | add | fabric | 0       |
+|    add_ln78_105_fu_3130_p2                                                                                                                    |     |        | add_ln78_105 | add | fabric | 0       |
+|    add_ln78_106_fu_3141_p2                                                                                                                    |     |        | add_ln78_106 | add | fabric | 0       |
+|    add_ln78_107_fu_3152_p2                                                                                                                    |     |        | add_ln78_107 | add | fabric | 0       |
+|    add_ln78_108_fu_3163_p2                                                                                                                    |     |        | add_ln78_108 | add | fabric | 0       |
+|    add_ln78_109_fu_3174_p2                                                                                                                    |     |        | add_ln78_109 | add | fabric | 0       |
+|    add_ln78_110_fu_3185_p2                                                                                                                    |     |        | add_ln78_110 | add | fabric | 0       |
+|    add_ln78_111_fu_3196_p2                                                                                                                    |     |        | add_ln78_111 | add | fabric | 0       |
+|    add_ln78_112_fu_3207_p2                                                                                                                    |     |        | add_ln78_112 | add | fabric | 0       |
+|    add_ln78_113_fu_3218_p2                                                                                                                    |     |        | add_ln78_113 | add | fabric | 0       |
+|    add_ln78_114_fu_3229_p2                                                                                                                    |     |        | add_ln78_114 | add | fabric | 0       |
+|    add_ln78_115_fu_3240_p2                                                                                                                    |     |        | add_ln78_115 | add | fabric | 0       |
+|    add_ln78_116_fu_3251_p2                                                                                                                    |     |        | add_ln78_116 | add | fabric | 0       |
+|    add_ln78_117_fu_3262_p2                                                                                                                    |     |        | add_ln78_117 | add | fabric | 0       |
+|    add_ln78_118_fu_3273_p2                                                                                                                    |     |        | add_ln78_118 | add | fabric | 0       |
+|    add_ln78_119_fu_3284_p2                                                                                                                    |     |        | add_ln78_119 | add | fabric | 0       |
+|    add_ln78_120_fu_3295_p2                                                                                                                    |     |        | add_ln78_120 | add | fabric | 0       |
+|    add_ln78_121_fu_3306_p2                                                                                                                    |     |        | add_ln78_121 | add | fabric | 0       |
+|    add_ln78_122_fu_3317_p2                                                                                                                    |     |        | add_ln78_122 | add | fabric | 0       |
+|    add_ln78_123_fu_3328_p2                                                                                                                    |     |        | add_ln78_123 | add | fabric | 0       |
+|    add_ln78_124_fu_3339_p2                                                                                                                    |     |        | add_ln78_124 | add | fabric | 0       |
+|    add_ln78_125_fu_3350_p2                                                                                                                    |     |        | add_ln78_125 | add | fabric | 0       |
+|    add_ln78_126_fu_3361_p2                                                                                                                    |     |        | add_ln78_126 | add | fabric | 0       |
+|    add_ln78_127_fu_3372_p2                                                                                                                    |     |        | add_ln78_127 | add | fabric | 0       |
+|    add_ln78_128_fu_3383_p2                                                                                                                    |     |        | add_ln78_128 | add | fabric | 0       |
+|    add_ln78_129_fu_3394_p2                                                                                                                    |     |        | add_ln78_129 | add | fabric | 0       |
+|    add_ln78_130_fu_3405_p2                                                                                                                    |     |        | add_ln78_130 | add | fabric | 0       |
+|    add_ln78_131_fu_3416_p2                                                                                                                    |     |        | add_ln78_131 | add | fabric | 0       |
+|    add_ln78_132_fu_3427_p2                                                                                                                    |     |        | add_ln78_132 | add | fabric | 0       |
+|    add_ln78_133_fu_3438_p2                                                                                                                    |     |        | add_ln78_133 | add | fabric | 0       |
+|    add_ln78_134_fu_3449_p2                                                                                                                    |     |        | add_ln78_134 | add | fabric | 0       |
+|    add_ln78_135_fu_3460_p2                                                                                                                    |     |        | add_ln78_135 | add | fabric | 0       |
+|    add_ln78_136_fu_3471_p2                                                                                                                    |     |        | add_ln78_136 | add | fabric | 0       |
+|    add_ln78_137_fu_3482_p2                                                                                                                    |     |        | add_ln78_137 | add | fabric | 0       |
+|    add_ln78_138_fu_3493_p2                                                                                                                    |     |        | add_ln78_138 | add | fabric | 0       |
+|    add_ln78_139_fu_3504_p2                                                                                                                    |     |        | add_ln78_139 | add | fabric | 0       |
+|    add_ln78_140_fu_3515_p2                                                                                                                    |     |        | add_ln78_140 | add | fabric | 0       |
+|    add_ln78_141_fu_3526_p2                                                                                                                    |     |        | add_ln78_141 | add | fabric | 0       |
+|    add_ln78_142_fu_3537_p2                                                                                                                    |     |        | add_ln78_142 | add | fabric | 0       |
+|    add_ln78_143_fu_3548_p2                                                                                                                    |     |        | add_ln78_143 | add | fabric | 0       |
+|    add_ln78_144_fu_3559_p2                                                                                                                    |     |        | add_ln78_144 | add | fabric | 0       |
+|    add_ln78_145_fu_3570_p2                                                                                                                    |     |        | add_ln78_145 | add | fabric | 0       |
+|    add_ln78_146_fu_3581_p2                                                                                                                    |     |        | add_ln78_146 | add | fabric | 0       |
+|    add_ln78_147_fu_3592_p2                                                                                                                    |     |        | add_ln78_147 | add | fabric | 0       |
+|    add_ln78_148_fu_3603_p2                                                                                                                    |     |        | add_ln78_148 | add | fabric | 0       |
+|    add_ln78_149_fu_3614_p2                                                                                                                    |     |        | add_ln78_149 | add | fabric | 0       |
+|    add_ln78_150_fu_3625_p2                                                                                                                    |     |        | add_ln78_150 | add | fabric | 0       |
+|    add_ln78_151_fu_3636_p2                                                                                                                    |     |        | add_ln78_151 | add | fabric | 0       |
+|    add_ln78_152_fu_3647_p2                                                                                                                    |     |        | add_ln78_152 | add | fabric | 0       |
+|    add_ln78_153_fu_3658_p2                                                                                                                    |     |        | add_ln78_153 | add | fabric | 0       |
+|    add_ln78_154_fu_3669_p2                                                                                                                    |     |        | add_ln78_154 | add | fabric | 0       |
+|    add_ln78_155_fu_3680_p2                                                                                                                    |     |        | add_ln78_155 | add | fabric | 0       |
+|    add_ln78_156_fu_3691_p2                                                                                                                    |     |        | add_ln78_156 | add | fabric | 0       |
+|    add_ln78_157_fu_3702_p2                                                                                                                    |     |        | add_ln78_157 | add | fabric | 0       |
+|    add_ln78_158_fu_3713_p2                                                                                                                    |     |        | add_ln78_158 | add | fabric | 0       |
+|    add_ln78_159_fu_3724_p2                                                                                                                    |     |        | add_ln78_159 | add | fabric | 0       |
+|    add_ln78_160_fu_3735_p2                                                                                                                    |     |        | add_ln78_160 | add | fabric | 0       |
+|    add_ln78_161_fu_3746_p2                                                                                                                    |     |        | add_ln78_161 | add | fabric | 0       |
+|    add_ln78_162_fu_3757_p2                                                                                                                    |     |        | add_ln78_162 | add | fabric | 0       |
+|    add_ln78_163_fu_3768_p2                                                                                                                    |     |        | add_ln78_163 | add | fabric | 0       |
+|    add_ln78_164_fu_3779_p2                                                                                                                    |     |        | add_ln78_164 | add | fabric | 0       |
+|    add_ln78_165_fu_3790_p2                                                                                                                    |     |        | add_ln78_165 | add | fabric | 0       |
+|    mul_22s_21s_36_1_1_U22                                                                                                                     | 2   |        | mul_ln149    | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U23                                                                                                                     | 2   |        | mul_ln149_1  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U24                                                                                                                     | 2   |        | mul_ln149_2  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U25                                                                                                                     | 2   |        | mul_ln149_3  | mul | auto   | 0       |
+|    mul_22s_21s_36_1_1_U26                                                                                                                     | 2   |        | mul_ln149_4  | mul | auto   | 0       |
++-----------------------------------------------------------------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-----------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+| Name                                                                                                                                          | Usage  | Type | BRAM | URAM | Pragma | Variable         | Impl | Latency | Bitwidth, Depth, |
+|                                                                                                                                               |        |      |      |      |        |                  |      |         | Banks            |
++-----------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+| + myproject                                                                                                                                   |        |      | 4    | 0    |        |                  |      |         |                  |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_248) |        |      | 1    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                         | rom_1p |      | 1    |      |        | invert_sqr_table | auto | 1       | 21, 256, 1       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_259) |        |      | 1    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                         | rom_1p |      | 1    |      |        | invert_sqr_table | auto | 1       | 21, 256, 1       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_270) |        |      | 1    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                         | rom_1p |      | 1    |      |        | invert_sqr_table | auto | 1       | 21, 256, 1       |
+|  + layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s (grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s_fu_281) |        |      | 1    | 0    |        |                  |      |         |                  |
+|    invert_sqr_table_U                                                                                                                         | rom_1p |      | 1    |      |        | invert_sqr_table | auto | 1       | 21, 256, 1       |
++-----------------------------------------------------------------------------------------------------------------------------------------------+--------+------+------+------+--------+------------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| Type     | Options                           | Location                                                                                | Messages                                                                   |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:33 in dense_resource_rf_leq_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:107 in dense_resource_rf_gt_nin_rem0, weights | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
+| resource | variable=weights core=ROM_nP_BRAM | firmware/nnet_utils/nnet_dense_resource.h:189 in dense_resource_rf_gt_nin, weights      | 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead |
++----------+-----------------------------------+-----------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
+
+* Valid Pragma Syntax
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| Type                 | Options                                                  | Location                                                                                       |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+| array_reshape        | variable=input_1 complete dim=0                          | firmware/myproject.cpp:13 in myproject, input_1                                                |
+| array_partition      | variable=layer2_out complete dim=0                       | firmware/myproject.cpp:14 in myproject, layer2_out                                             |
+| interface            | ap_vld port=input_1,layer2_out                           | firmware/myproject.cpp:15 in myproject, input_1,layer2_out                                     |
+| pipeline             |                                                          | firmware/myproject.cpp:16 in myproject                                                         |
+| array_partition      | variable=layer3_out complete dim=0                       | firmware/myproject.cpp:33 in myproject, layer3_out                                             |
+| array_partition      | variable=layer4_out complete dim=0                       | firmware/myproject.cpp:37 in myproject, layer4_out                                             |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_array.h:17 in transpose_2d                                            |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:44 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:53 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:64 in dense                                                   |
+| inline               |                                                          | firmware/nnet_utils/nnet_dense.h:75 in dense                                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_latency.h:21 in dense_latency, weights,biases                   |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_dense_latency.h:26 in dense_latency                                   |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_latency.h:29 in dense_latency, biases                           |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_latency.h:30 in dense_latency, mult                             |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_latency.h:31 in dense_latency, acc                              |
+| allocation           | operation instances=mul limit=CONFIG_T::multiplier_limit | firmware/nnet_utils/nnet_dense_latency.h:33 in dense_latency                                   |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:28 in dense_resource_rf_leq_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:29 in dense_resource_rf_leq_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:30 in dense_resource_rf_leq_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:37 in dense_resource_rf_leq_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:41 in dense_resource_rf_leq_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:47 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:56 in dense_resource_rf_leq_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:81 in dense_resource_rf_leq_nin                      |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:102 in dense_resource_rf_gt_nin_rem0, weights,biases |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:103 in dense_resource_rf_gt_nin_rem0, weights        |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:104 in dense_resource_rf_gt_nin_rem0, biases         |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:111 in dense_resource_rf_gt_nin_rem0, acc            |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:115 in dense_resource_rf_gt_nin_rem0                 |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:136 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:143 in dense_resource_rf_gt_nin_rem0                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:163 in dense_resource_rf_gt_nin_rem0                 |
+| function_instantiate | variable=weights,biases                                  | firmware/nnet_utils/nnet_dense_resource.h:184 in dense_resource_rf_gt_nin, weights,biases      |
+| array_reshape        | variable=weights block factor=block_factor               | firmware/nnet_utils/nnet_dense_resource.h:185 in dense_resource_rf_gt_nin, weights             |
+| array_partition      | variable=biases complete                                 | firmware/nnet_utils/nnet_dense_resource.h:186 in dense_resource_rf_gt_nin, biases              |
+| array_partition      | variable=acc complete                                    | firmware/nnet_utils/nnet_dense_resource.h:193 in dense_resource_rf_gt_nin, acc                 |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:197 in dense_resource_rf_gt_nin                      |
+| pipeline             | II=1 rewind                                              | firmware/nnet_utils/nnet_dense_resource.h:203 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=tmpmult complete                                | firmware/nnet_utils/nnet_dense_resource.h:205 in dense_resource_rf_gt_nin, tmpmult             |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:209 in dense_resource_rf_gt_nin                      |
+| array_partition      | variable=mult complete                                   | firmware/nnet_utils/nnet_dense_resource.h:219 in dense_resource_rf_gt_nin, mult                |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:223 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:229 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:239 in dense_resource_rf_gt_nin                      |
+| unroll               |                                                          | firmware/nnet_utils/nnet_dense_resource.h:249 in dense_resource_rf_gt_nin                      |
+| inline               | recursive                                                | firmware/nnet_utils/nnet_dense_resource.h:259 in dense_resource                                |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:74 in lookup_invert_sqr                                   |
+| unroll               | factor=4                                                 | firmware/nnet_utils/nnet_layernorm.h:77 in lookup_invert_sqr                                   |
+| pipeline             | II=CONFIG_T::reuse_factor                                | firmware/nnet_utils/nnet_layernorm.h:92 in layernorm_1d                                        |
+| array_partition      | variable=data complete                                   | firmware/nnet_utils/nnet_layernorm.h:93 in layernorm_1d, data                                  |
+| array_partition      | variable=res complete                                    | firmware/nnet_utils/nnet_layernorm.h:94 in layernorm_1d, res                                   |
+| array_partition      | variable=data_diff complete                              | firmware/nnet_utils/nnet_layernorm.h:122 in layernorm_1d, data_diff                            |
+| function_instantiate | variable=scale,bias                                      | firmware/nnet_utils/nnet_layernorm.h:161 in layernormalize, scale,bias                         |
+| array_partition      | variable=scale complete                                  | firmware/nnet_utils/nnet_layernorm.h:163 in layernormalize, scale                              |
+| array_partition      | variable=bias complete                                   | firmware/nnet_utils/nnet_layernorm.h:164 in layernormalize, bias                               |
+| array_partition      | variable=in_val complete                                 | firmware/nnet_utils/nnet_layernorm.h:165 in layernormalize, in_val                             |
+| array_partition      | variable=outval complete                                 | firmware/nnet_utils/nnet_layernorm.h:166 in layernormalize, outval                             |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_layernorm.h:170 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:173 in layernormalize                                     |
+| unroll               |                                                          | firmware/nnet_utils/nnet_layernorm.h:179 in layernormalize                                     |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:25 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:34 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:46 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:58 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:72 in product                                                  |
+| inline               |                                                          | firmware/nnet_utils/nnet_mult.h:82 in product                                                  |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:23 in clone_stream                                           |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:33 in clone_stream                                           |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:47 in clone_stream                                           |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:59 in clone_stream                                           |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:74 in repack_stream                                          |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:81 in repack_stream                                          |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:91 in repack_stream                                          |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:99 in repack_stream                                          |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:103 in repack_stream                                         |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:114 in repack_stream                                         |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:118 in repack_stream                                         |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:139 in broadcast_stream_1x1xc                                |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:142 in broadcast_stream_1x1xc                                |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:146 in broadcast_stream_1x1xc                                |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:160 in broadcast_stream_hxwx1                                |
+| unroll               |                                                          | firmware/nnet_utils/nnet_stream.h:165 in broadcast_stream_hxwx1                                |
+| array_partition      | variable=data_array complete                             | firmware/nnet_utils/nnet_stream.h:185 in transpose_2d, data_array                              |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:188 in transpose_2d                                          |
+| pipeline             |                                                          | firmware/nnet_utils/nnet_stream.h:196 in transpose_2d                                          |
+| unroll               |                                                          | firmware/nnet_utils/nnet_types.h:28 in operator=                                               |
++----------------------+----------------------------------------------------------+------------------------------------------------------------------------------------------------+
+
+

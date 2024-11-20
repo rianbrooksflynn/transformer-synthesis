@@ -1,0 +1,57 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 6,
+    "name": "myproject",
+    "total_instructions": 16488
+  },
+  "1": {
+    "basicblocks": 12,
+    "calls": "2 2 2 2",
+    "file": "nnet_layernorm.h",
+    "fileloc": 154,
+    "instructions": 186,
+    "loads": {
+      "L": 40
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 40
+    },
+    "total_instructions": 16482
+  },
+  "2": {
+    "basicblocks": 454,
+    "calls": "3",
+    "file": "nnet_layernorm.h",
+    "fileloc": 89,
+    "instructions": 980,
+    "loads": {
+      "L": 46
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 4074
+  },
+  "3": {
+    "basicblocks": 2567,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 63,
+    "instructions": 3094,
+    "loads": {
+      "G": 1,
+      "L": 4
+    },
+    "name": "lookup_invert_sqr<config2>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 3094
+  }
+}

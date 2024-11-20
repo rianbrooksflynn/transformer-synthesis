@@ -1,0 +1,895 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 20 20:51:03 2024
+# Process ID: 1715325
+# Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/vivado.log
+# Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/vivado.jou
+# Running On: olivb-20.cern.ch, OS: Linux, CPU Frequency: 3200.000 MHz, CPU Physical cores: 23, Host memory: 66857 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vivado"
+## variable part
+## set part "xcvu13p-flga2577-2-e"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 12.5%
+## variable version
+## set version "1.0.0"
+# add_files ${project_name}_prj/solution1/syn/verilog
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1542.035 ; gain = 35.805 ; free physical = 50032 ; free virtual = 92320
+# synth_design -top ${project_name} -part $part
+Command: synth_design -top myproject -part xcvu13p-flga2577-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu13p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu13p'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1715336
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1969.574 ; gain = 413.590 ; free physical = 49326 ; free virtual = 91628
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:7]
+	Parameter DataWidth bound to: 9 - type: integer 
+	Parameter AddressWidth bound to: 14 - type: integer 
+	Parameter AddressRange bound to: 16384 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.dat' is read successfully [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_22s_22s_38_1_1' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_22s_38_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 22 - type: integer 
+	Parameter din1_WIDTH bound to: 22 - type: integer 
+	Parameter dout_WIDTH bound to: 38 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_22s_22s_38_1_1' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_22s_38_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_22s_15ns_37_1_1' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_15ns_37_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 22 - type: integer 
+	Parameter din1_WIDTH bound to: 15 - type: integer 
+	Parameter dout_WIDTH bound to: 37 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_22s_15ns_37_1_1' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_15ns_37_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_22s_9ns_31_1_1' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_9ns_31_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 22 - type: integer 
+	Parameter din1_WIDTH bound to: 9 - type: integer 
+	Parameter dout_WIDTH bound to: 31 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_22s_9ns_31_1_1' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_mul_22s_9ns_31_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform/myproject_prj/solution1/syn/verilog/myproject.v:9]
+WARNING: [Synth 8-7129] Port reset in module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2057.512 ; gain = 501.527 ; free physical = 49223 ; free virtual = 91527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2075.324 ; gain = 519.340 ; free physical = 49213 ; free virtual = 91518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvu13p-flga2577-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xcvu13p-flga2577-2-e
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2092.234 ; gain = 536.250 ; free physical = 49205 ; free virtual = 91509
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2092.234 ; gain = 536.250 ; free physical = 49183 ; free virtual = 91496
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   22 Bit       Adders := 28    
+	   5 Input   22 Bit       Adders := 4     
+	   2 Input   20 Bit       Adders := 4     
++---Registers : 
+	              320 Bit    Registers := 1     
+	               22 Bit    Registers := 72    
+	               21 Bit    Registers := 4     
+	               20 Bit    Registers := 4     
+	               16 Bit    Registers := 20    
+	                9 Bit    Registers := 4     
+	                6 Bit    Registers := 4     
+	                1 Bit    Registers := 26    
++---ROMs : 
+	                    ROMs := 4     
++---Muxes : 
+	   2 Input  320 Bit        Muxes := 1     
+	   3 Input   20 Bit        Muxes := 4     
+	   2 Input   14 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP mean_reg_603_reg, operation Mode is: (A*(B:0x3333))'.
+DSP Report: register mean_reg_603_reg is absorbed into DSP mean_reg_603_reg.
+DSP Report: operator mul_22s_15ns_37_1_1_U6/tmp_product is absorbed into DSP mean_reg_603_reg.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U2/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U5/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U3/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U4/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_22s_15ns_37_1_1_U7/tmp_product, operation Mode is: A*(B:0x3333).
+DSP Report: operator mul_22s_15ns_37_1_1_U7/tmp_product is absorbed into DSP mul_22s_15ns_37_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U8/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_reg_608_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: register sub_ln134_reg_608_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U8/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U9/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U9/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U10/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U10/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U11/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U11/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U12/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U12/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: Generating DSP mean_reg_603_reg, operation Mode is: (A*(B:0x3333))'.
+DSP Report: register mean_reg_603_reg is absorbed into DSP mean_reg_603_reg.
+DSP Report: operator mul_22s_15ns_37_1_1_U6/tmp_product is absorbed into DSP mean_reg_603_reg.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U2/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U5/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U3/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U4/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_22s_15ns_37_1_1_U7/tmp_product, operation Mode is: A*(B:0x3333).
+DSP Report: operator mul_22s_15ns_37_1_1_U7/tmp_product is absorbed into DSP mul_22s_15ns_37_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U8/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_reg_608_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: register sub_ln134_reg_608_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U8/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U9/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U9/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U10/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U10/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U11/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U11/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U12/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U12/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: Generating DSP mean_reg_603_reg, operation Mode is: (A*(B:0x3333))'.
+DSP Report: register mean_reg_603_reg is absorbed into DSP mean_reg_603_reg.
+DSP Report: operator mul_22s_15ns_37_1_1_U6/tmp_product is absorbed into DSP mean_reg_603_reg.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U2/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U5/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U3/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U4/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_22s_15ns_37_1_1_U7/tmp_product, operation Mode is: A*(B:0x3333).
+DSP Report: operator mul_22s_15ns_37_1_1_U7/tmp_product is absorbed into DSP mul_22s_15ns_37_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U8/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_reg_608_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: register sub_ln134_reg_608_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U8/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U9/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U9/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U10/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U10/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U11/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U11/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U12/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U12/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: Generating DSP mean_reg_603_reg, operation Mode is: (A*(B:0x3333))'.
+DSP Report: register mean_reg_603_reg is absorbed into DSP mean_reg_603_reg.
+DSP Report: operator mul_22s_15ns_37_1_1_U6/tmp_product is absorbed into DSP mean_reg_603_reg.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U2/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U2/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U1/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U1/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U5/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U5/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U3/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U3/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_22s_22s_38_1_1_U4/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: operator mul_22s_22s_38_1_1_U4/tmp_product is absorbed into DSP mul_22s_22s_38_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_22s_15ns_37_1_1_U7/tmp_product, operation Mode is: A*(B:0x3333).
+DSP Report: operator mul_22s_15ns_37_1_1_U7/tmp_product is absorbed into DSP mul_22s_15ns_37_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U8/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_reg_608_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: register sub_ln134_reg_608_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U8/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U9/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: register sub_ln134_1_reg_618_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U9/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U10/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: register sub_ln134_2_reg_628_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U10/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U11/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: register sub_ln134_3_reg_633_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U11/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_22s_9ns_31_1_1_U12/tmp_product, operation Mode is: A''*B.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter2_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: register sub_ln134_4_reg_638_pp0_iter3_reg_reg is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+DSP Report: operator mul_22s_9ns_31_1_1_U12/tmp_product is absorbed into DSP mul_22s_9ns_31_1_1_U12/tmp_product.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47977 ; free virtual = 90394
+---------------------------------------------------------------------------------
+ Sort Area is  mul_22s_22s_38_1_1_U1/tmp_product_14 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U1/tmp_product_20 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U1/tmp_product_2c : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U1/tmp_product_6 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U2/tmp_product_15 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U2/tmp_product_21 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U2/tmp_product_2d : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U2/tmp_product_7 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U3/tmp_product_12 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U3/tmp_product_1e : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U3/tmp_product_2a : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U3/tmp_product_4 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U4/tmp_product_11 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U4/tmp_product_1d : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U4/tmp_product_2 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U4/tmp_product_29 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U5/tmp_product_13 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U5/tmp_product_1f : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U5/tmp_product_2b : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_22s_38_1_1_U5/tmp_product_5 : 0 0 : 3088 3088 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U10/tmp_product_19 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U10/tmp_product_25 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U10/tmp_product_31 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U10/tmp_product_d : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U11/tmp_product_1a : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U11/tmp_product_26 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U11/tmp_product_32 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U11/tmp_product_e : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U12/tmp_product_1b : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U12/tmp_product_27 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U12/tmp_product_33 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U12/tmp_product_f : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U8/tmp_product_17 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U8/tmp_product_23 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U8/tmp_product_2f : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U8/tmp_product_a : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U9/tmp_product_18 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U9/tmp_product_24 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U9/tmp_product_30 : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mul_22s_9ns_31_1_1_U9/tmp_product_c : 0 0 : 1434 1434 : Used 1 time 0
+ Sort Area is  mean_reg_603_reg_0 : 0 0 : 1294 1294 : Used 1 time 0
+ Sort Area is  mean_reg_603_reg_10 : 0 0 : 1294 1294 : Used 1 time 0
+ Sort Area is  mean_reg_603_reg_1c : 0 0 : 1294 1294 : Used 1 time 0
+ Sort Area is  mean_reg_603_reg_28 : 0 0 : 1294 1294 : Used 1 time 0
+ Sort Area is  mul_22s_15ns_37_1_1_U7/tmp_product_16 : 0 0 : 1257 1257 : Used 1 time 0
+ Sort Area is  mul_22s_15ns_37_1_1_U7/tmp_product_22 : 0 0 : 1257 1257 : Used 1 time 0
+ Sort Area is  mul_22s_15ns_37_1_1_U7/tmp_product_2e : 0 0 : 1257 1257 : Used 1 time 0
+ Sort Area is  mul_22s_15ns_37_1_1_U7/tmp_product_8 : 0 0 : 1257 1257 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++--------------------------------------------------------------------------+---------------------------+---------------+----------------+
+|Module Name                                                               | RTL Object                | Depth x Width | Implemented As | 
++--------------------------------------------------------------------------+---------------------------+---------------+----------------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | invert_sqr_table_U/q0_reg | 16384x9       | Block RAM      | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | invert_sqr_table_U/q0_reg | 16384x9       | Block RAM      | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | invert_sqr_table_U/q0_reg | 16384x9       | Block RAM      | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | invert_sqr_table_U/q0_reg | 16384x9       | Block RAM      | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | invert_sqr_table_U/q0_reg | 16384x9       | Block RAM      | 
++--------------------------------------------------------------------------+---------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                               | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*(B:0x3333))' | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*(B:0x3333)    | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*(B:0x3333))' | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*(B:0x3333)    | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*(B:0x3333))' | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*(B:0x3333)    | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*(B:0x3333))' | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B             | 22     | 18     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*(B:0x3333)    | 22     | 15     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B           | 22     | 10     | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47977 ; free virtual = 90394
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47976 ; free virtual = 90394
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                               | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*B)'      | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*B         | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*B)'      | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*B         | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*B)'      | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*B         | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (A*B)'      | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|myproject_mul_22s_15ns_37_1_1                                             | A*B         | 30     | 14     | -      | -      | 37     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_mul_22s_22s_38_1_1                                              | A*B         | 30     | 17     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B       | 30     | 9      | -      | -      | 32     | 2    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |BUFG            |     1|
+|2     |CARRY8          |   292|
+|3     |DSP_ALU         |    48|
+|4     |DSP_A_B_DATA    |    48|
+|5     |DSP_C_DATA      |    48|
+|6     |DSP_MULTIPLIER  |    48|
+|7     |DSP_M_DATA      |    48|
+|8     |DSP_OUTPUT      |    48|
+|9     |DSP_PREADD      |    48|
+|10    |DSP_PREADD_DATA |    48|
+|11    |LUT1            |   104|
+|12    |LUT2            |  1093|
+|13    |LUT3            |   658|
+|14    |LUT4            |   207|
+|15    |LUT5            |   345|
+|16    |LUT6            |  1232|
+|17    |RAMB18E2        |     2|
+|18    |RAMB36E2        |     8|
+|19    |FDRE            |  1401|
+|20    |IBUF            |   324|
+|21    |OBUF            |   683|
++------+----------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+|      |Instance                                                                     |Module                                                                                                                    |Cells |
++------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+|1     |top                                                                          |                                                                                                                          |  6734|
+|2     |  grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s                                                 |  1351|
+|3     |    mean_reg_603_reg                                                         |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325/mean_reg_603_reg_funnel__1                    |     8|
+|4     |    invert_sqr_table_U                                                       |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb_33                             |    20|
+|5     |    mul_22s_15ns_37_1_1_U7                                                   |myproject_mul_22s_15ns_37_1_1_34                                                                                          |    12|
+|6     |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__21  |     8|
+|7     |    mul_22s_22s_38_1_1_U1                                                    |myproject_mul_22s_22s_38_1_1_35                                                                                           |   153|
+|8     |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__10  |     8|
+|9     |    mul_22s_22s_38_1_1_U2                                                    |myproject_mul_22s_22s_38_1_1_36                                                                                           |   152|
+|10    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__11  |     8|
+|11    |    mul_22s_22s_38_1_1_U3                                                    |myproject_mul_22s_22s_38_1_1_37                                                                                           |   153|
+|12    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__9   |     8|
+|13    |    mul_22s_22s_38_1_1_U4                                                    |myproject_mul_22s_22s_38_1_1_38                                                                                           |   156|
+|14    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__4   |     8|
+|15    |    mul_22s_22s_38_1_1_U5                                                    |myproject_mul_22s_22s_38_1_1_39                                                                                           |   197|
+|16    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__20  |     8|
+|17    |    mul_22s_9ns_31_1_1_U10                                                   |myproject_mul_22s_9ns_31_1_1_40                                                                                           |     8|
+|18    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__17  |     8|
+|19    |    mul_22s_9ns_31_1_1_U11                                                   |myproject_mul_22s_9ns_31_1_1_41                                                                                           |     8|
+|20    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__5   |     8|
+|21    |    mul_22s_9ns_31_1_1_U12                                                   |myproject_mul_22s_9ns_31_1_1_42                                                                                           |     8|
+|22    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__8   |     8|
+|23    |    mul_22s_9ns_31_1_1_U8                                                    |myproject_mul_22s_9ns_31_1_1_43                                                                                           |     8|
+|24    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__1   |     8|
+|25    |    mul_22s_9ns_31_1_1_U9                                                    |myproject_mul_22s_9ns_31_1_1_44                                                                                           |     8|
+|26    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__6   |     8|
+|27    |  grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_0                                               |  1346|
+|28    |    mean_reg_603_reg                                                         |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325/mean_reg_603_reg_funnel__2                    |     8|
+|29    |    mul_22s_15ns_37_1_1_U7                                                   |myproject_mul_22s_15ns_37_1_1_22                                                                                          |    12|
+|30    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__2   |     8|
+|31    |    mul_22s_22s_38_1_1_U1                                                    |myproject_mul_22s_22s_38_1_1_23                                                                                           |   153|
+|32    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__19  |     8|
+|33    |    mul_22s_22s_38_1_1_U2                                                    |myproject_mul_22s_22s_38_1_1_24                                                                                           |   152|
+|34    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__3   |     8|
+|35    |    mul_22s_22s_38_1_1_U3                                                    |myproject_mul_22s_22s_38_1_1_25                                                                                           |   153|
+|36    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__17  |     8|
+|37    |    mul_22s_22s_38_1_1_U4                                                    |myproject_mul_22s_22s_38_1_1_26                                                                                           |   156|
+|38    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__8   |     8|
+|39    |    mul_22s_22s_38_1_1_U5                                                    |myproject_mul_22s_22s_38_1_1_27                                                                                           |   197|
+|40    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel      |     8|
+|41    |    mul_22s_9ns_31_1_1_U10                                                   |myproject_mul_22s_9ns_31_1_1_28                                                                                           |     8|
+|42    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__19  |     8|
+|43    |    mul_22s_9ns_31_1_1_U11                                                   |myproject_mul_22s_9ns_31_1_1_29                                                                                           |     8|
+|44    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__9   |     8|
+|45    |    mul_22s_9ns_31_1_1_U12                                                   |myproject_mul_22s_9ns_31_1_1_30                                                                                           |     8|
+|46    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__4   |     8|
+|47    |    mul_22s_9ns_31_1_1_U8                                                    |myproject_mul_22s_9ns_31_1_1_31                                                                                           |     8|
+|48    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__11  |     8|
+|49    |    mul_22s_9ns_31_1_1_U9                                                    |myproject_mul_22s_9ns_31_1_1_32                                                                                           |     8|
+|50    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__12  |     8|
+|51    |  grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_1                                               |  1352|
+|52    |    mean_reg_603_reg                                                         |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325/mean_reg_603_reg_funnel__3                    |     8|
+|53    |    invert_sqr_table_U                                                       |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb                                |    21|
+|54    |    mul_22s_15ns_37_1_1_U7                                                   |myproject_mul_22s_15ns_37_1_1_11                                                                                          |    12|
+|55    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__7   |     8|
+|56    |    mul_22s_22s_38_1_1_U1                                                    |myproject_mul_22s_22s_38_1_1_12                                                                                           |   153|
+|57    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__23  |     8|
+|58    |    mul_22s_22s_38_1_1_U2                                                    |myproject_mul_22s_22s_38_1_1_13                                                                                           |   152|
+|59    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__13  |     8|
+|60    |    mul_22s_22s_38_1_1_U3                                                    |myproject_mul_22s_22s_38_1_1_14                                                                                           |   153|
+|61    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__18  |     8|
+|62    |    mul_22s_22s_38_1_1_U4                                                    |myproject_mul_22s_22s_38_1_1_15                                                                                           |   156|
+|63    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__6   |     8|
+|64    |    mul_22s_22s_38_1_1_U5                                                    |myproject_mul_22s_22s_38_1_1_16                                                                                           |   197|
+|65    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__1   |     8|
+|66    |    mul_22s_9ns_31_1_1_U10                                                   |myproject_mul_22s_9ns_31_1_1_17                                                                                           |     8|
+|67    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__3   |     8|
+|68    |    mul_22s_9ns_31_1_1_U11                                                   |myproject_mul_22s_9ns_31_1_1_18                                                                                           |     8|
+|69    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__13  |     8|
+|70    |    mul_22s_9ns_31_1_1_U12                                                   |myproject_mul_22s_9ns_31_1_1_19                                                                                           |     8|
+|71    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__18  |     8|
+|72    |    mul_22s_9ns_31_1_1_U8                                                    |myproject_mul_22s_9ns_31_1_1_20                                                                                           |     8|
+|73    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel      |     8|
+|74    |    mul_22s_9ns_31_1_1_U9                                                    |myproject_mul_22s_9ns_31_1_1_21                                                                                           |     8|
+|75    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__15  |     8|
+|76    |  grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_2                                               |  1347|
+|77    |    mean_reg_603_reg                                                         |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_325/mean_reg_603_reg_funnel                       |     8|
+|78    |    mul_22s_15ns_37_1_1_U7                                                   |myproject_mul_22s_15ns_37_1_1                                                                                             |    12|
+|79    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__15  |     8|
+|80    |    mul_22s_22s_38_1_1_U1                                                    |myproject_mul_22s_22s_38_1_1                                                                                              |   153|
+|81    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__12  |     8|
+|82    |    mul_22s_22s_38_1_1_U2                                                    |myproject_mul_22s_22s_38_1_1_3                                                                                            |   152|
+|83    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__16  |     8|
+|84    |    mul_22s_22s_38_1_1_U3                                                    |myproject_mul_22s_22s_38_1_1_4                                                                                            |   153|
+|85    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__22  |     8|
+|86    |    mul_22s_22s_38_1_1_U4                                                    |myproject_mul_22s_22s_38_1_1_5                                                                                            |   156|
+|87    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__5   |     8|
+|88    |    mul_22s_22s_38_1_1_U5                                                    |myproject_mul_22s_22s_38_1_1_6                                                                                            |   197|
+|89    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_303/mul_22s_22s_38_1_1_U5/tmp_product_funnel__14  |     8|
+|90    |    mul_22s_9ns_31_1_1_U10                                                   |myproject_mul_22s_9ns_31_1_1                                                                                              |     8|
+|91    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__10  |     8|
+|92    |    mul_22s_9ns_31_1_1_U11                                                   |myproject_mul_22s_9ns_31_1_1_7                                                                                            |     8|
+|93    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__14  |     8|
+|94    |    mul_22s_9ns_31_1_1_U12                                                   |myproject_mul_22s_9ns_31_1_1_8                                                                                            |     9|
+|95    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__2   |     8|
+|96    |    mul_22s_9ns_31_1_1_U8                                                    |myproject_mul_22s_9ns_31_1_1_9                                                                                            |     8|
+|97    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__16  |     8|
+|98    |    mul_22s_9ns_31_1_1_U9                                                    |myproject_mul_22s_9ns_31_1_1_10                                                                                           |     8|
+|99    |      tmp_product                                                            |\grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/mul_22s_9ns_31_1_1_U8/tmp_product_funnel__7   |     8|
++------+-----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.836 ; gain = 1624.852 ; free physical = 47978 ; free virtual = 90395
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 3180.844 ; gain = 1624.852 ; free physical = 47977 ; free virtual = 90395
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3180.844 ; gain = 0.000 ; free physical = 48257 ; free virtual = 90674
+INFO: [Netlist 29-17] Analyzing 665 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_0 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_1 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_2 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_3 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_292/invert_sqr_table_U/q0_reg_4 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_0 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_1 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_2 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_3 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_314/invert_sqr_table_U/q0_reg_4 has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3285.457 ; gain = 0.000 ; free physical = 48186 ; free virtual = 90625
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 373 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 48 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 324 instances
+
+Synth Design complete | Checksum: e6bf7c71
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:03 . Memory (MB): peak = 3285.492 ; gain = 1743.457 ; free physical = 48185 ; free virtual = 90623
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2406.494; main = 2328.632; forked = 325.282
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4782.180; main = 3285.461; forked = 1601.340
+# opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Command: opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu13p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu13p'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3349.488 ; gain = 63.996 ; free physical = 48187 ; free virtual = 90627
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 3406.879 ; gain = 57.391 ; free physical = 48154 ; free virtual = 90613
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Phase 1 Initialization | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.91 ; elapsed = 00:00:00.27 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.93 ; elapsed = 00:00:00.29 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Phase 2 Timer Update And Timing Data Collection | Checksum: 106ee2915
+
+Time (s): cpu = 00:00:00.93 ; elapsed = 00:00:00.29 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 9fbd1c34
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.46 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Retarget | Checksum: 9fbd1c34
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1095a3bbe
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.55 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Constant propagation | Checksum: 1095a3bbe
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 2df06635
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.75 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Sweep | Checksum: 2df06635
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 2df06635
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.76 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Shift Register Optimization | Checksum: 2df06635
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 2df06635
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.88 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Post Processing Netlist | Checksum: 2df06635
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 8 Finalization
+
+Phase 8.1 Finalizing Design Cores and Updating Shapes
+Phase 8.1 Finalizing Design Cores and Updating Shapes | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Phase 8.2 Verifying Netlist Connectivity
+Phase 8.2 Verifying Netlist Connectivity | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Phase 8 Finalization | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3636.879 ; gain = 0.000 ; free physical = 47912 ; free virtual = 90371
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 10 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 20
+Ending PowerOpt Patch Enables Task | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3968.477 ; gain = 0.000 ; free physical = 47708 ; free virtual = 90209
+Ending Power Optimization Task | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 3968.477 ; gain = 331.598 ; free physical = 47707 ; free virtual = 90207
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3968.477 ; gain = 0.000 ; free physical = 47706 ; free virtual = 90207
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3968.477 ; gain = 0.000 ; free physical = 47706 ; free virtual = 90207
+Ending Netlist Obfuscation Task | Checksum: 9c441a6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3968.477 ; gain = 0.000 ; free physical = 47706 ; free virtual = 90207
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:29 . Memory (MB): peak = 3968.477 ; gain = 682.984 ; free physical = 47706 ; free virtual = 90207
+# report_utilization -file vivado_synth.rpt
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 20:52:53 2024...

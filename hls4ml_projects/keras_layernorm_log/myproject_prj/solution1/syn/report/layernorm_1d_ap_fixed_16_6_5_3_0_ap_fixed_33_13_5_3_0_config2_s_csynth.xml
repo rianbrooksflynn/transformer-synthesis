@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2020.1</Version>
+<Version>2023.2</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -16,32 +16,37 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>function</PipelineType>
+<PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>212.445</EstimatedClockPeriod>
+<EstimatedClockPeriod>4.126</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>5</Best-caseLatency>
-<Average-caseLatency>5</Average-caseLatency>
-<Worst-caseLatency>5</Worst-caseLatency>
-<Best-caseRealTimeLatency>1.062 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>1.062 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>1.062 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>4</Best-caseLatency>
+<Average-caseLatency>4</Average-caseLatency>
+<Worst-caseLatency>4</Worst-caseLatency>
+<Best-caseRealTimeLatency>20.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>20.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>20.000 ns</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1</PipelineInitiationInterval>
-<PipelineDepth>6</PipelineDepth>
+<PipelineDepth>5</PipelineDepth>
 <Interval-min>1</Interval-min>
 <Interval-max>1</Interval-max>
 </SummaryOfOverallLatency>
+<SummaryOfViolations>
+<IssueType>-</IssueType>
+<ViolationType>-</ViolationType>
+<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:128</SourceLocation>
+</SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>1</BRAM_18K>
 <DSP>17</DSP>
-<FF>678</FF>
-<LUT>7252</LUT>
+<FF>956</FF>
+<LUT>17196</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -187,8 +192,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>p_read</name>
-<Object>p_read</Object>
+<name>data_0_val</name>
+<Object>data_0_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -198,8 +203,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>p_read1</name>
-<Object>p_read1</Object>
+<name>data_1_val</name>
+<Object>data_1_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -209,8 +214,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>p_read2</name>
-<Object>p_read2</Object>
+<name>data_2_val</name>
+<Object>data_2_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -220,8 +225,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>p_read3</name>
-<Object>p_read3</Object>
+<name>data_3_val</name>
+<Object>data_3_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -231,8 +236,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>p_read4</name>
-<Object>p_read4</Object>
+<name>data_4_val</name>
+<Object>data_4_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

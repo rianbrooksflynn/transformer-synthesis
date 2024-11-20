@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s'" level="0">
-<item name = "Date">Wed Nov 20 14:28:07 2024
+<item name = "Date">Wed Nov 20 21:02:13 2024
 </item>
-<item name = "Version">2020.1 (Build 2902540 on Wed May 27 20:16:15 MDT 2020)</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">virtexuplus</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="">0, 0, 0 ns, 0 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Detail">
@@ -117,26 +117,26 @@
 <column name="ap_return_17">out, 16, ap_ctrl_hs, transpose_2d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config4&gt;, return value</column>
 <column name="ap_return_18">out, 16, ap_ctrl_hs, transpose_2d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config4&gt;, return value</column>
 <column name="ap_return_19">out, 16, ap_ctrl_hs, transpose_2d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config4&gt;, return value</column>
-<column name="p_read">in, 16, ap_none, p_read, scalar</column>
-<column name="p_read1">in, 16, ap_none, p_read1, scalar</column>
-<column name="p_read2">in, 16, ap_none, p_read2, scalar</column>
-<column name="p_read3">in, 16, ap_none, p_read3, scalar</column>
-<column name="p_read4">in, 16, ap_none, p_read4, scalar</column>
-<column name="p_read5">in, 16, ap_none, p_read5, scalar</column>
-<column name="p_read6">in, 16, ap_none, p_read6, scalar</column>
-<column name="p_read7">in, 16, ap_none, p_read7, scalar</column>
-<column name="p_read8">in, 16, ap_none, p_read8, scalar</column>
-<column name="p_read9">in, 16, ap_none, p_read9, scalar</column>
-<column name="p_read10">in, 16, ap_none, p_read10, scalar</column>
-<column name="p_read11">in, 16, ap_none, p_read11, scalar</column>
-<column name="p_read12">in, 16, ap_none, p_read12, scalar</column>
-<column name="p_read13">in, 16, ap_none, p_read13, scalar</column>
-<column name="p_read14">in, 16, ap_none, p_read14, scalar</column>
-<column name="p_read15">in, 16, ap_none, p_read15, scalar</column>
-<column name="p_read16">in, 16, ap_none, p_read16, scalar</column>
-<column name="p_read17">in, 16, ap_none, p_read17, scalar</column>
-<column name="p_read18">in, 16, ap_none, p_read18, scalar</column>
-<column name="p_read19">in, 16, ap_none, p_read19, scalar</column>
+<column name="data_0_val">in, 16, ap_none, data_0_val, scalar</column>
+<column name="data_1_val">in, 16, ap_none, data_1_val, scalar</column>
+<column name="data_2_val">in, 16, ap_none, data_2_val, scalar</column>
+<column name="data_3_val">in, 16, ap_none, data_3_val, scalar</column>
+<column name="data_4_val">in, 16, ap_none, data_4_val, scalar</column>
+<column name="data_5_val">in, 16, ap_none, data_5_val, scalar</column>
+<column name="data_6_val">in, 16, ap_none, data_6_val, scalar</column>
+<column name="data_7_val">in, 16, ap_none, data_7_val, scalar</column>
+<column name="data_8_val">in, 16, ap_none, data_8_val, scalar</column>
+<column name="data_9_val">in, 16, ap_none, data_9_val, scalar</column>
+<column name="data_10_val">in, 16, ap_none, data_10_val, scalar</column>
+<column name="data_11_val">in, 16, ap_none, data_11_val, scalar</column>
+<column name="data_12_val">in, 16, ap_none, data_12_val, scalar</column>
+<column name="data_13_val">in, 16, ap_none, data_13_val, scalar</column>
+<column name="data_14_val">in, 16, ap_none, data_14_val, scalar</column>
+<column name="data_15_val">in, 16, ap_none, data_15_val, scalar</column>
+<column name="data_16_val">in, 16, ap_none, data_16_val, scalar</column>
+<column name="data_17_val">in, 16, ap_none, data_17_val, scalar</column>
+<column name="data_18_val">in, 16, ap_none, data_18_val, scalar</column>
+<column name="data_19_val">in, 16, ap_none, data_19_val, scalar</column>
 </table>
 </item>
 </section>

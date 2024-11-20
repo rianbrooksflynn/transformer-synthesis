@@ -1,0 +1,107 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 6,
+    "name": "myproject",
+    "total_instructions": 4479
+  },
+  "1": {
+    "basicblocks": 19,
+    "calls": "5",
+    "file": "nnet_layernorm.h",
+    "fileloc": 154,
+    "instructions": 63,
+    "loads": {
+      "L": 2
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 4473
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 70,
+    "instructions": 4,
+    "name": "product",
+    "total_instructions": 149
+  },
+  "3": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 46,
+    "instructions": 42,
+    "loads": {
+      "L": 2
+    },
+    "name": "init_invert_sqr_table<config2, 256>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 827
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "s2.h",
+    "fileloc": 12,
+    "instructions": 6,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 1931
+  },
+  "5": {
+    "basicblocks": 21,
+    "calls": "3 2 2 6",
+    "file": "nnet_layernorm.h",
+    "fileloc": 89,
+    "instructions": 245,
+    "loads": {
+      "L": 9
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 4410
+  },
+  "6": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 63,
+    "instructions": 54,
+    "loads": {
+      "L": 4
+    },
+    "name": "lookup_invert_sqr<config2>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 338
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "4 8",
+    "file": "myproject.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 3,
+    "name": "",
+    "total_instructions": 3865
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "b2.h",
+    "fileloc": 12,
+    "instructions": 6,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 1931
+  }
+}

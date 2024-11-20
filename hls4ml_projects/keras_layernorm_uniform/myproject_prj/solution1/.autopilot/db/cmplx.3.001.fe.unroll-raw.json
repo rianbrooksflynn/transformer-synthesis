@@ -1,0 +1,42 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 6,
+    "name": "myproject",
+    "total_instructions": 4132
+  },
+  "1": {
+    "basicblocks": 460,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 89,
+    "instructions": 985,
+    "loads": {
+      "G": 1,
+      "L": 45
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 985
+  },
+  "2": {
+    "basicblocks": 12,
+    "calls": "1 1 1 1",
+    "file": "nnet_layernorm.h",
+    "fileloc": 154,
+    "instructions": 186,
+    "loads": {
+      "L": 40
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 40
+    },
+    "total_instructions": 4126
+  }
+}

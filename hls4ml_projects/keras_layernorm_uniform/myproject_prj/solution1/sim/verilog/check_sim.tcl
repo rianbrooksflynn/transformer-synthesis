@@ -1,6 +1,9 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.1 (64-bit)
-# Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+# Tool Version Limit: 2023.10
+# Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+# Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+# 
 # ==============================================================
 proc sc_sim_check {ret err logfile} {
 	if {$::AESL_AUTOSIM::gDebug == 1} {
@@ -81,18 +84,11 @@ proc check_tvin_file {} {
 	}
     set rtlfilelist {
          "c.myproject.autotvin_layer_normalization_input.dat"
-         "c.myproject.autotvin_layer2_out.dat"
-         "c.myproject.autotvout_layer2_out.dat"
     }
     foreach rtlfile $rtlfilelist {
         if {[file isfile $rtlfile]} {
         } else {
             ::AP::printMsg ERR COSIM 320 COSIM_320_994
-            return 1
-        }
-        set ret [catch {eval exec "grep /runtime $rtlfile"} err]
-        if { $ret } {
-            ::AP::printMsg ERR COSIM 320 COSIM_320_995
             return 1
         }
     }
@@ -107,17 +103,31 @@ proc check_tvout_file {} {
 		puts stdout "[debug_prompt arg check_sim.tcl] start...";
 	}
     set rtlfilelist {
-         "rtl.myproject.autotvout_layer2_out.dat"
+         "rtl.myproject.autotvout_layer2_out_0.dat"
+         "rtl.myproject.autotvout_layer2_out_1.dat"
+         "rtl.myproject.autotvout_layer2_out_2.dat"
+         "rtl.myproject.autotvout_layer2_out_3.dat"
+         "rtl.myproject.autotvout_layer2_out_4.dat"
+         "rtl.myproject.autotvout_layer2_out_5.dat"
+         "rtl.myproject.autotvout_layer2_out_6.dat"
+         "rtl.myproject.autotvout_layer2_out_7.dat"
+         "rtl.myproject.autotvout_layer2_out_8.dat"
+         "rtl.myproject.autotvout_layer2_out_9.dat"
+         "rtl.myproject.autotvout_layer2_out_10.dat"
+         "rtl.myproject.autotvout_layer2_out_11.dat"
+         "rtl.myproject.autotvout_layer2_out_12.dat"
+         "rtl.myproject.autotvout_layer2_out_13.dat"
+         "rtl.myproject.autotvout_layer2_out_14.dat"
+         "rtl.myproject.autotvout_layer2_out_15.dat"
+         "rtl.myproject.autotvout_layer2_out_16.dat"
+         "rtl.myproject.autotvout_layer2_out_17.dat"
+         "rtl.myproject.autotvout_layer2_out_18.dat"
+         "rtl.myproject.autotvout_layer2_out_19.dat"
     }
     foreach rtlfile $rtlfilelist {
         if {[file isfile $rtlfile]} {
         } else {
             ::AP::printMsg ERR COSIM 303 COSIM_303_996
-            return 1
-        }
-        set ret [catch {eval exec "grep /runtime $rtlfile"} err]
-        if { $ret } {
-            ::AP::printMsg ERR COSIM 303 COSIM_303_997
             return 1
         }
     }

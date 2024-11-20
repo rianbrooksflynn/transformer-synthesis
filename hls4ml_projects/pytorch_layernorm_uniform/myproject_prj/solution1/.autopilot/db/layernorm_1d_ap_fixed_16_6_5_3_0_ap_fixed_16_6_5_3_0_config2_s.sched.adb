@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE boost_serialization>
-<boost_serialization signature="serialization::archive" version="15">
+<boost_serialization signature="serialization::archive" version="17">
 <syndb class_id="0" tracking_level="0" version="0">
 	<userIPLatency>-1</userIPLatency>
 	<userIPName></userIPName>
 	<cdfg class_id="1" tracking_level="1" version="0" object_id="_0">
 		<name>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s</name>
+		<module_structure>Pipeline</module_structure>
 		<ret_bitwidth>80</ret_bitwidth>
 		<ports class_id="2" tracking_level="0" version="0">
 			<count>5</count>
@@ -15,7 +16,7 @@
 					<Obj class_id="5" tracking_level="0" version="0">
 						<type>1</type>
 						<id>1</id>
-						<name>p_read</name>
+						<name>data_0_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27,7 +28,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -44,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>p_read1</name>
+						<name>data_1_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -56,7 +64,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3621216858</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -73,7 +88,7 @@
 					<Obj>
 						<type>1</type>
 						<id>3</id>
-						<name>p_read2</name>
+						<name>data_2_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -85,7 +100,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1542950240</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -102,7 +124,7 @@
 					<Obj>
 						<type>1</type>
 						<id>4</id>
-						<name>p_read3</name>
+						<name>data_3_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -114,7 +136,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>109</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -131,7 +160,7 @@
 					<Obj>
 						<type>1</type>
 						<id>5</id>
-						<name>p_read4</name>
+						<name>data_4_val</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -143,7 +172,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1520588080</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -157,40 +193,47 @@
 			</item>
 		</ports>
 		<nodes class_id="8" tracking_level="0" version="0">
-			<count>84</count>
+			<count>85</count>
 			<item_version>0</item_version>
 			<item class_id="9" tracking_level="1" version="0" object_id="_6">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>9</id>
-						<name>p_read49</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>8</id>
+						<name>data_4_val_read</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1701669236</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -213,34 +256,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>10</id>
-						<name>p_read38</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>9</id>
+						<name>data_3_val_read</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1830842991</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -263,34 +313,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>11</id>
-						<name>p_read27</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>10</id>
+						<name>data_2_val_read</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>757935405</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -313,34 +370,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>12</id>
-						<name>p_read16</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>11</id>
+						<name>data_1_val_read</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1986360096</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -363,34 +427,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>13</id>
-						<name>p_read_21</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>12</id>
+						<name>data_0_val_read</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>757935405</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -413,34 +484,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>14</id>
-						<name>shl_ln</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>13</id>
+						<name>sum_cache</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>sum_cache</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1043276322</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -464,34 +542,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>15</id>
-						<name>shl_ln728_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>14</id>
+						<name>shl_ln</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>757935405</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -515,34 +600,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>16</id>
-						<name>shl_ln728_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>15</id>
+						<name>shl_ln128_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>962539825</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -566,34 +658,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>17</id>
-						<name>shl_ln728_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>16</id>
+						<name>shl_ln128_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1847619183</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -617,34 +716,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>18</id>
-						<name>shl_ln728_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>728</lineNumber>
-						<contextFuncName>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_16_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>17</id>
+						<name>shl_ln128_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;16, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>728</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1919251558</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -668,34 +774,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>19</id>
-						<name>add_ln703</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>18</id>
+						<name>add_ln128_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1868525665</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -718,34 +831,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>20</id>
-						<name>add_ln703_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>19</id>
+						<name>add_ln128_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1953391988</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -768,34 +888,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>21</id>
-						<name>add_ln703_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>20</id>
+						<name>add_ln128_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1919841568</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -818,34 +945,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>22</id>
-						<name>add_ln703_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>21</id>
+						<name>add_ln128</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>128</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>128</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1685024095</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -868,34 +1002,48 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>23</id>
-						<name>sext_ln1118</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>22</id>
+						<name>sext_ln73</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>73</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>130</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>73</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2036427871</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>37</bitwidth>
 				</Value>
@@ -917,41 +1065,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>24</id>
-						<name>r_V</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>23</id>
+						<name>mul_ln73</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>73</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>130</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>73</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>r.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1330007625</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>37</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>132</item>
+					<item>131</item>
 					<item>133</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
@@ -959,7 +1121,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>16</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -967,34 +1129,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>25</id>
-						<name>mean_V</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>24</id>
+						<name>mean</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>130</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>130</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>mean.V</originalName>
+						<originalName>mean</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2003661417</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>21</bitwidth>
 				</Value>
@@ -1019,34 +1188,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>26</id>
-						<name>sext_ln708</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>25</id>
+						<name>sext_ln130</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>130</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>130</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1835623456</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1068,34 +1244,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>27</id>
-						<name>sub_ln703</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>26</id>
+						<name>sub_ln134</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>134</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>134</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>828330828</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1118,34 +1301,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>28</id>
-						<name>sext_ln1118_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>27</id>
+						<name>sext_ln135</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1969299497</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1167,34 +1357,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>29</id>
-						<name>mul_ln708</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>28</id>
+						<name>mul_ln135</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>673197110</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1217,34 +1414,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>30</id>
-						<name>trunc_ln</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>29</id>
+						<name>diff_5</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>diff</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1196312910</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1269,34 +1473,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>31</id>
-						<name>sub_ln703_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>30</id>
+						<name>sub_ln134_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>134</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>134</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1145391171</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1319,34 +1530,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>32</id>
-						<name>sext_ln1118_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>31</id>
+						<name>sext_ln135_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1179535650</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1368,34 +1586,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>33</id>
-						<name>mul_ln708_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>32</id>
+						<name>mul_ln135_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1043341356</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1418,34 +1643,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>34</id>
-						<name>trunc_ln708_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>33</id>
+						<name>diff</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>diff</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>570456421</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1470,34 +1702,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>35</id>
-						<name>sub_ln703_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>34</id>
+						<name>sub_ln134_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>134</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>134</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1397314633</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1520,34 +1759,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>36</id>
-						<name>sext_ln1118_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>35</id>
+						<name>sext_ln135_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1569,34 +1815,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>37</id>
-						<name>mul_ln708_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>36</id>
+						<name>mul_ln135_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543252960</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1619,34 +1872,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>38</id>
-						<name>trunc_ln708_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>37</id>
+						<name>diff_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>diff</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1671,34 +1931,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>39</id>
-						<name>sub_ln703_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>38</id>
+						<name>sub_ln134_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>134</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>134</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1721,34 +1988,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>40</id>
-						<name>sext_ln1118_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>39</id>
+						<name>sext_ln135_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1770,34 +2044,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>41</id>
-						<name>mul_ln708_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>40</id>
+						<name>mul_ln135_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1820,34 +2101,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>42</id>
-						<name>trunc_ln708_3</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>41</id>
+						<name>diff_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>diff</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1872,34 +2160,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>43</id>
-						<name>sub_ln703_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>42</id>
+						<name>sub_ln134_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>134</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>134</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275210672</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -1922,34 +2217,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>44</id>
-						<name>sext_ln1118_5</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>43</id>
+						<name>sext_ln135_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -1971,34 +2273,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>45</id>
-						<name>mul_ln708_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>44</id>
+						<name>mul_ln135_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2747581056</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
 				</Value>
@@ -2021,34 +2330,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>46</id>
-						<name>trunc_ln708_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_44_12_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>45</id>
+						<name>diff_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>135</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;44, 12, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>diff</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275070416</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -2073,34 +2389,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>47</id>
-						<name>add_ln703_4</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>46</id>
+						<name>add_ln136_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>136</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>136</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -2123,34 +2446,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>48</id>
-						<name>add_ln703_5</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>47</id>
+						<name>add_ln136_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>136</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>136</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3023779192</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -2173,34 +2503,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>49</id>
-						<name>add_ln703_6</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>48</id>
+						<name>add_ln136_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>136</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>136</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543409760</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -2223,34 +2560,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>50</id>
-						<name>add_ln703_7</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>703</lineNumber>
-						<contextFuncName>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_23_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>49</id>
+						<name>add_ln136</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>136</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;23, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>703</second>
+										<second>136</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275184128</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>22</bitwidth>
 				</Value>
@@ -2273,34 +2617,48 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>51</id>
-						<name>sext_ln1118_6</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>50</id>
+						<name>sext_ln73_1</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>73</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>138</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>73</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>37</bitwidth>
 				</Value>
@@ -2322,34 +2680,48 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>52</id>
-						<name>r_V_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_22_6_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>51</id>
+						<name>mul_ln73_1</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>73</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;22, 6, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>138</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>73</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>r.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543379616</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>37</bitwidth>
 				</Value>
@@ -2364,7 +2736,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>44</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2372,34 +2744,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>53</id>
-						<name>tmp</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>835</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>52</id>
+						<name>tmp_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>835</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>796093545</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
 				</Value>
@@ -2424,34 +2803,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>54</id>
-						<name>sext_ln850</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>850</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>53</id>
+						<name>sext_ln140</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>850</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
@@ -2466,41 +2852,48 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>49</m_topoIndex>
+				<m_topoIndex>46</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_52">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>55</id>
+						<id>54</id>
 						<name>tmp_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>850</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>850</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2517,41 +2910,48 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>50</m_topoIndex>
+				<m_topoIndex>47</m_topoIndex>
 				<m_clusterGroupNumber>1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_53">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>56</id>
-						<name>tmp_1</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>851</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>55</id>
+						<name>tmp</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>851</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
 				</Value>
@@ -2569,41 +2969,48 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>46</m_topoIndex>
+				<m_topoIndex>48</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_54">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>57</id>
-						<name>p_Result_2</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>851</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>56</id>
+						<name>tmp_s</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>851</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
@@ -2620,41 +3027,48 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>47</m_topoIndex>
+				<m_topoIndex>49</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_55">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>58</id>
-						<name>icmp_ln851</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>851</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>57</id>
+						<name>icmp_ln140</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>851</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2669,49 +3083,56 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.67</m_delay>
-				<m_topoIndex>48</m_topoIndex>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>50</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_56">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>59</id>
-						<name>add_ln695</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_int_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>695</lineNumber>
-						<contextFuncName>operator+=&amp;lt;1, false&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_add_assign_1_false</contextNormFuncName>
+						<id>58</id>
+						<name>add_ln140</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_int_base.h</first>
-											<second>operator+=&amp;lt;1, false&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>695</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>226</item>
+					<item>225</item>
 					<item>227</item>
 				</oprand_edges>
 				<opcode>add</opcode>
@@ -2727,34 +3148,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>60</id>
-						<name>select_ln850</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>850</lineNumber>
-						<contextFuncName>to_ap_int_base</contextFuncName>
-						<contextNormFuncName>to_ap_int_base</contextNormFuncName>
+						<id>59</id>
+						<name>select_ln140</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>to_ap_int_base</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>850</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543482288</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
@@ -2778,34 +3206,41 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>61</id>
+						<id>60</id>
 						<name>index</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_int_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>549</lineNumber>
-						<contextFuncName>to_int</contextFuncName>
-						<contextNormFuncName>to_int</contextNormFuncName>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_int_base.h</first>
-											<second>to_int</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>549</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName>index</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
@@ -2829,112 +3264,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>62</id>
-						<name>tmp_3</name>
+						<id>61</id>
+						<name>sext_ln140_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>142</lineNumber>
-						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_layernorm.h</first>
-											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>142</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>235</item>
-					<item>236</item>
-					<item>238</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>54</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_60">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>63</id>
-						<name>index_1</name>
-						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>142</lineNumber>
-						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_layernorm.h</first>
-											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>142</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>index</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>20</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>239</item>
-					<item>241</item>
-					<item>242</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.34</m_delay>
-				<m_topoIndex>55</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_61">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>64</id>
-						<name>trunc_ln140</name>
-						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>140</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2942,7 +3275,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2958,40 +3291,47 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>123</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>14</bitwidth>
+					<bitwidth>21</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>243</item>
+					<item>234</item>
 				</oprand_edges>
-				<opcode>trunc</opcode>
+				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>56</m_topoIndex>
+				<m_topoIndex>54</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_62">
+			<item class_id_reference="9" object_id="_60">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>65</id>
-						<name>tmp_4</name>
+						<id>62</id>
+						<name>tmp_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>143</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3000,26 +3340,146 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>143</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1031301478</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>1</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>4</count>
+					<count>3</count>
 					<item_version>0</item_version>
-					<item>245</item>
-					<item>246</item>
-					<item>248</item>
-					<item>249</item>
+					<item>236</item>
+					<item>237</item>
+					<item>239</item>
 				</oprand_edges>
-				<opcode>partselect</opcode>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>55</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_61">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>63</id>
+						<name>index_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>142</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>142</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>index</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>20</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>240</item>
+					<item>242</item>
+					<item>243</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.34</m_delay>
+				<m_topoIndex>56</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_62">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>64</id>
+						<name>trunc_ln140</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>140</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>140</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869635878</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>14</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>244</item>
+				</oprand_edges>
+				<opcode>trunc</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3032,10 +3492,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>66</id>
-						<name>icmp_ln143</name>
+						<id>65</id>
+						<name>tmp_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>143</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3043,7 +3503,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3059,22 +3519,31 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>575098441</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>1</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>4</count>
 					<item_version>0</item_version>
-					<item>250</item>
+					<item>246</item>
+					<item>247</item>
+					<item>249</item>
 					<item>251</item>
 				</oprand_edges>
-				<opcode>icmp</opcode>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.61</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>58</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3082,10 +3551,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>67</id>
-						<name>index_2</name>
+						<id>66</id>
+						<name>icmp_ln143</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>143</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3093,7 +3562,64 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>143</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275097392</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>252</item>
+					<item>253</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.70</m_delay>
+				<m_topoIndex>59</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_65">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>67</id>
+						<name>index_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>143</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3109,16 +3635,23 @@
 						</inlineStackInfo>
 						<originalName>index</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275184576</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>252</item>
 					<item>254</item>
-					<item>255</item>
+					<item>256</item>
+					<item>257</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -3126,55 +3659,6 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.34</m_delay>
-				<m_topoIndex>59</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_65">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>68</id>
-						<name>zext_ln144</name>
-						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>144</lineNumber>
-						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_layernorm.h</first>
-											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>144</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>64</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>256</item>
-				</oprand_edges>
-				<opcode>zext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
 				<m_topoIndex>60</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3182,10 +3666,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>69</id>
-						<name>invert_sqr_table_addr</name>
+						<id>68</id>
+						<name>zext_ln144</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3193,7 +3677,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3209,18 +3693,23 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>14</bitwidth>
+					<bitwidth>64</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>3</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>257</item>
-					<item>259</item>
-					<item>260</item>
+					<item>258</item>
 				</oprand_edges>
-				<opcode>getelementptr</opcode>
+				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3233,48 +3722,57 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>70</id>
-						<name>deno_inver_V</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>205</lineNumber>
-						<contextFuncName>operator=</contextFuncName>
-						<contextNormFuncName>operator_assign</contextNormFuncName>
+						<id>69</id>
+						<name>invert_sqr_table_addr</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>144</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed.h</first>
-											<second>operator=</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>205</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>deno_inver.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>11</bitwidth>
+					<bitwidth>14</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>3</count>
 					<item_version>0</item_version>
+					<item>259</item>
 					<item>261</item>
+					<item>262</item>
 				</oprand_edges>
-				<opcode>load</opcode>
+				<opcode>getelementptr</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.15</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>62</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3282,48 +3780,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>71</id>
-						<name>sext_ln1118_7</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>70</id>
+						<name>deno_inver</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>144</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName></originalName>
+						<originalName>deno_inver</originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3552825</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>26</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>262</item>
+					<item>263</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>load</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>1.24</m_delay>
 				<m_topoIndex>63</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3331,41 +3836,48 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>72</id>
-						<name>sext_ln1118_8</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>71</id>
+						<name>sext_ln149</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1702258035</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>263</item>
+					<item>264</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -3380,49 +3892,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>73</id>
-						<name>mul_ln708_5</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>72</id>
+						<name>sext_ln149_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275083256</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>264</item>
 					<item>265</item>
 				</oprand_edges>
-				<opcode>mul</opcode>
+				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>65</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3430,51 +3948,56 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>74</id>
-						<name>trunc_ln708_6</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>73</id>
+						<name>mul_ln149</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>4</count>
+					<count>2</count>
 					<item_version>0</item_version>
+					<item>266</item>
 					<item>267</item>
-					<item>268</item>
-					<item>270</item>
-					<item>272</item>
 				</oprand_edges>
-				<opcode>partselect</opcode>
+				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>66</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3482,43 +4005,53 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>75</id>
-						<name>sext_ln1118_9</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>74</id>
+						<name>trunc_ln3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1702258035</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>26</bitwidth>
+					<bitwidth>16</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>4</count>
 					<item_version>0</item_version>
-					<item>273</item>
+					<item>269</item>
+					<item>270</item>
+					<item>272</item>
+					<item>274</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3531,49 +4064,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>76</id>
-						<name>mul_ln708_6</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>75</id>
+						<name>sext_ln149_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>274</item>
 					<item>275</item>
 				</oprand_edges>
-				<opcode>mul</opcode>
+				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>68</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3581,51 +4120,56 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>77</id>
-						<name>trunc_ln708_7</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>76</id>
+						<name>mul_ln149_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>4</count>
+					<count>2</count>
 					<item_version>0</item_version>
 					<item>276</item>
 					<item>277</item>
-					<item>278</item>
-					<item>279</item>
 				</oprand_edges>
-				<opcode>partselect</opcode>
+				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>69</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3633,43 +4177,53 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>78</id>
-						<name>sext_ln1118_10</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>77</id>
+						<name>trunc_ln149_1</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543499296</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>26</bitwidth>
+					<bitwidth>16</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>4</count>
 					<item_version>0</item_version>
+					<item>278</item>
+					<item>279</item>
 					<item>280</item>
+					<item>281</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3682,49 +4236,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>79</id>
-						<name>mul_ln708_7</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>78</id>
+						<name>sext_ln149_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543434096</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>281</item>
 					<item>282</item>
 				</oprand_edges>
-				<opcode>mul</opcode>
+				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>71</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3732,51 +4292,56 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>80</id>
-						<name>trunc_ln708_8</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>79</id>
+						<name>mul_ln149_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3023785039</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>4</count>
+					<count>2</count>
 					<item_version>0</item_version>
 					<item>283</item>
 					<item>284</item>
-					<item>285</item>
-					<item>286</item>
 				</oprand_edges>
-				<opcode>partselect</opcode>
+				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>72</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3784,43 +4349,53 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>81</id>
-						<name>sext_ln1118_11</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>80</id>
+						<name>trunc_ln149_2</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>26</bitwidth>
+					<bitwidth>16</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>4</count>
 					<item_version>0</item_version>
+					<item>285</item>
+					<item>286</item>
 					<item>287</item>
+					<item>288</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3833,49 +4408,55 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>82</id>
-						<name>mul_ln708_8</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>81</id>
+						<name>sext_ln149_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543436656</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
-					<item>288</item>
 					<item>289</item>
 				</oprand_edges>
-				<opcode>mul</opcode>
+				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>74</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3883,51 +4464,56 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>83</id>
-						<name>trunc_ln708_9</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>82</id>
+						<name>mul_ln149_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>708</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3023782479</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>16</bitwidth>
+					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>4</count>
+					<count>2</count>
 					<item_version>0</item_version>
 					<item>290</item>
 					<item>291</item>
-					<item>292</item>
-					<item>293</item>
 				</oprand_edges>
-				<opcode>partselect</opcode>
+				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>2.51</m_delay>
 				<m_topoIndex>75</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3935,43 +4521,53 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>84</id>
-						<name>sext_ln1118_12</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>1118</lineNumber>
-						<contextFuncName>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_mul_11_7_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<id>83</id>
+						<name>trunc_ln149_3</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator*&amp;lt;11, 7, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>1118</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>26</bitwidth>
+					<bitwidth>16</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>4</count>
 					<item_version>0</item_version>
+					<item>292</item>
+					<item>293</item>
 					<item>294</item>
+					<item>295</item>
 				</oprand_edges>
-				<opcode>sext</opcode>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -3984,120 +4580,18 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>85</id>
-						<name>mul_ln708_9</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>708</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>26</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>295</item>
-					<item>296</item>
-				</oprand_edges>
-				<opcode>mul</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.53</m_delay>
-				<m_topoIndex>77</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_83">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>86</id>
-						<name>trunc_ln708_s</name>
-						<fileName>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>708</lineNumber>
-						<contextFuncName>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_assign_50_20_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis/2020.1/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator=&amp;lt;50, 20, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>708</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>297</item>
-					<item>298</item>
-					<item>299</item>
-					<item>300</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>78</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_84">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>87</id>
-						<name>mrv</name>
+						<id>84</id>
+						<name>sext_ln149_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
-						<lineNumber>151</lineNumber>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4106,24 +4600,146 @@
 											<first>firmware/nnet_utils/nnet_layernorm.h</first>
 											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>151</second>
+										<second>149</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275191616</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>80</bitwidth>
+					<bitwidth>26</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>296</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>77</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_83">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>85</id>
+						<name>mul_ln149_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>149</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1520527696</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>26</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>302</item>
-					<item>303</item>
+					<item>297</item>
+					<item>298</item>
 				</oprand_edges>
-				<opcode>insertvalue</opcode>
+				<opcode>mul</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>2.51</m_delay>
+				<m_topoIndex>78</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_84">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>86</id>
+						<name>trunc_ln149_4</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>149</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>149</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>299</item>
+					<item>300</item>
+					<item>301</item>
+					<item>302</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -4136,10 +4752,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>88</id>
-						<name>mrv_1</name>
+						<id>87</id>
+						<name>mrv</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4147,7 +4763,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4163,7 +4779,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>542329928</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
 				</Value>
@@ -4186,10 +4809,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>89</id>
-						<name>mrv_2</name>
+						<id>88</id>
+						<name>mrv_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4197,7 +4820,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4213,7 +4836,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275192128</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
 				</Value>
@@ -4236,10 +4866,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>90</id>
-						<name>mrv_3</name>
+						<id>89</id>
+						<name>mrv_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4247,7 +4877,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4263,7 +4893,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543499880</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
 				</Value>
@@ -4286,10 +4923,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>91</id>
-						<name>mrv_4</name>
+						<id>90</id>
+						<name>mrv_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4297,7 +4934,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4313,7 +4950,14 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543501120</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
 				</Value>
@@ -4336,10 +4980,10 @@
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>92</id>
-						<name>_ln151</name>
+						<id>91</id>
+						<name>mrv_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4347,7 +4991,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rian/A3D3/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4363,16 +5007,24 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1702258035</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>0</bitwidth>
+					<bitwidth>80</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>2</count>
 					<item_version>0</item_version>
 					<item>312</item>
+					<item>313</item>
 				</oprand_edges>
-				<opcode>ret</opcode>
+				<opcode>insertvalue</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -4381,11 +5033,67 @@
 				<m_topoIndex>84</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
+			<item class_id_reference="9" object_id="_90">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>92</id>
+						<name>_ln151</name>
+						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</fileDirectory>
+						<lineNumber>151</lineNumber>
+						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_16_6_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_layernorm.h</first>
+											<second>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>151</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>314</item>
+				</oprand_edges>
+				<opcode>ret</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>85</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
 		</nodes>
 		<consts class_id="15" tracking_level="0" version="0">
-			<count>18</count>
+			<count>19</count>
 			<item_version>0</item_version>
-			<item class_id="16" tracking_level="1" version="0" object_id="_90">
+			<item class_id="16" tracking_level="1" version="0" object_id="_91">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4402,18 +5110,25 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2147483647</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_91">
+			<item class_id_reference="16" object_id="_92">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>131</id>
+						<id>132</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4426,14 +5141,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543441728</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>37</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>13107</content>
 			</item>
-			<item class_id_reference="16" object_id="_92">
+			<item class_id_reference="16" object_id="_93">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4450,14 +5172,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>16</content>
 			</item>
-			<item class_id_reference="16" object_id="_93">
+			<item class_id_reference="16" object_id="_94">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4474,14 +5203,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>36</content>
 			</item>
-			<item class_id_reference="16" object_id="_94">
+			<item class_id_reference="16" object_id="_95">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4498,14 +5234,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>37</content>
 			</item>
-			<item class_id_reference="16" object_id="_95">
+			<item class_id_reference="16" object_id="_96">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4522,14 +5265,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1275160704</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>18</content>
 			</item>
-			<item class_id_reference="16" object_id="_96">
+			<item class_id_reference="16" object_id="_97">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4546,14 +5296,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543379616</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>17</content>
 			</item>
-			<item class_id_reference="16" object_id="_97">
+			<item class_id_reference="16" object_id="_98">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4570,14 +5327,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>784</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_98">
+			<item class_id_reference="16" object_id="_99">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4594,18 +5358,25 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_99">
+			<item class_id_reference="16" object_id="_100">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>225</id>
+						<id>226</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4618,42 +5389,25 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1886220131</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
 			</item>
-			<item class_id_reference="16" object_id="_100">
-				<Value>
-					<Obj>
-						<type>2</type>
-						<id>237</id>
-						<name>empty</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<const_type>0</const_type>
-				<content>19</content>
-			</item>
 			<item class_id_reference="16" object_id="_101">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>240</id>
+						<id>238</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4666,18 +5420,56 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3023822933</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<const_type>0</const_type>
+				<content>20</content>
+			</item>
+			<item class_id_reference="16" object_id="_102">
+				<Value>
+					<Obj>
+						<type>2</type>
+						<id>241</id>
+						<name>empty</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1701605485</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_102">
+			<item class_id_reference="16" object_id="_103">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>247</id>
+						<id>248</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4690,18 +5482,25 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543397296</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>14</content>
 			</item>
-			<item class_id_reference="16" object_id="_103">
+			<item class_id_reference="16" object_id="_104">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>253</id>
+						<id>250</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4714,18 +5513,56 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1543413744</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<const_type>0</const_type>
+				<content>19</content>
+			</item>
+			<item class_id_reference="16" object_id="_105">
+				<Value>
+					<Obj>
+						<type>2</type>
+						<id>255</id>
+						<name>empty</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>16383</content>
 			</item>
-			<item class_id_reference="16" object_id="_104">
+			<item class_id_reference="16" object_id="_106">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>258</id>
+						<id>260</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4738,38 +5575,21 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1819113532</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_105">
-				<Value>
-					<Obj>
-						<type>2</type>
-						<id>269</id>
-						<name>empty</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<const_type>0</const_type>
-				<content>10</content>
-			</item>
-			<item class_id_reference="16" object_id="_106">
+			<item class_id_reference="16" object_id="_107">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -4786,18 +5606,25 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>25</content>
+				<content>10</content>
 			</item>
-			<item class_id_reference="16" object_id="_107">
+			<item class_id_reference="16" object_id="_108">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>301</id>
+						<id>273</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -4810,7 +5637,45 @@
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
 						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<const_type>0</const_type>
+				<content>25</content>
+			</item>
+			<item class_id_reference="16" object_id="_109">
+				<Value>
+					<Obj>
+						<type>2</type>
+						<id>303</id>
+						<name>empty</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>80</bitwidth>
 				</Value>
@@ -4821,7 +5686,7 @@
 		<blocks class_id="17" tracking_level="0" version="0">
 			<count>1</count>
 			<item_version>0</item_version>
-			<item class_id="18" tracking_level="1" version="0" object_id="_108">
+			<item class_id="18" tracking_level="1" version="0" object_id="_110">
 				<Obj>
 					<type>3</type>
 					<id>93</id>
@@ -4837,11 +5702,19 @@
 					</inlineStackInfo>
 					<originalName></originalName>
 					<rtlName></rtlName>
+					<control></control>
+					<opType></opType>
+					<implIndex></implIndex>
 					<coreName></coreName>
+					<isStorage>0</isStorage>
+					<storageDepth>0</storageDepth>
+					<coreId>1952804462</coreId>
+					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
-					<count>84</count>
+					<count>85</count>
 					<item_version>0</item_version>
+					<item>8</item>
 					<item>9</item>
 					<item>10</item>
 					<item>11</item>
@@ -4930,1144 +5803,1151 @@
 			</item>
 		</blocks>
 		<edges class_id="19" tracking_level="0" version="0">
-			<count>163</count>
+			<count>164</count>
 			<item_version>0</item_version>
-			<item class_id="20" tracking_level="1" version="0" object_id="_109">
+			<item class_id="20" tracking_level="1" version="0" object_id="_111">
 				<id>96</id>
 				<edge_type>1</edge_type>
 				<source_obj>5</source_obj>
-				<sink_obj>9</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_110">
-				<id>98</id>
-				<edge_type>1</edge_type>
-				<source_obj>4</source_obj>
-				<sink_obj>10</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_111">
-				<id>100</id>
-				<edge_type>1</edge_type>
-				<source_obj>3</source_obj>
-				<sink_obj>11</sink_obj>
+				<sink_obj>8</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_112">
-				<id>102</id>
+				<id>98</id>
 				<edge_type>1</edge_type>
-				<source_obj>2</source_obj>
-				<sink_obj>12</sink_obj>
+				<source_obj>4</source_obj>
+				<sink_obj>9</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_113">
-				<id>104</id>
+				<id>100</id>
 				<edge_type>1</edge_type>
-				<source_obj>1</source_obj>
-				<sink_obj>13</sink_obj>
+				<source_obj>3</source_obj>
+				<sink_obj>10</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_114">
-				<id>107</id>
+				<id>102</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>14</sink_obj>
+				<source_obj>2</source_obj>
+				<sink_obj>11</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_115">
+				<id>104</id>
+				<edge_type>1</edge_type>
+				<source_obj>1</source_obj>
+				<sink_obj>12</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_116">
+				<id>107</id>
+				<edge_type>1</edge_type>
+				<source_obj>12</source_obj>
+				<sink_obj>13</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_117">
 				<id>109</id>
+				<edge_type>1</edge_type>
+				<source_obj>108</source_obj>
+				<sink_obj>13</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_118">
+				<id>111</id>
+				<edge_type>1</edge_type>
+				<source_obj>11</source_obj>
+				<sink_obj>14</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_119">
+				<id>112</id>
 				<edge_type>1</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>14</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_116">
-				<id>111</id>
-				<edge_type>1</edge_type>
-				<source_obj>12</source_obj>
-				<sink_obj>15</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_117">
-				<id>112</id>
-				<edge_type>1</edge_type>
-				<source_obj>108</source_obj>
-				<sink_obj>15</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_118">
+			<item class_id_reference="20" object_id="_120">
 				<id>114</id>
 				<edge_type>1</edge_type>
-				<source_obj>11</source_obj>
-				<sink_obj>16</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_119">
-				<id>115</id>
-				<edge_type>1</edge_type>
-				<source_obj>108</source_obj>
-				<sink_obj>16</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_120">
-				<id>117</id>
-				<edge_type>1</edge_type>
 				<source_obj>10</source_obj>
-				<sink_obj>17</sink_obj>
+				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_121">
+				<id>115</id>
+				<edge_type>1</edge_type>
+				<source_obj>108</source_obj>
+				<sink_obj>15</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_122">
+				<id>117</id>
+				<edge_type>1</edge_type>
+				<source_obj>9</source_obj>
+				<sink_obj>16</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_123">
 				<id>118</id>
+				<edge_type>1</edge_type>
+				<source_obj>108</source_obj>
+				<sink_obj>16</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_124">
+				<id>120</id>
+				<edge_type>1</edge_type>
+				<source_obj>8</source_obj>
+				<sink_obj>17</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_125">
+				<id>121</id>
 				<edge_type>1</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>17</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_122">
-				<id>120</id>
-				<edge_type>1</edge_type>
-				<source_obj>9</source_obj>
-				<sink_obj>18</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_123">
-				<id>121</id>
-				<edge_type>1</edge_type>
-				<source_obj>108</source_obj>
-				<sink_obj>18</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_124">
+			<item class_id_reference="20" object_id="_126">
 				<id>122</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
-				<sink_obj>19</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_125">
-				<id>123</id>
-				<edge_type>1</edge_type>
 				<source_obj>14</source_obj>
-				<sink_obj>19</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_126">
-				<id>124</id>
-				<edge_type>1</edge_type>
-				<source_obj>17</source_obj>
-				<sink_obj>20</sink_obj>
+				<sink_obj>18</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_127">
-				<id>125</id>
+				<id>123</id>
 				<edge_type>1</edge_type>
-				<source_obj>18</source_obj>
-				<sink_obj>20</sink_obj>
+				<source_obj>13</source_obj>
+				<sink_obj>18</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_128">
+				<id>124</id>
+				<edge_type>1</edge_type>
+				<source_obj>16</source_obj>
+				<sink_obj>19</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_129">
+				<id>125</id>
+				<edge_type>1</edge_type>
+				<source_obj>17</source_obj>
+				<sink_obj>19</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_130">
 				<id>126</id>
+				<edge_type>1</edge_type>
+				<source_obj>19</source_obj>
+				<sink_obj>20</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_131">
+				<id>127</id>
+				<edge_type>1</edge_type>
+				<source_obj>15</source_obj>
+				<sink_obj>20</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_132">
+				<id>128</id>
 				<edge_type>1</edge_type>
 				<source_obj>20</source_obj>
 				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_129">
-				<id>127</id>
+			<item class_id_reference="20" object_id="_133">
+				<id>129</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
+				<source_obj>18</source_obj>
 				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_130">
-				<id>128</id>
+			<item class_id_reference="20" object_id="_134">
+				<id>130</id>
 				<edge_type>1</edge_type>
 				<source_obj>21</source_obj>
 				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_131">
-				<id>129</id>
-				<edge_type>1</edge_type>
-				<source_obj>19</source_obj>
-				<sink_obj>22</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_132">
-				<id>130</id>
+			<item class_id_reference="20" object_id="_135">
+				<id>131</id>
 				<edge_type>1</edge_type>
 				<source_obj>22</source_obj>
 				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_133">
-				<id>132</id>
+			<item class_id_reference="20" object_id="_136">
+				<id>133</id>
 				<edge_type>1</edge_type>
-				<source_obj>131</source_obj>
-				<sink_obj>24</sink_obj>
+				<source_obj>132</source_obj>
+				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_134">
-				<id>133</id>
+			<item class_id_reference="20" object_id="_137">
+				<id>136</id>
 				<edge_type>1</edge_type>
 				<source_obj>23</source_obj>
 				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_135">
-				<id>136</id>
+			<item class_id_reference="20" object_id="_138">
+				<id>138</id>
+				<edge_type>1</edge_type>
+				<source_obj>137</source_obj>
+				<sink_obj>24</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_139">
+				<id>140</id>
+				<edge_type>1</edge_type>
+				<source_obj>139</source_obj>
+				<sink_obj>24</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_140">
+				<id>141</id>
 				<edge_type>1</edge_type>
 				<source_obj>24</source_obj>
 				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_136">
-				<id>138</id>
+			<item class_id_reference="20" object_id="_141">
+				<id>142</id>
 				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>25</sink_obj>
+				<source_obj>13</source_obj>
+				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_137">
-				<id>140</id>
-				<edge_type>1</edge_type>
-				<source_obj>139</source_obj>
-				<sink_obj>25</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_138">
-				<id>141</id>
+			<item class_id_reference="20" object_id="_142">
+				<id>143</id>
 				<edge_type>1</edge_type>
 				<source_obj>25</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_139">
-				<id>142</id>
-				<edge_type>1</edge_type>
-				<source_obj>14</source_obj>
-				<sink_obj>27</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_140">
-				<id>143</id>
+			<item class_id_reference="20" object_id="_143">
+				<id>144</id>
 				<edge_type>1</edge_type>
 				<source_obj>26</source_obj>
 				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_141">
-				<id>144</id>
+			<item class_id_reference="20" object_id="_144">
+				<id>145</id>
 				<edge_type>1</edge_type>
 				<source_obj>27</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_142">
-				<id>145</id>
-				<edge_type>1</edge_type>
-				<source_obj>28</source_obj>
-				<sink_obj>29</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_143">
+			<item class_id_reference="20" object_id="_145">
 				<id>146</id>
 				<edge_type>1</edge_type>
-				<source_obj>28</source_obj>
-				<sink_obj>29</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_144">
-				<id>149</id>
-				<edge_type>1</edge_type>
-				<source_obj>29</source_obj>
-				<sink_obj>30</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_145">
-				<id>150</id>
-				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>27</source_obj>
+				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_146">
-				<id>152</id>
+				<id>149</id>
 				<edge_type>1</edge_type>
-				<source_obj>151</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>28</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_147">
-				<id>153</id>
+				<id>150</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
-				<sink_obj>31</sink_obj>
+				<source_obj>137</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_148">
-				<id>154</id>
+				<id>152</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>31</sink_obj>
+				<source_obj>151</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_149">
+				<id>153</id>
+				<edge_type>1</edge_type>
+				<source_obj>14</source_obj>
+				<sink_obj>30</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_150">
+				<id>154</id>
+				<edge_type>1</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>30</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_151">
 				<id>155</id>
+				<edge_type>1</edge_type>
+				<source_obj>30</source_obj>
+				<sink_obj>31</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_152">
+				<id>156</id>
 				<edge_type>1</edge_type>
 				<source_obj>31</source_obj>
 				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_150">
-				<id>156</id>
-				<edge_type>1</edge_type>
-				<source_obj>32</source_obj>
-				<sink_obj>33</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_151">
+			<item class_id_reference="20" object_id="_153">
 				<id>157</id>
 				<edge_type>1</edge_type>
-				<source_obj>32</source_obj>
-				<sink_obj>33</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_152">
-				<id>159</id>
-				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>34</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_153">
-				<id>160</id>
-				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>31</source_obj>
+				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_154">
-				<id>161</id>
+				<id>159</id>
 				<edge_type>1</edge_type>
-				<source_obj>151</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>32</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_155">
-				<id>162</id>
+				<id>160</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
-				<sink_obj>35</sink_obj>
+				<source_obj>137</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_156">
-				<id>163</id>
+				<id>161</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>35</sink_obj>
+				<source_obj>151</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_157">
+				<id>162</id>
+				<edge_type>1</edge_type>
+				<source_obj>15</source_obj>
+				<sink_obj>34</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_158">
+				<id>163</id>
+				<edge_type>1</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>34</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_159">
 				<id>164</id>
+				<edge_type>1</edge_type>
+				<source_obj>34</source_obj>
+				<sink_obj>35</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_160">
+				<id>165</id>
 				<edge_type>1</edge_type>
 				<source_obj>35</source_obj>
 				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_158">
-				<id>165</id>
-				<edge_type>1</edge_type>
-				<source_obj>36</source_obj>
-				<sink_obj>37</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_159">
+			<item class_id_reference="20" object_id="_161">
 				<id>166</id>
 				<edge_type>1</edge_type>
-				<source_obj>36</source_obj>
-				<sink_obj>37</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_160">
-				<id>168</id>
-				<edge_type>1</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>38</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_161">
-				<id>169</id>
-				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>35</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_162">
-				<id>170</id>
+				<id>168</id>
 				<edge_type>1</edge_type>
-				<source_obj>151</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>36</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_163">
-				<id>171</id>
+				<id>169</id>
 				<edge_type>1</edge_type>
-				<source_obj>17</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>137</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_164">
-				<id>172</id>
+				<id>170</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>151</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_165">
+				<id>171</id>
+				<edge_type>1</edge_type>
+				<source_obj>16</source_obj>
+				<sink_obj>38</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_166">
+				<id>172</id>
+				<edge_type>1</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>38</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_167">
 				<id>173</id>
+				<edge_type>1</edge_type>
+				<source_obj>38</source_obj>
+				<sink_obj>39</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_168">
+				<id>174</id>
 				<edge_type>1</edge_type>
 				<source_obj>39</source_obj>
 				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_166">
-				<id>174</id>
-				<edge_type>1</edge_type>
-				<source_obj>40</source_obj>
-				<sink_obj>41</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_167">
+			<item class_id_reference="20" object_id="_169">
 				<id>175</id>
 				<edge_type>1</edge_type>
-				<source_obj>40</source_obj>
-				<sink_obj>41</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_168">
-				<id>177</id>
-				<edge_type>1</edge_type>
-				<source_obj>41</source_obj>
-				<sink_obj>42</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_169">
-				<id>178</id>
-				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>39</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_170">
-				<id>179</id>
+				<id>177</id>
 				<edge_type>1</edge_type>
-				<source_obj>151</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>40</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_171">
-				<id>180</id>
+				<id>178</id>
 				<edge_type>1</edge_type>
-				<source_obj>18</source_obj>
-				<sink_obj>43</sink_obj>
+				<source_obj>137</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_172">
-				<id>181</id>
+				<id>179</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>43</sink_obj>
+				<source_obj>151</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_173">
+				<id>180</id>
+				<edge_type>1</edge_type>
+				<source_obj>17</source_obj>
+				<sink_obj>42</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_174">
+				<id>181</id>
+				<edge_type>1</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>42</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_175">
 				<id>182</id>
+				<edge_type>1</edge_type>
+				<source_obj>42</source_obj>
+				<sink_obj>43</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_176">
+				<id>183</id>
 				<edge_type>1</edge_type>
 				<source_obj>43</source_obj>
 				<sink_obj>44</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_174">
-				<id>183</id>
-				<edge_type>1</edge_type>
-				<source_obj>44</source_obj>
-				<sink_obj>45</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_175">
+			<item class_id_reference="20" object_id="_177">
 				<id>184</id>
 				<edge_type>1</edge_type>
-				<source_obj>44</source_obj>
-				<sink_obj>45</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_176">
-				<id>186</id>
-				<edge_type>1</edge_type>
-				<source_obj>45</source_obj>
-				<sink_obj>46</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_177">
-				<id>187</id>
-				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>46</sink_obj>
+				<source_obj>43</source_obj>
+				<sink_obj>44</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_178">
-				<id>188</id>
+				<id>186</id>
 				<edge_type>1</edge_type>
-				<source_obj>151</source_obj>
-				<sink_obj>46</sink_obj>
+				<source_obj>44</source_obj>
+				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_179">
-				<id>189</id>
+				<id>187</id>
 				<edge_type>1</edge_type>
-				<source_obj>34</source_obj>
-				<sink_obj>47</sink_obj>
+				<source_obj>137</source_obj>
+				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_180">
-				<id>190</id>
+				<id>188</id>
 				<edge_type>1</edge_type>
-				<source_obj>30</source_obj>
-				<sink_obj>47</sink_obj>
+				<source_obj>151</source_obj>
+				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_181">
-				<id>191</id>
+				<id>189</id>
 				<edge_type>1</edge_type>
-				<source_obj>42</source_obj>
-				<sink_obj>48</sink_obj>
+				<source_obj>29</source_obj>
+				<sink_obj>46</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_182">
-				<id>192</id>
+				<id>190</id>
 				<edge_type>1</edge_type>
-				<source_obj>46</source_obj>
-				<sink_obj>48</sink_obj>
+				<source_obj>33</source_obj>
+				<sink_obj>46</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_183">
+				<id>191</id>
+				<edge_type>1</edge_type>
+				<source_obj>41</source_obj>
+				<sink_obj>47</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_184">
+				<id>192</id>
+				<edge_type>1</edge_type>
+				<source_obj>45</source_obj>
+				<sink_obj>47</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_185">
 				<id>193</id>
+				<edge_type>1</edge_type>
+				<source_obj>47</source_obj>
+				<sink_obj>48</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_186">
+				<id>194</id>
+				<edge_type>1</edge_type>
+				<source_obj>37</source_obj>
+				<sink_obj>48</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_187">
+				<id>195</id>
 				<edge_type>1</edge_type>
 				<source_obj>48</source_obj>
 				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_184">
-				<id>194</id>
+			<item class_id_reference="20" object_id="_188">
+				<id>196</id>
 				<edge_type>1</edge_type>
-				<source_obj>38</source_obj>
+				<source_obj>46</source_obj>
 				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_185">
-				<id>195</id>
+			<item class_id_reference="20" object_id="_189">
+				<id>197</id>
 				<edge_type>1</edge_type>
 				<source_obj>49</source_obj>
 				<sink_obj>50</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_186">
-				<id>196</id>
-				<edge_type>1</edge_type>
-				<source_obj>47</source_obj>
-				<sink_obj>50</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_187">
-				<id>197</id>
+			<item class_id_reference="20" object_id="_190">
+				<id>198</id>
 				<edge_type>1</edge_type>
 				<source_obj>50</source_obj>
 				<sink_obj>51</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_188">
-				<id>198</id>
+			<item class_id_reference="20" object_id="_191">
+				<id>199</id>
 				<edge_type>1</edge_type>
-				<source_obj>131</source_obj>
-				<sink_obj>52</sink_obj>
+				<source_obj>132</source_obj>
+				<sink_obj>51</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_189">
-				<id>199</id>
+			<item class_id_reference="20" object_id="_192">
+				<id>202</id>
 				<edge_type>1</edge_type>
 				<source_obj>51</source_obj>
 				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_190">
-				<id>202</id>
-				<edge_type>1</edge_type>
-				<source_obj>52</source_obj>
-				<sink_obj>53</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_191">
+			<item class_id_reference="20" object_id="_193">
 				<id>204</id>
 				<edge_type>1</edge_type>
 				<source_obj>203</source_obj>
-				<sink_obj>53</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_192">
-				<id>205</id>
-				<edge_type>1</edge_type>
-				<source_obj>139</source_obj>
-				<sink_obj>53</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_193">
-				<id>206</id>
-				<edge_type>1</edge_type>
-				<source_obj>53</source_obj>
-				<sink_obj>54</sink_obj>
+				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_194">
-				<id>209</id>
+				<id>205</id>
 				<edge_type>1</edge_type>
-				<source_obj>52</source_obj>
-				<sink_obj>55</sink_obj>
+				<source_obj>139</source_obj>
+				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_195">
-				<id>210</id>
+				<id>206</id>
 				<edge_type>1</edge_type>
-				<source_obj>139</source_obj>
-				<sink_obj>55</sink_obj>
+				<source_obj>52</source_obj>
+				<sink_obj>53</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_196">
-				<id>213</id>
+				<id>209</id>
 				<edge_type>1</edge_type>
-				<source_obj>52</source_obj>
-				<sink_obj>56</sink_obj>
+				<source_obj>51</source_obj>
+				<sink_obj>54</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_197">
-				<id>214</id>
+				<id>210</id>
 				<edge_type>1</edge_type>
-				<source_obj>137</source_obj>
-				<sink_obj>56</sink_obj>
+				<source_obj>139</source_obj>
+				<sink_obj>54</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_198">
-				<id>216</id>
+				<id>213</id>
 				<edge_type>1</edge_type>
-				<source_obj>215</source_obj>
-				<sink_obj>56</sink_obj>
+				<source_obj>51</source_obj>
+				<sink_obj>55</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_199">
+				<id>214</id>
+				<edge_type>1</edge_type>
+				<source_obj>137</source_obj>
+				<sink_obj>55</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_200">
+				<id>216</id>
+				<edge_type>1</edge_type>
+				<source_obj>215</source_obj>
+				<sink_obj>55</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_201">
 				<id>219</id>
+				<edge_type>1</edge_type>
+				<source_obj>55</source_obj>
+				<sink_obj>56</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_202">
+				<id>221</id>
+				<edge_type>1</edge_type>
+				<source_obj>220</source_obj>
+				<sink_obj>56</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_203">
+				<id>222</id>
 				<edge_type>1</edge_type>
 				<source_obj>56</source_obj>
 				<sink_obj>57</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_200">
-				<id>221</id>
-				<edge_type>1</edge_type>
-				<source_obj>220</source_obj>
-				<sink_obj>57</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_201">
-				<id>222</id>
-				<edge_type>1</edge_type>
-				<source_obj>57</source_obj>
-				<sink_obj>58</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_202">
+			<item class_id_reference="20" object_id="_204">
 				<id>224</id>
 				<edge_type>1</edge_type>
 				<source_obj>223</source_obj>
-				<sink_obj>58</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_203">
-				<id>226</id>
-				<edge_type>1</edge_type>
-				<source_obj>225</source_obj>
-				<sink_obj>59</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_204">
-				<id>227</id>
-				<edge_type>1</edge_type>
-				<source_obj>54</source_obj>
-				<sink_obj>59</sink_obj>
+				<sink_obj>57</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_205">
-				<id>228</id>
+				<id>225</id>
 				<edge_type>1</edge_type>
-				<source_obj>58</source_obj>
-				<sink_obj>60</sink_obj>
+				<source_obj>53</source_obj>
+				<sink_obj>58</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_206">
+				<id>227</id>
+				<edge_type>1</edge_type>
+				<source_obj>226</source_obj>
+				<sink_obj>58</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_207">
+				<id>228</id>
+				<edge_type>1</edge_type>
+				<source_obj>57</source_obj>
+				<sink_obj>59</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_208">
 				<id>229</id>
+				<edge_type>1</edge_type>
+				<source_obj>53</source_obj>
+				<sink_obj>59</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_209">
+				<id>230</id>
+				<edge_type>1</edge_type>
+				<source_obj>58</source_obj>
+				<sink_obj>59</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_210">
+				<id>231</id>
+				<edge_type>1</edge_type>
+				<source_obj>54</source_obj>
+				<sink_obj>60</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_211">
+				<id>232</id>
 				<edge_type>1</edge_type>
 				<source_obj>59</source_obj>
 				<sink_obj>60</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_207">
-				<id>230</id>
+			<item class_id_reference="20" object_id="_212">
+				<id>233</id>
 				<edge_type>1</edge_type>
-				<source_obj>54</source_obj>
+				<source_obj>53</source_obj>
 				<sink_obj>60</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_208">
-				<id>231</id>
-				<edge_type>1</edge_type>
-				<source_obj>55</source_obj>
-				<sink_obj>61</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_209">
-				<id>232</id>
+			<item class_id_reference="20" object_id="_213">
+				<id>234</id>
 				<edge_type>1</edge_type>
 				<source_obj>60</source_obj>
 				<sink_obj>61</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_210">
-				<id>233</id>
-				<edge_type>1</edge_type>
-				<source_obj>54</source_obj>
-				<sink_obj>61</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_211">
-				<id>236</id>
+			<item class_id_reference="20" object_id="_214">
+				<id>237</id>
 				<edge_type>1</edge_type>
 				<source_obj>61</source_obj>
 				<sink_obj>62</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_212">
-				<id>238</id>
+			<item class_id_reference="20" object_id="_215">
+				<id>239</id>
 				<edge_type>1</edge_type>
-				<source_obj>237</source_obj>
+				<source_obj>238</source_obj>
 				<sink_obj>62</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_213">
-				<id>239</id>
+			<item class_id_reference="20" object_id="_216">
+				<id>240</id>
 				<edge_type>1</edge_type>
 				<source_obj>62</source_obj>
 				<sink_obj>63</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_214">
-				<id>241</id>
-				<edge_type>1</edge_type>
-				<source_obj>240</source_obj>
-				<sink_obj>63</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_215">
+			<item class_id_reference="20" object_id="_217">
 				<id>242</id>
 				<edge_type>1</edge_type>
-				<source_obj>61</source_obj>
+				<source_obj>241</source_obj>
 				<sink_obj>63</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_216">
+			<item class_id_reference="20" object_id="_218">
 				<id>243</id>
+				<edge_type>1</edge_type>
+				<source_obj>60</source_obj>
+				<sink_obj>63</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_219">
+				<id>244</id>
 				<edge_type>1</edge_type>
 				<source_obj>63</source_obj>
 				<sink_obj>64</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_217">
-				<id>246</id>
+			<item class_id_reference="20" object_id="_220">
+				<id>247</id>
 				<edge_type>1</edge_type>
 				<source_obj>63</source_obj>
 				<sink_obj>65</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_218">
-				<id>248</id>
-				<edge_type>1</edge_type>
-				<source_obj>247</source_obj>
-				<sink_obj>65</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_219">
+			<item class_id_reference="20" object_id="_221">
 				<id>249</id>
 				<edge_type>1</edge_type>
-				<source_obj>237</source_obj>
+				<source_obj>248</source_obj>
 				<sink_obj>65</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_220">
-				<id>250</id>
+			<item class_id_reference="20" object_id="_222">
+				<id>251</id>
+				<edge_type>1</edge_type>
+				<source_obj>250</source_obj>
+				<sink_obj>65</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_223">
+				<id>252</id>
 				<edge_type>1</edge_type>
 				<source_obj>65</source_obj>
 				<sink_obj>66</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_221">
-				<id>251</id>
+			<item class_id_reference="20" object_id="_224">
+				<id>253</id>
 				<edge_type>1</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>66</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_222">
-				<id>252</id>
+			<item class_id_reference="20" object_id="_225">
+				<id>254</id>
 				<edge_type>1</edge_type>
 				<source_obj>66</source_obj>
 				<sink_obj>67</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_223">
-				<id>254</id>
+			<item class_id_reference="20" object_id="_226">
+				<id>256</id>
 				<edge_type>1</edge_type>
-				<source_obj>253</source_obj>
+				<source_obj>255</source_obj>
 				<sink_obj>67</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_224">
-				<id>255</id>
+			<item class_id_reference="20" object_id="_227">
+				<id>257</id>
 				<edge_type>1</edge_type>
 				<source_obj>64</source_obj>
 				<sink_obj>67</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_225">
-				<id>256</id>
+			<item class_id_reference="20" object_id="_228">
+				<id>258</id>
 				<edge_type>1</edge_type>
 				<source_obj>67</source_obj>
 				<sink_obj>68</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_226">
-				<id>257</id>
-				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>69</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_227">
+			<item class_id_reference="20" object_id="_229">
 				<id>259</id>
 				<edge_type>1</edge_type>
-				<source_obj>258</source_obj>
+				<source_obj>6</source_obj>
 				<sink_obj>69</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_228">
-				<id>260</id>
+			<item class_id_reference="20" object_id="_230">
+				<id>261</id>
+				<edge_type>1</edge_type>
+				<source_obj>260</source_obj>
+				<sink_obj>69</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_231">
+				<id>262</id>
 				<edge_type>1</edge_type>
 				<source_obj>68</source_obj>
 				<sink_obj>69</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_229">
-				<id>261</id>
+			<item class_id_reference="20" object_id="_232">
+				<id>263</id>
 				<edge_type>1</edge_type>
 				<source_obj>69</source_obj>
 				<sink_obj>70</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_230">
-				<id>262</id>
+			<item class_id_reference="20" object_id="_233">
+				<id>264</id>
 				<edge_type>1</edge_type>
-				<source_obj>27</source_obj>
+				<source_obj>26</source_obj>
 				<sink_obj>71</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_231">
-				<id>263</id>
+			<item class_id_reference="20" object_id="_234">
+				<id>265</id>
 				<edge_type>1</edge_type>
 				<source_obj>70</source_obj>
 				<sink_obj>72</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_232">
-				<id>264</id>
+			<item class_id_reference="20" object_id="_235">
+				<id>266</id>
 				<edge_type>1</edge_type>
 				<source_obj>71</source_obj>
 				<sink_obj>73</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_233">
-				<id>265</id>
+			<item class_id_reference="20" object_id="_236">
+				<id>267</id>
 				<edge_type>1</edge_type>
 				<source_obj>72</source_obj>
 				<sink_obj>73</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_234">
-				<id>268</id>
+			<item class_id_reference="20" object_id="_237">
+				<id>270</id>
 				<edge_type>1</edge_type>
 				<source_obj>73</source_obj>
 				<sink_obj>74</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_235">
-				<id>270</id>
-				<edge_type>1</edge_type>
-				<source_obj>269</source_obj>
-				<sink_obj>74</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_236">
+			<item class_id_reference="20" object_id="_238">
 				<id>272</id>
 				<edge_type>1</edge_type>
 				<source_obj>271</source_obj>
 				<sink_obj>74</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_237">
-				<id>273</id>
+			<item class_id_reference="20" object_id="_239">
+				<id>274</id>
 				<edge_type>1</edge_type>
-				<source_obj>31</source_obj>
+				<source_obj>273</source_obj>
+				<sink_obj>74</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_240">
+				<id>275</id>
+				<edge_type>1</edge_type>
+				<source_obj>30</source_obj>
 				<sink_obj>75</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_238">
-				<id>274</id>
+			<item class_id_reference="20" object_id="_241">
+				<id>276</id>
 				<edge_type>1</edge_type>
 				<source_obj>75</source_obj>
 				<sink_obj>76</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_239">
-				<id>275</id>
+			<item class_id_reference="20" object_id="_242">
+				<id>277</id>
 				<edge_type>1</edge_type>
 				<source_obj>72</source_obj>
 				<sink_obj>76</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_240">
-				<id>277</id>
+			<item class_id_reference="20" object_id="_243">
+				<id>279</id>
 				<edge_type>1</edge_type>
 				<source_obj>76</source_obj>
 				<sink_obj>77</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_241">
-				<id>278</id>
-				<edge_type>1</edge_type>
-				<source_obj>269</source_obj>
-				<sink_obj>77</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_242">
-				<id>279</id>
+			<item class_id_reference="20" object_id="_244">
+				<id>280</id>
 				<edge_type>1</edge_type>
 				<source_obj>271</source_obj>
 				<sink_obj>77</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_243">
-				<id>280</id>
+			<item class_id_reference="20" object_id="_245">
+				<id>281</id>
 				<edge_type>1</edge_type>
-				<source_obj>35</source_obj>
+				<source_obj>273</source_obj>
+				<sink_obj>77</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_246">
+				<id>282</id>
+				<edge_type>1</edge_type>
+				<source_obj>34</source_obj>
 				<sink_obj>78</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_244">
-				<id>281</id>
+			<item class_id_reference="20" object_id="_247">
+				<id>283</id>
 				<edge_type>1</edge_type>
 				<source_obj>78</source_obj>
 				<sink_obj>79</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_245">
-				<id>282</id>
+			<item class_id_reference="20" object_id="_248">
+				<id>284</id>
 				<edge_type>1</edge_type>
 				<source_obj>72</source_obj>
 				<sink_obj>79</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_246">
-				<id>284</id>
+			<item class_id_reference="20" object_id="_249">
+				<id>286</id>
 				<edge_type>1</edge_type>
 				<source_obj>79</source_obj>
 				<sink_obj>80</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_247">
-				<id>285</id>
-				<edge_type>1</edge_type>
-				<source_obj>269</source_obj>
-				<sink_obj>80</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_248">
-				<id>286</id>
+			<item class_id_reference="20" object_id="_250">
+				<id>287</id>
 				<edge_type>1</edge_type>
 				<source_obj>271</source_obj>
 				<sink_obj>80</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_249">
-				<id>287</id>
+			<item class_id_reference="20" object_id="_251">
+				<id>288</id>
 				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
+				<source_obj>273</source_obj>
+				<sink_obj>80</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_252">
+				<id>289</id>
+				<edge_type>1</edge_type>
+				<source_obj>38</source_obj>
 				<sink_obj>81</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_250">
-				<id>288</id>
+			<item class_id_reference="20" object_id="_253">
+				<id>290</id>
 				<edge_type>1</edge_type>
 				<source_obj>81</source_obj>
 				<sink_obj>82</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_251">
-				<id>289</id>
+			<item class_id_reference="20" object_id="_254">
+				<id>291</id>
 				<edge_type>1</edge_type>
 				<source_obj>72</source_obj>
 				<sink_obj>82</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_252">
-				<id>291</id>
+			<item class_id_reference="20" object_id="_255">
+				<id>293</id>
 				<edge_type>1</edge_type>
 				<source_obj>82</source_obj>
 				<sink_obj>83</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_253">
-				<id>292</id>
-				<edge_type>1</edge_type>
-				<source_obj>269</source_obj>
-				<sink_obj>83</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_254">
-				<id>293</id>
+			<item class_id_reference="20" object_id="_256">
+				<id>294</id>
 				<edge_type>1</edge_type>
 				<source_obj>271</source_obj>
 				<sink_obj>83</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_255">
-				<id>294</id>
+			<item class_id_reference="20" object_id="_257">
+				<id>295</id>
 				<edge_type>1</edge_type>
-				<source_obj>43</source_obj>
+				<source_obj>273</source_obj>
+				<sink_obj>83</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_258">
+				<id>296</id>
+				<edge_type>1</edge_type>
+				<source_obj>42</source_obj>
 				<sink_obj>84</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_256">
-				<id>295</id>
+			<item class_id_reference="20" object_id="_259">
+				<id>297</id>
 				<edge_type>1</edge_type>
 				<source_obj>84</source_obj>
 				<sink_obj>85</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_257">
-				<id>296</id>
+			<item class_id_reference="20" object_id="_260">
+				<id>298</id>
 				<edge_type>1</edge_type>
 				<source_obj>72</source_obj>
 				<sink_obj>85</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_258">
-				<id>298</id>
+			<item class_id_reference="20" object_id="_261">
+				<id>300</id>
 				<edge_type>1</edge_type>
 				<source_obj>85</source_obj>
 				<sink_obj>86</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_259">
-				<id>299</id>
-				<edge_type>1</edge_type>
-				<source_obj>269</source_obj>
-				<sink_obj>86</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_260">
-				<id>300</id>
+			<item class_id_reference="20" object_id="_262">
+				<id>301</id>
 				<edge_type>1</edge_type>
 				<source_obj>271</source_obj>
 				<sink_obj>86</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_261">
+			<item class_id_reference="20" object_id="_263">
 				<id>302</id>
 				<edge_type>1</edge_type>
-				<source_obj>301</source_obj>
+				<source_obj>273</source_obj>
+				<sink_obj>86</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_264">
+				<id>304</id>
+				<edge_type>1</edge_type>
+				<source_obj>303</source_obj>
 				<sink_obj>87</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_262">
-				<id>303</id>
+			<item class_id_reference="20" object_id="_265">
+				<id>305</id>
 				<edge_type>1</edge_type>
 				<source_obj>74</source_obj>
 				<sink_obj>87</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_263">
-				<id>304</id>
+			<item class_id_reference="20" object_id="_266">
+				<id>306</id>
 				<edge_type>1</edge_type>
 				<source_obj>87</source_obj>
 				<sink_obj>88</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_264">
-				<id>305</id>
+			<item class_id_reference="20" object_id="_267">
+				<id>307</id>
 				<edge_type>1</edge_type>
 				<source_obj>77</source_obj>
 				<sink_obj>88</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_265">
-				<id>306</id>
+			<item class_id_reference="20" object_id="_268">
+				<id>308</id>
 				<edge_type>1</edge_type>
 				<source_obj>88</source_obj>
 				<sink_obj>89</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_266">
-				<id>307</id>
+			<item class_id_reference="20" object_id="_269">
+				<id>309</id>
 				<edge_type>1</edge_type>
 				<source_obj>80</source_obj>
 				<sink_obj>89</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_267">
-				<id>308</id>
+			<item class_id_reference="20" object_id="_270">
+				<id>310</id>
 				<edge_type>1</edge_type>
 				<source_obj>89</source_obj>
 				<sink_obj>90</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_268">
-				<id>309</id>
+			<item class_id_reference="20" object_id="_271">
+				<id>311</id>
 				<edge_type>1</edge_type>
 				<source_obj>83</source_obj>
 				<sink_obj>90</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_269">
-				<id>310</id>
+			<item class_id_reference="20" object_id="_272">
+				<id>312</id>
 				<edge_type>1</edge_type>
 				<source_obj>90</source_obj>
 				<sink_obj>91</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_270">
-				<id>311</id>
+			<item class_id_reference="20" object_id="_273">
+				<id>313</id>
 				<edge_type>1</edge_type>
 				<source_obj>86</source_obj>
 				<sink_obj>91</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_271">
-				<id>312</id>
+			<item class_id_reference="20" object_id="_274">
+				<id>314</id>
 				<edge_type>1</edge_type>
 				<source_obj>91</source_obj>
 				<sink_obj>92</sink_obj>
@@ -6078,7 +6958,7 @@
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_272">
+		<item class_id="22" tracking_level="1" version="0" object_id="_275">
 			<mId>1</mId>
 			<mTag>layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</mTag>
 			<mNormTag>layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s</mNormTag>
@@ -6105,11 +6985,18 @@
 	<fsm class_id="-1"></fsm>
 	<res class_id="-1"></res>
 	<node_label_latency class_id="26" tracking_level="0" version="0">
-		<count>84</count>
+		<count>85</count>
 		<item_version>0</item_version>
 		<item class_id="27" tracking_level="0" version="0">
-			<first>9</first>
+			<first>8</first>
 			<second class_id="28" tracking_level="0" version="0">
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>9</first>
+			<second>
 				<first>0</first>
 				<second>0</second>
 			</second>
@@ -6222,7 +7109,7 @@
 		<item>
 			<first>25</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -6369,14 +7256,14 @@
 		<item>
 			<first>46</first>
 			<second>
-				<first>1</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>47</first>
 			<second>
-				<first>2</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -6390,7 +7277,7 @@
 		<item>
 			<first>49</first>
 			<second>
-				<first>1</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -6425,14 +7312,14 @@
 		<item>
 			<first>54</first>
 			<second>
-				<first>3</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>55</first>
 			<second>
-				<first>3</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -6460,14 +7347,14 @@
 		<item>
 			<first>59</first>
 			<second>
-				<first>3</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>60</first>
 			<second>
-				<first>3</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -6710,7 +7597,7 @@
 	<regions class_id="32" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="33" tracking_level="1" version="0" object_id="_273">
+		<item class_id="33" tracking_level="1" version="0" object_id="_276">
 			<region_name>layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;</region_name>
 			<basic_blocks>
 				<count>1</count>
@@ -6725,13 +7612,17 @@
 			<region_type>8</region_type>
 			<interval>1</interval>
 			<pipe_depth>5</pipe_depth>
+			<mDBIIViolationVec class_id="34" tracking_level="0" version="0">
+				<count>0</count>
+				<item_version>0</item_version>
+			</mDBIIViolationVec>
 		</item>
 	</regions>
-	<dp_fu_nodes class_id="34" tracking_level="0" version="0">
+	<dp_fu_nodes class_id="35" tracking_level="0" version="0">
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_fu_nodes>
-	<dp_fu_nodes_expression class_id="35" tracking_level="0" version="0">
+	<dp_fu_nodes_expression class_id="36" tracking_level="0" version="0">
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_fu_nodes_expression>
@@ -6747,7 +7638,7 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</return_ports>
-	<dp_mem_port_nodes class_id="36" tracking_level="0" version="0">
+	<dp_mem_port_nodes class_id="37" tracking_level="0" version="0">
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_mem_port_nodes>
@@ -6767,7 +7658,7 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_regname_phi>
-	<dp_port_io_nodes class_id="37" tracking_level="0" version="0">
+	<dp_port_io_nodes class_id="38" tracking_level="0" version="0">
 		<count>0</count>
 		<item_version>0</item_version>
 	</dp_port_io_nodes>

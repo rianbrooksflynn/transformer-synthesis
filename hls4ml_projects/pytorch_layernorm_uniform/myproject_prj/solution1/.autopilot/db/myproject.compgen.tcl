@@ -8,43 +8,320 @@ if {${::AESL::PGuard_autoexp_gen}} {
 }
 
 set axilite_register_dict [dict create]
-# XIL_BRAM:
+# Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
-if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
-eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+eval "cg_default_interface_gen_dc { \
     id 43 \
     name input_1 \
-    reset_level 1 \
-    sync_rst true \
+    type other \
     dir I \
-    corename input_1 \
-    op interface \
-    ports { input_1_address0 { O 5 vector } input_1_ce0 { O 1 bit } input_1_q0 { I 16 vector } input_1_address1 { O 5 vector } input_1_ce1 { O 1 bit } input_1_q1 { I 16 vector } } \
-} "
-} else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'input_1'"
-}
-}
-
-
-# XIL_BRAM:
-if {${::AESL::PGuard_autoexp_gen}} {
-if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
-eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 44 \
-    name layer2_out \
     reset_level 1 \
     sync_rst true \
-    dir O \
-    corename layer2_out \
+    corename dc_input_1 \
     op interface \
-    ports { layer2_out_address0 { O 5 vector } layer2_out_ce0 { O 1 bit } layer2_out_we0 { O 1 bit } layer2_out_d0 { O 16 vector } layer2_out_address1 { O 5 vector } layer2_out_ce1 { O 1 bit } layer2_out_we1 { O 1 bit } layer2_out_d1 { O 16 vector } } \
+    ports { input_1_ap_vld { I 1 bit } input_1 { I 320 vector } } \
 } "
-} else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'layer2_out'"
-}
 }
 
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 44 \
+    name layer2_out_0 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_0 \
+    op interface \
+    ports { layer2_out_0 { O 16 vector } layer2_out_0_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 45 \
+    name layer2_out_1 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_1 \
+    op interface \
+    ports { layer2_out_1 { O 16 vector } layer2_out_1_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 46 \
+    name layer2_out_2 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_2 \
+    op interface \
+    ports { layer2_out_2 { O 16 vector } layer2_out_2_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 47 \
+    name layer2_out_3 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_3 \
+    op interface \
+    ports { layer2_out_3 { O 16 vector } layer2_out_3_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 48 \
+    name layer2_out_4 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_4 \
+    op interface \
+    ports { layer2_out_4 { O 16 vector } layer2_out_4_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 49 \
+    name layer2_out_5 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_5 \
+    op interface \
+    ports { layer2_out_5 { O 16 vector } layer2_out_5_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 50 \
+    name layer2_out_6 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_6 \
+    op interface \
+    ports { layer2_out_6 { O 16 vector } layer2_out_6_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 51 \
+    name layer2_out_7 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_7 \
+    op interface \
+    ports { layer2_out_7 { O 16 vector } layer2_out_7_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 52 \
+    name layer2_out_8 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_8 \
+    op interface \
+    ports { layer2_out_8 { O 16 vector } layer2_out_8_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 53 \
+    name layer2_out_9 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_9 \
+    op interface \
+    ports { layer2_out_9 { O 16 vector } layer2_out_9_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 54 \
+    name layer2_out_10 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_10 \
+    op interface \
+    ports { layer2_out_10 { O 16 vector } layer2_out_10_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 55 \
+    name layer2_out_11 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_11 \
+    op interface \
+    ports { layer2_out_11 { O 16 vector } layer2_out_11_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 56 \
+    name layer2_out_12 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_12 \
+    op interface \
+    ports { layer2_out_12 { O 16 vector } layer2_out_12_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 57 \
+    name layer2_out_13 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_13 \
+    op interface \
+    ports { layer2_out_13 { O 16 vector } layer2_out_13_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 58 \
+    name layer2_out_14 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_14 \
+    op interface \
+    ports { layer2_out_14 { O 16 vector } layer2_out_14_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 59 \
+    name layer2_out_15 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_15 \
+    op interface \
+    ports { layer2_out_15 { O 16 vector } layer2_out_15_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 60 \
+    name layer2_out_16 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_16 \
+    op interface \
+    ports { layer2_out_16 { O 16 vector } layer2_out_16_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 61 \
+    name layer2_out_17 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_17 \
+    op interface \
+    ports { layer2_out_17 { O 16 vector } layer2_out_17_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 62 \
+    name layer2_out_18 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_18 \
+    op interface \
+    ports { layer2_out_18 { O 16 vector } layer2_out_18_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 63 \
+    name layer2_out_19 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_layer2_out_19 \
+    op interface \
+    ports { layer2_out_19 { O 16 vector } layer2_out_19_ap_vld { O 1 bit } } \
+} "
+}
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
