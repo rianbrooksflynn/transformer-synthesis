@@ -14,7 +14,7 @@ file_path = Path(__file__).parent
 
 batch_size = 1
 
-layernorm_in_shape = (4, 5)
+layernorm_in_shape = (20, 10)
 
 seq_len = 20
 num_heads = 2
@@ -31,7 +31,6 @@ pytorch_mha_data_file = str(file_path / 'data' / 'pytorch_mha_data.dat')
 
 def save_data(data, file_path):
     data = data.reshape(data.shape[0], -1)
-    print(data.shape)
     with open(file_path, 'w') as f:
         for i in range(data.shape[0]):
             for j in range(data.shape[1]):
@@ -60,7 +59,7 @@ def keras_layernorm():
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'keras_layernorm_uniform')
+    output_dir = str(file_path / 'hls4ml_projects' / 'keras_layernorm_uniform_20_10')
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
@@ -74,7 +73,7 @@ def pytorch_layernorm():
     save_data(predictions, out_file)
 
     config = hls4ml.utils.config_from_pytorch_model(model, layernorm_in_shape, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_uniform')
+    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_layernorm_uniform_20_10')
     hls_model = hls4ml.converters.convert_from_pytorch_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=layernorm_data_file, output_data_tb=out_file)
     hls_model.compile()
 
