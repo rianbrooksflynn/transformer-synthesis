@@ -1,0 +1,885 @@
+INFO-FLOW: Workspace /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1 opened at Mon Dec 09 05:18:59 CET 2024
+Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute     config_array_partition -maximum_size 4096 
+INFO: [HLS 200-1510] Running: config_array_partition -maximum_size 4096 
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+ERROR: [HLS 200-642] The 'config_array_partition -maximum_size' command is not supported.
+Command     config_array_partition done; error code: 1; 
+Execute     config_compile -name_max_length 80 
+INFO: [HLS 200-1510] Running: config_compile -name_max_length 80 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+Execute     set_part xcvu13p-flga2577-2-e 
+INFO: [HLS 200-1510] Running: set_part xcvu13p-flga2577-2-e 
+Execute       create_platform xcvu13p-flga2577-2-e -board  
+DBG:HLSDevice: Trying to load device library: /opt/Xilinx/Vitis_HLS/2023.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /opt/Xilinx/Vivado/2023.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcvu13p-flga2577-2-e'
+Command       create_platform done; 1.73 sec.
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.11 sec.
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+INFO: [XFORM 203-1161] The maximum of name length is set to 80.
+Command     set_part done; 1.86 sec.
+Execute     config_schedule -enable_dsp_full_reg=false 
+INFO: [HLS 200-1510] Running: config_schedule -enable_dsp_full_reg=false 
+Execute     create_clock -period 5 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 5 -name default 
+Execute       ap_set_clock -name default -period 5 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+Execute     set_clock_uncertainty 12.5% default 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 12.5% default 
+Execute       ap_set_clock -name default -uncertainty 0.625 -unit % 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+Execute     csim_design 
+INFO: [HLS 200-1510] Running: csim_design 
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute       send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
+Execute       source run_sim.tcl 
+Command       ap_source done; 0.13 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command     csim_design done; 13.84 sec.
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 12.15 seconds. CPU system time: 1 seconds. Elapsed time: 13.84 seconds; current allocated memory: 0.219 MB.
+Execute     csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 254.344 MB.
+Execute         set_directive_top myproject -name=myproject 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/try/try.tcl 
+INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling firmware/myproject.cpp as C++
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang firmware/myproject.cpp -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/all.directive.json -E -std=c++0x -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=5 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.cpp.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.8 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/clang.err.log
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:33:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:107:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (firmware/nnet_utils/nnet_dense_resource.h:189:9)
+Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp std=c++0x -target fpga  -directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/.systemc_flag -fix-errors /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -- -std=c++0x -target fpga -fhls -ferror-limit=0
+Command         clang_tidy done; 4.5 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp std=c++0x -target fpga  -directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/all.directive.json -fix-errors /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -- -std=c++0x -target fpga -fhls -ferror-limit=0
+Command         clang_tidy done; 4.87 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 4.9 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp std=c++0x -target fpga  
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -- -std=c++0x -target fpga -fhls -ferror-limit=0 > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command         clang_tidy done; 9.07 sec.
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -- -std=c++0x -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp -std=c++0x -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=5 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot -I /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.bc -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.clang.err.log
+WARNING: [HLS 207-5292] unused parameter 'keep' (firmware/nnet_utils/nnet_helpers.h:285:99)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:14:36)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:15:36)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:16:44)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:24:24)
+WARNING: [HLS 207-5292] unused parameter 'buffer' (firmware/nnet_utils/nnet_function_stubs.h:25:24)
+WARNING: [HLS 207-5292] unused parameter 'partition' (firmware/nnet_utils/nnet_function_stubs.h:26:32)
+WARNING: [HLS 207-5292] unused parameter 'data' (firmware/nnet_utils/nnet_function_stubs.h:33:30)
+WARNING: [HLS 207-5292] unused parameter 'res' (firmware/nnet_utils/nnet_function_stubs.h:33:58)
+WARNING: [HLS 207-5292] unused parameter 'weights' (firmware/nnet_utils/nnet_function_stubs.h:34:51)
+WARNING: [HLS 207-5292] unused parameter 'biases' (firmware/nnet_utils/nnet_function_stubs.h:35:49)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 29.3 seconds. CPU system time: 1.98 seconds. Elapsed time: 32.46 seconds; current allocated memory: 262.355 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute         run_link_or_opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc -args  "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.g.bc"  
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.g.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute         run_link_or_opt -opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc -args /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command         run_link_or_opt done; 0.41 sec.
+INFO-FLOW: Linking math bc lib
+Execute         run_link_or_opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc -args /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsm_39.bc /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsm_39.bc /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libhlsmc++_39.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: 
+Command         run_link_or_opt done; 1.88 sec.
+Execute         run_link_or_opt -opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -args /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=myproject -reflow-float-conversion 
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=myproject -reflow-float-conversion -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command         run_link_or_opt done; 0.79 sec.
+Execute         run_link_or_opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc -args /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /opt/Xilinx/Vitis_HLS/2023.2/lnx64/lib/libfloatconversion_39.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute         run_link_or_opt -opt -out /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc -args /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=myproject 
+INFO-FLOW: run_clang exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc > /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute         send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute         is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang (background poll_ms 5000) exec: /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=myproject -mllvm -hls-db-dir -mllvm /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -assume-maxi-align=1 -mllvm -reflow-pipeline-style-llvm-setting=2 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=5 -x ir /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/platform.db -hls-platform-name=virtexuplus_medium -device-resource-info=BRAM_5376.000000_DSP_12288.000000_FF_3456000.000000_LUT_1728000.000000_SLICE_216000.000000_SLR_4.000000_URAM_1280.000000 -device-name-info=xcvu13p-flga2577-2-e 2> /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 4,016 Compile/Link /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 4,016 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 39,380 Unroll/Inline (step 1) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 39,380 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 9,333 Unroll/Inline (step 2) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 9,333 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 9,331 Unroll/Inline (step 3) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 9,331 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 9,331 Unroll/Inline (step 4) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 9,331 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,465 Array/Struct (step 1) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,465 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,465 Array/Struct (step 2) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,465 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,465 Array/Struct (step 3) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,465 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,865 Array/Struct (step 4) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,865 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,265 Array/Struct (step 5) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,265 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 7,855 Performance (step 1) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,855 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 7,855 Performance (step 2) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,855 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 7,855 Performance (step 3) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,855 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 7,855 Performance (step 4) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 7,855 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,056 HW Transforms (step 1) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,056 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 8,078 HW Transforms (step 2) /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 8,078 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:138:11)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<22, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (firmware/nnet_utils/nnet_layernorm.h:130:12)
+INFO: [HLS 214-291] Loop 'LAYERNORM_SEQ_LOOP' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:169:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_LOAD' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:172:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_STORE' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:178:9)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_RESULT' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:148:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_VAR' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:133:5)
+INFO: [HLS 214-291] Loop 'LAYERNORM_1D_SUM' is marked as complete unroll implied by the pipeline pragma (firmware/nnet_utils/nnet_layernorm.h:127:5)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 20 (firmware/nnet_utils/nnet_layernorm.h:156:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'LAYERNORM_SEQ_LOOP' (firmware/nnet_utils/nnet_layernorm.h:169:5) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' has been removed because the loop is unrolled completely (firmware/nnet_utils/nnet_layernorm.h:156:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_STORE' (firmware/nnet_utils/nnet_layernorm.h:178:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 10 (firmware/nnet_utils/nnet_layernorm.h:156:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_LOAD' (firmware/nnet_utils/nnet_layernorm.h:172:9) in function 'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 10 (firmware/nnet_utils/nnet_layernorm.h:156:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_RESULT' (firmware/nnet_utils/nnet_layernorm.h:148:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 10 (firmware/nnet_utils/nnet_layernorm.h:91:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_VAR' (firmware/nnet_utils/nnet_layernorm.h:133:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 10 (firmware/nnet_utils/nnet_layernorm.h:91:0)
+INFO: [HLS 214-186] Unrolling loop 'LAYERNORM_1D_SUM' (firmware/nnet_utils/nnet_layernorm.h:127:5) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 10 (firmware/nnet_utils/nnet_layernorm.h:91:0)
+INFO: [HLS 214-248] Applying array_partition to 'b2': Complete partitioning on dimension 1. (firmware/weights/b2.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 's2': Complete partitioning on dimension 1. (firmware/weights/s2.h:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'in_val': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:158:12)
+INFO: [HLS 214-248] Applying array_partition to 'outval': Complete partitioning on dimension 1. (firmware/nnet_utils/nnet_layernorm.h:159:11)
+INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (firmware/myproject.cpp:10:0)
+INFO: [HLS 214-248] Applying array_reshape to 'layer_normalization_input': Complete reshaping on dimension 1. (firmware/myproject.cpp:10:0)
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 11.71 seconds. CPU system time: 0.56 seconds. Elapsed time: 13.69 seconds; current allocated memory: 263.285 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0 seconds; current allocated memory: 263.285 MB.
+Execute         opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute           cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute           transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top myproject -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.0.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+Command           transform done; 0.36 sec.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.24 seconds. CPU system time: 0 seconds. Elapsed time: 0.36 seconds; current allocated memory: 268.074 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute           transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.1.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+Command           transform done; 0.27 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute           transform -syn-check /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.2.prechk.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.29 seconds; current allocated memory: 272.145 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.g.1.bc to /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute           transform -hls -tmp /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.1.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+Command           transform done; 0.76 sec.
+INFO-FLOW: Presyn 2...
+Execute           transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.1.tmp.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_layernorm.h:128:22) to (firmware/nnet_utils/nnet_layernorm.h:151:1) in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'... converting 3 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_layernorm.h:73:1)...18 expression(s) balanced.
+Command           transform done; 0.18 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.92 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.94 seconds; current allocated memory: 309.098 MB.
+INFO-FLOW: Building ssdm...
+Execute           transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dce -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric -cdfg-build /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.2.bc -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Execute             auto_get_db
+Command           transform done; 0.43 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.4 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.43 seconds; current allocated memory: 351.430 MB.
+INFO-FLOW: Finish building internal data model.
+Command         opt_and_import_c done; 2.02 sec.
+Command       elaborate done; 48.18 sec.
+Execute       ap_eval exec zip -j /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Execute       autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...
+Execute         ap_set_top_model myproject 
+WARNING: [SYN 201-103] Legalizing function name 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+WARNING: [SYN 201-103] Legalizing function name 'layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' to 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+Execute         get_model_list myproject -filter all-wo-channel -topdown 
+Execute         preproc_iomode -model myproject 
+Execute         preproc_iomode -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         preproc_iomode -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         get_model_list myproject -filter all-wo-channel 
+INFO-FLOW: Model list for configure: {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} myproject
+INFO-FLOW: Configuring Module : layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> ...
+Execute         set_default_model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         apply_spec_resource_limit layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO-FLOW: Configuring Module : layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> ...
+Execute         set_default_model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         apply_spec_resource_limit layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO-FLOW: Configuring Module : myproject ...
+Execute         set_default_model myproject 
+Execute         apply_spec_resource_limit myproject 
+INFO-FLOW: Model list for preprocess: {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} myproject
+INFO-FLOW: Preprocessing Module: layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> ...
+Execute         set_default_model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         cdfg_preprocess -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         rtl_gen_preprocess layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO-FLOW: Preprocessing Module: layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> ...
+Execute         set_default_model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         cdfg_preprocess -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         rtl_gen_preprocess layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO-FLOW: Preprocessing Module: myproject ...
+Execute         set_default_model myproject 
+Execute         cdfg_preprocess -model myproject 
+Execute         rtl_gen_preprocess myproject 
+INFO-FLOW: Model list for synthesis: {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} myproject
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         schedule -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 0.33 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.4 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.49 seconds; current allocated memory: 353.887 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.sched.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.sched.adb -f 
+INFO-FLOW: Finish scheduling layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>.
+Execute         set_default_model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         bind -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 353.887 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.bind.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.bind.adb -f 
+INFO-FLOW: Finish binding layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         schedule -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>'
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 0.38 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.39 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.4 seconds; current allocated memory: 357.207 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.sched.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.sched.adb -f 
+INFO-FLOW: Finish scheduling layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>.
+Execute         set_default_model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         bind -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 357.504 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.bind.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.bind.adb -f 
+INFO-FLOW: Finish binding layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         set_default_model myproject 
+Execute         schedule -model myproject 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'myproject'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'myproject'
+INFO: [SCHED 204-11] Finished scheduling.
+Command         schedule done; 0.29 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.37 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.39 seconds; current allocated memory: 362.719 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.verbose.sched.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.sched.adb -f 
+INFO-FLOW: Finish scheduling myproject.
+Execute         set_default_model myproject 
+Execute         bind -model myproject 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 362.719 MB.
+Execute         syn_report -verbosereport -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.verbose.bind.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.bind.adb -f 
+INFO-FLOW: Finish binding myproject.
+Execute         get_model_list myproject -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute         rtl_gen_preprocess layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         rtl_gen_preprocess layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> 
+Execute         rtl_gen_preprocess myproject 
+INFO-FLOW: Model list for RTL generation: {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} myproject
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         create_rtl_model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -top_prefix myproject_ -sub_prefix myproject_ -mg_file /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+INFO: [SYN 201-210] Renamed object name 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_table_ROM_AUTO_1R' to 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' due to the length limit 80
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' pipeline 'layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_22s_14ns_36_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_22s_22s_38_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_22s_9ns_31_1_1': 10 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+INFO: [RTMG 210-279] Implementing memory 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 366.539 MB.
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute         gen_rtl layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -style xilinx -f -lang vhdl -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/vhdl/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+Execute         gen_rtl layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -style xilinx -f -lang vlog -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+Execute         syn_report -csynth -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_csynth.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -rtlxml -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_csynth.xml 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -verbosereport -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -f -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.adb 
+Execute         db_write -model layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -bindview -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/design.bindinfo.xml 
+Execute         gen_tb_info layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -p /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         create_rtl_model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -top_prefix myproject_ -sub_prefix myproject_ -mg_file /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' pipeline 'layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' is 6600 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_ce))
+INFO: [RTGEN 206-100] Finished creating RTL model for 'layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'.
+Command         create_rtl_model done; 2.33 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.35 seconds. CPU system time: 0.09 seconds. Elapsed time: 2.45 seconds; current allocated memory: 508.824 MB.
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute         gen_rtl layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -style xilinx -f -lang vhdl -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/vhdl/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+Execute         gen_rtl layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -style xilinx -f -lang vlog -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/verilog/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+Execute         syn_report -csynth -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_csynth.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -rtlxml -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_csynth.xml 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -verbosereport -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.verbose.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -f -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.adb 
+Execute         db_write -model layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -bindview -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/design.bindinfo.xml 
+Execute         gen_tb_info layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2> -p /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute         create_rtl_model myproject -top_prefix  -sub_prefix myproject_ -mg_file /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer_normalization_input' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_3' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_4' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_5' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_6' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_7' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_8' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_9' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_10' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_11' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_12' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_13' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_14' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_15' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_16' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_17' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_18' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_19' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_20' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_21' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_22' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_23' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_24' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_25' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_26' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_27' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_28' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_29' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_30' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_31' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_32' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_33' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_34' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_35' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_36' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_37' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_38' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_39' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_40' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_41' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_42' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_43' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_44' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_45' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_46' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_47' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_48' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_49' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_50' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_51' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_52' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_53' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_54' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_55' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_56' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_57' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_58' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_59' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_60' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_61' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_62' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_63' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_64' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_65' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_66' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_67' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_68' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_69' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_70' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_71' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_72' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_73' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_74' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_75' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_76' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_77' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_78' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_79' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_80' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_81' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_82' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_83' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_84' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_85' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_86' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_87' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_88' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_89' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_90' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_91' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_92' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_93' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_94' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_95' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_96' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_97' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_98' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_99' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_100' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_101' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_102' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_103' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_104' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_105' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_106' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_107' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_108' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_109' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_110' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_111' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_112' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_113' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_114' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_115' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_116' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_117' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_118' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_119' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_120' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_121' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_122' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_123' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_124' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_125' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_126' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_127' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_128' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_129' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_130' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_131' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_132' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_133' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_134' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_135' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_136' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_137' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_138' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_139' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_140' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_141' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_142' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_143' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_144' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_145' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_146' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_147' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_148' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_149' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_150' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_151' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_152' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_153' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_154' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_155' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_156' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_157' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_158' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_159' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_160' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_161' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_162' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_163' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_164' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_165' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_166' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_167' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_168' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_169' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_170' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_171' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_172' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_173' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_174' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_175' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_176' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_177' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_178' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_179' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_180' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_181' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_182' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_183' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_184' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_185' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_186' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_187' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_188' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_189' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_190' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_191' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_192' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_193' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_194' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_195' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_196' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_197' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_198' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer2_out_199' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'myproject' pipeline 'myproject' pipeline type 'function pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'myproject' is 37400 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp8) & (1'b1 == ap_CS_fsm_pp0_stage0))
+INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
+Command         create_rtl_model done; 1.6 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.8 seconds. CPU system time: 0.09 seconds. Elapsed time: 1.89 seconds; current allocated memory: 559.906 MB.
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute         gen_rtl myproject -istop -style xilinx -f -lang vhdl -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/vhdl/myproject 
+Execute         gen_rtl myproject -istop -style xilinx -f -lang vlog -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/verilog/myproject 
+Execute         syn_report -csynth -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/myproject_csynth.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -rtlxml -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/myproject_csynth.xml 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -verbosereport -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.verbose.rpt 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         db_write -model myproject -f -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.adb 
+Execute         db_write -model myproject -bindview -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/design.bindinfo.xml 
+Execute         gen_tb_info myproject -p /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject 
+Execute         export_constraint_db -f -tool general -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.constraint.tcl 
+Execute         syn_report -designview -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.design.xml 
+Execute         syn_report -csynthDesign -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth.rpt -MHOut /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/kernel_module_hierarchy.tcl 
+Execute           list_part -family xcvu13p-flga2577-2-e 
+Execute             ap_family_info -name xcvu13p-flga2577-2-e -data names 
+Execute             ap_part_info -quiet -name xcvu13p-flga2577-2-e -data family 
+Execute         syn_report -wcfg -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject_dataflow_ana.wcfg 
+Execute         syn_report -protoinst -model myproject -o /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.protoinst 
+Execute         sc_get_clocks myproject 
+Execute         sc_get_portdomain myproject 
+INFO-FLOW: Model list for RTL component generation: {layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} myproject
+INFO-FLOW: Handling components in module [layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s] ... 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+INFO-FLOW: Found component myproject_mul_22s_22s_38_1_1.
+INFO-FLOW: Append model myproject_mul_22s_22s_38_1_1
+INFO-FLOW: Found component myproject_mul_22s_14ns_36_1_1.
+INFO-FLOW: Append model myproject_mul_22s_14ns_36_1_1
+INFO-FLOW: Found component myproject_mul_22s_9ns_31_1_1.
+INFO-FLOW: Append model myproject_mul_22s_9ns_31_1_1
+INFO-FLOW: Found component myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.
+INFO-FLOW: Append model myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO-FLOW: Handling components in module [layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s] ... 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+INFO-FLOW: Handling components in module [myproject] ... 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.compgen.tcl 
+INFO-FLOW: Append model layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO-FLOW: Append model layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO-FLOW: Append model myproject
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: myproject_mul_22s_22s_38_1_1 myproject_mul_22s_14ns_36_1_1 myproject_mul_22s_9ns_31_1_1 myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s myproject
+INFO-FLOW: Generating /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model myproject_mul_22s_22s_38_1_1
+INFO-FLOW: To file: write model myproject_mul_22s_14ns_36_1_1
+INFO-FLOW: To file: write model myproject_mul_22s_9ns_31_1_1
+INFO-FLOW: To file: write model myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+INFO-FLOW: To file: write model layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO-FLOW: To file: write model layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO-FLOW: To file: write model myproject
+INFO-FLOW: Generating /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/common.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/op.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/interface.gen 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=5.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/vhdl' dstVlogDir='/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/vlog' tclDir='/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db' modelList='myproject_mul_22s_22s_38_1_1
+myproject_mul_22s_14ns_36_1_1
+myproject_mul_22s_9ns_31_1_1
+myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+myproject
+' expOnly='0'
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data names -quiet 
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info -quiet 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.compgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.compgen.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.4 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.43 seconds; current allocated memory: 559.906 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='myproject_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: No bind nodes found for module_name layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+INFO-FLOW: No bind nodes found for module_name myproject
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 0.1 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/syn/report/csynth.xml
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='myproject_mul_22s_22s_38_1_1
+myproject_mul_22s_14ns_36_1_1
+myproject_mul_22s_9ns_31_1_1
+myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
+layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
+myproject
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/top-io-be.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.compgen.dataonly.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.tbgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.tbgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data names -quiet 
+Execute         ap_part_info -name xcvu13p-flga2577-2-e -data info -quiet 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.constraint.tcl 
+Execute         sc_get_clocks myproject 
+Execute         source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} report_dict {TOPINST myproject MODULE2INSTS {myproject myproject layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1834 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s {grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_814 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_830 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_846 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_862 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_878 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_894 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_910 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_926 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_942 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_958 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_974 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_990 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1006 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1022 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1038 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1054 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1070 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1086 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1102 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1118}} INST2MODULE {myproject myproject grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1834 layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_814 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_830 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_846 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_862 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_878 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_894 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_910 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_926 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_942 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_958 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_974 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_990 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1006 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1022 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1038 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1054 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1070 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1086 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1102 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1118 layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s} INSTDATA {myproject {DEPTH 1 CHILDREN grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1834} grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1834 {DEPTH 2 CHILDREN {grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_814 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_830 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_846 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_862 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_878 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_894 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_910 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_926 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_942 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_958 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_974 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_990 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1006 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1022 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1038 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1054 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1070 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1086 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1102 grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1118}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_814 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_830 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_846 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_862 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_878 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_894 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_910 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_926 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_942 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_958 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_974 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_990 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1006 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1022 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1038 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1054 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1070 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1086 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1102 {DEPTH 3 CHILDREN {}} grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_1118 {DEPTH 3 CHILDREN {}}} MODULEDATA {layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln128_1_fu_277_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:128 VARIABLE add_ln128_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_14ns_36_1_1_U11 SOURCE firmware/nnet_utils/nnet_mult.h:73 VARIABLE mul_ln73 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_fu_354_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U1 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_1_fu_359_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U2 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_1 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_2_fu_364_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U3 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_2 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_3_fu_369_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_3 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U4 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_3 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_4_fu_374_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_4 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U5 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_4 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_5_fu_379_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_5 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U6 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_5 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_6_fu_384_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_6 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U7 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_6 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_7_fu_389_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_7 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U8 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_7 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_8_fu_394_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_8 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U9 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_8 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln134_9_fu_399_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:134 VARIABLE sub_ln134_9 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_22s_38_1_1_U10 SOURCE firmware/nnet_utils/nnet_layernorm.h:135 VARIABLE mul_ln135_9 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln136_1_fu_554_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:136 VARIABLE add_ln136_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_14ns_36_1_1_U12 SOURCE firmware/nnet_utils/nnet_mult.h:73 VARIABLE mul_ln73_1 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln140_fu_661_p2 SOURCE firmware/nnet_utils/nnet_layernorm.h:140 VARIABLE add_ln140 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U13 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U14 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_1 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U15 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_2 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U16 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_3 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U17 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_4 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U18 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_5 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U19 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_6 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U20 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_7 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U21 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_8 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_22s_9ns_31_1_1_U22 SOURCE firmware/nnet_utils/nnet_layernorm.h:149 VARIABLE mul_ln149_9 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE rom_1p PRAGMA {} RTLNAME invert_sqr_table_U SOURCE {} VARIABLE invert_sqr_table LOOP {} BUNDLEDNAME {} DSP 0 BRAM 9 URAM 0 STORAGESUBTYPE {} STORAGESIZE {9 16384 1} STORAGEUSAGE rom_1p DISPNAME {bind_storage rom_1p}}} AREA {DSP 32 BRAM 9 URAM 0}} layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s {AREA {DSP 640 BRAM 180 URAM 0}} myproject {AREA {DSP 640 BRAM 180 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 8.03 seconds. CPU system time: 0.05 seconds. Elapsed time: 8.1 seconds; current allocated memory: 571.719 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
+INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
+Execute         syn_report -model myproject -printsummary 
+INFO: [HLS 200-789] **** Estimated Fmax: 231.39 MHz
+Command       autosyn done; 14.54 sec.
+Command     csynth_design done; 62.86 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 57.08 seconds. CPU system time: 2.93 seconds. Elapsed time: 62.86 seconds; current allocated memory: 317.773 MB.
+Execute     add_files -tb myproject_test.cpp -cflags -std=c++0x -DRTL_SIM 
+INFO: [HLS 200-1510] Running: add_files -tb myproject_test.cpp -cflags -std=c++0x -DRTL_SIM 
+INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
+Execute     cosim_design -trace_level all -setup 
+INFO: [HLS 200-1510] Running: cosim_design -trace_level all -setup 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: read_platform_lib /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/common.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/op.gen 
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/util.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /opt/Xilinx/Vitis_HLS/2023.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data names -quiet 
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info -quiet 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
+INFO-FLOW: TB processing: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_test.cpp /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject_test.cpp_pre.cpp
+Execute       clang_tidy xilinx-tb-process -desc tb-process /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject_test.cpp_pre.cpp.tb.cpp std=c++0x 
+INFO-FLOW: exec /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject_test.cpp_pre.cpp.tb.cpp -- -std=c++0x -fhls -ferror-limit=0
+Command       clang_tidy done; 3.06 sec.
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
+INFO-FLOW: TB processing: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/firmware/myproject.cpp /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp
+Execute       clang_tidy xilinx-tb-process -desc tb-process /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp std=c++0x 
+INFO-FLOW: exec /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp -- -std=c++0x -fhls -ferror-limit=0
+Command       clang_tidy done; 7.37 sec.
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/./sim/autowrap/testbench/tb.status.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/global.setting.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.rtl_wrap.cfg.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       ap_part_info -name xcvu13p-flga2577-2-e -data info 
+Execute       source .run_sim.tcl 
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Command       ap_source done; 0.18 sec.
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+Execute       source ../tv/cdatafile/ref.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source ../tv/cdatafile/ref.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.DependenceCheck.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+Execute       source /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/myproject_prj/solution1/.autopilot/db/myproject.tbgen.tcl 
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+Command     cosim_design done; 44.18 sec.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 40.95 seconds. CPU system time: 2.59 seconds. Elapsed time: 44.18 seconds; current allocated memory: 19.129 MB.
+Execute     source ./project.tcl 
+Execute     source run_sim.tcl 
+Execute       source check_sim.tcl 
+Execute       source dataflow_monitor_API.tcl 
+INFO: [COSIM 212-302] Starting C TB testing ...  
+INFO: [COSIM 212-323] Starting verilog simulation...
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+Command     ap_source done; 21.4 sec.
+Execute     cleanup_all 
+Command     cleanup_all done; 0.21 sec.

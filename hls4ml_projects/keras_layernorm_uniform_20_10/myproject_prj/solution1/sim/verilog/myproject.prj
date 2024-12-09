@@ -1,0 +1,11 @@
+sv work "glbl.v"
+sv xil_defaultlib "myproject.autotb.v"
+sv xil_defaultlib "myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v"
+sv xil_defaultlib "myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v"
+sv xil_defaultlib "myproject.v"
+sv xil_defaultlib "myproject_mul_22s_22s_38_1_1.v"
+sv xil_defaultlib "myproject_mul_22s_14ns_36_1_1.v"
+sv xil_defaultlib "myproject_mul_22s_9ns_31_1_1.v"
+sv xil_defaultlib "myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

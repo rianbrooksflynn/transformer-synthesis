@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Dec  5 21:48:18 2024
+# Process ID: 1523665
+# Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/vivado.log
+# Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_20_10/vivado.jou
+# Running On: olhsw-07.cern.ch, OS: Linux, CPU Frequency: 3000.000 MHz, CPU Physical cores: 23, Host memory: 134524 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl

@@ -1,4 +1,5 @@
 from pathlib import Path
+from sys import argv
 import io
 from contextlib import redirect_stdout
 
@@ -8,7 +9,6 @@ file_path = Path(__file__).parent / 'reports'
 
 
 def print_report(report_dir, save_path):
-    report = hls4ml.report.parse_vivado_report(report_dir)
     f = io.StringIO()
     with open(save_path, 'w') as f:
         with redirect_stdout(f):
@@ -16,13 +16,6 @@ def print_report(report_dir, save_path):
 
 
 if __name__ == "__main__":
-    # print_report("hls4ml_projects/keras_layernorm_Vivado/", file_path / 'local_keras_layernorm_report.txt')
-    # print_report("hls4ml_projects/pytorch_layernorm_Vivado/", file_path / 'local_pytorch_layernorm_report.txt')
-    # print_report("hls4ml_projects/keras_mha_Vivado/", file_path / 'local_keras_mha_report.txt')
-    # print_report("hls4ml_projects/pytorch_mha_Vivado/", file_path / 'local_pytorch_mha_report.txt')
-    # print_report("hls4ml_projects/OLD_keras_mha_Vivado/", file_path / 'OLD_keras_mha_report.txt')
-    # print_report("hls4ml_projects/OLD_keras_layernorm_Vivado/", file_path / 'OLD_keras_layernorm_report.txt')
-    print_report("hls4ml_projects/keras_layernorm_log/", file_path / 'keras_layernorm_log_report.txt')
-    print_report("hls4ml_projects/pytorch_layernorm_log/", file_path / 'pytorch_layernorm_log_report.txt')
-    print_report("hls4ml_projects/keras_layernorm_uniform/", file_path / 'keras_layernorm_uniform_report.txt')
-    print_report("hls4ml_projects/pytorch_layernorm_uniform/", file_path / 'pytorch_layernorm_uniform_report.txt')
+    project_name = argv[1]
+    print_report(f"hls4ml_projects/{project_name}/", file_path / f"{project_name}_report.txt")
+

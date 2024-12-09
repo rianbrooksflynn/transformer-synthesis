@@ -1,0 +1,2352 @@
+<profile>
+
+<ReportVersion>
+<Version>2023.2</Version>
+</ReportVersion>
+
+<UserAssignments>
+<unit>ns</unit>
+<ProductFamily>virtexuplus</ProductFamily>
+<Part>xcvu13p-flga2577-2-e</Part>
+<TopModelName>layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s</TopModelName>
+<TargetClockPeriod>5.00</TargetClockPeriod>
+<ClockUncertainty>0.62</ClockUncertainty>
+<TargetInitiationInterval>4294967295</TargetInitiationInterval>
+<FlowTarget>vivado</FlowTarget>
+</UserAssignments>
+
+<PerformanceEstimates>
+<PipelineType>yes</PipelineType>
+<SummaryOfTimingAnalysis>
+<unit>ns</unit>
+<EstimatedClockPeriod>4.322</EstimatedClockPeriod>
+</SummaryOfTimingAnalysis>
+<SummaryOfOverallLatency>
+<unit>clock cycles</unit>
+<Best-caseLatency>5</Best-caseLatency>
+<Average-caseLatency>5</Average-caseLatency>
+<Worst-caseLatency>5</Worst-caseLatency>
+<Best-caseRealTimeLatency>25.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>25.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>25.000 ns</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>1</PipelineInitiationInterval>
+<PipelineDepth>6</PipelineDepth>
+<Interval-min>1</Interval-min>
+<Interval-max>1</Interval-max>
+</SummaryOfOverallLatency>
+<SummaryOfViolations>
+<IssueType>-</IssueType>
+<ViolationType>-</ViolationType>
+<SourceLocation>firmware/nnet_utils/nnet_layernorm.h:174</SourceLocation>
+</SummaryOfViolations>
+</PerformanceEstimates>
+
+<AreaEstimates>
+<Resources>
+<BRAM_18K>180</BRAM_18K>
+<DSP>640</DSP>
+<FF>22546</FF>
+<LUT>32762</LUT>
+<URAM>0</URAM>
+</Resources>
+<AvailableResources>
+<BRAM_18K>5376</BRAM_18K>
+<DSP>12288</DSP>
+<FF>3456000</FF>
+<LUT>1728000</LUT>
+<URAM>1280</URAM>
+</AvailableResources>
+</AreaEstimates>
+
+<InterfaceSummary>
+<RtlPorts>
+<name>ap_clk</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_rst</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_start</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_done</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_idle</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ready</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_ce</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
+<Attribute>control</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_0</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_1</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_2</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_3</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_4</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_5</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_6</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_7</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_8</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_9</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_10</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_11</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_12</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_13</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_14</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_15</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_16</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_17</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_18</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_19</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_20</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_21</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_22</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_23</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_24</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_25</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_26</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_27</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_28</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_29</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_30</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_31</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_32</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_33</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_34</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_35</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_36</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_37</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_38</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_39</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_40</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_41</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_42</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_43</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_44</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_45</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_46</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_47</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_48</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_49</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_50</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_51</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_52</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_53</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_54</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_55</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_56</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_57</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_58</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_59</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_60</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_61</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_62</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_63</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_64</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_65</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_66</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_67</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_68</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_69</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_70</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_71</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_72</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_73</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_74</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_75</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_76</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_77</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_78</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_79</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_80</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_81</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_82</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_83</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_84</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_85</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_86</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_87</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_88</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_89</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_90</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_91</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_92</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_93</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_94</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_95</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_96</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_97</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_98</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_99</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_100</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_101</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_102</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_103</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_104</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_105</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_106</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_107</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_108</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_109</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_110</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_111</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_112</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_113</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_114</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_115</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_116</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_117</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_118</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_119</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_120</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_121</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_122</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_123</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_124</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_125</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_126</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_127</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_128</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_129</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_130</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_131</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_132</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_133</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_134</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_135</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_136</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_137</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_138</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_139</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_140</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_141</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_142</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_143</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_144</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_145</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_146</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_147</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_148</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_149</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_150</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_151</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_152</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_153</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_154</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_155</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_156</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_157</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_158</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_159</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_160</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_161</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_162</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_163</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_164</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_165</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_166</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_167</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_168</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_169</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_170</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_171</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_172</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_173</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_174</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_175</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_176</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_177</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_178</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_179</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_180</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_181</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_182</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_183</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_184</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_185</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_186</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_187</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_188</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_189</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_190</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_191</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_192</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_193</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_194</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_195</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_196</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_197</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_198</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>ap_return_199</name>
+<Object>layernormalize&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>33</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>data_val</name>
+<Object>data_val</Object>
+<Type>scalar</Type>
+<Scope></Scope>
+<IOProtocol>ap_none</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>3200</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+</InterfaceSummary>
+
+</profile>
