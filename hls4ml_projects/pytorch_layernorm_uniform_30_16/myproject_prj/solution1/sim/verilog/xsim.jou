@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Dec 11 13:26:44 2024
+# Process ID: 1930001
+# Current directory: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
+# Log file: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.jou
+# Running On        :COS-6PRIME-2955.science.purdue.edu
+# Platform          :unknown
+# Operating System  :unknown
+# Processor Detail  :Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+# CPU Frequency     :3000.000 MHz
+# CPU Physical cores:48
+# CPU Logical cores :96
+# Host memory       :200834 MB
+# Swap memory       :4294 MB
+# Total Virtual     :205129 MB
+# Available Virtual :187533 MB
+#-----------------------------------------------------------
+source xsim.dir/myproject/xsim_script.tcl
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl

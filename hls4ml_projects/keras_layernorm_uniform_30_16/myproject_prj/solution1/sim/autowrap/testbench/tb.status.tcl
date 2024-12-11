@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_30_16/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp

@@ -1,0 +1,185 @@
+
+
+================================================================
+== Vitis HLS Report for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s'
+================================================================
+* Date:           Wed Dec 11 13:10:43 2024
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|      0 ns|     0.62 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        -|        -|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      -|        -|        -|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|        -|     -|
+|Register             |        -|      -|        -|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |        0|      0|        0|        0|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------+-----+------+------------+---------------------------------------------------------------------------+--------------+
+|   RTL Ports  | Dir | Bits |  Protocol  |                               Source Object                               |    C Type    |
++--------------+-----+------+------------+---------------------------------------------------------------------------+--------------+
+|ap_ready      |  out|     1|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_0   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_1   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_2   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_3   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_4   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_5   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_6   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_7   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_8   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_9   |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_10  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_11  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_12  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_13  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_14  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_15  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_16  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_17  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_18  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_19  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_20  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_21  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_22  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_23  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_24  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_25  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_26  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_27  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_28  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_29  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_30  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_31  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_32  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_33  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_34  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_35  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_36  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_37  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_38  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_39  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_40  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_41  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_42  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_43  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_44  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_45  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_46  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_47  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_48  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_49  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_50  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_51  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_52  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_53  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_54  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_55  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_56  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_57  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_58  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_59  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_60  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_61  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_62  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_63  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_64  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_65  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_66  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_67  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_68  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_69  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_70  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_71  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_72  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_73  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_74  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_75  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_76  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_77  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_78  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_return_79  |  out|    16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|ap_rst        |   in|     1|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>|  return value|
+|data_val      |   in|  1280|     ap_none|                                                                   data_val|        scalar|
++--------------+-----+------+------------+---------------------------------------------------------------------------+--------------+
+
