@@ -8,11 +8,11 @@ import hls4ml
 
 root_path = Path(__file__).parent
 
-in_shape = (4, 5)
+in_shape = (25, 16)
 
 def data():
     np.random.seed(0)
-    return np.random.rand(500, *in_shape)
+    return np.random.rand(250, *in_shape)
 
 
 def model_keras():
@@ -75,9 +75,9 @@ def save_error(filepath, description, diff, max_diff, rms_error):
 
 
 if __name__ == "__main__":
-    precision = 21
-    int_precision = 7
-    table_size = 256
+    precision = 16
+    int_precision = 6
+    table_size = 1024
 
     description = f"""
     LayerNormalization Lookup Table Specification:
@@ -89,8 +89,8 @@ if __name__ == "__main__":
     keras_model = model_keras()
     pytorch_model = model_pytorch()
 
-    keras_filepath = root_path / 'lut_analyses' / f'keras_log_{precision}_{int_precision}_{table_size}.txt'
-    pytorch_filepath = root_path / 'lut_analyses' / f'pytorch_log_{precision}_{int_precision}_{table_size}.txt'
+    keras_filepath = root_path / 'lut_analyses' / f'keras_uniform_{precision}_{int_precision}_{table_size}.txt'
+    pytorch_filepath = root_path / 'lut_analyses' / f'pytorch_uniform_{precision}_{int_precision}_{table_size}.txt'
 
     save_error(keras_filepath, description, *layernorm_keras(keras_model, data))
     save_error(pytorch_filepath, description, *layernorm_pytorch(pytorch_model, data))
