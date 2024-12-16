@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'" level="0">
-<item name = "Date">Wed Dec 11 13:16:23 2024
+<item name = "Date">Mon Dec 16 21:23:10 2024
 </item>
-<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">virtexuplus</item>
@@ -47,12 +47,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 1163, -</column>
+<column name="Expression">-, -, 0, 1165, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, 32, 0, 192, -</column>
 <column name="Memory">4, -, 0, 0, -</column>
 <column name="Multiplexer">-, -, -, -, -</column>
-<column name="Register">-, -, 1641, 512, -</column>
+<column name="Register">-, -, 1389, 512, -</column>
 <specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
 <specialColumn name="Utilization SLR (%)">~0, 1, ~0, ~0, 0</specialColumn>
 <specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
@@ -165,6 +165,7 @@
 <column name="index_2_fu_1032_p3">select, 0, 0, 12, 1, 2</column>
 <column name="index_fu_984_p3">select, 0, 0, 15, 1, 15</column>
 <column name="select_ln91_fu_976_p3">select, 0, 0, 15, 1, 15</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -176,22 +177,10 @@
 <column name="add_ln87_14_reg_1619">19, 0, 19, 0</column>
 <column name="add_ln87_3_reg_1609">19, 0, 19, 0</column>
 <column name="add_ln87_6_reg_1614">19, 0, 19, 0</column>
-<column name="data_0_val_int_reg">16, 0, 16, 0</column>
-<column name="data_10_val_int_reg">16, 0, 16, 0</column>
-<column name="data_11_val_int_reg">16, 0, 16, 0</column>
-<column name="data_12_val_int_reg">16, 0, 16, 0</column>
-<column name="data_13_val_int_reg">16, 0, 16, 0</column>
-<column name="data_14_val_int_reg">16, 0, 16, 0</column>
-<column name="data_15_val_int_reg">16, 0, 16, 0</column>
-<column name="data_1_val_int_reg">16, 0, 16, 0</column>
-<column name="data_2_val_int_reg">16, 0, 16, 0</column>
-<column name="data_3_val_int_reg">16, 0, 16, 0</column>
-<column name="data_4_val_int_reg">16, 0, 16, 0</column>
-<column name="data_5_val_int_reg">16, 0, 16, 0</column>
-<column name="data_6_val_int_reg">16, 0, 16, 0</column>
-<column name="data_7_val_int_reg">16, 0, 16, 0</column>
-<column name="data_8_val_int_reg">16, 0, 16, 0</column>
-<column name="data_9_val_int_reg">16, 0, 16, 0</column>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
 <column name="sub_ln85_10_reg_1573">19, 0, 19, 0</column>
 <column name="sub_ln85_11_reg_1579">19, 0, 19, 0</column>
 <column name="sub_ln85_12_reg_1585">19, 0, 19, 0</column>
@@ -235,6 +224,11 @@
 <keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
 <column name="ap_clk">in, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_rst">in, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
+<column name="ap_ce">in, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_return_0">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_return_1">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_return_2">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
@@ -251,7 +245,6 @@
 <column name="ap_return_13">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_return_14">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="ap_return_15">out, 33, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
-<column name="ap_ce">in, 1, ap_ctrl_hs, layernorm_1d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;33, 13, 5, 3, 0&gt;, config2&gt;, return value</column>
 <column name="data_0_val">in, 16, ap_none, data_0_val, scalar</column>
 <column name="data_1_val">in, 16, ap_none, data_1_val, scalar</column>
 <column name="data_2_val">in, 16, ap_none, data_2_val, scalar</column>

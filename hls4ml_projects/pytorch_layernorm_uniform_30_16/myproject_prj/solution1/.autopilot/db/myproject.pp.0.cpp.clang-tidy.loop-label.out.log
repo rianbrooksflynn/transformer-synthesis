@@ -1,927 +1,927 @@
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28366:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28369:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
-      VITIS_LOOP_1223_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28366:7: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29340:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+      VITIS_LOOP_1207_1: 
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28369:7: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29343:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_676_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29340:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29354:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29343:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29357:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_690_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29354:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29368:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29357:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29371:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_704_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29368:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30985:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29371:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30988:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1247_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30985:7: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32968:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30988:7: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32971:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
         for (unsigned i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_27_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32968:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32981:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32971:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32984:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
         for (size_t i = 0; i < N; i++) {
         ^~~
         VITIS_LOOP_40_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32981:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55907:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32984:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55910:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
     for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
     ^~~
     VITIS_LOOP_265_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55907:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55917:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55910:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
     for (auto i = 0; i < SIZE; i++)
     ^~~
     VITIS_LOOP_275_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55917:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55928:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55920:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55931:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE; i++) {
     ^~~
     VITIS_LOOP_286_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55928:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55935:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55931:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55938:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / res_T::size; i++) {
     ^~~
     VITIS_LOOP_293_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55935:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55937:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55938:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55940:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
         for (int j = 0; j < res_T::size; j++) {
         ^~~
         VITIS_LOOP_295_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55937:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55949:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55940:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55952:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
     for (int i = 0; i < SIZE / data_T::size; i++) {
     ^~~
     VITIS_LOOP_307_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55949:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55951:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55952:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55954:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
         for (int j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_309_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55951:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55966:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55954:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55969:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_324_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55966:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55986:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55969:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55989:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < nrows; ii++) {
     ^~~
     VITIS_LOOP_344_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55986:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55987:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55989:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55990:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
         for (int jj = 0; jj < ncols; jj++) {
         ^~~
         VITIS_LOOP_345_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55987:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56002:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55990:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56005:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_360_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56002:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56009:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56005:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56012:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_IN; ii++) {
     ^~~
     VITIS_LOOP_367_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56009:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56318:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56012:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56321:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
     ^~~
     VITIS_LOOP_135_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56318:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56319:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56321:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56322:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
         for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
         ^~~
         VITIS_LOOP_136_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56319:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56340:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56322:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56343:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
     for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
     ^~~
     VITIS_LOOP_157_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56340:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56341:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56343:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56344:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
         for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
         ^~~
         VITIS_LOOP_158_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56341:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56437:2: warning: Added loop label VITIS_LOOP_19_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56344:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56440:2: warning: Added loop label VITIS_LOOP_19_1:   [xilinx-label-all-loops]
  for (int i = 0; i < CONFIG_T::height; i++) {
  ^~~
  VITIS_LOOP_19_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56437:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56438:9: warning: Added loop label VITIS_LOOP_20_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56440:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56441:9: warning: Added loop label VITIS_LOOP_20_2:   [xilinx-label-all-loops]
         for (int j = 0; j < CONFIG_T::width; j++) {
         ^~~
         VITIS_LOOP_20_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56438:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56454:5: warning: Added loop label VITIS_LOOP_36_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56441:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56457:5: warning: Added loop label VITIS_LOOP_36_1:   [xilinx-label-all-loops]
     for (idx[0] = 0; idx[0] < dims[0]; idx[0]++) {
     ^~~
     VITIS_LOOP_36_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56454:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56455:9: warning: Added loop label VITIS_LOOP_37_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56457:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56458:9: warning: Added loop label VITIS_LOOP_37_2:   [xilinx-label-all-loops]
         for (idx[1] = 0; idx[1] < dims[1]; idx[1]++) {
         ^~~
         VITIS_LOOP_37_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56455:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56456:13: warning: Added loop label VITIS_LOOP_38_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56458:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56459:13: warning: Added loop label VITIS_LOOP_38_3:   [xilinx-label-all-loops]
             for (idx[2] = 0; idx[2] < dims[2]; idx[2]++) {
             ^~~
             VITIS_LOOP_38_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56456:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56611:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56459:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56614:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56685:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56688:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56767:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56770:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
 #pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
         ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58875:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58876:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                        ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58876:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58877:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                        ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58877:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58878:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                        ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58878:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58879:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
                                                                        ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58879:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58880:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
                                                                        ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58909:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58910:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58910:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58911:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58911:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58912:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58912:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58913:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58913:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58914:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58914:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58915:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58915:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58916:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58916:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58917:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58917:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58918:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58918:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58919:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58968:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58969:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                       ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58969:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58970:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                       ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58970:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58971:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                       ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58997:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58998:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58998:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58999:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58999:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59000:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59000:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59001:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59001:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59002:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59002:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59003:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59038:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59039:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                         ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59039:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59040:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                         ^
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59313:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59314:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_61_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59313:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59359:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59314:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59360:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_117_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59359:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59522:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59360:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59523:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_289_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59522:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59674:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59523:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59675:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_449_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59674:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59854:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59675:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59855:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_629_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59854:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59858:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59855:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59859:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_633_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59858:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59968:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59859:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59969:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_743_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59968:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60058:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:59969:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60059:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_840_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60058:7: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60077:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60059:7: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60078:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_859_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60077:7: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60367:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60078:7: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60368:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1173_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60367:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60450:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60368:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60451:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1256_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60450:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60856:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60451:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60857:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
             for (int j = 3; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_68_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60856:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60862:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60857:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60863:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
                 for (int j = 3; j >= I_+1; j--){
                 ^~~
                 VITIS_LOOP_74_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60862:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60866:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60863:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60867:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_78_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60866:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60914:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60867:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60915:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
             for (int j = 9; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_145_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60914:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60920:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60915:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60921:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
                 for (int j = 9; j >= I_+4; j--){
                 ^~~
                 VITIS_LOOP_151_5: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60920:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60924:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60921:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60925:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_155_6: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60924:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60939:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60925:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60940:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
         for (int j = 14; j < 22; j++){
         ^~~
         VITIS_LOOP_170_7: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60939:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60947:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60940:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60948:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++){
                 ^~~
                 VITIS_LOOP_178_8: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60947:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61012:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:60948:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61013:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
             for (int j = 21; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_243_9: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61012:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61018:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61013:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61019:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
                 for (int j = 21; j >= I_+10; j--) {
                 ^~~
                 VITIS_LOOP_249_10: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61018:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61022:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61019:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61023:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_253_11: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61022:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61037:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61023:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61038:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
         for (int j = 27; j < 46; j++){
         ^~~
         VITIS_LOOP_268_12: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61037:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61045:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61038:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61046:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_276_13: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61045:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61274:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61046:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61275:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
             for (int j = 45; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_505_14: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61274:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61280:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61275:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61281:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
                 for (int j = 45; j >= I_+22; j--){
                 ^~~
                 VITIS_LOOP_511_15: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61280:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61284:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61281:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61285:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_515_16: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61284:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61294:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61285:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61295:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
         for (int j = 32-F_; j < 32+I_; j++){
         ^~~
         VITIS_LOOP_525_17: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61294:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61298:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61295:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61299:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
         for (int j = 32+I_; j <= 64; j++){
         ^~~
         VITIS_LOOP_529_18: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61298:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61308:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61299:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61309:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
         for (int j = 37; j < 64; j++) {
         ^~~
         VITIS_LOOP_539_19: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61308:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61316:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61309:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61317:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++){
                 ^~~
                 VITIS_LOOP_547_20: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61316:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61677:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61317:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61678:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
             for (int j = 63; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_908_21: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61677:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61683:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61678:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61684:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
                 for (int j = 63; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_914_22: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61683:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61687:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61684:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61688:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_918_23: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61687:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61803:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61688:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61804:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
             for (int j = 4; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_1034_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61803:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61809:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61804:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61810:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
                 for (int j = 4; j >= I_+1; j--) {
                 ^~~
                 VITIS_LOOP_1040_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61809:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61813:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61810:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61814:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1044_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61813:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61900:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61814:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61901:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
             for (int j = 10; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_1131_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61900:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61906:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61901:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61907:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
                 for (int j = 10; j >= I_+4; j--) {
                 ^~~
                 VITIS_LOOP_1137_5: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61906:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61910:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61907:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61911:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1141_6: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61910:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61929:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61911:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61930:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
         for (int j = wf+3; j < w-1; j++) {
         ^~~
         VITIS_LOOP_1160_7: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61929:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61936:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61930:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61937:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++) {
                 ^~~
                 VITIS_LOOP_1167_8: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61936:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62052:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:61937:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62053:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
             for (int j = 22; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_1283_9: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62052:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62058:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62053:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62059:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
                 for (int j = 22; j >= I_+10; j--){
                 ^~~
                 VITIS_LOOP_1289_10: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62058:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62062:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62059:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62063:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1293_11: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62062:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62082:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62063:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62083:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
         for (int j = wf+4; j < w-1; j++){
         ^~~
         VITIS_LOOP_1313_12: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62082:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62089:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62083:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62090:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_1320_13: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62089:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62351:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62090:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62352:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
             for (int j = 46; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_1582_14: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62351:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62357:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62352:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62358:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
                 for (int j = 46; j >= I_+22; j--) {
                 ^~~
                 VITIS_LOOP_1588_15: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62357:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62361:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62358:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62362:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1592_16: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62361:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62385:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62362:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62386:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
         for (int j = wf+5; j < w-1; j++){
         ^~~
         VITIS_LOOP_1616_17: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62385:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62392:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62386:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62393:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++) {
                 ^~~
                 VITIS_LOOP_1623_18: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62392:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62822:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62393:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62823:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
             for (int j = 64; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_2053_19: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62822:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62828:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62823:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62829:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
                 for (int j = 64; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_2059_20: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62828:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62832:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62829:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62833:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_2063_21: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62832:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62962:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62833:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62963:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
             for(int j=3; j>=I+1; j--) {
             ^~~
             VITIS_LOOP_2193_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62962:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62969:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62963:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62970:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
                 for(int j=3; j>=I+1; j--) {
                 ^~~
                 VITIS_LOOP_2200_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62969:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62973:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62970:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62974:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
                 for(int j=I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2204_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62973:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63020:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:62974:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63021:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
             for(int j=7; j>=3+I; j--) {
             ^~~
             VITIS_LOOP_2251_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63020:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63027:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63021:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63028:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
                 for(int j=7; j>=3+I; j--) {
                 ^~~
                 VITIS_LOOP_2258_5: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63027:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63031:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63028:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63032:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
                 for(int j=I+2; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2262_6: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63031:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63049:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63032:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63050:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
         for(int j=11; j<16; j++) {
         ^~~
         VITIS_LOOP_2280_7: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63049:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63104:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63050:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63105:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
             for(int j=15; j>=7+I; j--) {
             ^~~
             VITIS_LOOP_2335_8: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63104:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63111:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63105:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63112:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
                 for(int j=15; j>=7+I; j--) {
                 ^~~
                 VITIS_LOOP_2342_9: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63111:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63115:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63112:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63116:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
                 for(int j=6+I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2346_10: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63115:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63133:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63116:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63134:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
         for(int j=20; j<32; j++) {
         ^~~
         VITIS_LOOP_2364_11: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63133:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63222:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63134:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63223:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
             for(int j=31; j>=I+15; j--) {
             ^~~
             VITIS_LOOP_2453_12: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63222:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63229:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63223:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63230:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
                 for(int j=31; j>=I+15; j--) {
                 ^~~
                 VITIS_LOOP_2460_13: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63229:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63233:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63230:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63234:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
                 for(int j=I+14; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2464_14: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63233:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63243:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63234:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63244:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
         for(int j=32-F; j<32+I; j++) {
         ^~~
         VITIS_LOOP_2474_15: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63243:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63247:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63244:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63248:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
         for(int j=32+I; j<=64; j++) {
         ^~~
         VITIS_LOOP_2478_16: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63247:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63258:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63248:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63259:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
         for(int j=37; j<64; j++) {
         ^~~
         VITIS_LOOP_2489_17: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63258:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63266:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63259:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63267:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
                 for(int j=0; j<64; j++) {
                 ^~~
                 VITIS_LOOP_2497_18: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63266:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63591:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63267:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63592:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
             for(int j=63; j>=I+31; j--) {
             ^~~
             VITIS_LOOP_2822_19: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63591:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63598:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63592:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63599:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
                 for(int j=63; j>=I+31; j--) {
                 ^~~
                 VITIS_LOOP_2829_20: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63598:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63602:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63599:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63603:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
                 for(int j=I+30; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2833_21: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63602:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63690:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63603:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63691:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
    for(int j = 5; j>=I_+2; j--) {
    ^~~
    VITIS_LOOP_2921_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63690:4: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63697:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63691:4: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63698:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
     for(int j = 5; j>=I_+2; j--) {
     ^~~
     VITIS_LOOP_2928_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63697:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63701:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63698:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63702:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
     for(int j = I_+1; j>=0; j--) {
     ^~~
     VITIS_LOOP_2932_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63701:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63716:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63702:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63717:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
   for(int j = 11; j >=7; j--) {
   ^~~
   VITIS_LOOP_2947_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63716:3: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63748:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63717:3: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63749:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
    for(int j = 11; j >= I_+5; j--) {
    ^~~
    VITIS_LOOP_2979_5: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63748:4: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63755:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63749:4: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63756:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
     for(int j = 11; j>= I_+5; j--) {
     ^~~
     VITIS_LOOP_2986_6: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63755:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63759:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63756:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63760:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
     for(int j = I_+4; j>=0; j--) {
     ^~~
     VITIS_LOOP_2990_7: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63759:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63774:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63760:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63775:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
   for(int j = 25; j>=15; j--) {
   ^~~
   VITIS_LOOP_3005_8: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63774:3: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63824:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63775:3: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63825:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
    for(int j = 25; j>= I_+12; j--) {
    ^~~
    VITIS_LOOP_3055_9: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63824:4: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63831:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63825:4: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63832:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
     for(int j = 25; j>=I_+12; j--) {
     ^~~
     VITIS_LOOP_3062_10: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63831:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63835:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63832:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63836:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
     for(int j = I_+11; j>=0; j--) {
     ^~~
     VITIS_LOOP_3066_11: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63835:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63850:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63836:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63851:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
   for(int j = 51; j >= 29; j--) {
   ^~~
   VITIS_LOOP_3081_12: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63850:3: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63987:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63851:3: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63988:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
    for(int j = 51; j >= 25 + I_; j--) {
    ^~~
    VITIS_LOOP_3218_13: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63987:4: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63994:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63988:4: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63995:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
     for(int j = 51; j>=25 + I_; j--) {
     ^~~
     VITIS_LOOP_3225_14: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63994:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63998:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63995:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63999:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
     for(int j = 24 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3229_15: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63998:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64013:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:63999:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64014:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
   for(int j = 63; j >= 36; j--) {
   ^~~
   VITIS_LOOP_3244_16: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64013:3: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64173:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64014:3: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64174:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
    for(int j = 63; j >= 31 + I_; j--) {
    ^~~
    VITIS_LOOP_3404_17: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64173:4: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64180:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64174:4: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64181:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
     for(int j = 63; j >= 31 + I_; j--) {
     ^~~
     VITIS_LOOP_3411_18: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64180:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64184:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64181:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64185:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
     for(int j = 30 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3415_19: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64184:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64899:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64185:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64900:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_703_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64899:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65117:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:64900:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65118:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_921_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65117:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65534:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65118:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65535:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_1345_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65534:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65854:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65535:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65855:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
         for ( int pos = msbr-1; pos >= 0; pos-- ) {
         ^~~
         VITIS_LOOP_240_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65854:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65882:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65855:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65883:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
         for ( int pos = -1; pos >= -F_-1; pos-- ) {
         ^~~
         VITIS_LOOP_268_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65882:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66584:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:65883:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66585:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
             for (int j = 0; j < W_-1; j++){
             ^~~
             VITIS_LOOP_48_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66584:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66637:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66585:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66638:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
     for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
     ^~~
     VITIS_LOOP_109_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66637:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66651:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66638:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66652:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
             for (int j = WO_m-1; j >= W_-1; j--) {
             ^~~
             VITIS_LOOP_123_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66651:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66681:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66652:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66682:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
             for (int j = W_-2; j >= 0; j--){
             ^~~
             VITIS_LOOP_153_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66681:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66766:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66682:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66767:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
            for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
            ^~~
            VITIS_LOOP_281_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66766:12: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66786:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66767:12: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66787:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
                for (int j = WO_e-1; j >= W_-1; j--) {
                ^~~
                VITIS_LOOP_301_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66786:16: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66800:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66787:16: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66801:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
                    for(int i = 0; i < W_-1; ++i) {
                    ^~~
                    VITIS_LOOP_315_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66800:20: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66893:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66801:20: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66894:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
            for (int j =WO_d-1; j >= W_-1; j--) {
            ^~~
            VITIS_LOOP_433_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66893:12: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66907:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66894:12: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66908:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
               for(int i = 0; i < W_-1; ++i) {
               ^~~
               VITIS_LOOP_447_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66907:15: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67027:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:66908:15: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67028:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_33_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67027:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67151:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67028:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67152:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_183_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67151:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67206:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67152:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67207:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_248_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67206:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67725:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67207:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67726:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_16_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67725:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67736:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67726:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67737:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_27_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67736:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67747:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67737:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67748:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_38_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67747:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67758:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67748:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67759:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_49_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67758:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67769:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67759:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67770:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_60_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67769:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67780:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67770:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67781:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_71_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67780:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67791:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67781:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67792:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_82_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67791:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67802:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67792:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67803:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_93_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67802:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70162:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:67803:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70128:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
            for(int i = 0; i < W_-1; ++i) {
            ^~~
            VITIS_LOOP_26_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70162:12: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70226:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70128:12: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70192:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
       for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
       ^~~
       VITIS_LOOP_40_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70226:7: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70343:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70192:7: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70309:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
         for(int pos = msbr - 1; pos >= 0; pos--) {
         ^~~
         VITIS_LOOP_49_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70343:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70368:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70309:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70334:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
     for(int pos = -1; pos >= -F-1; pos--) {
     ^~~
     VITIS_LOOP_81_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70368:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70438:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70334:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70404:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
        for(int i = 0; i < W - 1; ++i) {
        ^~~
        VITIS_LOOP_169_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70438:8: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72688:5: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:70404:8: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72654:5: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
     for (int ii = 0; ii < N_TABLE; ii++) {
     ^~~
     VITIS_LOOP_39_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72688:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72859:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72654:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72825:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_73_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72859:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72866:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72825:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72832:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
             for (int j = 0; j < data_T::size; j++) {
             ^~~
             VITIS_LOOP_80_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72866:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72875:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72832:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72841:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_89_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72875:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72884:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72841:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72850:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
             for (int j = 0; j < pack_diff; j++) {
             ^~~
             VITIS_LOOP_98_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72884:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72888:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72850:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72854:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
                 for (int k = 0; k < res_T::size; k++) {
                 ^~~
                 VITIS_LOOP_102_5: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72888:17: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72899:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72854:17: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72865:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
         for (int i = 0; i < N / data_T::size; i++) {
         ^~~
         VITIS_LOOP_113_6: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72899:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72903:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72865:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72869:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
             for (int j = 0; j < data_T::size; j++) {
             ^~~
             VITIS_LOOP_117_7: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72903:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72927:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72869:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72893:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
         for (int j = 0; j < n_dupl; j++) {
         ^~~
         VITIS_LOOP_141_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72927:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72931:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72893:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72897:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
             for (int k = 0; k < res_T::size; k++) {
             ^~~
             VITIS_LOOP_145_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72931:13: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72950:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72897:13: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72916:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
         for (int k = 0; k < res_T::size; k++) {
         ^~~
         VITIS_LOOP_164_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72950:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72973:2: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72916:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72939:2: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
  for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / data_T::size; i++) {
  ^~~
  VITIS_LOOP_187_1: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72973:2: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72976:9: warning: Added loop label VITIS_LOOP_190_2:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72939:2: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72942:9: warning: Added loop label VITIS_LOOP_190_2:   [xilinx-label-all-loops]
         for (int j = 0; j < data_T::size; j++) {
         ^~~
         VITIS_LOOP_190_2: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72976:9: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72981:5: warning: Added loop label VITIS_LOOP_195_3:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72942:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72947:5: warning: Added loop label VITIS_LOOP_195_3:   [xilinx-label-all-loops]
     for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / res_T::size; i++) {
     ^~~
     VITIS_LOOP_195_3: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72981:5: note: FIX-IT applied suggested code changes
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72985:9: warning: Added loop label VITIS_LOOP_199_4:   [xilinx-label-all-loops]
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72947:5: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72951:9: warning: Added loop label VITIS_LOOP_199_4:   [xilinx-label-all-loops]
         for (int j = 0; j < res_T::size; j++) {
         ^~~
         VITIS_LOOP_199_4: 
-/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72985:9: note: FIX-IT applied suggested code changes
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:72951:9: note: FIX-IT applied suggested code changes

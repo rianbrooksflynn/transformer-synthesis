@@ -13,7 +13,6 @@
 #include "ap_int.h"
 #include "autopilot_cbe.h"
 #include "hls_half.h"
-#include "hls_directio.h"
 #include "hls_stream.h"
 
 using namespace std;
@@ -2028,58 +2027,6 @@ namespace hls::sim
     }
   };
 
-  template<typename E>
-  struct DirectIO {
-    unsigned width;
-    const char* name;
-#ifdef POST_CHECK
-    Reader* reader;
-#else
-    Writer* writer;
-    Writer* swriter;
-    Writer* gwriter;
-#endif
-    hls::directio<E>* param;
-    std::vector<E> buf;
-    size_t initSize;
-    size_t depth;
-    bool hasWrite;
-
-    void markSize()
-    {
-      initSize = param->size();
-    }
-
-    void buffer()
-    {
-      buf.clear();
-      while (param->valid()) {
-        buf.push_back(param->read());
-      }
-      for (auto &e : buf) {
-        param->write(e);
-      }
-    }
-
-#ifndef POST_CHECK
-    void doTCL(RefTCL &tcl)
-    {
-      tcl.set(name, depth);
-    }
-#endif
-
-    ~DirectIO()
-    {
-#ifdef POST_CHECK
-      delete reader;
-#else
-      delete writer;
-      delete swriter;
-      delete gwriter;
-#endif
-    }
-  };
-
   template<typename Reader, typename Writer>
   struct Memory {
     unsigned width;
@@ -2233,39 +2180,6 @@ namespace hls::sim
     port.reader->end();
     if (foundX) {
       warnOnX();
-    }
-  }
-
-  template<typename E>
-  void check(DirectIO<E> &port)
-  {
-    if (port.hasWrite) {
-      port.reader->begin();
-      bool foundX = false;
-      E *p = new E;
-      while (char *s = port.reader->next()) {
-        foundX |= RTLOutputCheckAndReplacement(s);
-        unformatData(s, (unsigned char*)p);
-        port.param->write(*p);
-      }
-      delete p;
-      port.reader->end();
-      if (foundX) {
-        warnOnX();
-      }
-    } else {
-      port.reader->begin();
-      size_t n = 0;
-      if (char *s = port.reader->next()) {
-        std::istringstream ss(s);
-        ss >> n;
-      } else {
-        throw SimException(bad, __LINE__);
-      }
-      port.reader->end();
-      for (size_t j = 0; j < n; ++j) {
-        port.param->read();
-      }
     }
   }
 
@@ -2441,51 +2355,9 @@ namespace hls::sim
     writer->end();
   }
 
-  template<typename E>
-  void dump(DirectIO<E> &port, size_t AESL_transaction)
-  {
-    if (port.hasWrite) {
-      port.writer->begin(AESL_transaction);
-      port.depth = port.param->size()-port.initSize;
-      for (size_t j = 0; j < port.depth; ++j) {
-        std::string &&s {
-          formatData((unsigned char*)&port.buf[port.initSize+j], port.width)
-        };
-        port.writer->next(s.c_str());
-      }
-      port.writer->end();
-
-      port.swriter->begin(AESL_transaction);
-      port.swriter->next(std::to_string(port.depth).c_str());
-      port.swriter->end();
-    } else {
-      port.writer->begin(AESL_transaction);
-      port.depth = port.initSize-port.param->size();
-      for (size_t j = 0; j < port.depth; ++j) {
-        std::string &&s {
-          formatData((unsigned char*)&port.buf[j], port.width)
-        };
-        port.writer->next(s.c_str());
-      }
-      port.writer->end();
-
-      port.swriter->begin(AESL_transaction);
-      port.swriter->next(std::to_string(port.depth).c_str());
-      port.swriter->end();
-
-      port.gwriter->begin(AESL_transaction);
-      size_t n = (port.depth ? port.initSize : port.depth);
-      size_t d = port.depth;
-      do {
-        port.gwriter->next(std::to_string(n--).c_str());
-      } while (d--);
-      port.gwriter->end();
-    }
-  }
-
   void error_on_depth_unspecified(const char *portName)
   {
-    std::string msg {"A depth specification is required for interface port "};
+    std::string msg {"A depth specification is required for MAXI interface port "};
     msg.append("'");
     msg.append(portName);
     msg.append("'");
@@ -2534,9 +2406,6 @@ namespace hls::sim
   void dump(A2Stream &port, Writer *writer, size_t AESL_transaction)
   {
     writer->begin(AESL_transaction);
-    if (port.nbytes == 0) {
-      error_on_depth_unspecified(port.name);
-    }
     size_t n = divide_ceil(port.nbytes, port.asize);
     unsigned char *put = (unsigned char*)port.param;
     for (size_t j = 0; j < n; ++j) {

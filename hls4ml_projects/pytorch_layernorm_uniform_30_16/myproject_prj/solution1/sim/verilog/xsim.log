@@ -1,30 +1,51 @@
 #-----------------------------------------------------------
-# xsim v2024.1 (64-bit)
-# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
-# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
-# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Dec 11 13:26:44 2024
-# Process ID: 1930001
-# Current directory: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 16 21:27:15 2024
+# Process ID: 2930487
+# Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog
 # Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
-# Log file: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.log
-# Journal file: /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.jou
-# Running On        :COS-6PRIME-2955.science.purdue.edu
-# Platform          :unknown
-# Operating System  :unknown
-# Processor Detail  :Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
-# CPU Frequency     :3000.000 MHz
-# CPU Physical cores:48
-# CPU Logical cores :96
-# Host memory       :200834 MB
-# Swap memory       :4294 MB
-# Total Virtual     :205129 MB
-# Available Virtual :187533 MB
+# Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/xsim.jou
+# Running On: olhsw-04.cern.ch, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 32, Host memory: 134531 MB
 #-----------------------------------------------------------
 source xsim.dir/myproject/xsim_script.tcl
 # xsim {myproject} -view {{myproject_dataflow_ana.wcfg}} -tclbatch {myproject.tcl} -protoinst {myproject.protoinst}
 INFO: [Wavedata 42-565] Reading protoinst file myproject.protoinst
 INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3848_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3886/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3886_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3924/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3924_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3962/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_3962_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4000/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4000_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4038/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4038_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4076/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4076_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4114/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4114_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4152/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4152_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4190/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4190_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4228/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4228_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4266/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4266_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4304/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4304_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4342/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4342_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4380/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4380_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4418/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4418_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4456/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4456_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4494/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4494_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4532/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4532_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4570/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4570_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4608/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4608_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4646/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4646_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4684/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4684_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4722/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4722_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4760/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4760_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4798/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4798_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4836/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4836_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4874/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4874_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4912/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4912_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4950/grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4950_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_myproject_top/AESL_inst_myproject/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848/grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_4848_activity
 Time resolution is 1 ps
 open_wave_config myproject_dataflow_ana.wcfg
 source myproject.tcl
@@ -2467,8 +2488,8 @@ source myproject.tcl
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [0.00%] @ "113000"
-// RTL Simulation : 1 / 1 [100.00%] @ "148000"
+// RTL Simulation : 1 / 1 [100.00%] @ "138000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 177500 ps : File "/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 29510
+$finish called at time : 167500 ps : File "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16/myproject_prj/solution1/sim/verilog/myproject.autotb.v" Line 29510
 ## quit
-INFO: [Common 17-206] Exiting xsim at Wed Dec 11 13:26:49 2024...
+INFO: [Common 17-206] Exiting xsim at Mon Dec 16 21:27:25 2024...

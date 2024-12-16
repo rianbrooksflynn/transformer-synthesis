@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2024.1</Version>
+<Version>2023.2</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -5349,17 +5349,6 @@
 <Dir>out</Dir>
 <Bits>16</Bits>
 <Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_rst</name>
-<Object>transpose_2d&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config4&gt;</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
 <name>data_0_val</name>

@@ -1,17 +1,14 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
-# Tool Version Limit: 2024.05
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+# Tool Version Limit: 2023.10
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-# Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+# Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
 # ==============================================================
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/fpo_v7_1:$::env(LD_LIBRARY_PATH)
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/fft_v9_1:$::env(LD_LIBRARY_PATH)
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/fir_v7_0:$::env(LD_LIBRARY_PATH)
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/dds_v6_0:$::env(LD_LIBRARY_PATH)
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib:$::env(LD_LIBRARY_PATH)
-set ::env(LD_LIBRARY_PATH) /home/tools/Xilinx/Vitis_HLS/2024.1/lib/lnx64.o/Default:$::env(LD_LIBRARY_PATH)
-set_param hls.enable_hidden_option_error false
+set ::env(LD_LIBRARY_PATH) /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/fpo_v7_1:$::env(LD_LIBRARY_PATH)
+set ::env(LD_LIBRARY_PATH) /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/fft_v9_1:$::env(LD_LIBRARY_PATH)
+set ::env(LD_LIBRARY_PATH) /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/fir_v7_0:$::env(LD_LIBRARY_PATH)
+set ::env(LD_LIBRARY_PATH) /opt/Xilinx/Vitis_HLS/2023.2/lnx64/tools/dds_v6_0:$::env(LD_LIBRARY_PATH)
 
 source check_sim.tcl
 source dataflow_monitor_API.tcl

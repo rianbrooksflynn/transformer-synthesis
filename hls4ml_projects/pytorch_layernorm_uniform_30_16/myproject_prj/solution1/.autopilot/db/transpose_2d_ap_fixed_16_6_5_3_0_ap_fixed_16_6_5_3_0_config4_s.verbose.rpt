@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s'
 ================================================================
-* Date:           Wed Dec 11 13:16:23 2024
+* Date:           Mon Dec 16 21:23:09 2024
 
-* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: virtexuplus
@@ -579,7 +579,6 @@
 |ap_return_477  |  out|   16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>|  return value|
 |ap_return_478  |  out|   16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>|  return value|
 |ap_return_479  |  out|   16|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>|  return value|
-|ap_rst         |   in|    1|  ap_ctrl_hs|  transpose_2d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>|  return value|
 |data_0_val     |   in|   16|     ap_none|                                                                 data_0_val|        scalar|
 |data_1_val     |   in|   16|     ap_none|                                                                 data_1_val|        scalar|
 |data_2_val     |   in|   16|     ap_none|                                                                 data_2_val|        scalar|

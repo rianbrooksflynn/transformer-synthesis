@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>361</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>91</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>91</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>186</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>198</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>182</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916513260</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521221696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -322,7 +322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3917033739</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -358,7 +358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521394816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -394,7 +394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916505549</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -430,7 +430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521321520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -466,7 +466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>573456973</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -502,7 +502,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>124</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522678464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -598,7 +598,7 @@
 						<id>19</id>
 						<name>data_15_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -606,7 +606,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -628,7 +628,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>541</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -655,7 +655,7 @@
 						<id>20</id>
 						<name>data_14_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -663,7 +663,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -685,7 +685,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>410</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -712,7 +712,7 @@
 						<id>21</id>
 						<name>data_13_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -720,7 +720,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -742,7 +742,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913736481</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -769,7 +769,7 @@
 						<id>22</id>
 						<name>data_12_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -777,7 +777,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -799,7 +799,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522656080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -826,7 +826,7 @@
 						<id>23</id>
 						<name>data_11_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -834,7 +834,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -856,7 +856,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -883,7 +883,7 @@
 						<id>24</id>
 						<name>data_10_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -891,7 +891,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -913,7 +913,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -940,7 +940,7 @@
 						<id>25</id>
 						<name>data_9_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -948,7 +948,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -970,7 +970,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>126</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -997,7 +997,7 @@
 						<id>26</id>
 						<name>data_8_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1005,7 +1005,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1027,7 +1027,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2147483647</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1054,7 +1054,7 @@
 						<id>27</id>
 						<name>data_7_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1062,7 +1062,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1084,7 +1084,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522614016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1111,7 +1111,7 @@
 						<id>28</id>
 						<name>data_6_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1119,7 +1119,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1141,7 +1141,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1168,7 +1168,7 @@
 						<id>29</id>
 						<name>data_5_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1176,7 +1176,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1198,7 +1198,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1936942413</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1225,7 +1225,7 @@
 						<id>30</id>
 						<name>data_4_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1233,7 +1233,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1255,7 +1255,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1747874658</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1282,7 +1282,7 @@
 						<id>31</id>
 						<name>data_3_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1290,7 +1290,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1312,7 +1312,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522626264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1339,7 +1339,7 @@
 						<id>32</id>
 						<name>data_2_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1347,7 +1347,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1369,7 +1369,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913929842</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1396,7 +1396,7 @@
 						<id>33</id>
 						<name>data_1_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1404,7 +1404,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1426,7 +1426,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913718614</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1453,7 +1453,7 @@
 						<id>34</id>
 						<name>data_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1461,7 +1461,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1483,7 +1483,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1314013527</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1510,7 +1510,7 @@
 						<id>35</id>
 						<name>sum_cache</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1518,7 +1518,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1540,7 +1540,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1568,7 +1568,7 @@
 						<id>36</id>
 						<name>shl_ln</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1576,7 +1576,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1598,7 +1598,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521255552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1626,7 +1626,7 @@
 						<id>37</id>
 						<name>shl_ln79_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1634,7 +1634,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1656,7 +1656,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1684,7 +1684,7 @@
 						<id>38</id>
 						<name>shl_ln79_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1692,7 +1692,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1714,7 +1714,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521289392</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1742,7 +1742,7 @@
 						<id>39</id>
 						<name>shl_ln79_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1750,7 +1750,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1772,7 +1772,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521285312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1800,7 +1800,7 @@
 						<id>40</id>
 						<name>shl_ln79_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1808,7 +1808,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1830,7 +1830,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522613728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1858,7 +1858,7 @@
 						<id>41</id>
 						<name>shl_ln79_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1866,7 +1866,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1888,7 +1888,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521282736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1916,7 +1916,7 @@
 						<id>42</id>
 						<name>shl_ln79_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1924,7 +1924,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1946,7 +1946,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -1974,7 +1974,7 @@
 						<id>43</id>
 						<name>shl_ln79_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -1982,7 +1982,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2004,7 +2004,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521256464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2032,7 +2032,7 @@
 						<id>44</id>
 						<name>shl_ln79_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2040,7 +2040,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2062,7 +2062,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521257648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2090,7 +2090,7 @@
 						<id>45</id>
 						<name>shl_ln79_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2098,7 +2098,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2120,7 +2120,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2148,7 +2148,7 @@
 						<id>46</id>
 						<name>shl_ln79_s</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2156,7 +2156,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2178,7 +2178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521252832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2206,7 +2206,7 @@
 						<id>47</id>
 						<name>shl_ln79_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2214,7 +2214,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2236,7 +2236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916527753</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2264,7 +2264,7 @@
 						<id>48</id>
 						<name>shl_ln79_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2272,7 +2272,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2294,7 +2294,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522625872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2322,7 +2322,7 @@
 						<id>49</id>
 						<name>shl_ln79_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2330,7 +2330,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2352,7 +2352,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913764043</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2380,7 +2380,7 @@
 						<id>50</id>
 						<name>shl_ln79_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2388,7 +2388,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2410,7 +2410,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2438,7 +2438,7 @@
 						<id>51</id>
 						<name>add_ln79_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2446,7 +2446,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2468,7 +2468,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521259040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2495,7 +2495,7 @@
 						<id>52</id>
 						<name>add_ln79_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2503,7 +2503,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2525,7 +2525,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521272376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2552,7 +2552,7 @@
 						<id>53</id>
 						<name>add_ln79_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2560,7 +2560,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2582,7 +2582,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>565</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2609,7 +2609,7 @@
 						<id>54</id>
 						<name>add_ln79_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2617,7 +2617,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2639,7 +2639,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913752716</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2666,7 +2666,7 @@
 						<id>55</id>
 						<name>add_ln79_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2674,7 +2674,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2696,7 +2696,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1869833586</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2723,7 +2723,7 @@
 						<id>56</id>
 						<name>add_ln79_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2731,7 +2731,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2753,7 +2753,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>576</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2780,7 +2780,7 @@
 						<id>57</id>
 						<name>add_ln79_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2788,7 +2788,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2810,7 +2810,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521270112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2837,7 +2837,7 @@
 						<id>58</id>
 						<name>add_ln79_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2845,7 +2845,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2867,7 +2867,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2894,7 +2894,7 @@
 						<id>59</id>
 						<name>add_ln79_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2902,7 +2902,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2924,7 +2924,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>539111993</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -2951,7 +2951,7 @@
 						<id>60</id>
 						<name>add_ln79_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -2959,7 +2959,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2981,7 +2981,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>75</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3008,7 +3008,7 @@
 						<id>61</id>
 						<name>add_ln79_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3016,7 +3016,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3038,7 +3038,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3065,7 +3065,7 @@
 						<id>62</id>
 						<name>add_ln79_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3073,7 +3073,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3095,7 +3095,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1848599922</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3122,7 +3122,7 @@
 						<id>63</id>
 						<name>add_ln79_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3130,7 +3130,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3152,7 +3152,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>72</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3179,7 +3179,7 @@
 						<id>64</id>
 						<name>add_ln79_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3187,7 +3187,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3209,7 +3209,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3236,7 +3236,7 @@
 						<id>65</id>
 						<name>add_ln79</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3244,7 +3244,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3266,7 +3266,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3293,7 +3293,7 @@
 						<id>66</id>
 						<name>mean</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>81</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3301,7 +3301,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3323,7 +3323,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>75</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -3352,7 +3352,7 @@
 						<id>67</id>
 						<name>sext_ln81</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>81</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3360,7 +3360,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3382,7 +3382,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3408,7 +3408,7 @@
 						<id>68</id>
 						<name>sub_ln85</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3416,7 +3416,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3438,7 +3438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>539111993</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3465,7 +3465,7 @@
 						<id>69</id>
 						<name>sext_ln86</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3473,7 +3473,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3495,7 +3495,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1869181952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3521,7 +3521,7 @@
 						<id>70</id>
 						<name>mul_ln86</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3529,7 +3529,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3551,7 +3551,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3578,7 +3578,7 @@
 						<id>71</id>
 						<name>diff_16</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3586,7 +3586,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3608,7 +3608,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522647432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3637,7 +3637,7 @@
 						<id>72</id>
 						<name>sub_ln85_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3645,7 +3645,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3667,7 +3667,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522614096</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3694,7 +3694,7 @@
 						<id>73</id>
 						<name>sext_ln86_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3702,7 +3702,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3724,7 +3724,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3750,7 +3750,7 @@
 						<id>74</id>
 						<name>mul_ln86_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3758,7 +3758,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3780,7 +3780,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522652352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3807,7 +3807,7 @@
 						<id>75</id>
 						<name>diff</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3815,7 +3815,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3837,7 +3837,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1819113532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3866,7 +3866,7 @@
 						<id>76</id>
 						<name>sub_ln85_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3874,7 +3874,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3896,7 +3896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -3923,7 +3923,7 @@
 						<id>77</id>
 						<name>sext_ln86_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3931,7 +3931,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3953,7 +3953,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3979,7 +3979,7 @@
 						<id>78</id>
 						<name>mul_ln86_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -3987,7 +3987,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4009,7 +4009,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521266872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4036,7 +4036,7 @@
 						<id>79</id>
 						<name>diff_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4044,7 +4044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4066,7 +4066,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522640320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4095,7 +4095,7 @@
 						<id>80</id>
 						<name>sub_ln85_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4103,7 +4103,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4125,7 +4125,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4152,7 +4152,7 @@
 						<id>81</id>
 						<name>sext_ln86_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4160,7 +4160,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4182,7 +4182,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4208,7 +4208,7 @@
 						<id>82</id>
 						<name>mul_ln86_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4216,7 +4216,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4238,7 +4238,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>762471789</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4265,7 +4265,7 @@
 						<id>83</id>
 						<name>diff_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4273,7 +4273,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4295,7 +4295,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521275112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4324,7 +4324,7 @@
 						<id>84</id>
 						<name>sub_ln85_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4332,7 +4332,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4354,7 +4354,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521276816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4381,7 +4381,7 @@
 						<id>85</id>
 						<name>sext_ln86_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4389,7 +4389,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4411,7 +4411,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916690993</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4437,7 +4437,7 @@
 						<id>86</id>
 						<name>mul_ln86_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4445,7 +4445,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4467,7 +4467,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>700</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4494,7 +4494,7 @@
 						<id>87</id>
 						<name>diff_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4502,7 +4502,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4524,7 +4524,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521281344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4553,7 +4553,7 @@
 						<id>88</id>
 						<name>sub_ln85_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4561,7 +4561,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4583,7 +4583,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4610,7 +4610,7 @@
 						<id>89</id>
 						<name>sext_ln86_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4618,7 +4618,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4640,7 +4640,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521384560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4666,7 +4666,7 @@
 						<id>90</id>
 						<name>mul_ln86_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4674,7 +4674,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4696,7 +4696,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916601803</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4723,7 +4723,7 @@
 						<id>91</id>
 						<name>diff_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4731,7 +4731,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4753,7 +4753,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522506032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4782,7 +4782,7 @@
 						<id>92</id>
 						<name>sub_ln85_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4790,7 +4790,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4812,7 +4812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>7955819</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -4839,7 +4839,7 @@
 						<id>93</id>
 						<name>sext_ln86_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4847,7 +4847,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4869,7 +4869,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4895,7 +4895,7 @@
 						<id>94</id>
 						<name>mul_ln86_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4903,7 +4903,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4925,7 +4925,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521182544</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -4952,7 +4952,7 @@
 						<id>95</id>
 						<name>diff_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -4960,7 +4960,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4982,7 +4982,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521186384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5011,7 +5011,7 @@
 						<id>96</id>
 						<name>sub_ln85_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5019,7 +5019,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5041,7 +5041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916513675</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5068,7 +5068,7 @@
 						<id>97</id>
 						<name>sext_ln86_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5076,7 +5076,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5098,7 +5098,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521189600</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5124,7 +5124,7 @@
 						<id>98</id>
 						<name>mul_ln86_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5132,7 +5132,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5154,7 +5154,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5181,7 +5181,7 @@
 						<id>99</id>
 						<name>diff_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5189,7 +5189,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5211,7 +5211,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521194232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5240,7 +5240,7 @@
 						<id>100</id>
 						<name>sub_ln85_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5248,7 +5248,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5270,7 +5270,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522657416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5297,7 +5297,7 @@
 						<id>101</id>
 						<name>sext_ln86_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5305,7 +5305,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5327,7 +5327,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1937075829</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5353,7 +5353,7 @@
 						<id>102</id>
 						<name>mul_ln86_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5361,7 +5361,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5383,7 +5383,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5410,7 +5410,7 @@
 						<id>103</id>
 						<name>diff_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5418,7 +5418,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5440,7 +5440,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5469,7 +5469,7 @@
 						<id>104</id>
 						<name>sub_ln85_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5477,7 +5477,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5499,7 +5499,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1528970616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5526,7 +5526,7 @@
 						<id>105</id>
 						<name>sext_ln86_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5534,7 +5534,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5556,7 +5556,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5582,7 +5582,7 @@
 						<id>106</id>
 						<name>mul_ln86_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5590,7 +5590,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5612,7 +5612,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5639,7 +5639,7 @@
 						<id>107</id>
 						<name>diff_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5647,7 +5647,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5669,7 +5669,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522669312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5698,7 +5698,7 @@
 						<id>108</id>
 						<name>sub_ln85_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5706,7 +5706,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5728,7 +5728,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916618034</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5755,7 +5755,7 @@
 						<id>109</id>
 						<name>sext_ln86_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5763,7 +5763,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5785,7 +5785,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521350832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5811,7 +5811,7 @@
 						<id>110</id>
 						<name>mul_ln86_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5819,7 +5819,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5841,7 +5841,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -5868,7 +5868,7 @@
 						<id>111</id>
 						<name>diff_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5876,7 +5876,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5898,7 +5898,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521354072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5927,7 +5927,7 @@
 						<id>112</id>
 						<name>sub_ln85_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5935,7 +5935,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5957,7 +5957,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521355632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -5984,7 +5984,7 @@
 						<id>113</id>
 						<name>sext_ln86_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -5992,7 +5992,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6014,7 +6014,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521359648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6040,7 +6040,7 @@
 						<id>114</id>
 						<name>mul_ln86_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6048,7 +6048,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6070,7 +6070,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521297136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6097,7 +6097,7 @@
 						<id>115</id>
 						<name>diff_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6105,7 +6105,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6127,7 +6127,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6156,7 +6156,7 @@
 						<id>116</id>
 						<name>sub_ln85_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6164,7 +6164,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6186,7 +6186,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521169760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6213,7 +6213,7 @@
 						<id>117</id>
 						<name>sext_ln86_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6221,7 +6221,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6243,7 +6243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521171992</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6269,7 +6269,7 @@
 						<id>118</id>
 						<name>mul_ln86_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6277,7 +6277,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6299,7 +6299,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6326,7 +6326,7 @@
 						<id>119</id>
 						<name>diff_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6334,7 +6334,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6356,7 +6356,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521174648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6385,7 +6385,7 @@
 						<id>120</id>
 						<name>sub_ln85_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6393,7 +6393,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6415,7 +6415,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6442,7 +6442,7 @@
 						<id>121</id>
 						<name>sext_ln86_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6450,7 +6450,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6472,7 +6472,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521172208</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6498,7 +6498,7 @@
 						<id>122</id>
 						<name>mul_ln86_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6506,7 +6506,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6528,7 +6528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916634174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6555,7 +6555,7 @@
 						<id>123</id>
 						<name>diff_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6563,7 +6563,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6585,7 +6585,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521337504</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6614,7 +6614,7 @@
 						<id>124</id>
 						<name>sub_ln85_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6622,7 +6622,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6644,7 +6644,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521334288</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6671,7 +6671,7 @@
 						<id>125</id>
 						<name>sext_ln86_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6679,7 +6679,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6701,7 +6701,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521338464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6727,7 +6727,7 @@
 						<id>126</id>
 						<name>mul_ln86_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6735,7 +6735,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6757,7 +6757,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6784,7 +6784,7 @@
 						<id>127</id>
 						<name>diff_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6792,7 +6792,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6814,7 +6814,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6843,7 +6843,7 @@
 						<id>128</id>
 						<name>sub_ln85_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6851,7 +6851,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6873,7 +6873,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521340816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -6900,7 +6900,7 @@
 						<id>129</id>
 						<name>sext_ln86_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6908,7 +6908,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6930,7 +6930,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6956,7 +6956,7 @@
 						<id>130</id>
 						<name>mul_ln86_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -6964,7 +6964,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6986,7 +6986,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -7013,7 +7013,7 @@
 						<id>131</id>
 						<name>diff_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7021,7 +7021,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7043,7 +7043,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7072,7 +7072,7 @@
 						<id>132</id>
 						<name>add_ln87_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7080,7 +7080,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7102,7 +7102,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522290880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7129,7 +7129,7 @@
 						<id>133</id>
 						<name>add_ln87_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7137,7 +7137,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7159,7 +7159,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7186,7 +7186,7 @@
 						<id>134</id>
 						<name>add_ln87_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7194,7 +7194,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7216,7 +7216,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7243,7 +7243,7 @@
 						<id>135</id>
 						<name>add_ln87_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7251,7 +7251,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7273,7 +7273,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916603110</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7300,7 +7300,7 @@
 						<id>136</id>
 						<name>add_ln87_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7308,7 +7308,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7330,7 +7330,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1885414953</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7357,7 +7357,7 @@
 						<id>137</id>
 						<name>add_ln87_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7365,7 +7365,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7387,7 +7387,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1094415215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7414,7 +7414,7 @@
 						<id>138</id>
 						<name>add_ln87_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7422,7 +7422,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7444,7 +7444,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521372256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7471,7 +7471,7 @@
 						<id>139</id>
 						<name>add_ln87_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7479,7 +7479,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7501,7 +7501,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7528,7 +7528,7 @@
 						<id>140</id>
 						<name>add_ln87_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7536,7 +7536,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7558,7 +7558,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521375496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7585,7 +7585,7 @@
 						<id>141</id>
 						<name>add_ln87_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7593,7 +7593,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7615,7 +7615,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522728584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7642,7 +7642,7 @@
 						<id>142</id>
 						<name>add_ln87_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7650,7 +7650,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7672,7 +7672,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7699,7 +7699,7 @@
 						<id>143</id>
 						<name>add_ln87_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7707,7 +7707,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7729,7 +7729,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522731800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7756,7 +7756,7 @@
 						<id>144</id>
 						<name>add_ln87_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7764,7 +7764,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7786,7 +7786,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522733504</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7813,7 +7813,7 @@
 						<id>145</id>
 						<name>add_ln87_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7821,7 +7821,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7843,7 +7843,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913922932</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7870,7 +7870,7 @@
 						<id>146</id>
 						<name>add_ln87</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>87</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7878,7 +7878,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7900,7 +7900,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>19</bitwidth>
@@ -7927,7 +7927,7 @@
 						<id>147</id>
 						<name>tmp_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7935,7 +7935,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7957,7 +7957,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3913918720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -7986,7 +7986,7 @@
 						<id>148</id>
 						<name>sext_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -7994,7 +7994,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8016,7 +8016,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522741728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -8042,7 +8042,7 @@
 						<id>149</id>
 						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8050,7 +8050,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8072,7 +8072,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522744184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8098,9 +8098,9 @@
 					<Obj>
 						<type>0</type>
 						<id>150</id>
-						<name>tmp_3</name>
+						<name>tmp_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8108,7 +8108,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8130,7 +8130,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8156,9 +8156,9 @@
 					<Obj>
 						<type>0</type>
 						<id>151</id>
-						<name>tmp_2</name>
+						<name>tmp_s</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8166,7 +8166,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8188,7 +8188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521226992</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>13</bitwidth>
@@ -8216,7 +8216,7 @@
 						<id>152</id>
 						<name>icmp_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8224,7 +8224,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8246,7 +8246,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>450</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8273,7 +8273,7 @@
 						<id>153</id>
 						<name>add_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8281,7 +8281,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8303,7 +8303,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521229840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -8330,7 +8330,7 @@
 						<id>154</id>
 						<name>select_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8338,7 +8338,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8360,7 +8360,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521232072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -8388,7 +8388,7 @@
 						<id>155</id>
 						<name>index</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8396,7 +8396,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8418,7 +8418,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -8446,7 +8446,7 @@
 						<id>156</id>
 						<name>trunc_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8454,7 +8454,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8476,7 +8476,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521232592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -8500,9 +8500,9 @@
 					<Obj>
 						<type>0</type>
 						<id>157</id>
-						<name>tmp_4</name>
+						<name>tmp_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>93</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8510,7 +8510,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8532,7 +8532,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916471478</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8560,7 +8560,7 @@
 						<id>158</id>
 						<name>index_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>93</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8568,7 +8568,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8590,7 +8590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916467607</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -8618,7 +8618,7 @@
 						<id>159</id>
 						<name>trunc_ln91_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8626,7 +8626,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8648,7 +8648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521237200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -8672,9 +8672,9 @@
 					<Obj>
 						<type>0</type>
 						<id>160</id>
-						<name>tmp_5</name>
+						<name>tmp_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>94</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8682,7 +8682,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8704,7 +8704,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>27</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -8733,7 +8733,7 @@
 						<id>161</id>
 						<name>icmp_ln94</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>94</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8741,7 +8741,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8763,7 +8763,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8790,7 +8790,7 @@
 						<id>162</id>
 						<name>index_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>94</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8798,7 +8798,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8820,7 +8820,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916463256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -8848,7 +8848,7 @@
 						<id>163</id>
 						<name>zext_ln95</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>95</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8856,7 +8856,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8878,7 +8878,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -8904,7 +8904,7 @@
 						<id>164</id>
 						<name>invert_sqr_table_addr</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>95</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8912,7 +8912,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8934,7 +8934,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -8962,7 +8962,7 @@
 						<id>165</id>
 						<name>deno_inver</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>95</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -8970,7 +8970,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8992,7 +8992,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -9016,9 +9016,9 @@
 					<Obj>
 						<type>0</type>
 						<id>166</id>
-						<name>conv7_i76</name>
+						<name>conv7_i82</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>95</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9026,7 +9026,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9048,7 +9048,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521197392</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9074,7 +9074,7 @@
 						<id>167</id>
 						<name>sext_ln99</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9082,7 +9082,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9104,7 +9104,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521198912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9130,7 +9130,7 @@
 						<id>168</id>
 						<name>mul_ln99</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9138,7 +9138,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9160,7 +9160,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9185,9 +9185,9 @@
 					<Obj>
 						<type>0</type>
 						<id>169</id>
-						<name>trunc_ln1</name>
+						<name>trunc_ln2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9195,7 +9195,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9217,7 +9217,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -9246,7 +9246,7 @@
 						<id>170</id>
 						<name>sext_ln99_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9254,7 +9254,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9276,7 +9276,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521203744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -9302,7 +9302,7 @@
 						<id>171</id>
 						<name>sext_ln99_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9310,7 +9310,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9332,7 +9332,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521205672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9358,7 +9358,7 @@
 						<id>172</id>
 						<name>mul_ln99_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9366,7 +9366,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9388,7 +9388,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9415,7 +9415,7 @@
 						<id>173</id>
 						<name>trunc_ln99_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9423,7 +9423,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9445,7 +9445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521208632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -9474,7 +9474,7 @@
 						<id>174</id>
 						<name>sext_ln99_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9482,7 +9482,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9504,7 +9504,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521210336</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -9530,7 +9530,7 @@
 						<id>175</id>
 						<name>sext_ln99_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9538,7 +9538,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9560,7 +9560,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521248944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9586,7 +9586,7 @@
 						<id>176</id>
 						<name>mul_ln99_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9594,7 +9594,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9616,7 +9616,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9643,7 +9643,7 @@
 						<id>177</id>
 						<name>trunc_ln99_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9651,7 +9651,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9673,7 +9673,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -9702,7 +9702,7 @@
 						<id>178</id>
 						<name>sext_ln99_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9710,7 +9710,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9732,7 +9732,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -9758,7 +9758,7 @@
 						<id>179</id>
 						<name>sext_ln99_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9766,7 +9766,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9788,7 +9788,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521218432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9814,7 +9814,7 @@
 						<id>180</id>
 						<name>mul_ln99_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9822,7 +9822,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9844,7 +9844,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521220360</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -9871,7 +9871,7 @@
 						<id>181</id>
 						<name>trunc_ln99_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9879,7 +9879,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9901,7 +9901,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521290512</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -9930,7 +9930,7 @@
 						<id>182</id>
 						<name>sext_ln99_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9938,7 +9938,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9960,7 +9960,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -9986,7 +9986,7 @@
 						<id>183</id>
 						<name>sext_ln99_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -9994,7 +9994,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10016,7 +10016,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10042,7 +10042,7 @@
 						<id>184</id>
 						<name>mul_ln99_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10050,7 +10050,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10072,7 +10072,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521295400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10099,7 +10099,7 @@
 						<id>185</id>
 						<name>trunc_ln99_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10107,7 +10107,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10129,7 +10129,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521296976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -10158,7 +10158,7 @@
 						<id>186</id>
 						<name>sext_ln99_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10166,7 +10166,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10188,7 +10188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521221184</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -10214,7 +10214,7 @@
 						<id>187</id>
 						<name>sext_ln99_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10222,7 +10222,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10244,7 +10244,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10270,7 +10270,7 @@
 						<id>188</id>
 						<name>mul_ln99_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10278,7 +10278,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10300,7 +10300,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10327,7 +10327,7 @@
 						<id>189</id>
 						<name>trunc_ln99_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10335,7 +10335,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10357,7 +10357,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -10386,7 +10386,7 @@
 						<id>190</id>
 						<name>sext_ln99_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10394,7 +10394,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10416,7 +10416,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521305200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -10442,7 +10442,7 @@
 						<id>191</id>
 						<name>sext_ln99_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10450,7 +10450,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10472,7 +10472,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10498,7 +10498,7 @@
 						<id>192</id>
 						<name>mul_ln99_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10506,7 +10506,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10528,7 +10528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10555,7 +10555,7 @@
 						<id>193</id>
 						<name>trunc_ln99_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10563,7 +10563,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10585,7 +10585,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916660376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -10614,7 +10614,7 @@
 						<id>194</id>
 						<name>sext_ln99_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10622,7 +10622,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10644,7 +10644,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521311664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -10670,7 +10670,7 @@
 						<id>195</id>
 						<name>sext_ln99_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10678,7 +10678,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10700,7 +10700,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916654793</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10726,7 +10726,7 @@
 						<id>196</id>
 						<name>mul_ln99_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10734,7 +10734,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10756,7 +10756,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10783,7 +10783,7 @@
 						<id>197</id>
 						<name>trunc_ln99_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10791,7 +10791,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10813,7 +10813,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>20</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -10842,7 +10842,7 @@
 						<id>198</id>
 						<name>sext_ln99_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10850,7 +10850,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10872,7 +10872,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1279346501</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -10898,7 +10898,7 @@
 						<id>199</id>
 						<name>sext_ln99_16</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10906,7 +10906,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10928,7 +10928,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1031365995</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -10954,7 +10954,7 @@
 						<id>200</id>
 						<name>mul_ln99_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -10962,7 +10962,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10984,7 +10984,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1701344105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11011,7 +11011,7 @@
 						<id>201</id>
 						<name>trunc_ln99_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11019,7 +11019,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11041,7 +11041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1030647657</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11070,7 +11070,7 @@
 						<id>202</id>
 						<name>sext_ln99_17</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11078,7 +11078,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11100,7 +11100,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -11126,7 +11126,7 @@
 						<id>203</id>
 						<name>sext_ln99_18</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11134,7 +11134,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11156,7 +11156,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1680810042</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11182,7 +11182,7 @@
 						<id>204</id>
 						<name>mul_ln99_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11190,7 +11190,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11212,7 +11212,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1701060709</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11239,7 +11239,7 @@
 						<id>205</id>
 						<name>trunc_ln99_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11247,7 +11247,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11269,7 +11269,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>2053722912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11298,7 +11298,7 @@
 						<id>206</id>
 						<name>sext_ln99_19</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11306,7 +11306,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11328,7 +11328,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1836214630</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -11354,7 +11354,7 @@
 						<id>207</id>
 						<name>sext_ln99_20</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11362,7 +11362,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11384,7 +11384,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1684367724</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11410,7 +11410,7 @@
 						<id>208</id>
 						<name>mul_ln99_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11418,7 +11418,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11440,7 +11440,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>796093545</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11467,7 +11467,7 @@
 						<id>209</id>
 						<name>trunc_ln99_s</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11475,7 +11475,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11497,7 +11497,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1734960750</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11526,7 +11526,7 @@
 						<id>210</id>
 						<name>sext_ln99_21</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11534,7 +11534,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11556,7 +11556,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>539768105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -11582,7 +11582,7 @@
 						<id>211</id>
 						<name>sext_ln99_22</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11590,7 +11590,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11612,7 +11612,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>126</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11638,7 +11638,7 @@
 						<id>212</id>
 						<name>mul_ln99_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11646,7 +11646,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11668,7 +11668,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1948264254</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11695,7 +11695,7 @@
 						<id>213</id>
 						<name>trunc_ln99_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11703,7 +11703,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11725,7 +11725,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1398481408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11754,7 +11754,7 @@
 						<id>214</id>
 						<name>sext_ln99_23</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11762,7 +11762,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11784,7 +11784,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1717924464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -11810,7 +11810,7 @@
 						<id>215</id>
 						<name>sext_ln99_24</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11818,7 +11818,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11840,7 +11840,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1953067621</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11866,7 +11866,7 @@
 						<id>216</id>
 						<name>mul_ln99_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11874,7 +11874,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11896,7 +11896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1734960750</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -11923,7 +11923,7 @@
 						<id>217</id>
 						<name>trunc_ln99_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11931,7 +11931,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11953,7 +11953,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916573997</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -11982,7 +11982,7 @@
 						<id>218</id>
 						<name>sext_ln99_25</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -11990,7 +11990,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12012,7 +12012,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -12038,7 +12038,7 @@
 						<id>219</id>
 						<name>sext_ln99_26</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12046,7 +12046,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12068,7 +12068,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12094,7 +12094,7 @@
 						<id>220</id>
 						<name>mul_ln99_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12102,7 +12102,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12124,7 +12124,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521401280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12151,7 +12151,7 @@
 						<id>221</id>
 						<name>trunc_ln99_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12159,7 +12159,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12181,7 +12181,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -12210,7 +12210,7 @@
 						<id>222</id>
 						<name>sext_ln99_27</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12218,7 +12218,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12240,7 +12240,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -12266,7 +12266,7 @@
 						<id>223</id>
 						<name>sext_ln99_28</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12274,7 +12274,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12296,7 +12296,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12322,7 +12322,7 @@
 						<id>224</id>
 						<name>mul_ln99_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12330,7 +12330,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12352,7 +12352,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12379,7 +12379,7 @@
 						<id>225</id>
 						<name>trunc_ln99_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12387,7 +12387,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12409,7 +12409,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521408480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -12438,7 +12438,7 @@
 						<id>226</id>
 						<name>sext_ln99_29</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12446,7 +12446,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12468,7 +12468,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -12494,7 +12494,7 @@
 						<id>227</id>
 						<name>sext_ln99_30</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12502,7 +12502,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12524,7 +12524,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12550,7 +12550,7 @@
 						<id>228</id>
 						<name>mul_ln99_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12558,7 +12558,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12580,7 +12580,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>35</bitwidth>
@@ -12607,7 +12607,7 @@
 						<id>229</id>
 						<name>trunc_ln99_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12615,7 +12615,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12637,7 +12637,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -12666,7 +12666,7 @@
 						<id>230</id>
 						<name>sext_ln99_31</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>99</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12674,7 +12674,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12696,7 +12696,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521417568</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>33</bitwidth>
@@ -12722,7 +12722,7 @@
 						<id>231</id>
 						<name>mrv</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12730,7 +12730,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12752,7 +12752,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -12779,7 +12779,7 @@
 						<id>232</id>
 						<name>mrv_1</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12787,7 +12787,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12809,7 +12809,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -12836,7 +12836,7 @@
 						<id>233</id>
 						<name>mrv_2</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12844,7 +12844,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12866,7 +12866,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521414432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -12893,7 +12893,7 @@
 						<id>234</id>
 						<name>mrv_3</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12901,7 +12901,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12923,7 +12923,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -12950,7 +12950,7 @@
 						<id>235</id>
 						<name>mrv_4</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -12958,7 +12958,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12980,7 +12980,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13007,7 +13007,7 @@
 						<id>236</id>
 						<name>mrv_5</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13015,7 +13015,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13037,7 +13037,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13064,7 +13064,7 @@
 						<id>237</id>
 						<name>mrv_6</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13072,7 +13072,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13094,7 +13094,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13121,7 +13121,7 @@
 						<id>238</id>
 						<name>mrv_7</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13129,7 +13129,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13151,7 +13151,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13178,7 +13178,7 @@
 						<id>239</id>
 						<name>mrv_8</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13186,7 +13186,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13208,7 +13208,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13235,7 +13235,7 @@
 						<id>240</id>
 						<name>mrv_9</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13243,7 +13243,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13265,7 +13265,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13292,7 +13292,7 @@
 						<id>241</id>
 						<name>mrv_10</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13300,7 +13300,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13322,7 +13322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13349,7 +13349,7 @@
 						<id>242</id>
 						<name>mrv_11</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13357,7 +13357,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13379,7 +13379,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13406,7 +13406,7 @@
 						<id>243</id>
 						<name>mrv_12</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13414,7 +13414,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13436,7 +13436,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13463,7 +13463,7 @@
 						<id>244</id>
 						<name>mrv_13</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13471,7 +13471,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13493,7 +13493,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13520,7 +13520,7 @@
 						<id>245</id>
 						<name>mrv_14</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13528,7 +13528,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13550,7 +13550,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13577,7 +13577,7 @@
 						<id>246</id>
 						<name>mrv_15</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13585,7 +13585,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13607,7 +13607,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -13634,7 +13634,7 @@
 						<id>247</id>
 						<name>_ln101</name>
 						<fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
-						<fileDirectory>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
+						<fileDirectory>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</fileDirectory>
 						<lineNumber>101</lineNumber>
 						<contextFuncName>layernorm_1d&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, ap_fixed&amp;lt;33, 13, AP_TRN, AP_WRAP, 0&amp;gt;, config2&amp;gt;</contextFuncName>
 						<contextNormFuncName>layernorm_1d_ap_fixed_16_6_AP_TRN_AP_WRAP_0_ap_fixed_33_13_AP_TRN_AP_WRAP_0_config2_s</contextNormFuncName>
@@ -13642,7 +13642,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
+								<first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_30_16</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13664,7 +13664,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521446240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -13710,7 +13710,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>127</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -13741,7 +13741,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521448704</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -13772,7 +13772,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -13803,7 +13803,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916775579</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -13834,7 +13834,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>849859024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -13865,7 +13865,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916772252</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -13896,7 +13896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521471920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -13927,7 +13927,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3916774428</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>13</bitwidth>
@@ -13958,7 +13958,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>857649104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>15</bitwidth>
@@ -13989,7 +13989,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521448704</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -14020,7 +14020,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>522291136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>14</bitwidth>
@@ -14051,7 +14051,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521439504</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -14082,7 +14082,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521470960</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -14113,7 +14113,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -14144,7 +14144,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>521464448</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -14175,7 +14175,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -14206,7 +14206,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -14237,7 +14237,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>528</bitwidth>
@@ -14271,7 +14271,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>4294967295</coreId>
+					<coreId>3715454293</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -16300,14 +16300,14 @@
 			<item class_id_reference="20" object_id="_520">
 				<id>573</id>
 				<edge_type>1</edge_type>
-				<source_obj>153</source_obj>
+				<source_obj>148</source_obj>
 				<sink_obj>154</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_521">
 				<id>574</id>
 				<edge_type>1</edge_type>
-				<source_obj>148</source_obj>
+				<source_obj>153</source_obj>
 				<sink_obj>154</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
