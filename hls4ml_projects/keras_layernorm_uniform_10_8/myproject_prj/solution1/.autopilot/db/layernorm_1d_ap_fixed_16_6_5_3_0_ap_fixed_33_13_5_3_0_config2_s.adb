@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3621216858</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965306889</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -318,7 +318,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -340,7 +340,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>515</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -375,7 +375,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -397,7 +397,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>12</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -432,7 +432,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -454,7 +454,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>515</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -489,7 +489,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -511,7 +511,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>12</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -546,7 +546,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -568,7 +568,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1869438831</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -603,7 +603,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -625,7 +625,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>544424224</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -660,7 +660,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -682,7 +682,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1701605485</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -717,7 +717,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -739,7 +739,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3672000743</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -774,7 +774,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -796,7 +796,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>592215632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -832,7 +832,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -854,7 +854,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>736</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -890,7 +890,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -912,7 +912,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>592215632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -948,7 +948,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -970,7 +970,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1006,7 +1006,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1028,7 +1028,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365244760</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1064,7 +1064,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1086,7 +1086,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965279247</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1122,7 +1122,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1144,7 +1144,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365430336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1180,7 +1180,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1202,7 +1202,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365318704</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1238,7 +1238,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1295,7 +1295,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1352,7 +1352,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1409,7 +1409,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1466,7 +1466,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1523,7 +1523,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1580,7 +1580,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1637,7 +1637,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1659,7 +1659,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365363792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1696,7 +1696,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1718,7 +1718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365382008</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1752,7 +1752,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1809,7 +1809,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1831,7 +1831,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -1865,7 +1865,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1922,7 +1922,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1944,7 +1944,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1953394531</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -1981,7 +1981,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2038,7 +2038,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2060,7 +2060,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -2094,7 +2094,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2151,7 +2151,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2173,7 +2173,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2210,7 +2210,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2267,7 +2267,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2289,7 +2289,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -2323,7 +2323,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2380,7 +2380,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2402,7 +2402,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2439,7 +2439,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2496,7 +2496,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2518,7 +2518,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -2552,7 +2552,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2609,7 +2609,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2631,7 +2631,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2668,7 +2668,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2725,7 +2725,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2747,7 +2747,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -2781,7 +2781,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2838,7 +2838,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2860,7 +2860,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -2897,7 +2897,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2954,7 +2954,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2976,7 +2976,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365396304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3010,7 +3010,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3067,7 +3067,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3089,7 +3089,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -3126,7 +3126,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3183,7 +3183,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3205,7 +3205,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965087043</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3239,7 +3239,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3296,7 +3296,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3318,7 +3318,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -3355,7 +3355,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3412,7 +3412,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3434,7 +3434,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365415640</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3468,7 +3468,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3525,7 +3525,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3547,7 +3547,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365417520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>19</bitwidth>
@@ -3584,7 +3584,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3641,7 +3641,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3698,7 +3698,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3755,7 +3755,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3812,7 +3812,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3869,7 +3869,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3926,7 +3926,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3973,7 +3973,7 @@
             <Obj>
               <type>0</type>
               <id>75</id>
-              <name>tmp_2</name>
+              <name>tmp_1</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>91</lineNumber>
@@ -3983,7 +3983,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3998,14 +3998,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_2_fu_500_p4</rtlName>
+              <rtlName>tmp_1_fu_500_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1718558834</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -4042,7 +4042,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4064,7 +4064,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365443512</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4098,7 +4098,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4120,7 +4120,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1818195045</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4146,7 +4146,7 @@
             <Obj>
               <type>0</type>
               <id>78</id>
-              <name>tmp_3</name>
+              <name>tmp_2</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>91</lineNumber>
@@ -4156,7 +4156,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4171,14 +4171,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_3_fu_522_p3</rtlName>
+              <rtlName>tmp_2_fu_522_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365446304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4204,7 +4204,7 @@
             <Obj>
               <type>0</type>
               <id>79</id>
-              <name>tmp_1</name>
+              <name>tmp_s</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>91</lineNumber>
@@ -4214,7 +4214,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4229,14 +4229,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_1_fu_530_p3</rtlName>
+              <rtlName>tmp_s_fu_530_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365365552</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>13</bitwidth>
@@ -4272,7 +4272,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4289,7 +4289,7 @@
               <originalName/>
               <rtlName>icmp_ln91_fu_538_p2</rtlName>
               <control>auto</control>
-              <opType>setne</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -4329,7 +4329,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4386,7 +4386,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4444,7 +4444,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4502,7 +4502,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4524,7 +4524,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965090802</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -4548,7 +4548,7 @@
             <Obj>
               <type>0</type>
               <id>85</id>
-              <name>tmp_4</name>
+              <name>tmp_3</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>93</lineNumber>
@@ -4558,7 +4558,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4573,14 +4573,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_4_fu_570_p3</rtlName>
+              <rtlName>tmp_3_fu_570_p3</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4616,7 +4616,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4674,7 +4674,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4696,7 +4696,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365392640</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>12</bitwidth>
@@ -4720,7 +4720,7 @@
             <Obj>
               <type>0</type>
               <id>88</id>
-              <name>tmp_5</name>
+              <name>tmp_4</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>94</lineNumber>
@@ -4730,7 +4730,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4745,14 +4745,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_5_fu_590_p4</rtlName>
+              <rtlName>tmp_4_fu_590_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>3</bitwidth>
@@ -4789,7 +4789,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4806,7 +4806,7 @@
               <originalName/>
               <rtlName>icmp_ln94_fu_600_p2</rtlName>
               <control>auto</control>
-              <opType>setne</opType>
+              <opType>icmp</opType>
               <implIndex>auto</implIndex>
               <coreName>Cmp</coreName>
               <isStorage>0</isStorage>
@@ -4846,7 +4846,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4904,7 +4904,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4926,7 +4926,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965114216</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4960,7 +4960,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4982,7 +4982,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>12</bitwidth>
@@ -5018,7 +5018,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5040,7 +5040,7 @@
               <coreName>ROM</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -5074,7 +5074,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5096,7 +5096,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365349576</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -5130,7 +5130,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5152,7 +5152,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365349888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -5186,7 +5186,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5233,7 +5233,7 @@
             <Obj>
               <type>0</type>
               <id>97</id>
-              <name>trunc_ln1</name>
+              <name>trunc_ln2</name>
               <fileName>firmware/nnet_utils/nnet_layernorm.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>99</lineNumber>
@@ -5243,7 +5243,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5258,14 +5258,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>trunc_ln1_fu_632_p4</rtlName>
+              <rtlName>trunc_ln2_fu_632_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>22</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -5302,7 +5302,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5324,7 +5324,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -5358,7 +5358,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5380,7 +5380,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -5414,7 +5414,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5471,7 +5471,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5493,7 +5493,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -5530,7 +5530,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5552,7 +5552,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365405552</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -5586,7 +5586,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5608,7 +5608,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -5642,7 +5642,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5699,7 +5699,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5721,7 +5721,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365410240</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -5758,7 +5758,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5780,7 +5780,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365412992</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -5814,7 +5814,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5836,7 +5836,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -5870,7 +5870,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5927,7 +5927,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5949,7 +5949,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3964984056</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -5986,7 +5986,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6008,7 +6008,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -6042,7 +6042,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6064,7 +6064,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365147424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -6098,7 +6098,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6155,7 +6155,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6177,7 +6177,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>7955819</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -6214,7 +6214,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6236,7 +6236,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -6270,7 +6270,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6292,7 +6292,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -6326,7 +6326,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6383,7 +6383,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6405,7 +6405,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -6442,7 +6442,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6464,7 +6464,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -6498,7 +6498,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6520,7 +6520,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365458496</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -6554,7 +6554,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6611,7 +6611,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6633,7 +6633,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314476891</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -6670,7 +6670,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6692,7 +6692,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -6726,7 +6726,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6748,7 +6748,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3965136103</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>34</bitwidth>
@@ -6782,7 +6782,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6839,7 +6839,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6861,7 +6861,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -6898,7 +6898,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6920,7 +6920,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365210608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>33</bitwidth>
@@ -6954,7 +6954,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6976,7 +6976,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365333632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7011,7 +7011,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7033,7 +7033,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365335632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7068,7 +7068,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7090,7 +7090,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365337360</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7125,7 +7125,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7147,7 +7147,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365338656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7182,7 +7182,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7204,7 +7204,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365343744</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7239,7 +7239,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7261,7 +7261,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365339808</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7296,7 +7296,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7318,7 +7318,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1701978146</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7353,7 +7353,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7375,7 +7375,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1952803952</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -7410,7 +7410,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7432,7 +7432,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>909729585</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7474,7 +7474,7 @@
               <coreName>ROM</coreName>
               <isStorage>1</isStorage>
               <storageDepth>4096</storageDepth>
-              <coreId>100</coreId>
+              <coreId>101</coreId>
               <rtlModuleName>myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb</rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -7519,7 +7519,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2147483647</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>3</bitwidth>
@@ -7550,7 +7550,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>574449505</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7581,7 +7581,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1819243365</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7612,7 +7612,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>543519585</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7643,7 +7643,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1701076840</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7674,7 +7674,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>365292288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7705,7 +7705,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>539109685</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>12</bitwidth>
@@ -7736,7 +7736,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1852714853</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>13</bitwidth>
@@ -7767,7 +7767,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330926431</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7798,7 +7798,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1381975089</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7829,7 +7829,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1667327520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>15</bitwidth>
@@ -7860,7 +7860,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1702309733</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7891,7 +7891,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>540682092</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -7922,7 +7922,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1937055829</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>12</bitwidth>
@@ -7953,7 +7953,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1634485536</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -7984,7 +7984,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>540221543</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -8015,7 +8015,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2020173407</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>264</bitwidth>
@@ -8049,7 +8049,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -9134,14 +9134,14 @@
         <item class_id_reference="20" object_id="_288">
           <id>317</id>
           <edge_type>1</edge_type>
-          <source_obj>81</source_obj>
+          <source_obj>76</source_obj>
           <sink_obj>82</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_289">
           <id>318</id>
           <edge_type>1</edge_type>
-          <source_obj>76</source_obj>
+          <source_obj>81</source_obj>
           <sink_obj>82</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -10881,7 +10881,7 @@
         </item>
       </dp_component_resource>
       <dp_expression_resource>
-        <count>29</count>
+        <count>30</count>
         <item_version>0</item_version>
         <item>
           <first>add_ln79_1_fu_205_p2 ( + ) </first>
@@ -11225,6 +11225,29 @@
             <item>
               <first>LUT</first>
               <second>23</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>ap_enable_pp0 ( xor ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>2</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -11615,7 +11638,7 @@
         <item_version>0</item_version>
       </dp_multiplexer_resource>
       <dp_register_resource>
-        <count>19</count>
+        <count>15</count>
         <item_version>0</item_version>
         <item>
           <first>add_ln87_1_reg_903</first>
@@ -11675,13 +11698,13 @@
           </second>
         </item>
         <item>
-          <first>data_0_val_int_reg</first>
+          <first>ap_CS_fsm</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11689,18 +11712,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>data_1_val_int_reg</first>
+          <first>ap_enable_reg_pp0_iter1</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11708,18 +11731,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>data_2_val_int_reg</first>
+          <first>ap_enable_reg_pp0_iter2</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11727,18 +11750,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
         <item>
-          <first>data_3_val_int_reg</first>
+          <first>ap_enable_reg_pp0_iter3</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>16</second>
+              <second>1</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -11746,83 +11769,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_4_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_5_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_6_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>data_7_val_int_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>16</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>16</second>
+              <second>1</second>
             </item>
           </second>
         </item>
@@ -12475,7 +12422,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>15</item>
+            <item>54</item>
           </second>
         </item>
       </dp_memory_map>
@@ -15178,15 +15125,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_1_fu_530</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>79</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_2_fu_500</first>
+        <first>tmp_1_fu_500</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -15194,7 +15133,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_3_fu_522</first>
+        <first>tmp_2_fu_522</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -15202,7 +15141,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_4_fu_570</first>
+        <first>tmp_3_fu_570</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -15210,7 +15149,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_5_fu_590</first>
+        <first>tmp_4_fu_590</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -15226,7 +15165,15 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln1_fu_632</first>
+        <first>tmp_s_fu_530</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>79</item>
+        </second>
+      </item>
+      <item>
+        <first>trunc_ln2_fu_632</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -16030,7 +15977,7 @@
       <item>
         <first>80</first>
         <second>
-          <first>527</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>
@@ -16065,7 +16012,7 @@
       <item>
         <first>89</first>
         <second>
-          <first>527</first>
+          <first>45</first>
           <second>0</second>
         </second>
       </item>

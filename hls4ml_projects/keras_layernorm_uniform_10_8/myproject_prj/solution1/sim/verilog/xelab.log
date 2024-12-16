@@ -1,29 +1,25 @@
-Vivado Simulator v2024.1
+Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /home/tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_23 -L floating_point_v7_1_18 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
-Multi-threading is on. Using 94 slave threads.
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/glbl.v" into library work
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module apatb_myproject_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_frp_fifoout.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_frp_fifoout
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_frp_pipeline_valid.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_frp_pipeline_valid
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_mul_19s_19s_32_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_19s_19s_32_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_mul_19s_15ns_34_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module myproject_mul_19s_15ns_34_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_mul_19s_15ns_34_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_19s_15ns_34_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/myproject_mul_19s_19s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_19s_19s_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -37,10 +33,8 @@ Compiling module xil_defaultlib.myproject_mul_19s_19s_32_1_1(NUM...
 Compiling module xil_defaultlib.myproject_mul_19s_15ns_34_1_1(NU...
 Compiling module xil_defaultlib.myproject_layernorm_1d_ap_fixed_...
 Compiling module xil_defaultlib.myproject_layernormalize_ap_fixe...
-Compiling module xil_defaultlib.myproject_frp_pipeline_valid(Pip...
-Compiling module xil_defaultlib.myproject_frp_fifoout(BlockingTy...
 Compiling module xil_defaultlib.myproject
-Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.nodf_module_intf
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_myproject_top
 Compiling module work.glbl

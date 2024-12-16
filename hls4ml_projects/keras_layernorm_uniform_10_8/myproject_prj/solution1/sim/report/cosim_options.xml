@@ -1,4 +1,5 @@
 <cosim_options>
+    <option name="O" tcl="config_cosim -O" ini="cosim.O"></option>
     <option name="argv" tcl="config_cosim -argv" ini="cosim.argv"></option>
     <option name="compiled_library_dir" tcl="config_cosim -compiled_library_dir" ini="cosim.compiled_library_dir"></option>
     <option name="coverage" tcl="config_cosim -coverage" ini="cosim.coverage"></option>
@@ -9,6 +10,8 @@
     <option name="enable_fifo_sizing" tcl="config_cosim -enable_fifo_sizing" ini="cosim.enable_fifo_sizing"></option>
     <option name="enable_tasks_with_m_axi" tcl="config_cosim -enable_tasks_with_m_axi" ini="cosim.enable_tasks_with_m_axi"></option>
     <option name="hwemu_trace_dir" tcl="config_cosim -hwemu_trace_dir" ini="cosim.hwemu_trace_dir"></option>
+    <option name="ldflags" tcl="config_cosim -ldflags" ini="cosim.ldflags"></option>
+    <option name="mflags" tcl="config_cosim -mflags" ini="cosim.mflags"></option>
     <option name="random_stall" tcl="config_cosim -random_stall" ini="cosim.random_stall"></option>
     <option name="rtl" tcl="config_cosim -rtl" ini="cosim.rtl">verilog</option>
     <option name="setup" tcl="config_cosim -setup" ini="cosim.setup">1</option>

@@ -1,0 +1,1886 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Dec 16 19:43:06 2024
+# Process ID: 2926542
+# Current directory: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/vivado.log
+# Journal file: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/vivado.jou
+# Running On: olhsw-04.cern.ch, OS: Linux, CPU Frequency: 3600.000 MHz, CPU Physical cores: 32, Host memory: 134531 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vivado"
+## variable part
+## set part "xcvu13p-flga2577-2-e"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 12.5%
+## variable version
+## set version "1.0.0"
+## variable maximum_size
+## set maximum_size 4096
+# add_files ${project_name}_prj/solution1/syn/verilog
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1542.066 ; gain = 38.805 ; free physical = 87177 ; free virtual = 123694
+# synth_design -top ${project_name} -part $part
+Command: synth_design -top myproject -part xcvu13p-flga2577-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu13p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu13p'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2926554
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1969.605 ; gain = 413.586 ; free physical = 86482 ; free virtual = 123012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config3_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_transpose_2d_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config4_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6157] synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:7]
+	Parameter DataWidth bound to: 16 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.dat' is read successfully [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_19s_19s_32_1_1' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_mul_19s_19s_32_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 19 - type: integer 
+	Parameter din1_WIDTH bound to: 19 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_19s_19s_32_1_1' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_mul_19s_19s_32_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'myproject_mul_19s_16s_35_1_1' [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_mul_19s_16s_35_1_1.v:5]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 19 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 35 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'myproject_mul_19s_16s_35_1_1' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_mul_19s_16s_35_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'myproject' (0#1) [/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/syn/verilog/myproject.v:9]
+WARNING: [Synth 8-7129] Port reset in module myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_invert_sqr_tabkb is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2054.543 ; gain = 498.523 ; free physical = 86378 ; free virtual = 122912
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2069.387 ; gain = 513.367 ; free physical = 86370 ; free virtual = 122904
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvu13p-flga2577-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xcvu13p-flga2577-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2086.297 ; gain = 530.277 ; free physical = 86366 ; free virtual = 122900
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2094.305 ; gain = 538.285 ; free physical = 86342 ; free virtual = 122885
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   8 Input   19 Bit       Adders := 10    
+	   3 Input   19 Bit       Adders := 90    
+	   2 Input   19 Bit       Adders := 20    
+	   4 Input   19 Bit       Adders := 10    
+	   2 Input   16 Bit       Adders := 10    
++---Registers : 
+	             1280 Bit    Registers := 1     
+	               19 Bit    Registers := 270   
+	               16 Bit    Registers := 10    
+	                1 Bit    Registers := 49    
++---ROMs : 
+	                    ROMs := 10    
++---Muxes : 
+	   2 Input 1280 Bit        Muxes := 1     
+	   3 Input   16 Bit        Muxes := 10    
+	   2 Input   12 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 12288 (col length:96)
+BRAMs: 5376 (col length: RAMB18 384 RAMB36 192)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: A''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_reg_855_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U82/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_1_reg_861_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U83/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_2_reg_867_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U84/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_3_reg_873_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U85/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_4_reg_879_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U86/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_5_reg_885_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U87/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_6_reg_891_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U88/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (C' or 0)+A2*B2.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: register sub_ln85_7_reg_897_reg is absorbed into DSP p_1_out.
+DSP Report: register p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: operator mul_19s_19s_32_1_1_U89/tmp_product is absorbed into DSP p_1_out.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U90/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: register sub_ln85_reg_855_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U90/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U90/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U91/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: register sub_ln85_1_reg_861_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U91/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U91/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U92/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: register sub_ln85_2_reg_867_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U92/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U92/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U93/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: register sub_ln85_3_reg_873_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U93/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U93/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U94/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: register sub_ln85_4_reg_879_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U94/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U94/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U95/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: register sub_ln85_5_reg_885_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U95/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U95/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U96/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: register sub_ln85_6_reg_891_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U96/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U96/tmp_product.
+DSP Report: Generating DSP mul_19s_16s_35_1_1_U97/tmp_product, operation Mode is: ACIN''*B2.
+DSP Report: register invert_sqr_table_U/q0_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter1_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: register sub_ln85_7_reg_897_pp0_iter2_reg_reg is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+DSP Report: operator mul_19s_16s_35_1_1_U97/tmp_product is absorbed into DSP mul_19s_16s_35_1_1_U97/tmp_product.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:36 ; elapsed = 00:03:38 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+ Sort Area is  p_1_out_12 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_13 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_14 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_15 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_16 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_17 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_18 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_19 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1a : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1b : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1c : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1d : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1e : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_1f : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_20 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_21 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_22 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_23 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_24 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_25 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_26 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_27 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_28 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_29 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2a : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2b : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2c : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2d : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2e : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_2f : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_30 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_31 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_32 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_33 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_34 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_35 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_36 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_37 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_38 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_39 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3a : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3b : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3c : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3d : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3e : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_3f : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_40 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_41 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_42 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_43 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_44 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_45 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_46 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_47 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_48 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_49 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4a : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4b : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4c : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4d : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4e : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_4f : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_50 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_51 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_52 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_53 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_54 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_55 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_56 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_57 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_58 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_59 : 0 0 : 2790 5062 : Used 1 time 100
+ Sort Area is  p_1_out_0 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_2 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_3 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_4 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_5 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_6 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_7 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_8 : 0 0 : 2790 2790 : Used 1 time 100
+ Sort Area is  p_1_out_12 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_13 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_14 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_15 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_16 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_17 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_18 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_19 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1a : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1b : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1c : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1d : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1e : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_1f : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_20 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_21 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_22 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_23 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_24 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_25 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_26 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_27 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_28 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_29 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2a : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2b : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2c : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2d : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2e : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_2f : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_30 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_31 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_32 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_33 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_34 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_35 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_36 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_37 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_38 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_39 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3a : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3b : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3c : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3d : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3e : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_3f : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_40 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_41 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_42 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_43 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_44 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_45 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_46 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_47 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_48 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_49 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4a : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4b : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4c : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4d : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4e : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_4f : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_50 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_51 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_52 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_53 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_54 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_55 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_56 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_57 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_58 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  p_1_out_59 : 0 1 : 2272 5062 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U90/tmp_product_9 : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U91/tmp_product_b : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U92/tmp_product_c : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U93/tmp_product_d : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U94/tmp_product_e : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U95/tmp_product_f : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U96/tmp_product_10 : 0 0 : 2272 2272 : Used 1 time 0
+ Sort Area is  mul_19s_16s_35_1_1_U97/tmp_product_11 : 0 0 : 2272 2272 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++--------------------------------------------------------------------------+------------+---------------+----------------+
+|Module Name                                                               | RTL Object | Depth x Width | Implemented As | 
++--------------------------------------------------------------------------+------------+---------------+----------------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | p_0_out    | 4096x16       | LUT            | 
++--------------------------------------------------------------------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                               | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B2          | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | (C' or 0)+A2*B2 | 19     | 18     | 18     | -      | 37     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | ACIN''*B2       | 19     | 16     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
++--------------------------------------------------------------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:38 ; elapsed = 00:03:40 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:48 ; elapsed = 00:03:51 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:48 ; elapsed = 00:03:51 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:49 ; elapsed = 00:03:51 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                               | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | Dynamic     | -      | -      | -      | -      | 37     | -    | -    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | A''*B'      | 0      | 18     | -      | -      | 35     | 2    | 1    | -    | -    | -     | 0    | 0    | 
++--------------------------------------------------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY8  |   420|
+|3     |DSP48E2 |   160|
+|4     |LUT1    |   170|
+|5     |LUT2    |   431|
+|6     |LUT3    |  2272|
+|7     |LUT4    |  1824|
+|8     |LUT5    |  1410|
+|9     |LUT6    |  7010|
+|10    |MUXF7   |  2190|
+|11    |MUXF8   |   820|
+|12    |FDRE    |  1854|
+|13    |IBUF    |  1284|
+|14    |OBUF    |  2723|
++------+--------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------+------+
+|      |Instance                                                                       |Module                                                                      |Cells |
++------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------+------+
+|1     |top                                                                            |                                                                            | 22569|
+|2     |  grp_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_848 |myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s | 17272|
+|3     |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_648 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s   |  1727|
+|4     |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_80                                             |     1|
+|5     |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_81                                             |     1|
+|6     |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_82                                             |     1|
+|7     |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_83                                             |     1|
+|8     |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_84                                             |     1|
+|9     |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_85                                             |     1|
+|10    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_86                                             |     1|
+|11    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_87                                             |    91|
+|12    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_670 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_0 |  1728|
+|13    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_72                                             |     1|
+|14    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_73                                             |     1|
+|15    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_74                                             |     1|
+|16    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_75                                             |     1|
+|17    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_76                                             |     1|
+|18    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_77                                             |     1|
+|19    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_78                                             |     1|
+|20    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_79                                             |    92|
+|21    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_692 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_1 |  1727|
+|22    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_64                                             |     1|
+|23    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_65                                             |     1|
+|24    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_66                                             |     1|
+|25    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_67                                             |     1|
+|26    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_68                                             |     1|
+|27    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_69                                             |     1|
+|28    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_70                                             |     1|
+|29    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_71                                             |    91|
+|30    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_714 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_2 |  1727|
+|31    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_56                                             |     1|
+|32    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_57                                             |     1|
+|33    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_58                                             |     1|
+|34    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_59                                             |     1|
+|35    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_60                                             |     1|
+|36    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_61                                             |     1|
+|37    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_62                                             |     1|
+|38    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_63                                             |    91|
+|39    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_736 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_3 |  1727|
+|40    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_48                                             |     1|
+|41    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_49                                             |     1|
+|42    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_50                                             |     1|
+|43    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_51                                             |     1|
+|44    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_52                                             |     1|
+|45    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_53                                             |     1|
+|46    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_54                                             |     1|
+|47    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_55                                             |    91|
+|48    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_758 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_4 |  1727|
+|49    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_40                                             |     1|
+|50    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_41                                             |     1|
+|51    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_42                                             |     1|
+|52    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_43                                             |     1|
+|53    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_44                                             |     1|
+|54    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_45                                             |     1|
+|55    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_46                                             |     1|
+|56    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_47                                             |    91|
+|57    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_780 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_5 |  1727|
+|58    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_32                                             |     1|
+|59    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_33                                             |     1|
+|60    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_34                                             |     1|
+|61    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_35                                             |     1|
+|62    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_36                                             |     1|
+|63    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_37                                             |     1|
+|64    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_38                                             |     1|
+|65    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_39                                             |    91|
+|66    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_802 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_6 |  1727|
+|67    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_24                                             |     1|
+|68    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_25                                             |     1|
+|69    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_26                                             |     1|
+|70    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_27                                             |     1|
+|71    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_28                                             |     1|
+|72    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_29                                             |     1|
+|73    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_30                                             |     1|
+|74    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_31                                             |    91|
+|75    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_824 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_7 |  1727|
+|76    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1_16                                             |     1|
+|77    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_17                                             |     1|
+|78    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_18                                             |     1|
+|79    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_19                                             |     1|
+|80    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_20                                             |     1|
+|81    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_21                                             |     1|
+|82    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_22                                             |     1|
+|83    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_23                                             |    91|
+|84    |    grp_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_fu_846 |myproject_layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s_8 |  1728|
+|85    |      mul_19s_16s_35_1_1_U90                                                   |myproject_mul_19s_16s_35_1_1                                                |     1|
+|86    |      mul_19s_16s_35_1_1_U91                                                   |myproject_mul_19s_16s_35_1_1_9                                              |     1|
+|87    |      mul_19s_16s_35_1_1_U92                                                   |myproject_mul_19s_16s_35_1_1_10                                             |     1|
+|88    |      mul_19s_16s_35_1_1_U93                                                   |myproject_mul_19s_16s_35_1_1_11                                             |     1|
+|89    |      mul_19s_16s_35_1_1_U94                                                   |myproject_mul_19s_16s_35_1_1_12                                             |     1|
+|90    |      mul_19s_16s_35_1_1_U95                                                   |myproject_mul_19s_16s_35_1_1_13                                             |     1|
+|91    |      mul_19s_16s_35_1_1_U96                                                   |myproject_mul_19s_16s_35_1_1_14                                             |     1|
+|92    |      mul_19s_16s_35_1_1_U97                                                   |myproject_mul_19s_16s_35_1_1_15                                             |    92|
++------+-------------------------------------------------------------------------------+----------------------------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.227 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+Synthesis Optimization Complete : Time (s): cpu = 00:03:49 ; elapsed = 00:03:52 . Memory (MB): peak = 3473.234 ; gain = 1917.207 ; free physical = 84823 ; free virtual = 121470
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3473.234 ; gain = 0.000 ; free physical = 85098 ; free virtual = 121746
+INFO: [Netlist 29-17] Analyzing 4875 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3551.035 ; gain = 0.000 ; free physical = 85056 ; free virtual = 121725
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1445 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 160 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1284 instances
+
+Synth Design complete | Checksum: 461badca
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:02 ; elapsed = 00:04:02 . Memory (MB): peak = 3551.070 ; gain = 2009.004 ; free physical = 85063 ; free virtual = 121732
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2679.587; main = 2548.036; forked = 427.433
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5073.574; main = 3551.039; forked = 1600.344
+# opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Command: opt_design -retarget -propconst -sweep -bram_power_opt -shift_register_opt
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu13p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu13p'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.95 . Memory (MB): peak = 3615.066 ; gain = 63.996 ; free physical = 85061 ; free virtual = 121731
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 3740.457 ; gain = 125.391 ; free physical = 84988 ; free virtual = 121678
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84898 ; free virtual = 121587
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84898 ; free virtual = 121587
+Phase 1 Initialization | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84898 ; free virtual = 121587
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.94 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84890 ; free virtual = 121579
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121579
+Phase 2 Timer Update And Timing Data Collection | Checksum: 7b64e12a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121579
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: c6a95ed6
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121579
+Retarget | Checksum: c6a95ed6
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 10944e670
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121578
+Constant propagation | Checksum: 10944e670
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 887766fe
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121578
+Sweep | Checksum: 887766fe
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 887766fe
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84889 ; free virtual = 121578
+Shift Register Optimization | Checksum: 887766fe
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 887766fe
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84888 ; free virtual = 121578
+Post Processing Netlist | Checksum: 887766fe
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 8 Finalization
+
+Phase 8.1 Finalizing Design Cores and Updating Shapes
+Phase 8.1 Finalizing Design Cores and Updating Shapes | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84892 ; free virtual = 121581
+
+Phase 8.2 Verifying Netlist Connectivity
+Phase 8.2 Verifying Netlist Connectivity | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84892 ; free virtual = 121581
+Phase 8 Finalization | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84892 ; free virtual = 121581
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84892 ; free virtual = 121581
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84891 ; free virtual = 121580
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84888 ; free virtual = 121578
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84888 ; free virtual = 121578
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84888 ; free virtual = 121578
+Ending Netlist Obfuscation Task | Checksum: 7a16f4c5
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3819.441 ; gain = 0.000 ; free physical = 84888 ; free virtual = 121578
+INFO: [Common 17-83] Releasing license: Implementation
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:11 . Memory (MB): peak = 3819.441 ; gain = 268.371 ; free physical = 84888 ; free virtual = 121577
+# report_utilization -file vivado_synth.rpt
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 16 19:47:32 2024...

@@ -7,10 +7,5 @@ set SynModuleInfo {
     }
   }
   {SRCNAME {layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>} MODELNAME layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s RTLNAME myproject_layernormalize_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s}
-  {SRCNAME myproject MODELNAME myproject RTLNAME myproject IS_TOP 1
-    SUBMODULES {
-      {MODELNAME myproject_frp_fifoout RTLNAME myproject_frp_fifoout BINDTYPE interface TYPE internal_frp_fifoout}
-      {MODELNAME myproject_frp_pipeline_valid RTLNAME myproject_frp_pipeline_valid BINDTYPE interface TYPE internal_frp_validbits INSTNAME myproject_frp_pipeline_valid_U}
-    }
-  }
+  {SRCNAME myproject MODELNAME myproject RTLNAME myproject IS_TOP 1}
 }

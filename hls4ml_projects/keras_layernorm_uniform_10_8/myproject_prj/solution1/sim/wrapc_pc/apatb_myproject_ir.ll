@@ -1,4 +1,4 @@
-; ModuleID = '/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
+; ModuleID = '/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
 source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
@@ -120,412 +120,413 @@ for.loop.lr.ph:                                   ; preds = %copy
 
 for.loop:                                         ; preds = %dst.addr.0.0.06.exit, %for.loop.lr.ph
   %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %dst.addr.0.0.06.exit ]
+  %1 = trunc i64 %for.loop.idx2 to i7
   %src.addr.0.0.05 = getelementptr [80 x %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"], [80 x %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"]* %src, i64 0, i64 %for.loop.idx2, i32 0, i32 0, i32 0
-  %1 = bitcast i33* %src.addr.0.0.05 to i40*
-  %2 = load i40, i40* %1
-  %3 = trunc i40 %2 to i33
-  switch i64 %for.loop.idx2, label %dst.addr.0.0.06.case.79 [
-    i64 0, label %dst.addr.0.0.06.case.0
-    i64 1, label %dst.addr.0.0.06.case.1
-    i64 2, label %dst.addr.0.0.06.case.2
-    i64 3, label %dst.addr.0.0.06.case.3
-    i64 4, label %dst.addr.0.0.06.case.4
-    i64 5, label %dst.addr.0.0.06.case.5
-    i64 6, label %dst.addr.0.0.06.case.6
-    i64 7, label %dst.addr.0.0.06.case.7
-    i64 8, label %dst.addr.0.0.06.case.8
-    i64 9, label %dst.addr.0.0.06.case.9
-    i64 10, label %dst.addr.0.0.06.case.10
-    i64 11, label %dst.addr.0.0.06.case.11
-    i64 12, label %dst.addr.0.0.06.case.12
-    i64 13, label %dst.addr.0.0.06.case.13
-    i64 14, label %dst.addr.0.0.06.case.14
-    i64 15, label %dst.addr.0.0.06.case.15
-    i64 16, label %dst.addr.0.0.06.case.16
-    i64 17, label %dst.addr.0.0.06.case.17
-    i64 18, label %dst.addr.0.0.06.case.18
-    i64 19, label %dst.addr.0.0.06.case.19
-    i64 20, label %dst.addr.0.0.06.case.20
-    i64 21, label %dst.addr.0.0.06.case.21
-    i64 22, label %dst.addr.0.0.06.case.22
-    i64 23, label %dst.addr.0.0.06.case.23
-    i64 24, label %dst.addr.0.0.06.case.24
-    i64 25, label %dst.addr.0.0.06.case.25
-    i64 26, label %dst.addr.0.0.06.case.26
-    i64 27, label %dst.addr.0.0.06.case.27
-    i64 28, label %dst.addr.0.0.06.case.28
-    i64 29, label %dst.addr.0.0.06.case.29
-    i64 30, label %dst.addr.0.0.06.case.30
-    i64 31, label %dst.addr.0.0.06.case.31
-    i64 32, label %dst.addr.0.0.06.case.32
-    i64 33, label %dst.addr.0.0.06.case.33
-    i64 34, label %dst.addr.0.0.06.case.34
-    i64 35, label %dst.addr.0.0.06.case.35
-    i64 36, label %dst.addr.0.0.06.case.36
-    i64 37, label %dst.addr.0.0.06.case.37
-    i64 38, label %dst.addr.0.0.06.case.38
-    i64 39, label %dst.addr.0.0.06.case.39
-    i64 40, label %dst.addr.0.0.06.case.40
-    i64 41, label %dst.addr.0.0.06.case.41
-    i64 42, label %dst.addr.0.0.06.case.42
-    i64 43, label %dst.addr.0.0.06.case.43
-    i64 44, label %dst.addr.0.0.06.case.44
-    i64 45, label %dst.addr.0.0.06.case.45
-    i64 46, label %dst.addr.0.0.06.case.46
-    i64 47, label %dst.addr.0.0.06.case.47
-    i64 48, label %dst.addr.0.0.06.case.48
-    i64 49, label %dst.addr.0.0.06.case.49
-    i64 50, label %dst.addr.0.0.06.case.50
-    i64 51, label %dst.addr.0.0.06.case.51
-    i64 52, label %dst.addr.0.0.06.case.52
-    i64 53, label %dst.addr.0.0.06.case.53
-    i64 54, label %dst.addr.0.0.06.case.54
-    i64 55, label %dst.addr.0.0.06.case.55
-    i64 56, label %dst.addr.0.0.06.case.56
-    i64 57, label %dst.addr.0.0.06.case.57
-    i64 58, label %dst.addr.0.0.06.case.58
-    i64 59, label %dst.addr.0.0.06.case.59
-    i64 60, label %dst.addr.0.0.06.case.60
-    i64 61, label %dst.addr.0.0.06.case.61
-    i64 62, label %dst.addr.0.0.06.case.62
-    i64 63, label %dst.addr.0.0.06.case.63
-    i64 64, label %dst.addr.0.0.06.case.64
-    i64 65, label %dst.addr.0.0.06.case.65
-    i64 66, label %dst.addr.0.0.06.case.66
-    i64 67, label %dst.addr.0.0.06.case.67
-    i64 68, label %dst.addr.0.0.06.case.68
-    i64 69, label %dst.addr.0.0.06.case.69
-    i64 70, label %dst.addr.0.0.06.case.70
-    i64 71, label %dst.addr.0.0.06.case.71
-    i64 72, label %dst.addr.0.0.06.case.72
-    i64 73, label %dst.addr.0.0.06.case.73
-    i64 74, label %dst.addr.0.0.06.case.74
-    i64 75, label %dst.addr.0.0.06.case.75
-    i64 76, label %dst.addr.0.0.06.case.76
-    i64 77, label %dst.addr.0.0.06.case.77
-    i64 78, label %dst.addr.0.0.06.case.78
+  %2 = bitcast i33* %src.addr.0.0.05 to i40*
+  %3 = load i40, i40* %2
+  %4 = trunc i40 %3 to i33
+  switch i7 %1, label %dst.addr.0.0.06.case.79 [
+    i7 0, label %dst.addr.0.0.06.case.0
+    i7 1, label %dst.addr.0.0.06.case.1
+    i7 2, label %dst.addr.0.0.06.case.2
+    i7 3, label %dst.addr.0.0.06.case.3
+    i7 4, label %dst.addr.0.0.06.case.4
+    i7 5, label %dst.addr.0.0.06.case.5
+    i7 6, label %dst.addr.0.0.06.case.6
+    i7 7, label %dst.addr.0.0.06.case.7
+    i7 8, label %dst.addr.0.0.06.case.8
+    i7 9, label %dst.addr.0.0.06.case.9
+    i7 10, label %dst.addr.0.0.06.case.10
+    i7 11, label %dst.addr.0.0.06.case.11
+    i7 12, label %dst.addr.0.0.06.case.12
+    i7 13, label %dst.addr.0.0.06.case.13
+    i7 14, label %dst.addr.0.0.06.case.14
+    i7 15, label %dst.addr.0.0.06.case.15
+    i7 16, label %dst.addr.0.0.06.case.16
+    i7 17, label %dst.addr.0.0.06.case.17
+    i7 18, label %dst.addr.0.0.06.case.18
+    i7 19, label %dst.addr.0.0.06.case.19
+    i7 20, label %dst.addr.0.0.06.case.20
+    i7 21, label %dst.addr.0.0.06.case.21
+    i7 22, label %dst.addr.0.0.06.case.22
+    i7 23, label %dst.addr.0.0.06.case.23
+    i7 24, label %dst.addr.0.0.06.case.24
+    i7 25, label %dst.addr.0.0.06.case.25
+    i7 26, label %dst.addr.0.0.06.case.26
+    i7 27, label %dst.addr.0.0.06.case.27
+    i7 28, label %dst.addr.0.0.06.case.28
+    i7 29, label %dst.addr.0.0.06.case.29
+    i7 30, label %dst.addr.0.0.06.case.30
+    i7 31, label %dst.addr.0.0.06.case.31
+    i7 32, label %dst.addr.0.0.06.case.32
+    i7 33, label %dst.addr.0.0.06.case.33
+    i7 34, label %dst.addr.0.0.06.case.34
+    i7 35, label %dst.addr.0.0.06.case.35
+    i7 36, label %dst.addr.0.0.06.case.36
+    i7 37, label %dst.addr.0.0.06.case.37
+    i7 38, label %dst.addr.0.0.06.case.38
+    i7 39, label %dst.addr.0.0.06.case.39
+    i7 40, label %dst.addr.0.0.06.case.40
+    i7 41, label %dst.addr.0.0.06.case.41
+    i7 42, label %dst.addr.0.0.06.case.42
+    i7 43, label %dst.addr.0.0.06.case.43
+    i7 44, label %dst.addr.0.0.06.case.44
+    i7 45, label %dst.addr.0.0.06.case.45
+    i7 46, label %dst.addr.0.0.06.case.46
+    i7 47, label %dst.addr.0.0.06.case.47
+    i7 48, label %dst.addr.0.0.06.case.48
+    i7 49, label %dst.addr.0.0.06.case.49
+    i7 50, label %dst.addr.0.0.06.case.50
+    i7 51, label %dst.addr.0.0.06.case.51
+    i7 52, label %dst.addr.0.0.06.case.52
+    i7 53, label %dst.addr.0.0.06.case.53
+    i7 54, label %dst.addr.0.0.06.case.54
+    i7 55, label %dst.addr.0.0.06.case.55
+    i7 56, label %dst.addr.0.0.06.case.56
+    i7 57, label %dst.addr.0.0.06.case.57
+    i7 58, label %dst.addr.0.0.06.case.58
+    i7 59, label %dst.addr.0.0.06.case.59
+    i7 60, label %dst.addr.0.0.06.case.60
+    i7 61, label %dst.addr.0.0.06.case.61
+    i7 62, label %dst.addr.0.0.06.case.62
+    i7 63, label %dst.addr.0.0.06.case.63
+    i7 -64, label %dst.addr.0.0.06.case.64
+    i7 -63, label %dst.addr.0.0.06.case.65
+    i7 -62, label %dst.addr.0.0.06.case.66
+    i7 -61, label %dst.addr.0.0.06.case.67
+    i7 -60, label %dst.addr.0.0.06.case.68
+    i7 -59, label %dst.addr.0.0.06.case.69
+    i7 -58, label %dst.addr.0.0.06.case.70
+    i7 -57, label %dst.addr.0.0.06.case.71
+    i7 -56, label %dst.addr.0.0.06.case.72
+    i7 -55, label %dst.addr.0.0.06.case.73
+    i7 -54, label %dst.addr.0.0.06.case.74
+    i7 -53, label %dst.addr.0.0.06.case.75
+    i7 -52, label %dst.addr.0.0.06.case.76
+    i7 -51, label %dst.addr.0.0.06.case.77
+    i7 -50, label %dst.addr.0.0.06.case.78
   ]
 
 dst.addr.0.0.06.case.0:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_0, align 8
+  store i33 %4, i33* %dst_0, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.1:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_1, align 8
+  store i33 %4, i33* %dst_1, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.2:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_2, align 8
+  store i33 %4, i33* %dst_2, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.3:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_3, align 8
+  store i33 %4, i33* %dst_3, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.4:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_4, align 8
+  store i33 %4, i33* %dst_4, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.5:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_5, align 8
+  store i33 %4, i33* %dst_5, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.6:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_6, align 8
+  store i33 %4, i33* %dst_6, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.7:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_7, align 8
+  store i33 %4, i33* %dst_7, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.8:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_8, align 8
+  store i33 %4, i33* %dst_8, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.9:                           ; preds = %for.loop
-  store i33 %3, i33* %dst_9, align 8
+  store i33 %4, i33* %dst_9, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.10:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_10, align 8
+  store i33 %4, i33* %dst_10, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.11:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_11, align 8
+  store i33 %4, i33* %dst_11, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.12:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_12, align 8
+  store i33 %4, i33* %dst_12, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.13:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_13, align 8
+  store i33 %4, i33* %dst_13, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.14:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_14, align 8
+  store i33 %4, i33* %dst_14, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.15:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_15, align 8
+  store i33 %4, i33* %dst_15, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.16:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_16, align 8
+  store i33 %4, i33* %dst_16, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.17:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_17, align 8
+  store i33 %4, i33* %dst_17, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.18:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_18, align 8
+  store i33 %4, i33* %dst_18, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.19:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_19, align 8
+  store i33 %4, i33* %dst_19, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.20:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_20, align 8
+  store i33 %4, i33* %dst_20, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.21:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_21, align 8
+  store i33 %4, i33* %dst_21, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.22:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_22, align 8
+  store i33 %4, i33* %dst_22, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.23:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_23, align 8
+  store i33 %4, i33* %dst_23, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.24:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_24, align 8
+  store i33 %4, i33* %dst_24, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.25:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_25, align 8
+  store i33 %4, i33* %dst_25, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.26:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_26, align 8
+  store i33 %4, i33* %dst_26, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.27:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_27, align 8
+  store i33 %4, i33* %dst_27, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.28:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_28, align 8
+  store i33 %4, i33* %dst_28, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.29:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_29, align 8
+  store i33 %4, i33* %dst_29, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.30:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_30, align 8
+  store i33 %4, i33* %dst_30, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.31:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_31, align 8
+  store i33 %4, i33* %dst_31, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.32:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_32, align 8
+  store i33 %4, i33* %dst_32, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.33:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_33, align 8
+  store i33 %4, i33* %dst_33, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.34:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_34, align 8
+  store i33 %4, i33* %dst_34, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.35:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_35, align 8
+  store i33 %4, i33* %dst_35, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.36:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_36, align 8
+  store i33 %4, i33* %dst_36, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.37:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_37, align 8
+  store i33 %4, i33* %dst_37, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.38:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_38, align 8
+  store i33 %4, i33* %dst_38, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.39:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_39, align 8
+  store i33 %4, i33* %dst_39, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.40:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_40, align 8
+  store i33 %4, i33* %dst_40, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.41:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_41, align 8
+  store i33 %4, i33* %dst_41, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.42:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_42, align 8
+  store i33 %4, i33* %dst_42, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.43:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_43, align 8
+  store i33 %4, i33* %dst_43, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.44:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_44, align 8
+  store i33 %4, i33* %dst_44, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.45:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_45, align 8
+  store i33 %4, i33* %dst_45, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.46:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_46, align 8
+  store i33 %4, i33* %dst_46, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.47:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_47, align 8
+  store i33 %4, i33* %dst_47, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.48:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_48, align 8
+  store i33 %4, i33* %dst_48, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.49:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_49, align 8
+  store i33 %4, i33* %dst_49, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.50:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_50, align 8
+  store i33 %4, i33* %dst_50, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.51:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_51, align 8
+  store i33 %4, i33* %dst_51, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.52:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_52, align 8
+  store i33 %4, i33* %dst_52, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.53:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_53, align 8
+  store i33 %4, i33* %dst_53, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.54:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_54, align 8
+  store i33 %4, i33* %dst_54, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.55:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_55, align 8
+  store i33 %4, i33* %dst_55, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.56:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_56, align 8
+  store i33 %4, i33* %dst_56, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.57:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_57, align 8
+  store i33 %4, i33* %dst_57, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.58:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_58, align 8
+  store i33 %4, i33* %dst_58, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.59:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_59, align 8
+  store i33 %4, i33* %dst_59, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.60:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_60, align 8
+  store i33 %4, i33* %dst_60, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.61:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_61, align 8
+  store i33 %4, i33* %dst_61, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.62:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_62, align 8
+  store i33 %4, i33* %dst_62, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.63:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_63, align 8
+  store i33 %4, i33* %dst_63, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.64:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_64, align 8
+  store i33 %4, i33* %dst_64, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.65:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_65, align 8
+  store i33 %4, i33* %dst_65, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.66:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_66, align 8
+  store i33 %4, i33* %dst_66, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.67:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_67, align 8
+  store i33 %4, i33* %dst_67, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.68:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_68, align 8
+  store i33 %4, i33* %dst_68, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.69:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_69, align 8
+  store i33 %4, i33* %dst_69, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.70:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_70, align 8
+  store i33 %4, i33* %dst_70, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.71:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_71, align 8
+  store i33 %4, i33* %dst_71, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.72:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_72, align 8
+  store i33 %4, i33* %dst_72, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.73:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_73, align 8
+  store i33 %4, i33* %dst_73, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.74:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_74, align 8
+  store i33 %4, i33* %dst_74, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.75:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_75, align 8
+  store i33 %4, i33* %dst_75, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.76:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_76, align 8
+  store i33 %4, i33* %dst_76, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.77:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_77, align 8
+  store i33 %4, i33* %dst_77, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.78:                          ; preds = %for.loop
-  store i33 %3, i33* %dst_78, align 8
+  store i33 %4, i33* %dst_78, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.case.79:                          ; preds = %for.loop
-  %4 = icmp eq i64 %for.loop.idx2, 79
-  call void @llvm.assume(i1 %4)
-  store i33 %3, i33* %dst_79, align 8
+  %5 = icmp eq i7 %1, -49
+  call void @llvm.assume(i1 %5)
+  store i33 %4, i33* %dst_79, align 8
   br label %dst.addr.0.0.06.exit
 
 dst.addr.0.0.06.exit:                             ; preds = %dst.addr.0.0.06.case.79, %dst.addr.0.0.06.case.78, %dst.addr.0.0.06.case.77, %dst.addr.0.0.06.case.76, %dst.addr.0.0.06.case.75, %dst.addr.0.0.06.case.74, %dst.addr.0.0.06.case.73, %dst.addr.0.0.06.case.72, %dst.addr.0.0.06.case.71, %dst.addr.0.0.06.case.70, %dst.addr.0.0.06.case.69, %dst.addr.0.0.06.case.68, %dst.addr.0.0.06.case.67, %dst.addr.0.0.06.case.66, %dst.addr.0.0.06.case.65, %dst.addr.0.0.06.case.64, %dst.addr.0.0.06.case.63, %dst.addr.0.0.06.case.62, %dst.addr.0.0.06.case.61, %dst.addr.0.0.06.case.60, %dst.addr.0.0.06.case.59, %dst.addr.0.0.06.case.58, %dst.addr.0.0.06.case.57, %dst.addr.0.0.06.case.56, %dst.addr.0.0.06.case.55, %dst.addr.0.0.06.case.54, %dst.addr.0.0.06.case.53, %dst.addr.0.0.06.case.52, %dst.addr.0.0.06.case.51, %dst.addr.0.0.06.case.50, %dst.addr.0.0.06.case.49, %dst.addr.0.0.06.case.48, %dst.addr.0.0.06.case.47, %dst.addr.0.0.06.case.46, %dst.addr.0.0.06.case.45, %dst.addr.0.0.06.case.44, %dst.addr.0.0.06.case.43, %dst.addr.0.0.06.case.42, %dst.addr.0.0.06.case.41, %dst.addr.0.0.06.case.40, %dst.addr.0.0.06.case.39, %dst.addr.0.0.06.case.38, %dst.addr.0.0.06.case.37, %dst.addr.0.0.06.case.36, %dst.addr.0.0.06.case.35, %dst.addr.0.0.06.case.34, %dst.addr.0.0.06.case.33, %dst.addr.0.0.06.case.32, %dst.addr.0.0.06.case.31, %dst.addr.0.0.06.case.30, %dst.addr.0.0.06.case.29, %dst.addr.0.0.06.case.28, %dst.addr.0.0.06.case.27, %dst.addr.0.0.06.case.26, %dst.addr.0.0.06.case.25, %dst.addr.0.0.06.case.24, %dst.addr.0.0.06.case.23, %dst.addr.0.0.06.case.22, %dst.addr.0.0.06.case.21, %dst.addr.0.0.06.case.20, %dst.addr.0.0.06.case.19, %dst.addr.0.0.06.case.18, %dst.addr.0.0.06.case.17, %dst.addr.0.0.06.case.16, %dst.addr.0.0.06.case.15, %dst.addr.0.0.06.case.14, %dst.addr.0.0.06.case.13, %dst.addr.0.0.06.case.12, %dst.addr.0.0.06.case.11, %dst.addr.0.0.06.case.10, %dst.addr.0.0.06.case.9, %dst.addr.0.0.06.case.8, %dst.addr.0.0.06.case.7, %dst.addr.0.0.06.case.6, %dst.addr.0.0.06.case.5, %dst.addr.0.0.06.case.4, %dst.addr.0.0.06.case.3, %dst.addr.0.0.06.case.2, %dst.addr.0.0.06.case.1, %dst.addr.0.0.06.case.0
@@ -569,574 +570,575 @@ for.loop.lr.ph:                                   ; preds = %copy
 
 for.loop:                                         ; preds = %src.addr.0.0.05.exit, %for.loop.lr.ph
   %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %src.addr.0.0.05.exit ]
+  %1 = trunc i64 %for.loop.idx2 to i7
   %dst.addr.0.0.06 = getelementptr [80 x %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"], [80 x %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"]* %dst, i64 0, i64 %for.loop.idx2, i32 0, i32 0, i32 0
-  switch i64 %for.loop.idx2, label %src.addr.0.0.05.case.79 [
-    i64 0, label %src.addr.0.0.05.case.0
-    i64 1, label %src.addr.0.0.05.case.1
-    i64 2, label %src.addr.0.0.05.case.2
-    i64 3, label %src.addr.0.0.05.case.3
-    i64 4, label %src.addr.0.0.05.case.4
-    i64 5, label %src.addr.0.0.05.case.5
-    i64 6, label %src.addr.0.0.05.case.6
-    i64 7, label %src.addr.0.0.05.case.7
-    i64 8, label %src.addr.0.0.05.case.8
-    i64 9, label %src.addr.0.0.05.case.9
-    i64 10, label %src.addr.0.0.05.case.10
-    i64 11, label %src.addr.0.0.05.case.11
-    i64 12, label %src.addr.0.0.05.case.12
-    i64 13, label %src.addr.0.0.05.case.13
-    i64 14, label %src.addr.0.0.05.case.14
-    i64 15, label %src.addr.0.0.05.case.15
-    i64 16, label %src.addr.0.0.05.case.16
-    i64 17, label %src.addr.0.0.05.case.17
-    i64 18, label %src.addr.0.0.05.case.18
-    i64 19, label %src.addr.0.0.05.case.19
-    i64 20, label %src.addr.0.0.05.case.20
-    i64 21, label %src.addr.0.0.05.case.21
-    i64 22, label %src.addr.0.0.05.case.22
-    i64 23, label %src.addr.0.0.05.case.23
-    i64 24, label %src.addr.0.0.05.case.24
-    i64 25, label %src.addr.0.0.05.case.25
-    i64 26, label %src.addr.0.0.05.case.26
-    i64 27, label %src.addr.0.0.05.case.27
-    i64 28, label %src.addr.0.0.05.case.28
-    i64 29, label %src.addr.0.0.05.case.29
-    i64 30, label %src.addr.0.0.05.case.30
-    i64 31, label %src.addr.0.0.05.case.31
-    i64 32, label %src.addr.0.0.05.case.32
-    i64 33, label %src.addr.0.0.05.case.33
-    i64 34, label %src.addr.0.0.05.case.34
-    i64 35, label %src.addr.0.0.05.case.35
-    i64 36, label %src.addr.0.0.05.case.36
-    i64 37, label %src.addr.0.0.05.case.37
-    i64 38, label %src.addr.0.0.05.case.38
-    i64 39, label %src.addr.0.0.05.case.39
-    i64 40, label %src.addr.0.0.05.case.40
-    i64 41, label %src.addr.0.0.05.case.41
-    i64 42, label %src.addr.0.0.05.case.42
-    i64 43, label %src.addr.0.0.05.case.43
-    i64 44, label %src.addr.0.0.05.case.44
-    i64 45, label %src.addr.0.0.05.case.45
-    i64 46, label %src.addr.0.0.05.case.46
-    i64 47, label %src.addr.0.0.05.case.47
-    i64 48, label %src.addr.0.0.05.case.48
-    i64 49, label %src.addr.0.0.05.case.49
-    i64 50, label %src.addr.0.0.05.case.50
-    i64 51, label %src.addr.0.0.05.case.51
-    i64 52, label %src.addr.0.0.05.case.52
-    i64 53, label %src.addr.0.0.05.case.53
-    i64 54, label %src.addr.0.0.05.case.54
-    i64 55, label %src.addr.0.0.05.case.55
-    i64 56, label %src.addr.0.0.05.case.56
-    i64 57, label %src.addr.0.0.05.case.57
-    i64 58, label %src.addr.0.0.05.case.58
-    i64 59, label %src.addr.0.0.05.case.59
-    i64 60, label %src.addr.0.0.05.case.60
-    i64 61, label %src.addr.0.0.05.case.61
-    i64 62, label %src.addr.0.0.05.case.62
-    i64 63, label %src.addr.0.0.05.case.63
-    i64 64, label %src.addr.0.0.05.case.64
-    i64 65, label %src.addr.0.0.05.case.65
-    i64 66, label %src.addr.0.0.05.case.66
-    i64 67, label %src.addr.0.0.05.case.67
-    i64 68, label %src.addr.0.0.05.case.68
-    i64 69, label %src.addr.0.0.05.case.69
-    i64 70, label %src.addr.0.0.05.case.70
-    i64 71, label %src.addr.0.0.05.case.71
-    i64 72, label %src.addr.0.0.05.case.72
-    i64 73, label %src.addr.0.0.05.case.73
-    i64 74, label %src.addr.0.0.05.case.74
-    i64 75, label %src.addr.0.0.05.case.75
-    i64 76, label %src.addr.0.0.05.case.76
-    i64 77, label %src.addr.0.0.05.case.77
-    i64 78, label %src.addr.0.0.05.case.78
+  switch i7 %1, label %src.addr.0.0.05.case.79 [
+    i7 0, label %src.addr.0.0.05.case.0
+    i7 1, label %src.addr.0.0.05.case.1
+    i7 2, label %src.addr.0.0.05.case.2
+    i7 3, label %src.addr.0.0.05.case.3
+    i7 4, label %src.addr.0.0.05.case.4
+    i7 5, label %src.addr.0.0.05.case.5
+    i7 6, label %src.addr.0.0.05.case.6
+    i7 7, label %src.addr.0.0.05.case.7
+    i7 8, label %src.addr.0.0.05.case.8
+    i7 9, label %src.addr.0.0.05.case.9
+    i7 10, label %src.addr.0.0.05.case.10
+    i7 11, label %src.addr.0.0.05.case.11
+    i7 12, label %src.addr.0.0.05.case.12
+    i7 13, label %src.addr.0.0.05.case.13
+    i7 14, label %src.addr.0.0.05.case.14
+    i7 15, label %src.addr.0.0.05.case.15
+    i7 16, label %src.addr.0.0.05.case.16
+    i7 17, label %src.addr.0.0.05.case.17
+    i7 18, label %src.addr.0.0.05.case.18
+    i7 19, label %src.addr.0.0.05.case.19
+    i7 20, label %src.addr.0.0.05.case.20
+    i7 21, label %src.addr.0.0.05.case.21
+    i7 22, label %src.addr.0.0.05.case.22
+    i7 23, label %src.addr.0.0.05.case.23
+    i7 24, label %src.addr.0.0.05.case.24
+    i7 25, label %src.addr.0.0.05.case.25
+    i7 26, label %src.addr.0.0.05.case.26
+    i7 27, label %src.addr.0.0.05.case.27
+    i7 28, label %src.addr.0.0.05.case.28
+    i7 29, label %src.addr.0.0.05.case.29
+    i7 30, label %src.addr.0.0.05.case.30
+    i7 31, label %src.addr.0.0.05.case.31
+    i7 32, label %src.addr.0.0.05.case.32
+    i7 33, label %src.addr.0.0.05.case.33
+    i7 34, label %src.addr.0.0.05.case.34
+    i7 35, label %src.addr.0.0.05.case.35
+    i7 36, label %src.addr.0.0.05.case.36
+    i7 37, label %src.addr.0.0.05.case.37
+    i7 38, label %src.addr.0.0.05.case.38
+    i7 39, label %src.addr.0.0.05.case.39
+    i7 40, label %src.addr.0.0.05.case.40
+    i7 41, label %src.addr.0.0.05.case.41
+    i7 42, label %src.addr.0.0.05.case.42
+    i7 43, label %src.addr.0.0.05.case.43
+    i7 44, label %src.addr.0.0.05.case.44
+    i7 45, label %src.addr.0.0.05.case.45
+    i7 46, label %src.addr.0.0.05.case.46
+    i7 47, label %src.addr.0.0.05.case.47
+    i7 48, label %src.addr.0.0.05.case.48
+    i7 49, label %src.addr.0.0.05.case.49
+    i7 50, label %src.addr.0.0.05.case.50
+    i7 51, label %src.addr.0.0.05.case.51
+    i7 52, label %src.addr.0.0.05.case.52
+    i7 53, label %src.addr.0.0.05.case.53
+    i7 54, label %src.addr.0.0.05.case.54
+    i7 55, label %src.addr.0.0.05.case.55
+    i7 56, label %src.addr.0.0.05.case.56
+    i7 57, label %src.addr.0.0.05.case.57
+    i7 58, label %src.addr.0.0.05.case.58
+    i7 59, label %src.addr.0.0.05.case.59
+    i7 60, label %src.addr.0.0.05.case.60
+    i7 61, label %src.addr.0.0.05.case.61
+    i7 62, label %src.addr.0.0.05.case.62
+    i7 63, label %src.addr.0.0.05.case.63
+    i7 -64, label %src.addr.0.0.05.case.64
+    i7 -63, label %src.addr.0.0.05.case.65
+    i7 -62, label %src.addr.0.0.05.case.66
+    i7 -61, label %src.addr.0.0.05.case.67
+    i7 -60, label %src.addr.0.0.05.case.68
+    i7 -59, label %src.addr.0.0.05.case.69
+    i7 -58, label %src.addr.0.0.05.case.70
+    i7 -57, label %src.addr.0.0.05.case.71
+    i7 -56, label %src.addr.0.0.05.case.72
+    i7 -55, label %src.addr.0.0.05.case.73
+    i7 -54, label %src.addr.0.0.05.case.74
+    i7 -53, label %src.addr.0.0.05.case.75
+    i7 -52, label %src.addr.0.0.05.case.76
+    i7 -51, label %src.addr.0.0.05.case.77
+    i7 -50, label %src.addr.0.0.05.case.78
   ]
 
 src.addr.0.0.05.case.0:                           ; preds = %for.loop
-  %1 = bitcast i33* %src_0 to i40*
-  %2 = load i40, i40* %1
-  %3 = trunc i40 %2 to i33
+  %2 = bitcast i33* %src_0 to i40*
+  %3 = load i40, i40* %2
+  %4 = trunc i40 %3 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.1:                           ; preds = %for.loop
-  %4 = bitcast i33* %src_1 to i40*
-  %5 = load i40, i40* %4
-  %6 = trunc i40 %5 to i33
+  %5 = bitcast i33* %src_1 to i40*
+  %6 = load i40, i40* %5
+  %7 = trunc i40 %6 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.2:                           ; preds = %for.loop
-  %7 = bitcast i33* %src_2 to i40*
-  %8 = load i40, i40* %7
-  %9 = trunc i40 %8 to i33
+  %8 = bitcast i33* %src_2 to i40*
+  %9 = load i40, i40* %8
+  %10 = trunc i40 %9 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.3:                           ; preds = %for.loop
-  %10 = bitcast i33* %src_3 to i40*
-  %11 = load i40, i40* %10
-  %12 = trunc i40 %11 to i33
+  %11 = bitcast i33* %src_3 to i40*
+  %12 = load i40, i40* %11
+  %13 = trunc i40 %12 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.4:                           ; preds = %for.loop
-  %13 = bitcast i33* %src_4 to i40*
-  %14 = load i40, i40* %13
-  %15 = trunc i40 %14 to i33
+  %14 = bitcast i33* %src_4 to i40*
+  %15 = load i40, i40* %14
+  %16 = trunc i40 %15 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.5:                           ; preds = %for.loop
-  %16 = bitcast i33* %src_5 to i40*
-  %17 = load i40, i40* %16
-  %18 = trunc i40 %17 to i33
+  %17 = bitcast i33* %src_5 to i40*
+  %18 = load i40, i40* %17
+  %19 = trunc i40 %18 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.6:                           ; preds = %for.loop
-  %19 = bitcast i33* %src_6 to i40*
-  %20 = load i40, i40* %19
-  %21 = trunc i40 %20 to i33
+  %20 = bitcast i33* %src_6 to i40*
+  %21 = load i40, i40* %20
+  %22 = trunc i40 %21 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.7:                           ; preds = %for.loop
-  %22 = bitcast i33* %src_7 to i40*
-  %23 = load i40, i40* %22
-  %24 = trunc i40 %23 to i33
+  %23 = bitcast i33* %src_7 to i40*
+  %24 = load i40, i40* %23
+  %25 = trunc i40 %24 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.8:                           ; preds = %for.loop
-  %25 = bitcast i33* %src_8 to i40*
-  %26 = load i40, i40* %25
-  %27 = trunc i40 %26 to i33
+  %26 = bitcast i33* %src_8 to i40*
+  %27 = load i40, i40* %26
+  %28 = trunc i40 %27 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.9:                           ; preds = %for.loop
-  %28 = bitcast i33* %src_9 to i40*
-  %29 = load i40, i40* %28
-  %30 = trunc i40 %29 to i33
+  %29 = bitcast i33* %src_9 to i40*
+  %30 = load i40, i40* %29
+  %31 = trunc i40 %30 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.10:                          ; preds = %for.loop
-  %31 = bitcast i33* %src_10 to i40*
-  %32 = load i40, i40* %31
-  %33 = trunc i40 %32 to i33
+  %32 = bitcast i33* %src_10 to i40*
+  %33 = load i40, i40* %32
+  %34 = trunc i40 %33 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.11:                          ; preds = %for.loop
-  %34 = bitcast i33* %src_11 to i40*
-  %35 = load i40, i40* %34
-  %36 = trunc i40 %35 to i33
+  %35 = bitcast i33* %src_11 to i40*
+  %36 = load i40, i40* %35
+  %37 = trunc i40 %36 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.12:                          ; preds = %for.loop
-  %37 = bitcast i33* %src_12 to i40*
-  %38 = load i40, i40* %37
-  %39 = trunc i40 %38 to i33
+  %38 = bitcast i33* %src_12 to i40*
+  %39 = load i40, i40* %38
+  %40 = trunc i40 %39 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.13:                          ; preds = %for.loop
-  %40 = bitcast i33* %src_13 to i40*
-  %41 = load i40, i40* %40
-  %42 = trunc i40 %41 to i33
+  %41 = bitcast i33* %src_13 to i40*
+  %42 = load i40, i40* %41
+  %43 = trunc i40 %42 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.14:                          ; preds = %for.loop
-  %43 = bitcast i33* %src_14 to i40*
-  %44 = load i40, i40* %43
-  %45 = trunc i40 %44 to i33
+  %44 = bitcast i33* %src_14 to i40*
+  %45 = load i40, i40* %44
+  %46 = trunc i40 %45 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.15:                          ; preds = %for.loop
-  %46 = bitcast i33* %src_15 to i40*
-  %47 = load i40, i40* %46
-  %48 = trunc i40 %47 to i33
+  %47 = bitcast i33* %src_15 to i40*
+  %48 = load i40, i40* %47
+  %49 = trunc i40 %48 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.16:                          ; preds = %for.loop
-  %49 = bitcast i33* %src_16 to i40*
-  %50 = load i40, i40* %49
-  %51 = trunc i40 %50 to i33
+  %50 = bitcast i33* %src_16 to i40*
+  %51 = load i40, i40* %50
+  %52 = trunc i40 %51 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.17:                          ; preds = %for.loop
-  %52 = bitcast i33* %src_17 to i40*
-  %53 = load i40, i40* %52
-  %54 = trunc i40 %53 to i33
+  %53 = bitcast i33* %src_17 to i40*
+  %54 = load i40, i40* %53
+  %55 = trunc i40 %54 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.18:                          ; preds = %for.loop
-  %55 = bitcast i33* %src_18 to i40*
-  %56 = load i40, i40* %55
-  %57 = trunc i40 %56 to i33
+  %56 = bitcast i33* %src_18 to i40*
+  %57 = load i40, i40* %56
+  %58 = trunc i40 %57 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.19:                          ; preds = %for.loop
-  %58 = bitcast i33* %src_19 to i40*
-  %59 = load i40, i40* %58
-  %60 = trunc i40 %59 to i33
+  %59 = bitcast i33* %src_19 to i40*
+  %60 = load i40, i40* %59
+  %61 = trunc i40 %60 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.20:                          ; preds = %for.loop
-  %61 = bitcast i33* %src_20 to i40*
-  %62 = load i40, i40* %61
-  %63 = trunc i40 %62 to i33
+  %62 = bitcast i33* %src_20 to i40*
+  %63 = load i40, i40* %62
+  %64 = trunc i40 %63 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.21:                          ; preds = %for.loop
-  %64 = bitcast i33* %src_21 to i40*
-  %65 = load i40, i40* %64
-  %66 = trunc i40 %65 to i33
+  %65 = bitcast i33* %src_21 to i40*
+  %66 = load i40, i40* %65
+  %67 = trunc i40 %66 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.22:                          ; preds = %for.loop
-  %67 = bitcast i33* %src_22 to i40*
-  %68 = load i40, i40* %67
-  %69 = trunc i40 %68 to i33
+  %68 = bitcast i33* %src_22 to i40*
+  %69 = load i40, i40* %68
+  %70 = trunc i40 %69 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.23:                          ; preds = %for.loop
-  %70 = bitcast i33* %src_23 to i40*
-  %71 = load i40, i40* %70
-  %72 = trunc i40 %71 to i33
+  %71 = bitcast i33* %src_23 to i40*
+  %72 = load i40, i40* %71
+  %73 = trunc i40 %72 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.24:                          ; preds = %for.loop
-  %73 = bitcast i33* %src_24 to i40*
-  %74 = load i40, i40* %73
-  %75 = trunc i40 %74 to i33
+  %74 = bitcast i33* %src_24 to i40*
+  %75 = load i40, i40* %74
+  %76 = trunc i40 %75 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.25:                          ; preds = %for.loop
-  %76 = bitcast i33* %src_25 to i40*
-  %77 = load i40, i40* %76
-  %78 = trunc i40 %77 to i33
+  %77 = bitcast i33* %src_25 to i40*
+  %78 = load i40, i40* %77
+  %79 = trunc i40 %78 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.26:                          ; preds = %for.loop
-  %79 = bitcast i33* %src_26 to i40*
-  %80 = load i40, i40* %79
-  %81 = trunc i40 %80 to i33
+  %80 = bitcast i33* %src_26 to i40*
+  %81 = load i40, i40* %80
+  %82 = trunc i40 %81 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.27:                          ; preds = %for.loop
-  %82 = bitcast i33* %src_27 to i40*
-  %83 = load i40, i40* %82
-  %84 = trunc i40 %83 to i33
+  %83 = bitcast i33* %src_27 to i40*
+  %84 = load i40, i40* %83
+  %85 = trunc i40 %84 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.28:                          ; preds = %for.loop
-  %85 = bitcast i33* %src_28 to i40*
-  %86 = load i40, i40* %85
-  %87 = trunc i40 %86 to i33
+  %86 = bitcast i33* %src_28 to i40*
+  %87 = load i40, i40* %86
+  %88 = trunc i40 %87 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.29:                          ; preds = %for.loop
-  %88 = bitcast i33* %src_29 to i40*
-  %89 = load i40, i40* %88
-  %90 = trunc i40 %89 to i33
+  %89 = bitcast i33* %src_29 to i40*
+  %90 = load i40, i40* %89
+  %91 = trunc i40 %90 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.30:                          ; preds = %for.loop
-  %91 = bitcast i33* %src_30 to i40*
-  %92 = load i40, i40* %91
-  %93 = trunc i40 %92 to i33
+  %92 = bitcast i33* %src_30 to i40*
+  %93 = load i40, i40* %92
+  %94 = trunc i40 %93 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.31:                          ; preds = %for.loop
-  %94 = bitcast i33* %src_31 to i40*
-  %95 = load i40, i40* %94
-  %96 = trunc i40 %95 to i33
+  %95 = bitcast i33* %src_31 to i40*
+  %96 = load i40, i40* %95
+  %97 = trunc i40 %96 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.32:                          ; preds = %for.loop
-  %97 = bitcast i33* %src_32 to i40*
-  %98 = load i40, i40* %97
-  %99 = trunc i40 %98 to i33
+  %98 = bitcast i33* %src_32 to i40*
+  %99 = load i40, i40* %98
+  %100 = trunc i40 %99 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.33:                          ; preds = %for.loop
-  %100 = bitcast i33* %src_33 to i40*
-  %101 = load i40, i40* %100
-  %102 = trunc i40 %101 to i33
+  %101 = bitcast i33* %src_33 to i40*
+  %102 = load i40, i40* %101
+  %103 = trunc i40 %102 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.34:                          ; preds = %for.loop
-  %103 = bitcast i33* %src_34 to i40*
-  %104 = load i40, i40* %103
-  %105 = trunc i40 %104 to i33
+  %104 = bitcast i33* %src_34 to i40*
+  %105 = load i40, i40* %104
+  %106 = trunc i40 %105 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.35:                          ; preds = %for.loop
-  %106 = bitcast i33* %src_35 to i40*
-  %107 = load i40, i40* %106
-  %108 = trunc i40 %107 to i33
+  %107 = bitcast i33* %src_35 to i40*
+  %108 = load i40, i40* %107
+  %109 = trunc i40 %108 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.36:                          ; preds = %for.loop
-  %109 = bitcast i33* %src_36 to i40*
-  %110 = load i40, i40* %109
-  %111 = trunc i40 %110 to i33
+  %110 = bitcast i33* %src_36 to i40*
+  %111 = load i40, i40* %110
+  %112 = trunc i40 %111 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.37:                          ; preds = %for.loop
-  %112 = bitcast i33* %src_37 to i40*
-  %113 = load i40, i40* %112
-  %114 = trunc i40 %113 to i33
+  %113 = bitcast i33* %src_37 to i40*
+  %114 = load i40, i40* %113
+  %115 = trunc i40 %114 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.38:                          ; preds = %for.loop
-  %115 = bitcast i33* %src_38 to i40*
-  %116 = load i40, i40* %115
-  %117 = trunc i40 %116 to i33
+  %116 = bitcast i33* %src_38 to i40*
+  %117 = load i40, i40* %116
+  %118 = trunc i40 %117 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.39:                          ; preds = %for.loop
-  %118 = bitcast i33* %src_39 to i40*
-  %119 = load i40, i40* %118
-  %120 = trunc i40 %119 to i33
+  %119 = bitcast i33* %src_39 to i40*
+  %120 = load i40, i40* %119
+  %121 = trunc i40 %120 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.40:                          ; preds = %for.loop
-  %121 = bitcast i33* %src_40 to i40*
-  %122 = load i40, i40* %121
-  %123 = trunc i40 %122 to i33
+  %122 = bitcast i33* %src_40 to i40*
+  %123 = load i40, i40* %122
+  %124 = trunc i40 %123 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.41:                          ; preds = %for.loop
-  %124 = bitcast i33* %src_41 to i40*
-  %125 = load i40, i40* %124
-  %126 = trunc i40 %125 to i33
+  %125 = bitcast i33* %src_41 to i40*
+  %126 = load i40, i40* %125
+  %127 = trunc i40 %126 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.42:                          ; preds = %for.loop
-  %127 = bitcast i33* %src_42 to i40*
-  %128 = load i40, i40* %127
-  %129 = trunc i40 %128 to i33
+  %128 = bitcast i33* %src_42 to i40*
+  %129 = load i40, i40* %128
+  %130 = trunc i40 %129 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.43:                          ; preds = %for.loop
-  %130 = bitcast i33* %src_43 to i40*
-  %131 = load i40, i40* %130
-  %132 = trunc i40 %131 to i33
+  %131 = bitcast i33* %src_43 to i40*
+  %132 = load i40, i40* %131
+  %133 = trunc i40 %132 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.44:                          ; preds = %for.loop
-  %133 = bitcast i33* %src_44 to i40*
-  %134 = load i40, i40* %133
-  %135 = trunc i40 %134 to i33
+  %134 = bitcast i33* %src_44 to i40*
+  %135 = load i40, i40* %134
+  %136 = trunc i40 %135 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.45:                          ; preds = %for.loop
-  %136 = bitcast i33* %src_45 to i40*
-  %137 = load i40, i40* %136
-  %138 = trunc i40 %137 to i33
+  %137 = bitcast i33* %src_45 to i40*
+  %138 = load i40, i40* %137
+  %139 = trunc i40 %138 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.46:                          ; preds = %for.loop
-  %139 = bitcast i33* %src_46 to i40*
-  %140 = load i40, i40* %139
-  %141 = trunc i40 %140 to i33
+  %140 = bitcast i33* %src_46 to i40*
+  %141 = load i40, i40* %140
+  %142 = trunc i40 %141 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.47:                          ; preds = %for.loop
-  %142 = bitcast i33* %src_47 to i40*
-  %143 = load i40, i40* %142
-  %144 = trunc i40 %143 to i33
+  %143 = bitcast i33* %src_47 to i40*
+  %144 = load i40, i40* %143
+  %145 = trunc i40 %144 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.48:                          ; preds = %for.loop
-  %145 = bitcast i33* %src_48 to i40*
-  %146 = load i40, i40* %145
-  %147 = trunc i40 %146 to i33
+  %146 = bitcast i33* %src_48 to i40*
+  %147 = load i40, i40* %146
+  %148 = trunc i40 %147 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.49:                          ; preds = %for.loop
-  %148 = bitcast i33* %src_49 to i40*
-  %149 = load i40, i40* %148
-  %150 = trunc i40 %149 to i33
+  %149 = bitcast i33* %src_49 to i40*
+  %150 = load i40, i40* %149
+  %151 = trunc i40 %150 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.50:                          ; preds = %for.loop
-  %151 = bitcast i33* %src_50 to i40*
-  %152 = load i40, i40* %151
-  %153 = trunc i40 %152 to i33
+  %152 = bitcast i33* %src_50 to i40*
+  %153 = load i40, i40* %152
+  %154 = trunc i40 %153 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.51:                          ; preds = %for.loop
-  %154 = bitcast i33* %src_51 to i40*
-  %155 = load i40, i40* %154
-  %156 = trunc i40 %155 to i33
+  %155 = bitcast i33* %src_51 to i40*
+  %156 = load i40, i40* %155
+  %157 = trunc i40 %156 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.52:                          ; preds = %for.loop
-  %157 = bitcast i33* %src_52 to i40*
-  %158 = load i40, i40* %157
-  %159 = trunc i40 %158 to i33
+  %158 = bitcast i33* %src_52 to i40*
+  %159 = load i40, i40* %158
+  %160 = trunc i40 %159 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.53:                          ; preds = %for.loop
-  %160 = bitcast i33* %src_53 to i40*
-  %161 = load i40, i40* %160
-  %162 = trunc i40 %161 to i33
+  %161 = bitcast i33* %src_53 to i40*
+  %162 = load i40, i40* %161
+  %163 = trunc i40 %162 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.54:                          ; preds = %for.loop
-  %163 = bitcast i33* %src_54 to i40*
-  %164 = load i40, i40* %163
-  %165 = trunc i40 %164 to i33
+  %164 = bitcast i33* %src_54 to i40*
+  %165 = load i40, i40* %164
+  %166 = trunc i40 %165 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.55:                          ; preds = %for.loop
-  %166 = bitcast i33* %src_55 to i40*
-  %167 = load i40, i40* %166
-  %168 = trunc i40 %167 to i33
+  %167 = bitcast i33* %src_55 to i40*
+  %168 = load i40, i40* %167
+  %169 = trunc i40 %168 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.56:                          ; preds = %for.loop
-  %169 = bitcast i33* %src_56 to i40*
-  %170 = load i40, i40* %169
-  %171 = trunc i40 %170 to i33
+  %170 = bitcast i33* %src_56 to i40*
+  %171 = load i40, i40* %170
+  %172 = trunc i40 %171 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.57:                          ; preds = %for.loop
-  %172 = bitcast i33* %src_57 to i40*
-  %173 = load i40, i40* %172
-  %174 = trunc i40 %173 to i33
+  %173 = bitcast i33* %src_57 to i40*
+  %174 = load i40, i40* %173
+  %175 = trunc i40 %174 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.58:                          ; preds = %for.loop
-  %175 = bitcast i33* %src_58 to i40*
-  %176 = load i40, i40* %175
-  %177 = trunc i40 %176 to i33
+  %176 = bitcast i33* %src_58 to i40*
+  %177 = load i40, i40* %176
+  %178 = trunc i40 %177 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.59:                          ; preds = %for.loop
-  %178 = bitcast i33* %src_59 to i40*
-  %179 = load i40, i40* %178
-  %180 = trunc i40 %179 to i33
+  %179 = bitcast i33* %src_59 to i40*
+  %180 = load i40, i40* %179
+  %181 = trunc i40 %180 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.60:                          ; preds = %for.loop
-  %181 = bitcast i33* %src_60 to i40*
-  %182 = load i40, i40* %181
-  %183 = trunc i40 %182 to i33
+  %182 = bitcast i33* %src_60 to i40*
+  %183 = load i40, i40* %182
+  %184 = trunc i40 %183 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.61:                          ; preds = %for.loop
-  %184 = bitcast i33* %src_61 to i40*
-  %185 = load i40, i40* %184
-  %186 = trunc i40 %185 to i33
+  %185 = bitcast i33* %src_61 to i40*
+  %186 = load i40, i40* %185
+  %187 = trunc i40 %186 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.62:                          ; preds = %for.loop
-  %187 = bitcast i33* %src_62 to i40*
-  %188 = load i40, i40* %187
-  %189 = trunc i40 %188 to i33
+  %188 = bitcast i33* %src_62 to i40*
+  %189 = load i40, i40* %188
+  %190 = trunc i40 %189 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.63:                          ; preds = %for.loop
-  %190 = bitcast i33* %src_63 to i40*
-  %191 = load i40, i40* %190
-  %192 = trunc i40 %191 to i33
+  %191 = bitcast i33* %src_63 to i40*
+  %192 = load i40, i40* %191
+  %193 = trunc i40 %192 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.64:                          ; preds = %for.loop
-  %193 = bitcast i33* %src_64 to i40*
-  %194 = load i40, i40* %193
-  %195 = trunc i40 %194 to i33
+  %194 = bitcast i33* %src_64 to i40*
+  %195 = load i40, i40* %194
+  %196 = trunc i40 %195 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.65:                          ; preds = %for.loop
-  %196 = bitcast i33* %src_65 to i40*
-  %197 = load i40, i40* %196
-  %198 = trunc i40 %197 to i33
+  %197 = bitcast i33* %src_65 to i40*
+  %198 = load i40, i40* %197
+  %199 = trunc i40 %198 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.66:                          ; preds = %for.loop
-  %199 = bitcast i33* %src_66 to i40*
-  %200 = load i40, i40* %199
-  %201 = trunc i40 %200 to i33
+  %200 = bitcast i33* %src_66 to i40*
+  %201 = load i40, i40* %200
+  %202 = trunc i40 %201 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.67:                          ; preds = %for.loop
-  %202 = bitcast i33* %src_67 to i40*
-  %203 = load i40, i40* %202
-  %204 = trunc i40 %203 to i33
+  %203 = bitcast i33* %src_67 to i40*
+  %204 = load i40, i40* %203
+  %205 = trunc i40 %204 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.68:                          ; preds = %for.loop
-  %205 = bitcast i33* %src_68 to i40*
-  %206 = load i40, i40* %205
-  %207 = trunc i40 %206 to i33
+  %206 = bitcast i33* %src_68 to i40*
+  %207 = load i40, i40* %206
+  %208 = trunc i40 %207 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.69:                          ; preds = %for.loop
-  %208 = bitcast i33* %src_69 to i40*
-  %209 = load i40, i40* %208
-  %210 = trunc i40 %209 to i33
+  %209 = bitcast i33* %src_69 to i40*
+  %210 = load i40, i40* %209
+  %211 = trunc i40 %210 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.70:                          ; preds = %for.loop
-  %211 = bitcast i33* %src_70 to i40*
-  %212 = load i40, i40* %211
-  %213 = trunc i40 %212 to i33
+  %212 = bitcast i33* %src_70 to i40*
+  %213 = load i40, i40* %212
+  %214 = trunc i40 %213 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.71:                          ; preds = %for.loop
-  %214 = bitcast i33* %src_71 to i40*
-  %215 = load i40, i40* %214
-  %216 = trunc i40 %215 to i33
+  %215 = bitcast i33* %src_71 to i40*
+  %216 = load i40, i40* %215
+  %217 = trunc i40 %216 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.72:                          ; preds = %for.loop
-  %217 = bitcast i33* %src_72 to i40*
-  %218 = load i40, i40* %217
-  %219 = trunc i40 %218 to i33
+  %218 = bitcast i33* %src_72 to i40*
+  %219 = load i40, i40* %218
+  %220 = trunc i40 %219 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.73:                          ; preds = %for.loop
-  %220 = bitcast i33* %src_73 to i40*
-  %221 = load i40, i40* %220
-  %222 = trunc i40 %221 to i33
+  %221 = bitcast i33* %src_73 to i40*
+  %222 = load i40, i40* %221
+  %223 = trunc i40 %222 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.74:                          ; preds = %for.loop
-  %223 = bitcast i33* %src_74 to i40*
-  %224 = load i40, i40* %223
-  %225 = trunc i40 %224 to i33
+  %224 = bitcast i33* %src_74 to i40*
+  %225 = load i40, i40* %224
+  %226 = trunc i40 %225 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.75:                          ; preds = %for.loop
-  %226 = bitcast i33* %src_75 to i40*
-  %227 = load i40, i40* %226
-  %228 = trunc i40 %227 to i33
+  %227 = bitcast i33* %src_75 to i40*
+  %228 = load i40, i40* %227
+  %229 = trunc i40 %228 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.76:                          ; preds = %for.loop
-  %229 = bitcast i33* %src_76 to i40*
-  %230 = load i40, i40* %229
-  %231 = trunc i40 %230 to i33
+  %230 = bitcast i33* %src_76 to i40*
+  %231 = load i40, i40* %230
+  %232 = trunc i40 %231 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.77:                          ; preds = %for.loop
-  %232 = bitcast i33* %src_77 to i40*
-  %233 = load i40, i40* %232
-  %234 = trunc i40 %233 to i33
+  %233 = bitcast i33* %src_77 to i40*
+  %234 = load i40, i40* %233
+  %235 = trunc i40 %234 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.78:                          ; preds = %for.loop
-  %235 = bitcast i33* %src_78 to i40*
-  %236 = load i40, i40* %235
-  %237 = trunc i40 %236 to i33
+  %236 = bitcast i33* %src_78 to i40*
+  %237 = load i40, i40* %236
+  %238 = trunc i40 %237 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.case.79:                          ; preds = %for.loop
-  %238 = icmp eq i64 %for.loop.idx2, 79
-  call void @llvm.assume(i1 %238)
-  %239 = bitcast i33* %src_79 to i40*
-  %240 = load i40, i40* %239
-  %241 = trunc i40 %240 to i33
+  %239 = icmp eq i7 %1, -49
+  call void @llvm.assume(i1 %239)
+  %240 = bitcast i33* %src_79 to i40*
+  %241 = load i40, i40* %240
+  %242 = trunc i40 %241 to i33
   br label %src.addr.0.0.05.exit
 
 src.addr.0.0.05.exit:                             ; preds = %src.addr.0.0.05.case.79, %src.addr.0.0.05.case.78, %src.addr.0.0.05.case.77, %src.addr.0.0.05.case.76, %src.addr.0.0.05.case.75, %src.addr.0.0.05.case.74, %src.addr.0.0.05.case.73, %src.addr.0.0.05.case.72, %src.addr.0.0.05.case.71, %src.addr.0.0.05.case.70, %src.addr.0.0.05.case.69, %src.addr.0.0.05.case.68, %src.addr.0.0.05.case.67, %src.addr.0.0.05.case.66, %src.addr.0.0.05.case.65, %src.addr.0.0.05.case.64, %src.addr.0.0.05.case.63, %src.addr.0.0.05.case.62, %src.addr.0.0.05.case.61, %src.addr.0.0.05.case.60, %src.addr.0.0.05.case.59, %src.addr.0.0.05.case.58, %src.addr.0.0.05.case.57, %src.addr.0.0.05.case.56, %src.addr.0.0.05.case.55, %src.addr.0.0.05.case.54, %src.addr.0.0.05.case.53, %src.addr.0.0.05.case.52, %src.addr.0.0.05.case.51, %src.addr.0.0.05.case.50, %src.addr.0.0.05.case.49, %src.addr.0.0.05.case.48, %src.addr.0.0.05.case.47, %src.addr.0.0.05.case.46, %src.addr.0.0.05.case.45, %src.addr.0.0.05.case.44, %src.addr.0.0.05.case.43, %src.addr.0.0.05.case.42, %src.addr.0.0.05.case.41, %src.addr.0.0.05.case.40, %src.addr.0.0.05.case.39, %src.addr.0.0.05.case.38, %src.addr.0.0.05.case.37, %src.addr.0.0.05.case.36, %src.addr.0.0.05.case.35, %src.addr.0.0.05.case.34, %src.addr.0.0.05.case.33, %src.addr.0.0.05.case.32, %src.addr.0.0.05.case.31, %src.addr.0.0.05.case.30, %src.addr.0.0.05.case.29, %src.addr.0.0.05.case.28, %src.addr.0.0.05.case.27, %src.addr.0.0.05.case.26, %src.addr.0.0.05.case.25, %src.addr.0.0.05.case.24, %src.addr.0.0.05.case.23, %src.addr.0.0.05.case.22, %src.addr.0.0.05.case.21, %src.addr.0.0.05.case.20, %src.addr.0.0.05.case.19, %src.addr.0.0.05.case.18, %src.addr.0.0.05.case.17, %src.addr.0.0.05.case.16, %src.addr.0.0.05.case.15, %src.addr.0.0.05.case.14, %src.addr.0.0.05.case.13, %src.addr.0.0.05.case.12, %src.addr.0.0.05.case.11, %src.addr.0.0.05.case.10, %src.addr.0.0.05.case.9, %src.addr.0.0.05.case.8, %src.addr.0.0.05.case.7, %src.addr.0.0.05.case.6, %src.addr.0.0.05.case.5, %src.addr.0.0.05.case.4, %src.addr.0.0.05.case.3, %src.addr.0.0.05.case.2, %src.addr.0.0.05.case.1, %src.addr.0.0.05.case.0
-  %242 = phi i33 [ %3, %src.addr.0.0.05.case.0 ], [ %6, %src.addr.0.0.05.case.1 ], [ %9, %src.addr.0.0.05.case.2 ], [ %12, %src.addr.0.0.05.case.3 ], [ %15, %src.addr.0.0.05.case.4 ], [ %18, %src.addr.0.0.05.case.5 ], [ %21, %src.addr.0.0.05.case.6 ], [ %24, %src.addr.0.0.05.case.7 ], [ %27, %src.addr.0.0.05.case.8 ], [ %30, %src.addr.0.0.05.case.9 ], [ %33, %src.addr.0.0.05.case.10 ], [ %36, %src.addr.0.0.05.case.11 ], [ %39, %src.addr.0.0.05.case.12 ], [ %42, %src.addr.0.0.05.case.13 ], [ %45, %src.addr.0.0.05.case.14 ], [ %48, %src.addr.0.0.05.case.15 ], [ %51, %src.addr.0.0.05.case.16 ], [ %54, %src.addr.0.0.05.case.17 ], [ %57, %src.addr.0.0.05.case.18 ], [ %60, %src.addr.0.0.05.case.19 ], [ %63, %src.addr.0.0.05.case.20 ], [ %66, %src.addr.0.0.05.case.21 ], [ %69, %src.addr.0.0.05.case.22 ], [ %72, %src.addr.0.0.05.case.23 ], [ %75, %src.addr.0.0.05.case.24 ], [ %78, %src.addr.0.0.05.case.25 ], [ %81, %src.addr.0.0.05.case.26 ], [ %84, %src.addr.0.0.05.case.27 ], [ %87, %src.addr.0.0.05.case.28 ], [ %90, %src.addr.0.0.05.case.29 ], [ %93, %src.addr.0.0.05.case.30 ], [ %96, %src.addr.0.0.05.case.31 ], [ %99, %src.addr.0.0.05.case.32 ], [ %102, %src.addr.0.0.05.case.33 ], [ %105, %src.addr.0.0.05.case.34 ], [ %108, %src.addr.0.0.05.case.35 ], [ %111, %src.addr.0.0.05.case.36 ], [ %114, %src.addr.0.0.05.case.37 ], [ %117, %src.addr.0.0.05.case.38 ], [ %120, %src.addr.0.0.05.case.39 ], [ %123, %src.addr.0.0.05.case.40 ], [ %126, %src.addr.0.0.05.case.41 ], [ %129, %src.addr.0.0.05.case.42 ], [ %132, %src.addr.0.0.05.case.43 ], [ %135, %src.addr.0.0.05.case.44 ], [ %138, %src.addr.0.0.05.case.45 ], [ %141, %src.addr.0.0.05.case.46 ], [ %144, %src.addr.0.0.05.case.47 ], [ %147, %src.addr.0.0.05.case.48 ], [ %150, %src.addr.0.0.05.case.49 ], [ %153, %src.addr.0.0.05.case.50 ], [ %156, %src.addr.0.0.05.case.51 ], [ %159, %src.addr.0.0.05.case.52 ], [ %162, %src.addr.0.0.05.case.53 ], [ %165, %src.addr.0.0.05.case.54 ], [ %168, %src.addr.0.0.05.case.55 ], [ %171, %src.addr.0.0.05.case.56 ], [ %174, %src.addr.0.0.05.case.57 ], [ %177, %src.addr.0.0.05.case.58 ], [ %180, %src.addr.0.0.05.case.59 ], [ %183, %src.addr.0.0.05.case.60 ], [ %186, %src.addr.0.0.05.case.61 ], [ %189, %src.addr.0.0.05.case.62 ], [ %192, %src.addr.0.0.05.case.63 ], [ %195, %src.addr.0.0.05.case.64 ], [ %198, %src.addr.0.0.05.case.65 ], [ %201, %src.addr.0.0.05.case.66 ], [ %204, %src.addr.0.0.05.case.67 ], [ %207, %src.addr.0.0.05.case.68 ], [ %210, %src.addr.0.0.05.case.69 ], [ %213, %src.addr.0.0.05.case.70 ], [ %216, %src.addr.0.0.05.case.71 ], [ %219, %src.addr.0.0.05.case.72 ], [ %222, %src.addr.0.0.05.case.73 ], [ %225, %src.addr.0.0.05.case.74 ], [ %228, %src.addr.0.0.05.case.75 ], [ %231, %src.addr.0.0.05.case.76 ], [ %234, %src.addr.0.0.05.case.77 ], [ %237, %src.addr.0.0.05.case.78 ], [ %241, %src.addr.0.0.05.case.79 ]
-  store i33 %242, i33* %dst.addr.0.0.06, align 8
+  %243 = phi i33 [ %4, %src.addr.0.0.05.case.0 ], [ %7, %src.addr.0.0.05.case.1 ], [ %10, %src.addr.0.0.05.case.2 ], [ %13, %src.addr.0.0.05.case.3 ], [ %16, %src.addr.0.0.05.case.4 ], [ %19, %src.addr.0.0.05.case.5 ], [ %22, %src.addr.0.0.05.case.6 ], [ %25, %src.addr.0.0.05.case.7 ], [ %28, %src.addr.0.0.05.case.8 ], [ %31, %src.addr.0.0.05.case.9 ], [ %34, %src.addr.0.0.05.case.10 ], [ %37, %src.addr.0.0.05.case.11 ], [ %40, %src.addr.0.0.05.case.12 ], [ %43, %src.addr.0.0.05.case.13 ], [ %46, %src.addr.0.0.05.case.14 ], [ %49, %src.addr.0.0.05.case.15 ], [ %52, %src.addr.0.0.05.case.16 ], [ %55, %src.addr.0.0.05.case.17 ], [ %58, %src.addr.0.0.05.case.18 ], [ %61, %src.addr.0.0.05.case.19 ], [ %64, %src.addr.0.0.05.case.20 ], [ %67, %src.addr.0.0.05.case.21 ], [ %70, %src.addr.0.0.05.case.22 ], [ %73, %src.addr.0.0.05.case.23 ], [ %76, %src.addr.0.0.05.case.24 ], [ %79, %src.addr.0.0.05.case.25 ], [ %82, %src.addr.0.0.05.case.26 ], [ %85, %src.addr.0.0.05.case.27 ], [ %88, %src.addr.0.0.05.case.28 ], [ %91, %src.addr.0.0.05.case.29 ], [ %94, %src.addr.0.0.05.case.30 ], [ %97, %src.addr.0.0.05.case.31 ], [ %100, %src.addr.0.0.05.case.32 ], [ %103, %src.addr.0.0.05.case.33 ], [ %106, %src.addr.0.0.05.case.34 ], [ %109, %src.addr.0.0.05.case.35 ], [ %112, %src.addr.0.0.05.case.36 ], [ %115, %src.addr.0.0.05.case.37 ], [ %118, %src.addr.0.0.05.case.38 ], [ %121, %src.addr.0.0.05.case.39 ], [ %124, %src.addr.0.0.05.case.40 ], [ %127, %src.addr.0.0.05.case.41 ], [ %130, %src.addr.0.0.05.case.42 ], [ %133, %src.addr.0.0.05.case.43 ], [ %136, %src.addr.0.0.05.case.44 ], [ %139, %src.addr.0.0.05.case.45 ], [ %142, %src.addr.0.0.05.case.46 ], [ %145, %src.addr.0.0.05.case.47 ], [ %148, %src.addr.0.0.05.case.48 ], [ %151, %src.addr.0.0.05.case.49 ], [ %154, %src.addr.0.0.05.case.50 ], [ %157, %src.addr.0.0.05.case.51 ], [ %160, %src.addr.0.0.05.case.52 ], [ %163, %src.addr.0.0.05.case.53 ], [ %166, %src.addr.0.0.05.case.54 ], [ %169, %src.addr.0.0.05.case.55 ], [ %172, %src.addr.0.0.05.case.56 ], [ %175, %src.addr.0.0.05.case.57 ], [ %178, %src.addr.0.0.05.case.58 ], [ %181, %src.addr.0.0.05.case.59 ], [ %184, %src.addr.0.0.05.case.60 ], [ %187, %src.addr.0.0.05.case.61 ], [ %190, %src.addr.0.0.05.case.62 ], [ %193, %src.addr.0.0.05.case.63 ], [ %196, %src.addr.0.0.05.case.64 ], [ %199, %src.addr.0.0.05.case.65 ], [ %202, %src.addr.0.0.05.case.66 ], [ %205, %src.addr.0.0.05.case.67 ], [ %208, %src.addr.0.0.05.case.68 ], [ %211, %src.addr.0.0.05.case.69 ], [ %214, %src.addr.0.0.05.case.70 ], [ %217, %src.addr.0.0.05.case.71 ], [ %220, %src.addr.0.0.05.case.72 ], [ %223, %src.addr.0.0.05.case.73 ], [ %226, %src.addr.0.0.05.case.74 ], [ %229, %src.addr.0.0.05.case.75 ], [ %232, %src.addr.0.0.05.case.76 ], [ %235, %src.addr.0.0.05.case.77 ], [ %238, %src.addr.0.0.05.case.78 ], [ %242, %src.addr.0.0.05.case.79 ]
+  store i33 %243, i33* %dst.addr.0.0.06, align 8
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx2, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -1300,7 +1302,7 @@ entry:
   ret void
 }
 
-declare void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull readonly, %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"* noalias nocapture nonnull)
+declare void @myproject_hw_stub(%"struct.ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>"*, %"struct.ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>"*)
 
 attributes #0 = { inaccessiblemem_or_argmemonly noinline willreturn "fpga.wrapper.func"="wrapper" }
 attributes #1 = { nounwind willreturn }

@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Dec 11 12:56:08 2024
+# Process ID: 1927995
+# Current directory: /home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/vivado.log
+# Journal file: /home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/vivado.jou
+# Running On        :COS-6PRIME-2955.science.purdue.edu
+# Platform          :unknown
+# Operating System  :unknown
+# Processor Detail  :Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+# CPU Frequency     :3000.000 MHz
+# CPU Physical cores:48
+# CPU Logical cores :96
+# Host memory       :200834 MB
+# Swap memory       :4294 MB
+# Total Virtual     :205129 MB
+# Available Virtual :191091 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl
+# set tcldir [file dirname [info script]]
+# source [file join $tcldir project.tcl]
+## variable project_name
+## set project_name "myproject"
+## variable backend
+## set backend "vivado"
+## variable part
+## set part "xcvu13p-flga2577-2-e"
+## variable clock_period
+## set clock_period 5
+## variable clock_uncertainty
+## set clock_uncertainty 12.5%
+## variable version
+## set version "1.0.0"
+## variable maximum_size
+## set maximum_size 4096
+# add_files ${project_name}_prj/solution1/syn/verilog
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1653.156 ; gain = 15.898 ; free physical = 87658 ; free virtual = 181818
+# synth_design -top ${project_name} -part $part
+Command: synth_design -top myproject -part xcvu13p-flga2577-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu13p'
+WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xcvu13p'. Explanation: The license feature Synthesis could not be found.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
+0 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xcvu13p'. Please run the Vivado License Manager for assistance in determining
+which features and devices are licensed for your system.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". If you are using a license server, verify that the license server is up and running a version of the xilinx daemon that is compatible with the version of Xilinx software that you are using. Note: Vivado 2021.1 and later versions require upgrading your license server tools to the Flex 11.17.2.0 versions. Please confirm with your license admin that the correct version of the license server tools are installed.
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 11 12:56:17 2024...

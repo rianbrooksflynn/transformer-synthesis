@@ -1,10 +1,10 @@
 <AutoPilot:project xmlns:AutoPilot="com.autoesl.autopilot.project" projectType="C/C++" top="myproject" name="myproject_prj" ideType="classic">
-    <solutions>
-        <solution name="solution1" status=""/>
-    </solutions>
     <Simulation argv="">
         <SimFlow name="csim" setup="false" optimizeCompile="false" clean="false" ldflags="" mflags=""/>
     </Simulation>
+    <solutions>
+        <solution name="solution1" status=""/>
+    </solutions>
     <files>
         <file name="firmware/myproject.cpp" sc="0" tb="false" cflags="-std=c++0x" csimflags="" blackbox="false"/>
         <file name="../../tb_data" sc="0" tb="1" cflags="-Wno-unknown-pragmas" csimflags="" blackbox="false"/>

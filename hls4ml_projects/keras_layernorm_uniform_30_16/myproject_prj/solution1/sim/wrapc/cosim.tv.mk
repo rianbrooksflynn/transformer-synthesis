@@ -1,8 +1,8 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
-# Tool Version Limit: 2024.05
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+# Tool Version Limit: 2023.10
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-# Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+# Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
 # ==============================================================
 __SIM_FPO__ = 1
@@ -10,12 +10,6 @@ __SIM_MATHHLS__ = 1
 __SIM_FFT__ = 1
 __SIM_FIR__ = 1
 __SIM_DDS__ = 1
-__USE_VCXX_CLANG__ = 1
-
-__USE_CLANG__ = 1
-
-__COSIM_FLOW__ = 1
-
 
 DIRECTORY := $(shell basename $(CURDIR))
 ifeq ($(DIRECTORY), wrapc_pc)
@@ -28,7 +22,7 @@ IRWRAPPER  := $(basename $(wildcard *.ll))
 CPPWRAPPER := $(IRWRAPPER:_ir=)
 APATB_UTIL := $(basename $(wildcard $(IRWRAPPER:_ir=_util).cpp))
 
-AUTOPILOT_ROOT := /home/tools/Xilinx/Vitis_HLS/2024.1
+AUTOPILOT_ROOT := /opt/Xilinx/Vitis_HLS/2023.2
 AUTOPILOT_MACH := lnx64
 
 ifdef AP_GCC_M32
@@ -37,16 +31,12 @@ ifdef AP_GCC_M32
 endif
 IFLAG += -fPIC
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := /home/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/bin
+  AP_GCC_PATH := /opt/Xilinx/Vitis_HLS/2023.2/tps/lnx64/gcc-8.3.0/bin
 endif
 AUTOPILOT_TOOL = ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
 AUTOPILOT_TECH = ${AUTOPILOT_ROOT}/common/technology
-  AP_CLANG_PATH := /home/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/
-TOOLCHAIN += --gcc-toolchain=/home/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0
-LFLAG += --gcc-toolchain=/home/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0
-CCFLAG += -Werror=uninitialized
-CCFLAG += -Wno-error=c++11-narrowing
-CCFLAG += -Wno-error=sometimes-uninitialized
+CCFLAG += -Werror=return-type
+TOOLCHAIN += 
 
 IFLAG += -g
 
@@ -79,12 +69,12 @@ all : $(TARGET)
 
 $(ObjDir)/$(CPPWRAPPER).o: $(CPPWRAPPER).cpp
 	$(Echo) "   Compiling $<" $(AVE_DIR_DLOG)
-	$(Verb) $(CXX) -fno-builtin-isinf -fno-builtin-isnan -c $(TOOLCHAIN) $(IFLAG) $(WFLAG) $< -o $@
+	$(Verb) $(CXX) -fno-builtin-isinf -fno-builtin-isnan -c $(IFLAG) $(WFLAG) $< -o $@
 
 $(ObjDir)/myproject_test.cpp_pre.cpp.tb.o : myproject_test.cpp_pre.cpp.tb.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling myproject_test.cpp_pre.cpp.tb.cpp" $(AVE_DIR_DLOG)
-	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN} -std=gnu++14 -fno-builtin-isinf -fno-builtin-isnan -c -std=c++0x -Wno-unknown-pragmas -Wno-unknown-pragmas $(IFLAG) $(DFLAG) $< -o $@; \
+	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN}  -fno-builtin-isinf -fno-builtin-isnan -c -std=c++0x -Wno-unknown-pragmas -Wno-unknown-pragmas $(IFLAG) $(DFLAG) $< -o $@; \
 
 $(ObjDir)/myproject.cpp_pre.cpp.tb.o : myproject.cpp_pre.cpp.tb.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling myproject.cpp_pre.cpp.tb.cpp" $(AVE_DIR_DLOG)
-	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN} -std=gnu++14 -fno-builtin-isinf -fno-builtin-isnan -c -std=c++0x $(IFLAG) $(DFLAG) $< -o $@; \
+	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN}  -fno-builtin-isinf -fno-builtin-isnan -c -std=c++0x $(IFLAG) $(DFLAG) $< -o $@; \

@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>126</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>3621216858</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -106,7 +106,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>30</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -142,7 +142,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -178,7 +178,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -214,7 +214,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>54</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -250,7 +250,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515743244</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -286,7 +286,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514669811</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -322,7 +322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -358,7 +358,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -394,7 +394,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2699429440</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -430,7 +430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749933072</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -466,7 +466,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>64</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -502,7 +502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515474455</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -538,7 +538,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749519488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -574,7 +574,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750302208</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -610,7 +610,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750254336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -646,7 +646,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>32</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -718,7 +718,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515529313</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -754,7 +754,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750442656</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -790,7 +790,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -826,7 +826,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -862,7 +862,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750254336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -898,7 +898,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750253824</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -970,7 +970,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515635903</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1006,7 +1006,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1747871075</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1042,7 +1042,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1078,7 +1078,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514859661</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1114,7 +1114,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1702258035</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1150,7 +1150,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1186,7 +1186,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>779313781</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1222,7 +1222,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1258,7 +1258,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750464752</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1294,7 +1294,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1330,7 +1330,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1366,7 +1366,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1402,7 +1402,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750544048</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1438,7 +1438,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1474,7 +1474,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1510,7 +1510,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1546,7 +1546,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750541296</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1582,7 +1582,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1618,7 +1618,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1654,7 +1654,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1690,7 +1690,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750538544</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1726,7 +1726,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1762,7 +1762,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1798,7 +1798,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1834,7 +1834,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750535792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1870,7 +1870,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1906,7 +1906,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1942,7 +1942,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -1978,7 +1978,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750559664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2014,7 +2014,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2050,7 +2050,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2086,7 +2086,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2122,7 +2122,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750556912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2158,7 +2158,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2194,7 +2194,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2230,7 +2230,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2266,7 +2266,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750554160</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2302,7 +2302,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2338,7 +2338,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514683616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2374,7 +2374,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750559232</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2410,7 +2410,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2446,7 +2446,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750547776</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2482,7 +2482,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750548368</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2518,7 +2518,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515672774</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2554,7 +2554,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2590,7 +2590,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750246288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2626,7 +2626,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750246880</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2662,7 +2662,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515512877</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2698,7 +2698,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2734,7 +2734,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750340672</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2770,7 +2770,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750341264</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2806,7 +2806,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515510350</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2842,7 +2842,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2878,7 +2878,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750343200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -2910,7 +2910,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2967,7 +2967,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2989,7 +2989,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1314013527</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3024,7 +3024,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3046,7 +3046,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515533648</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3081,7 +3081,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3103,7 +3103,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750424960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3138,7 +3138,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3160,7 +3160,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3195,7 +3195,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3217,7 +3217,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3252,7 +3252,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3274,7 +3274,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750222592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3309,7 +3309,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3331,7 +3331,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514900187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3366,7 +3366,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3388,7 +3388,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>25</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3423,7 +3423,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3445,7 +3445,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514834539</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3480,7 +3480,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3502,7 +3502,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514833531</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3537,7 +3537,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3559,7 +3559,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750220416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3594,7 +3594,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3616,7 +3616,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3651,7 +3651,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3673,7 +3673,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750221256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3708,7 +3708,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3730,7 +3730,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750225208</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3765,7 +3765,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3787,7 +3787,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750328880</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3822,7 +3822,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3844,7 +3844,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3879,7 +3879,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3901,7 +3901,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750326144</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3936,7 +3936,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -3958,7 +3958,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515492970</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -3993,7 +3993,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4015,7 +4015,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750508064</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4050,7 +4050,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4072,7 +4072,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4107,7 +4107,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4129,7 +4129,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750218752</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4164,7 +4164,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4186,7 +4186,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4221,7 +4221,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4243,7 +4243,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514855917</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4278,7 +4278,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4300,7 +4300,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750472912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4335,7 +4335,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4357,7 +4357,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750424960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4392,7 +4392,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4414,7 +4414,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4449,7 +4449,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4471,7 +4471,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750497328</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4506,7 +4506,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4528,7 +4528,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750550880</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4563,7 +4563,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4585,7 +4585,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515507822</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4620,7 +4620,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4642,7 +4642,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515506815</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4677,7 +4677,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4699,7 +4699,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750348056</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4734,7 +4734,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4756,7 +4756,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749940928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4791,7 +4791,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4813,7 +4813,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4848,7 +4848,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4870,7 +4870,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514927340</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4905,7 +4905,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4927,7 +4927,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749940928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -4962,7 +4962,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -4984,7 +4984,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5019,7 +5019,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5041,7 +5041,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750251024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5076,7 +5076,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5098,7 +5098,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749940928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5133,7 +5133,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5155,7 +5155,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750268320</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5190,7 +5190,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5212,7 +5212,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515712861</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5247,7 +5247,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5269,7 +5269,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1702257920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5304,7 +5304,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5326,7 +5326,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750331616</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5361,7 +5361,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5383,7 +5383,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750332976</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5418,7 +5418,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5440,7 +5440,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5475,7 +5475,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5497,7 +5497,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5532,7 +5532,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5554,7 +5554,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5589,7 +5589,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5611,7 +5611,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749940928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5646,7 +5646,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5668,7 +5668,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749940928</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5703,7 +5703,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5725,7 +5725,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750520592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5760,7 +5760,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5782,7 +5782,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514903530</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5817,7 +5817,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5839,7 +5839,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5874,7 +5874,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5896,7 +5896,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5931,7 +5931,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -5953,7 +5953,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -5988,7 +5988,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6010,7 +6010,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750514080</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6045,7 +6045,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6067,7 +6067,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6102,7 +6102,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6124,7 +6124,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6159,7 +6159,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6181,7 +6181,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6216,7 +6216,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6238,7 +6238,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514893476</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6273,7 +6273,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6295,7 +6295,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>127</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6330,7 +6330,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6352,7 +6352,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1936024608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6387,7 +6387,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6409,7 +6409,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750505632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6444,7 +6444,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6466,7 +6466,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750525456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6501,7 +6501,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6523,7 +6523,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514869010</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6558,7 +6558,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6580,7 +6580,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1885414912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6615,7 +6615,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6637,7 +6637,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>960049408</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6672,7 +6672,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6694,7 +6694,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750497168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6729,7 +6729,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6751,7 +6751,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750314592</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6786,7 +6786,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6808,7 +6808,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1868767334</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6843,7 +6843,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6865,7 +6865,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>976304186</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6900,7 +6900,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6922,7 +6922,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -6957,7 +6957,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -6979,7 +6979,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750321248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7014,7 +7014,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7036,7 +7036,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7071,7 +7071,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7093,7 +7093,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>795177569</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7128,7 +7128,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7150,7 +7150,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7185,7 +7185,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7207,7 +7207,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7242,7 +7242,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7264,7 +7264,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750477312</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7299,7 +7299,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7321,7 +7321,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7356,7 +7356,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7378,7 +7378,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7413,7 +7413,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7435,7 +7435,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7470,7 +7470,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7492,7 +7492,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750483920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7527,7 +7527,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7549,7 +7549,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514874289</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7584,7 +7584,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7606,7 +7606,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1869833586</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7641,7 +7641,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7663,7 +7663,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>909195880</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7698,7 +7698,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7720,7 +7720,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1852140905</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7755,7 +7755,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7777,7 +7777,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1313415680</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7812,7 +7812,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7834,7 +7834,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1684959075</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7869,7 +7869,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7891,7 +7891,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1869182069</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7926,7 +7926,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -7948,7 +7948,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>909261151</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -7983,7 +7983,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8005,7 +8005,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>891300918</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8040,7 +8040,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8062,7 +8062,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750385192</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8097,7 +8097,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8119,7 +8119,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8154,7 +8154,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8176,7 +8176,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749941168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8211,7 +8211,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8233,7 +8233,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750218072</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8268,7 +8268,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8290,7 +8290,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750230024</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8325,7 +8325,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8347,7 +8347,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750231456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8382,7 +8382,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8404,7 +8404,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750235088</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8439,7 +8439,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8461,7 +8461,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750236936</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8496,7 +8496,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8518,7 +8518,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750236176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8553,7 +8553,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8575,7 +8575,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750258288</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8610,7 +8610,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8632,7 +8632,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750241952</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8667,7 +8667,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8689,7 +8689,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515674966</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8724,7 +8724,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8746,7 +8746,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750235712</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8781,7 +8781,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8803,7 +8803,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515559210</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8838,7 +8838,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8860,7 +8860,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750392048</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8895,7 +8895,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8917,7 +8917,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -8952,7 +8952,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -8974,7 +8974,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>158</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9009,7 +9009,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9031,7 +9031,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9066,7 +9066,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9088,7 +9088,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>304</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9123,7 +9123,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9145,7 +9145,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750240624</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9180,7 +9180,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9202,7 +9202,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9237,7 +9237,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9259,7 +9259,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1819113532</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9294,7 +9294,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9316,7 +9316,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9351,7 +9351,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9373,7 +9373,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750406952</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9408,7 +9408,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9430,7 +9430,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1515573248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9465,7 +9465,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9487,7 +9487,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9522,7 +9522,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9544,7 +9544,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750404816</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9579,7 +9579,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9601,7 +9601,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>176</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9636,7 +9636,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9658,7 +9658,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750435088</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9693,7 +9693,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9715,7 +9715,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9750,7 +9750,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9772,7 +9772,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9807,7 +9807,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9829,7 +9829,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750404816</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9864,7 +9864,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9886,7 +9886,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750421072</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9921,7 +9921,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -9943,7 +9943,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750422672</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -9978,7 +9978,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10000,7 +10000,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10035,7 +10035,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10057,7 +10057,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514804466</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10092,7 +10092,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10114,7 +10114,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10149,7 +10149,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10171,7 +10171,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10206,7 +10206,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10228,7 +10228,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2750409776</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10263,7 +10263,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10285,7 +10285,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>1514828884</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10320,7 +10320,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10342,7 +10342,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10377,7 +10377,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10399,7 +10399,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10434,7 +10434,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10456,7 +10456,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10491,7 +10491,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10513,7 +10513,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10548,7 +10548,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10570,7 +10570,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10605,7 +10605,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10627,7 +10627,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10662,7 +10662,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10684,7 +10684,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10719,7 +10719,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10741,7 +10741,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10776,7 +10776,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10798,7 +10798,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10833,7 +10833,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10855,7 +10855,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10890,7 +10890,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10912,7 +10912,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -10947,7 +10947,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -10969,7 +10969,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11004,7 +11004,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11026,7 +11026,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11061,7 +11061,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11083,7 +11083,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11118,7 +11118,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11140,7 +11140,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11175,7 +11175,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11197,7 +11197,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11232,7 +11232,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11254,7 +11254,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11289,7 +11289,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11311,7 +11311,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11346,7 +11346,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11368,7 +11368,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11403,7 +11403,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11425,7 +11425,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11460,7 +11460,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11482,7 +11482,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11517,7 +11517,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11539,7 +11539,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11574,7 +11574,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11596,7 +11596,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11631,7 +11631,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11653,7 +11653,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11688,7 +11688,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11710,7 +11710,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11745,7 +11745,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11767,7 +11767,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11802,7 +11802,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11824,7 +11824,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11859,7 +11859,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11881,7 +11881,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11916,7 +11916,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11938,7 +11938,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -11973,7 +11973,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -11995,7 +11995,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -12030,7 +12030,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
+                  <first>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -12052,7 +12052,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -12098,7 +12098,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294967295</coreId>
+              <coreId>2749518896</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1280</bitwidth>
@@ -12132,7 +12132,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>4294967295</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>

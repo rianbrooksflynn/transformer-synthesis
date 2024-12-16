@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'
 ================================================================
-* Date:           Wed Dec 11 12:55:24 2024
+* Date:           Mon Dec 16 18:26:45 2024
 
-* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: virtexuplus
@@ -49,14 +49,14 @@
 |         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
 +---------------------+---------+-------+---------+---------+------+
 |DSP                  |        -|      -|        -|        -|     -|
-|Expression           |        -|      -|        0|      628|     -|
+|Expression           |        -|      -|        0|      630|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
 |Instance             |        -|     16|        0|       96|     -|
 |Memory               |        4|      -|        0|        0|     -|
 |Multiplexer          |        -|      -|        -|        -|     -|
-|Register             |        -|      -|      849|      256|     -|
+|Register             |        -|      -|      725|      256|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |        4|     16|      849|      980|     0|
+|Total                |        4|     16|      725|      982|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
@@ -140,47 +140,44 @@
     |index_2_fu_606_p3      |    select|   0|  0|  12|           1|           2|
     |index_fu_558_p3        |    select|   0|  0|  16|           1|          16|
     |select_ln91_fu_550_p3  |    select|   0|  0|  16|           1|          16|
+    |ap_enable_pp0          |       xor|   0|  0|   2|           1|           2|
     +-----------------------+----------+----+---+----+------------+------------+
-    |Total                  |          |   0|  0| 628|         454|         456|
+    |Total                  |          |   0|  0| 630|         455|         458|
     +-----------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
     N/A
 
     * Register: 
-    +--------------------+----+----+-----+-----------+
-    |        Name        | FF | LUT| Bits| Const Bits|
-    +--------------------+----+----+-----+-----------+
-    |add_ln87_1_reg_903  |  19|   0|   19|          0|
-    |add_ln87_2_reg_908  |  19|   0|   19|          0|
-    |add_ln87_6_reg_913  |  19|   0|   19|          0|
-    |data_0_val_int_reg  |  16|   0|   16|          0|
-    |data_1_val_int_reg  |  16|   0|   16|          0|
-    |data_2_val_int_reg  |  16|   0|   16|          0|
-    |data_3_val_int_reg  |  16|   0|   16|          0|
-    |data_4_val_int_reg  |  16|   0|   16|          0|
-    |data_5_val_int_reg  |  16|   0|   16|          0|
-    |data_6_val_int_reg  |  16|   0|   16|          0|
-    |data_7_val_int_reg  |  16|   0|   16|          0|
-    |sub_ln85_1_reg_861  |  19|   0|   19|          0|
-    |sub_ln85_2_reg_867  |  19|   0|   19|          0|
-    |sub_ln85_3_reg_873  |  19|   0|   19|          0|
-    |sub_ln85_4_reg_879  |  19|   0|   19|          0|
-    |sub_ln85_5_reg_885  |  19|   0|   19|          0|
-    |sub_ln85_6_reg_891  |  19|   0|   19|          0|
-    |sub_ln85_7_reg_897  |  19|   0|   19|          0|
-    |sub_ln85_reg_855    |  19|   0|   19|          0|
-    |sub_ln85_1_reg_861  |  64|  32|   19|          0|
-    |sub_ln85_2_reg_867  |  64|  32|   19|          0|
-    |sub_ln85_3_reg_873  |  64|  32|   19|          0|
-    |sub_ln85_4_reg_879  |  64|  32|   19|          0|
-    |sub_ln85_5_reg_885  |  64|  32|   19|          0|
-    |sub_ln85_6_reg_891  |  64|  32|   19|          0|
-    |sub_ln85_7_reg_897  |  64|  32|   19|          0|
-    |sub_ln85_reg_855    |  64|  32|   19|          0|
-    +--------------------+----+----+-----+-----------+
-    |Total               | 849| 256|  489|          0|
-    +--------------------+----+----+-----+-----------+
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |add_ln87_1_reg_903       |  19|   0|   19|          0|
+    |add_ln87_2_reg_908       |  19|   0|   19|          0|
+    |add_ln87_6_reg_913       |  19|   0|   19|          0|
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3  |   1|   0|    1|          0|
+    |sub_ln85_1_reg_861       |  19|   0|   19|          0|
+    |sub_ln85_2_reg_867       |  19|   0|   19|          0|
+    |sub_ln85_3_reg_873       |  19|   0|   19|          0|
+    |sub_ln85_4_reg_879       |  19|   0|   19|          0|
+    |sub_ln85_5_reg_885       |  19|   0|   19|          0|
+    |sub_ln85_6_reg_891       |  19|   0|   19|          0|
+    |sub_ln85_7_reg_897       |  19|   0|   19|          0|
+    |sub_ln85_reg_855         |  19|   0|   19|          0|
+    |sub_ln85_1_reg_861       |  64|  32|   19|          0|
+    |sub_ln85_2_reg_867       |  64|  32|   19|          0|
+    |sub_ln85_3_reg_873       |  64|  32|   19|          0|
+    |sub_ln85_4_reg_879       |  64|  32|   19|          0|
+    |sub_ln85_5_reg_885       |  64|  32|   19|          0|
+    |sub_ln85_6_reg_891       |  64|  32|   19|          0|
+    |sub_ln85_7_reg_897       |  64|  32|   19|          0|
+    |sub_ln85_reg_855         |  64|  32|   19|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    | 725| 256|  365|          0|
+    +-------------------------+----+----+-----+-----------+
 
 
 
@@ -193,6 +190,11 @@
 +-------------+-----+-----+------------+----------------------------------------------------------------------------+--------------+
 |ap_clk       |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_rst       |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_start     |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_done      |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_idle      |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_ready     |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_ce        |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_0  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_1  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_2  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
@@ -201,7 +203,6 @@
 |ap_return_5  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_6  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_7  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
-|ap_ce        |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |data_0_val   |   in|   16|     ap_none|                                                                  data_0_val|        scalar|
 |data_1_val   |   in|   16|     ap_none|                                                                  data_1_val|        scalar|
 |data_2_val   |   in|   16|     ap_none|                                                                  data_2_val|        scalar|

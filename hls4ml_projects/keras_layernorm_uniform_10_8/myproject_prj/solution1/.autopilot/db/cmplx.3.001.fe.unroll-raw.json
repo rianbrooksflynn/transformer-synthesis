@@ -6,14 +6,14 @@
     "fileloc": 7,
     "instructions": 6,
     "name": "myproject",
-    "total_instructions": 14860
+    "total_instructions": 15940
   },
   "1": {
     "basicblocks": 700,
     "calls": "",
     "file": "nnet_layernorm.h",
     "fileloc": 46,
-    "instructions": 1417,
+    "instructions": 1525,
     "loads": {
       "G": 1,
       "L": 72
@@ -22,7 +22,7 @@
     "stores": {
       "L": 16
     },
-    "total_instructions": 1417
+    "total_instructions": 1525
   },
   "2": {
     "basicblocks": 24,
@@ -37,6 +37,6 @@
     "stores": {
       "L": 160
     },
-    "total_instructions": 14854
+    "total_instructions": 15934
   }
 }

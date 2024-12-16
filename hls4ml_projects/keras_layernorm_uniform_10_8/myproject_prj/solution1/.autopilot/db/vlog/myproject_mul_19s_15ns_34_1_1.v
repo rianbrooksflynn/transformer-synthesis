@@ -2,7 +2,7 @@
 
 `timescale 1 ns / 1 ps
 
- module myproject_mul_19s_15ns_34_1_1(din0, din1, dout);
+  module myproject_mul_19s_15ns_34_1_1(din0, din1, dout);
 parameter ID = 1;
 parameter NUM_STAGE = 0;
 parameter din0_WIDTH = 14;
@@ -26,20 +26,6 @@ wire signed [dout_WIDTH - 1 : 0] tmp_product;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 assign tmp_product = $signed(din0) * $signed({1'b0, din1});
 
 
@@ -51,20 +37,6 @@ assign tmp_product = $signed(din0) * $signed({1'b0, din1});
 
 
 assign dout = tmp_product;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

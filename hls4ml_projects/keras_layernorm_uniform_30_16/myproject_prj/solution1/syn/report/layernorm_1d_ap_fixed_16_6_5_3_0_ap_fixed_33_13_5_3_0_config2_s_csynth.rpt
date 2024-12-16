@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'layernorm_1d_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config2_s'
 ================================================================
-* Date:           Wed Dec 11 13:02:37 2024
+* Date:           Mon Dec 16 19:11:52 2024
 
-* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: virtexuplus
@@ -49,14 +49,14 @@
 |         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
 +---------------------+---------+-------+---------+---------+------+
 |DSP                  |        -|      -|        -|        -|     -|
-|Expression           |        -|      -|        0|     1163|     -|
+|Expression           |        -|      -|        0|     1165|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
 |Instance             |        -|     32|        0|      192|     -|
 |Memory               |        4|      -|        0|        0|     -|
 |Multiplexer          |        -|      -|        -|        -|     -|
-|Register             |        -|      -|     1641|      512|     -|
+|Register             |        -|      -|     1389|      512|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |        4|     32|     1641|     1867|     0|
+|Total                |        4|     32|     1389|     1869|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
@@ -180,71 +180,60 @@
     |index_2_fu_1032_p3     |    select|   0|  0|  12|           1|           2|
     |index_fu_984_p3        |    select|   0|  0|  15|           1|          15|
     |select_ln91_fu_976_p3  |    select|   0|  0|  15|           1|          15|
+    |ap_enable_pp0          |       xor|   0|  0|   2|           1|           2|
     +-----------------------+----------+----+---+----+------------+------------+
-    |Total                  |          |   0|  0|1163|         908|         910|
+    |Total                  |          |   0|  0|1165|         909|         912|
     +-----------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
     N/A
 
     * Register: 
-    +----------------------+----+----+-----+-----------+
-    |         Name         | FF | LUT| Bits| Const Bits|
-    +----------------------+----+----+-----+-----------+
-    |add_ln87_14_reg_1619  |  19|   0|   19|          0|
-    |add_ln87_3_reg_1609   |  19|   0|   19|          0|
-    |add_ln87_6_reg_1614   |  19|   0|   19|          0|
-    |data_0_val_int_reg    |  16|   0|   16|          0|
-    |data_10_val_int_reg   |  16|   0|   16|          0|
-    |data_11_val_int_reg   |  16|   0|   16|          0|
-    |data_12_val_int_reg   |  16|   0|   16|          0|
-    |data_13_val_int_reg   |  16|   0|   16|          0|
-    |data_14_val_int_reg   |  16|   0|   16|          0|
-    |data_15_val_int_reg   |  16|   0|   16|          0|
-    |data_1_val_int_reg    |  16|   0|   16|          0|
-    |data_2_val_int_reg    |  16|   0|   16|          0|
-    |data_3_val_int_reg    |  16|   0|   16|          0|
-    |data_4_val_int_reg    |  16|   0|   16|          0|
-    |data_5_val_int_reg    |  16|   0|   16|          0|
-    |data_6_val_int_reg    |  16|   0|   16|          0|
-    |data_7_val_int_reg    |  16|   0|   16|          0|
-    |data_8_val_int_reg    |  16|   0|   16|          0|
-    |data_9_val_int_reg    |  16|   0|   16|          0|
-    |sub_ln85_10_reg_1573  |  19|   0|   19|          0|
-    |sub_ln85_11_reg_1579  |  19|   0|   19|          0|
-    |sub_ln85_12_reg_1585  |  19|   0|   19|          0|
-    |sub_ln85_13_reg_1591  |  19|   0|   19|          0|
-    |sub_ln85_14_reg_1597  |  19|   0|   19|          0|
-    |sub_ln85_15_reg_1603  |  19|   0|   19|          0|
-    |sub_ln85_1_reg_1519   |  19|   0|   19|          0|
-    |sub_ln85_2_reg_1525   |  19|   0|   19|          0|
-    |sub_ln85_3_reg_1531   |  19|   0|   19|          0|
-    |sub_ln85_4_reg_1537   |  19|   0|   19|          0|
-    |sub_ln85_5_reg_1543   |  19|   0|   19|          0|
-    |sub_ln85_6_reg_1549   |  19|   0|   19|          0|
-    |sub_ln85_7_reg_1555   |  19|   0|   19|          0|
-    |sub_ln85_8_reg_1561   |  19|   0|   19|          0|
-    |sub_ln85_9_reg_1567   |  19|   0|   19|          0|
-    |sub_ln85_reg_1513     |  19|   0|   19|          0|
-    |sub_ln85_10_reg_1573  |  64|  32|   19|          0|
-    |sub_ln85_11_reg_1579  |  64|  32|   19|          0|
-    |sub_ln85_12_reg_1585  |  64|  32|   19|          0|
-    |sub_ln85_13_reg_1591  |  64|  32|   19|          0|
-    |sub_ln85_14_reg_1597  |  64|  32|   19|          0|
-    |sub_ln85_15_reg_1603  |  64|  32|   19|          0|
-    |sub_ln85_1_reg_1519   |  64|  32|   19|          0|
-    |sub_ln85_2_reg_1525   |  64|  32|   19|          0|
-    |sub_ln85_3_reg_1531   |  64|  32|   19|          0|
-    |sub_ln85_4_reg_1537   |  64|  32|   19|          0|
-    |sub_ln85_5_reg_1543   |  64|  32|   19|          0|
-    |sub_ln85_6_reg_1549   |  64|  32|   19|          0|
-    |sub_ln85_7_reg_1555   |  64|  32|   19|          0|
-    |sub_ln85_8_reg_1561   |  64|  32|   19|          0|
-    |sub_ln85_9_reg_1567   |  64|  32|   19|          0|
-    |sub_ln85_reg_1513     |  64|  32|   19|          0|
-    +----------------------+----+----+-----+-----------+
-    |Total                 |1641| 512|  921|          0|
-    +----------------------+----+----+-----+-----------+
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |add_ln87_14_reg_1619     |  19|   0|   19|          0|
+    |add_ln87_3_reg_1609      |  19|   0|   19|          0|
+    |add_ln87_6_reg_1614      |  19|   0|   19|          0|
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3  |   1|   0|    1|          0|
+    |sub_ln85_10_reg_1573     |  19|   0|   19|          0|
+    |sub_ln85_11_reg_1579     |  19|   0|   19|          0|
+    |sub_ln85_12_reg_1585     |  19|   0|   19|          0|
+    |sub_ln85_13_reg_1591     |  19|   0|   19|          0|
+    |sub_ln85_14_reg_1597     |  19|   0|   19|          0|
+    |sub_ln85_15_reg_1603     |  19|   0|   19|          0|
+    |sub_ln85_1_reg_1519      |  19|   0|   19|          0|
+    |sub_ln85_2_reg_1525      |  19|   0|   19|          0|
+    |sub_ln85_3_reg_1531      |  19|   0|   19|          0|
+    |sub_ln85_4_reg_1537      |  19|   0|   19|          0|
+    |sub_ln85_5_reg_1543      |  19|   0|   19|          0|
+    |sub_ln85_6_reg_1549      |  19|   0|   19|          0|
+    |sub_ln85_7_reg_1555      |  19|   0|   19|          0|
+    |sub_ln85_8_reg_1561      |  19|   0|   19|          0|
+    |sub_ln85_9_reg_1567      |  19|   0|   19|          0|
+    |sub_ln85_reg_1513        |  19|   0|   19|          0|
+    |sub_ln85_10_reg_1573     |  64|  32|   19|          0|
+    |sub_ln85_11_reg_1579     |  64|  32|   19|          0|
+    |sub_ln85_12_reg_1585     |  64|  32|   19|          0|
+    |sub_ln85_13_reg_1591     |  64|  32|   19|          0|
+    |sub_ln85_14_reg_1597     |  64|  32|   19|          0|
+    |sub_ln85_15_reg_1603     |  64|  32|   19|          0|
+    |sub_ln85_1_reg_1519      |  64|  32|   19|          0|
+    |sub_ln85_2_reg_1525      |  64|  32|   19|          0|
+    |sub_ln85_3_reg_1531      |  64|  32|   19|          0|
+    |sub_ln85_4_reg_1537      |  64|  32|   19|          0|
+    |sub_ln85_5_reg_1543      |  64|  32|   19|          0|
+    |sub_ln85_6_reg_1549      |  64|  32|   19|          0|
+    |sub_ln85_7_reg_1555      |  64|  32|   19|          0|
+    |sub_ln85_8_reg_1561      |  64|  32|   19|          0|
+    |sub_ln85_9_reg_1567      |  64|  32|   19|          0|
+    |sub_ln85_reg_1513        |  64|  32|   19|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    |1389| 512|  669|          0|
+    +-------------------------+----+----+-----+-----------+
 
 
 
@@ -257,6 +246,11 @@
 +--------------+-----+-----+------------+----------------------------------------------------------------------------+--------------+
 |ap_clk        |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_rst        |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_start      |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_done       |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_idle       |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_ready      |  out|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
+|ap_ce         |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_0   |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_1   |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_2   |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
@@ -273,7 +267,6 @@
 |ap_return_13  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_14  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |ap_return_15  |  out|   33|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
-|ap_ce         |   in|    1|  ap_ctrl_hs|  layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>|  return value|
 |data_0_val    |   in|   16|     ap_none|                                                                  data_0_val|        scalar|
 |data_1_val    |   in|   16|     ap_none|                                                                  data_1_val|        scalar|
 |data_2_val    |   in|   16|     ap_none|                                                                  data_2_val|        scalar|

@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "2",
+    "calls": "1",
     "file": "myproject.cpp",
     "fileloc": 7,
     "instructions": 967,
@@ -9,26 +9,11 @@
       "T": 1
     },
     "name": "myproject",
-    "total_instructions": 17004
+    "total_instructions": 18954
   },
   "1": {
-    "basicblocks": 3,
-    "calls": "",
-    "file": "nnet_layernorm.h",
-    "fileloc": 46,
-    "instructions": 485,
-    "loads": {
-      "G": 1
-    },
-    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
-    "stores": {
-      "L": 16
-    },
-    "total_instructions": 485
-  },
-  "2": {
     "basicblocks": 1,
-    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "calls": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
     "file": "nnet_layernorm.h",
     "fileloc": 104,
     "instructions": 1487,
@@ -39,6 +24,21 @@
     "stores": {
       "L": 480
     },
-    "total_instructions": 16037
+    "total_instructions": 17987
+  },
+  "2": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 46,
+    "instructions": 550,
+    "loads": {
+      "G": 1
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 550
   }
 }

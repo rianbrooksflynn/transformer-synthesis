@@ -1,8 +1,8 @@
 // ==============================================================
-// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
-// Tool Version Limit: 2024.05
+// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+// Tool Version Limit: 2023.10
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+// Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // 
 // ==============================================================
  `timescale 1ns/1ps
@@ -264,7 +264,7 @@ module `AUTOTB_TOP;
 
 parameter AUTOTB_TRANSACTION_NUM = 1;
 parameter PROGRESS_TIMEOUT = 10000000;
-parameter LATENCY_ESTIMATION = 5;
+parameter LATENCY_ESTIMATION = 3;
 parameter LENGTH_layer2_out_0 = 1;
 parameter LENGTH_layer2_out_1 = 1;
 parameter LENGTH_layer2_out_10 = 1;

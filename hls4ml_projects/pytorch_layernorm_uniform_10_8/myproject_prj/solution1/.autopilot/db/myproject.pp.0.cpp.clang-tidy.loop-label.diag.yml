@@ -1,1661 +1,1661 @@
 ---
-MainSourceFile:  /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+MainSourceFile:  /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_1223_1:  '
-    FileOffset:      1223
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_base.h
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          791467
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          785395
         Length:          0
-        ReplacementText: 'VITIS_LOOP_1223_1: '
+        ReplacementText: 'VITIS_LOOP_1207_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_676_1:  '
     FileOffset:      676
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1019477
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013167
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_690_1:  '
     FileOffset:      690
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1019945
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013635
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_704_1:  '
     FileOffset:      704
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1020414
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1014104
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1247_1:  '
     FileOffset:      1247
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_fixed_base.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1304146
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1297588
         Length:          0
         ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_types.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1678602
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1671659
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_types.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          1678977
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1672034
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_265_1:  '
     FileOffset:      265
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2345614
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2335465
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_275_1:  '
     FileOffset:      275
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2346001
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2335852
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2346336
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336187
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_293_1:  '
     FileOffset:      293
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2346559
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336410
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_295_2:  '
     FileOffset:      295
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2346654
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336505
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_307_1:  '
     FileOffset:      307
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347018
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336869
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_309_2:  '
     FileOffset:      309
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347100
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336951
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_324_1:  '
     FileOffset:      324
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347443
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337294
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_344_1:  '
     FileOffset:      344
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347896
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337747
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_345_2:  '
     FileOffset:      345
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347941
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337792
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_360_1:  '
     FileOffset:      360
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2348350
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338201
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_1:  '
     FileOffset:      367
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2348563
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338414
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_135_1:  '
     FileOffset:      135
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358013
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2347843
         Length:          0
         ReplacementText: 'VITIS_LOOP_135_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_136_2:  '
     FileOffset:      136
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358097
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2347927
         Length:          0
         ReplacementText: 'VITIS_LOOP_136_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_157_3:  '
     FileOffset:      157
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358639
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348469
         Length:          0
         ReplacementText: 'VITIS_LOOP_157_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_158_4:  '
     FileOffset:      158
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358723
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348553
         Length:          0
         ReplacementText: 'VITIS_LOOP_158_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_19_1:  '
     FileOffset:      19
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2361691
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351514
         Length:          0
         ReplacementText: 'VITIS_LOOP_19_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_20_2:  '
     FileOffset:      20
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2361744
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351567
         Length:          0
         ReplacementText: 'VITIS_LOOP_20_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_36_1:  '
     FileOffset:      36
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2362381
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352204
         Length:          0
         ReplacementText: 'VITIS_LOOP_36_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_37_2:  '
     FileOffset:      37
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2362436
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352259
         Length:          0
         ReplacementText: 'VITIS_LOOP_37_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_38_3:  '
     FileOffset:      38
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_array.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2362495
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352318
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_3: '
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      33
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      107
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
     FileOffset:      189
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_dense_resource.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      91
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      92
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      93
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      94
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      95
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      125
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      126
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      127
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      128
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      129
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      130
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      131
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      132
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      133
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      134
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      184
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      185
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      186
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      213
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      214
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      215
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      216
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      217
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      218
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      254
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  clang-diagnostic-error
     Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
     FileOffset:      255
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
     Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_61_1:  '
     FileOffset:      61
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2438385
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2427692
         Length:          0
         ReplacementText: 'VITIS_LOOP_61_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_117_1:  '
     FileOffset:      117
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2439208
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2428508
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_289_1:  '
     FileOffset:      289
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2441864
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2431157
         Length:          0
         ReplacementText: 'VITIS_LOOP_289_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_449_1:  '
     FileOffset:      449
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2444596
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2433882
         Length:          0
         ReplacementText: 'VITIS_LOOP_449_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_629_1:  '
     FileOffset:      629
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447757
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2437043
         Length:          0
         ReplacementText: 'VITIS_LOOP_629_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_633_2:  '
     FileOffset:      633
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2447838
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2437124
         Length:          0
         ReplacementText: 'VITIS_LOOP_633_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_743_1:  '
     FileOffset:      743
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2450147
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2439433
         Length:          0
         ReplacementText: 'VITIS_LOOP_743_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_840_1:  '
     FileOffset:      840
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2451650
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2440929
         Length:          0
         ReplacementText: 'VITIS_LOOP_840_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_859_2:  '
     FileOffset:      859
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2451880
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2441159
         Length:          0
         ReplacementText: 'VITIS_LOOP_859_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1173_1:  '
     FileOffset:      1173
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2458080
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2447345
         Length:          0
         ReplacementText: 'VITIS_LOOP_1173_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1256_1:  '
     FileOffset:      1256
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2459683
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2448948
         Length:          0
         ReplacementText: 'VITIS_LOOP_1256_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_68_1:  '
     FileOffset:      68
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2467557
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2456801
         Length:          0
         ReplacementText: 'VITIS_LOOP_68_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_74_2:  '
     FileOffset:      74
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2467707
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2456951
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_78_3:  '
     FileOffset:      78
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2467804
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2457048
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_145_4:  '
     FileOffset:      145
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2469673
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2458910
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_151_5:  '
     FileOffset:      151
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2469823
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459060
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_155_6:  '
     FileOffset:      155
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2469920
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459157
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_170_7:  '
     FileOffset:      170
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470301
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459538
         Length:          0
         ReplacementText: 'VITIS_LOOP_170_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_178_8:  '
     FileOffset:      178
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2470532
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2459769
         Length:          0
         ReplacementText: 'VITIS_LOOP_178_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_243_9:  '
     FileOffset:      243
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2473979
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2463216
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_249_10:  '
     FileOffset:      249
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2474131
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2463368
         Length:          0
         ReplacementText: 'VITIS_LOOP_249_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_253_11:  '
     FileOffset:      253
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2474231
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2463468
         Length:          0
         ReplacementText: 'VITIS_LOOP_253_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_268_12:  '
     FileOffset:      268
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2474613
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2463850
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_276_13:  '
     FileOffset:      276
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2474851
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2464088
         Length:          0
         ReplacementText: 'VITIS_LOOP_276_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_505_14:  '
     FileOffset:      505
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490406
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2479643
         Length:          0
         ReplacementText: 'VITIS_LOOP_505_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_511_15:  '
     FileOffset:      511
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490558
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2479795
         Length:          0
         ReplacementText: 'VITIS_LOOP_511_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_515_16:  '
     FileOffset:      515
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490657
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2479894
         Length:          0
         ReplacementText: 'VITIS_LOOP_515_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_525_17:  '
     FileOffset:      525
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490834
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2480071
         Length:          0
         ReplacementText: 'VITIS_LOOP_525_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_529_18:  '
     FileOffset:      529
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490932
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2480169
         Length:          0
         ReplacementText: 'VITIS_LOOP_529_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_539_19:  '
     FileOffset:      539
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2491217
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2480454
         Length:          0
         ReplacementText: 'VITIS_LOOP_539_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_547_20:  '
     FileOffset:      547
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2491472
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2480709
         Length:          0
         ReplacementText: 'VITIS_LOOP_547_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_908_21:  '
     FileOffset:      908
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2523711
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2512948
         Length:          0
         ReplacementText: 'VITIS_LOOP_908_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_914_22:  '
     FileOffset:      914
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2523863
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2513100
         Length:          0
         ReplacementText: 'VITIS_LOOP_914_22: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_918_23:  '
     FileOffset:      918
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2523963
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2513200
         Length:          0
         ReplacementText: 'VITIS_LOOP_918_23: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1034_1:  '
     FileOffset:      1034
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2526639
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2515876
         Length:          0
         ReplacementText: 'VITIS_LOOP_1034_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1040_2:  '
     FileOffset:      1040
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2526789
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2516026
         Length:          0
         ReplacementText: 'VITIS_LOOP_1040_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1044_3:  '
     FileOffset:      1044
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2526887
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2516124
         Length:          0
         ReplacementText: 'VITIS_LOOP_1044_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1131_4:  '
     FileOffset:      1131
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2530357
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2519594
         Length:          0
         ReplacementText: 'VITIS_LOOP_1131_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1137_5:  '
     FileOffset:      1137
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2530508
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2519745
         Length:          0
         ReplacementText: 'VITIS_LOOP_1137_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1141_6:  '
     FileOffset:      1141
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2530607
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2519844
         Length:          0
         ReplacementText: 'VITIS_LOOP_1141_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1160_7:  '
     FileOffset:      1160
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2531087
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2520324
         Length:          0
         ReplacementText: 'VITIS_LOOP_1160_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1167_8:  '
     FileOffset:      1167
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2531329
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2520566
         Length:          0
         ReplacementText: 'VITIS_LOOP_1167_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1283_9:  '
     FileOffset:      1283
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2536901
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2526138
         Length:          0
         ReplacementText: 'VITIS_LOOP_1283_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1289_10:  '
     FileOffset:      1289
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2537053
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2526290
         Length:          0
         ReplacementText: 'VITIS_LOOP_1289_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1293_11:  '
     FileOffset:      1293
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2537152
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2526389
         Length:          0
         ReplacementText: 'VITIS_LOOP_1293_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1313_12:  '
     FileOffset:      1313
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2537661
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2526898
         Length:          0
         ReplacementText: 'VITIS_LOOP_1313_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1320_13:  '
     FileOffset:      1320
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2537910
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2527147
         Length:          0
         ReplacementText: 'VITIS_LOOP_1320_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1582_14:  '
     FileOffset:      1582
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2555267
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544504
         Length:          0
         ReplacementText: 'VITIS_LOOP_1582_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1588_15:  '
     FileOffset:      1588
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2555419
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544656
         Length:          0
         ReplacementText: 'VITIS_LOOP_1588_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1592_16:  '
     FileOffset:      1592
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2555519
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2544756
         Length:          0
         ReplacementText: 'VITIS_LOOP_1592_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1616_17:  '
     FileOffset:      1616
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2555993
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2545230
         Length:          0
         ReplacementText: 'VITIS_LOOP_1616_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1623_18:  '
     FileOffset:      1623
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2556260
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2545497
         Length:          0
         ReplacementText: 'VITIS_LOOP_1623_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2053_19:  '
     FileOffset:      2053
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2594831
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2584068
         Length:          0
         ReplacementText: 'VITIS_LOOP_2053_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2059_20:  '
     FileOffset:      2059
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2594983
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2584220
         Length:          0
         ReplacementText: 'VITIS_LOOP_2059_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2063_21:  '
     FileOffset:      2063
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2595083
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2584320
         Length:          0
         ReplacementText: 'VITIS_LOOP_2063_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2193_1:  '
     FileOffset:      2193
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2597703
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2586940
         Length:          0
         ReplacementText: 'VITIS_LOOP_2193_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2200_2:  '
     FileOffset:      2200
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2597866
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2587103
         Length:          0
         ReplacementText: 'VITIS_LOOP_2200_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2204_3:  '
     FileOffset:      2204
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2597958
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2587195
         Length:          0
         ReplacementText: 'VITIS_LOOP_2204_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2251_4:  '
     FileOffset:      2251
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2599567
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2588804
         Length:          0
         ReplacementText: 'VITIS_LOOP_2251_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2258_5:  '
     FileOffset:      2258
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2599729
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2588966
         Length:          0
         ReplacementText: 'VITIS_LOOP_2258_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2262_6:  '
     FileOffset:      2262
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2599821
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2589058
         Length:          0
         ReplacementText: 'VITIS_LOOP_2262_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2280_7:  '
     FileOffset:      2280
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2600194
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2589431
         Length:          0
         ReplacementText: 'VITIS_LOOP_2280_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2335_8:  '
     FileOffset:      2335
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2602660
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2591897
         Length:          0
         ReplacementText: 'VITIS_LOOP_2335_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2342_9:  '
     FileOffset:      2342
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2602827
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2592064
         Length:          0
         ReplacementText: 'VITIS_LOOP_2342_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2346_10:  '
     FileOffset:      2346
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2602920
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2592157
         Length:          0
         ReplacementText: 'VITIS_LOOP_2346_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2364_11:  '
     FileOffset:      2364
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2603301
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2592538
         Length:          0
         ReplacementText: 'VITIS_LOOP_2364_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2453_12:  '
     FileOffset:      2453
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2608742
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2597979
         Length:          0
         ReplacementText: 'VITIS_LOOP_2453_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2460_13:  '
     FileOffset:      2460
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2608910
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598147
         Length:          0
         ReplacementText: 'VITIS_LOOP_2460_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2464_14:  '
     FileOffset:      2464
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2609004
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598241
         Length:          0
         ReplacementText: 'VITIS_LOOP_2464_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2474_15:  '
     FileOffset:      2474
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2609175
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598412
         Length:          0
         ReplacementText: 'VITIS_LOOP_2474_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2478_16:  '
     FileOffset:      2478
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2609266
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598503
         Length:          0
         ReplacementText: 'VITIS_LOOP_2478_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2489_17:  '
     FileOffset:      2489
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2609548
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598785
         Length:          0
         ReplacementText: 'VITIS_LOOP_2489_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2497_18:  '
     FileOffset:      2497
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2609735
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2598972
         Length:          0
         ReplacementText: 'VITIS_LOOP_2497_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2822_19:  '
     FileOffset:      2822
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2644205
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2633442
         Length:          0
         ReplacementText: 'VITIS_LOOP_2822_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2829_20:  '
     FileOffset:      2829
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2644373
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2633610
         Length:          0
         ReplacementText: 'VITIS_LOOP_2829_20: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2833_21:  '
     FileOffset:      2833
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2644467
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2633704
         Length:          0
         ReplacementText: 'VITIS_LOOP_2833_21: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2921_1:  '
     FileOffset:      2921
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2646269
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2635506
         Length:          0
         ReplacementText: 'VITIS_LOOP_2921_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2928_2:  '
     FileOffset:      2928
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2646377
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2635614
         Length:          0
         ReplacementText: 'VITIS_LOOP_2928_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2932_3:  '
     FileOffset:      2932
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2646448
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2635685
         Length:          0
         ReplacementText: 'VITIS_LOOP_2932_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2947_4:  '
     FileOffset:      2947
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2646736
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2635973
         Length:          0
         ReplacementText: 'VITIS_LOOP_2947_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2979_5:  '
     FileOffset:      2979
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2647950
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2637187
         Length:          0
         ReplacementText: 'VITIS_LOOP_2979_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2986_6:  '
     FileOffset:      2986
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2648061
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2637298
         Length:          0
         ReplacementText: 'VITIS_LOOP_2986_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_2990_7:  '
     FileOffset:      2990
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2648134
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2637371
         Length:          0
         ReplacementText: 'VITIS_LOOP_2990_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3005_8:  '
     FileOffset:      3005
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2648429
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2637666
         Length:          0
         ReplacementText: 'VITIS_LOOP_3005_8: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3055_9:  '
     FileOffset:      3055
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651762
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2640999
         Length:          0
         ReplacementText: 'VITIS_LOOP_3055_9: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3062_10:  '
     FileOffset:      3062
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651873
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2641110
         Length:          0
         ReplacementText: 'VITIS_LOOP_3062_10: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3066_11:  '
     FileOffset:      3066
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2651946
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2641183
         Length:          0
         ReplacementText: 'VITIS_LOOP_3066_11: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3081_12:  '
     FileOffset:      3081
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2652242
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2641479
         Length:          0
         ReplacementText: 'VITIS_LOOP_3081_12: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3218_13:  '
     FileOffset:      3218
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2671554
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2660791
         Length:          0
         ReplacementText: 'VITIS_LOOP_3218_13: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3225_14:  '
     FileOffset:      3225
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2671668
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2660905
         Length:          0
         ReplacementText: 'VITIS_LOOP_3225_14: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3229_15:  '
     FileOffset:      3229
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2671743
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2660980
         Length:          0
         ReplacementText: 'VITIS_LOOP_3229_15: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3244_16:  '
     FileOffset:      3244
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2672030
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2661267
         Length:          0
         ReplacementText: 'VITIS_LOOP_3244_16: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3404_17:  '
     FileOffset:      3404
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2697640
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2686877
         Length:          0
         ReplacementText: 'VITIS_LOOP_3404_17: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3411_18:  '
     FileOffset:      3411
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2697754
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2686991
         Length:          0
         ReplacementText: 'VITIS_LOOP_3411_18: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_3415_19:  '
     FileOffset:      3415
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_exp_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2697831
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2687068
         Length:          0
         ReplacementText: 'VITIS_LOOP_3415_19: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_703_1:  '
     FileOffset:      703
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2731934
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2721143
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_921_1:  '
     FileOffset:      921
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2740323
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2729532
         Length:          0
         ReplacementText: 'VITIS_LOOP_921_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1345_1:  '
     FileOffset:      1345
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_log_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2759305
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2748507
         Length:          0
         ReplacementText: 'VITIS_LOOP_1345_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_240_1:  '
     FileOffset:      240
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774204
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2763371
         Length:          0
         ReplacementText: 'VITIS_LOOP_240_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_268_2:  '
     FileOffset:      268
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2774725
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2763892
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_48_1:  '
     FileOffset:      48
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2790717
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2779821
         Length:          0
         ReplacementText: 'VITIS_LOOP_48_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_109_2:  '
     FileOffset:      109
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2791876
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2780973
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_123_3:  '
     FileOffset:      123
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2792185
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2781282
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_153_4:  '
     FileOffset:      153
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2792695
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2781792
         Length:          0
         ReplacementText: 'VITIS_LOOP_153_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_281_1:  '
     FileOffset:      281
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2794627
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2783710
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_301_2:  '
     FileOffset:      301
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2794992
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2784075
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_315_3:  '
     FileOffset:      315
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2795300
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2784383
         Length:          0
         ReplacementText: 'VITIS_LOOP_315_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_433_1:  '
     FileOffset:      433
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2797137
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2786213
         Length:          0
         ReplacementText: 'VITIS_LOOP_433_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_447_2:  '
     FileOffset:      447
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_pow_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2797462
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2786538
         Length:          0
         ReplacementText: 'VITIS_LOOP_447_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_33_1:  '
     FileOffset:      33
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2800158
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2789199
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_183_1:  '
     FileOffset:      183
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2803077
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2792097
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_248_1:  '
     FileOffset:      248
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_diff_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2804373
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2793386
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_16_1:  '
     FileOffset:      16
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2815418
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804312
         Length:          0
         ReplacementText: 'VITIS_LOOP_16_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2815593
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804487
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_38_1:  '
     FileOffset:      38
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2815754
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804648
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_49_1:  '
     FileOffset:      49
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2815916
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804810
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_60_1:  '
     FileOffset:      60
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2816090
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2804984
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_71_1:  '
     FileOffset:      71
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2816265
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2805159
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_82_1:  '
     FileOffset:      82
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2816426
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2805320
         Length:          0
         ReplacementText: 'VITIS_LOOP_82_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_93_1:  '
     FileOffset:      93
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2816588
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2805482
         Length:          0
         ReplacementText: 'VITIS_LOOP_93_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_26_1:  '
     FileOffset:      26
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_mad_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_mad_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2888459
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2876332
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cbrt_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_cbrt_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2890229
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2878081
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_49_1:  '
     FileOffset:      49
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2894806
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2882602
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_81_2:  '
     FileOffset:      81
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2895546
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2883335
         Length:          0
         ReplacementText: 'VITIS_LOOP_81_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_169_3:  '
     FileOffset:      169
-    FilePath:        /home/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2897240
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2885022
         Length:          0
         ReplacementText: 'VITIS_LOOP_169_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_39_1:  '
     FileOffset:      39
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_layernorm.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_layernorm.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2950470
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2938210
         Length:          0
         ReplacementText: 'VITIS_LOOP_39_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_73_1:  '
     FileOffset:      73
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2955806
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2943546
         Length:          0
         ReplacementText: 'VITIS_LOOP_73_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_80_2:  '
     FileOffset:      80
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2955946
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2943686
         Length:          0
         ReplacementText: 'VITIS_LOOP_80_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_89_3:  '
     FileOffset:      89
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2956211
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2943951
         Length:          0
         ReplacementText: 'VITIS_LOOP_89_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_98_4:  '
     FileOffset:      98
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2956405
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2944145
         Length:          0
         ReplacementText: 'VITIS_LOOP_98_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_102_5:  '
     FileOffset:      102
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2956498
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2944238
         Length:          0
         ReplacementText: 'VITIS_LOOP_102_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_113_6:  '
     FileOffset:      113
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2956824
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2944564
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_117_7:  '
     FileOffset:      117
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2956934
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2944674
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_141_1:  '
     FileOffset:      141
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2957900
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2945640
         Length:          0
         ReplacementText: 'VITIS_LOOP_141_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_145_2:  '
     FileOffset:      145
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2957986
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2945726
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_164_1:  '
     FileOffset:      164
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2958662
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2946402
         Length:          0
         ReplacementText: 'VITIS_LOOP_164_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_187_1:  '
     FileOffset:      187
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2959594
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2947334
         Length:          0
         ReplacementText: 'VITIS_LOOP_187_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_190_2:  '
     FileOffset:      190
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2959732
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2947472
         Length:          0
         ReplacementText: 'VITIS_LOOP_190_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_195_3:  '
     FileOffset:      195
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2959882
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2947622
         Length:          0
         ReplacementText: 'VITIS_LOOP_195_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_199_4:  '
     FileOffset:      199
-    FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2960006
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2947746
         Length:          0
         ReplacementText: 'VITIS_LOOP_199_4: '
 ...

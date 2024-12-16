@@ -1,6 +1,6 @@
 <dict>
   <key>main-file</key>
-  <string>/home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp</string>
+  <string>/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
@@ -15,7 +15,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5536</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>
@@ -31,7 +31,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5536</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>
@@ -47,7 +47,7 @@
       <key>message</key>
       <string>&apos;Resource pragma&apos; is deprecated, use &apos;bind_op/bind_storage pragma&apos; instead</string>
       <key>ID</key>
-      <integer>5538</integer>
+      <integer>5536</integer>
       <key>WarningOption</key>
       <string>ignored-hls-pragmas</string>
     </dict>

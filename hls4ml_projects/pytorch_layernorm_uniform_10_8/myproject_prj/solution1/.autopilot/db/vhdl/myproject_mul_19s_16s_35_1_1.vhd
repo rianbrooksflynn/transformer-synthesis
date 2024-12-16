@@ -18,6 +18,7 @@ port (
     dout: out std_logic_vector(dout_WIDTH - 1 downto 0));
 
 
+
 end entity;
 
 architecture behav of myproject_mul_19s_16s_35_1_1 is
@@ -30,20 +31,6 @@ architecture behav of myproject_mul_19s_16s_35_1_1 is
     
     
     
-    
-    
-    
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-              
 begin
     a_i <= din0;
     b_i <= din1;
@@ -61,20 +48,6 @@ begin
 
 
     dout <= tmp_product;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

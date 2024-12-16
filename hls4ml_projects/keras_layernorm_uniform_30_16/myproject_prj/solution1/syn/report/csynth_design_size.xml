@@ -2,41 +2,41 @@
     <item name="Total Instructions per Compilation Phase">
         <table>
             <keys size="4">Phase, Step, Instructions, Description</keys>
-            <column name="Compile/Link">,  4037, After all functions are compiled and linked into a single design</column>
+            <column name="Compile/Link">,  4016, After all functions are compiled and linked into a single design</column>
             <column name="">, , </column>
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
-            <column name="">(1) unroll, 86540, user unroll pragmas are applied</column>
-            <column name="">(2) simplification, 20625, simplification of applied user unroll pragmas</column>
-            <column name="">(3) inline, 19963, user inline pragmas are applied</column>
-            <column name="">(4) simplification, 19963, simplification of applied user inline pragmas</column>
+            <column name="">(1) unroll, 92900, user unroll pragmas are applied</column>
+            <column name="">(2) simplification, 21915, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline, 21913, user inline pragmas are applied</column>
+            <column name="">(4) simplification, 21913, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
             <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(1) array partition, 17947, user array partition pragmas are applied</column>
-            <column name="">(2) simplification, 17947, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
-            <column name="">(3) aggregate/disaggregate , 17947, user struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(4) array reshape, 18907, apply array reshape pragmas</column>
-            <column name="">(5) access patterns, 17467, array access pattern optmizations</column>
+            <column name="">(1) array partition, 19897, user array partition pragmas are applied</column>
+            <column name="">(2) simplification, 19897, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate , 19897, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape, 20857, apply array reshape pragmas</column>
+            <column name="">(5) access patterns, 19417, array access pattern optmizations</column>
             <column name="">, , </column>
             <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
-            <column name="">(1) loop simplification, 16491, loop and instruction simplification</column>
-            <column name="">(2) parallelization, 16491, loops are unrolled or pipelined to meet performance targets</column>
-            <column name="">(3) array partition, 16491, arrays are partitioned to meet performance targets</column>
-            <column name="">(4) simplification, 16491, simplification of design after performance transformations</column>
+            <column name="">(1) loop simplification, 18441, loop and instruction simplification</column>
+            <column name="">(2) parallelization, 18441, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition, 18441, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification, 18441, simplification of design after performance transformations</column>
             <column name="">, , </column>
             <column name="HW Transforms">, , After hardware transfomations</column>
-            <column name="">(1) lowering, 16972, initial conversion to HW specific instructions</column>
-            <column name="">(2) optimizations, 17004, high level synthesis optimizations</column>
+            <column name="">(1) lowering, 18922, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations, 18954, high level synthesis optimizations</column>
         </table>
     </item>
     <item name="Instructions per Function for each Compilation Phase">
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="myproject" col1="myproject.cpp:7" col2="4037" col3="19963" col4="17467" col5="16491" col6="17004">
-                    <row id="6" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:104" col2="4031" col3="19957" col4="16984" col5="16007" col6="16037">
-                        <row id="1" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:46" col2="3968" col3="17010" col3_disp="17,010 (30 calls)" col4="15000" col4_disp="15,000 (30 calls)" col5="14520" col5_disp="14,520 (30 calls)" col6="14550" col6_disp="14,550 (30 calls)">
-                            <row id="3" col0="init_invert_sqr_table&lt;config2, 4096&gt;" col1="nnet_layernorm.h:32" col2="415" col3="" col4="" col5="" col6=""/>
-                            <row id="2" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
+                <row id="0" col0="myproject" col1="myproject.cpp:7" col2="4016" col3="21913" col4="19417" col5="18441" col6="18954">
+                    <row id="5" col0="layernormalize&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:104" col2="4010" col3="21907" col4="18934" col5="17957" col6="17987">
+                        <row id="2" col0="layernorm_1d&lt;ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, ap_fixed&lt;33, 13, AP_TRN, AP_WRAP, 0&gt;, config2&gt;" col1="nnet_layernorm.h:46" col2="3947" col3="18960" col3_disp="18,960 (30 calls)" col4="16950" col4_disp="16,950 (30 calls)" col5="16470" col5_disp="16,470 (30 calls)" col6="16500" col6_disp="16,500 (30 calls)">
+                            <row id="3" col0="init_invert_sqr_table&lt;config2, 4096&gt;" col1="nnet_layernorm.h:32" col2="414" col3="" col4="" col5="" col6=""/>
+                            <row id="6" col0="product" col1="nnet_mult.h:70" col2="298" col2_disp=" 298 (2 calls)" col3="" col4="" col5="" col6=""/>
                         </row>
                     </row>
                 </row>

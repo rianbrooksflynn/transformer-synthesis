@@ -1,5 +1,5 @@
 5 warnings and 29 errors generated.
-Error while processing /home/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.
+Error while processing /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_layernorm_uniform_10_8/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.
 clang-tidy applied 149 of 149 suggested fixes.
 Suppressed 253 warnings (248 in non-user code, 5 with check filters).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

@@ -1003,10 +1003,10 @@ entry_ifconv:64 %add_ln87 = add i19 %add_ln87_6, i19 %add_ln87_3
 
 <Node id="75" bw="15" op_0_bw="15" op_1_bw="19" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry_ifconv:65 %tmp_2 = partselect i15 @_ssdm_op_PartSelect.i15.i19.i32.i32, i19 %add_ln87, i32 4, i32 18
+entry_ifconv:65 %tmp_1 = partselect i15 @_ssdm_op_PartSelect.i15.i19.i32.i32, i19 %add_ln87, i32 4, i32 18
 
 ]]></Node>
-<StgValue><ssdm name="tmp_2"/></StgValue>
+<StgValue><ssdm name="tmp_1"/></StgValue>
 </operation>
 
 <operation id="70" st_id="3" stage="1" lat="1">
@@ -1018,7 +1018,7 @@ entry_ifconv:65 %tmp_2 = partselect i15 @_ssdm_op_PartSelect.i15.i19.i32.i32, i1
 
 <Node id="76" bw="16" op_0_bw="15">
 <![CDATA[
-entry_ifconv:66 %sext_ln91 = sext i15 %tmp_2
+entry_ifconv:66 %sext_ln91 = sext i15 %tmp_1
 
 ]]></Node>
 <StgValue><ssdm name="sext_ln91"/></StgValue>
@@ -1048,10 +1048,10 @@ entry_ifconv:67 %tmp = bitselect i1 @_ssdm_op_BitSelect.i1.i19.i32, i19 %add_ln8
 
 <Node id="78" bw="1" op_0_bw="1" op_1_bw="19" op_2_bw="32">
 <![CDATA[
-entry_ifconv:68 %tmp_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i19.i32, i19 %add_ln87, i32 3
+entry_ifconv:68 %tmp_2 = bitselect i1 @_ssdm_op_BitSelect.i1.i19.i32, i19 %add_ln87, i32 3
 
 ]]></Node>
-<StgValue><ssdm name="tmp_3"/></StgValue>
+<StgValue><ssdm name="tmp_2"/></StgValue>
 </operation>
 
 <operation id="73" st_id="3" stage="1" lat="1">
@@ -1063,10 +1063,10 @@ entry_ifconv:68 %tmp_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i19.i32, i19 %add_l
 
 <Node id="79" bw="13" op_0_bw="13" op_1_bw="1" op_2_bw="12">
 <![CDATA[
-entry_ifconv:69 %tmp_1 = bitconcatenate i13 @_ssdm_op_BitConcatenate.i13.i1.i12, i1 %tmp_3, i12 0
+entry_ifconv:69 %tmp_s = bitconcatenate i13 @_ssdm_op_BitConcatenate.i13.i1.i12, i1 %tmp_2, i12 0
 
 ]]></Node>
-<StgValue><ssdm name="tmp_1"/></StgValue>
+<StgValue><ssdm name="tmp_s"/></StgValue>
 </operation>
 
 <operation id="74" st_id="3" stage="1" lat="1">
@@ -1078,7 +1078,7 @@ entry_ifconv:69 %tmp_1 = bitconcatenate i13 @_ssdm_op_BitConcatenate.i13.i1.i12,
 
 <Node id="80" bw="1" op_0_bw="13" op_1_bw="13">
 <![CDATA[
-entry_ifconv:70 %icmp_ln91 = icmp_ne  i13 %tmp_1, i13 0
+entry_ifconv:70 %icmp_ln91 = icmp_eq  i13 %tmp_s, i13 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln91"/></StgValue>
@@ -1108,7 +1108,7 @@ entry_ifconv:71 %add_ln91 = add i16 %sext_ln91, i16 1
 
 <Node id="82" bw="16" op_0_bw="1" op_1_bw="16" op_2_bw="16">
 <![CDATA[
-entry_ifconv:72 %select_ln91 = select i1 %icmp_ln91, i16 %add_ln91, i16 %sext_ln91
+entry_ifconv:72 %select_ln91 = select i1 %icmp_ln91, i16 %sext_ln91, i16 %add_ln91
 
 ]]></Node>
 <StgValue><ssdm name="select_ln91"/></StgValue>
@@ -1153,10 +1153,10 @@ entry_ifconv:74 %trunc_ln91 = trunc i16 %index
 
 <Node id="85" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-entry_ifconv:75 %tmp_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %index, i32 15
+entry_ifconv:75 %tmp_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %index, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_4"/></StgValue>
+<StgValue><ssdm name="tmp_3"/></StgValue>
 </operation>
 
 <operation id="80" st_id="3" stage="1" lat="1">
@@ -1168,7 +1168,7 @@ entry_ifconv:75 %tmp_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %index
 
 <Node id="86" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-entry_ifconv:76 %index_1 = select i1 %tmp_4, i15 0, i15 %trunc_ln91
+entry_ifconv:76 %index_1 = select i1 %tmp_3, i15 0, i15 %trunc_ln91
 
 ]]></Node>
 <StgValue><ssdm name="index_1"/></StgValue>
@@ -1198,10 +1198,10 @@ entry_ifconv:77 %trunc_ln91_1 = trunc i15 %index_1
 
 <Node id="88" bw="3" op_0_bw="3" op_1_bw="15" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry_ifconv:78 %tmp_5 = partselect i3 @_ssdm_op_PartSelect.i3.i15.i32.i32, i15 %index_1, i32 12, i32 14
+entry_ifconv:78 %tmp_4 = partselect i3 @_ssdm_op_PartSelect.i3.i15.i32.i32, i15 %index_1, i32 12, i32 14
 
 ]]></Node>
-<StgValue><ssdm name="tmp_5"/></StgValue>
+<StgValue><ssdm name="tmp_4"/></StgValue>
 </operation>
 
 <operation id="83" st_id="3" stage="1" lat="1">
@@ -1213,7 +1213,7 @@ entry_ifconv:78 %tmp_5 = partselect i3 @_ssdm_op_PartSelect.i3.i15.i32.i32, i15 
 
 <Node id="89" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:79 %icmp_ln94 = icmp_ne  i3 %tmp_5, i3 0
+entry_ifconv:79 %icmp_ln94 = icmp_ne  i3 %tmp_4, i3 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln94"/></StgValue>
@@ -1366,10 +1366,10 @@ entry_ifconv:86 %mul_ln99 = mul i34 %sext_ln99, i34 %zext_ln99
 
 <Node id="97" bw="31" op_0_bw="31" op_1_bw="34" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry_ifconv:87 %trunc_ln1 = partselect i31 @_ssdm_op_PartSelect.i31.i34.i32.i32, i34 %mul_ln99, i32 3, i32 33
+entry_ifconv:87 %trunc_ln2 = partselect i31 @_ssdm_op_PartSelect.i31.i34.i32.i32, i34 %mul_ln99, i32 3, i32 33
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln1"/></StgValue>
+<StgValue><ssdm name="trunc_ln2"/></StgValue>
 </operation>
 
 <operation id="94" st_id="4" stage="1" lat="1">
@@ -1381,7 +1381,7 @@ entry_ifconv:87 %trunc_ln1 = partselect i31 @_ssdm_op_PartSelect.i31.i34.i32.i32
 
 <Node id="98" bw="33" op_0_bw="31">
 <![CDATA[
-entry_ifconv:88 %sext_ln99_1 = sext i31 %trunc_ln1
+entry_ifconv:88 %sext_ln99_1 = sext i31 %trunc_ln2
 
 ]]></Node>
 <StgValue><ssdm name="sext_ln99_1"/></StgValue>
