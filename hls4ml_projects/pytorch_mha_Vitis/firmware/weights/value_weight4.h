@@ -1,0 +1,16 @@
+//Numpy array shape [2, 4, 2]
+//Min -0.511203348637
+//Max 0.603820443153
+//Number of zeros 0
+
+#ifndef VALUE_WEIGHT4_H_
+#define VALUE_WEIGHT4_H_
+
+#ifndef __SYNTHESIS__
+mha_value_weight_t value_weight4[16];
+#else
+mha_value_weight_t value_weight4[16] = {-0.0594060421, 0.6038204432, 0.2705272436, 0.4899197519, 0.5700431466, 0.4682242274, -0.0916853249, 0.4642016292, -0.4813904464, -0.5112033486, 0.5873978734, -0.2287624180, 0.1905517131, -0.0819298327, -0.2768174708, 0.0574855469};
+
+#endif
+
+#endif

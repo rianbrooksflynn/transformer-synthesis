@@ -89,8 +89,8 @@ def keras_mha():
     out_file = str(file_path / 'data' / 'keras_mha_predictions.dat')
     save_data(predictions, out_file)
 
-    config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
-    output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vivado_2020_1')
+    config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vitis')
+    output_dir = str(file_path / 'hls4ml_projects' / 'keras_mha_Vitis')
     hls_model = hls4ml.converters.convert_from_keras_model(model, hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=keras_mha_data_file, output_data_tb=out_file)
     hls_model.compile()
 
@@ -116,12 +116,12 @@ def pytorch_mha():
         model,
         [(seq_len, embed_dim), (seq_len, embed_dim), (seq_len, embed_dim)],
         granularity='name',
-        backend='Vivado',
+        backend='Vitis',
         channels_last_conversion='off',
         transpose_outputs=False,
     )
-    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_mha_Vivado')
-    hls_model = hls4ml.converters.convert_from_pytorch_model(model, backend='Vivado', hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=pytorch_mha_data_file, output_data_tb=out_file)
+    output_dir = str(file_path / 'hls4ml_projects' / 'pytorch_mha_Vitis')
+    hls_model = hls4ml.converters.convert_from_pytorch_model(model, backend='Vitis', hls_config=config, io_type='io_parallel', output_dir=output_dir, input_data_tb=pytorch_mha_data_file, output_data_tb=out_file)
     hls_model.compile()
 
 
@@ -158,11 +158,11 @@ def keras_mha_old():
 
 
 if __name__ == "__main__":
-    save_layernorm_data()
-    # save_mha_data()
-    keras_layernorm()
-    pytorch_layernorm()
-    # keras_mha()
-    # pytorch_mha()
+    # save_layernorm_data()
+    save_mha_data()
+    # keras_layernorm()
+    # pytorch_layernorm()
+    keras_mha()
+    pytorch_mha()
     # keras_layernorm_old()
     # keras_mha_old()

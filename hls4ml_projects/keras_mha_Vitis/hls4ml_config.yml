@@ -1,0 +1,47 @@
+Backend: Vivado
+ClockPeriod: 5
+ClockUncertainty: 12.5%
+HLSConfig:
+  LayerName:
+    input_1:
+      Precision:
+        result: auto
+      Trace: false
+    input_2:
+      Precision:
+        result: auto
+      Trace: false
+    multi_head_attention:
+      Precision:
+        accum: auto
+        attention_output_bias: auto
+        attention_output_weight: auto
+        key_bias: auto
+        key_weight: auto
+        query_bias: auto
+        query_weight: auto
+        result: auto
+        value_bias: auto
+        value_weight: auto
+      ReuseFactor: 1
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: /home/rian/A3D3/transformer-synthesis/data/keras_mha_data.dat
+KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/keras_model.keras'
+OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vitis
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_mha_predictions.dat
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: a90640d0
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

@@ -1,0 +1,16 @@
+//Numpy array shape [2, 4, 2]
+//Min -0.533946692944
+//Max 0.592458665371
+//Number of zeros 0
+
+#ifndef QUERY_WEIGHT4_H_
+#define QUERY_WEIGHT4_H_
+
+#ifndef __SYNTHESIS__
+mha_query_weight_t query_weight4[16];
+#else
+mha_query_weight_t query_weight4[16] = {-0.1089765877, -0.2997177243, -0.0304103959, 0.1380036175, -0.0570278317, -0.0670890510, 0.4689492881, -0.3155124187, 0.4139453173, 0.4967262447, -0.3512189090, 0.5535946488, 0.5924586654, -0.5339466929, 0.1363188475, -0.5271894336};
+
+#endif
+
+#endif
