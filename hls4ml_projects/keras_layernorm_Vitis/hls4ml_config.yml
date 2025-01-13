@@ -1,0 +1,35 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    layer_normalization:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      Trace: false
+    layer_normalization_input:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: /home/rian/A3D3/transformer-synthesis/data/layernorm_data.dat
+KerasModel: !keras_model '/home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vitis/keras_model.keras'
+OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm_Vitis
+OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_layernorm_predictions.dat
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: e6318451
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true
