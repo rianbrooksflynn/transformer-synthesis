@@ -158,11 +158,11 @@ def keras_mha_old():
 
 
 if __name__ == "__main__":
-    save_layernorm_data()
-    # save_mha_data()
-    keras_layernorm()
-    pytorch_layernorm()
-    # keras_mha()
+    # save_layernorm_data()
+    save_mha_data()
+    # keras_layernorm()
+    # pytorch_layernorm()
+    keras_mha()
     # pytorch_mha()
     # keras_layernorm_old()
     # keras_mha_old()

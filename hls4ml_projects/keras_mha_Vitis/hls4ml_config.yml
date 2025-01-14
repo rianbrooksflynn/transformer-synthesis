@@ -1,6 +1,6 @@
-Backend: Vivado
+Backend: Vitis
 ClockPeriod: 5
-ClockUncertainty: 12.5%
+ClockUncertainty: 27%
 HLSConfig:
   LayerName:
     input_1:
@@ -39,7 +39,7 @@ OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_mha_Vitis
 OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_mha_predictions.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: a90640d0
+Stamp: f4b43f5c
 Version: 1.0.0
 WriterConfig:
   Namespace: null

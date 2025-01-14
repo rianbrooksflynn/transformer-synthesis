@@ -36,5 +36,8 @@ void myproject(
 
     // hls-fpga-machine-learning insert layers
 
+    nnet::multiheadattention<input_t, result_t, config3>(input_1, input_2,
+                            layer3_out, attention_output_weight3, attention_output_bias3, key_weight3, key_bias3, query_weight3, query_bias3, value_weight3, value_bias3); // multi_head_attention
+
 }
 
