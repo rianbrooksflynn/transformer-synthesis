@@ -1,3 +1,5 @@
-clang-tidy applied 23 of 23 suggested fixes.
-Suppressed 248 warnings (248 in non-user code).
+17 warnings and 3 errors generated.
+Error while processing /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.
+clang-tidy applied 71 of 71 suggested fixes.
+Suppressed 265 warnings (248 in non-user code, 17 with check filters).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

@@ -31,6 +31,11 @@ obj/myproject.o: ../../../../firmware/myproject.cpp \
  ../../../../firmware/nnet_utils/nnet_mult.h \
  ../../../../firmware/nnet_utils/nnet_function_stubs.h \
  ../../../../firmware/nnet_utils/nnet_helpers.h \
+ ../../../../firmware/nnet_utils/nnet_multiheadattention.h \
+ ../../../../firmware/nnet_utils/nnet_activation.h \
+ ../../../../firmware/nnet_utils/nnet_dense.h \
+ ../../../../firmware/nnet_utils/nnet_dense_latency.h \
+ ../../../../firmware/nnet_utils/nnet_dense_resource.h \
  ../../../../firmware/weights/attention_output_weight3.h \
  ../../../../firmware/weights/attention_output_bias3.h \
  ../../../../firmware/weights/key_weight3.h \

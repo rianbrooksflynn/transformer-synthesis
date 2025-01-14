@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/./sim/autowrap/testbench/myproject.cpp_pre.cpp.tb.cpp
