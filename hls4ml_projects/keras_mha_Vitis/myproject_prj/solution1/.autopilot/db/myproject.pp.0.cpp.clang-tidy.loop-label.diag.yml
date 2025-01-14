@@ -1,0 +1,211 @@
+---
+MainSourceFile:  /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          785395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013167
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1014104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1297588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1671659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1672034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2335861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336248
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338188
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338597
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338810
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_1:  '
+    FileOffset:      135
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348239
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_2:  '
+    FileOffset:      136
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_157_3:  '
+    FileOffset:      157
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_157_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_4:  '
+    FileOffset:      158
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_4: '
+...

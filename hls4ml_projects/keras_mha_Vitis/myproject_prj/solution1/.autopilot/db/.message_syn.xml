@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 254.336 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;firmware/myproject.cpp&apos; ..." resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;keep&apos; (firmware/nnet_utils/nnet_helpers.h:285:99)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_function_stubs.h:14:36)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;buffer&apos; (firmware/nnet_utils/nnet_function_stubs.h:15:36)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;partition&apos; (firmware/nnet_utils/nnet_function_stubs.h:16:44)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_function_stubs.h:24:24)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;buffer&apos; (firmware/nnet_utils/nnet_function_stubs.h:25:24)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;partition&apos; (firmware/nnet_utils/nnet_function_stubs.h:26:32)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_function_stubs.h:33:30)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;res&apos; (firmware/nnet_utils/nnet_function_stubs.h:33:58)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;weights&apos; (firmware/nnet_utils/nnet_function_stubs.h:34:51)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;biases&apos; (firmware/nnet_utils/nnet_function_stubs.h:35:49)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_function_stubs.h:42:29)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;res&apos; (firmware/nnet_utils/nnet_function_stubs.h:42:80)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;weights&apos; (firmware/nnet_utils/nnet_function_stubs.h:43:50)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;biases&apos; (firmware/nnet_utils/nnet_function_stubs.h:44:48)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_code_gen.h:16:39)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;res&apos; (firmware/nnet_utils/nnet_code_gen.h:17:38)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;weights&apos; (firmware/nnet_utils/nnet_code_gen.h:18:60)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;biases&apos; (firmware/nnet_utils/nnet_code_gen.h:19:58)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Source Code Analysis and Preprocessing: CPU user time: 6.02 seconds. CPU system time: 0.76 seconds. Elapsed time: 7.53 seconds; current allocated memory: 257.523 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-777]" key="HLS 200-777" tag="" content="Using interface defaults for &apos;Vivado&apos; flow target." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-1995]" key="HLS 200-1995" tag="" content="There were 7 instructions in the design after the &apos;Compile/Link&apos; phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/syn/report/csynth_design_size.rpt" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-1995]" key="HLS 200-1995" tag="" content="There were 4 instructions in the design after the &apos;Unroll/Inline (step 1)&apos; phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/syn/report/csynth_design_size.rpt" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-1995]" key="HLS 200-1995" tag="" content="There were 4 instructions in the design after the &apos;Unroll/Inline (step 2)&apos; phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/myproject_prj/solution1/syn/report/csynth_design_size.rpt" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 214-180]" key="HLS 214-180" tag="" content="The array partition pragma on function argument, in &apos;call&apos; is unsupported (firmware/myproject.cpp:15:9)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 214-313]" key="HLS 214-313" tag="" content="Unsupport interface pragma on struct type with opaque, argument &apos;layer3_out&apos; of function &apos;myproject(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;33, 13, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*)&apos;  (firmware/myproject.cpp:10:0)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 200-1715]" key="HLS 200-1715" tag="" content="Encountered problem during source synthesis" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 8.26 seconds. CPU system time: 1.09 seconds. Elapsed time: 15.29 seconds; current allocated memory: 4.203 MB." resolution=""/>
+</Messages>

@@ -1,0 +1,25 @@
+--- !Passed
+Pass:            reflow-pragma-preprocess
+Name:            PragmaPartitionArg
+DebugLoc:        { File: firmware/myproject.cpp, Line: 15, Column: 9 }
+Function:        apatb_myproject_ir
+Args:            
+  - String:          'The array partition pragma on function argument, in '''
+  - Pragma:          call
+    DebugLoc:        { File: firmware/myproject.cpp, Line: 15, Column: 9 }
+  - String:          ''' is unsupported'
+...
+--- !HLSUnsupported
+Pass:            reflow-default-interface-builder-new
+Name:            DefaultInterfaceStructOpaquePragma
+DebugLoc:        { File: firmware/myproject.cpp, Line: 10, Column: 0 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_PS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Unsupport interface pragma on struct type with opaque, '
+  - String:          'argument '''
+  - Argument:        layer3_out
+  - String:          ''' of function '''
+  - Function:        'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: firmware/myproject.cpp, Line: 10, Column: 0 }
+  - String:          ''' '
+...

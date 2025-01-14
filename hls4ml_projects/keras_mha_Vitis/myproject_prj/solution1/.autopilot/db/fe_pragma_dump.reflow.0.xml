@@ -1,0 +1,9 @@
+<pragmas>
+<pragma file="firmware/myproject.cpp" line="17" pragmaType="pipeline" parentfunction="myproject" off="0" ii="-1" style=""/>
+<pragma file="firmware/myproject.cpp" line="13" pragmaType="array_reshape" parentfunction="myproject" dim="0" factor="0" mode="complete" variable="input_1"/>
+<pragma file="firmware/myproject.cpp" line="14" pragmaType="array_reshape" parentfunction="myproject" dim="0" factor="0" mode="complete" variable="input_2"/>
+<pragma file="firmware/myproject.cpp" line="15" pragmaType="array_partition" parentfunction="myproject" dim="0" factor="0" mode="complete" dynamic="0" variable="layer3_out"/>
+<pragma file="firmware/myproject.cpp" line="16" pragmaType="interface" parentfunction="myproject" mode="ap_vld" port="layer3_out" name="" register="0"/>
+<pragma file="firmware/myproject.cpp" line="16" pragmaType="interface" parentfunction="myproject" mode="ap_vld" port="input_2" name="" register="0"/>
+<pragma file="firmware/myproject.cpp" line="16" pragmaType="interface" parentfunction="myproject" mode="ap_vld" port="input_1" name="" register="0"/>
+</pragmas>

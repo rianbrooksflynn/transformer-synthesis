@@ -1,0 +1,189 @@
+In file included from firmware/myproject.cpp:3:
+In file included from firmware/myproject.h:8:
+In file included from firmware/defines.h:6:
+firmware/nnet_utils/nnet_types.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+In file included from firmware/nnet_utils/nnet_code_gen.h:4:
+In file included from firmware/nnet_utils/nnet_conv1d_latency.h:4:
+In file included from firmware/nnet_utils/nnet_common.h:5:
+firmware/nnet_utils/nnet_helpers.h:285:99: warning: unused parameter 'keep' [-Wunused-parameter]
+template <class res_T, size_t SIZE> void print_result(res_T result[SIZE], std::ostream &out, bool keep = false) {
+                                                                                                  ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+In file included from firmware/nnet_utils/nnet_code_gen.h:4:
+In file included from firmware/nnet_utils/nnet_conv1d_latency.h:5:
+firmware/nnet_utils/nnet_mult.h:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+firmware/nnet_utils/nnet_mult.h:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+firmware/nnet_utils/nnet_mult.h:46:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+firmware/nnet_utils/nnet_mult.h:58:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+firmware/nnet_utils/nnet_mult.h:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+firmware/nnet_utils/nnet_mult.h:82:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=product_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INLINE
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+In file included from firmware/nnet_utils/nnet_code_gen.h:4:
+firmware/nnet_utils/nnet_conv1d_latency.h:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=data_buf complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=data_buf complete dim=0
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:22:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=mult complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=mult complete
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=acc complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=weights complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=weights complete
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=biases complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:35:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor rewind_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=CONFIG_T::reuse_factor rewind
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:41:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:52:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:69:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:80:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:97:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=mult complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=mult complete dim=0
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:98:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=acc complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=acc complete dim=0
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:101:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=function_instantiate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=weights,biases_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS function_instantiate variable=weights,biases
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:104:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=II=CONFIG_T::reuse_factor_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=CONFIG_T::reuse_factor
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:105:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=weights complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=weights complete dim=0
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:106:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=variable=biases complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=biases complete dim=0
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:109:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=allocation_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ALLOCATION operation instances=mul limit=CONFIG_T::mult_config::multiplier_limit
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:118:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:137:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+firmware/nnet_utils/nnet_conv1d_latency.h:159:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pointwise_conv_1d_latency_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+In file included from firmware/nnet_utils/nnet_code_gen.h:9:
+firmware/nnet_utils/nnet_function_stubs.h:14:36: warning: unused parameter 'data' [-Wunused-parameter]
+    static void fill_buffer(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan],
+                                   ^
+firmware/nnet_utils/nnet_function_stubs.h:15:36: warning: unused parameter 'buffer' [-Wunused-parameter]
+                            data_T buffer[CONFIG_T::n_pixels][CONFIG_T::filt_width * CONFIG_T::n_chan],
+                                   ^
+firmware/nnet_utils/nnet_function_stubs.h:16:44: warning: unused parameter 'partition' [-Wunused-parameter]
+                            const unsigned partition) {
+                                           ^
+firmware/nnet_utils/nnet_function_stubs.h:24:24: warning: unused parameter 'data' [-Wunused-parameter]
+    fill_buffer(data_T data[CONFIG_T::in_height * CONFIG_T::in_width * CONFIG_T::n_chan],
+                       ^
+firmware/nnet_utils/nnet_function_stubs.h:25:24: warning: unused parameter 'buffer' [-Wunused-parameter]
+                data_T buffer[CONFIG_T::n_pixels][CONFIG_T::filt_height * CONFIG_T::filt_width * CONFIG_T::n_chan],
+                       ^
+firmware/nnet_utils/nnet_function_stubs.h:26:32: warning: unused parameter 'partition' [-Wunused-parameter]
+                const unsigned partition) {
+                               ^
+firmware/nnet_utils/nnet_function_stubs.h:33:30: warning: unused parameter 'data' [-Wunused-parameter]
+    static void dense(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_out],
+                             ^
+firmware/nnet_utils/nnet_function_stubs.h:33:58: warning: unused parameter 'res' [-Wunused-parameter]
+    static void dense(data_T data[CONFIG_T::n_in], res_T res[CONFIG_T::n_out],
+                                                         ^
+firmware/nnet_utils/nnet_function_stubs.h:34:51: warning: unused parameter 'weights' [-Wunused-parameter]
+                      typename CONFIG_T::weight_t weights[CONFIG_T::n_in * CONFIG_T::n_out],
+                                                  ^
+firmware/nnet_utils/nnet_function_stubs.h:35:49: warning: unused parameter 'biases' [-Wunused-parameter]
+                      typename CONFIG_T::bias_t biases[CONFIG_T::n_out]) {
+                                                ^
+firmware/nnet_utils/nnet_function_stubs.h:42:29: warning: unused parameter 'data' [-Wunused-parameter]
+    static void conv(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan], res_T res[CONFIG_T::out_width * CONFIG_T::n_filt],
+                            ^
+firmware/nnet_utils/nnet_function_stubs.h:42:80: warning: unused parameter 'res' [-Wunused-parameter]
+    static void conv(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan], res_T res[CONFIG_T::out_width * CONFIG_T::n_filt],
+                                                                               ^
+firmware/nnet_utils/nnet_function_stubs.h:43:50: warning: unused parameter 'weights' [-Wunused-parameter]
+                     typename CONFIG_T::weight_t weights[CONFIG_T::n_chan * CONFIG_T::n_filt],
+                                                 ^
+firmware/nnet_utils/nnet_function_stubs.h:44:48: warning: unused parameter 'biases' [-Wunused-parameter]
+                     typename CONFIG_T::bias_t biases[CONFIG_T::n_filt]) {
+                                               ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:7:
+firmware/nnet_utils/nnet_code_gen.h:16:39: warning: unused parameter 'data' [-Wunused-parameter]
+    static void pointwise_conv(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan],
+                                      ^
+firmware/nnet_utils/nnet_code_gen.h:17:38: warning: unused parameter 'res' [-Wunused-parameter]
+                               res_T res[CONFIG_T::out_width * CONFIG_T::n_filt],
+                                     ^
+firmware/nnet_utils/nnet_code_gen.h:18:60: warning: unused parameter 'weights' [-Wunused-parameter]
+                               typename CONFIG_T::weight_t weights[CONFIG_T::n_chan * CONFIG_T::n_filt],
+                                                           ^
+firmware/nnet_utils/nnet_code_gen.h:19:58: warning: unused parameter 'biases' [-Wunused-parameter]
+                               typename CONFIG_T::bias_t biases[CONFIG_T::n_filt]) {
+                                                         ^
+/data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/keras_mha_Vitis/build_prj.tcl:183:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=name=myproject_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=myproject
+        ^
+firmware/myproject.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=input_1 complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=input_1 complete dim=0
+        ^
+firmware/myproject.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=input_2 complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=input_2 complete dim=0
+        ^
+firmware/myproject.cpp:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer3_out complete dim=0_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_PARTITION variable=layer3_out complete dim=0
+        ^
+firmware/myproject.cpp:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=ap_vld port=input_1,input_2,layer3_out_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_vld port=input_1,input_2,layer3_out
+        ^
+firmware/myproject.cpp:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+        ^
+56 warnings generated.

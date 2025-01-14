@@ -1,0 +1,658 @@
+---
+MainSourceFile:  /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          785395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013167
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1013635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1014104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /opt/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1297588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1671659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1672034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2335793
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2337622
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338075
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2338742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348257
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2348967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2353558
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2354219
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2355353
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2355715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2356618
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357977
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2358247
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2358771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2359005
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2359365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360294
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360411
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2362639
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2363276
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2364912
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367420
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368086
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2369289
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2370745
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2371372
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2371761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2372157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389831
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_103_2:  '
+    FileOffset:      103
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390710
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_103_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_1:  '
+    FileOffset:      127
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_2:  '
+    FileOffset:      130
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_1:  '
+    FileOffset:      227
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395922
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_2:  '
+    FileOffset:      229
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395990
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_236_3:  '
+    FileOffset:      236
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396362
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_236_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_247_2:  '
+    FileOffset:      247
+    FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/firmware/nnet_utils/nnet_multiheadattention.h
+    Replacements:    
+      - FilePath:        /data/hlssynt-users/rflynn/transformer-synthesis/hls4ml_projects/pytorch_mha_Vitis/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_247_2: '
+...

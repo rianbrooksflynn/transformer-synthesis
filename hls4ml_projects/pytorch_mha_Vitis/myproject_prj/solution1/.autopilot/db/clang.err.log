@@ -1,0 +1,52 @@
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:10:
+In file included from firmware/nnet_utils/nnet_multiheadattention.h:7:
+In file included from firmware/nnet_utils/nnet_dense.h:7:
+firmware/nnet_utils/nnet_dense_resource.h:33:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:107:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+firmware/nnet_utils/nnet_dense_resource.h:189:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+In file included from firmware/myproject.cpp:4:
+In file included from firmware/parameters.h:10:
+firmware/nnet_utils/nnet_multiheadattention.h:64:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=Q
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:65:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=K
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:66:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=datak_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:67:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=dataq_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:114:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=V
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:119:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=datav_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:171:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=k_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:172:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=q_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:173:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=v_proj
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:196:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_k_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:197:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_q_pack
+        ^
+firmware/nnet_utils/nnet_multiheadattention.h:198:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLS DATA_PACK variable=proj_v_pack
+        ^
+15 warnings generated.

@@ -1,0 +1,65 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'matrixmul_transpose_ap_fixed_ap_fixed_33_13_5_3_0_config4_s'" level="0">
+<item name = "Date">Mon Jan 13 20:38:39 2025
+</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu13p-flga2577-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.539 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">27, 27, 0.135 us, 0.135 us, 27, 27, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_68">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_96">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_124">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_152">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_180">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_208">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_236">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_264">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_292">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_320">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_348">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_376">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_404">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_432">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_460">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_488">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_516">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_544">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_572">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+<column name="grp_softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s_fu_600">softmax_legacy_ap_fixed_ap_fixed_33_13_5_3_0_softmax_config4_s, 5, 5, 25.000 ns, 25.000 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,2 @@
+remark: firmware/myproject.cpp:15:9: The array partition pragma on function argument, in 'call' is unsupported
+error: firmware/myproject.cpp:10:0: Unsupport interface pragma on struct type with opaque, argument 'layer3_out' of function 'myproject(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*)' 
