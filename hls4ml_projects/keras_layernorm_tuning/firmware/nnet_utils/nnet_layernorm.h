@@ -25,6 +25,10 @@ struct layernorm_config {
     static const unsigned table_range_power2 = 0;
     static const unsigned table_size = 1024;
 
+    // Resource reuse info
+    static const unsigned io_type = io_parallel;
+    static const unsigned reuse_factor = 1;
+
     template <class x_T, class y_T> using product = nnet::product::mult<x_T, y_T>;
 };
 

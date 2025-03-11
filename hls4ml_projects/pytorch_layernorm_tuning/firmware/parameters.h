@@ -69,6 +69,8 @@ struct config2 : nnet::layernorm_config {
     typedef _0_bias_t bias_t;
     typedef _0_scale_t scale_t;
     typedef _0_table_t table_t;
+    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned reuse_factor = 1;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };

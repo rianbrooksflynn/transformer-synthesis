@@ -27,6 +27,8 @@ struct config2 : nnet::layernorm_config {
     typedef layer_normalization_bias_t bias_t;
     typedef layer_normalization_scale_t scale_t;
     typedef layer_normalization_table_t table_t;
+    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned reuse_factor = 1;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
