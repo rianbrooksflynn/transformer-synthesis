@@ -1,0 +1,50 @@
+{
+    "1": {
+        "name": "transpose<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config4>",
+        "file": "firmware\/nnet_utils\/nnet_transpose.h",
+        "fileloc": "35",
+        "instructions": "161",
+        "total_instructions": "161",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "layernormalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>",
+        "file": "firmware\/nnet_utils\/nnet_layernorm.h",
+        "fileloc": "111",
+        "instructions": "251",
+        "total_instructions": "8041",
+        "calls": "4 4 4 4 4 4 4 4 4 4",
+        "basicblocks": "1"
+    },
+    "3": {
+        "name": "transpose<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config3>",
+        "file": "firmware\/nnet_utils\/nnet_transpose.h",
+        "fileloc": "33",
+        "instructions": "162",
+        "total_instructions": "162",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "layernorm_1d<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<33, 13, 5, 3, 0>, config2>",
+        "file": "firmware\/nnet_utils\/nnet_layernorm.h",
+        "fileloc": "56",
+        "instructions": "779",
+        "total_instructions": "779",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "1"
+        }
+    },
+    "0": {
+        "name": "myproject",
+        "file": "myproject.cpp",
+        "fileloc": "7",
+        "instructions": "489",
+        "total_instructions": "8853",
+        "calls": "3 1 2",
+        "basicblocks": "1"
+    }
+}

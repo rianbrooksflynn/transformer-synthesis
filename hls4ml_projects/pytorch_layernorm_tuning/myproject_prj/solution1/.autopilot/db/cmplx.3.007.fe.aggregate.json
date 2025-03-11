@@ -1,0 +1,105 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2 4 6",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 246,
+    "name": "myproject",
+    "total_instructions": 16035
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_transpose.h",
+    "fileloc": 18,
+    "instructions": 6,
+    "name": "transfer_idx<config3>",
+    "total_instructions": 6
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "file": "nnet_transpose.h",
+    "fileloc": 29,
+    "instructions": 401,
+    "loads": {
+      "L": 80
+    },
+    "name": "transpose<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 80
+    },
+    "total_instructions": 881
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "5 5 5 5 5 5 5 5 5 5",
+    "file": "nnet_layernorm.h",
+    "fileloc": 107,
+    "instructions": 427,
+    "loads": {
+      "L": 160
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 160
+    },
+    "total_instructions": 14107
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7",
+    "file": "nnet_transpose.h",
+    "fileloc": 29,
+    "instructions": 401,
+    "loads": {
+      "L": 80
+    },
+    "name": "transpose<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 80
+    },
+    "total_instructions": 881
+  },
+  "5": {
+    "basicblocks": 24,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 49,
+    "instructions": 1368,
+    "loads": {
+      "G": 1,
+      "L": 8
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 1368
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "5 5 5 5 5 5 5 5 5 5",
+    "file": "nnet_layernorm.h",
+    "fileloc": 107,
+    "instructions": 347,
+    "loads": {
+      "L": 160
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 160
+    },
+    "total_instructions": 14027
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_transpose.h",
+    "fileloc": 18,
+    "instructions": 6,
+    "name": "transfer_idx<config4>",
+    "total_instructions": 6
+  }
+}

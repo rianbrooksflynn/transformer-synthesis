@@ -1,0 +1,90 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4 3 5",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 16,
+    "name": "myproject",
+    "total_instructions": 37366
+  },
+  "1": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "nnet_transpose.h",
+    "fileloc": 18,
+    "instructions": 9,
+    "name": "transfer_idx<config3>",
+    "total_instructions": 9
+  },
+  "2": {
+    "basicblocks": 1661,
+    "calls": "",
+    "file": "nnet_layernorm.h",
+    "fileloc": 49,
+    "instructions": 3426,
+    "loads": {
+      "G": 1,
+      "L": 88
+    },
+    "name": "layernorm_1d<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 3426
+  },
+  "3": {
+    "basicblocks": 4,
+    "calls": "6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6",
+    "file": "nnet_transpose.h",
+    "fileloc": 29,
+    "instructions": 483,
+    "loads": {
+      "L": 80
+    },
+    "name": "transpose<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 80
+    },
+    "total_instructions": 1203
+  },
+  "4": {
+    "basicblocks": 4,
+    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "file": "nnet_transpose.h",
+    "fileloc": 29,
+    "instructions": 483,
+    "loads": {
+      "L": 80
+    },
+    "name": "transpose<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config3>",
+    "stores": {
+      "L": 80
+    },
+    "total_instructions": 1203
+  },
+  "5": {
+    "basicblocks": 24,
+    "calls": "2 2 2 2 2 2 2 2 2 2",
+    "file": "nnet_layernorm.h",
+    "fileloc": 107,
+    "instructions": 684,
+    "loads": {
+      "L": 160
+    },
+    "name": "layernormalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 160
+    },
+    "total_instructions": 34944
+  },
+  "6": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "nnet_transpose.h",
+    "fileloc": 18,
+    "instructions": 9,
+    "name": "transfer_idx<config4>",
+    "total_instructions": 9
+  }
+}

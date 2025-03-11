@@ -1,0 +1,782 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 91, 
+                   Column: 11 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'nnet::product::mult<ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0> >::product(ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>)'
+    DebugLoc:        { File: firmware/nnet_utils/nnet_mult.h, Line: 70, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)'
+    DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 51, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 83, 
+                   Column: 12 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'nnet::product::mult<ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0> >::product(ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<14, 4, (ap_q_mode)4, (ap_o_mode)0, 0>)'
+    DebugLoc:        { File: firmware/nnet_utils/nnet_mult.h, Line: 70, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)'
+    DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 51, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 122, 
+                   Column: 5 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_SEQ_LOOP
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 125, 
+                   Column: 9 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 131, 
+                   Column: 9 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 101, 
+                   Column: 5 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_1D_RESULT
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 86, 
+                   Column: 5 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_1D_VAR
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 80, 
+                   Column: 5 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        LAYERNORM_1D_SUM
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 30, 
+                   Column: 22 }
+Function:        _ZN4nnet9transposeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_7config4EEvPKT_PT0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_30_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 21, 
+                   Column: 22 }
+Function:        _ZN4nnet12transfer_idxI7config4EEji
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_21_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 30, 
+                   Column: 22 }
+Function:        _ZN4nnet9transposeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_7config3EEvPKT_PT0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_30_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 21, 
+                   Column: 22 }
+Function:        _ZN4nnet12transfer_idxI7config3EEji
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_21_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_SEQ_LOOP
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:122:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '10'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        LAYERNORM_SEQ_LOOP
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:122:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_STORE
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:131:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 109, 
+                   Column: 0 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_LOAD
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:125:9'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernormalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 51, 
+                   Column: 0 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_1D_RESULT
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:101:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 51, 
+                   Column: 0 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_1D_VAR
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:86:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 51, 
+                   Column: 0 }
+Function:        _ZN4nnet12layernorm_1dI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        LAYERNORM_1D_SUM
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_layernorm.h:80:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::layernorm_1d<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<33, 13, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 29, 
+                   Column: 0 }
+Function:        _ZN4nnet9transposeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_7config4EEvPKT_PT0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_30_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_transpose.h:30:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::transpose<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config4>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '80'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 18, 
+                   Column: 0 }
+Function:        _ZN4nnet12transfer_idxI7config4EEji
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_21_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_transpose.h:21:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::transfer_idx<config4>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 29, 
+                   Column: 0 }
+Function:        _ZN4nnet9transposeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_7config3EEvPKT_PT0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_30_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_transpose.h:30:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::transpose<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '80'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/nnet_utils/nnet_transpose.h, Line: 18, 
+                   Column: 0 }
+Function:        _ZN4nnet12transfer_idxI7config3EEji
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_21_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/nnet_utils/nnet_transpose.h:21:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'nnet::transfer_idx<config3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b2.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/s2.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          s2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 111, 
+                   Column: 12 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          in_val
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/nnet_utils/nnet_layernorm.h, Line: 112, 
+                   Column: 11 }
+Function:        _ZN4nnet14layernormalizeI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EES1_ILi33ELi13ELS2_5ELS3_3ELi0EE7config2EEvPT_PT0_PNT1_7scale_tEPNSB_6bias_tE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          outval
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/myproject.cpp, Line: 32, Column: 11 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          layer3_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/myproject.cpp, Line: 36, Column: 14 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          layer4_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/myproject.cpp, Line: 10, Column: 0 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          layer2_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-reshape
+Name:            ArrayXform
+DebugLoc:        { File: firmware/myproject.cpp, Line: 10, Column: 0 }
+Function:        _Z9myprojectP8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EEPS_ILi33ELi13ELS0_5ELS1_3ELi0EE
+Args:            
+  - String:          'Applying '
+  - String:          array_reshape
+  - String:          ' to '''
+  - UOName:          input_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' reshaping'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
