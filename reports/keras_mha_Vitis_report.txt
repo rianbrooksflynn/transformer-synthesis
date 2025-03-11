@@ -1,0 +1,350 @@
+Found 1 solution(s) in hls4ml_projects/keras_mha_Vitis//myproject_prj.
+Reports for solution "solution1":
+
+C SIMULATION RESULT:
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+-0.39092 0.177299 -0.0782934 0.11435 -0.0822043 0.0115602 0.00491036 0.00670794 -0.527876 0.229246 -0.112123 0.195003 0.165758 -0.160135 0.0642266 0.00368444 -0.246711 0.0938291 -0.0347291 0.054075 -0.36593 0.153201 -0.0624385 0.107243 0.342542 -0.181313 0.0449 -0.0557703 0.091198 -0.0761549 0.00420597 0.028701 -0.0647621 -0.0153306 0.0098616 0.0376388 0.123621 -0.021758 -0.0314622 -0.00407773 0.274633 -0.168523 0.034226 -0.00457243 -0.418516 0.195345 -0.0965154 0.155333 0.00264721 -0.0155471 -0.0153035 0.028802 0.0887861 -0.00930854 -0.02847 -0.0171783 0.219974 -0.151562 0.0425765 -0.00561916 0.137518 -0.122801 0.032322 0.0295091 -0.0695253 0.0231791 -0.0192691 0.0292371 -0.257958 0.113481 -0.0448935 0.0575387 -0.068339 0.0417073 -0.0370419 0.0225686 -0.03153 0.00573155 -0.0194651 0.0234523 
+Quantized predictions
+-0.400391 0.180664 -0.0800781 0.109375 -0.0839844 0.0117188 0.000976563 0.00488281 -0.52832 0.208008 -0.103516 0.202148 0.164063 -0.160156 0.0605469 0 -0.246094 0.0927734 -0.0380859 0.0517578 -0.359375 0.144531 -0.0634766 0.108398 0.335938 -0.179688 0.0410156 -0.0556641 0.0898438 -0.0751953 0 0.0273438 -0.0683594 -0.0166016 0.00683594 0.0371094 0.125 -0.0195313 -0.0361328 -0.00683594 0.270508 -0.164063 0.0292969 -0.0078125 -0.389648 0.149414 -0.0810547 0.167969 0.00292969 -0.0166016 -0.0185547 0.0263672 0.0869141 -0.00878906 -0.0302734 -0.0195313 0.21875 -0.150391 0.0380859 -0.00878906 0.134766 -0.123047 0.0283203 0.0283203 -0.0712891 0.0214844 -0.0224609 0.0283203 -0.258789 0.113281 -0.0478516 0.0556641 -0.0683594 0.0410156 -0.0390625 0.0205078 -0.0341797 0.00488281 -0.0224609 0.0224609 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 20
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
+
+SYNTHESIS REPORT:
+================================================================
+== Vitis HLS Report for 'myproject'
+================================================================
+* Date:           Tue Jan 14 08:09:12 2025
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplus
+* Target device:  xcvu13p-flga2577-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.649 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      113|      113|  0.565 us|  0.565 us|  114|  114|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+----------+
+        |                                                                                  |                                                                       |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+        |                                     Instance                                     |                                 Module                                |   min   |   max   |    min   |    max   | min | max |   Type   |
+        +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+----------+
+        |grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206  |multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s  |      112|      112|  0.560 us|  0.560 us|   42|   42|  dataflow|
+        +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+---------+----------+----------+-----+-----+----------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K|  DSP  |    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|      -|        -|        -|     -|
+|Expression           |        -|      -|        0|        6|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |    31200|  13676|   516585|  4134774|     -|
+|Memory               |        -|      -|        -|        -|     -|
+|Multiplexer          |        -|      -|        -|       86|     -|
+|Register             |        -|      -|     2567|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |    31200|  13676|   519152|  4134866|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |     2321|    445|       60|      957|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |      580|    111|       15|      239|     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+--------+---------+-----+
+    |                                     Instance                                     |                                 Module                                | BRAM_18K|  DSP  |   FF   |   LUT   | URAM|
+    +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+--------+---------+-----+
+    |grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206  |multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s  |    31200|  13676|  516585|  4134774|    0|
+    +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+--------+---------+-----+
+    |Total                                                                             |                                                                       |    31200|  13676|  516585|  4134774|    0|
+    +----------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+--------+---------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                                           Variable Name                                           | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |ap_block_state1                                                                                    |        or|   0|  0|   2|           1|           1|
+    |ap_sync_grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206_ap_done   |        or|   0|  0|   2|           1|           1|
+    |ap_sync_grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206_ap_ready  |        or|   0|  0|   2|           1|           1|
+    +---------------------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                                                              |          |   0|  0|   6|           3|           3|
+    +---------------------------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------+----+-----------+------+-----------+
+    |          Name         | LUT| Input Size| Bits | Total Bits|
+    +-----------------------+----+-----------+------+-----------+
+    |ap_NS_fsm              |  14|          3|     1|          3|
+    |input_1_ap_vld_in_sig  |   9|          2|     1|          2|
+    |input_1_ap_vld_preg    |   9|          2|     1|          2|
+    |input_1_blk_n          |   9|          2|     1|          2|
+    |input_1_in_sig         |   9|          2|  1280|       2560|
+    |input_2_ap_vld_in_sig  |   9|          2|     1|          2|
+    |input_2_ap_vld_preg    |   9|          2|     1|          2|
+    |input_2_blk_n          |   9|          2|     1|          2|
+    |input_2_in_sig         |   9|          2|  1280|       2560|
+    +-----------------------+----+-----------+------+-----------+
+    |Total                  |  86|         19|  2567|       5135|
+    +-----------------------+----+-----------+------+-----------+
+
+    * Register: 
+    +-------------------------------------------------------------------------------------------------------+------+----+------+-----------+
+    |                                                  Name                                                 |  FF  | LUT| Bits | Const Bits|
+    +-------------------------------------------------------------------------------------------------------+------+----+------+-----------+
+    |ap_CS_fsm                                                                                              |     2|   0|     2|          0|
+    |ap_sync_reg_grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206_ap_done   |     1|   0|     1|          0|
+    |ap_sync_reg_grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206_ap_ready  |     1|   0|     1|          0|
+    |grp_multiheadattention_ap_fixed_16_6_5_3_0_ap_fixed_33_13_5_3_0_config3_s_fu_206_ap_start_reg          |     1|   0|     1|          0|
+    |input_1_ap_vld_preg                                                                                    |     1|   0|     1|          0|
+    |input_1_preg                                                                                           |  1280|   0|  1280|          0|
+    |input_2_ap_vld_preg                                                                                    |     1|   0|     1|          0|
+    |input_2_preg                                                                                           |  1280|   0|  1280|          0|
+    +-------------------------------------------------------------------------------------------------------+------+----+------+-----------+
+    |Total                                                                                                  |  2567|   0|  2567|          0|
+    +-------------------------------------------------------------------------------------------------------+------+----+------+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+------+------------+---------------+--------------+
+|       RTL Ports      | Dir | Bits |  Protocol  | Source Object |    C Type    |
++----------------------+-----+------+------------+---------------+--------------+
+|ap_clk                |   in|     1|  ap_ctrl_hs|      myproject|  return value|
+|ap_rst                |   in|     1|  ap_ctrl_hs|      myproject|  return value|
+|ap_start              |   in|     1|  ap_ctrl_hs|      myproject|  return value|
+|ap_done               |  out|     1|  ap_ctrl_hs|      myproject|  return value|
+|ap_idle               |  out|     1|  ap_ctrl_hs|      myproject|  return value|
+|ap_ready              |  out|     1|  ap_ctrl_hs|      myproject|  return value|
+|input_1               |   in|  1280|      ap_vld|        input_1|       pointer|
+|input_1_ap_vld        |   in|     1|      ap_vld|        input_1|       pointer|
+|input_2               |   in|  1280|      ap_vld|        input_2|       pointer|
+|input_2_ap_vld        |   in|     1|      ap_vld|        input_2|       pointer|
+|layer3_out_0          |  out|    33|      ap_vld|   layer3_out_0|       pointer|
+|layer3_out_0_ap_vld   |  out|     1|      ap_vld|   layer3_out_0|       pointer|
+|layer3_out_1          |  out|    33|      ap_vld|   layer3_out_1|       pointer|
+|layer3_out_1_ap_vld   |  out|     1|      ap_vld|   layer3_out_1|       pointer|
+|layer3_out_2          |  out|    33|      ap_vld|   layer3_out_2|       pointer|
+|layer3_out_2_ap_vld   |  out|     1|      ap_vld|   layer3_out_2|       pointer|
+|layer3_out_3          |  out|    33|      ap_vld|   layer3_out_3|       pointer|
+|layer3_out_3_ap_vld   |  out|     1|      ap_vld|   layer3_out_3|       pointer|
+|layer3_out_4          |  out|    33|      ap_vld|   layer3_out_4|       pointer|
+|layer3_out_4_ap_vld   |  out|     1|      ap_vld|   layer3_out_4|       pointer|
+|layer3_out_5          |  out|    33|      ap_vld|   layer3_out_5|       pointer|
+|layer3_out_5_ap_vld   |  out|     1|      ap_vld|   layer3_out_5|       pointer|
+|layer3_out_6          |  out|    33|      ap_vld|   layer3_out_6|       pointer|
+|layer3_out_6_ap_vld   |  out|     1|      ap_vld|   layer3_out_6|       pointer|
+|layer3_out_7          |  out|    33|      ap_vld|   layer3_out_7|       pointer|
+|layer3_out_7_ap_vld   |  out|     1|      ap_vld|   layer3_out_7|       pointer|
+|layer3_out_8          |  out|    33|      ap_vld|   layer3_out_8|       pointer|
+|layer3_out_8_ap_vld   |  out|     1|      ap_vld|   layer3_out_8|       pointer|
+|layer3_out_9          |  out|    33|      ap_vld|   layer3_out_9|       pointer|
+|layer3_out_9_ap_vld   |  out|     1|      ap_vld|   layer3_out_9|       pointer|
+|layer3_out_10         |  out|    33|      ap_vld|  layer3_out_10|       pointer|
+|layer3_out_10_ap_vld  |  out|     1|      ap_vld|  layer3_out_10|       pointer|
+|layer3_out_11         |  out|    33|      ap_vld|  layer3_out_11|       pointer|
+|layer3_out_11_ap_vld  |  out|     1|      ap_vld|  layer3_out_11|       pointer|
+|layer3_out_12         |  out|    33|      ap_vld|  layer3_out_12|       pointer|
+|layer3_out_12_ap_vld  |  out|     1|      ap_vld|  layer3_out_12|       pointer|
+|layer3_out_13         |  out|    33|      ap_vld|  layer3_out_13|       pointer|
+|layer3_out_13_ap_vld  |  out|     1|      ap_vld|  layer3_out_13|       pointer|
+|layer3_out_14         |  out|    33|      ap_vld|  layer3_out_14|       pointer|
+|layer3_out_14_ap_vld  |  out|     1|      ap_vld|  layer3_out_14|       pointer|
+|layer3_out_15         |  out|    33|      ap_vld|  layer3_out_15|       pointer|
+|layer3_out_15_ap_vld  |  out|     1|      ap_vld|  layer3_out_15|       pointer|
+|layer3_out_16         |  out|    33|      ap_vld|  layer3_out_16|       pointer|
+|layer3_out_16_ap_vld  |  out|     1|      ap_vld|  layer3_out_16|       pointer|
+|layer3_out_17         |  out|    33|      ap_vld|  layer3_out_17|       pointer|
+|layer3_out_17_ap_vld  |  out|     1|      ap_vld|  layer3_out_17|       pointer|
+|layer3_out_18         |  out|    33|      ap_vld|  layer3_out_18|       pointer|
+|layer3_out_18_ap_vld  |  out|     1|      ap_vld|  layer3_out_18|       pointer|
+|layer3_out_19         |  out|    33|      ap_vld|  layer3_out_19|       pointer|
+|layer3_out_19_ap_vld  |  out|     1|      ap_vld|  layer3_out_19|       pointer|
+|layer3_out_20         |  out|    33|      ap_vld|  layer3_out_20|       pointer|
+|layer3_out_20_ap_vld  |  out|     1|      ap_vld|  layer3_out_20|       pointer|
+|layer3_out_21         |  out|    33|      ap_vld|  layer3_out_21|       pointer|
+|layer3_out_21_ap_vld  |  out|     1|      ap_vld|  layer3_out_21|       pointer|
+|layer3_out_22         |  out|    33|      ap_vld|  layer3_out_22|       pointer|
+|layer3_out_22_ap_vld  |  out|     1|      ap_vld|  layer3_out_22|       pointer|
+|layer3_out_23         |  out|    33|      ap_vld|  layer3_out_23|       pointer|
+|layer3_out_23_ap_vld  |  out|     1|      ap_vld|  layer3_out_23|       pointer|
+|layer3_out_24         |  out|    33|      ap_vld|  layer3_out_24|       pointer|
+|layer3_out_24_ap_vld  |  out|     1|      ap_vld|  layer3_out_24|       pointer|
+|layer3_out_25         |  out|    33|      ap_vld|  layer3_out_25|       pointer|
+|layer3_out_25_ap_vld  |  out|     1|      ap_vld|  layer3_out_25|       pointer|
+|layer3_out_26         |  out|    33|      ap_vld|  layer3_out_26|       pointer|
+|layer3_out_26_ap_vld  |  out|     1|      ap_vld|  layer3_out_26|       pointer|
+|layer3_out_27         |  out|    33|      ap_vld|  layer3_out_27|       pointer|
+|layer3_out_27_ap_vld  |  out|     1|      ap_vld|  layer3_out_27|       pointer|
+|layer3_out_28         |  out|    33|      ap_vld|  layer3_out_28|       pointer|
+|layer3_out_28_ap_vld  |  out|     1|      ap_vld|  layer3_out_28|       pointer|
+|layer3_out_29         |  out|    33|      ap_vld|  layer3_out_29|       pointer|
+|layer3_out_29_ap_vld  |  out|     1|      ap_vld|  layer3_out_29|       pointer|
+|layer3_out_30         |  out|    33|      ap_vld|  layer3_out_30|       pointer|
+|layer3_out_30_ap_vld  |  out|     1|      ap_vld|  layer3_out_30|       pointer|
+|layer3_out_31         |  out|    33|      ap_vld|  layer3_out_31|       pointer|
+|layer3_out_31_ap_vld  |  out|     1|      ap_vld|  layer3_out_31|       pointer|
+|layer3_out_32         |  out|    33|      ap_vld|  layer3_out_32|       pointer|
+|layer3_out_32_ap_vld  |  out|     1|      ap_vld|  layer3_out_32|       pointer|
+|layer3_out_33         |  out|    33|      ap_vld|  layer3_out_33|       pointer|
+|layer3_out_33_ap_vld  |  out|     1|      ap_vld|  layer3_out_33|       pointer|
+|layer3_out_34         |  out|    33|      ap_vld|  layer3_out_34|       pointer|
+|layer3_out_34_ap_vld  |  out|     1|      ap_vld|  layer3_out_34|       pointer|
+|layer3_out_35         |  out|    33|      ap_vld|  layer3_out_35|       pointer|
+|layer3_out_35_ap_vld  |  out|     1|      ap_vld|  layer3_out_35|       pointer|
+|layer3_out_36         |  out|    33|      ap_vld|  layer3_out_36|       pointer|
+|layer3_out_36_ap_vld  |  out|     1|      ap_vld|  layer3_out_36|       pointer|
+|layer3_out_37         |  out|    33|      ap_vld|  layer3_out_37|       pointer|
+|layer3_out_37_ap_vld  |  out|     1|      ap_vld|  layer3_out_37|       pointer|
+|layer3_out_38         |  out|    33|      ap_vld|  layer3_out_38|       pointer|
+|layer3_out_38_ap_vld  |  out|     1|      ap_vld|  layer3_out_38|       pointer|
+|layer3_out_39         |  out|    33|      ap_vld|  layer3_out_39|       pointer|
+|layer3_out_39_ap_vld  |  out|     1|      ap_vld|  layer3_out_39|       pointer|
+|layer3_out_40         |  out|    33|      ap_vld|  layer3_out_40|       pointer|
+|layer3_out_40_ap_vld  |  out|     1|      ap_vld|  layer3_out_40|       pointer|
+|layer3_out_41         |  out|    33|      ap_vld|  layer3_out_41|       pointer|
+|layer3_out_41_ap_vld  |  out|     1|      ap_vld|  layer3_out_41|       pointer|
+|layer3_out_42         |  out|    33|      ap_vld|  layer3_out_42|       pointer|
+|layer3_out_42_ap_vld  |  out|     1|      ap_vld|  layer3_out_42|       pointer|
+|layer3_out_43         |  out|    33|      ap_vld|  layer3_out_43|       pointer|
+|layer3_out_43_ap_vld  |  out|     1|      ap_vld|  layer3_out_43|       pointer|
+|layer3_out_44         |  out|    33|      ap_vld|  layer3_out_44|       pointer|
+|layer3_out_44_ap_vld  |  out|     1|      ap_vld|  layer3_out_44|       pointer|
+|layer3_out_45         |  out|    33|      ap_vld|  layer3_out_45|       pointer|
+|layer3_out_45_ap_vld  |  out|     1|      ap_vld|  layer3_out_45|       pointer|
+|layer3_out_46         |  out|    33|      ap_vld|  layer3_out_46|       pointer|
+|layer3_out_46_ap_vld  |  out|     1|      ap_vld|  layer3_out_46|       pointer|
+|layer3_out_47         |  out|    33|      ap_vld|  layer3_out_47|       pointer|
+|layer3_out_47_ap_vld  |  out|     1|      ap_vld|  layer3_out_47|       pointer|
+|layer3_out_48         |  out|    33|      ap_vld|  layer3_out_48|       pointer|
+|layer3_out_48_ap_vld  |  out|     1|      ap_vld|  layer3_out_48|       pointer|
+|layer3_out_49         |  out|    33|      ap_vld|  layer3_out_49|       pointer|
+|layer3_out_49_ap_vld  |  out|     1|      ap_vld|  layer3_out_49|       pointer|
+|layer3_out_50         |  out|    33|      ap_vld|  layer3_out_50|       pointer|
+|layer3_out_50_ap_vld  |  out|     1|      ap_vld|  layer3_out_50|       pointer|
+|layer3_out_51         |  out|    33|      ap_vld|  layer3_out_51|       pointer|
+|layer3_out_51_ap_vld  |  out|     1|      ap_vld|  layer3_out_51|       pointer|
+|layer3_out_52         |  out|    33|      ap_vld|  layer3_out_52|       pointer|
+|layer3_out_52_ap_vld  |  out|     1|      ap_vld|  layer3_out_52|       pointer|
+|layer3_out_53         |  out|    33|      ap_vld|  layer3_out_53|       pointer|
+|layer3_out_53_ap_vld  |  out|     1|      ap_vld|  layer3_out_53|       pointer|
+|layer3_out_54         |  out|    33|      ap_vld|  layer3_out_54|       pointer|
+|layer3_out_54_ap_vld  |  out|     1|      ap_vld|  layer3_out_54|       pointer|
+|layer3_out_55         |  out|    33|      ap_vld|  layer3_out_55|       pointer|
+|layer3_out_55_ap_vld  |  out|     1|      ap_vld|  layer3_out_55|       pointer|
+|layer3_out_56         |  out|    33|      ap_vld|  layer3_out_56|       pointer|
+|layer3_out_56_ap_vld  |  out|     1|      ap_vld|  layer3_out_56|       pointer|
+|layer3_out_57         |  out|    33|      ap_vld|  layer3_out_57|       pointer|
+|layer3_out_57_ap_vld  |  out|     1|      ap_vld|  layer3_out_57|       pointer|
+|layer3_out_58         |  out|    33|      ap_vld|  layer3_out_58|       pointer|
+|layer3_out_58_ap_vld  |  out|     1|      ap_vld|  layer3_out_58|       pointer|
+|layer3_out_59         |  out|    33|      ap_vld|  layer3_out_59|       pointer|
+|layer3_out_59_ap_vld  |  out|     1|      ap_vld|  layer3_out_59|       pointer|
+|layer3_out_60         |  out|    33|      ap_vld|  layer3_out_60|       pointer|
+|layer3_out_60_ap_vld  |  out|     1|      ap_vld|  layer3_out_60|       pointer|
+|layer3_out_61         |  out|    33|      ap_vld|  layer3_out_61|       pointer|
+|layer3_out_61_ap_vld  |  out|     1|      ap_vld|  layer3_out_61|       pointer|
+|layer3_out_62         |  out|    33|      ap_vld|  layer3_out_62|       pointer|
+|layer3_out_62_ap_vld  |  out|     1|      ap_vld|  layer3_out_62|       pointer|
+|layer3_out_63         |  out|    33|      ap_vld|  layer3_out_63|       pointer|
+|layer3_out_63_ap_vld  |  out|     1|      ap_vld|  layer3_out_63|       pointer|
+|layer3_out_64         |  out|    33|      ap_vld|  layer3_out_64|       pointer|
+|layer3_out_64_ap_vld  |  out|     1|      ap_vld|  layer3_out_64|       pointer|
+|layer3_out_65         |  out|    33|      ap_vld|  layer3_out_65|       pointer|
+|layer3_out_65_ap_vld  |  out|     1|      ap_vld|  layer3_out_65|       pointer|
+|layer3_out_66         |  out|    33|      ap_vld|  layer3_out_66|       pointer|
+|layer3_out_66_ap_vld  |  out|     1|      ap_vld|  layer3_out_66|       pointer|
+|layer3_out_67         |  out|    33|      ap_vld|  layer3_out_67|       pointer|
+|layer3_out_67_ap_vld  |  out|     1|      ap_vld|  layer3_out_67|       pointer|
+|layer3_out_68         |  out|    33|      ap_vld|  layer3_out_68|       pointer|
+|layer3_out_68_ap_vld  |  out|     1|      ap_vld|  layer3_out_68|       pointer|
+|layer3_out_69         |  out|    33|      ap_vld|  layer3_out_69|       pointer|
+|layer3_out_69_ap_vld  |  out|     1|      ap_vld|  layer3_out_69|       pointer|
+|layer3_out_70         |  out|    33|      ap_vld|  layer3_out_70|       pointer|
+|layer3_out_70_ap_vld  |  out|     1|      ap_vld|  layer3_out_70|       pointer|
+|layer3_out_71         |  out|    33|      ap_vld|  layer3_out_71|       pointer|
+|layer3_out_71_ap_vld  |  out|     1|      ap_vld|  layer3_out_71|       pointer|
+|layer3_out_72         |  out|    33|      ap_vld|  layer3_out_72|       pointer|
+|layer3_out_72_ap_vld  |  out|     1|      ap_vld|  layer3_out_72|       pointer|
+|layer3_out_73         |  out|    33|      ap_vld|  layer3_out_73|       pointer|
+|layer3_out_73_ap_vld  |  out|     1|      ap_vld|  layer3_out_73|       pointer|
+|layer3_out_74         |  out|    33|      ap_vld|  layer3_out_74|       pointer|
+|layer3_out_74_ap_vld  |  out|     1|      ap_vld|  layer3_out_74|       pointer|
+|layer3_out_75         |  out|    33|      ap_vld|  layer3_out_75|       pointer|
+|layer3_out_75_ap_vld  |  out|     1|      ap_vld|  layer3_out_75|       pointer|
+|layer3_out_76         |  out|    33|      ap_vld|  layer3_out_76|       pointer|
+|layer3_out_76_ap_vld  |  out|     1|      ap_vld|  layer3_out_76|       pointer|
+|layer3_out_77         |  out|    33|      ap_vld|  layer3_out_77|       pointer|
+|layer3_out_77_ap_vld  |  out|     1|      ap_vld|  layer3_out_77|       pointer|
+|layer3_out_78         |  out|    33|      ap_vld|  layer3_out_78|       pointer|
+|layer3_out_78_ap_vld  |  out|     1|      ap_vld|  layer3_out_78|       pointer|
+|layer3_out_79         |  out|    33|      ap_vld|  layer3_out_79|       pointer|
+|layer3_out_79_ap_vld  |  out|     1|      ap_vld|  layer3_out_79|       pointer|
++----------------------+-----+------+------------+---------------+--------------+
+
+CO-SIMULATION RESULT:
+Report time       : Tue Jan 14 08:13:33 AM CET 2025.
+Solution          : solution1.
+Simulation tool   : xsim.
+
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|          |          |             Latency(Clock Cycles)             |              Interval(Clock Cycles)           | Total Execution Time |
++   RTL    +  Status  +-----------------------------------------------+-----------------------------------------------+    (Clock Cycles)    +
+|          |          |      min      |      avg      |      max      |      min      |      avg      |      max      |                      |
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+|      VHDL|        NA|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
+|   Verilog|      Pass|             NA|             NA|             NA|             NA|             NA|             NA|                    NA|
++----------+----------+-----------------------------------------------+-----------------------------------------------+----------------------+
+
