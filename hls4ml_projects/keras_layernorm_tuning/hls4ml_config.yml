@@ -5,7 +5,7 @@ HLSConfig:
   LayerName:
     layer_normalization:
       Precision:
-        accum: ap_fixed<14,4,AP_RND_CONV,AP_SAT>
+        accum: fixed<14,4,RND_CONV,SAT,0>
         bias: auto
         result: auto
         scale: auto
@@ -14,7 +14,6 @@ HLSConfig:
       TableRangePower2: 0
       TableSize: 4096
       Trace: false
-      table_t: ap_ufixed<8,5,AP_RND_CONV,AP_SAT>
     layer_normalization_input:
       Precision:
         result: auto
@@ -33,7 +32,7 @@ OutputDir: /home/rian/A3D3/transformer-synthesis/hls4ml_projects/keras_layernorm
 OutputPredictions: /home/rian/A3D3/transformer-synthesis/data/keras_layernorm_output.dat
 Part: xcvu13p-flga2577-2-e
 ProjectName: myproject
-Stamp: ac8251bf
+Stamp: 96e73b84
 Version: 1.0.0
 WriterConfig:
   Namespace: null

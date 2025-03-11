@@ -23,10 +23,10 @@ typedef ap_fixed<16,6> input_t;
 typedef ap_fixed<16,6> layer3_t;
 typedef ap_fixed<16,6> layer4_t;
 typedef ap_fixed<14,4,AP_RND_CONV,AP_SAT,0> _0_accum_t;
-typedef ap_ufixed<8,5,AP_RND_CONV,AP_SAT,0> _0_table_t;
 typedef ap_fixed<33,13> result_t;
 typedef ap_fixed<16,6> _0_scale_t;
 typedef ap_fixed<16,6> _0_bias_t;
+typedef ap_ufixed<8,5,AP_RND_CONV,AP_SAT,0> _0_table_t;
 
 
 #endif

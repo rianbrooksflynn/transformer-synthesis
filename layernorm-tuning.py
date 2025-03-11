@@ -23,7 +23,7 @@ def save_data(data, file_path):
 
 def get_data():
     np.random.seed(0)
-    return np.random.rand(100, *in_shape)
+    return np.random.rand(1, *in_shape)
 
 
 def model_keras():
@@ -53,11 +53,8 @@ def model_pytorch():
     return model
 
 
-def layernorm_keras(model, data, accum_width, accum_int, table_width, table_int, table_size):
+def layernorm_keras(model, data):
     config = hls4ml.utils.config_from_keras_model(model, granularity='name', backend='Vivado')
-    config['LayerName']['layer_normalization']['Precision']['accum'] = (f'ap_fixed<{accum_width},{accum_int},AP_RND_CONV,AP_SAT>')
-    config['LayerName']['layer_normalization']['table_t'] = (f'ap_ufixed<{table_width},{table_int},AP_RND_CONV,AP_SAT>')
-    config['LayerName']['layer_normalization']['TableSize'] = table_size
     input_data_file = str(root_path / 'data' / 'keras_layernorm_input.dat')
     output_data_file = str(root_path / 'data' / 'keras_layernorm_output.dat')
     save_data(data, input_data_file)
@@ -81,11 +78,8 @@ def layernorm_keras(model, data, accum_width, accum_int, table_width, table_int,
     return diff, max_diff, rmse
 
 
-def layernorm_pytorch(model, data, accum_width, accum_int, table_width, table_int, table_size):
+def layernorm_pytorch(model, data):
     config = hls4ml.utils.config_from_pytorch_model(model, in_shape, granularity='name', backend='Vivado')
-    config['LayerName']['_0']['Precision']['accum'] = (f'ap_fixed<{accum_width},{accum_int},AP_RND_CONV,AP_SAT>')
-    config['LayerName']['_0']['table_t'] = (f'ap_ufixed<{table_width},{table_int},AP_RND_CONV,AP_SAT>')
-    config['LayerName']['_0']['TableSize'] = table_size
     input_data_file = str(root_path / 'data' / 'pytorch_layernorm_input.dat')
     output_data_file = str(root_path / 'data' / 'pytorch_layernorm_output.dat')
     save_data(data, input_data_file)
@@ -110,14 +104,8 @@ def layernorm_pytorch(model, data, accum_width, accum_int, table_width, table_in
 
 
 if __name__ == "__main__": # 4096, 10, 4, 3, 5
-    table_size = 4096
-    accum_frac = 10
-    accum_int = 4
-    table_frac = 3
-    table_int = 5
-
-    _, max_diff_keras, _ = layernorm_keras(model_keras(), get_data(), accum_frac + accum_int, accum_int, table_frac + table_int, table_int, table_size)
-    _, max_diff_pytorch, _ = layernorm_pytorch(model_pytorch(), get_data(), accum_frac + accum_int, accum_int, table_frac + table_int, table_int, table_size)
+    _, max_diff_keras, _ = layernorm_keras(model_keras(), get_data())
+    _, max_diff_pytorch, _ = layernorm_pytorch(model_pytorch(), get_data())
     
     print(max_diff_keras, max_diff_pytorch)
     
